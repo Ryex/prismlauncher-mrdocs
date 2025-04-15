@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetJob.h#L63[net&sol;NetJob&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/net/NetJob.h#L63[net&sol;NetJob&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MangoHud.h#L28[MangoHud&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/MangoHud.h#L28[MangoHud&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

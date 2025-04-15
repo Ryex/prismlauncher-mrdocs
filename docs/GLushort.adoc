@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/s38jf0la3gdx1v2gr6317fjc2czlhf2q-libglvnd-1.7.0-dev/include/GL/gl.h#L124[&sol;nix&sol;store&sol;s38jf0la3gdx1v2gr6317fjc2czlhf2q&hyphen;libglvnd&hyphen;1&period;7&period;0&hyphen;dev&sol;include&sol;GL&sol;gl&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//nix/store/s38jf0la3gdx1v2gr6317fjc2czlhf2q-libglvnd-1.7.0-dev/include/GL/gl.h#L124[&sol;nix&sol;store&sol;s38jf0la3gdx1v2gr6317fjc2czlhf2q&hyphen;libglvnd&hyphen;1&period;7&period;0&hyphen;dev&sol;include&sol;GL&sol;gl&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

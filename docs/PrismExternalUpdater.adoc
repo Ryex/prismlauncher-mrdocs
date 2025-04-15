@@ -10,7 +10,7 @@ An implementation for the updater on windows and linux that uses out external up
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L33[updater&sol;PrismExternalUpdater&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/updater/PrismExternalUpdater.h#L33[updater&sol;PrismExternalUpdater&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

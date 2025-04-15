@@ -11,7 +11,7 @@ to it, like allowing for images to be shown&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectDescriptionPage.h#L14[ui&sol;widgets&sol;ProjectDescriptionPage&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/widgets/ProjectDescriptionPage.h#L14[ui&sol;widgets&sol;ProjectDescriptionPage&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

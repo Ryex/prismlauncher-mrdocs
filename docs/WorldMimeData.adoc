@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.cpp#L302[minecraft&sol;WorldList&period;cpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/WorldList.cpp#L302[minecraft&sol;WorldList&period;cpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

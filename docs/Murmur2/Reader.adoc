@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/libraries/murmur2/src/MurmurHash2.h#L19[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;murmur2&sol;src&sol;MurmurHash2&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//home/ryex/projects/prism/libraries/murmur2/src/MurmurHash2.h#L19[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;murmur2&sol;src&sol;MurmurHash2&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

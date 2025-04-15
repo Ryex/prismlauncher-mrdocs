@@ -8,7 +8,7 @@ prepare the process for launch (for multi&hyphen;stage launch)
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L73[launch&sol;LaunchTask&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/launch/LaunchTask.h#L73[launch&sol;LaunchTask&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

@@ -10,7 +10,7 @@ Gets the text content of the given child element as a QVariant&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsEntry.cpp#L38[news&sol;NewsEntry&period;cpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/news/NewsEntry.cpp#L38[news&sol;NewsEntry&period;cpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

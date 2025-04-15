@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/update/LibrariesTask.h#L20[minecraft&sol;update&sol;LibrariesTask&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/update/LibrariesTask.h#L20[minecraft&sol;update&sol;LibrariesTask&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

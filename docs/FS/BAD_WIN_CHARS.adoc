@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.cpp#L805[FileSystem&period;cpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/FileSystem.cpp#L805[FileSystem&period;cpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

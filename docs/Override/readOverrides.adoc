@@ -10,7 +10,7 @@ This reads an existing overrides archive, returning a list of overrides&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/OverrideUtils.h#L18[modplatform&sol;helpers&sol;OverrideUtils&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/modplatform/helpers/OverrideUtils.h#L18[modplatform&sol;helpers&sol;OverrideUtils&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

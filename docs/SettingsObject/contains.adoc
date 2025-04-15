@@ -8,7 +8,7 @@ Checks if this SettingsObject contains a setting with the given ID&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L134[settings&sol;SettingsObject&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/settings/SettingsObject.h#L134[settings&sol;SettingsObject&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

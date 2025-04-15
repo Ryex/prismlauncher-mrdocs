@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L61[minecraft&sol;World&period;cpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/World.cpp#L61[minecraft&sol;World&period;cpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

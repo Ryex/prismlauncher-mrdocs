@@ -11,7 +11,7 @@ This is just to override the combo box popup behavior so that the combo box does
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.cpp#L36[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;cpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/pages/instance/ManagedPackPage.cpp#L36[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;cpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

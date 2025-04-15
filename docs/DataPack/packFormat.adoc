@@ -10,7 +10,7 @@ Gets the numerical ID of the pack format&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L42[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/DataPack.h#L42[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

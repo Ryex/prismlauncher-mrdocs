@@ -11,7 +11,7 @@ overrides are in &grave;override&lowbar;path&grave;&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/OverrideUtils.h#L12[modplatform&sol;helpers&sol;OverrideUtils&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/modplatform/helpers/OverrideUtils.h#L12[modplatform&sol;helpers&sol;OverrideUtils&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

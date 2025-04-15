@@ -10,7 +10,7 @@ Uninstall (i&period;e&period; remove all data about it) a resource, given its fi
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L102[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/ResourceFolderModel.h#L102[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

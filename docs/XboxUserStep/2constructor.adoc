@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxUserStep.h#L13[minecraft&sol;auth&sol;steps&sol;XboxUserStep&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/auth/steps/XboxUserStep.h#L13[minecraft&sol;auth&sol;steps&sol;XboxUserStep&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

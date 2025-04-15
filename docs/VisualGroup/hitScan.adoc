@@ -10,7 +10,7 @@ shoot! BANG! what did we hit?
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L106[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/instanceview/VisualGroup.h#L106[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

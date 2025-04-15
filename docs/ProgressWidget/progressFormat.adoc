@@ -11,7 +11,7 @@ By default it&apos;s &apos;%p%&apos;, with &apos;%p&apos; being the total progre
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L26[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/widgets/ProgressWidget.h#L26[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

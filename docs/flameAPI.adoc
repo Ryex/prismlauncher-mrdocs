@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FileResolvingTask.cpp#L32[modplatform&sol;flame&sol;FileResolvingTask&period;cpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/modplatform/flame/FileResolvingTask.cpp#L32[modplatform&sol;flame&sol;FileResolvingTask&period;cpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

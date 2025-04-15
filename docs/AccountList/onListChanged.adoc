@@ -11,7 +11,7 @@ This emits the listChanged() signal and autosaves the list (if autosave is enabl
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L154[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/auth/AccountList.h#L154[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

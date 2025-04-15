@@ -10,7 +10,7 @@ This is a trivial widget that paints a QIcon of the specified size&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/IconLabel.h#L10[ui&sol;widgets&sol;IconLabel&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/widgets/IconLabel.h#L10[ui&sol;widgets&sol;IconLabel&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

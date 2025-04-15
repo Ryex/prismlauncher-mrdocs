@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/MultiMatcher.h#L9[pathmatcher&sol;MultiMatcher&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/pathmatcher/MultiMatcher.h#L9[pathmatcher&sol;MultiMatcher&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

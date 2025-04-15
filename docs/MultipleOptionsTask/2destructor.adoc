@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/MultipleOptionsTask.h#L46[tasks&sol;MultipleOptionsTask&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/tasks/MultipleOptionsTask.h#L46[tasks&sol;MultipleOptionsTask&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

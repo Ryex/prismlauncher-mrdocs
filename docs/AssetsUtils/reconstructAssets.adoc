@@ -10,7 +10,7 @@ Reconstruct a virtual assets folder for the given assets ID and return the folde
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L49[minecraft&sol;AssetsUtils&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/AssetsUtils.h#L49[minecraft&sol;AssetsUtils&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

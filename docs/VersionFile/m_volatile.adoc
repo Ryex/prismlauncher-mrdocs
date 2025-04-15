@@ -10,7 +10,7 @@ is volatile &hyphen;&hyphen; may be removed as soon as it is no longer needed by
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L156[minecraft&sol;VersionFile&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/VersionFile.h#L156[minecraft&sol;VersionFile&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

@@ -10,7 +10,7 @@ If this Setting doesn&apos;t have a SettingsObject, this returns an invalid QVar
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L66[settings&sol;Setting&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/settings/Setting.h#L66[settings&sol;Setting&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

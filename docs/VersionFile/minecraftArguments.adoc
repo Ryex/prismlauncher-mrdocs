@@ -10,7 +10,7 @@ Mojang&colon; Minecraft launch arguments (may contain placeholders for variable 
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L96[minecraft&sol;VersionFile&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/VersionFile.h#L96[minecraft&sol;VersionFile&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

@@ -11,7 +11,7 @@ Since saves can be distributed in various slightly different ways, this allows u
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L58[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/WorldSave.h#L58[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

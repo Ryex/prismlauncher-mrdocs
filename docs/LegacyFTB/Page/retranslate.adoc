@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/Page.h#L72[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;Page&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/pages/modplatform/legacy_ftb/Page.h#L72[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;Page&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

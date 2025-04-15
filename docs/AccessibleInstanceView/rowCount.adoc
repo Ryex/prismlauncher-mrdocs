@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L40[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/instanceview/AccessibleInstanceView_p.h#L40[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

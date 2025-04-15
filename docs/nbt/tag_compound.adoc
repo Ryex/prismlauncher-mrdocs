@@ -10,7 +10,7 @@ Tag that contains multiple unordered named tags of arbitrary types
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/libraries/libnbtplusplus/include/tag_compound.h#L32[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;libnbtplusplus&sol;include&sol;tag&lowbar;compound&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//home/ryex/projects/prism/libraries/libnbtplusplus/include/tag_compound.h#L32[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;libnbtplusplus&sol;include&sol;tag&lowbar;compound&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

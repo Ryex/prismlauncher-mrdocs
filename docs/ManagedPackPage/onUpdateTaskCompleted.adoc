@@ -9,7 +9,7 @@ Internally handles the closing of the instance window if the update was successf
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L98[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/pages/instance/ManagedPackPage.h#L98[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

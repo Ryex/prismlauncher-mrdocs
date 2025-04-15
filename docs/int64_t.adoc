@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/71xyq87gpb2qrwn314p0sf2n002lgd91-glibc-2.40-66-dev/include/bits/stdint-intn.h#L27[&sol;nix&sol;store&sol;71xyq87gpb2qrwn314p0sf2n002lgd91&hyphen;glibc&hyphen;2&period;40&hyphen;66&hyphen;dev&sol;include&sol;bits&sol;stdint&hyphen;intn&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//nix/store/71xyq87gpb2qrwn314p0sf2n002lgd91-glibc-2.40-66-dev/include/bits/stdint-intn.h#L27[&sol;nix&sol;store&sol;71xyq87gpb2qrwn314p0sf2n002lgd91&hyphen;glibc&hyphen;2&period;40&hyphen;66&hyphen;dev&sol;include&sol;bits&sol;stdint&hyphen;intn&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

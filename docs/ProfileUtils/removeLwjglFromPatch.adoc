@@ -10,7 +10,7 @@ Remove LWJGL from a patch file&period; This is applied to all Mojang&hyphen;like
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L56[minecraft&sol;ProfileUtils&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/ProfileUtils.h#L56[minecraft&sol;ProfileUtils&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

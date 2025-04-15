@@ -10,7 +10,7 @@ This is initially to run background account refresh tasks, or on a hourly timer
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L136[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/auth/AccountList.h#L136[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

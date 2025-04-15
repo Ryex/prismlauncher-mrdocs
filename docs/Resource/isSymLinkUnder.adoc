@@ -8,7 +8,7 @@ Take a instance path, checks if the file pointed to by the resource is a symlink
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L150[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/Resource.h#L150[minecraft&sol;mod&sol;Resource&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

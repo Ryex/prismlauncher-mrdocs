@@ -10,7 +10,7 @@ Used to override platform&hyphen;specific behaviours which the launcher does wor
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/HintOverrideProxyStyle.h#L25[ui&sol;themes&sol;HintOverrideProxyStyle&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/themes/HintOverrideProxyStyle.h#L25[ui&sol;themes&sol;HintOverrideProxyStyle&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

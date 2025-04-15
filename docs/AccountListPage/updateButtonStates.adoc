@@ -10,7 +10,7 @@ Updates the states of the dialog&apos;s buttons&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L84[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/pages/global/AccountListPage.h#L84[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

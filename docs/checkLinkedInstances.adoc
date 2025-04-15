@@ -10,7 +10,7 @@ Check if there are linked instances, and display a warning&semi; return true if 
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceDirUpdate.h#L43[InstanceDirUpdate&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/InstanceDirUpdate.h#L43[InstanceDirUpdate&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

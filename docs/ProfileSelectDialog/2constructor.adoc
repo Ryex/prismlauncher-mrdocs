@@ -11,7 +11,7 @@ The message will be shown at the top of the dialog&period; It is an empty string
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L52[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/dialogs/ProfileSelectDialog.h#L52[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

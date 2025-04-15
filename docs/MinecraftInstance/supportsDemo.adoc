@@ -10,7 +10,7 @@ Returns whether the instance, with its version, has support for demo mode&period
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L105[minecraft&sol;MinecraftInstance&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/MinecraftInstance.h#L105[minecraft&sol;MinecraftInstance&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

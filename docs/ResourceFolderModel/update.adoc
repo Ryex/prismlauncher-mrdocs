@@ -10,7 +10,7 @@ Creates a new update task and start it&period; Returns false if no update was do
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L113[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/ResourceFolderModel.h#L113[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

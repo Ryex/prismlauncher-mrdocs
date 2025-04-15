@@ -11,7 +11,7 @@ to update the setting&apos;s value in the config file&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L180[settings&sol;SettingsObject&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/settings/SettingsObject.h#L180[settings&sol;SettingsObject&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

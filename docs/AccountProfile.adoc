@@ -10,7 +10,7 @@ A profile within someone&apos;s Mojang account&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L65[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/auth/MinecraftAccount.h#L65[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

@@ -10,7 +10,7 @@ Gets the image of the texture pack, converted to a QPixmap for drawing, and scal
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L43[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/TexturePack.h#L43[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

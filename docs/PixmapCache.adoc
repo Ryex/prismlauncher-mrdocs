@@ -10,7 +10,7 @@ A wrapper around QPixmapCache with thread affinity with the main thread&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L45[MTPixmapCache&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/MTPixmapCache.h#L45[MTPixmapCache&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

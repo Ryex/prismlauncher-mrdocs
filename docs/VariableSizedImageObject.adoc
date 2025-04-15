@@ -10,7 +10,7 @@ Custom image text object to be used instead of the normal one in ProjectDescript
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VariableSizedImageObject.h#L32[ui&sol;widgets&sol;VariableSizedImageObject&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/widgets/VariableSizedImageObject.h#L32[ui&sol;widgets&sol;VariableSizedImageObject&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

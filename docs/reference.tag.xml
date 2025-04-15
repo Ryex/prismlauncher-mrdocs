@@ -4,23 +4,12 @@
 <name/>
 <filename>index.adoc</filename>
 <class kind="class">QString</class>
-<class kind="class">QObject</class>
-<class kind="class">QIODeviceBase</class>
-<class kind="class">QIODevice</class>
-<class kind="class">QProcess</class>
-<class kind="class">QMetaObject</class>
-<class kind="class">QStringConverterBase</class>
-<class kind="class">QTextCodec</class>
-<class kind="class">QListSpecialMethodsBase</class>
-<class kind="class">QListSpecialMethods</class>
-<class kind="class">QList</class>
-<class kind="class">QStringList</class>
-<class kind="class">LoggedProcess</class>
 <class kind="class">BaseVersion</class>
 <class kind="class">QMetaTypeId</class>
 <class kind="class">QScopedPointerDeleter</class>
 <class kind="class">QScopedPointer</class>
 <class kind="class">QScopedPointerObjectDeleteLater</class>
+<class kind="class">QObject</class>
 <class kind="class">QScopedPointerDeleteLater</class>
 <class kind="class">unique_qobject_ptr</class>
 <class kind="class">QSharedPointer</class>
@@ -32,8 +21,13 @@
 <class kind="class">qint64</class>
 <class kind="class">TaskStepProgress</class>
 <class kind="class">QMetaTypeId</class>
+<class kind="class">QListSpecialMethodsBase</class>
+<class kind="class">QListSpecialMethods</class>
+<class kind="class">QList</class>
 <class kind="class">TaskStepProgressList</class>
 <class kind="class">QRunnable</class>
+<class kind="class">QMetaObject</class>
+<class kind="class">QStringList</class>
 <class kind="class">Task</class>
 <class kind="class">QAbstractItemModel</class>
 <class kind="class">QAbstractListModel</class>
@@ -42,6 +36,12 @@
 <class kind="class">QHash</class>
 <class kind="class">QByteArray</class>
 <class kind="class">BaseVersionList</class>
+<class kind="class">QIODeviceBase</class>
+<class kind="class">QIODevice</class>
+<class kind="class">QProcess</class>
+<class kind="class">QStringConverterBase</class>
+<class kind="class">QTextCodec</class>
+<class kind="class">LoggedProcess</class>
 <class kind="class">InstanceCopyPrefs</class>
 <class kind="class">Setting</class>
 <class kind="class">SettingsObject</class>
@@ -131,6 +131,8 @@
 <class kind="class">s_units_si</class>
 <class kind="class">s_units_kibi</class>
 <class kind="class">ulMatcher</class>
+<class kind="class">MinecraftInstance</class>
+<class kind="class">BaseInstaller</class>
 <class kind="class">Exception</class>
 <class kind="class">QFileInfo</class>
 <class kind="class">QIntegerForSize</class>
@@ -140,9 +142,6 @@
 <class kind="class">QThread</class>
 <class kind="class">__uintmax_t</class>
 <class kind="class">uintmax_t</class>
-<class kind="class">TypeFlag</class>
-<class kind="class">MinecraftInstance</class>
-<class kind="class">BaseInstaller</class>
 <class kind="class">JavaVersion</class>
 <class kind="class">QVector</class>
 <class kind="class">QMetaTypeId</class>
@@ -172,7 +171,6 @@
 <class kind="class">LaunchStep</class>
 <class kind="class">PackProfile</class>
 <class kind="class">MinecraftInstancePtr</class>
-<class kind="class">InstanceCreationTask</class>
 <class kind="class">ExponentialSeries</class>
 <class kind="class">QFileSystemWatcher</class>
 <class kind="class">InstanceId</class>
@@ -189,13 +187,15 @@
 <class kind="class">INISettingsObject</class>
 <class kind="class">GROUP_FILE_FORMAT_VERSION</class>
 <class kind="class">InstanceStaging</class>
-<class kind="class">GZip</class>
+<class kind="class">TypeFlag</class>
 <class kind="class">Filter</class>
 <class kind="class">ContainsFilter</class>
 <class kind="class">ExactFilter</class>
 <class kind="class">ExactIfPresentFilter</class>
 <class kind="class">RegexpFilter</class>
 <class kind="class">ExactListFilter</class>
+<class kind="class">GZip</class>
+<class kind="class">InstanceCreationTask</class>
 <class kind="class">QuaZip</class>
 <class kind="class">QFileInfoList</class>
 <class kind="class">OverrideSetting</class>
@@ -208,8 +208,6 @@
 <class kind="class">QDebug</class>
 <class kind="class">Version</class>
 <class kind="class">RecursiveFileSystemWatcher</class>
-<class kind="class">MetaEntry</class>
-<class kind="class">MetaEntryPtr</class>
 <class kind="class">QNetworkRequest</class>
 <class kind="class">QNetworkReply</class>
 <class kind="class">QSslError</class>
@@ -217,6 +215,8 @@
 <class kind="class">QIncompatibleFlag</class>
 <class kind="class">QQueue</class>
 <class kind="class">ConcurrentTask</class>
+<class kind="class">MetaEntry</class>
+<class kind="class">MetaEntryPtr</class>
 <class kind="class">NetJob</class>
 <class kind="class">InstanceCopyTask</class>
 <class kind="class">RegexpMatcher</class>
@@ -233,8 +233,6 @@
 <class kind="class">size_t</class>
 <class kind="class">QHeaderView</class>
 <class kind="class">QCryptographicHash</class>
-<class kind="class">QSaveFile</class>
-<class kind="class">PSaveFile</class>
 <class kind="class">InstanceImportTask</class>
 <class kind="class">IconType</class>
 <class kind="class">MMCImage</class>
@@ -249,6 +247,8 @@
 <class kind="class">QMetaTypeId</class>
 <class kind="class">QMetaTypeId</class>
 <class kind="class">ModrinthCreationTask</class>
+<class kind="class">QSaveFile</class>
+<class kind="class">PSaveFile</class>
 <class kind="class">fs</class>
 <class kind="class">PasteUpload</class>
 <class kind="class">JavaChecker</class>
@@ -258,8 +258,8 @@
 <class kind="class">JavaInstall</class>
 <class kind="class">JavaInstallPtr</class>
 <class kind="class">JavaUtils</class>
-<class kind="class">LookupServerAddress</class>
 <class kind="class">PostLaunchCommand</class>
+<class kind="class">LookupServerAddress</class>
 <class kind="class">TaskStepWrapper</class>
 <class kind="class">PreLaunchCommand</class>
 <class kind="class">QDomNode</class>
@@ -267,25 +267,26 @@
 <class kind="class">NewsEntry</class>
 <class kind="class">NewsEntryPtr</class>
 <class kind="class">QuitAfterGameStop</class>
-<class kind="class">NewsChecker</class>
 <class kind="class">QTimer</class>
 <class kind="class">AccountListVersion</class>
+<class kind="class">NewsChecker</class>
 <class kind="class">GameOptionItem</class>
 <class kind="class">MSAStep</class>
 <class kind="class">QAbstractOAuthReplyHandler</class>
 <class kind="class">QOAuthOobReplyHandler</class>
 <class kind="class">CustomOAuthOobReplyHandler</class>
-<class kind="class">GetSkinStep</class>
 <class kind="class">EntitlementsStep</class>
+<class kind="class">GetSkinStep</class>
 <class kind="class">LauncherLoginStep</class>
 <class kind="class">MSADeviceCodeStep</class>
 <class kind="class">MinecraftProfileStep</class>
 <class kind="class">XboxAuthorizationStep</class>
 <class kind="class">XboxProfileStep</class>
 <class kind="class">XboxUserStep</class>
+<class kind="class">FoldersTask</class>
 <class kind="class">DeviceAuthorizationResponse</class>
 <class kind="class">AuthenticationResponse</class>
-<class kind="class">FoldersTask</class>
+<class kind="class">ClaimAccount</class>
 <class kind="class">AssetUpdateTask</class>
 <class kind="class">AssetObject</class>
 <class kind="class">AssetsIndex</class>
@@ -324,13 +325,15 @@
 <class kind="class">VersionFilterData</class>
 <class kind="class">g_VersionFilterData</class>
 <class kind="class">FMLLibrariesTask</class>
-<class kind="class">ClaimAccount</class>
-<class kind="class">LibrariesTask</class>
 <class kind="class">CreateGameFolders</class>
+<class kind="class">LibrariesTask</class>
 <class kind="class">ExtractNatives</class>
-<class kind="class">PrintInstanceInfo</class>
-<class kind="class">ModMinecraftJar</class>
 <class kind="class">LauncherPartLaunch</class>
+<class kind="class">ModMinecraftJar</class>
+<class kind="class">PrintInstanceInfo</class>
+<class kind="class">VerifyJavaInstall</class>
+<class kind="class">JavaListLoadTask</class>
+<class kind="class">ScanModFolders</class>
 <class kind="class">QMainWindow</class>
 <class kind="class">BasePage</class>
 <class kind="class">BasePageContainer</class>
@@ -399,7 +402,6 @@
 <class kind="class">PixmapCache</class>
 <class kind="class">VersionFilterModel</class>
 <class kind="class">VersionProxyModel</class>
-<class kind="class">JavaListLoadTask</class>
 <class kind="class">VersionFilePtr</class>
 <class kind="class">QMetaTypeId</class>
 <class kind="class">QMetaTypeId</class>
@@ -410,8 +412,6 @@
 <class kind="class">World</class>
 <class kind="class">AutoInstallJava</class>
 <class kind="class">ReconstructAssets</class>
-<class kind="class">ScanModFolders</class>
-<class kind="class">VerifyJavaInstall</class>
 <class kind="class">ShaderPackFormat</class>
 <class kind="class">ShaderPack</class>
 <class kind="class">LocalShaderPackParseTask</class>
@@ -602,18 +602,18 @@
 <class kind="class">CURRENT_MINIMUM_LAUNCHER_VERSION</class>
 <class kind="class">MultiMatcher</class>
 <class kind="class">OrSetting</class>
-<class kind="class">RemoteLoadStatus</class>
 <class kind="class">ComponentContainer</class>
 <class kind="class">ComponentIndex</class>
-<class kind="class">overload</class>
-<class kind="class">overload</class>
 <class kind="class">currentComponentsFileVersion</class>
+<class kind="class">RemoteLoadStatus</class>
+<class kind="class">overload</class>
+<class kind="class">overload</class>
+<class kind="class">s_pack_format_versions</class>
 <class kind="class">QMetaType</class>
 <class kind="class">WorldMimeData</class>
-<class kind="class">s_pack_format_versions</class>
-<class kind="class">s_pack_format_versions</class>
 <class kind="class">nullopt</class>
 <class kind="class">optional</class>
+<class kind="class">s_pack_format_versions</class>
 <class kind="class">s_update_task_mutex</class>
 <class kind="class">newlineRegex</class>
 <class kind="class">s_packed_type_names</class>
@@ -624,9 +624,9 @@
 <class kind="class">ParserArray</class>
 <class kind="class">JProfilerFactory</class>
 <class kind="class">JProfiler</class>
+<class kind="class">File</class>
 <class kind="class">JVisualVMFactory</class>
 <class kind="class">JVisualVM</class>
-<class kind="class">File</class>
 <class kind="class">GenericProfilerFactory</class>
 <class kind="class">GenericProfiler</class>
 <class kind="class">QLatin1String</class>
@@ -638,16 +638,17 @@
 <class kind="class">flame_api</class>
 <class kind="class">api</class>
 <class kind="class">api</class>
+<class kind="class">api</class>
 <class kind="class">flameAPI</class>
 <class kind="class">modrinthAPI</class>
 <class kind="class">api</class>
 <class kind="class">api</class>
 <class kind="class">api</class>
 <class kind="class">ApplicationMessage</class>
-<class kind="class">api</class>
 <class kind="class">MaxMclogsLines</class>
 <class kind="class">InitialMclogsLines</class>
 <class kind="class">FinalMclogsLines</class>
+<class kind="class">Ui_PasteWizardPage</class>
 <class kind="class">SimplePrefixMatcher</class>
 <class kind="class">QAccessibleInterface</class>
 <class kind="class">CatPack</class>
@@ -661,15 +662,14 @@
 <class kind="class">liveCheckFile</class>
 <class kind="class">QtMsgType</class>
 <class kind="class">QMessageLogContext</class>
-<class kind="class">Ui_PasteWizardPage</class>
-<class kind="class">QAbstractSpinBox</class>
 <class kind="class">FusionTheme</class>
 <class kind="class">Ui_AutoJavaWizardPage</class>
+<class kind="class">BrightTheme</class>
+<class kind="class">QAbstractSpinBox</class>
 <class kind="class">Ui_ThemeWizardPage</class>
 <class kind="class">Ui_ThemeCustomizationWidget</class>
-<class kind="class">BrightTheme</class>
-<class kind="class">DarkTheme</class>
 <class kind="class">Ui_LoginWizardPage</class>
+<class kind="class">DarkTheme</class>
 <class kind="class">CustomTheme</class>
 <class kind="class">themeFile</class>
 <class kind="class">SystemTheme</class>
@@ -677,17 +677,18 @@
 <class kind="class">Ui_MainWindow</class>
 <class kind="class">Ui_GameOptionsPage</class>
 <class kind="class">Ui_NotesPage</class>
+<class kind="class">Ui_OtherLogsPage</class>
 <class kind="class">Ui_LogPage</class>
 <class kind="class">QFont</class>
 <class kind="class">Ui_VersionPage</class>
 <class kind="class">IconProxy</class>
-<class kind="class">Ui_OtherLogsPage</class>
 <class kind="class">Ui_ManagedPackPage</class>
 <class kind="class">NoBigComboBoxStyle</class>
 <class kind="class">Ui_ServersPage</class>
 <class kind="class">COLUMN_COUNT</class>
 <class kind="class">Ui_WorldListPage</class>
 <class kind="class">WorldListProxyModel</class>
+<class kind="class">Ui_AccountListPage</class>
 <class kind="class">Ui_ScreenshotsPage</class>
 <class kind="class">SharedIconCache</class>
 <class kind="class">SharedIconCachePtr</class>
@@ -695,45 +696,43 @@
 <class kind="class">ThumbnailRunnable</class>
 <class kind="class">FilterModel</class>
 <class kind="class">CenteredEditingDelegate</class>
-<class kind="class">Ui_AccountListPage</class>
 <class kind="class">Ui_ExternalToolsPage</class>
-<class kind="class">Ui_ProxyPage</class>
 <class kind="class">Ui_JavaPage</class>
+<class kind="class">Ui_ProxyPage</class>
+<class kind="class">Ui_APIPage</class>
 <class kind="class">Ui_LauncherPage</class>
 <class kind="class">InstSortMode</class>
 <class kind="class">InstRenamingMode</class>
-<class kind="class">Ui_APIPage</class>
 <class kind="class">Ui_CustomPage</class>
 <class kind="class">s_availableVersions</class>
 <class kind="class">Ui_AtlOptionalModDialog</class>
 <class kind="class">Ui_AtlPage</class>
 <class kind="class">Ui_OptionalModDialog</class>
-<class kind="class">Ui_FlamePage</class>
-<class kind="class">api</class>
-<class kind="class">Ui_ProfileSelectDialog</class>
-<class kind="class">Ui_ProfileSetupDialog</class>
-<class kind="class">QJsonParseError</class>
-<class kind="class">Ui_TechnicPage</class>
-<class kind="class">Ui_ModrinthPage</class>
 <class kind="class">Ui_ImportPage</class>
 <class kind="class">QValidator</class>
 <class kind="class">QValidatorPrivate</class>
 <class kind="class">QObjectPrivate</class>
 <class kind="class">UrlValidator</class>
+<class kind="class">Ui_FlamePage</class>
+<class kind="class">api</class>
+<class kind="class">Ui_ModrinthPage</class>
+<class kind="class">Ui_ProfileSetupDialog</class>
+<class kind="class">QJsonParseError</class>
+<class kind="class">Ui_ProfileSelectDialog</class>
+<class kind="class">Ui_TechnicPage</class>
 <class kind="class">Ui_CopyInstanceDialog</class>
 <class kind="class">Ui_AboutDialog</class>
-<class kind="class">Ui_OfflineLoginDialog</class>
 <class kind="class">Ui_NewsDialog</class>
-<class kind="class">Ui_ImportResourceDialog</class>
 <class kind="class">Ui_ProgressDialog</class>
-<class kind="class">Ui_MSALoginDialog</class>
 <class kind="class">Ui_ExportInstanceDialog</class>
+<class kind="class">Ui_MSALoginDialog</class>
+<class kind="class">Ui_OfflineLoginDialog</class>
+<class kind="class">Ui_ImportResourceDialog</class>
 <class kind="class">Ui_ExportToModListDialog</class>
 <class kind="class">Ui_IconPickerDialog</class>
-<class kind="class">Ui_ExportPackDialog</class>
 <class kind="class">Ui_ReviewMessageBox</class>
+<class kind="class">Ui_ExportPackDialog</class>
 <class kind="class">Ui_ScrollMessageBox</class>
-<class kind="class">Ui_NewComponentDialog</class>
 <class kind="class">Ui_ChooseProviderDialog</class>
 <class kind="class">QVector4D</class>
 <class kind="class">QVector2D</class>
@@ -744,17 +743,18 @@
 <class kind="class">planeVertices</class>
 <class kind="class">planeIndices</class>
 <class kind="class">QMatrix4x4</class>
+<class kind="class">Ui_NewComponentDialog</class>
 <class kind="class">QOpenGLTexture</class>
-<class kind="class">Ui_BlockedModsDialog</class>
-<class kind="class">Ui_NewInstanceDialog</class>
 <class kind="class">QTextLayout</class>
 <class kind="class">Ui_CustomCommands</class>
 <class kind="class">CheckComboModel</class>
+<class kind="class">Ui_BlockedModsDialog</class>
+<class kind="class">Ui_NewInstanceDialog</class>
 <class kind="class">Ui_EnvironmentVariables</class>
-<class kind="class">InstallLoaderPage</class>
-<class kind="class">Ui_InfoFrame</class>
 <class kind="class">Ui_SkinManageDialog</class>
 <class kind="class">WaitTask</class>
+<class kind="class">InstallLoaderPage</class>
+<class kind="class">Ui_InfoFrame</class>
 <class kind="class">pageIconSize</class>
 <class kind="class">PageViewDelegate</class>
 <class kind="class">PageView</class>
@@ -776,11 +776,11 @@
 <class kind="class">VersionBasicModel</class>
 <class kind="class">AllVersionProxyModel</class>
 <class kind="class">Ui_MinecraftSettingsWidget</class>
+<class kind="class">FormatProperties</class>
+<class kind="class">LocaleString</class>
+<class kind="class">NoReturnTextEdit</class>
 <class kind="class">Ui_JavaSettingsWidget</class>
 <class kind="class">Ui_UpdateAvailableDialog</class>
-<class kind="class">LocaleString</class>
-<class kind="class">FormatProperties</class>
-<class kind="class">NoReturnTextEdit</class>
 <member kind="function">
 <type>shared_qobject_ptr&lt;T&gt;</type>
 <name>makeShared</name>
@@ -817,6 +817,20 @@
 <arglist>(const QString&amp; s, int location)</arglist>
 </member>
 <member kind="function">
+<type>void</type>
+<name>clamp</name>
+<anchorfile>clamp.adoc</anchorfile>
+<anchor/>
+<arglist>(T&amp; current, T min, T max)</arglist>
+</member>
+<member kind="function">
+<type>QMap&lt;InstanceId, InstanceLocator&gt;</type>
+<name>getIdMapping</name>
+<anchorfile>getIdMapping.adoc</anchorfile>
+<anchor/>
+<arglist>(const QList&lt;InstancePtr&gt;&amp; list)</arglist>
+</member>
+<member kind="function">
 <type>bool</type>
 <name>readLonglink</name>
 <anchorfile>readLonglink.adoc</anchorfile>
@@ -836,20 +850,6 @@
 <anchorfile>decodeName.adoc</anchorfile>
 <anchor/>
 <arglist>(char* name)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>clamp</name>
-<anchorfile>clamp.adoc</anchorfile>
-<anchor/>
-<arglist>(T&amp; current, T min, T max)</arglist>
-</member>
-<member kind="function">
-<type>QMap&lt;InstanceId, InstanceLocator&gt;</type>
-<name>getIdMapping</name>
-<anchorfile>getIdMapping.adoc</anchorfile>
-<anchor/>
-<arglist>(const QList&lt;InstancePtr&gt;&amp; list)</arglist>
 </member>
 <member kind="function">
 <type>QString</type>
@@ -1069,13 +1069,6 @@
 <arglist>()</arglist>
 </member>
 <member kind="function">
-<type>QString</type>
-<name>childValue</name>
-<anchorfile>childValue.adoc</anchorfile>
-<anchor/>
-<arglist>(const QDomElement&amp; element, const QString&amp; childName, QString defaultVal)</arglist>
-</member>
-<member kind="function">
 <type>const QLoggingCategory&amp;</type>
 <name>instanceProfileC</name>
 <anchorfile>instanceProfileC.adoc</anchorfile>
@@ -1088,6 +1081,13 @@
 <anchorfile>instanceProfileResolveC.adoc</anchorfile>
 <anchor/>
 <arglist>()</arglist>
+</member>
+<member kind="function">
+<type>QString</type>
+<name>childValue</name>
+<anchorfile>childValue.adoc</anchorfile>
+<anchor/>
+<arglist>(const QDomElement&amp; element, const QString&amp; childName, QString defaultVal)</arglist>
 </member>
 <member kind="function">
 <type>QString</type>
@@ -1158,6 +1158,27 @@
 <anchorfile>findLibraryByName.adoc</anchorfile>
 <anchor/>
 <arglist>(QList&lt;LibraryPtr&gt;* haystack, const GradleSpecifier&amp; needle)</arglist>
+</member>
+<member kind="function">
+<type>RuleAction</type>
+<name>RuleAction_fromString</name>
+<anchorfile>RuleAction_fromString.adoc</anchorfile>
+<anchor/>
+<arglist>(QString name)</arglist>
+</member>
+<member kind="function">
+<type>QDateTime</type>
+<name>timeFromS3Time</name>
+<anchorfile>timeFromS3Time.adoc</anchorfile>
+<anchor/>
+<arglist>(QString str)</arglist>
+</member>
+<member kind="function">
+<type>QString</type>
+<name>timeToS3Time</name>
+<anchorfile>timeToS3Time.adoc</anchorfile>
+<anchor/>
+<arglist>(QDateTime time)</arglist>
 </member>
 <member kind="function">
 <type>QFlags&lt;VisualGroup::HitResults::enum_type&gt;</type>
@@ -1279,27 +1300,6 @@
 <arglist>(VisualGroup::HitResults::enum_type f1, int f2)</arglist>
 </member>
 <member kind="function">
-<type>QDateTime</type>
-<name>timeFromS3Time</name>
-<anchorfile>timeFromS3Time.adoc</anchorfile>
-<anchor/>
-<arglist>(QString str)</arglist>
-</member>
-<member kind="function">
-<type>QString</type>
-<name>timeToS3Time</name>
-<anchorfile>timeToS3Time.adoc</anchorfile>
-<anchor/>
-<arglist>(QDateTime time)</arglist>
-</member>
-<member kind="function">
-<type>RuleAction</type>
-<name>RuleAction_fromString</name>
-<anchorfile>RuleAction_fromString.adoc</anchorfile>
-<anchor/>
-<arglist>(QString name)</arglist>
-</member>
-<member kind="function">
 <type>MojangAssetIndexInfo::Ptr</type>
 <name>assetIndexFromJson</name>
 <anchorfile>assetIndexFromJson.adoc</anchorfile>
@@ -1350,20 +1350,6 @@
 </member>
 <member kind="function">
 <type>bool</type>
-<name>deepCompare</name>
-<anchorfile>deepCompare.adoc</anchorfile>
-<anchor/>
-<arglist>(const std::set&lt;Meta::Require&gt;&amp; a, const std::set&lt;Meta::Require&gt;&amp; b)</arglist>
-</member>
-<member kind="function">
-<type>QDebug</type>
-<name>operator&lt;&lt;</name>
-<anchorfile>operator_lshift-09.adoc</anchorfile>
-<anchor/>
-<arglist>(QDebug d, const Component&amp; comp)</arglist>
-</member>
-<member kind="function">
-<type>bool</type>
 <name>switcherooSetupGPU</name>
 <anchorfile>switcherooSetupGPU.adoc</anchorfile>
 <anchor/>
@@ -1377,39 +1363,25 @@
 <arglist>(QString text, QMap&lt;QString, QString&gt; with)</arglist>
 </member>
 <member kind="function">
-<type>RequireCompositionResult</type>
-<name>composeRequirement</name>
-<anchorfile>composeRequirement.adoc</anchorfile>
-<anchor/>
-<arglist>(const RequireEx&amp; a, const RequireEx&amp; b)</arglist>
-</member>
-<member kind="function">
-<type>bool</type>
-<name>gatherRequirementsFromComponents</name>
-<anchorfile>gatherRequirementsFromComponents.adoc</anchorfile>
-<anchor/>
-<arglist>(const ComponentContainer&amp; input, RequireExSet&amp; output)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>getTrivialRemovals</name>
-<anchorfile>getTrivialRemovals.adoc</anchorfile>
-<anchor/>
-<arglist>(const ComponentContainer&amp; components, const RequireExSet&amp; reqs, QStringList&amp; toRemove)</arglist>
-</member>
-<member kind="function">
-<type>bool</type>
-<name>getTrivialComponentChanges</name>
-<anchorfile>getTrivialComponentChanges.adoc</anchorfile>
-<anchor/>
-<arglist>(const ComponentIndex&amp; index, const RequireExSet&amp; input, RequireExSet&amp; toAdd, RequireExSet&amp; toChange)</arglist>
-</member>
-<member kind="function">
 <type>bool</type>
 <name>isMinecraftVersion</name>
 <anchorfile>isMinecraftVersion.adoc</anchorfile>
 <anchor/>
 <arglist>(const QString&amp; uid)</arglist>
+</member>
+<member kind="function">
+<type>bool</type>
+<name>deepCompare</name>
+<anchorfile>deepCompare.adoc</anchorfile>
+<anchor/>
+<arglist>(const std::set&lt;Meta::Require&gt;&amp; a, const std::set&lt;Meta::Require&gt;&amp; b)</arglist>
+</member>
+<member kind="function">
+<type>QDebug</type>
+<name>operator&lt;&lt;</name>
+<anchorfile>operator_lshift-09.adoc</anchorfile>
+<anchor/>
+<arglist>(QDebug d, const Component&amp; comp)</arglist>
 </member>
 <member kind="function">
 <type>QJsonObject</type>
@@ -1438,6 +1410,34 @@
 <anchorfile>loadPackProfile.adoc</anchorfile>
 <anchor/>
 <arglist>(PackProfile* parent, const QString&amp; filename, const QString&amp; componentJsonPattern, ComponentContainer&amp; container)</arglist>
+</member>
+<member kind="function">
+<type>RequireCompositionResult</type>
+<name>composeRequirement</name>
+<anchorfile>composeRequirement.adoc</anchorfile>
+<anchor/>
+<arglist>(const RequireEx&amp; a, const RequireEx&amp; b)</arglist>
+</member>
+<member kind="function">
+<type>bool</type>
+<name>gatherRequirementsFromComponents</name>
+<anchorfile>gatherRequirementsFromComponents.adoc</anchorfile>
+<anchor/>
+<arglist>(const ComponentContainer&amp; input, RequireExSet&amp; output)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>getTrivialRemovals</name>
+<anchorfile>getTrivialRemovals.adoc</anchorfile>
+<anchor/>
+<arglist>(const ComponentContainer&amp; components, const RequireExSet&amp; reqs, QStringList&amp; toRemove)</arglist>
+</member>
+<member kind="function">
+<type>bool</type>
+<name>getTrivialComponentChanges</name>
+<anchorfile>getTrivialComponentChanges.adoc</anchorfile>
+<anchor/>
+<arglist>(const ComponentIndex&amp; index, const RequireExSet&amp; input, RequireExSet&amp; toAdd, RequireExSet&amp; toChange)</arglist>
 </member>
 <member kind="function">
 <type>std::tuple&lt;QString, qint64&gt;</type>
@@ -1559,18 +1559,18 @@
 <arglist>(std::shared_ptr&lt;GetModDependenciesTask::PackDependency&gt; sel, Version mcVersion, ModPlatform::ModLoaderTypes loaders)</arglist>
 </member>
 <member kind="function">
-<type>bool</type>
-<name>sortJavas</name>
-<anchorfile>sortJavas.adoc</anchorfile>
-<anchor/>
-<arglist>(BaseVersion::Ptr left, BaseVersion::Ptr right)</arglist>
-</member>
-<member kind="function">
 <type>QStringList</type>
 <name>addJavasFromEnv</name>
 <anchorfile>addJavasFromEnv.adoc</anchorfile>
 <anchor/>
 <arglist>(QList&lt;QString&gt; javas)</arglist>
+</member>
+<member kind="function">
+<type>bool</type>
+<name>sortJavas</name>
+<anchorfile>sortJavas.adoc</anchorfile>
+<anchor/>
+<arglist>(BaseVersion::Ptr left, BaseVersion::Ptr right)</arglist>
 </member>
 <member kind="function">
 <type>InstallJavaPage*</type>
@@ -1615,18 +1615,18 @@
 <arglist>(int hash_algorithm)</arglist>
 </member>
 <member kind="function">
-<type>PackedResourceType</type>
-<name>getResourceType</name>
-<anchorfile>getResourceType.adoc</anchorfile>
-<anchor/>
-<arglist>(int classId)</arglist>
-</member>
-<member kind="function">
 <type>bool</type>
 <name>shouldDownloadOnSide</name>
 <anchorfile>shouldDownloadOnSide.adoc</anchorfile>
 <anchor/>
 <arglist>(QString side)</arglist>
+</member>
+<member kind="function">
+<type>PackedResourceType</type>
+<name>getResourceType</name>
+<anchorfile>getResourceType.adoc</anchorfile>
+<anchor/>
+<arglist>(int classId)</arglist>
 </member>
 <member kind="function">
 <type>void</type>
@@ -1797,20 +1797,6 @@
 <arglist>(const QString&amp; path)</arglist>
 </member>
 <member kind="function">
-<type>QList&lt;int&gt;</type>
-<name>stringToIntList</name>
-<anchorfile>stringToIntList.adoc</anchorfile>
-<anchor/>
-<arglist>(const QString&amp; string)</arglist>
-</member>
-<member kind="function">
-<type>QString</type>
-<name>intListToString</name>
-<anchorfile>intListToString.adoc</anchorfile>
-<anchor/>
-<arglist>(const QList&lt;int&gt;&amp; list)</arglist>
-</member>
-<member kind="function">
 <type>JsonCatPack::PartialDate</type>
 <name>partialDate</name>
 <anchorfile>partialDate.adoc</anchorfile>
@@ -1823,6 +1809,20 @@
 <anchorfile>ensureDay.adoc</anchorfile>
 <anchor/>
 <arglist>(int year, int month, int day)</arglist>
+</member>
+<member kind="function">
+<type>QList&lt;int&gt;</type>
+<name>stringToIntList</name>
+<anchorfile>stringToIntList.adoc</anchorfile>
+<anchor/>
+<arglist>(const QString&amp; string)</arglist>
+</member>
+<member kind="function">
+<type>QString</type>
+<name>intListToString</name>
+<anchorfile>intListToString.adoc</anchorfile>
+<anchor/>
+<arglist>(const QList&lt;int&gt;&amp; list)</arglist>
 </member>
 <member kind="function">
 <type>void</type>
@@ -1916,6 +1916,13 @@
 <arglist>(QTextLayout&amp; textLayout, int lineWidth, qreal&amp; height)</arglist>
 </member>
 <member kind="function">
+<type>QPixmap</type>
+<name>previewCape</name>
+<anchorfile>previewCape.adoc</anchorfile>
+<anchor/>
+<arglist>(QImage capeImage)</arglist>
+</member>
+<member kind="function">
 <type>InstallLoaderPage*</type>
 <name>pageCast</name>
 <anchorfile>pageCast-04.adoc</anchorfile>
@@ -1928,13 +1935,6 @@
 <anchorfile>setupLinkToolTip.adoc</anchorfile>
 <anchor/>
 <arglist>(QLabel* label)</arglist>
-</member>
-<member kind="function">
-<type>QPixmap</type>
-<name>previewCape</name>
-<anchorfile>previewCape.adoc</anchorfile>
-<anchor/>
-<arglist>(QImage capeImage)</arglist>
 </member>
 <member kind="function">
 <type>std::list&lt;Version&gt;</type>
@@ -2026,165 +2026,6 @@
 <anchorfile>main.adoc</anchorfile>
 <anchor/>
 <arglist>(int argc, char*[] argv)</arglist>
-</member>
-</compound>
-<compound kind="class">
-<name>QString</name>
-<filename>QString.adoc</filename>
-</compound>
-<compound kind="namespace">
-<name>MessageLevel</name>
-<filename>MessageLevel.adoc</filename>
-<class kind="class">MessageLevel::Enum</class>
-<member kind="function">
-<type>MessageLevel::Enum</type>
-<name>getLevel</name>
-<anchorfile>MessageLevel/getLevel.adoc</anchorfile>
-<anchor/>
-<arglist>(const QString&amp; levelName)</arglist>
-</member>
-<member kind="function">
-<type>MessageLevel::Enum</type>
-<name>fromLine</name>
-<anchorfile>MessageLevel/fromLine.adoc</anchorfile>
-<anchor/>
-<arglist>(QString&amp; line)</arglist>
-</member>
-</compound>
-<compound kind="class">
-<name>MessageLevel::Enum</name>
-<filename>MessageLevel/Enum.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QObject</name>
-<filename>QObject.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QIODeviceBase</name>
-<filename>QIODeviceBase.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QIODevice</name>
-<filename>QIODevice.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QProcess</name>
-<filename>QProcess.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QMetaObject</name>
-<filename>QMetaObject.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QStringConverterBase</name>
-<filename>QStringConverterBase.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QTextCodec</name>
-<filename>QTextCodec.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QListSpecialMethodsBase</name>
-<filename>QListSpecialMethodsBase.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QListSpecialMethods</name>
-<filename>QListSpecialMethods.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QList</name>
-<filename>QList.adoc</filename>
-</compound>
-<compound kind="class">
-<name>QStringList</name>
-<filename>QStringList.adoc</filename>
-</compound>
-<compound kind="class">
-<name>LoggedProcess</name>
-<filename>LoggedProcess.adoc</filename>
-<member kind="function">
-<type>const QMetaObject*</type>
-<name>metaObject</name>
-<anchorfile>LoggedProcess/metaObject.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
-</member>
-<member kind="function">
-<type>void*</type>
-<name>qt_metacast</name>
-<anchorfile>LoggedProcess/qt_metacast.adoc</anchorfile>
-<anchor/>
-<arglist>(const char* )</arglist>
-</member>
-<member kind="function">
-<type>int</type>
-<name>qt_metacall</name>
-<anchorfile>LoggedProcess/qt_metacall.adoc</anchorfile>
-<anchor/>
-<arglist>(QMetaObject::Call , int , void** )</arglist>
-</member>
-<member kind="function">
-<type>QString</type>
-<name>tr</name>
-<anchorfile>LoggedProcess/tr.adoc</anchorfile>
-<anchor/>
-<arglist>(const char* s, const char* c, int n)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>LoggedProcess</name>
-<anchorfile>LoggedProcess/2constructor.adoc</anchorfile>
-<anchor/>
-<arglist>(const QTextCodec* output_codec, QObject* parent)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>~LoggedProcess</name>
-<anchorfile>LoggedProcess/2destructor.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
-</member>
-<member kind="function">
-<type>LoggedProcess::State</type>
-<name>state</name>
-<anchorfile>LoggedProcess/state.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
-</member>
-<member kind="function">
-<type>int</type>
-<name>exitCode</name>
-<anchorfile>LoggedProcess/exitCode.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>setDetachable</name>
-<anchorfile>LoggedProcess/setDetachable.adoc</anchorfile>
-<anchor/>
-<arglist>(bool detachable)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>log</name>
-<anchorfile>LoggedProcess/log.adoc</anchorfile>
-<anchor/>
-<arglist>(QStringList lines, MessageLevel::Enum level)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>stateChanged</name>
-<anchorfile>LoggedProcess/stateChanged.adoc</anchorfile>
-<anchor/>
-<arglist>(LoggedProcess::State state)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>kill</name>
-<anchorfile>LoggedProcess/kill.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
 </member>
 </compound>
 <compound kind="namespace">
@@ -2492,6 +2333,10 @@
 <filename>std/nullopt.adoc</filename>
 </compound>
 <compound kind="class">
+<name>QString</name>
+<filename>QString.adoc</filename>
+</compound>
+<compound kind="class">
 <name>BaseVersion</name>
 <filename>BaseVersion.adoc</filename>
 <member kind="function">
@@ -2559,6 +2404,10 @@
 <compound kind="class">
 <name>QScopedPointerObjectDeleteLater</name>
 <filename>QScopedPointerObjectDeleteLater.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QObject</name>
+<filename>QObject.adoc</filename>
 </compound>
 <compound kind="class">
 <name>QScopedPointerDeleteLater</name>
@@ -2703,12 +2552,32 @@
 </member>
 </compound>
 <compound kind="class">
+<name>QListSpecialMethodsBase</name>
+<filename>QListSpecialMethodsBase.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QListSpecialMethods</name>
+<filename>QListSpecialMethods.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QList</name>
+<filename>QList.adoc</filename>
+</compound>
+<compound kind="class">
 <name>TaskStepProgressList</name>
 <filename>TaskStepProgressList.adoc</filename>
 </compound>
 <compound kind="class">
 <name>QRunnable</name>
 <filename>QRunnable.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QMetaObject</name>
+<filename>QMetaObject.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QStringList</name>
+<filename>QStringList.adoc</filename>
 </compound>
 <compound kind="class">
 <name>Task</name>
@@ -3167,6 +3036,137 @@
 <anchorfile>BaseVersionList/updateListData.adoc</anchorfile>
 <anchor/>
 <arglist>(QList&lt;BaseVersion::Ptr&gt; versions)</arglist>
+</member>
+</compound>
+<compound kind="namespace">
+<name>MessageLevel</name>
+<filename>MessageLevel.adoc</filename>
+<class kind="class">MessageLevel::Enum</class>
+<member kind="function">
+<type>MessageLevel::Enum</type>
+<name>getLevel</name>
+<anchorfile>MessageLevel/getLevel.adoc</anchorfile>
+<anchor/>
+<arglist>(const QString&amp; levelName)</arglist>
+</member>
+<member kind="function">
+<type>MessageLevel::Enum</type>
+<name>fromLine</name>
+<anchorfile>MessageLevel/fromLine.adoc</anchorfile>
+<anchor/>
+<arglist>(QString&amp; line)</arglist>
+</member>
+</compound>
+<compound kind="class">
+<name>MessageLevel::Enum</name>
+<filename>MessageLevel/Enum.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QIODeviceBase</name>
+<filename>QIODeviceBase.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QIODevice</name>
+<filename>QIODevice.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QProcess</name>
+<filename>QProcess.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QStringConverterBase</name>
+<filename>QStringConverterBase.adoc</filename>
+</compound>
+<compound kind="class">
+<name>QTextCodec</name>
+<filename>QTextCodec.adoc</filename>
+</compound>
+<compound kind="class">
+<name>LoggedProcess</name>
+<filename>LoggedProcess.adoc</filename>
+<member kind="function">
+<type>const QMetaObject*</type>
+<name>metaObject</name>
+<anchorfile>LoggedProcess/metaObject.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
+</member>
+<member kind="function">
+<type>void*</type>
+<name>qt_metacast</name>
+<anchorfile>LoggedProcess/qt_metacast.adoc</anchorfile>
+<anchor/>
+<arglist>(const char* )</arglist>
+</member>
+<member kind="function">
+<type>int</type>
+<name>qt_metacall</name>
+<anchorfile>LoggedProcess/qt_metacall.adoc</anchorfile>
+<anchor/>
+<arglist>(QMetaObject::Call , int , void** )</arglist>
+</member>
+<member kind="function">
+<type>QString</type>
+<name>tr</name>
+<anchorfile>LoggedProcess/tr.adoc</anchorfile>
+<anchor/>
+<arglist>(const char* s, const char* c, int n)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>LoggedProcess</name>
+<anchorfile>LoggedProcess/2constructor.adoc</anchorfile>
+<anchor/>
+<arglist>(const QTextCodec* output_codec, QObject* parent)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>~LoggedProcess</name>
+<anchorfile>LoggedProcess/2destructor.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
+</member>
+<member kind="function">
+<type>LoggedProcess::State</type>
+<name>state</name>
+<anchorfile>LoggedProcess/state.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
+</member>
+<member kind="function">
+<type>int</type>
+<name>exitCode</name>
+<anchorfile>LoggedProcess/exitCode.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>setDetachable</name>
+<anchorfile>LoggedProcess/setDetachable.adoc</anchorfile>
+<anchor/>
+<arglist>(bool detachable)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>log</name>
+<anchorfile>LoggedProcess/log.adoc</anchorfile>
+<anchor/>
+<arglist>(QStringList lines, MessageLevel::Enum level)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>stateChanged</name>
+<anchorfile>LoggedProcess/stateChanged.adoc</anchorfile>
+<anchor/>
+<arglist>(LoggedProcess::State state)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>kill</name>
+<anchorfile>LoggedProcess/kill.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
 </member>
 </compound>
 <compound kind="class">
@@ -4547,10 +4547,10 @@
 <class kind="class">Net::NetRequest</class>
 <class kind="class">Net::Download</class>
 <class kind="class">Net::ChecksumValidator</class>
+<class kind="class">Net::Upload</class>
 <class kind="class">Net::ByteArraySink</class>
 <class kind="class">Net::FileSink</class>
 <class kind="class">Net::MetaCacheSink</class>
-<class kind="class">Net::Upload</class>
 <class kind="class">Net::ApiHeaderProxy</class>
 <class kind="class">Net::RawHeaderProxy</class>
 <member kind="function">
@@ -5053,6 +5053,59 @@
 </member>
 </compound>
 <compound kind="class">
+<name>Net::Upload</name>
+<filename>Net/Upload.adoc</filename>
+<member kind="function">
+<type>const QMetaObject*</type>
+<name>metaObject</name>
+<anchorfile>Net/Upload/metaObject.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
+</member>
+<member kind="function">
+<type>void*</type>
+<name>qt_metacast</name>
+<anchorfile>Net/Upload/qt_metacast.adoc</anchorfile>
+<anchor/>
+<arglist>(const char* )</arglist>
+</member>
+<member kind="function">
+<type>int</type>
+<name>qt_metacall</name>
+<anchorfile>Net/Upload/qt_metacall.adoc</anchorfile>
+<anchor/>
+<arglist>(QMetaObject::Call , int , void** )</arglist>
+</member>
+<member kind="function">
+<type>QString</type>
+<name>tr</name>
+<anchorfile>Net/Upload/tr.adoc</anchorfile>
+<anchor/>
+<arglist>(const char* s, const char* c, int n)</arglist>
+</member>
+<member kind="function">
+<type>void</type>
+<name>Upload</name>
+<anchorfile>Net/Upload/2constructor.adoc</anchorfile>
+<anchor/>
+<arglist>()</arglist>
+</member>
+<member kind="function">
+<type>Upload::Ptr</type>
+<name>makeByteArray</name>
+<anchorfile>Net/Upload/makeByteArray.adoc</anchorfile>
+<anchor/>
+<arglist>(QUrl url, std::shared_ptr&lt;QByteArray&gt; output, QByteArray m_post_data)</arglist>
+</member>
+<member kind="function">
+<type>QNetworkReply*</type>
+<name>getReply</name>
+<anchorfile>Net/Upload/getReply.adoc</anchorfile>
+<anchor/>
+<arglist>(QNetworkRequest&amp; request)</arglist>
+</member>
+</compound>
+<compound kind="class">
 <name>Net::ByteArraySink</name>
 <filename>Net/ByteArraySink.adoc</filename>
 <member kind="function">
@@ -5212,70 +5265,6 @@
 </member>
 </compound>
 <compound kind="class">
-<name>Net::Upload</name>
-<filename>Net/Upload.adoc</filename>
-<member kind="function">
-<type>const QMetaObject*</type>
-<name>metaObject</name>
-<anchorfile>Net/Upload/metaObject.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
-</member>
-<member kind="function">
-<type>void*</type>
-<name>qt_metacast</name>
-<anchorfile>Net/Upload/qt_metacast.adoc</anchorfile>
-<anchor/>
-<arglist>(const char* )</arglist>
-</member>
-<member kind="function">
-<type>int</type>
-<name>qt_metacall</name>
-<anchorfile>Net/Upload/qt_metacall.adoc</anchorfile>
-<anchor/>
-<arglist>(QMetaObject::Call , int , void** )</arglist>
-</member>
-<member kind="function">
-<type>QString</type>
-<name>tr</name>
-<anchorfile>Net/Upload/tr.adoc</anchorfile>
-<anchor/>
-<arglist>(const char* s, const char* c, int n)</arglist>
-</member>
-<member kind="function">
-<type>void</type>
-<name>Upload</name>
-<anchorfile>Net/Upload/2constructor.adoc</anchorfile>
-<anchor/>
-<arglist>()</arglist>
-</member>
-<member kind="function">
-<type>Upload::Ptr</type>
-<name>makeByteArray</name>
-<anchorfile>Net/Upload/makeByteArray.adoc</anchorfile>
-<anchor/>
-<arglist>(QUrl url, std::shared_ptr&lt;QByteArray&gt; output, QByteArray m_post_data)</arglist>
-</member>
-<member kind="function">
-<type>QNetworkReply*</type>
-<name>getReply</name>
-<anchorfile>Net/Upload/getReply.adoc</anchorfile>
-<anchor/>
-<arglist>(QNetworkRequest&amp; request)</arglist>
-</member>
-</compound>
-<compound kind="namespace">
-<name>Net::ApiUpload</name>
-<filename>Net/ApiUpload.adoc</filename>
-<member kind="function">
-<type>Upload::Ptr</type>
-<name>makeByteArray</name>
-<anchorfile>Net/ApiUpload/makeByteArray.adoc</anchorfile>
-<anchor/>
-<arglist>(QUrl url, std::shared_ptr&lt;QByteArray&gt; output, QByteArray m_post_data)</arglist>
-</member>
-</compound>
-<compound kind="class">
 <name>Net::ApiHeaderProxy</name>
 <filename>Net/ApiHeaderProxy.adoc</filename>
 <member kind="function">
@@ -5298,6 +5287,17 @@
 <anchorfile>Net/ApiHeaderProxy/headers.adoc</anchorfile>
 <anchor/>
 <arglist>(const QNetworkRequest&amp; request)</arglist>
+</member>
+</compound>
+<compound kind="namespace">
+<name>Net::ApiUpload</name>
+<filename>Net/ApiUpload.adoc</filename>
+<member kind="function">
+<type>Upload::Ptr</type>
+<name>makeByteArray</name>
+<anchorfile>Net/ApiUpload/makeByteArray.adoc</anchorfile>
+<anchor/>
+<arglist>(QUrl url, std::shared_ptr&lt;QByteArray&gt; output, QByteArray m_post_data)</arglist>
 </member>
 </compound>
 <compound kind="class">

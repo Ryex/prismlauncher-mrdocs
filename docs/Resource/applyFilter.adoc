@@ -11,7 +11,7 @@ or if such filter includes the Resource (true)&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L118[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/Resource.h#L118[minecraft&sol;mod&sol;Resource&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

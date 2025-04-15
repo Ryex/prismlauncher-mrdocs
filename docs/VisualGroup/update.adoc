@@ -10,7 +10,7 @@ update the internal list of items and flow them into the rows&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L70[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/instanceview/VisualGroup.h#L70[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

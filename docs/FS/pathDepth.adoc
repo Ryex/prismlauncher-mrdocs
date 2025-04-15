@@ -8,7 +8,7 @@ depth of path&period; &quot;foo&period;txt&quot; &hyphen;&gt; 0 , &quot;bar&sol;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L311[FileSystem&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/FileSystem.h#L311[FileSystem&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

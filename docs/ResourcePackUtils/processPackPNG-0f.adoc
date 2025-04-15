@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourcePackParseTask.h#L29[minecraft&sol;mod&sol;tasks&sol;LocalResourcePackParseTask&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/mod/tasks/LocalResourcePackParseTask.h#L29[minecraft&sol;mod&sol;tasks&sol;LocalResourcePackParseTask&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

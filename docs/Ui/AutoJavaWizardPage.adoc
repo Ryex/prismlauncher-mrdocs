@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/AutoJavaWizardPage.h#L6[ui&sol;setupwizard&sol;AutoJavaWizardPage&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/setupwizard/AutoJavaWizardPage.h#L6[ui&sol;setupwizard&sol;AutoJavaWizardPage&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

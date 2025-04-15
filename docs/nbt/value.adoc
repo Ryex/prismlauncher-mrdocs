@@ -8,7 +8,7 @@ Contains an NBT value of fixed type
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/libraries/libnbtplusplus/include/value.h#L60[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;libnbtplusplus&sol;include&sol;value&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//home/ryex/projects/prism/libraries/libnbtplusplus/include/value.h#L60[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;libnbtplusplus&sol;include&sol;value&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

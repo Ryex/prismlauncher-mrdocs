@@ -10,7 +10,7 @@ Indicates whether or not beta updates should be checked for in addition to regul
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L59[updater&sol;PrismExternalUpdater&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/updater/PrismExternalUpdater.h#L59[updater&sol;PrismExternalUpdater&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

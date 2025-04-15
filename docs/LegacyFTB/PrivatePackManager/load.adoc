@@ -6,7 +6,7 @@
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PrivatePackManager.h#L12[modplatform&sol;legacy&lowbar;ftb&sol;PrivatePackManager&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/modplatform/legacy_ftb/PrivatePackManager.h#L12[modplatform&sol;legacy&lowbar;ftb&sol;PrivatePackManager&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

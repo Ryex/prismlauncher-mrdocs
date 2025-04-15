@@ -12,7 +12,7 @@ The total height of those lines is set in the last argument, &apos;height&apos;&
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/Common.h#L9[ui&sol;widgets&sol;Common&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/ui/widgets/Common.h#L9[ui&sol;widgets&sol;Common&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

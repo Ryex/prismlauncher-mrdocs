@@ -10,7 +10,7 @@ Normalize path
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L342[FileSystem&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/FileSystem.h#L342[FileSystem&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----
@@ -36,6 +36,13 @@ Normalize path
 
 Any paths inside the current folder will be normalized to relative paths (to current)
 Other paths will be made absolute
+
+Normalize path
+
+Any paths inside the current directory will be normalized to relative paths (to current)
+Other paths will be made absolute
+
+Returns false if the path logic somehow filed (and normalizedPath in invalid)
 
 Normalize path
 

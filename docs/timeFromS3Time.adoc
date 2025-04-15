@@ -10,7 +10,7 @@ take the timestamp used by S3 and turn it into QDateTime
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ParseUtils.h#L6[minecraft&sol;ParseUtils&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/minecraft/ParseUtils.h#L6[minecraft&sol;ParseUtils&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

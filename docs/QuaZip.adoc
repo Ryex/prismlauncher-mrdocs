@@ -10,7 +10,7 @@ ZIP archive&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/i7s46b9kaq9aj0bpmk6byz7i3mzb33i8-quazip-1.5-dev/include/QuaZip-Qt6-1.5/quazip/quazip.h#L84[&sol;nix&sol;store&sol;i7s46b9kaq9aj0bpmk6byz7i3mzb33i8&hyphen;quazip&hyphen;1&period;5&hyphen;dev&sol;include&sol;QuaZip&hyphen;Qt6&hyphen;1&period;5&sol;quazip&sol;quazip&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//nix/store/i7s46b9kaq9aj0bpmk6byz7i3mzb33i8-quazip-1.5-dev/include/QuaZip-Qt6-1.5/quazip/quazip.h#L84[&sol;nix&sol;store&sol;i7s46b9kaq9aj0bpmk6byz7i3mzb33i8&hyphen;quazip&hyphen;1&period;5&hyphen;dev&sol;include&sol;QuaZip&hyphen;Qt6&hyphen;1&period;5&sol;quazip&sol;quazip&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

@@ -10,7 +10,7 @@ Open the URL, most likely in a browser&period; Maybe&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DesktopServices.h#L33[DesktopServices&period;h]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher/DesktopServices.h#L33[DesktopServices&period;h]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----

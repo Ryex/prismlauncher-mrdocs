@@ -8,7 +8,7 @@ A TOML table&period;
 
 == Synopsis
 
-Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/zh639bj1fmmgkxvy1b84mlbq7ax0r1pz-tomlplusplus-3.4.0/include/toml++/impl/table.hpp#L219[&sol;nix&sol;store&sol;zh639bj1fmmgkxvy1b84mlbq7ax0r1pz&hyphen;tomlplusplus&hyphen;3&period;4&period;0&sol;include&sol;toml&plus;&plus;&sol;impl&sol;table&period;hpp]&gt;`
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launcher//nix/store/zh639bj1fmmgkxvy1b84mlbq7ax0r1pz-tomlplusplus-3.4.0/include/toml++/impl/table.hpp#L219[&sol;nix&sol;store&sol;zh639bj1fmmgkxvy1b84mlbq7ax0r1pz&hyphen;tomlplusplus&hyphen;3&period;4&period;0&sol;include&sol;toml&plus;&plus;&sol;impl&sol;table&period;hpp]&gt;`
 
 [source,cpp,subs="verbatim,replacements,macros,-callouts"]
 ----
