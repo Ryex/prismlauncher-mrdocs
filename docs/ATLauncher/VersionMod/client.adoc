@@ -1,0 +1,18 @@
+[#ATLauncher-VersionMod-client]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionMod.adoc[VersionMod]::client
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L120[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool client;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

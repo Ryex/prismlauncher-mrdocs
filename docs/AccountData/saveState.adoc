@@ -1,0 +1,19 @@
+[#AccountData-saveState]
+= xref:AccountData.adoc[AccountData]::saveState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L96[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonObject.adoc[QJsonObject]
+saveState() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

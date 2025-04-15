@@ -1,0 +1,27 @@
+[#UrlValidator-UrlValidator]
+= xref:UrlValidator.adoc[UrlValidator]::UrlValidator
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ImportPage.cpp#L59[ui&sol;pages&sol;modplatform&sol;ImportPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using xref:QValidator.adoc[QValidator]::UrlValidator;
+----
+
+== Introduced Symbols
+
+|===
+| Name
+| QValidator
+| QValidator
+| QValidator
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

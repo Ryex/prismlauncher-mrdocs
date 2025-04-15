@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_scheduled_update]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;scheduled&lowbar;update
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L257[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;scheduled&lowbar;update = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

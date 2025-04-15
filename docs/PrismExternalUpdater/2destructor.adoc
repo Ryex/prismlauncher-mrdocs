@@ -1,0 +1,19 @@
+[#PrismExternalUpdater-2destructor]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::&tilde;PrismExternalUpdater
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L38[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PrismExternalUpdater() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

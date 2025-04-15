@@ -1,0 +1,19 @@
+[#FS-clone-totalFailed]
+= xref:FS.adoc[FS]::xref:FS/clone.adoc[clone]::totalFailed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L505[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qsizetype.adoc[qsizetype]
+totalFailed();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,32 @@
+[#Setting-settingReset]
+= xref:Setting.adoc[Setting]::settingReset
+:relfileprefix: ../
+:mrdocs:
+
+
+Signal emitted when this Setting object&apos;s value resets to default&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L86[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+settingReset(xref:Setting.adoc[Setting] const& setting);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *setting*
+| A reference to the Setting that changed&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#MMCImage-key]
+= xref:MMCImage.adoc[MMCImage]::key
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L44[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] key;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#SkinList-stopWatching]
+= xref:SkinList.adoc[SkinList]::stopWatching
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L55[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+stopWatching();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

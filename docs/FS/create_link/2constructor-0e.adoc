@@ -1,0 +1,21 @@
+[#FS-create_link-2constructor-0e]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::create&lowbar;link
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L202[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+create&lowbar;link(
+    xref:QString.adoc[QString] const& src,
+    xref:QString.adoc[QString] const& dst,
+    xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

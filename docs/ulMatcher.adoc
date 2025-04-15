@@ -1,0 +1,19 @@
+[#ulMatcher]
+= ulMatcher
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.cpp#L216[StringUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QRegularExpression.adoc[QRegularExpression] const ulMatcher = ulMatcher(&quot;&lt;&bsol;&bsol;s&ast;&sol;&bsol;&bsol;s&ast;ul&bsol;&bsol;s&ast;&gt;&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

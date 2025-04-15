@@ -1,0 +1,19 @@
+[#NewComponentDialog-2destructor]
+= xref:NewComponentDialog.adoc[NewComponentDialog]::&tilde;NewComponentDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewComponentDialog.h#L32[ui&sol;dialogs&sol;NewComponentDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;NewComponentDialog();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

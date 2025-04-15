@@ -1,0 +1,35 @@
+[#Setting-2constructor]
+= xref:Setting.adoc[Setting]::Setting
+:relfileprefix: ../
+:mrdocs:
+
+
+Construct a Setting
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L40[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+Setting(
+    xref:QStringList.adoc[QStringList] synonyms,
+    xref:QVariant.adoc[QVariant] defVal = QVariant());
+----
+
+== Description
+
+Synonyms are all the possible names used in the settings object, in order of preference&period;
+First synonym is the ID, which identifies the setting in Prism Launcher&period;
+
+defVal is the default value that will be returned when the settings object
+doesn&apos;t have any value for this setting&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

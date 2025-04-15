@@ -1,0 +1,67 @@
+[#BaseVersion]
+= BaseVersion
+:relfileprefix: 
+:mrdocs:
+
+
+An abstract base class for versions&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersion.h#L25[BaseVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseVersion;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersion/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersion/descriptor.adoc[`descriptor`] 
+| A string used to identify this version in config files&period;
+This should be unique within the version list or shenanigans will occur&period;
+
+
+
+| xref:BaseVersion/name.adoc[`name`] 
+| The name of this version as it is displayed to the user&period;
+For example&colon; &quot;1&period;5&period;1&quot;
+
+
+
+| xref:BaseVersion/operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:BaseVersion/operator_gt.adoc[`operator&gt;`] 
+| 
+
+| xref:BaseVersion/typeString.adoc[`typeString`] 
+| This should return a string that describes
+the kind of version this is (Stable, Beta, Snapshot, whatever)
+
+
+
+| xref:BaseVersion/2destructor.adoc[`&tilde;BaseVersion`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

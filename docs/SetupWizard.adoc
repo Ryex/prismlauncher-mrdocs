@@ -1,0 +1,71 @@
+[#SetupWizard]
+= SetupWizard
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/SetupWizard.h#L26[ui&sol;setupwizard&sol;SetupWizard&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SetupWizard
+    : public xref:QWizard.adoc[QWizard]
+    , public xref:QWizard.adoc[QWizard];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SetupWizard/2constructor.adoc[`SetupWizard`]         [.small]#[constructor]#
+| 
+
+| xref:SetupWizard/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:SetupWizard/getBasePage.adoc[`getBasePage`] 
+| 
+
+| xref:SetupWizard/getCurrentBasePage.adoc[`getCurrentBasePage`] 
+| 
+
+| xref:SetupWizard/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:SetupWizard/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:SetupWizard/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:SetupWizard/2destructor.adoc[`&tilde;SetupWizard`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SetupWizard/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SetupWizard/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

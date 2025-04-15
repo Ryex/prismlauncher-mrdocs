@@ -1,0 +1,38 @@
+[#nbt]
+= nbt
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:nbt/detail.adoc[`detail`] 
+| 
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:nbt/tag.adoc[`tag`] 
+| Base class for all NBT tag classes
+
+
+
+| xref:nbt/tag_compound.adoc[`tag&lowbar;compound`] 
+| Tag that contains multiple unordered named tags of arbitrary types
+
+
+
+| xref:nbt/value.adoc[`value`] 
+| Contains an NBT value of fixed type
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

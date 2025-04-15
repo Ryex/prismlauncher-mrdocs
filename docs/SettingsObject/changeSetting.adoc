@@ -1,0 +1,42 @@
+[#SettingsObject-changeSetting]
+= xref:SettingsObject.adoc[SettingsObject]::changeSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+Changes a setting&period;
+This slot is usually connected to each Setting object&apos;s
+SettingChanged() signal&period; The signal is emitted, causing this slot
+to update the setting&apos;s value in the config file&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L171[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+changeSetting(
+    xref:Setting.adoc[Setting] const& setting,
+    xref:QVariant.adoc[QVariant] value) = 0;
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *setting*
+| A reference to the Setting object that changed&period;
+
+
+| *value*
+| The setting&apos;s new value&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

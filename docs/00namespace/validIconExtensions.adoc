@@ -1,0 +1,19 @@
+[#00namespace-validIconExtensions]
+= validIconExtensions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconUtils.cpp#L42[icons&sol;IconUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QStringList.adoc[QStringList] const validIconExtensions = &lcub; &lcub; &quot;svg&quot;, &quot;png&quot;, &quot;ico&quot;, &quot;gif&quot;, &quot;jpg&quot;, &quot;jpeg&quot;, &quot;webp&quot; &rcub; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ModPlatform-IndexedVersionType-isValid]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::isValid
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L68[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isValid() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

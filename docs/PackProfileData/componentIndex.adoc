@@ -1,0 +1,18 @@
+[#PackProfileData-componentIndex]
+= xref:PackProfileData.adoc[PackProfileData]::componentIndex
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L22[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ComponentIndex.adoc[ComponentIndex] componentIndex;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

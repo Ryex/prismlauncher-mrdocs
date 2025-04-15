@@ -1,0 +1,21 @@
+[#groupViewAccessibleFactory]
+= groupViewAccessibleFactory
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView.h#L7[ui&sol;instanceview&sol;AccessibleInstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QAccessibleInterface.adoc[QAccessibleInterface]*
+groupViewAccessibleFactory(
+    xref:QString.adoc[QString] const& classname,
+    xref:QObject.adoc[QObject]* object);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

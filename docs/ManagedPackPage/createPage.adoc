@@ -1,0 +1,36 @@
+[#ManagedPackPage-createPage]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::createPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L32[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ManagedPackPage.adoc[ManagedPackPage]*
+xref:ManagedPackPage/createPage-0d.adoc[createPage](
+    xref:BaseInstance.adoc[BaseInstance]* inst,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+[.small]#xref:ManagedPackPage/createPage-0d.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ManagedPackPage.adoc[ManagedPackPage]*
+xref:ManagedPackPage/createPage-05.adoc[createPage](
+    xref:BaseInstance.adoc[BaseInstance]* inst,
+    xref:QString.adoc[QString] type,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+[.small]#xref:ManagedPackPage/createPage-05.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

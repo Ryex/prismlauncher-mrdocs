@@ -1,0 +1,18 @@
+[#Meta-BaseEntity-m_sha256]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntity.adoc[BaseEntity]::m&lowbar;sha256
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L49[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;sha256;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Meta-Version-time]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::time
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L50[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime]
+time() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

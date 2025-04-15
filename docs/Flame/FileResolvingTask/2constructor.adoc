@@ -1,0 +1,19 @@
+[#Flame-FileResolvingTask-2constructor]
+= xref:Flame.adoc[Flame]::xref:Flame/FileResolvingTask.adoc[FileResolvingTask]::FileResolvingTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FileResolvingTask.h#L27[modplatform&sol;flame&sol;FileResolvingTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+FileResolvingTask(xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]& toProcess);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

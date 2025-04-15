@@ -1,0 +1,20 @@
+[#MSAStep-metaObject]
+= xref:MSAStep.adoc[MSAStep]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSAStep.h#L43[minecraft&sol;auth&sol;steps&sol;MSAStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

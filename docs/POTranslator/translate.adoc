@@ -1,0 +1,24 @@
+[#POTranslator-translate]
+= xref:POTranslator.adoc[POTranslator]::translate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.h#L12[translations&sol;POTranslator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+translate(
+    char const* context,
+    char const* sourceText,
+    char const* disambiguation,
+    int n) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

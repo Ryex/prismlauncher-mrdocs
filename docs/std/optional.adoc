@@ -1,0 +1,26 @@
+[#std-optional]
+= xref:std.adoc[std]::optional
+:relfileprefix: ../
+:mrdocs:
+
+
+Class template for optional values&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/optional#L702[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;optional]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename &lowbar;Tp&gt;
+class optional
+    : xref:std/_Optional_base.adoc[&lowbar;Optional&lowbar;base]&lt;&lowbar;Tp&gt;
+    , xref:std/_Enable_copy_move.adoc[&lowbar;Enable&lowbar;copy&lowbar;move]&lt;is&lowbar;copy&lowbar;constructible&lowbar;v&lt;&lowbar;Tp&gt;, &lowbar;&lowbar;and&lowbar;v&lt;is&lowbar;copy&lowbar;constructible&lt;&lowbar;Tp&gt;, is&lowbar;copy&lowbar;assignable&lt;&lowbar;Tp&gt;&gt;, is&lowbar;move&lowbar;constructible&lowbar;v&lt;&lowbar;Tp&gt;, &lowbar;&lowbar;and&lowbar;v&lt;is&lowbar;move&lowbar;constructible&lt;&lowbar;Tp&gt;, is&lowbar;move&lowbar;assignable&lt;&lowbar;Tp&gt;&gt;, xref:std/optional.adoc[optional]&lt;&lowbar;Tp&gt;&gt;;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

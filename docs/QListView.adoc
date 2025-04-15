@@ -1,0 +1,40 @@
+[#QListView]
+= QListView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L51[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QListView
+    : public xref:QAbstractItemView.adoc[QAbstractItemView];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/ScrollHint.adoc[`ScrollHint`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/CursorAction.adoc[`CursorAction`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

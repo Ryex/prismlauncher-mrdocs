@@ -1,0 +1,20 @@
+[#SkinUpload-getReply]
+= xref:SkinUpload.adoc[SkinUpload]::getReply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinUpload.h#L35[minecraft&sol;skins&sol;SkinUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QNetworkReply.adoc[QNetworkReply]*
+getReply(xref:QNetworkRequest.adoc[QNetworkRequest]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

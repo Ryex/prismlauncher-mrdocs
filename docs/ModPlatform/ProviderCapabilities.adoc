@@ -1,0 +1,25 @@
+[#ModPlatform-ProviderCapabilities]
+= xref:ModPlatform.adoc[ModPlatform]::ProviderCapabilities
+:relfileprefix: ../
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/ProviderCapabilities/hashType.adoc[`hashType`] 
+| 
+
+| xref:ModPlatform/ProviderCapabilities/name.adoc[`name`] 
+| 
+
+| xref:ModPlatform/ProviderCapabilities/readableName.adoc[`readableName`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

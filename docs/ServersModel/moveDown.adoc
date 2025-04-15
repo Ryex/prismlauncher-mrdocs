@@ -1,0 +1,19 @@
+[#ServersModel-moveDown]
+= xref:ServersModel.adoc[ServersModel]::moveDown
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L268[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+moveDown(int row);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

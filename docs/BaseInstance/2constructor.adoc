@@ -1,0 +1,25 @@
+[#BaseInstance-2constructor]
+= xref:BaseInstance.adoc[BaseInstance]::BaseInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+no&hyphen;touchy!
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L81[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+BaseInstance(
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] globalSettings,
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings,
+    xref:QString.adoc[QString] const& rootDir);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

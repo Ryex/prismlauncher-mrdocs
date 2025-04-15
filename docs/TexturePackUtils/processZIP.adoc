@@ -1,0 +1,21 @@
+[#TexturePackUtils-processZIP]
+= xref:TexturePackUtils.adoc[TexturePackUtils]::processZIP
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalTexturePackParseTask.h#L35[minecraft&sol;mod&sol;tasks&sol;LocalTexturePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processZIP(
+    xref:TexturePack.adoc[TexturePack]& pack,
+    xref:TexturePackUtils/ProcessingLevel.adoc[ProcessingLevel] level = ProcessingLevel&colon;&colon;Full);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

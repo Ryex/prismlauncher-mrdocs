@@ -1,0 +1,23 @@
+[#ResourceDownload-ResourceModel-tr]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::tr
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L29[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

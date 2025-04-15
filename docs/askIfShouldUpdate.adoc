@@ -1,0 +1,22 @@
+[#askIfShouldUpdate]
+= askIfShouldUpdate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L10[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:ShouldUpdate.adoc[ShouldUpdate]
+askIfShouldUpdate(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] original&lowbar;version&lowbar;name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

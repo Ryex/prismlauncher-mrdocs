@@ -1,0 +1,19 @@
+[#JavaCommon-TestCheck-run]
+= xref:JavaCommon.adoc[JavaCommon]::xref:JavaCommon/TestCheck.adoc[TestCheck]::run
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/JavaCommon.h#L29[JavaCommon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+run();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

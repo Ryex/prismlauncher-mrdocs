@@ -1,0 +1,19 @@
+[#JavaWizardWidget-javaDownloadBtn_clicked]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::javaDownloadBtn&lowbar;clicked
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L55[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+javaDownloadBtn&lowbar;clicked();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

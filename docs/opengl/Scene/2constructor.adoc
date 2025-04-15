@@ -1,0 +1,21 @@
+[#opengl-Scene-2constructor]
+= xref:opengl.adoc[opengl]::xref:opengl/Scene.adoc[Scene]::Scene
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/Scene.h#L27[ui&sol;dialogs&sol;skins&sol;draw&sol;Scene&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Scene(
+    xref:QImage.adoc[QImage] const& skin,
+    bool slim,
+    xref:QImage.adoc[QImage] const& cape);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

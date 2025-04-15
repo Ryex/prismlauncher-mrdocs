@@ -1,0 +1,25 @@
+[#Bits]
+= Bits
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Bits/readAssetIndex.adoc[`readAssetIndex`] 
+| 
+
+| xref:Bits/readDownloadInfo.adoc[`readDownloadInfo`] 
+| 
+
+| xref:Bits/readString.adoc[`readString`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

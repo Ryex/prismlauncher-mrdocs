@@ -1,0 +1,21 @@
+[#ModUtils-ReadNilModInfo]
+= xref:ModUtils.adoc[ModUtils]::ReadNilModInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.cpp#L429[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModDetails.adoc[ModDetails]
+ReadNilModInfo(
+    xref:QByteArray.adoc[QByteArray] contents,
+    xref:QString.adoc[QString] fname);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

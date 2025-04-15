@@ -1,0 +1,22 @@
+[#Json-ensureDouble-09]
+= xref:Json.adoc[Json]::ensureDouble
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L270[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+double
+ensureDouble(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    double const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

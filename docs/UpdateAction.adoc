@@ -1,0 +1,18 @@
+[#UpdateAction]
+= UpdateAction
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L41[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using UpdateAction = xref:std.adoc[std]::xref:std/variant.adoc[variant]&lt;xref:UpdateActionNone.adoc[UpdateActionNone], xref:UpdateActionChangeVersion.adoc[UpdateActionChangeVersion], xref:UpdateActionLatestRecommendedCompatible.adoc[UpdateActionLatestRecommendedCompatible], xref:UpdateActionRemove.adoc[UpdateActionRemove], xref:UpdateActionImportantChanged.adoc[UpdateActionImportantChanged]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

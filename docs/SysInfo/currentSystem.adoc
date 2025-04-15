@@ -1,0 +1,19 @@
+[#SysInfo-currentSystem]
+= xref:SysInfo.adoc[SysInfo]::currentSystem
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SysInfo.h#L4[SysInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+currentSystem();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

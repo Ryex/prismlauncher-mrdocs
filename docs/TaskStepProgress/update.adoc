@@ -1,0 +1,21 @@
+[#TaskStepProgress-update]
+= xref:TaskStepProgress.adoc[TaskStepProgress]::update
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L67[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+update(
+    xref:qint64.adoc[qint64] new&lowbar;current,
+    xref:qint64.adoc[qint64] new&lowbar;total);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

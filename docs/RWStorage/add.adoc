@@ -1,0 +1,21 @@
+[#RWStorage-add]
+= xref:RWStorage.adoc[RWStorage]::add
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RWStorage.h#L10[RWStorage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+add(
+    K key,
+    V value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

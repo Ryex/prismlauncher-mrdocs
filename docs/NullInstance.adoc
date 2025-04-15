@@ -1,0 +1,386 @@
+[#NullInstance]
+= NullInstance
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/NullInstance.h#L41[NullInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NullInstance
+    : public xref:BaseInstance.adoc[BaseInstance];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstance/Status.adoc[`Status`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NullInstance/2constructor.adoc[`NullInstance`]         [.small]#[constructor]#
+| 
+
+| xref:BaseInstance/addLinkedInstanceId.adoc[`addLinkedInstanceId`] 
+| 
+
+| xref:BaseInstance/canEdit.adoc[`canEdit`] 
+| 
+| xref:BaseInstance/canExport.adoc[`canExport`] 
+| 
+| xref:BaseInstance/canLaunch.adoc[`canLaunch`] 
+| 
+| xref:BaseInstance/copyManagedPack.adoc[`copyManagedPack`] 
+| 
+
+| xref:BaseInstance/createEnvironment.adoc[`createEnvironment`] 
+| Create envrironment variables for running the instance
+
+
+
+| xref:BaseInstance/createLaunchEnvironment.adoc[`createLaunchEnvironment`] 
+| 
+| xref:BaseInstance/createLaunchTask.adoc[`createLaunchTask`] 
+| returns a valid launcher (task container)
+
+
+
+| xref:BaseInstance/createUpdateTask.adoc[`createUpdateTask`] 
+| returns a valid update task
+
+
+
+| xref:BaseInstance/currentStatus.adoc[`currentStatus`] 
+| 
+
+| xref:BaseInstance/extraArguments.adoc[`extraArguments`] 
+| 
+
+| xref:BaseInstance/gameRoot.adoc[`gameRoot`] 
+| Path to the instance&apos;s game root directory&period;
+
+
+
+| xref:BaseInstance/getConsoleMaxLines.adoc[`getConsoleMaxLines`] 
+| 
+
+| xref:BaseInstance/getLaunchTask.adoc[`getLaunchTask`] 
+| returns the current launch task (if any)
+
+
+
+| xref:BaseInstance/getLinkedInstances.adoc[`getLinkedInstances`] 
+| 
+
+| xref:BaseInstance/getLogFileMatcher.adoc[`getLogFileMatcher`] 
+| Returns a matcher that can maps relative paths within the instance to whether they are &apos;log files&apos;
+
+
+
+| xref:BaseInstance/getLogFileRoot.adoc[`getLogFileRoot`] 
+| Returns the root folder to use for looking up log files
+
+
+
+| xref:BaseInstance/getManagedPackID.adoc[`getManagedPackID`] 
+| 
+
+| xref:BaseInstance/getManagedPackName.adoc[`getManagedPackName`] 
+| 
+
+| xref:BaseInstance/getManagedPackType.adoc[`getManagedPackType`] 
+| 
+
+| xref:BaseInstance/getManagedPackVersionID.adoc[`getManagedPackVersionID`] 
+| 
+
+| xref:BaseInstance/getManagedPackVersionName.adoc[`getManagedPackVersionName`] 
+| 
+
+| xref:BaseInstance/getPostExitCommand.adoc[`getPostExitCommand`] 
+| 
+
+| xref:BaseInstance/getPreLaunchCommand.adoc[`getPreLaunchCommand`] 
+| 
+
+| xref:BaseInstance/getStatusbarDescription.adoc[`getStatusbarDescription`] 
+| 
+| xref:BaseInstance/getVariables.adoc[`getVariables`] 
+| get variables this instance exports
+
+
+
+| xref:BaseInstance/getWrapperCommand.adoc[`getWrapperCommand`] 
+| 
+
+| xref:BaseInstance/guessLevel.adoc[`guessLevel`] 
+| guess log level from a line of game log
+
+
+
+| xref:BaseInstance/hasCrashed.adoc[`hasCrashed`] 
+| 
+
+| xref:BaseInstance/hasUpdateAvailable.adoc[`hasUpdateAvailable`] 
+| 
+
+| xref:BaseInstance/hasVersionBroken.adoc[`hasVersionBroken`] 
+| 
+
+| xref:BaseInstance/iconKey.adoc[`iconKey`] 
+| 
+
+| xref:BaseInstance/id.adoc[`id`] 
+| The instance&apos;s ID&period; The ID SHALL be determined by LAUNCHER internally&period; The ID IS guaranteed to
+be unique&period;
+
+
+
+| xref:BaseInstance/instanceConfigFolder.adoc[`instanceConfigFolder`] 
+| FIXME&colon; this really should be elsewhere&period;&period;&period;
+
+
+
+| xref:BaseInstance/instanceRoot.adoc[`instanceRoot`] 
+| Path to the instance&apos;s root directory&period;
+
+
+
+| xref:BaseInstance/instanceType.adoc[`instanceType`] 
+| get the type of this instance
+
+
+
+| xref:BaseInstance/invalidate.adoc[`invalidate`] 
+| &ast;
+the instance has been invalidated &hyphen; it is no longer tracked by the launcher for some reason,
+but it has not necessarily been deleted&period;
+
+
+
+| xref:BaseInstance/isLegacy.adoc[`isLegacy`] 
+| 
+
+| xref:BaseInstance/isLinkedToInstanceId.adoc[`isLinkedToInstanceId`] 
+| 
+
+| xref:BaseInstance/isManagedPack.adoc[`isManagedPack`] 
+| 
+
+| xref:BaseInstance/isRunning.adoc[`isRunning`] 
+| 
+
+| xref:BaseInstance/lastLaunch.adoc[`lastLaunch`] 
+| Gets the time that the instance was last launched&period;
+Stored in milliseconds since epoch&period;
+
+
+
+| xref:BaseInstance/lastTimePlayed.adoc[`lastTimePlayed`] 
+| 
+
+| xref:BaseInstance/launchTaskChanged.adoc[`launchTaskChanged`] 
+| 
+
+| xref:BaseInstance/loadSpecificSettings.adoc[`loadSpecificSettings`] 
+| Loads settings specific to an instance type if they&apos;re not already loaded&period;
+
+| xref:BaseInstance/metaObject.adoc[`metaObject`] 
+| 
+| xref:BaseInstance/modsRoot.adoc[`modsRoot`] 
+| Path to the instance&apos;s mods directory&period;
+
+
+
+| xref:BaseInstance/name.adoc[`name`] 
+| 
+
+| xref:BaseInstance/notes.adoc[`notes`] 
+| 
+
+| xref:BaseInstance/populateLaunchMenu.adoc[`populateLaunchMenu`] 
+| 
+| xref:BaseInstance/profilerChanged.adoc[`profilerChanged`] 
+| 
+
+| xref:BaseInstance/propertiesChanged.adoc[`propertiesChanged`] 
+| Signal emitted when properties relevant to the instance view change
+
+| xref:BaseInstance/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:BaseInstance/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:BaseInstance/reloadSettings.adoc[`reloadSettings`] 
+| 
+
+| xref:BaseInstance/removeLinkedInstanceId.adoc[`removeLinkedInstanceId`] 
+| 
+
+| xref:BaseInstance/resetTimePlayed.adoc[`resetTimePlayed`] 
+| 
+
+| xref:BaseInstance/runningStatusChanged.adoc[`runningStatusChanged`] 
+| 
+
+| xref:BaseInstance/runtimeContext.adoc[`runtimeContext`] 
+| 
+
+| xref:BaseInstance/saveNow.adoc[`saveNow`] 
+| 
+| xref:BaseInstance/setCrashed.adoc[`setCrashed`] 
+| 
+
+| xref:BaseInstance/setIconKey.adoc[`setIconKey`] 
+| 
+
+| xref:BaseInstance/setLastLaunch.adoc[`setLastLaunch`] 
+| Sets the last launched time to &apos;val&apos; milliseconds since epoch
+
+
+
+| xref:BaseInstance/setLinkedInstances.adoc[`setLinkedInstances`] 
+| 
+
+| xref:BaseInstance/setManagedPack.adoc[`setManagedPack`] 
+| 
+
+| xref:BaseInstance/setMinecraftRunning.adoc[`setMinecraftRunning`] 
+| 
+
+| xref:BaseInstance/setName.adoc[`setName`] 
+| 
+
+| xref:BaseInstance/setNotes.adoc[`setNotes`] 
+| 
+
+| xref:BaseInstance/setRunning.adoc[`setRunning`] 
+| 
+
+| xref:BaseInstance/setUpdateAvailable.adoc[`setUpdateAvailable`] 
+| 
+
+| xref:BaseInstance/setVersionBroken.adoc[`setVersionBroken`] 
+| 
+
+| xref:BaseInstance/settings.adoc[`settings`] 
+| Gets this instance&apos;s settings object&period;
+This settings object stores instance&hyphen;specific settings&period;
+
+| xref:BaseInstance/shouldStopOnConsoleOverflow.adoc[`shouldStopOnConsoleOverflow`] 
+| 
+
+| xref:BaseInstance/statusChanged.adoc[`statusChanged`] 
+| 
+
+| xref:BaseInstance/syncInstanceDirName.adoc[`syncInstanceDirName`] 
+| Sync name and rename instance dir accordingly&semi; returns true if successful
+
+
+
+| xref:BaseInstance/totalTimePlayed.adoc[`totalTimePlayed`] 
+| 
+
+| xref:BaseInstance/traits.adoc[`traits`] 
+| Traits&period; Normally inside the version, depends on instance implementation&period;
+
+
+
+| xref:BaseInstance/typeName.adoc[`typeName`] 
+| 
+| xref:BaseInstance/updateRuntimeContext.adoc[`updateRuntimeContext`] 
+| 
+| xref:BaseInstance/verboseDescription.adoc[`verboseDescription`] 
+| &apos;print&apos; a verbose description of the instance into a QStringList
+
+
+
+| xref:BaseInstance/windowTitle.adoc[`windowTitle`] 
+| Value used for instance window titles
+
+
+
+| xref:NullInstance/2destructor.adoc[`&tilde;NullInstance`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstance/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstance/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:NullInstance/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstance/changeStatus.adoc[`changeStatus`] 
+| 
+
+| xref:BaseInstance/globalSettings.adoc[`globalSettings`] 
+| 
+
+| xref:BaseInstance/iconUpdated.adoc[`iconUpdated`] 
+| 
+
+| xref:BaseInstance/isSpecificSettingsLoaded.adoc[`isSpecificSettingsLoaded`] 
+| 
+
+| xref:BaseInstance/setSpecificSettingsLoaded.adoc[`setSpecificSettingsLoaded`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstance/m_isRunning.adoc[`m&lowbar;isRunning`] 
+| 
+
+| xref:BaseInstance/m_launchProcess.adoc[`m&lowbar;launchProcess`] 
+| 
+
+| xref:BaseInstance/m_rootDir.adoc[`m&lowbar;rootDir`] 
+| 
+
+| xref:BaseInstance/m_runtimeContext.adoc[`m&lowbar;runtimeContext`] 
+| 
+
+| xref:BaseInstance/m_settings.adoc[`m&lowbar;settings`] 
+| 
+
+| xref:BaseInstance/m_timeStarted.adoc[`m&lowbar;timeStarted`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

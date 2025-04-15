@@ -1,0 +1,82 @@
+[#ModListView]
+= ModListView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModListView.h#L20[ui&sol;widgets&sol;ModListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ModListView
+    : public xref:QTreeView.adoc[QTreeView];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/ScrollHint.adoc[`ScrollHint`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModListView/2constructor.adoc[`ModListView`]         [.small]#[constructor]#
+| 
+
+| xref:ModListView/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ModListView/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ModListView/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ModListView/setModel.adoc[`setModel`] 
+| 
+
+| xref:ModListView/setResizeModes.adoc[`setResizeModes`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModListView/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModListView/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/CursorAction.adoc[`CursorAction`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

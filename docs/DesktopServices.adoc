@@ -1,0 +1,46 @@
+[#DesktopServices]
+= DesktopServices
+:relfileprefix: 
+:mrdocs:
+
+
+This wraps around QDesktopServices and adds workarounds where needed
+Use this instead of QDesktopServices!
+
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:DesktopServices/isFlatpak.adoc[`isFlatpak`] 
+| Determine whether the launcher is running in a Flatpak environment
+
+
+
+| xref:DesktopServices/isSnap.adoc[`isSnap`] 
+| Determine whether the launcher is running in a Snap environment
+
+
+
+| xref:DesktopServices/openPath.adoc[`openPath`] 
+| Open a path in whatever application is applicable&period;
+
+
+
+| xref:DesktopServices/openUrl.adoc[`openUrl`] 
+| Open the URL, most likely in a browser&period; Maybe&period;
+
+
+
+| xref:DesktopServices/run.adoc[`run`] 
+| Run an application
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

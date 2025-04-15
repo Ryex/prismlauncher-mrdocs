@@ -1,0 +1,19 @@
+[#AutoInstallJava-2constructor]
+= xref:AutoInstallJava.adoc[AutoInstallJava]::AutoInstallJava
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/AutoInstallJava.h#L48[minecraft&sol;launch&sol;AutoInstallJava&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+AutoInstallJava(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

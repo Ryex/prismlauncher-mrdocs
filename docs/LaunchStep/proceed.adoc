@@ -1,0 +1,20 @@
+[#LaunchStep-proceed]
+= xref:LaunchStep.adoc[LaunchStep]::proceed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchStep.h#L37[launch&sol;LaunchStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+proceed();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PageContainer-addButtons-07]
+= xref:PageContainer.adoc[PageContainer]::addButtons
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L62[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addButtons(xref:QWidget.adoc[QWidget]* buttons);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

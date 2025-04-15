@@ -1,0 +1,18 @@
+[#AssetObject-hash]
+= xref:AssetObject.adoc[AssetObject]::hash
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L29[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] hash;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

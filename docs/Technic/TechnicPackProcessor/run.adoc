@@ -1,0 +1,25 @@
+[#Technic-TechnicPackProcessor-run]
+= xref:Technic.adoc[Technic]::xref:Technic/TechnicPackProcessor.adoc[TechnicPackProcessor]::run
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/TechnicPackProcessor.h#L31[modplatform&sol;technic&sol;TechnicPackProcessor&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+run(
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] globalSettings,
+    xref:QString.adoc[QString] const& instName,
+    xref:QString.adoc[QString] const& instIcon,
+    xref:QString.adoc[QString] const& stagingPath,
+    xref:QString.adoc[QString] const& minecraftVersion = QString(),
+    bool isSolder = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

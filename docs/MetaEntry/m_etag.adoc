@@ -1,0 +1,18 @@
+[#MetaEntry-m_etag]
+= xref:MetaEntry.adoc[MetaEntry]::m&lowbar;etag
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L84[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;etag;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

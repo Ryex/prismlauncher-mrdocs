@@ -1,0 +1,23 @@
+[#ProfileUtils-removeLwjglFromPatch]
+= xref:ProfileUtils.adoc[ProfileUtils]::removeLwjglFromPatch
+:relfileprefix: ../
+:mrdocs:
+
+
+Remove LWJGL from a patch file&period; This is applied to all Mojang&hyphen;like profile files&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L56[minecraft&sol;ProfileUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+removeLwjglFromPatch(xref:VersionFilePtr.adoc[VersionFilePtr] patch);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

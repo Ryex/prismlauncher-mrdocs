@@ -1,0 +1,86 @@
+[#Language]
+= Language
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L61[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Language;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Language/2constructor.adoc[`Language`]         [.small]#[constructor]#
+| 
+| xref:Language/apply.adoc[`apply`] 
+| 
+
+| xref:Language/isIdenticalTo.adoc[`isIdenticalTo`] 
+| 
+
+| xref:Language/isOfSameNameAs.adoc[`isOfSameNameAs`] 
+| 
+
+| xref:Language/languageName.adoc[`languageName`] 
+| 
+
+| xref:Language/percentTranslated.adoc[`percentTranslated`] 
+| 
+
+| xref:Language/setTranslationStats.adoc[`setTranslationStats`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Language/file_name.adoc[`file&lowbar;name`] 
+| 
+
+| xref:Language/file_sha1.adoc[`file&lowbar;sha1`] 
+| 
+
+| xref:Language/file_size.adoc[`file&lowbar;size`] 
+| 
+
+| xref:Language/fuzzy.adoc[`fuzzy`] 
+| 
+
+| xref:Language/key.adoc[`key`] 
+| 
+
+| xref:Language/localFileType.adoc[`localFileType`] 
+| 
+
+| xref:Language/locale.adoc[`locale`] 
+| 
+
+| xref:Language/total.adoc[`total`] 
+| 
+
+| xref:Language/translated.adoc[`translated`] 
+| 
+
+| xref:Language/untranslated.adoc[`untranslated`] 
+| 
+
+| xref:Language/updated.adoc[`updated`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

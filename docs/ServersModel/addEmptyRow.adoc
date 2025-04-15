@@ -1,0 +1,19 @@
+[#ServersModel-addEmptyRow]
+= xref:ServersModel.adoc[ServersModel]::addEmptyRow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L219[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+addEmptyRow(int position);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

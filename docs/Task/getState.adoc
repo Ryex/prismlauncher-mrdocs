@@ -1,0 +1,19 @@
+[#Task-getState]
+= xref:Task.adoc[Task]::getState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L120[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task/State.adoc[State]
+getState() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

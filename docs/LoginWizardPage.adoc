@@ -1,0 +1,88 @@
+[#LoginWizardPage]
+= LoginWizardPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/LoginWizardPage.h#L9[ui&sol;setupwizard&sol;LoginWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LoginWizardPage
+    : public xref:BaseWizardPage.adoc[BaseWizardPage];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoginWizardPage/2constructor.adoc[`LoginWizardPage`]         [.small]#[constructor]#
+| 
+
+| xref:LoginWizardPage/initializePage.adoc[`initializePage`] 
+| 
+
+| xref:LoginWizardPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LoginWizardPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LoginWizardPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BaseWizardPage/refresh.adoc[`refresh`] 
+| 
+
+| xref:LoginWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:LoginWizardPage/validatePage.adoc[`validatePage`] 
+| 
+
+| xref:BaseWizardPage/wantsRefreshButton.adoc[`wantsRefreshButton`] 
+| 
+
+| xref:LoginWizardPage/2destructor.adoc[`&tilde;LoginWizardPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoginWizardPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoginWizardPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BaseWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

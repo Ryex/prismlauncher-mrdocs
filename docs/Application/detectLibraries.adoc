@@ -1,0 +1,19 @@
+[#Application-detectLibraries]
+= xref:Application.adoc[Application]::detectLibraries
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L151[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+detectLibraries();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

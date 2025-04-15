@@ -1,0 +1,22 @@
+[#Ui-AtlPage]
+= xref:Ui.adoc[Ui]::AtlPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlPage.h#L48[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AtlPage
+    : public xref:Ui_AtlPage.adoc[Ui&lowbar;AtlPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

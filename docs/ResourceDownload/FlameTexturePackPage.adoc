@@ -1,0 +1,262 @@
+[#ResourceDownload-FlameTexturePackPage]
+= xref:ResourceDownload.adoc[ResourceDownload]::FlameTexturePackPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L133[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FlameTexturePackPage
+    : public xref:ResourceDownload/TexturePackResourcePage.adoc[TexturePackResourcePage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourcePage/DownloadTaskPtr.adoc[`DownloadTaskPtr`] 
+| 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/FlameTexturePackPage/2constructor.adoc[`FlameTexturePackPage`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceDownload/ResourcePage/addResourceToDialog.adoc[`addResourceToDialog`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/addResourceToPage.adoc[`addResourceToPage`] 
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/debugName.adoc[`debugName`] 
+| 
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:ResourceDownload/ResourcePage/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/getCurrentPack.adoc[`getCurrentPack`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/getDialog.adoc[`getDialog`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/getModel.adoc[`getModel`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/getSearchTerm.adoc[`getSearchTerm`] 
+| Get the current term in the search bar&period;
+
+
+
+| xref:ResourceDownload/ResourcePage/hasSelectedPacks.adoc[`hasSelectedPacks`] 
+| 
+
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:ResourceDownload/ResourcePage/metaEntryBase.adoc[`metaEntryBase`] 
+| 
+| xref:ResourceDownload/ResourcePage/metaObject.adoc[`metaObject`] 
+| 
+| xref:ResourceDownload/ResourcePage/openProject.adoc[`openProject`] 
+| 
+
+| xref:ResourceDownload/FlameTexturePackPage/openUrl.adoc[`openUrl`] 
+| 
+
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+| xref:ResourceDownload/ResourcePage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ResourceDownload/ResourcePage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:ResourceDownload/ResourcePage/removeResourceFromDialog.adoc[`removeResourceFromDialog`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/removeResourceFromPage.adoc[`removeResourceFromPage`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/resourceString.adoc[`resourceString`] 
+| 
+| xref:ResourceDownload/ResourcePage/resourcesString.adoc[`resourcesString`] 
+| 
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:ResourceDownload/ResourcePage/selectedPacks.adoc[`selectedPacks`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/setCurrentPack.adoc[`setCurrentPack`] 
+| 
+
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/setSearchTerm.adoc[`setSearchTerm`] 
+| Programatically set the term in the search bar&period;
+
+
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+| xref:ResourceDownload/ResourcePage/supportsFiltering.adoc[`supportsFiltering`] 
+| 
+| xref:ResourceDownload/ResourcePage/updateSelectionButton.adoc[`updateSelectionButton`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/updateUi.adoc[`updateUi`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/updateVersionList.adoc[`updateVersionList`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourcePage/urlHandlers.adoc[`urlHandlers`] 
+| 
+
+| xref:ResourceDownload/FlameTexturePackPage/2destructor.adoc[`&tilde;FlameTexturePackPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourcePackResourcePage/create.adoc[`create`] 
+| 
+| xref:ResourceDownload/ResourcePage/tr.adoc[`tr`] 
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_baseInstance.adoc[`m&lowbar;baseInstance`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourcePage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourcePage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ResourceDownload/TexturePackResourcePage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ResourceDownload/FlameTexturePackPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourcePage/addSortings.adoc[`addSortings`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/onResourceSelected.adoc[`onResourceSelected`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/onSelectionChanged.adoc[`onSelectionChanged`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/onVersionSelectionChanged.adoc[`onVersionSelectionChanged`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/openUrl.adoc[`openUrl`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/triggerSearch.adoc[`triggerSearch`] 
+| &ast;&ast;&ast;&ast;&ast;&ast; Callbacks to events in the UI (set up in the derived classes) &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+| xref:ResourceDownload/ResourcePage/urlHandlers.adoc[`urlHandlers`] 
+| Associates regex expressions to pages in the order they&apos;re given in the map&period;
+
+
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_doNotJumpToMod.adoc[`m&lowbar;doNotJumpToMod`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_fetchProgress.adoc[`m&lowbar;fetchProgress`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_model.adoc[`m&lowbar;model`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_parentDialog.adoc[`m&lowbar;parentDialog`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_searchTimer.adoc[`m&lowbar;searchTimer`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_selectedVersionIndex.adoc[`m&lowbar;selectedVersionIndex`] 
+| 
+
+| xref:ResourceDownload/ResourcePage/m_ui.adoc[`m&lowbar;ui`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

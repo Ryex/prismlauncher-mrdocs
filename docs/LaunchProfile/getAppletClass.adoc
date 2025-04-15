@@ -1,0 +1,19 @@
+[#LaunchProfile-getAppletClass]
+= xref:LaunchProfile.adoc[LaunchProfile]::getAppletClass
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L71[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getAppletClass() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

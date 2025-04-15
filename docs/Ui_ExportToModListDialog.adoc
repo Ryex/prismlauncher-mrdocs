@@ -1,0 +1,21 @@
+[#Ui_ExportToModListDialog]
+= Ui&lowbar;ExportToModListDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/build/launcher/ui_ExportToModListDialog.h#L31[&sol;home&sol;ryex&sol;projects&sol;prism&sol;build&sol;launcher&sol;ui&lowbar;ExportToModListDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Ui&lowbar;ExportToModListDialog;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

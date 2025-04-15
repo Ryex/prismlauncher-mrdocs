@@ -1,0 +1,19 @@
+[#Application-getUserAgent]
+= xref:Application.adoc[Application]::getUserAgent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L162[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getUserAgent();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

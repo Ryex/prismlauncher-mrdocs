@@ -1,0 +1,67 @@
+[#ThumbnailingResult]
+= ThumbnailingResult
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L74[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ThumbnailingResult
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThumbnailingResult/emitResultsFailed.adoc[`emitResultsFailed`] 
+| 
+
+| xref:ThumbnailingResult/emitResultsReady.adoc[`emitResultsReady`] 
+| 
+
+| xref:ThumbnailingResult/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ThumbnailingResult/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ThumbnailingResult/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ThumbnailingResult/resultsFailed.adoc[`resultsFailed`] 
+| 
+
+| xref:ThumbnailingResult/resultsReady.adoc[`resultsReady`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThumbnailingResult/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThumbnailingResult/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

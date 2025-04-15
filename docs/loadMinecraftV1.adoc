@@ -1,0 +1,22 @@
+[#loadMinecraftV1]
+= loadMinecraftV1
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.cpp#L17[modplatform&sol;flame&sol;PackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadMinecraftV1(
+    xref:Flame.adoc[Flame]::xref:Flame/Minecraft.adoc[Minecraft]& m,
+    xref:QJsonObject.adoc[QJsonObject]& minecraft);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#00namespace-LoadResult]
+= LoadResult
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L58[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum LoadResult : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`LoadedLocal`
+|
+|`RequiresRemote`
+|
+|`Failed`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

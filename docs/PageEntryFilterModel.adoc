@@ -1,0 +1,40 @@
+[#PageEntryFilterModel]
+= PageEntryFilterModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.cpp#L60[ui&sol;widgets&sol;PageContainer&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PageEntryFilterModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageEntryFilterModel/2constructor.adoc[`PageEntryFilterModel`]         [.small]#[constructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageEntryFilterModel/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

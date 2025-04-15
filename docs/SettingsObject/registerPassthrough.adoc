@@ -1,0 +1,39 @@
+[#SettingsObject-registerPassthrough]
+= xref:SettingsObject.adoc[SettingsObject]::registerPassthrough
+:relfileprefix: ../
+:mrdocs:
+
+
+Registers a passthorugh setting for the given original setting in this settings object
+gate decides if the passthrough (true) or the original (false) is used for value
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L77[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt;
+registerPassthrough(
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; original,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; gate);
+----
+
+== Description
+
+This will fail if there is already a setting with the same ID as
+the one that is being registered&period;
+
+
+
+== Return Value
+
+A valid Setting shared pointer if successful&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

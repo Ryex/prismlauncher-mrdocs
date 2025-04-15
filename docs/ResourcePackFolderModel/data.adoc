@@ -1,0 +1,23 @@
+[#ResourcePackFolderModel-data]
+= xref:ResourcePackFolderModel.adoc[ResourcePackFolderModel]::data
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourcePackFolderModel.h#L16[minecraft&sol;mod&sol;ResourcePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role = Qt&colon;&colon;DisplayRole) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

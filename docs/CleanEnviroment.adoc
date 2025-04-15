@@ -1,0 +1,19 @@
+[#CleanEnviroment]
+= CleanEnviroment
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L27[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QProcessEnvironment.adoc[QProcessEnvironment]
+CleanEnviroment();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#ResourceDownload-ModrinthShaderPackPage-shouldDisplay]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthShaderPackPage.adoc[ModrinthShaderPackPage]::shouldDisplay
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourcePages.h#L161[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+shouldDisplay() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

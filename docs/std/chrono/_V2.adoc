@@ -1,0 +1,24 @@
+[#std-chrono-_V2]
+= xref:std.adoc[std]::xref:std/chrono.adoc[chrono]::&lowbar;V2
+:relfileprefix: ../../
+:mrdocs:
+
+
+@&rcub;
+@&rcub; group chrono
+
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/chrono/_V2/steady_clock.adoc[`steady&lowbar;clock`] 
+| Monotonic clock
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

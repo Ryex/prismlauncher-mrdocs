@@ -1,0 +1,23 @@
+[#ModPlatform-s_indexed_version_type_names]
+= xref:ModPlatform.adoc[ModPlatform]::s&lowbar;indexed&lowbar;version&lowbar;type&lowbar;names
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.cpp#L28[modplatform&sol;ModIndex&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::xref:ModPlatform/IndexedVersionType/VersionType.adoc[VersionType]&gt; const s&lowbar;indexed&lowbar;version&lowbar;type&lowbar;names = &lcub;
+    &lcub; &quot;release&quot;, IndexedVersionType&colon;&colon;VersionType&colon;&colon;Release &rcub;,
+    &lcub; &quot;beta&quot;, IndexedVersionType&colon;&colon;VersionType&colon;&colon;Beta &rcub;,
+    &lcub; &quot;alpha&quot;, IndexedVersionType&colon;&colon;VersionType&colon;&colon;Alpha &rcub;
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

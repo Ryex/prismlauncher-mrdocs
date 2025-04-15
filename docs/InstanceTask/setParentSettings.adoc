@@ -1,0 +1,19 @@
+[#InstanceTask-setParentSettings]
+= xref:InstanceTask.adoc[InstanceTask]::setParentSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L38[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setParentSettings(xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

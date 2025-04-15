@@ -1,0 +1,20 @@
+[#PixmapCache-setInstance]
+= xref:PixmapCache.adoc[PixmapCache]::setInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L53[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+setInstance(xref:PixmapCache.adoc[PixmapCache]* i);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

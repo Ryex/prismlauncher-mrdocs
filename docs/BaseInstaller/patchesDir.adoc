@@ -1,0 +1,19 @@
+[#BaseInstaller-patchesDir]
+= xref:BaseInstaller.adoc[BaseInstaller]::patchesDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstaller.h#L43[BaseInstaller&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir]
+patchesDir(xref:QString.adoc[QString] const& root) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

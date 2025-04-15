@@ -1,0 +1,20 @@
+[#ATLauncher-PackInstallTask-abort]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackInstallTask.adoc[PackInstallTask]::abort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L92[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

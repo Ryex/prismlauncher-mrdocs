@@ -1,0 +1,20 @@
+[#WideBar-getVisibilityState]
+= xref:WideBar.adoc[WideBar]::getVisibilityState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L38[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QByteArray.adoc[QByteArray]
+getVisibilityState() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#Packwiz-V1-Side]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::Side
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L39[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Side : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ClientSide`
+|
+|`ServerSide`
+|
+|`UniversalSide`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

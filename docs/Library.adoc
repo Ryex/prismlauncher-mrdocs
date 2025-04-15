@@ -1,0 +1,200 @@
+[#Library]
+= Library
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L57[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Library;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Library/2constructor.adoc[`Library`]         [.small]#[constructor]#
+| 
+| xref:Library/artifactId.adoc[`artifactId`] 
+| get the artifact ID
+
+
+
+| xref:Library/artifactPrefix.adoc[`artifactPrefix`] 
+| returns the full group and artifact prefix
+
+
+
+| xref:Library/displayName.adoc[`displayName`] 
+| Get the display name for the library in the current runtime context&period;
+
+| xref:Library/filename.adoc[`filename`] 
+| Get the filename for the library in the current runtime context&period;
+
+| xref:Library/getApplicableFiles.adoc[`getApplicableFiles`] 
+| Collect applicable files for the library&period;
+
+| xref:Library/getCompatibleNative.adoc[`getCompatibleNative`] 
+| Get the compatible native classifier for the current runtime context&period;
+
+| xref:Library/getDownloads.adoc[`getDownloads`] 
+| Get download requests for the library files&period;
+
+| xref:Library/isActive.adoc[`isActive`] 
+| Check if the library is active in the given runtime context&period;
+
+| xref:Library/isAlwaysStale.adoc[`isAlwaysStale`] 
+| Check if the library is always considered stale&period;
+
+| xref:Library/isForge.adoc[`isForge`] 
+| Return true if the library requires forge XZ hacks
+
+
+
+| xref:Library/isLocal.adoc[`isLocal`] 
+| Check if the library is considered local&period;
+
+| xref:Library/isNative.adoc[`isNative`] 
+| Returns true if the library is native
+
+
+
+| xref:Library/rawName.adoc[`rawName`] 
+| Returns the raw name field
+
+
+
+| xref:Library/setAbsoluteUrl.adoc[`setAbsoluteUrl`] 
+| 
+
+| xref:Library/setClassifier.adoc[`setClassifier`] 
+| 
+
+| xref:Library/setDisplayName.adoc[`setDisplayName`] 
+| 
+
+| xref:Library/setFilename.adoc[`setFilename`] 
+| 
+
+| xref:Library/setHint.adoc[`setHint`] 
+| 
+
+| xref:Library/setMojangDownloadInfo.adoc[`setMojangDownloadInfo`] 
+| 
+
+| xref:Library/setRawName.adoc[`setRawName`] 
+| 
+
+| xref:Library/setRepositoryURL.adoc[`setRepositoryURL`] 
+| Set the url base for downloads
+
+
+
+| xref:Library/setRules.adoc[`setRules`] 
+| Set the load rules
+
+
+
+| xref:Library/setStoragePrefix.adoc[`setStoragePrefix`] 
+| Set the storage prefix for the library&period;
+
+| xref:Library/version.adoc[`version`] 
+| get the artifact version
+
+
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Library/limitedCopy.adoc[`limitedCopy`] 
+| limited copy without some data&period; TODO&colon; why?
+
+
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Library/applyRules.adoc[`applyRules`] 
+| true if the library had a rules section (even empty)
+
+
+
+| xref:Library/m_absoluteURL.adoc[`m&lowbar;absoluteURL`] 
+| DEPRECATED&colon; Prism Launcher&hyphen;specific absolute URL&period; takes precedence over the implicit maven repo URL, if defined
+
+
+
+| xref:Library/m_displayname.adoc[`m&lowbar;displayname`] 
+| DEPRECATED Prism Launcher extension &hyphen; display name
+
+
+
+| xref:Library/m_extractExcludes.adoc[`m&lowbar;extractExcludes`] 
+| a list of files that shouldn&apos;t be extracted from the library
+
+
+
+| xref:Library/m_filename.adoc[`m&lowbar;filename`] 
+| Prism Launcher extension &hyphen; filename override
+
+
+
+| xref:Library/m_hasExcludes.adoc[`m&lowbar;hasExcludes`] 
+| true if the library had an extract&sol;excludes section (even empty)
+
+
+
+| xref:Library/m_hint.adoc[`m&lowbar;hint`] 
+| Prism Launcher&hyphen;specific type hint &hyphen; modifies how the library is treated
+
+
+
+| xref:Library/m_mojangDownloads.adoc[`m&lowbar;mojangDownloads`] 
+| MOJANG&colon; container with Mojang style download info
+
+
+
+| xref:Library/m_name.adoc[`m&lowbar;name`] 
+| the basic gradle dependency specifier&period;
+
+
+
+| xref:Library/m_nativeClassifiers.adoc[`m&lowbar;nativeClassifiers`] 
+| native suffixes per OS
+
+
+
+| xref:Library/m_repositoryURL.adoc[`m&lowbar;repositoryURL`] 
+| DEPRECATED URL prefix of the maven repo where the file can be downloaded
+
+
+
+| xref:Library/m_rules.adoc[`m&lowbar;rules`] 
+| rules associated with the library
+
+
+
+| xref:Library/m_storagePrefix.adoc[`m&lowbar;storagePrefix`] 
+| storage &hyphen; by default the local libraries folder in Prism Launcher, but could be elsewhere
+Prism Launcher specific, because of FTB&period;
+
+
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

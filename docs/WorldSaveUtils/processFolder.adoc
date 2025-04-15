@@ -1,0 +1,21 @@
+[#WorldSaveUtils-processFolder]
+= xref:WorldSaveUtils.adoc[WorldSaveUtils]::processFolder
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalWorldSaveParseTask.h#L38[minecraft&sol;mod&sol;tasks&sol;LocalWorldSaveParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processFolder(
+    xref:WorldSave.adoc[WorldSave]& pack,
+    xref:WorldSaveUtils/ProcessingLevel.adoc[ProcessingLevel] level = ProcessingLevel&colon;&colon;Full);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

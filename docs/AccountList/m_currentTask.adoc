@@ -1,0 +1,18 @@
+[#AccountList-m_currentTask]
+= xref:AccountList.adoc[AccountList]::m&lowbar;currentTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L148[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:AuthFlow.adoc[AuthFlow]&gt; m&lowbar;currentTask;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

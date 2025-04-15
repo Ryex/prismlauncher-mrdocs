@@ -1,0 +1,18 @@
+[#ShaderPack-m_pack_format]
+= xref:ShaderPack.adoc[ShaderPack]::m&lowbar;pack&lowbar;format
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPack.h#L61[minecraft&sol;mod&sol;ShaderPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ShaderPackFormat.adoc[ShaderPackFormat] m&lowbar;pack&lowbar;format = ShaderPackFormat&colon;&colon;INVALID;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

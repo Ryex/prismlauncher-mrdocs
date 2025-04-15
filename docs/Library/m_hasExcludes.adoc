@@ -1,0 +1,22 @@
+[#Library-m_hasExcludes]
+= xref:Library.adoc[Library]::m&lowbar;hasExcludes
+:relfileprefix: ../
+:mrdocs:
+
+
+true if the library had an extract&sol;excludes section (even empty)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L194[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;hasExcludes = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

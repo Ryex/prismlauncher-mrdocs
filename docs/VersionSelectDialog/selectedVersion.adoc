@@ -1,0 +1,19 @@
+[#VersionSelectDialog-selectedVersion]
+= xref:VersionSelectDialog.adoc[VersionSelectDialog]::selectedVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/VersionSelectDialog.h#L40[ui&sol;dialogs&sol;VersionSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]
+selectedVersion() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

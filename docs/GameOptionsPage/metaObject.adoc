@@ -1,0 +1,20 @@
+[#GameOptionsPage-metaObject]
+= xref:GameOptionsPage.adoc[GameOptionsPage]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/GameOptionsPage.h#L52[ui&sol;pages&sol;instance&sol;GameOptionsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

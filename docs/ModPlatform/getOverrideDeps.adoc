@@ -1,0 +1,19 @@
+[#ModPlatform-getOverrideDeps]
+= xref:ModPlatform.adoc[ModPlatform]::getOverrideDeps
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L174[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform/OverrideDep.adoc[OverrideDep]&gt;
+getOverrideDeps();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

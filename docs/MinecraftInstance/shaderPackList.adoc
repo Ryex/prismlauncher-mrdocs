@@ -1,0 +1,19 @@
+[#MinecraftInstance-shaderPackList]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::shaderPackList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L118[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]&gt;
+shaderPackList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourceModel-getCurrentSortingMethodByIndex]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::getCurrentSortingMethodByIndex
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L116[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SortingMethod.adoc[SortingMethod]&gt;
+getCurrentSortingMethodByIndex() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

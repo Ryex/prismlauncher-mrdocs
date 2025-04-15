@@ -1,0 +1,19 @@
+[#NotesPage-2destructor]
+= xref:NotesPage.adoc[NotesPage]::&tilde;NotesPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/NotesPage.h#L53[ui&sol;pages&sol;instance&sol;NotesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;NotesPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

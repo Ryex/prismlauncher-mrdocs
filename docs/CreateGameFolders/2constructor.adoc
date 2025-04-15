@@ -1,0 +1,19 @@
+[#CreateGameFolders-2constructor]
+= xref:CreateGameFolders.adoc[CreateGameFolders]::CreateGameFolders
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/CreateGameFolders.h#L26[minecraft&sol;launch&sol;CreateGameFolders&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+CreateGameFolders(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

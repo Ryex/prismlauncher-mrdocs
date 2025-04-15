@@ -1,0 +1,19 @@
+[#InfoFrame-updateWithResourcePack]
+= xref:InfoFrame.adoc[InfoFrame]::updateWithResourcePack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L65[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateWithResourcePack(xref:ResourcePack.adoc[ResourcePack]& rp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

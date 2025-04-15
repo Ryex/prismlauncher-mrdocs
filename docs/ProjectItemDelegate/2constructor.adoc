@@ -1,0 +1,18 @@
+[#ProjectItemDelegate-2constructor]
+= xref:ProjectItemDelegate.adoc[ProjectItemDelegate]::ProjectItemDelegate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectItem.h#L22[ui&sol;widgets&sol;ProjectItem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ProjectItemDelegate(xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

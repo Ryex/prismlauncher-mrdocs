@@ -1,0 +1,22 @@
+[#Ui-CustomPage]
+= xref:Ui.adoc[Ui]::CustomPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/CustomPage.h#L45[ui&sol;pages&sol;modplatform&sol;CustomPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CustomPage
+    : public xref:Ui_CustomPage.adoc[Ui&lowbar;CustomPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

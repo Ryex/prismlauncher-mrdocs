@@ -1,0 +1,65 @@
+[#ProfileUtils]
+= ProfileUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileUtils/PatchOrder.adoc[`PatchOrder`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileUtils/createErrorVersionFile.adoc[`createErrorVersionFile`] 
+| 
+
+| xref:ProfileUtils/guardedParseJson.adoc[`guardedParseJson`] 
+| 
+
+| xref:ProfileUtils/parseJsonFile.adoc[`parseJsonFile`] 
+| Parse a version file in JSON format
+
+
+
+| xref:ProfileUtils/readOverrideOrders.adoc[`readOverrideOrders`] 
+| Read and parse a OneSix format order file
+
+
+
+| xref:ProfileUtils/removeLwjglFromPatch.adoc[`removeLwjglFromPatch`] 
+| Remove LWJGL from a patch file&period; This is applied to all Mojang&hyphen;like profile files&period;
+
+
+
+| xref:ProfileUtils/saveJsonFile.adoc[`saveJsonFile`] 
+| Save a JSON file (in any format)
+
+
+
+| xref:ProfileUtils/writeOverrideOrders.adoc[`writeOverrideOrders`] 
+| Write a OneSix format order file
+
+
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileUtils/currentOrderFileVersion.adoc[`currentOrderFileVersion`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

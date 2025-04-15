@@ -1,0 +1,19 @@
+[#GradleSpecifier-matchName]
+= xref:GradleSpecifier.adoc[GradleSpecifier]::matchName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L127[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+matchName(xref:GradleSpecifier.adoc[GradleSpecifier] const& other) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

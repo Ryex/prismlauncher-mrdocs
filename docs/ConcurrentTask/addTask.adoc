@@ -1,0 +1,23 @@
+[#ConcurrentTask-addTask]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::addTask
+:relfileprefix: ../
+:mrdocs:
+
+
+Adds a task to execute in this ConcurrentTask
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L67[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addTask(xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr] task);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,43 @@
+[#WorldSaveUtils-contains_level_dat-09]
+= xref:WorldSaveUtils.adoc[WorldSaveUtils]::contains&lowbar;level&lowbar;dat
+:relfileprefix: ../
+:mrdocs:
+
+
+checks a folder structure to see if it contains a level&period;dat
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalWorldSaveParseTask.cpp#L108[minecraft&sol;mod&sol;tasks&sol;LocalWorldSaveParseTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:std.adoc[std]::xref:std/tuple.adoc[tuple]&lt;bool, xref:QString.adoc[QString], bool&gt;
+contains&lowbar;level&lowbar;dat(xref:QuaZip.adoc[QuaZip]& zip);
+----
+
+== Return Value
+
+std&colon;&colon;tuple of (
+bool&lt;found level&period;dat&gt;,
+QString&lt;name of folder containing level&period;dat&gt;,
+bool&lt;saves folder found&gt;
+)
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *zip*
+| the zip file to check
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

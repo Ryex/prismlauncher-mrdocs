@@ -1,0 +1,21 @@
+[#ResourceDownload-checkSide]
+= xref:ResourceDownload.adoc[ResourceDownload]::checkSide
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.cpp#L104[ui&sol;pages&sol;modplatform&sol;ModModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+checkSide(
+    xref:QString.adoc[QString] filter,
+    xref:QString.adoc[QString] value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

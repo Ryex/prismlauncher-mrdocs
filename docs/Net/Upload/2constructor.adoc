@@ -1,0 +1,19 @@
+[#Net-Upload-2constructor]
+= xref:Net.adoc[Net]::xref:Net/Upload.adoc[Upload]::Upload
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Upload.h#L48[net&sol;Upload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+Upload();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

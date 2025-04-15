@@ -1,0 +1,19 @@
+[#CheckJava-2destructor]
+= xref:CheckJava.adoc[CheckJava]::&tilde;CheckJava
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/CheckJava.h#L26[launch&sol;steps&sol;CheckJava&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;CheckJava() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#EnvironmentVariables-initialize]
+= xref:EnvironmentVariables.adoc[EnvironmentVariables]::initialize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/EnvironmentVariables.h#L34[ui&sol;widgets&sol;EnvironmentVariables&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+initialize(
+    bool instance,
+    bool override,
+    xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QVariant.adoc[QVariant]&gt; const& value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#CopyInstanceDialog-instName]
+= xref:CopyInstanceDialog.adoc[CopyInstanceDialog]::instName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/CopyInstanceDialog.h#L38[ui&sol;dialogs&sol;CopyInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+instName() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

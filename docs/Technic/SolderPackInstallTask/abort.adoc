@@ -1,0 +1,20 @@
+[#Technic-SolderPackInstallTask-abort]
+= xref:Technic.adoc[Technic]::xref:Technic/SolderPackInstallTask.adoc[SolderPackInstallTask]::abort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackInstallTask.h#L56[modplatform&sol;technic&sol;SolderPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

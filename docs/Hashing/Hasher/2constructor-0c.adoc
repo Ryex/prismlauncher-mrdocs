@@ -1,0 +1,20 @@
+[#Hashing-Hasher-2constructor-0c]
+= xref:Hashing.adoc[Hashing]::xref:Hashing/Hasher.adoc[Hasher]::Hasher
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L27[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Hasher(
+    xref:QString.adoc[QString] file&lowbar;path,
+    xref:QString.adoc[QString] alg);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Application-showMainWindow]
+= xref:Application.adoc[Application]::showMainWindow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L185[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MainWindow.adoc[MainWindow]*
+showMainWindow(bool minimized = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

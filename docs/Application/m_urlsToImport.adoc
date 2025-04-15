@@ -1,0 +1,18 @@
+[#Application-m_urlsToImport]
+= xref:Application.adoc[Application]::m&lowbar;urlsToImport
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L308[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:QUrl.adoc[QUrl]&gt; m&lowbar;urlsToImport;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

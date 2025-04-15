@@ -1,0 +1,18 @@
+[#ATLauncher-VersionLibrary-download_raw]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionLibrary.adoc[VersionLibrary]::download&lowbar;raw
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L87[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] download&lowbar;raw;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

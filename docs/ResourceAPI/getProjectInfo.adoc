@@ -1,0 +1,23 @@
+[#ResourceAPI-getProjectInfo]
+= xref:ResourceAPI.adoc[ResourceAPI]::getProjectInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L152[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getProjectInfo(
+    xref:ResourceAPI/ProjectInfoArgs.adoc[ProjectInfoArgs]&&,
+    xref:ResourceAPI/ProjectInfoCallbacks.adoc[ProjectInfoCallbacks]&&) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

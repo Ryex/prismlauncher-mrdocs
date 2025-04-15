@@ -1,0 +1,18 @@
+[#PageModel-m_emptyIcon]
+= xref:PageModel.adoc[PageModel]::m&lowbar;emptyIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer_p.h#L82[ui&sol;widgets&sol;PageContainer&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QIcon.adoc[QIcon] m&lowbar;emptyIcon;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

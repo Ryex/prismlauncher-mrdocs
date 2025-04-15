@@ -1,0 +1,18 @@
+[#VersionFilterModel-2constructor]
+= xref:VersionFilterModel.adoc[VersionFilterModel]::VersionFilterModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.cpp#L47[VersionProxyModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+VersionFilterModel(xref:VersionProxyModel.adoc[VersionProxyModel]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

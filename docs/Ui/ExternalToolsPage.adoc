@@ -1,0 +1,22 @@
+[#Ui-ExternalToolsPage]
+= xref:Ui.adoc[Ui]::ExternalToolsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/ExternalToolsPage.h#L44[ui&sol;pages&sol;global&sol;ExternalToolsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExternalToolsPage
+    : public xref:Ui_ExternalToolsPage.adoc[Ui&lowbar;ExternalToolsPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

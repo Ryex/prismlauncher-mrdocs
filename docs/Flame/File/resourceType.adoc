@@ -1,0 +1,18 @@
+[#Flame-File-resourceType]
+= xref:Flame.adoc[Flame]::xref:Flame/File.adoc[File]::resourceType
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L58[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:PackedResourceType.adoc[PackedResourceType] resourceType;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

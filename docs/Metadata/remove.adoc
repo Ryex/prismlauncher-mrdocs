@@ -1,0 +1,33 @@
+[#Metadata-remove]
+= xref:Metadata.adoc[Metadata]::remove
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/MetadataHandler.h#L48[minecraft&sol;mod&sol;MetadataHandler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:Metadata/remove-04c.adoc[remove](
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:QString.adoc[QString] mod&lowbar;slug);
+----
+
+[.small]#xref:Metadata/remove-04c.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:Metadata/remove-041.adoc[remove](
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:QVariant.adoc[QVariant]& mod&lowbar;id);
+----
+
+[.small]#xref:Metadata/remove-041.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

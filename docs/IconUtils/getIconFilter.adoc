@@ -1,0 +1,19 @@
+[#IconUtils-getIconFilter]
+= xref:IconUtils.adoc[IconUtils]::getIconFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconUtils.h#L46[icons&sol;IconUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getIconFilter();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

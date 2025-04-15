@@ -1,0 +1,24 @@
+[#InstanceList-destroyStagingPath]
+= xref:InstanceList.adoc[InstanceList]::destroyStagingPath
+:relfileprefix: ../
+:mrdocs:
+
+
+Destroy a previously created staging area given by  &hyphen; used when creation fails&period;
+Used by instance manipulation tasks&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L139[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+destroyStagingPath(xref:QString.adoc[QString] const& keyPath);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

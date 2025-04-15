@@ -1,0 +1,18 @@
+[#Flame-IndexedPack-name]
+= xref:Flame.adoc[Flame]::xref:Flame/IndexedPack.adoc[IndexedPack]::name
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L35[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

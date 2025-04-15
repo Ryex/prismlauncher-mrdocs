@@ -1,0 +1,19 @@
+[#AccountList-at]
+= xref:AccountList.adoc[AccountList]::at
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L68[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr] const
+at(int i) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

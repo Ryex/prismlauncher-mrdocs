@@ -1,0 +1,22 @@
+[#TexturePackPage-2constructor]
+= xref:TexturePackPage.adoc[TexturePackPage]::TexturePackPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/TexturePackPage.h#L48[ui&sol;pages&sol;instance&sol;TexturePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+TexturePackPage(
+    xref:MinecraftInstance.adoc[MinecraftInstance]* instance,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:TexturePackFolderModel.adoc[TexturePackFolderModel]&gt; model,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

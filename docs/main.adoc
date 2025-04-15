@@ -1,0 +1,21 @@
+[#main]
+= main
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/main.cpp#L47[main&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+main(
+    int argc,
+    char* argv[]);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

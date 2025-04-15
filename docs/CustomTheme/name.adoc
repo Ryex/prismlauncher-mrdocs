@@ -1,0 +1,20 @@
+[#CustomTheme-name]
+= xref:CustomTheme.adoc[CustomTheme]::name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CustomTheme.h#L47[ui&sol;themes&sol;CustomTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+name() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

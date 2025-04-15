@@ -1,0 +1,47 @@
+[#Hashing]
+= Hashing
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Hashing/Hasher.adoc[`Hasher`] 
+| 
+
+| xref:Hashing/QIODeviceReader.adoc[`QIODeviceReader`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Hashing/Algorithm.adoc[`Algorithm`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Hashing/algorithmFromString.adoc[`algorithmFromString`] 
+| 
+
+| xref:Hashing/algorithmToString.adoc[`algorithmToString`] 
+| 
+
+| xref:Hashing/createHasher.adoc[`createHasher`] 
+| 
+| xref:Hashing/hash.adoc[`hash`] 
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

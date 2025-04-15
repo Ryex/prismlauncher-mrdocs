@@ -1,0 +1,19 @@
+[#LaunchStep-progressReportingRequest]
+= xref:LaunchStep.adoc[LaunchStep]::progressReportingRequest
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchStep.h#L34[launch&sol;LaunchStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+progressReportingRequest();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

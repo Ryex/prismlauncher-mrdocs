@@ -1,0 +1,18 @@
+[#ResourceDownload-FlameModModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameModModel.adoc[FlameModModel]::FlameModModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourceModels.h#L17[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FlameModModel(xref:BaseInstance.adoc[BaseInstance]&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

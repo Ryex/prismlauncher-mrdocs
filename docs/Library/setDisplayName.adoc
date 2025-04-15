@@ -1,0 +1,19 @@
+[#Library-setDisplayName]
+= xref:Library.adoc[Library]::setDisplayName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L122[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setDisplayName(xref:QString.adoc[QString] const& displayName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

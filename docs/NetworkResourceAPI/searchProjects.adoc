@@ -1,0 +1,22 @@
+[#NetworkResourceAPI-searchProjects]
+= xref:NetworkResourceAPI.adoc[NetworkResourceAPI]::searchProjects
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/NetworkResourceAPI.h#L12[modplatform&sol;helpers&sol;NetworkResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+searchProjects(
+    xref:ResourceAPI/SearchArgs.adoc[SearchArgs]&&,
+    xref:ResourceAPI/SearchCallbacks.adoc[SearchCallbacks]&&) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Java-InstallDialog-2constructor]
+= xref:Java.adoc[Java]::xref:Java/InstallDialog.adoc[InstallDialog]::InstallDialog
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.h#L35[ui&sol;java&sol;InstallJavaDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+InstallDialog(
+    xref:QString.adoc[QString] const& uid = QString(),
+    xref:BaseInstance.adoc[BaseInstance]* instance = nullptr,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

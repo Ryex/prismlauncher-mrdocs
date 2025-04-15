@@ -1,0 +1,24 @@
+[#loadPackProfile]
+= loadPackProfile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.cpp#L176[minecraft&sol;PackProfile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:PackProfile.adoc[PackProfile]::xref:PackProfile/Result.adoc[Result]
+loadPackProfile(
+    xref:PackProfile.adoc[PackProfile]* parent,
+    xref:QString.adoc[QString] const& filename,
+    xref:QString.adoc[QString] const& componentJsonPattern,
+    xref:ComponentContainer.adoc[ComponentContainer]& container);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

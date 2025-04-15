@@ -1,0 +1,19 @@
+[#BaseInstance-setVersionBroken]
+= xref:BaseInstance.adoc[BaseInstance]::setVersionBroken
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L225[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setVersionBroken(bool value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#ResourceDownload-ModPage-supportsFiltering]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModPage.adoc[ModPage]::supportsFiltering
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModPage.h#L55[ui&sol;pages&sol;modplatform&sol;ModPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+supportsFiltering() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

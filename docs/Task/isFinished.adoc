@@ -1,0 +1,19 @@
+[#Task-isFinished]
+= xref:Task.adoc[Task]::isFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L101[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isFinished() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

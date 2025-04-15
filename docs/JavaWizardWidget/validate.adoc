@@ -1,0 +1,19 @@
+[#JavaWizardWidget-validate]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::validate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L35[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaWizardWidget/ValidationStatus.adoc[ValidationStatus]
+validate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

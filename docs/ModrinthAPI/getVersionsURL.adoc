@@ -1,0 +1,20 @@
+[#ModrinthAPI-getVersionsURL]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getVersionsURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L176[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt;
+getVersionsURL(xref:ResourceAPI/VersionSearchArgs.adoc[VersionSearchArgs] const& args) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

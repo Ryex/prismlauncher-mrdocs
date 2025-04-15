@@ -1,0 +1,19 @@
+[#ImportResourceDialog-staticMetaObject]
+= xref:ImportResourceDialog.adoc[ImportResourceDialog]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ImportResourceDialog.h#L14[ui&sol;dialogs&sol;ImportResourceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

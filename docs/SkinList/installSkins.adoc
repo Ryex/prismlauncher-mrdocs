@@ -1,0 +1,19 @@
+[#SkinList-installSkins]
+= xref:SkinList.adoc[SkinList]::installSkins
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L48[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+installSkins(xref:QStringList.adoc[QStringList] const& iconFiles);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

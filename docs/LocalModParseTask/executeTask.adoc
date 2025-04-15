@@ -1,0 +1,20 @@
+[#LocalModParseTask-executeTask]
+= xref:LocalModParseTask.adoc[LocalModParseTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L46[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

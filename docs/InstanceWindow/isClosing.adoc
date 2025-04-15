@@ -1,0 +1,19 @@
+[#InstanceWindow-isClosing]
+= xref:InstanceWindow.adoc[InstanceWindow]::isClosing
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/InstanceWindow.h#L72[ui&sol;InstanceWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+isClosing();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

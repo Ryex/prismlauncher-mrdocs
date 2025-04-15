@@ -1,0 +1,27 @@
+[#QMetaTypeId-0e-03enum]
+= Unnamed enum
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L58[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum &lt;unnamed&gt;;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Defined`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

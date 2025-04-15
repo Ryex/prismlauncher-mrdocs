@@ -1,0 +1,23 @@
+[#ResourceAPI-getDependencyVersion]
+= xref:ResourceAPI.adoc[ResourceAPI]::getDependencyVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L163[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getDependencyVersion(
+    xref:ResourceAPI/DependencySearchArgs.adoc[DependencySearchArgs]&&,
+    xref:ResourceAPI/DependencySearchCallbacks.adoc[DependencySearchCallbacks]&&) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

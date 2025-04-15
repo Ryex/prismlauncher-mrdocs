@@ -1,0 +1,20 @@
+[#Java-ManifestDownloadTask-qt_metacast]
+= xref:Java.adoc[Java]::xref:Java/ManifestDownloadTask.adoc[ManifestDownloadTask]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.h#L27[java&sol;download&sol;ManifestDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

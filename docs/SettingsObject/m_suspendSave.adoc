@@ -1,0 +1,18 @@
+[#SettingsObject-m_suspendSave]
+= xref:SettingsObject.adoc[SettingsObject]::m&lowbar;suspendSave
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L202[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;suspendSave = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

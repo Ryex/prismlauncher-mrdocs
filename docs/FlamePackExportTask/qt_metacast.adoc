@@ -1,0 +1,20 @@
+[#FlamePackExportTask-qt_metacast]
+= xref:FlamePackExportTask.adoc[FlamePackExportTask]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackExportTask.h#L29[modplatform&sol;flame&sol;FlamePackExportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

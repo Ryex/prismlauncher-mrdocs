@@ -1,0 +1,19 @@
+[#MinecraftInstance-modsCacheLocation]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::modsCacheLocation
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L83[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+modsCacheLocation() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#SkinModel-getPreview]
+= xref:SkinModel.adoc[SkinModel]::getPreview
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L39[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QImage.adoc[QImage]
+getPreview() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

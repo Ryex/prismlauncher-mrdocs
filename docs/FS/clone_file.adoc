@@ -1,0 +1,24 @@
+[#FS-clone_file]
+= xref:FS.adoc[FS]::clone&lowbar;file
+:relfileprefix: ../
+:mrdocs:
+
+
+clone&sol;reflink file from src to dst
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L529[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+clone&lowbar;file(
+    xref:QString.adoc[QString] const& src,
+    xref:QString.adoc[QString] const& dst,
+    xref:std.adoc[std]::xref:std/error_code.adoc[error&lowbar;code]& ec);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

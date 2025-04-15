@@ -1,0 +1,19 @@
+[#SkinManageDialog-on_openDirBtn_clicked]
+= xref:SkinManageDialog.adoc[SkinManageDialog]::on&lowbar;openDirBtn&lowbar;clicked
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/SkinManageDialog.h#L47[ui&sol;dialogs&sol;skins&sol;SkinManageDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;openDirBtn&lowbar;clicked();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

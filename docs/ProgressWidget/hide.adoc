@@ -1,0 +1,23 @@
+[#ProgressWidget-hide]
+= xref:ProgressWidget.adoc[ProgressWidget]::hide
+:relfileprefix: ../
+:mrdocs:
+
+
+Make the widget invisible&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L42[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+hide();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

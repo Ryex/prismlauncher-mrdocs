@@ -1,0 +1,20 @@
+[#Meta-parseIndexInternal]
+= xref:Meta.adoc[Meta]::parseIndexInternal
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.cpp#L36[meta&sol;JsonFormat&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Meta/Index.adoc[Index]&gt;
+parseIndexInternal(xref:QJsonObject.adoc[QJsonObject] const& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

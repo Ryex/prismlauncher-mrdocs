@@ -1,0 +1,18 @@
+[#PSaveFile-2constructor-0c]
+= xref:PSaveFile.adoc[PSaveFile]::PSaveFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/PSaveFile.h#L50[PSaveFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+PSaveFile(xref:QString.adoc[QString] const& name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#AtlOptionalModDialog-2constructor]
+= xref:AtlOptionalModDialog.adoc[AtlOptionalModDialog]::AtlOptionalModDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.h#L100[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlOptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+AtlOptionalModDialog(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackVersion.adoc[PackVersion] const& version,
+    xref:QVector.adoc[QVector]&lt;xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionMod.adoc[VersionMod]&gt; mods);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

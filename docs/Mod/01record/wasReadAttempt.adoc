@@ -1,0 +1,18 @@
+[#Mod-01record-wasReadAttempt]
+= xref:Mod.adoc[Mod]::wasReadAttempt
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L105[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool wasReadAttempt = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#NewComponentDialog-2constructor]
+= xref:NewComponentDialog.adoc[NewComponentDialog]::NewComponentDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewComponentDialog.h#L31[ui&sol;dialogs&sol;NewComponentDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+NewComponentDialog(
+    xref:QString.adoc[QString] const& initialName = QString(),
+    xref:QString.adoc[QString] const& initialUid = QString(),
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

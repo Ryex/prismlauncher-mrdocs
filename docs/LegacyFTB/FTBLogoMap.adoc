@@ -1,0 +1,18 @@
+[#LegacyFTB-FTBLogoMap]
+= xref:LegacyFTB.adoc[LegacyFTB]::FTBLogoMap
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L16[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using FTBLogoMap = xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QIcon.adoc[QIcon]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#InfoFrame-descriptionEllipsisHandler]
+= xref:InfoFrame.adoc[InfoFrame]::descriptionEllipsisHandler
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L71[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+descriptionEllipsisHandler(xref:QString.adoc[QString] link);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

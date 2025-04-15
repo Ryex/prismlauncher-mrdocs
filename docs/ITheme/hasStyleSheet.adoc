@@ -1,0 +1,20 @@
+[#ITheme-hasStyleSheet]
+= xref:ITheme.adoc[ITheme]::hasStyleSheet
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ITheme.h#L57[ui&sol;themes&sol;ITheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+hasStyleSheet() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

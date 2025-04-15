@@ -1,0 +1,19 @@
+[#00namespace-runLspci]
+= runLspci
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/PrintInstanceInfo.cpp#L36[minecraft&sol;launch&sol;PrintInstanceInfo&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+runLspci(xref:QStringList.adoc[QStringList]& log);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#McClient-getStatusData]
+= xref:McClient.adoc[McClient]::getStatusData
+:relfileprefix: ../
+:mrdocs:
+
+
+Read status data of the server, and calls the succeeded() signal with the parsed JSON data
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/McClient.h#L28[ui&sol;pages&sol;instance&sol;McClient&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+getStatusData();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

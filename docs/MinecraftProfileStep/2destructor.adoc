@@ -1,0 +1,19 @@
+[#MinecraftProfileStep-2destructor]
+= xref:MinecraftProfileStep.adoc[MinecraftProfileStep]::&tilde;MinecraftProfileStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MinecraftProfileStep.h#L14[minecraft&sol;auth&sol;steps&sol;MinecraftProfileStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;MinecraftProfileStep() noexcept = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

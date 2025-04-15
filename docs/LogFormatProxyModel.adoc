@@ -1,0 +1,41 @@
+[#LogFormatProxyModel]
+= LogFormatProxyModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/LogPage.cpp#L55[ui&sol;pages&sol;instance&sol;LogPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LogFormatProxyModel
+    : public xref:QIdentityProxyModel.adoc[QIdentityProxyModel]
+    , public xref:QIdentityProxyModel.adoc[QIdentityProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogFormatProxyModel/2constructor.adoc[`LogFormatProxyModel`]         [.small]#[constructor]#
+| 
+
+| xref:LogFormatProxyModel/data.adoc[`data`] 
+| 
+
+| xref:LogFormatProxyModel/find.adoc[`find`] 
+| 
+
+| xref:LogFormatProxyModel/setFont.adoc[`setFont`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

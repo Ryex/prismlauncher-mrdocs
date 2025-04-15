@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceModel-m_current_icon_job]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::m&lowbar;current&lowbar;icon&lowbar;job
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L150[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:NetJob.adoc[NetJob]&gt; m&lowbar;current&lowbar;icon&lowbar;job;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#WaitTask-2destructor]
+= xref:WaitTask.adoc[WaitTask]::&tilde;WaitTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/SkinManageDialog.cpp#L391[ui&sol;dialogs&sol;skins&sol;SkinManageDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;WaitTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

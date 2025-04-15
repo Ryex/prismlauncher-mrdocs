@@ -1,0 +1,19 @@
+[#World-isValid]
+= xref:World.adoc[World]::isValid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L42[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isValid() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LogView-2constructor]
+= xref:LogView.adoc[LogView]::LogView
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L10[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LogView(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

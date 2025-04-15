@@ -1,0 +1,18 @@
+[#InstanceCreationTask-m_abort]
+= xref:InstanceCreationTask.adoc[InstanceCreationTask]::m&lowbar;abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCreationTask.h#L40[InstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;abort = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,35 @@
+[#Setting-set]
+= xref:Setting.adoc[Setting]::set
+:relfileprefix: ../
+:mrdocs:
+
+
+Changes the setting&apos;s value&period;
+This is done by emitting the SettingChanged() signal which will then be
+handled by the SettingsObject object and cause the setting to change&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L95[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+set(xref:QVariant.adoc[QVariant] value);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *value*
+| The new value&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

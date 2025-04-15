@@ -1,0 +1,19 @@
+[#InstanceProxyModel-staticMetaObject]
+= xref:InstanceProxyModel.adoc[InstanceProxyModel]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceProxyModel.h#L22[ui&sol;instanceview&sol;InstanceProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

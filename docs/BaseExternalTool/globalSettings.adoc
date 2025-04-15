@@ -1,0 +1,18 @@
+[#BaseExternalTool-globalSettings]
+= xref:BaseExternalTool.adoc[BaseExternalTool]::globalSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseExternalTool.h#L18[tools&sol;BaseExternalTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SettingsObjectPtr.adoc[SettingsObjectPtr] globalSettings;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

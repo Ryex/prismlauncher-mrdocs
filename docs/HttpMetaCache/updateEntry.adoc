@@ -1,0 +1,19 @@
+[#HttpMetaCache-updateEntry]
+= xref:HttpMetaCache.adoc[HttpMetaCache]::updateEntry
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L112[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+updateEntry(xref:MetaEntryPtr.adoc[MetaEntryPtr] stale&lowbar;entry);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ExportPackDialog-validate]
+= xref:ExportPackDialog.adoc[ExportPackDialog]::validate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportPackDialog.h#L41[ui&sol;dialogs&sol;ExportPackDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+validate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

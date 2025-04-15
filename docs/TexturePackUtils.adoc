@@ -1,0 +1,47 @@
+[#TexturePackUtils]
+= TexturePackUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TexturePackUtils/ProcessingLevel.adoc[`ProcessingLevel`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TexturePackUtils/process.adoc[`process`] 
+| 
+
+| xref:TexturePackUtils/processFolder.adoc[`processFolder`] 
+| 
+
+| xref:TexturePackUtils/processPackPNG.adoc[`processPackPNG`] 
+| processes ONLY the pack&period;png (rest of the pack may be invalid)
+
+
+
+| xref:TexturePackUtils/processPackTXT.adoc[`processPackTXT`] 
+| 
+
+| xref:TexturePackUtils/processZIP.adoc[`processZIP`] 
+| 
+
+| xref:TexturePackUtils/validate.adoc[`validate`] 
+| Checks whether a file is valid as a texture pack or not&period;
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

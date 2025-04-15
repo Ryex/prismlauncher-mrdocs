@@ -1,0 +1,23 @@
+[#TexturePackFolderModel-data]
+= xref:TexturePackFolderModel.adoc[TexturePackFolderModel]::data
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePackFolderModel.h#L53[minecraft&sol;mod&sol;TexturePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role = Qt&colon;&colon;DisplayRole) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,157 @@
+[#NewsChecker]
+= NewsChecker
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L26[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NewsChecker
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsChecker/2constructor.adoc[`NewsChecker`]         [.small]#[constructor]#
+| Constructs a news reader to read from the given RSS feed URL&period;
+
+
+
+| xref:NewsChecker/getLastLoadErrorMsg.adoc[`getLastLoadErrorMsg`] 
+| Returns the error message for the last time the news was loaded&period;
+Empty string if the last load was successful&period;
+
+
+
+| xref:NewsChecker/getNewsEntries.adoc[`getNewsEntries`] 
+| Returns a list of news entries&period;
+
+
+
+| xref:NewsChecker/isLoadingNews.adoc[`isLoadingNews`] 
+| True if the news is currently loading&period; If true, reloadNews() will do nothing&period;
+
+
+
+| xref:NewsChecker/isNewsLoaded.adoc[`isNewsLoaded`] 
+| Returns true if the news has been loaded successfully&period;
+
+
+
+| xref:NewsChecker/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:NewsChecker/newsLoaded.adoc[`newsLoaded`] 
+| Signal fired after the news has finished loading&period;
+
+
+
+| xref:NewsChecker/newsLoadingFailed.adoc[`newsLoadingFailed`] 
+| Signal fired after the news fails to load&period;
+
+
+
+| xref:NewsChecker/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:NewsChecker/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:NewsChecker/reloadNews.adoc[`reloadNews`] 
+| Reloads the news from the website&apos;s RSS feed&period;
+If the news is already loading, this does nothing&period;
+
+
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsChecker/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsChecker/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsChecker/fail.adoc[`fail`] 
+| Emits newsLoadingFailed() and sets m&lowbar;lastLoadError to the given message&period;
+
+
+
+| xref:NewsChecker/rssDownloadFailed.adoc[`rssDownloadFailed`] 
+| 
+
+| xref:NewsChecker/rssDownloadFinished.adoc[`rssDownloadFinished`] 
+| 
+
+| xref:NewsChecker/succeed.adoc[`succeed`] 
+| Emits newsLoaded() and sets m&lowbar;lastLoadError to empty string&period;
+
+
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsChecker/m_feedUrl.adoc[`m&lowbar;feedUrl`] 
+| The URL for the RSS feed to fetch&period;
+
+
+
+| xref:NewsChecker/m_lastLoadError.adoc[`m&lowbar;lastLoadError`] 
+| Gets the error message that was given last time the news was loaded&period;
+If the last news load succeeded, this will be an empty string&period;
+
+
+
+| xref:NewsChecker/m_loadedNews.adoc[`m&lowbar;loadedNews`] 
+| True if news has been loaded&period;
+
+
+
+| xref:NewsChecker/m_network.adoc[`m&lowbar;network`] 
+| 
+
+| xref:NewsChecker/m_newsEntries.adoc[`m&lowbar;newsEntries`] 
+| List of news entries&period;
+
+
+
+| xref:NewsChecker/m_newsNetJob.adoc[`m&lowbar;newsNetJob`] 
+| The network job to use to load the news&period;
+
+
+
+| xref:NewsChecker/newsData.adoc[`newsData`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

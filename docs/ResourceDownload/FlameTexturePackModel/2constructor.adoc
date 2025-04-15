@@ -1,0 +1,18 @@
+[#ResourceDownload-FlameTexturePackModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameTexturePackModel.adoc[FlameTexturePackModel]::FlameTexturePackModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourceModels.h#L58[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FlameTexturePackModel(xref:BaseInstance.adoc[BaseInstance] const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

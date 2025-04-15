@@ -1,0 +1,213 @@
+[#InstanceView]
+= InstanceView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L49[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InstanceView
+    : public xref:QAbstractItemView.adoc[QAbstractItemView]
+    , public xref:QAbstractItemView.adoc[QAbstractItemView]
+    , public xref:QAbstractItemView.adoc[QAbstractItemView];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceView/visibilityFunction.adoc[`visibilityFunction`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/ScrollHint.adoc[`ScrollHint`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceView/2constructor.adoc[`InstanceView`]         [.small]#[constructor]#
+| 
+
+| xref:InstanceView/droppedURLs.adoc[`droppedURLs`] 
+| 
+
+| xref:InstanceView/geometryRect.adoc[`geometryRect`] 
+| return geometry rectangle occupied by the specified model item
+
+
+
+| xref:InstanceView/groupNameAt.adoc[`groupNameAt`] 
+| 
+
+| xref:InstanceView/groupStateChanged.adoc[`groupStateChanged`] 
+| 
+
+| xref:InstanceView/horizontalOffset.adoc[`horizontalOffset`] 
+| 
+
+| xref:InstanceView/indexAt.adoc[`indexAt`] 
+| get the model index at the specified visual point
+
+
+
+| xref:InstanceView/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:InstanceView/moveCursor.adoc[`moveCursor`] 
+| 
+
+| xref:InstanceView/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:InstanceView/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:InstanceView/scrollContentsBy.adoc[`scrollContentsBy`] 
+| 
+
+| xref:InstanceView/scrollTo.adoc[`scrollTo`] 
+| 
+
+| xref:InstanceView/setModel.adoc[`setModel`] 
+| 
+
+| xref:InstanceView/setPaintCat.adoc[`setPaintCat`] 
+| 
+
+| xref:InstanceView/setSelection.adoc[`setSelection`] 
+| 
+
+| xref:InstanceView/setSourceOfGroupCollapseStatus.adoc[`setSourceOfGroupCollapseStatus`] 
+| 
+
+| xref:InstanceView/spacing.adoc[`spacing`] 
+| 
+
+| xref:InstanceView/updateGeometries.adoc[`updateGeometries`] 
+| 
+
+| xref:InstanceView/verticalOffset.adoc[`verticalOffset`] 
+| 
+
+| xref:InstanceView/visualRect.adoc[`visualRect`] 
+| return visual rectangle occupied by the specified model item
+
+
+
+| xref:InstanceView/visualRegionForSelection.adoc[`visualRegionForSelection`] 
+| 
+
+| xref:InstanceView/2destructor.adoc[`&tilde;InstanceView`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceView/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceView/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/CursorAction.adoc[`CursorAction`] 
+| 
+
+|===
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceView/currentChanged.adoc[`currentChanged`] 
+| 
+
+| xref:InstanceView/dataChanged.adoc[`dataChanged`] 
+| 
+
+| xref:InstanceView/dragEnterEvent.adoc[`dragEnterEvent`] 
+| 
+
+| xref:InstanceView/dragLeaveEvent.adoc[`dragLeaveEvent`] 
+| 
+
+| xref:InstanceView/dragMoveEvent.adoc[`dragMoveEvent`] 
+| 
+
+| xref:InstanceView/dropEvent.adoc[`dropEvent`] 
+| 
+
+| xref:InstanceView/isIndexHidden.adoc[`isIndexHidden`] 
+| 
+
+| xref:InstanceView/modelReset.adoc[`modelReset`] 
+| 
+
+| xref:InstanceView/mouseDoubleClickEvent.adoc[`mouseDoubleClickEvent`] 
+| 
+
+| xref:InstanceView/mouseMoveEvent.adoc[`mouseMoveEvent`] 
+| 
+
+| xref:InstanceView/mousePressEvent.adoc[`mousePressEvent`] 
+| 
+
+| xref:InstanceView/mouseReleaseEvent.adoc[`mouseReleaseEvent`] 
+| 
+
+| xref:InstanceView/paintEvent.adoc[`paintEvent`] 
+| 
+
+| xref:InstanceView/resizeEvent.adoc[`resizeEvent`] 
+| 
+
+| xref:InstanceView/rowsAboutToBeRemoved.adoc[`rowsAboutToBeRemoved`] 
+| 
+
+| xref:InstanceView/rowsInserted.adoc[`rowsInserted`] 
+| 
+
+| xref:InstanceView/rowsRemoved.adoc[`rowsRemoved`] 
+| 
+
+| xref:InstanceView/startDrag.adoc[`startDrag`] 
+| 
+
+| xref:InstanceView/updateScrollbar.adoc[`updateScrollbar`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

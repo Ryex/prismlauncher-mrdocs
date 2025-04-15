@@ -1,0 +1,21 @@
+[#DataPackUtils-processMCMeta]
+= xref:DataPackUtils.adoc[DataPackUtils]::processMCMeta
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalDataPackParseTask.h#L40[minecraft&sol;mod&sol;tasks&sol;LocalDataPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processMCMeta(
+    xref:DataPack.adoc[DataPack]* pack,
+    xref:QByteArray.adoc[QByteArray]&& raw&lowbar;data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

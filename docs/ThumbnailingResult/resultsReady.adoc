@@ -1,0 +1,19 @@
+[#ThumbnailingResult-resultsReady]
+= xref:ThumbnailingResult.adoc[ThumbnailingResult]::resultsReady
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L80[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+resultsReady(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

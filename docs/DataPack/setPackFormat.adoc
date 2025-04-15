@@ -1,0 +1,23 @@
+[#DataPack-setPackFormat]
+= xref:DataPack.adoc[DataPack]::setPackFormat
+:relfileprefix: ../
+:mrdocs:
+
+
+Thread&hyphen;safe&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L50[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setPackFormat(int new&lowbar;format&lowbar;id);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

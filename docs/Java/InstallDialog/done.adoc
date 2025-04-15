@@ -1,0 +1,20 @@
+[#Java-InstallDialog-done]
+= xref:Java.adoc[Java]::xref:Java/InstallDialog.adoc[InstallDialog]::done
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.h#L41[ui&sol;java&sol;InstallJavaDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+done(int result) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#PackProfile-remove-03]
+= xref:PackProfile.adoc[PackProfile]::remove
+:relfileprefix: ../
+:mrdocs:
+
+
+remove component file &num; &hyphen; including files&sol;records
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L108[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+remove(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,40 @@
+[#QMetaTypeId-03d]
+= QMetaTypeId&lt;xref:Flame.adoc[Flame]::xref:Flame/IndexedPack.adoc[IndexedPack]&gt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L53[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+struct QMetaTypeId&lt;xref:Flame.adoc[Flame]::xref:Flame/IndexedPack.adoc[IndexedPack]&gt;;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-03d/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-03d/qt_metatype_id.adoc[`qt&lowbar;metatype&lowbar;id`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

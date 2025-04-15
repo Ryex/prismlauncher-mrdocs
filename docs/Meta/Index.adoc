@@ -1,0 +1,156 @@
+[#Meta-Index]
+= xref:Meta.adoc[Meta]::Index
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L28[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Index
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Index/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+| xref:Meta/BaseEntity/LoadStatus.adoc[`LoadStatus`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Index/2constructor.adoc[`Index`]         [.small]#[constructor]#
+| 
+| xref:Meta/Index/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:Meta/Index/data.adoc[`data`] 
+| 
+
+| xref:Meta/Index/get.adoc[`get`] 
+| 
+| xref:Meta/Index/getLoadedVersion.adoc[`getLoadedVersion`] 
+| 
+
+| xref:Meta/Index/hasUid.adoc[`hasUid`] 
+| 
+
+| xref:Meta/Index/headerData.adoc[`headerData`] 
+| 
+
+| xref:Meta/BaseEntity/isLoaded.adoc[`isLoaded`] 
+| 
+
+| xref:Meta/Index/lists.adoc[`lists`] 
+| 
+
+| xref:Meta/BaseEntity/loadTask.adoc[`loadTask`] 
+| 
+
+| xref:Meta/Index/loadVersion.adoc[`loadVersion`] 
+| 
+
+| xref:Meta/BaseEntity/localFilename.adoc[`localFilename`] 
+| 
+| xref:Meta/Index/merge.adoc[`merge`] 
+| 
+
+| xref:Meta/Index/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Meta/BaseEntity/parse.adoc[`parse`] 
+| 
+
+| xref:Meta/Index/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Meta/Index/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Meta/Index/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:Meta/BaseEntity/setSha256.adoc[`setSha256`] 
+| 
+
+| xref:Meta/BaseEntity/status.adoc[`status`] 
+| 
+
+| xref:Meta/BaseEntity/url.adoc[`url`] 
+| 
+
+| xref:Meta/Index/2destructor.adoc[`&tilde;Index`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Index/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Index/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Index/parse.adoc[`parse`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/m_file_sha256.adoc[`m&lowbar;file&lowbar;sha256`] 
+| 
+
+| xref:Meta/BaseEntity/m_sha256.adoc[`m&lowbar;sha256`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

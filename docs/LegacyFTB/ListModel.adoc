@@ -1,0 +1,92 @@
+[#LegacyFTB-ListModel]
+= xref:LegacyFTB.adoc[LegacyFTB]::ListModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L40[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/ListModel/2constructor.adoc[`ListModel`]         [.small]#[constructor]#
+| 
+
+| xref:LegacyFTB/ListModel/addPack.adoc[`addPack`] 
+| 
+
+| xref:LegacyFTB/ListModel/at.adoc[`at`] 
+| 
+
+| xref:LegacyFTB/ListModel/clear.adoc[`clear`] 
+| 
+
+| xref:LegacyFTB/ListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:LegacyFTB/ListModel/data.adoc[`data`] 
+| 
+
+| xref:LegacyFTB/ListModel/fill.adoc[`fill`] 
+| 
+
+| xref:LegacyFTB/ListModel/flags.adoc[`flags`] 
+| 
+
+| xref:LegacyFTB/ListModel/getLogo.adoc[`getLogo`] 
+| 
+
+| xref:LegacyFTB/ListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LegacyFTB/ListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LegacyFTB/ListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LegacyFTB/ListModel/remove.adoc[`remove`] 
+| 
+
+| xref:LegacyFTB/ListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:LegacyFTB/ListModel/2destructor.adoc[`&tilde;ListModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/ListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/ListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#InstanceCopyPrefs-getSelectedFiltersAsRegex-02]
+= xref:InstanceCopyPrefs.adoc[InstanceCopyPrefs]::getSelectedFiltersAsRegex
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyPrefs.h#L13[InstanceCopyPrefs&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:QString.adoc[QString]
+getSelectedFiltersAsRegex(xref:QStringList.adoc[QStringList] const& additionalFilters) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

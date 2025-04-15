@@ -1,0 +1,19 @@
+[#MMCZip-ExtractZipTask-extractZip]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExtractZipTask.adoc[ExtractZipTask]::extractZip
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L227[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MMCZip/ExtractZipTask/ZipResult.adoc[ZipResult]
+extractZip();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

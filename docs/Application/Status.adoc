@@ -1,0 +1,33 @@
+[#Application-Status]
+= xref:Application.adoc[Application]::Status
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L95[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Status;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`StartingUp`
+|
+|`Failed`
+|
+|`Succeeded`
+|
+|`Initialized`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

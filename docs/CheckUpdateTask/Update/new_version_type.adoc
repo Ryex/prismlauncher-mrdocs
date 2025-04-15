@@ -1,0 +1,18 @@
+[#CheckUpdateTask-Update-new_version_type]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::xref:CheckUpdateTask/Update.adoc[Update]::new&lowbar;version&lowbar;type
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L32[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]&gt; new&lowbar;version&lowbar;type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

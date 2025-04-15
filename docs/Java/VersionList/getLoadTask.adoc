@@ -1,0 +1,20 @@
+[#Java-VersionList-getLoadTask]
+= xref:Java.adoc[Java]::xref:Java/VersionList.adoc[VersionList]::getLoadTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/VersionList.h#L33[ui&sol;java&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getLoadTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

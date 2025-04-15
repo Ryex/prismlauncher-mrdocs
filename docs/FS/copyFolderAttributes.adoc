@@ -1,0 +1,22 @@
+[#FS-copyFolderAttributes]
+= xref:FS.adoc[FS]::copyFolderAttributes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.cpp#L287[FileSystem&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+copyFolderAttributes(
+    xref:QString.adoc[QString] src,
+    xref:QString.adoc[QString] dst,
+    xref:QString.adoc[QString] relative);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

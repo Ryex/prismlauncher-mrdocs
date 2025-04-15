@@ -1,0 +1,18 @@
+[#Server-2constructor-0dc]
+= xref:Server.adoc[Server]::Server
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L70[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Server(xref:nbt.adoc[nbt]::xref:nbt/tag_compound.adoc[tag&lowbar;compound]& server);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

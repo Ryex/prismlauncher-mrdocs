@@ -1,0 +1,19 @@
+[#S_NATIVE_STYLES]
+= S&lowbar;NATIVE&lowbar;STYLES
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/SystemTheme.cpp#L45[ui&sol;themes&sol;SystemTheme&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QStringList.adoc[QStringList] const S&lowbar;NATIVE&lowbar;STYLES = S&lowbar;NATIVE&lowbar;STYLES&lcub; &quot;windows11&quot;, &quot;windowsvista&quot;, &quot;macos&quot;, &quot;system&quot;, &quot;windows&quot; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

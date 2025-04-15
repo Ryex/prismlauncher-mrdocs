@@ -1,0 +1,21 @@
+[#LegacyFTB-Page-2constructor]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/Page.adoc[Page]::Page
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/Page.h#L64[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;Page&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+Page(
+    xref:NewInstanceDialog.adoc[NewInstanceDialog]* dialog,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

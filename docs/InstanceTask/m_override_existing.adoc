@@ -1,0 +1,18 @@
+[#InstanceTask-m_override_existing]
+= xref:InstanceTask.adoc[InstanceTask]::m&lowbar;override&lowbar;existing
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L68[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;override&lowbar;existing = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#ResourceFolderLoadTask-2constructor]
+= xref:ResourceFolderLoadTask.adoc[ResourceFolderLoadTask]::ResourceFolderLoadTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/ResourceFolderLoadTask.h#L57[minecraft&sol;mod&sol;tasks&sol;ResourceFolderLoadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ResourceFolderLoadTask(
+    xref:QDir.adoc[QDir] const& resource&lowbar;dir,
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    bool is&lowbar;indexed,
+    bool clean&lowbar;orphan,
+    xref:std.adoc[std]::xref:std/function.adoc[function]&lt;xref:Resource.adoc[Resource]*(xref:QFileInfo.adoc[QFileInfo] const&)&gt; create&lowbar;function);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

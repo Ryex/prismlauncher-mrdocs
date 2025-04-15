@@ -1,0 +1,111 @@
+[#ProfileSelectDialog]
+= ProfileSelectDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L28[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProfileSelectDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSelectDialog/Flags.adoc[`Flags`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSelectDialog/2constructor.adoc[`ProfileSelectDialog`]         [.small]#[constructor]#
+| Constructs a new account select dialog with the given parent and message&period;
+The message will be shown at the top of the dialog&period; It is an empty string by default&period;
+
+
+
+| xref:ProfileSelectDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ProfileSelectDialog/on_buttonBox_accepted.adoc[`on&lowbar;buttonBox&lowbar;accepted`] 
+| 
+
+| xref:ProfileSelectDialog/on_buttonBox_rejected.adoc[`on&lowbar;buttonBox&lowbar;rejected`] 
+| 
+
+| xref:ProfileSelectDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ProfileSelectDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ProfileSelectDialog/selectedAccount.adoc[`selectedAccount`] 
+| Gets a pointer to the account that the user selected&period;
+This is null if the user clicked cancel or hasn&apos;t clicked OK yet&period;
+
+
+
+| xref:ProfileSelectDialog/useAsGlobalDefault.adoc[`useAsGlobalDefault`] 
+| Returns true if the user checked the &quot;use as global default&quot; checkbox&period;
+If the checkbox wasn&apos;t shown, this function returns false&period;
+
+
+
+| xref:ProfileSelectDialog/useAsInstDefaullt.adoc[`useAsInstDefaullt`] 
+| Returns true if the user checked the &quot;use as instance default&quot; checkbox&period;
+If the checkbox wasn&apos;t shown, this function returns false&period;
+
+
+
+| xref:ProfileSelectDialog/2destructor.adoc[`&tilde;ProfileSelectDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSelectDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSelectDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSelectDialog/m_accounts.adoc[`m&lowbar;accounts`] 
+| 
+
+| xref:ProfileSelectDialog/m_selected.adoc[`m&lowbar;selected`] 
+| The account that was selected when the user clicked OK&period;
+
+
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

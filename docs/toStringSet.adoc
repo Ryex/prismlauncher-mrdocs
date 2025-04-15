@@ -1,0 +1,23 @@
+[#toStringSet]
+= toStringSet
+:relfileprefix: 
+:mrdocs:
+
+
+Split into a separate function because the preprocessing impedes readability
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.cpp#L138[icons&sol;IconList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt;
+toStringSet(xref:QList.adoc[QList]&lt;xref:QString.adoc[QString]&gt; const& list);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

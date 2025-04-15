@@ -1,0 +1,18 @@
+[#MojangAssetIndexInfo-known]
+= xref:MojangAssetIndexInfo.adoc[MojangAssetIndexInfo]::known
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L69[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool known = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

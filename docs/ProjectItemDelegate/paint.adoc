@@ -1,0 +1,23 @@
+[#ProjectItemDelegate-paint]
+= xref:ProjectItemDelegate.adoc[ProjectItemDelegate]::paint
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectItem.h#L24[ui&sol;widgets&sol;ProjectItem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+paint(
+    xref:QPainter.adoc[QPainter]*,
+    xref:QStyleOptionViewItem.adoc[QStyleOptionViewItem] const&,
+    xref:QModelIndex.adoc[QModelIndex] const&) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

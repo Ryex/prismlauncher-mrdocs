@@ -1,0 +1,19 @@
+[#FTBImportAPP-getFTBRoot]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::getFTBRoot
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.cpp#L36[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getFTBRoot();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

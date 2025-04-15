@@ -1,0 +1,79 @@
+[#FTBImportAPP-ListModel]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::ListModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L50[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/ListModel/2constructor.adoc[`ListModel`]         [.small]#[constructor]#
+| 
+
+| xref:FTBImportAPP/ListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:FTBImportAPP/ListModel/data.adoc[`data`] 
+| 
+
+| xref:FTBImportAPP/ListModel/getUserPath.adoc[`getUserPath`] 
+| 
+
+| xref:FTBImportAPP/ListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FTBImportAPP/ListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FTBImportAPP/ListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FTBImportAPP/ListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:FTBImportAPP/ListModel/setPath.adoc[`setPath`] 
+| 
+
+| xref:FTBImportAPP/ListModel/update.adoc[`update`] 
+| 
+
+| xref:FTBImportAPP/ListModel/2destructor.adoc[`&tilde;ListModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/ListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/ListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,52 @@
+[#ModLicense]
+= ModLicense
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L46[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModLicense;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModLicense/2constructor.adoc[`ModLicense`]         [.small]#[constructor]#
+| 
+| xref:ModLicense/isEmpty.adoc[`isEmpty`] 
+| 
+
+| xref:ModLicense/operator_assign.adoc[`operator&equals;`] 
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModLicense/description.adoc[`description`] 
+| 
+
+| xref:ModLicense/id.adoc[`id`] 
+| 
+
+| xref:ModLicense/name.adoc[`name`] 
+| 
+
+| xref:ModLicense/url.adoc[`url`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

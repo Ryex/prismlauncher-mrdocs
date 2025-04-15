@@ -1,0 +1,20 @@
+[#InstanceWindow-selectedPage]
+= xref:InstanceWindow.adoc[InstanceWindow]::selectedPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/InstanceWindow.h#L60[ui&sol;InstanceWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BasePage.adoc[BasePage]*
+selectedPage() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

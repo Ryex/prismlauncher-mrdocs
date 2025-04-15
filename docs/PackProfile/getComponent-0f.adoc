@@ -1,0 +1,23 @@
+[#PackProfile-getComponent-0f]
+= xref:PackProfile.adoc[PackProfile]::getComponent
+:relfileprefix: ../
+:mrdocs:
+
+
+get the profile component by index
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L153[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ComponentPtr.adoc[ComponentPtr]
+getComponent(xref:size_t.adoc[size&lowbar;t] index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

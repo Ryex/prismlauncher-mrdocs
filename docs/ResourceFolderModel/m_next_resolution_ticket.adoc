@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_next_resolution_ticket]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;next&lowbar;resolution&lowbar;ticket
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L266[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/atomic.adoc[atomic]&lt;int&gt; m&lowbar;next&lowbar;resolution&lowbar;ticket = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

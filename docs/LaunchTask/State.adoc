@@ -1,0 +1,37 @@
+[#LaunchTask-State]
+= xref:LaunchTask.adoc[LaunchTask]::State
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L54[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum State;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NotStarted`
+|
+|`Running`
+|
+|`Waiting`
+|
+|`Failed`
+|
+|`Aborted`
+|
+|`Finished`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

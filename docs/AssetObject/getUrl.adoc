@@ -1,0 +1,19 @@
+[#AssetObject-getUrl]
+= xref:AssetObject.adoc[AssetObject]::getUrl
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L25[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QUrl.adoc[QUrl]
+getUrl();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

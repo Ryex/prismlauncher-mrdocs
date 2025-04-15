@@ -1,0 +1,23 @@
+[#00namespace-loadComponent]
+= loadComponent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L68[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:00namespace/LoadResult.adoc[LoadResult]
+loadComponent(
+    xref:ComponentPtr.adoc[ComponentPtr] component,
+    xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]& loadTask,
+    xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] netmode);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,198 @@
+[#Modrinth-ModpackListModel]
+= xref:Modrinth.adoc[Modrinth]::ModpackListModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthModel.h#L52[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ModpackListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackListModel/2constructor.adoc[`ModpackListModel`]         [.small]#[constructor]#
+| 
+
+| xref:Modrinth/ModpackListModel/activeSearchJob.adoc[`activeSearchJob`] 
+| 
+
+| xref:Modrinth/ModpackListModel/canFetchMore.adoc[`canFetchMore`] 
+| 
+
+| xref:Modrinth/ModpackListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:Modrinth/ModpackListModel/data.adoc[`data`] 
+| 
+
+| xref:Modrinth/ModpackListModel/debugName.adoc[`debugName`] 
+| 
+
+| xref:Modrinth/ModpackListModel/fetchMore.adoc[`fetchMore`] 
+| &ast;&ast;&ast;&ast;&ast;&ast; Make data requests &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+| xref:Modrinth/ModpackListModel/flags.adoc[`flags`] 
+| 
+
+| xref:Modrinth/ModpackListModel/getLogo.adoc[`getLogo`] 
+| 
+
+| xref:Modrinth/ModpackListModel/hasActiveSearchJob.adoc[`hasActiveSearchJob`] 
+| 
+
+| xref:Modrinth/ModpackListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Modrinth/ModpackListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Modrinth/ModpackListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Modrinth/ModpackListModel/refresh.adoc[`refresh`] 
+| 
+
+| xref:Modrinth/ModpackListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:Modrinth/ModpackListModel/searchRequestFailed.adoc[`searchRequestFailed`] 
+| 
+
+| xref:Modrinth/ModpackListModel/searchRequestFinished.adoc[`searchRequestFinished`] 
+| 
+
+| xref:Modrinth/ModpackListModel/searchRequestForOneSucceeded.adoc[`searchRequestForOneSucceeded`] 
+| 
+
+| xref:Modrinth/ModpackListModel/searchWithTerm.adoc[`searchWithTerm`] 
+| 
+
+| xref:Modrinth/ModpackListModel/setActiveJob.adoc[`setActiveJob`] 
+| 
+
+| xref:Modrinth/ModpackListModel/setData.adoc[`setData`] 
+| 
+
+| xref:Modrinth/ModpackListModel/2destructor.adoc[`&tilde;ModpackListModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackListModel/SearchState.adoc[`SearchState`] 
+| 
+
+|===
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackListModel/getMineVersions.adoc[`getMineVersions`] 
+| 
+
+| xref:Modrinth/ModpackListModel/logoFailed.adoc[`logoFailed`] 
+| 
+
+| xref:Modrinth/ModpackListModel/logoLoaded.adoc[`logoLoaded`] 
+| &ast;&ast;&ast;&ast;&ast;&ast; Request callbacks &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+| xref:Modrinth/ModpackListModel/performPaginatedSearch.adoc[`performPaginatedSearch`] 
+| 
+
+| xref:Modrinth/ModpackListModel/requestLogo.adoc[`requestLogo`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackListModel/currentSearchTerm.adoc[`currentSearchTerm`] 
+| 
+
+| xref:Modrinth/ModpackListModel/currentSort.adoc[`currentSort`] 
+| 
+
+| xref:Modrinth/ModpackListModel/jobPtr.adoc[`jobPtr`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_allResponse.adoc[`m&lowbar;allResponse`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_failedLogos.adoc[`m&lowbar;failedLogos`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_filter.adoc[`m&lowbar;filter`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_loadingLogos.adoc[`m&lowbar;loadingLogos`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_logoMap.adoc[`m&lowbar;logoMap`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_modpacks_per_page.adoc[`m&lowbar;modpacks&lowbar;per&lowbar;page`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_parent.adoc[`m&lowbar;parent`] 
+| 
+
+| xref:Modrinth/ModpackListModel/m_specific_response.adoc[`m&lowbar;specific&lowbar;response`] 
+| 
+
+| xref:Modrinth/ModpackListModel/modpacks.adoc[`modpacks`] 
+| 
+
+| xref:Modrinth/ModpackListModel/nextSearchOffset.adoc[`nextSearchOffset`] 
+| 
+
+| xref:Modrinth/ModpackListModel/searchState.adoc[`searchState`] 
+| 
+
+| xref:Modrinth/ModpackListModel/waitingCallbacks.adoc[`waitingCallbacks`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

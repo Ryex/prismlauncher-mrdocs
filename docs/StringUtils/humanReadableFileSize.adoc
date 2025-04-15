@@ -1,0 +1,22 @@
+[#StringUtils-humanReadableFileSize]
+= xref:StringUtils.adoc[StringUtils]::humanReadableFileSize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.h#L80[StringUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+humanReadableFileSize(
+    double bytes,
+    bool use&lowbar;si = false,
+    int decimal&lowbar;points = 1);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

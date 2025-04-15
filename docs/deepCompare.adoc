@@ -1,0 +1,28 @@
+[#deepCompare]
+= deepCompare
+:relfileprefix: 
+:mrdocs:
+
+
+deep inspecting compare for requirement sets
+By default, only uids are compared for set operations&period;
+This compares all fields of the Require structs in the sets&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.cpp#L398[minecraft&sol;Component&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+deepCompare(
+    xref:std.adoc[std]::xref:std/set.adoc[set]&lt;xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require]&gt; const& a,
+    xref:std.adoc[std]::xref:std/set.adoc[set]&lt;xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require]&gt; const& b);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

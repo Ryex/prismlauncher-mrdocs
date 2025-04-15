@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_dir]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;dir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L248[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir] m&lowbar;dir;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

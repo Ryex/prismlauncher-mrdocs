@@ -1,0 +1,20 @@
+[#PostLaunchCommand-qt_metacast]
+= xref:PostLaunchCommand.adoc[PostLaunchCommand]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PostLaunchCommand.h#L22[launch&sol;steps&sol;PostLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

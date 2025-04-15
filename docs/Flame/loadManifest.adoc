@@ -1,0 +1,21 @@
+[#Flame-loadManifest]
+= xref:Flame.adoc[Flame]::loadManifest
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L86[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadManifest(
+    xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]& m,
+    xref:QString.adoc[QString] const& filepath);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

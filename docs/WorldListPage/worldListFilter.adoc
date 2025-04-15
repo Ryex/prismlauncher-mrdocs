@@ -1,0 +1,19 @@
+[#WorldListPage-worldListFilter]
+= xref:WorldListPage.adoc[WorldListPage]::worldListFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/WorldListPage.h#L71[ui&sol;pages&sol;instance&sol;WorldListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+worldListFilter(xref:QKeyEvent.adoc[QKeyEvent]* ev);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

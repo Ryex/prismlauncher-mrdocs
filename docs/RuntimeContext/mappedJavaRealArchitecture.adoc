@@ -1,0 +1,19 @@
+[#RuntimeContext-mappedJavaRealArchitecture]
+= xref:RuntimeContext.adoc[RuntimeContext]::mappedJavaRealArchitecture
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RuntimeContext.h#L31[RuntimeContext&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+mappedJavaRealArchitecture() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Application-updateIsRunning]
+= xref:Application.adoc[Application]::updateIsRunning
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L187[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateIsRunning(bool running);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

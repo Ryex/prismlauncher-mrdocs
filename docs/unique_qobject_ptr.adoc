@@ -1,0 +1,24 @@
+[#unique_qobject_ptr]
+= unique&lowbar;qobject&lowbar;ptr
+:relfileprefix: 
+:mrdocs:
+
+
+A unique pointer class with unique pointer semantics intended for derivates of QObject
+Calls deleteLater() instead of destroying the contained object immediately
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/QObjectPtr.h#L13[QObjectPtr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+using unique&lowbar;qobject&lowbar;ptr = xref:QScopedPointer.adoc[QScopedPointer]&lt;T, xref:QScopedPointerDeleteLater.adoc[QScopedPointerDeleteLater]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

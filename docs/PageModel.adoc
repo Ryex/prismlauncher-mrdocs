@@ -1,0 +1,62 @@
+[#PageModel]
+= PageModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer_p.h#L37[ui&sol;widgets&sol;PageContainer&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PageModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageModel/2constructor.adoc[`PageModel`]         [.small]#[constructor]#
+| 
+
+| xref:PageModel/data.adoc[`data`] 
+| 
+
+| xref:PageModel/findPageEntryById.adoc[`findPageEntryById`] 
+| 
+
+| xref:PageModel/pages.adoc[`pages`] 
+| 
+
+| xref:PageModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:PageModel/setPages.adoc[`setPages`] 
+| 
+
+| xref:PageModel/2destructor.adoc[`&tilde;PageModel`] [.small]#[destructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageModel/m_emptyIcon.adoc[`m&lowbar;emptyIcon`] 
+| 
+
+| xref:PageModel/m_pages.adoc[`m&lowbar;pages`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ResourceDownload-ModrinthShaderPackModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthShaderPackModel.adoc[ModrinthShaderPackModel]::ModrinthShaderPackModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourceModels.h#L88[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthShaderPackModel(xref:BaseInstance.adoc[BaseInstance] const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

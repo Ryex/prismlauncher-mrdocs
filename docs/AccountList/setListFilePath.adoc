@@ -1,0 +1,29 @@
+[#AccountList-setListFilePath]
+= xref:AccountList.adoc[AccountList]::setListFilePath
+:relfileprefix: ../
+:mrdocs:
+
+
+Sets the path to load&sol;save the list file from&sol;to&period;
+If autosave is true, this list will automatically save to the given path whenever it changes&period;
+THIS FUNCTION DOES NOT LOAD THE LIST&period; If you set autosave, be sure to call loadList() immediately
+after calling this function to ensure an autosaved change doesn&apos;t overwrite the list you intended
+to load&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L97[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setListFilePath(
+    xref:QString.adoc[QString] path,
+    bool autosave = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

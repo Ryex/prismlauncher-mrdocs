@@ -1,0 +1,30 @@
+[#Json-write-0e]
+= xref:Json.adoc[Json]::write
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L61[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+write(
+    xref:QJsonArray.adoc[QJsonArray] const& array,
+    xref:QString.adoc[QString] const& filename);
+----
+
+== Exceptions
+
+|===
+| Name | Thrown on
+
+| ``
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

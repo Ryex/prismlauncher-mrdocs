@@ -1,0 +1,18 @@
+[#MojangAssetIndexInfo-totalSize]
+= xref:MojangAssetIndexInfo.adoc[MojangAssetIndexInfo]::totalSize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L67[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int totalSize;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

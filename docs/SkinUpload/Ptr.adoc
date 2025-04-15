@@ -1,0 +1,18 @@
+[#SkinUpload-Ptr]
+= xref:SkinUpload.adoc[SkinUpload]::Ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinUpload.h#L26[minecraft&sol;skins&sol;SkinUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:SkinUpload.adoc[SkinUpload]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

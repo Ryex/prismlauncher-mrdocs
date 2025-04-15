@@ -1,0 +1,21 @@
+[#QChar]
+= QChar
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/7wkgdcnn79b0hwly7nwdisll2hfywvqq-qtbase-6.8.2/include/QtCore/qchar.h#L44[&sol;nix&sol;store&sol;7wkgdcnn79b0hwly7nwdisll2hfywvqq&hyphen;qtbase&hyphen;6&period;8&period;2&sol;include&sol;QtCore&sol;qchar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QChar;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

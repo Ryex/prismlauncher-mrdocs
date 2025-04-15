@@ -1,0 +1,20 @@
+[#VersionListView-paintEvent]
+= xref:VersionListView.adoc[VersionListView]::paintEvent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionListView.h#L23[ui&sol;widgets&sol;VersionListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+paintEvent(xref:QPaintEvent.adoc[QPaintEvent]* event) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

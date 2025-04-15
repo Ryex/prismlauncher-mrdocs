@@ -1,0 +1,18 @@
+[#Metadata-ModStruct]
+= xref:Metadata.adoc[Metadata]::ModStruct
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/MetadataHandler.h#L30[minecraft&sol;mod&sol;MetadataHandler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using ModStruct = xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::xref:Packwiz/V1/Mod.adoc[Mod];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

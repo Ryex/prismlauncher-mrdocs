@@ -1,0 +1,43 @@
+[#StringUtils-truncateUrlHumanFriendly]
+= xref:StringUtils.adoc[StringUtils]::truncateUrlHumanFriendly
+:relfileprefix: ../
+:mrdocs:
+
+
+Truncate a url while keeping its readability py placing the &grave;&period;&period;&period;&grave; in the middle of the path
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.h#L78[StringUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+truncateUrlHumanFriendly(
+    xref:QUrl.adoc[QUrl]& url,
+    int max&lowbar;len,
+    bool hard&lowbar;limit = false);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *url*
+| Url to truncate
+
+
+| *max&lowbar;len*
+| max length of url in characters
+
+
+| *hard&lowbar;limit*
+| if truncating the path can&apos;t get the url short enough, truncate it normally&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

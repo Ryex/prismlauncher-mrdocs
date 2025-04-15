@@ -1,0 +1,19 @@
+[#ModrinthAPI-getAuthorURL]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getAuthorURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L40[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getAuthorURL(xref:QString.adoc[QString] const& name) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Agent-library]
+= xref:Agent.adoc[Agent]::library
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Agent.h#L20[minecraft&sol;Agent&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LibraryPtr.adoc[LibraryPtr]
+library();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

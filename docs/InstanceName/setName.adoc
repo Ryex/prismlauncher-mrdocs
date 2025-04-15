@@ -1,0 +1,29 @@
+[#InstanceName-setName]
+= xref:InstanceName.adoc[InstanceName]::setName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L22[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:InstanceName/setName-0c.adoc[setName](xref:QString.adoc[QString] name);
+----
+
+[.small]#xref:InstanceName/setName-0c.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:InstanceName/setName-0a.adoc[setName](xref:InstanceName.adoc[InstanceName]& other);
+----
+
+[.small]#xref:InstanceName/setName-0a.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

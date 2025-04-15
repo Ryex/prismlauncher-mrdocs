@@ -1,0 +1,19 @@
+[#ThemeCustomizationWidget-2constructor]
+= xref:ThemeCustomizationWidget.adoc[ThemeCustomizationWidget]::ThemeCustomizationWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ThemeCustomizationWidget.h#L33[ui&sol;widgets&sol;ThemeCustomizationWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ThemeCustomizationWidget(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

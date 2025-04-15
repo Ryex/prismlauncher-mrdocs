@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::ResourceModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L36[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ResourceModel(xref:ResourceAPI.adoc[ResourceAPI]* api);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

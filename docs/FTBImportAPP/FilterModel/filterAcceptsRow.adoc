@@ -1,0 +1,22 @@
+[#FTBImportAPP-FilterModel-filterAcceptsRow]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/FilterModel.adoc[FilterModel]::filterAcceptsRow
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L41[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+filterAcceptsRow(
+    int sourceRow,
+    xref:QModelIndex.adoc[QModelIndex] const& sourceParent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

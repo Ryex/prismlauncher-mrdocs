@@ -1,0 +1,20 @@
+[#TaskStepWrapper-abort]
+= xref:TaskStepWrapper.adoc[TaskStepWrapper]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/TaskStepWrapper.h#L34[launch&sol;TaskStepWrapper&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

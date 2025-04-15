@@ -1,0 +1,19 @@
+[#JavaWizardPage-setupUi]
+= xref:JavaWizardPage.adoc[JavaWizardPage]::setupUi
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/JavaWizardPage.h#L20[ui&sol;setupwizard&sol;JavaWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setupUi();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

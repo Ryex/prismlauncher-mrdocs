@@ -1,0 +1,18 @@
+[#File-isExec]
+= xref:File.adoc[File]::isExec
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.cpp#L30[java&sol;download&sol;ManifestDownloadTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool isExec;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

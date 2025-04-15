@@ -1,0 +1,88 @@
+[#VersionSelectDialog]
+= VersionSelectDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/VersionSelectDialog.h#L31[ui&sol;dialogs&sol;VersionSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionSelectDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectDialog/2constructor.adoc[`VersionSelectDialog`]         [.small]#[constructor]#
+| 
+
+| xref:VersionSelectDialog/exec.adoc[`exec`] 
+| 
+
+| xref:VersionSelectDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VersionSelectDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VersionSelectDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:VersionSelectDialog/selectedVersion.adoc[`selectedVersion`] 
+| 
+
+| xref:VersionSelectDialog/setCurrentVersion.adoc[`setCurrentVersion`] 
+| 
+
+| xref:VersionSelectDialog/setEmptyErrorString.adoc[`setEmptyErrorString`] 
+| 
+
+| xref:VersionSelectDialog/setEmptyString.adoc[`setEmptyString`] 
+| 
+
+| xref:VersionSelectDialog/setExactFilter.adoc[`setExactFilter`] 
+| 
+
+| xref:VersionSelectDialog/setExactIfPresentFilter.adoc[`setExactIfPresentFilter`] 
+| 
+
+| xref:VersionSelectDialog/setFuzzyFilter.adoc[`setFuzzyFilter`] 
+| 
+
+| xref:VersionSelectDialog/setResizeOn.adoc[`setResizeOn`] 
+| 
+
+| xref:VersionSelectDialog/2destructor.adoc[`&tilde;VersionSelectDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

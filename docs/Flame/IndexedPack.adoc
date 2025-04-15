@@ -1,0 +1,57 @@
+[#Flame-IndexedPack]
+= xref:Flame.adoc[Flame]::IndexedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L33[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct IndexedPack;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/IndexedPack/addonId.adoc[`addonId`] 
+| 
+
+| xref:Flame/IndexedPack/authors.adoc[`authors`] 
+| 
+
+| xref:Flame/IndexedPack/description.adoc[`description`] 
+| 
+
+| xref:Flame/IndexedPack/extra.adoc[`extra`] 
+| 
+
+| xref:Flame/IndexedPack/extraInfoLoaded.adoc[`extraInfoLoaded`] 
+| 
+
+| xref:Flame/IndexedPack/logoName.adoc[`logoName`] 
+| 
+
+| xref:Flame/IndexedPack/logoUrl.adoc[`logoUrl`] 
+| 
+
+| xref:Flame/IndexedPack/name.adoc[`name`] 
+| 
+
+| xref:Flame/IndexedPack/versions.adoc[`versions`] 
+| 
+
+| xref:Flame/IndexedPack/versionsLoaded.adoc[`versionsLoaded`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

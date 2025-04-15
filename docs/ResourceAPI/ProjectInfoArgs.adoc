@@ -1,0 +1,42 @@
+[#ResourceAPI-ProjectInfoArgs]
+= xref:ResourceAPI.adoc[ResourceAPI]::ProjectInfoArgs
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L106[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ProjectInfoArgs;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/ProjectInfoArgs/2constructor.adoc[`ProjectInfoArgs`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceAPI/ProjectInfoArgs/operator_assign.adoc[`operator&equals;`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/ProjectInfoArgs/pack.adoc[`pack`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

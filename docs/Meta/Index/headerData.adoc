@@ -1,0 +1,23 @@
+[#Meta-Index-headerData]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::headerData
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L40[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+headerData(
+    int section,
+    xref:Qt.adoc[Qt]::xref:Qt/Orientation.adoc[Orientation] orientation,
+    int role) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

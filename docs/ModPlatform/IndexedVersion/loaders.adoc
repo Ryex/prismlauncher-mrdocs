@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedVersion-loaders]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]::loaders
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L104[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform/ModLoaderTypes.adoc[ModLoaderTypes] loaders = &equals; &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

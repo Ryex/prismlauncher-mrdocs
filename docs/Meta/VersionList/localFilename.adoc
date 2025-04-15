@@ -1,0 +1,20 @@
+[#Meta-VersionList-localFilename]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::localFilename
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L55[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+localFilename() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

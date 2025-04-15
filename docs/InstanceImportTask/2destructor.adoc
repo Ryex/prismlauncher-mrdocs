@@ -1,0 +1,19 @@
+[#InstanceImportTask-2destructor]
+= xref:InstanceImportTask.adoc[InstanceImportTask]::&tilde;InstanceImportTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceImportTask.h#L49[InstanceImportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;InstanceImportTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

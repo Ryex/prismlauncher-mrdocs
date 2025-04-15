@@ -1,0 +1,20 @@
+[#ConcurrentTask-qt_metacast]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L51[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

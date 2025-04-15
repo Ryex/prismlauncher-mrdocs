@@ -1,0 +1,18 @@
+[#TechnicSolder-PackBuildMod-md5]
+= xref:TechnicSolder.adoc[TechnicSolder]::xref:TechnicSolder/PackBuildMod.adoc[PackBuildMod]::md5
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackManifest.h#L38[modplatform&sol;technic&sol;SolderPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] md5;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

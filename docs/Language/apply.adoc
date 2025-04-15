@@ -1,0 +1,19 @@
+[#Language-apply]
+= xref:Language.adoc[Language]::apply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L121[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Language.adoc[Language]&
+apply(xref:Language.adoc[Language]& other);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

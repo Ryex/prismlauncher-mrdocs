@@ -1,0 +1,19 @@
+[#PackProfile-2constructor]
+= xref:PackProfile.adoc[PackProfile]::PackProfile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L78[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PackProfile(xref:MinecraftInstance.adoc[MinecraftInstance]* instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

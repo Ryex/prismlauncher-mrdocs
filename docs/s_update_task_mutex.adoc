@@ -1,0 +1,19 @@
+[#s_update_task_mutex]
+= s&lowbar;update&lowbar;task&lowbar;mutex
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.cpp#L287[minecraft&sol;mod&sol;ResourceFolderModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMutex.adoc[QMutex] s&lowbar;update&lowbar;task&lowbar;mutex = s&lowbar;update&lowbar;task&lowbar;mutex;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

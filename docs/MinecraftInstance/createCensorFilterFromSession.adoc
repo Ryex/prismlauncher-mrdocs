@@ -1,0 +1,19 @@
+[#MinecraftInstance-createCensorFilterFromSession]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::createCensorFilterFromSession
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L164[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt;
+createCensorFilterFromSession(xref:AuthSessionPtr.adoc[AuthSessionPtr] session);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

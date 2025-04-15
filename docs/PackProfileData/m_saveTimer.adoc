@@ -1,0 +1,18 @@
+[#PackProfileData-m_saveTimer]
+= xref:PackProfileData.adoc[PackProfileData]::m&lowbar;saveTimer
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L24[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QTimer.adoc[QTimer] m&lowbar;saveTimer;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

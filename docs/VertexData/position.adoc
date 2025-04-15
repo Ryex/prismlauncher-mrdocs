@@ -1,0 +1,18 @@
+[#VertexData-position]
+= xref:VertexData.adoc[VertexData]::position
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L27[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector4D.adoc[QVector4D] position;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

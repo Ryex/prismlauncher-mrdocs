@@ -1,0 +1,33 @@
+[#ImgurAlbumCreation-Result]
+= xref:ImgurAlbumCreation.adoc[ImgurAlbumCreation]::Result
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurAlbumCreation.h#L45[screenshots&sol;ImgurAlbumCreation&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Result;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImgurAlbumCreation/Result/deleteHash.adoc[`deleteHash`] 
+| 
+
+| xref:ImgurAlbumCreation/Result/id.adoc[`id`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

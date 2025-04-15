@@ -1,0 +1,21 @@
+[#LaunchTask-proceed]
+= xref:LaunchTask.adoc[LaunchTask]::proceed
+:relfileprefix: ../
+:mrdocs:
+
+
+launch the armed instance
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L78[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+proceed();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

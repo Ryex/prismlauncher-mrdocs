@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedVersion-version_number]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]::version&lowbar;number
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L98[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] version&lowbar;number = &equals; &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

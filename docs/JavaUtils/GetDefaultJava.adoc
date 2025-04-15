@@ -1,0 +1,19 @@
+[#JavaUtils-GetDefaultJava]
+= xref:JavaUtils.adoc[JavaUtils]::GetDefaultJava
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L38[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaInstallPtr.adoc[JavaInstallPtr]
+GetDefaultJava();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

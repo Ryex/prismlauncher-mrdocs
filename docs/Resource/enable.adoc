@@ -1,0 +1,29 @@
+[#Resource-enable]
+= xref:Resource.adoc[Resource]::enable
+:relfileprefix: ../
+:mrdocs:
+
+
+Changes the enabled property, according to &apos;action&apos;&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L124[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+enable(xref:EnableAction.adoc[EnableAction] action);
+----
+
+== Description
+
+Returns whether a change was applied to the Resource&apos;s properties&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

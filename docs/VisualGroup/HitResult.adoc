@@ -1,0 +1,35 @@
+[#VisualGroup-HitResult]
+= xref:VisualGroup.adoc[VisualGroup]::HitResult
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L102[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum HitResult;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NoHit`
+|
+|`TextHit`
+|
+|`CheckboxHit`
+|
+|`HeaderHit`
+|
+|`BodyHit`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

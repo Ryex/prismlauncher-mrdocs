@@ -1,0 +1,48 @@
+[#BlockedMod]
+= BlockedMod
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L38[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct BlockedMod;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BlockedMod/hash.adoc[`hash`] 
+| 
+
+| xref:BlockedMod/localPath.adoc[`localPath`] 
+| 
+
+| xref:BlockedMod/matched.adoc[`matched`] 
+| 
+
+| xref:BlockedMod/move.adoc[`move`] 
+| 
+
+| xref:BlockedMod/name.adoc[`name`] 
+| 
+
+| xref:BlockedMod/targetFolder.adoc[`targetFolder`] 
+| 
+
+| xref:BlockedMod/websiteUrl.adoc[`websiteUrl`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

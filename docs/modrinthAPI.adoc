@@ -1,0 +1,19 @@
+[#modrinthAPI]
+= modrinthAPI
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FileResolvingTask.cpp#L33[modplatform&sol;flame&sol;FileResolvingTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ModrinthAPI.adoc[ModrinthAPI] modrinthAPI = modrinthAPI;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

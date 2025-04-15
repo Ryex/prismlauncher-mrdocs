@@ -1,0 +1,19 @@
+[#PackProfile-customize]
+= xref:PackProfile.adoc[PackProfile]::customize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L113[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+customize(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

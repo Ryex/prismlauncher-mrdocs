@@ -1,0 +1,18 @@
+[#PackProfileData-dirty]
+= xref:PackProfileData.adoc[PackProfileData]::dirty
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L23[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool dirty = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

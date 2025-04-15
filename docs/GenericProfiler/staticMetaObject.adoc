@@ -1,0 +1,19 @@
+[#GenericProfiler-staticMetaObject]
+= xref:GenericProfiler.adoc[GenericProfiler]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/GenericProfiler.cpp#L25[tools&sol;GenericProfiler&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

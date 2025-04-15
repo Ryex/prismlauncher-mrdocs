@@ -1,0 +1,21 @@
+[#ParserArray-chomp]
+= xref:ParserArray.adoc[ParserArray]::chomp
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L23[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+chomp(
+    char const* data,
+    int length);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

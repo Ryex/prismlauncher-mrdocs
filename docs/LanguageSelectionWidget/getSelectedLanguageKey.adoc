@@ -1,0 +1,19 @@
+[#LanguageSelectionWidget-getSelectedLanguageKey]
+= xref:LanguageSelectionWidget.adoc[LanguageSelectionWidget]::getSelectedLanguageKey
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LanguageSelectionWidget.h#L32[ui&sol;widgets&sol;LanguageSelectionWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getSelectedLanguageKey() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

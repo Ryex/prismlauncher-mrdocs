@@ -1,0 +1,82 @@
+[#ListViewDelegate]
+= ListViewDelegate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.h#L21[ui&sol;instanceview&sol;InstanceDelegate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ListViewDelegate
+    : public xref:QStyledItemDelegate.adoc[QStyledItemDelegate];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ListViewDelegate/2constructor.adoc[`ListViewDelegate`]         [.small]#[constructor]#
+| 
+
+| xref:ListViewDelegate/createEditor.adoc[`createEditor`] 
+| 
+
+| xref:ListViewDelegate/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ListViewDelegate/paint.adoc[`paint`] 
+| 
+
+| xref:ListViewDelegate/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ListViewDelegate/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ListViewDelegate/setEditorData.adoc[`setEditorData`] 
+| 
+
+| xref:ListViewDelegate/setModelData.adoc[`setModelData`] 
+| 
+
+| xref:ListViewDelegate/sizeHint.adoc[`sizeHint`] 
+| 
+
+| xref:ListViewDelegate/textChanged.adoc[`textChanged`] 
+| 
+
+| xref:ListViewDelegate/updateEditorGeometry.adoc[`updateEditorGeometry`] 
+| 
+
+| xref:ListViewDelegate/2destructor.adoc[`&tilde;ListViewDelegate`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ListViewDelegate/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ListViewDelegate/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

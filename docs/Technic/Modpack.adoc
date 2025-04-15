@@ -1,0 +1,75 @@
+[#Technic-Modpack]
+= xref:Technic.adoc[Technic]::Modpack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicData.h#L43[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Modpack;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/Modpack/author.adoc[`author`] 
+| 
+
+| xref:Technic/Modpack/broken.adoc[`broken`] 
+| 
+
+| xref:Technic/Modpack/currentVersion.adoc[`currentVersion`] 
+| 
+
+| xref:Technic/Modpack/description.adoc[`description`] 
+| 
+
+| xref:Technic/Modpack/isSolder.adoc[`isSolder`] 
+| 
+
+| xref:Technic/Modpack/logoName.adoc[`logoName`] 
+| 
+
+| xref:Technic/Modpack/logoUrl.adoc[`logoUrl`] 
+| 
+
+| xref:Technic/Modpack/metadataLoaded.adoc[`metadataLoaded`] 
+| 
+
+| xref:Technic/Modpack/minecraftVersion.adoc[`minecraftVersion`] 
+| 
+
+| xref:Technic/Modpack/name.adoc[`name`] 
+| 
+
+| xref:Technic/Modpack/recommended.adoc[`recommended`] 
+| 
+
+| xref:Technic/Modpack/slug.adoc[`slug`] 
+| 
+
+| xref:Technic/Modpack/url.adoc[`url`] 
+| 
+
+| xref:Technic/Modpack/versions.adoc[`versions`] 
+| 
+
+| xref:Technic/Modpack/versionsLoaded.adoc[`versionsLoaded`] 
+| 
+
+| xref:Technic/Modpack/websiteUrl.adoc[`websiteUrl`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

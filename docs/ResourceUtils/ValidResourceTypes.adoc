@@ -1,0 +1,21 @@
+[#ResourceUtils-ValidResourceTypes]
+= xref:ResourceUtils.adoc[ResourceUtils]::ValidResourceTypes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceParse.h#L32[minecraft&sol;mod&sol;tasks&sol;LocalResourceParse&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:std.adoc[std]::xref:std/set.adoc[set]&lt;xref:PackedResourceType.adoc[PackedResourceType]&gt; const ValidResourceTypes = &lcub; PackedResourceType&colon;&colon;DataPack,    PackedResourceType&colon;&colon;ResourcePack,
+                                                                 PackedResourceType&colon;&colon;TexturePack, PackedResourceType&colon;&colon;ShaderPack,
+                                                                 PackedResourceType&colon;&colon;WorldSave,   PackedResourceType&colon;&colon;Mod &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,46 @@
+[#ATLauncher-UserInteractionSupport]
+= xref:ATLauncher.adoc[ATLauncher]::UserInteractionSupport
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L60[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class UserInteractionSupport;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/UserInteractionSupport/chooseOptionalMods.adoc[`chooseOptionalMods`] 
+| Requests a user interaction to select which optional mods should be installed&period;
+
+
+
+| xref:ATLauncher/UserInteractionSupport/chooseVersion.adoc[`chooseVersion`] 
+| Requests a user interaction to select a component version from a given version list
+and constrained to a given Minecraft version&period;
+
+
+
+| xref:ATLauncher/UserInteractionSupport/displayMessage.adoc[`displayMessage`] 
+| Requests a user interaction to display a message&period;
+
+
+
+| xref:ATLauncher/UserInteractionSupport/2destructor.adoc[`&tilde;UserInteractionSupport`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

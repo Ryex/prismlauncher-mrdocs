@@ -1,0 +1,19 @@
+[#JavaInstall-operator_gt-06]
+= xref:JavaInstall.adoc[JavaInstall]::operator&gt;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L37[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator&gt;(xref:JavaInstall.adoc[JavaInstall] const& rhs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

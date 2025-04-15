@@ -1,0 +1,30 @@
+[#toml-v3-node]
+= xref:toml.adoc[toml]::xref:toml/v3.adoc[v3]::node
+:relfileprefix: ../../
+:mrdocs:
+
+
+A TOML node&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/zh639bj1fmmgkxvy1b84mlbq7ax0r1pz-tomlplusplus-3.4.0/include/toml++/impl/node.hpp#L18[&sol;nix&sol;store&sol;zh639bj1fmmgkxvy1b84mlbq7ax0r1pz&hyphen;tomlplusplus&hyphen;3&period;4&period;0&sol;include&sol;toml&plus;&plus;&sol;impl&sol;node&period;hpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class node;
+----
+
+
+
+
+== Description
+
+A parsed TOML document forms a tree made up of tables, arrays and values&period;
+This type is the base of each of those, providing a lot of the polymorphic plumbing&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

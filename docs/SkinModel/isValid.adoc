@@ -1,0 +1,19 @@
+[#SkinModel-isValid]
+= xref:SkinModel.adoc[SkinModel]::isValid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L36[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isValid() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

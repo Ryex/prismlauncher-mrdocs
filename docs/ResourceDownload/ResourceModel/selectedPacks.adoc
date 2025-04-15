@@ -1,0 +1,19 @@
+[#ResourceDownload-ResourceModel-selectedPacks]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::selectedPacks
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L107[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ResourceDownload/ResourceModel/DownloadTaskPtr.adoc[DownloadTaskPtr]&gt;
+selectedPacks();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

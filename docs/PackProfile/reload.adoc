@@ -1,0 +1,23 @@
+[#PackProfile-reload]
+= xref:PackProfile.adoc[PackProfile]::reload
+:relfileprefix: ../
+:mrdocs:
+
+
+reload the list, reload all components, resolve dependencies
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L118[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:PackProfile/Result.adoc[Result]
+reload(xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] netmode);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

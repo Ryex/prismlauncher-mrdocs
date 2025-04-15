@@ -1,0 +1,21 @@
+[#ShaderPackFolderModel-createResource]
+= xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]::createResource
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPackFolderModel.h#L17[minecraft&sol;mod&sol;ShaderPackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Resource.adoc[Resource]*
+createResource(xref:QFileInfo.adoc[QFileInfo] const& info) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

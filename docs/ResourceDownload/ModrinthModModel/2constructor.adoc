@@ -1,0 +1,18 @@
+[#ResourceDownload-ModrinthModModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthModModel.adoc[ModrinthModModel]::ModrinthModModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourceModels.h#L33[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthModModel(xref:BaseInstance.adoc[BaseInstance]&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#RemoteLoadStatus-Type]
+= xref:RemoteLoadStatus.adoc[RemoteLoadStatus]::Type
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L14[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Type : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Index`
+|
+|`List`
+|
+|`Version`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

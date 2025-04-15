@@ -1,0 +1,18 @@
+[#ModloaderMapEntry-knownConflictingComponents]
+= xref:ModloaderMapEntry.adoc[ModloaderMapEntry]::knownConflictingComponents
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L49[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] knownConflictingComponents;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

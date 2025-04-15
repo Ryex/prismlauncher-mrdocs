@@ -1,0 +1,21 @@
+[#Flame-loadIndexedInfo]
+= xref:Flame.adoc[Flame]::loadIndexedInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L49[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadIndexedInfo(
+    xref:Flame/IndexedPack.adoc[IndexedPack]&,
+    xref:QJsonObject.adoc[QJsonObject]&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

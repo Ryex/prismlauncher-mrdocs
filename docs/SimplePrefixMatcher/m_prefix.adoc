@@ -1,0 +1,18 @@
+[#SimplePrefixMatcher-m_prefix]
+= xref:SimplePrefixMatcher.adoc[SimplePrefixMatcher]::m&lowbar;prefix
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/SimplePrefixMatcher.h#L23[pathmatcher&sol;SimplePrefixMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;prefix;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

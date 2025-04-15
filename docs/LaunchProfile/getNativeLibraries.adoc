@@ -1,0 +1,19 @@
+[#LaunchProfile-getNativeLibraries]
+= xref:LaunchProfile.adoc[LaunchProfile]::getNativeLibraries
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L80[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:LibraryPtr.adoc[LibraryPtr]&gt; const&
+getNativeLibraries() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

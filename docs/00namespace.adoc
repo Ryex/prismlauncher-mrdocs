@@ -1,0 +1,138 @@
+[#00namespace]
+= Unnamed namespace
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/MojangError.adoc[`MojangError`] 
+| 
+
+| xref:00namespace/RequireCompositionResult.adoc[`RequireCompositionResult`] 
+| 
+
+| xref:00namespace/RequireEx.adoc[`RequireEx`] 
+| 
+
+| xref:00namespace/RequireExSet.adoc[`RequireExSet`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/Column.adoc[`Column`] 
+| 
+
+| xref:00namespace/LoadResult.adoc[`LoadResult`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/appDebugOutput.adoc[`appDebugOutput`] 
+| This is used so that we can output to the log file in addition to the CLI&period;
+
+
+
+| xref:00namespace/collectPathsFromDir.adoc[`collectPathsFromDir`] 
+| 
+
+| xref:00namespace/composeLoadResult.adoc[`composeLoadResult`] 
+| 
+
+| xref:00namespace/entitlementFromJSONV3.adoc[`entitlementFromJSONV3`] 
+| 
+
+| xref:00namespace/entitlementToJSONV3.adoc[`entitlementToJSONV3`] 
+| 
+
+| xref:00namespace/getCreditsHtml.adoc[`getCreditsHtml`] 
+| 
+
+| xref:00namespace/getGitHub.adoc[`getGitHub`] 
+| 
+
+| xref:00namespace/getLicenseHtml.adoc[`getLicenseHtml`] 
+| 
+
+| xref:00namespace/getLink.adoc[`getLink`] 
+| 
+
+| xref:00namespace/getWebsite.adoc[`getWebsite`] 
+| 
+
+| xref:00namespace/load.adoc[`load`] 
+| 
+
+| xref:00namespace/loadComponent.adoc[`loadComponent`] 
+| 
+
+| xref:00namespace/probeProcCpuinfo.adoc[`probeProcCpuinfo`] 
+| 
+
+| xref:00namespace/profileFromJSONV3.adoc[`profileFromJSONV3`] 
+| 
+
+| xref:00namespace/profileInUseFilter.adoc[`profileInUseFilter`] 
+| 
+
+| xref:00namespace/profileToJSONV3.adoc[`profileToJSONV3`] 
+| 
+
+| xref:00namespace/readIndex.adoc[`readIndex`] 
+| 
+
+| xref:00namespace/read_gametype.adoc[`read&lowbar;gametype`] 
+| 
+
+| xref:00namespace/read_int.adoc[`read&lowbar;int`] 
+| 
+
+| xref:00namespace/read_long.adoc[`read&lowbar;long`] 
+| 
+
+| xref:00namespace/read_string.adoc[`read&lowbar;string`] 
+| 
+
+| xref:00namespace/runGlxinfo.adoc[`runGlxinfo`] 
+| 
+
+| xref:00namespace/runLspci.adoc[`runLspci`] 
+| 
+
+| xref:00namespace/save.adoc[`save`] 
+| 
+
+| xref:00namespace/tokenFromJSONV3.adoc[`tokenFromJSONV3`] 
+| 
+
+| xref:00namespace/tokenToJSONV3.adoc[`tokenToJSONV3`] 
+| 
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/konamiCode.adoc[`konamiCode`] 
+| 
+
+| xref:00namespace/validIconExtensions.adoc[`validIconExtensions`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

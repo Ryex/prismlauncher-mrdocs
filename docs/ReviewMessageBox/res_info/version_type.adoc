@@ -1,0 +1,18 @@
+[#ReviewMessageBox-res_info-version_type]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::xref:ReviewMessageBox/res_info.adoc[res&lowbar;info]::version&lowbar;type
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L22[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] version&lowbar;type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

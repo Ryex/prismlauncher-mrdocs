@@ -1,0 +1,103 @@
+[#InfoFrame]
+= InfoFrame
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L48[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InfoFrame
+    : public xref:QFrame.adoc[QFrame];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InfoFrame/2constructor.adoc[`InfoFrame`]         [.small]#[constructor]#
+| 
+
+| xref:InfoFrame/boxClosed.adoc[`boxClosed`] 
+| 
+
+| xref:InfoFrame/clear.adoc[`clear`] 
+| 
+
+| xref:InfoFrame/descriptionEllipsisHandler.adoc[`descriptionEllipsisHandler`] 
+| 
+
+| xref:InfoFrame/licenseEllipsisHandler.adoc[`licenseEllipsisHandler`] 
+| 
+
+| xref:InfoFrame/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:InfoFrame/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:InfoFrame/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:InfoFrame/setDescription.adoc[`setDescription`] 
+| 
+
+| xref:InfoFrame/setImage.adoc[`setImage`] 
+| 
+
+| xref:InfoFrame/setIssueTracker.adoc[`setIssueTracker`] 
+| 
+
+| xref:InfoFrame/setLicense.adoc[`setLicense`] 
+| 
+
+| xref:InfoFrame/setName.adoc[`setName`] 
+| 
+
+| xref:InfoFrame/updateWithMod.adoc[`updateWithMod`] 
+| 
+
+| xref:InfoFrame/updateWithResource.adoc[`updateWithResource`] 
+| 
+
+| xref:InfoFrame/updateWithResourcePack.adoc[`updateWithResourcePack`] 
+| 
+
+| xref:InfoFrame/updateWithTexturePack.adoc[`updateWithTexturePack`] 
+| 
+
+| xref:InfoFrame/2destructor.adoc[`&tilde;InfoFrame`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InfoFrame/renderColorCodes.adoc[`renderColorCodes`] 
+| 
+
+| xref:InfoFrame/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InfoFrame/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

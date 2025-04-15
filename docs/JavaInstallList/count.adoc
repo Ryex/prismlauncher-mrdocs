@@ -1,0 +1,20 @@
+[#JavaInstallList-count]
+= xref:JavaInstallList.adoc[JavaInstallList]::count
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L41[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+count() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

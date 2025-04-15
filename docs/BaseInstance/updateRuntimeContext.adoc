@@ -1,0 +1,20 @@
+[#BaseInstance-updateRuntimeContext]
+= xref:BaseInstance.adoc[BaseInstance]::updateRuntimeContext
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L221[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateRuntimeContext();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

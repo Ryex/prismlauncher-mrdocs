@@ -1,0 +1,19 @@
+[#LaunchController-id]
+= xref:LaunchController.adoc[LaunchController]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LaunchController.h#L71[LaunchController&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

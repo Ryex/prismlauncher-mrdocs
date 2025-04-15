@@ -1,0 +1,18 @@
+[#InstancePageProvider-inst]
+= xref:InstancePageProvider.adoc[InstancePageProvider]::inst
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstancePageProvider.h#L57[InstancePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstancePtr.adoc[InstancePtr] inst;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

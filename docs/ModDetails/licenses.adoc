@@ -1,0 +1,18 @@
+[#ModDetails-licenses]
+= xref:ModDetails.adoc[ModDetails]::licenses
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L140[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModLicense.adoc[ModLicense]&gt; licenses = &equals; &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

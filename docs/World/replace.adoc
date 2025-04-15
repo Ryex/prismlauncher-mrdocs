@@ -1,0 +1,19 @@
+[#World-replace]
+= xref:World.adoc[World]::replace
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L48[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+replace(xref:World.adoc[World]& with);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

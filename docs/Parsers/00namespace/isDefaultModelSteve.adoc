@@ -1,0 +1,19 @@
+[#Parsers-00namespace-isDefaultModelSteve]
+= xref:Parsers.adoc[Parsers]::isDefaultModelSteve
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.cpp#L229[minecraft&sol;auth&sol;Parsers&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isDefaultModelSteve(xref:QString.adoc[QString] uuid);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

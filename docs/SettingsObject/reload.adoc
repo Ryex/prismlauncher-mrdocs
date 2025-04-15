@@ -1,0 +1,28 @@
+[#SettingsObject-reload]
+= xref:SettingsObject.adoc[SettingsObject]::reload
+:relfileprefix: ../
+:mrdocs:
+
+
+Reloads the settings and emit signals for changed settings
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L140[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+reload();
+----
+
+== Return Value
+
+True if reloading was successful
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

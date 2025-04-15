@@ -1,0 +1,20 @@
+[#JProfiler-qt_metacast]
+= xref:JProfiler.adoc[JProfiler]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/JProfiler.cpp#L10[tools&sol;JProfiler&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

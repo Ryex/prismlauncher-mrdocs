@@ -1,0 +1,19 @@
+[#Library-setClassifier]
+= xref:Library.adoc[Library]::setClassifier
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L88[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setClassifier(xref:QString.adoc[QString] const& spec);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#Parsers-00namespace]
+= Unnamed namespace
+:relfileprefix: ../
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Parsers/00namespace/isDefaultModelSteve.adoc[`isDefaultModelSteve`] 
+| 
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Parsers/00namespace/SKIN_URL_ALEX.adoc[`SKIN&lowbar;URL&lowbar;ALEX`] 
+| 
+
+| xref:Parsers/00namespace/SKIN_URL_STEVE.adoc[`SKIN&lowbar;URL&lowbar;STEVE`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

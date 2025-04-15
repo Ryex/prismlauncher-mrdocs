@@ -1,0 +1,22 @@
+[#AssetsUtils-loadAssetsIndexJson]
+= xref:AssetsUtils.adoc[AssetsUtils]::loadAssetsIndexJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L44[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+loadAssetsIndexJson(
+    xref:QString.adoc[QString] const& id,
+    xref:QString.adoc[QString] const& file,
+    xref:AssetsIndex.adoc[AssetsIndex]& index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

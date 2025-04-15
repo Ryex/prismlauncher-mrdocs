@@ -1,0 +1,19 @@
+[#MojangLibraryDownloadInfo-getDownloadInfo]
+= xref:MojangLibraryDownloadInfo.adoc[MojangLibraryDownloadInfo]::getDownloadInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L29[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MojangDownloadInfo.adoc[MojangDownloadInfo]*
+getDownloadInfo(xref:QString.adoc[QString] classifier);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

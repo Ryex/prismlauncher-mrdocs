@@ -1,0 +1,18 @@
+[#CapeChange-2constructor]
+= xref:CapeChange.adoc[CapeChange]::CapeChange
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/CapeChange.h#L27[minecraft&sol;skins&sol;CapeChange&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+CapeChange(xref:QString.adoc[QString] capeId);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

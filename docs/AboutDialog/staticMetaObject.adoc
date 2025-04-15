@@ -1,0 +1,19 @@
+[#AboutDialog-staticMetaObject]
+= xref:AboutDialog.adoc[AboutDialog]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/AboutDialog.h#L25[ui&sol;dialogs&sol;AboutDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

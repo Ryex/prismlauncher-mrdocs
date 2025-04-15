@@ -1,0 +1,23 @@
+[#Mod-tr]
+= xref:Mod.adoc[Mod]::tr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L53[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

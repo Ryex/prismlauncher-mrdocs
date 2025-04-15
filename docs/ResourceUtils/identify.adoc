@@ -1,0 +1,19 @@
+[#ResourceUtils-identify]
+= xref:ResourceUtils.adoc[ResourceUtils]::identify
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceParse.h#L35[minecraft&sol;mod&sol;tasks&sol;LocalResourceParse&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:PackedResourceType.adoc[PackedResourceType]
+identify(xref:QFileInfo.adoc[QFileInfo] file);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

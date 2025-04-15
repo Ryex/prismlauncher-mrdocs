@@ -1,0 +1,38 @@
+[#FS-ResolveExecutable]
+= xref:FS.adoc[FS]::ResolveExecutable
+:relfileprefix: ../
+:mrdocs:
+
+
+Resolve an executable
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L332[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+ResolveExecutable(xref:QString.adoc[QString] path);
+----
+
+== Description
+
+Will resolve&colon;
+single executable (by name)
+relative path
+absolute path
+
+
+
+== Return Value
+
+absolute path to executable or null string
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

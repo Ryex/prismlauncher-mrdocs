@@ -1,0 +1,20 @@
+[#JavaChecker-qt_metacast]
+= xref:JavaChecker.adoc[JavaChecker]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaChecker.h#L10[java&sol;JavaChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#unquote]
+= unquote
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.cpp#L103[settings&sol;INIFile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+unquote(xref:QString.adoc[QString] str);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

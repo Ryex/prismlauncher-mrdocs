@@ -1,0 +1,22 @@
+[#Json-ensureJsonValue-09]
+= xref:Json.adoc[Json]::ensureJsonValue
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L267[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonValue.adoc[QJsonValue]
+ensureJsonValue(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QJsonValue.adoc[QJsonValue] const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

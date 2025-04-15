@@ -1,0 +1,20 @@
+[#ProblemProvider-getProblemSeverity]
+= xref:ProblemProvider.adoc[ProblemProvider]::getProblemSeverity
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L17[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:ProblemSeverity.adoc[ProblemSeverity]
+getProblemSeverity() const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

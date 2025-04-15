@@ -1,0 +1,19 @@
+[#InstanceList-loadList]
+= xref:InstanceList.adoc[InstanceList]::loadList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L97[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstanceList.adoc[InstanceList]::xref:InstanceList/InstListError.adoc[InstListError]
+loadList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

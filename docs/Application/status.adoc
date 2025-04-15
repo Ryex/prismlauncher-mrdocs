@@ -1,0 +1,19 @@
+[#Application-status]
+= xref:Application.adoc[Application]::status
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L137[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Application/Status.adoc[Status]
+status() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

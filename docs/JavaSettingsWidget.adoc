@@ -1,0 +1,66 @@
+[#JavaSettingsWidget]
+= JavaSettingsWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaSettingsWidget.h#L47[ui&sol;widgets&sol;JavaSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JavaSettingsWidget
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaSettingsWidget/2constructor.adoc[`JavaSettingsWidget`]         [.small]#[constructor]#
+| 
+| xref:JavaSettingsWidget/loadSettings.adoc[`loadSettings`] 
+| 
+
+| xref:JavaSettingsWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:JavaSettingsWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:JavaSettingsWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:JavaSettingsWidget/saveSettings.adoc[`saveSettings`] 
+| 
+
+| xref:JavaSettingsWidget/2destructor.adoc[`&tilde;JavaSettingsWidget`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaSettingsWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaSettingsWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

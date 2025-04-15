@@ -1,0 +1,30 @@
+[#JavaInstall-operator_lt]
+= xref:JavaInstall.adoc[JavaInstall]::operator&lt;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L33[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+xref:JavaInstall/operator_lt-04.adoc[operator&lt;](xref:BaseVersion.adoc[BaseVersion]& a) override;
+----
+
+[.small]#xref:JavaInstall/operator_lt-04.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:JavaInstall/operator_lt-0b.adoc[operator&lt;](xref:JavaInstall.adoc[JavaInstall] const& rhs);
+----
+
+[.small]#xref:JavaInstall/operator_lt-0b.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,54 @@
+[#PackProfile-Result]
+= xref:PackProfile.adoc[PackProfile]::Result
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L65[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Result;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/Result/2conversion.adoc[`operator bool`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/Result/Error.adoc[`Error`] 
+| 
+
+| xref:PackProfile/Result/Success.adoc[`Success`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/Result/error.adoc[`error`] 
+| 
+
+| xref:PackProfile/Result/success.adoc[`success`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

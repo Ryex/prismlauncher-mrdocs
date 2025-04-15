@@ -1,0 +1,19 @@
+[#Language-isIdenticalTo]
+= xref:Language.adoc[Language]::isIdenticalTo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L115[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isIdenticalTo(xref:Language.adoc[Language] const& other) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

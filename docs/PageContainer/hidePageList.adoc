@@ -1,0 +1,19 @@
+[#PageContainer-hidePageList]
+= xref:PageContainer.adoc[PageContainer]::hidePageList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L90[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+hidePageList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

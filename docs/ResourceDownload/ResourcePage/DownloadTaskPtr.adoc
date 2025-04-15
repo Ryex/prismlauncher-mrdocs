@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourcePage-DownloadTaskPtr]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePage.adoc[ResourcePage]::DownloadTaskPtr
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePage.h#L32[ui&sol;pages&sol;modplatform&sol;ResourcePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using DownloadTaskPtr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:ResourceDownloadTask.adoc[ResourceDownloadTask]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

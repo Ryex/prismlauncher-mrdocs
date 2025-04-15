@@ -1,0 +1,19 @@
+[#World-isOnFS]
+= xref:World.adoc[World]::isOnFS
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L43[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isOnFS() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

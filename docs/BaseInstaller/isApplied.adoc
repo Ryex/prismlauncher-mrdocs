@@ -1,0 +1,19 @@
+[#BaseInstaller-isApplied]
+= xref:BaseInstaller.adoc[BaseInstaller]::isApplied
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstaller.h#L33[BaseInstaller&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isApplied(xref:MinecraftInstance.adoc[MinecraftInstance]* on);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

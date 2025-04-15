@@ -1,0 +1,20 @@
+[#ModFolderModel-at-06]
+= xref:ModFolderModel.adoc[ModFolderModel]::at
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModFolderModel.h#L88[minecraft&sol;mod&sol;ModFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:Mod.adoc[Mod]&
+at(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

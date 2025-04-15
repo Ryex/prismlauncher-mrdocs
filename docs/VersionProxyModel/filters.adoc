@@ -1,0 +1,19 @@
+[#VersionProxyModel-filters]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::filters
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L29[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:VersionProxyModel/FilterMap.adoc[FilterMap] const&
+filters() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

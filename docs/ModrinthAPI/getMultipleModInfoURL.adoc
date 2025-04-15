@@ -1,0 +1,19 @@
+[#ModrinthAPI-getMultipleModInfoURL]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getMultipleModInfoURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L171[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getMultipleModInfoURL(xref:QStringList.adoc[QStringList] ids) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

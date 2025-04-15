@@ -1,0 +1,18 @@
+[#ATLauncher-VersionKeep-base]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionKeep.adoc[VersionKeep]::base
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L137[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] base;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

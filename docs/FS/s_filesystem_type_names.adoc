@@ -1,0 +1,47 @@
+[#FS-s_filesystem_type_names]
+= xref:FS.adoc[FS]::s&lowbar;filesystem&lowbar;type&lowbar;names
+:relfileprefix: ../
+:mrdocs:
+
+
+Ordered Mapping of enum types to reported filesystem names
+this mapping is non exsaustive, it just attempts to capture the filesystems which could be reasonalbly be in use &period;
+all string values are in uppercase, use &grave;QString&period;toUpper()&grave; or equivalent during lookup&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L394[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMap.adoc[QMap]&lt;xref:FS/FilesystemType.adoc[FilesystemType], xref:QStringList.adoc[QStringList]&gt; const s&lowbar;filesystem&lowbar;type&lowbar;names = &lcub; &lcub; FilesystemType&colon;&colon;FAT, &lcub; &quot;FAT&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;NTFS, &lcub; &quot;NTFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;REFS, &lcub; &quot;REFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;EXT&lowbar;2&lowbar;OLD, &lcub; &quot;EXT&lowbar;2&lowbar;OLD&quot;, &quot;EXT2&lowbar;OLD&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;EXT&lowbar;2&lowbar;3&lowbar;4,
+                                                                             &lcub; &quot;EXT2&sol;3&sol;4&quot;, &quot;EXT&lowbar;2&lowbar;3&lowbar;4&quot;, &quot;EXT2&quot;, &quot;EXT3&quot;, &quot;EXT4&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;EXT, &lcub; &quot;EXT&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;XFS, &lcub; &quot;XFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;BTRFS, &lcub; &quot;BTRFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;NFS, &lcub; &quot;NFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;ZFS, &lcub; &quot;ZFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;APFS, &lcub; &quot;APFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;HFS, &lcub; &quot;HFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;HFSPLUS, &lcub; &quot;HFSPLUS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;HFSX, &lcub; &quot;HFSX&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;FUSEBLK, &lcub; &quot;FUSEBLK&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;F2FS, &lcub; &quot;F2FS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;BCACHEFS, &lcub; &quot;BCACHEFS&quot; &rcub; &rcub;,
+                                                                           &lcub; FilesystemType&colon;&colon;UNKNOWN, &lcub; &quot;UNKNOWN&quot; &rcub; &rcub; &rcub;;
+----
+
+== Description
+
+QMap is ordered
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

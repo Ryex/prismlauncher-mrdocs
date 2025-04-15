@@ -1,0 +1,19 @@
+[#Metadata-modSideToString]
+= xref:Metadata.adoc[Metadata]::modSideToString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/MetadataHandler.h#L68[minecraft&sol;mod&sol;MetadataHandler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+modSideToString(xref:Metadata/ModSide.adoc[ModSide] side);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

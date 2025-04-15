@@ -1,0 +1,21 @@
+[#InstanceCopyTask-2constructor]
+= xref:InstanceCopyTask.adoc[InstanceCopyTask]::InstanceCopyTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyTask.h#L17[InstanceCopyTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+InstanceCopyTask(
+    xref:InstancePtr.adoc[InstancePtr] origInstance,
+    xref:InstanceCopyPrefs.adoc[InstanceCopyPrefs] const& prefs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

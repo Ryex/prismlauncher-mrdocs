@@ -1,0 +1,22 @@
+[#PrintInstanceInfo-2constructor]
+= xref:PrintInstanceInfo.adoc[PrintInstanceInfo]::PrintInstanceInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/PrintInstanceInfo.h#L26[minecraft&sol;launch&sol;PrintInstanceInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PrintInstanceInfo(
+    xref:LaunchTask.adoc[LaunchTask]* parent,
+    xref:AuthSessionPtr.adoc[AuthSessionPtr] session,
+    xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#FS-create_link-linkFailed]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::linkFailed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L252[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+linkFailed(
+    xref:QString.adoc[QString] const& srcName,
+    xref:QString.adoc[QString] const& dstName,
+    xref:QString.adoc[QString] const& err&lowbar;msg,
+    int err&lowbar;value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

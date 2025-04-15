@@ -1,0 +1,19 @@
+[#ResourceUpdateDialog-noUpdates]
+= xref:ResourceUpdateDialog.adoc[ResourceUpdateDialog]::noUpdates
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceUpdateDialog.h#L33[ui&sol;dialogs&sol;ResourceUpdateDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+noUpdates() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#PackProfile-tr]
+= xref:PackProfile.adoc[PackProfile]::tr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L59[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

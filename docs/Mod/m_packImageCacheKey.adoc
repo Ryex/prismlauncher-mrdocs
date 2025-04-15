@@ -1,0 +1,19 @@
+[#Mod-m_packImageCacheKey]
+= xref:Mod.adoc[Mod]::m&lowbar;packImageCacheKey
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L102[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:Mod/01record.adoc[] m&lowbar;packImageCacheKey;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#ResourceDownload-ModrinthResourcePackPage-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthResourcePackPage.adoc[ModrinthResourcePackPage]::ModrinthResourcePackPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourcePages.h#L112[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthResourcePackPage(
+    xref:ResourceDownload/ResourcePackDownloadDialog.adoc[ResourcePackDownloadDialog]* dialog,
+    xref:BaseInstance.adoc[BaseInstance]& instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

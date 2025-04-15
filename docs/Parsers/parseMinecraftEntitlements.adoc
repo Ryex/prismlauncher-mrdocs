@@ -1,0 +1,21 @@
+[#Parsers-parseMinecraftEntitlements]
+= xref:Parsers.adoc[Parsers]::parseMinecraftEntitlements
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L17[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+parseMinecraftEntitlements(
+    xref:QByteArray.adoc[QByteArray]& data,
+    xref:MinecraftEntitlement.adoc[MinecraftEntitlement]& output);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

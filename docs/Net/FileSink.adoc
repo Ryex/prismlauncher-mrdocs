@@ -1,0 +1,89 @@
+[#Net-FileSink]
+= xref:Net.adoc[Net]::FileSink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/FileSink.h#L42[net&sol;FileSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FileSink
+    : public xref:Net/Sink.adoc[Sink];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/FileSink/2constructor.adoc[`FileSink`]         [.small]#[constructor]#
+| 
+
+| xref:Net/Sink/abort.adoc[`abort`] 
+| 
+| xref:Net/Sink/addValidator.adoc[`addValidator`] 
+| 
+
+| xref:Net/Sink/finalize.adoc[`finalize`] 
+| 
+| xref:Net/Sink/hasLocalData.adoc[`hasLocalData`] 
+| 
+| xref:Net/Sink/init.adoc[`init`] 
+| 
+| xref:Net/Sink/write.adoc[`write`] 
+| 
+| xref:Net/FileSink/2destructor.adoc[`&tilde;FileSink`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/Sink/failAllValidators.adoc[`failAllValidators`] 
+| 
+
+| xref:Net/Sink/finalizeAllValidators.adoc[`finalizeAllValidators`] 
+| 
+
+| xref:Net/FileSink/finalizeCache.adoc[`finalizeCache`] 
+| 
+
+| xref:Net/Sink/initAllValidators.adoc[`initAllValidators`] 
+| 
+
+| xref:Net/FileSink/initCache.adoc[`initCache`] 
+| 
+
+| xref:Net/Sink/writeAllValidators.adoc[`writeAllValidators`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/FileSink/m_filename.adoc[`m&lowbar;filename`] 
+| 
+
+| xref:Net/FileSink/m_output_file.adoc[`m&lowbar;output&lowbar;file`] 
+| 
+
+| xref:Net/FileSink/m_wroteAnyData.adoc[`m&lowbar;wroteAnyData`] 
+| 
+
+| xref:Net/Sink/validators.adoc[`validators`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

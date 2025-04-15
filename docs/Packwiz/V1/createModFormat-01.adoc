@@ -1,0 +1,23 @@
+[#Packwiz-V1-createModFormat-01]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::createModFormat
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L80[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Packwiz/V1/Mod.adoc[Mod]
+createModFormat(
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:Mod.adoc[Mod]& internal&lowbar;mod,
+    xref:QString.adoc[QString] slug);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

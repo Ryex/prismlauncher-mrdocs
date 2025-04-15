@@ -1,0 +1,23 @@
+[#Json-ensureIsArrayOf-08e]
+= xref:Json.adoc[Json]::ensureIsArrayOf
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L212[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+xref:QVector.adoc[QVector]&lt;T&gt;
+ensureIsArrayOf(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QVector.adoc[QVector]&lt;T&gt; const default&lowbar;,
+    xref:QString.adoc[QString] const& what = &quot;Value&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

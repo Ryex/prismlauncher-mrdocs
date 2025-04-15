@@ -1,0 +1,20 @@
+[#HintOverrideProxyStyle-metaObject]
+= xref:HintOverrideProxyStyle.adoc[HintOverrideProxyStyle]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/HintOverrideProxyStyle.h#L26[ui&sol;themes&sol;HintOverrideProxyStyle&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

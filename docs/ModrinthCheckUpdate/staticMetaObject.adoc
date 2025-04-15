@@ -1,0 +1,19 @@
+[#ModrinthCheckUpdate-staticMetaObject]
+= xref:ModrinthCheckUpdate.adoc[ModrinthCheckUpdate]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthCheckUpdate.h#L6[modplatform&sol;modrinth&sol;ModrinthCheckUpdate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#FastFileIconProvider]
+= FastFileIconProvider
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FastFileIconProvider.h#L23[FastFileIconProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FastFileIconProvider
+    : public xref:QFileIconProvider.adoc[QFileIconProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FastFileIconProvider/icon.adoc[`icon`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

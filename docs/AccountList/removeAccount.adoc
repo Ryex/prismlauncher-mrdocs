@@ -1,0 +1,19 @@
+[#AccountList-removeAccount]
+= xref:AccountList.adoc[AccountList]::removeAccount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L80[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+removeAccount(xref:QModelIndex.adoc[QModelIndex] index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

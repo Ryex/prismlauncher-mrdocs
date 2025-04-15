@@ -1,0 +1,19 @@
+[#Java-ArchiveDownloadTask-2destructor]
+= xref:Java.adoc[Java]::xref:Java/ArchiveDownloadTask.adoc[ArchiveDownloadTask]::&tilde;ArchiveDownloadTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ArchiveDownloadTask.h#L29[java&sol;download&sol;ArchiveDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ArchiveDownloadTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

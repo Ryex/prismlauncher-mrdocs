@@ -1,0 +1,19 @@
+[#Technic-ListModel-searchWithTerm]
+= xref:Technic.adoc[Technic]::xref:Technic/ListModel.adoc[ListModel]::searchWithTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicModel.h#L59[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+searchWithTerm(xref:QString.adoc[QString] const& term);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

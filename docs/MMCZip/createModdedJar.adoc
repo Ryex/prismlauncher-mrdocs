@@ -1,0 +1,26 @@
+[#MMCZip-createModdedJar]
+= xref:MMCZip.adoc[MMCZip]::createModdedJar
+:relfileprefix: ../
+:mrdocs:
+
+
+take a source jar, add mods to it, resulting in target jar
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L89[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+createModdedJar(
+    xref:QString.adoc[QString] sourceJarPath,
+    xref:QString.adoc[QString] targetJarPath,
+    xref:QList.adoc[QList]&lt;xref:Mod.adoc[Mod]*&gt; const& mods);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

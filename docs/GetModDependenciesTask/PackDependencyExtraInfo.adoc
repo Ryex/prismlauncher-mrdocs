@@ -1,0 +1,33 @@
+[#GetModDependenciesTask-PackDependencyExtraInfo]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::PackDependencyExtraInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L52[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PackDependencyExtraInfo;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GetModDependenciesTask/PackDependencyExtraInfo/maybe_installed.adoc[`maybe&lowbar;installed`] 
+| 
+
+| xref:GetModDependenciesTask/PackDependencyExtraInfo/required_by.adoc[`required&lowbar;by`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

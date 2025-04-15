@@ -1,0 +1,33 @@
+[#Override-createOverrides]
+= xref:Override.adoc[Override]::createOverrides
+:relfileprefix: ../
+:mrdocs:
+
+
+This creates a file in &grave;parent&lowbar;folder&grave; that holds information about which
+overrides are in &grave;override&lowbar;path&grave;&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/OverrideUtils.h#L12[modplatform&sol;helpers&sol;OverrideUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+createOverrides(
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& parent&lowbar;folder,
+    xref:QString.adoc[QString] const& override&lowbar;path);
+----
+
+== Description
+
+If there&apos;s already an existing such file, it will be ovewritten&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

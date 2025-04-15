@@ -1,0 +1,20 @@
+[#World-isMoreThanOneHardLink]
+= xref:World.adoc[World]::isMoreThanOneHardLink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L71[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+isMoreThanOneHardLink() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

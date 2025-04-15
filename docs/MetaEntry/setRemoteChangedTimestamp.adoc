@@ -1,0 +1,19 @@
+[#MetaEntry-setRemoteChangedTimestamp]
+= xref:MetaEntry.adoc[MetaEntry]::setRemoteChangedTimestamp
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L58[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setRemoteChangedTimestamp(xref:QString.adoc[QString] remote&lowbar;changed&lowbar;timestamp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

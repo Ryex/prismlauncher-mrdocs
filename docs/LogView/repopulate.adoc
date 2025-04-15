@@ -1,0 +1,19 @@
+[#LogView-repopulate]
+= xref:LogView.adoc[LogView]::repopulate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L22[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+repopulate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

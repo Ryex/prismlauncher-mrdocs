@@ -1,0 +1,38 @@
+[#FS-pathDepth]
+= xref:FS.adoc[FS]::pathDepth
+:relfileprefix: ../
+:mrdocs:
+
+
+depth of path&period; &quot;foo&period;txt&quot; &hyphen;&gt; 0 , &quot;bar&sol;foo&period;txt&quot; &hyphen;&gt; 1, &sol;baz&sol;bar&sol;foo&period;txt &hyphen;&gt; 2, etc&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L311[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+pathDepth(xref:QString.adoc[QString] const& path);
+----
+
+== Return Value
+
+int number of components before base path
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *path*
+| path to measure
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PageContainer-help]
+= xref:PageContainer.adoc[PageContainer]::help
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L97[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+help();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

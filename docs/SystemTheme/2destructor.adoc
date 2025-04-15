@@ -1,0 +1,19 @@
+[#SystemTheme-2destructor]
+= xref:SystemTheme.adoc[SystemTheme]::&tilde;SystemTheme
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/SystemTheme.h#L42[ui&sol;themes&sol;SystemTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;SystemTheme();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

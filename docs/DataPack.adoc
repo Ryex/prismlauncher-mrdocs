@@ -1,0 +1,261 @@
+[#DataPack]
+= DataPack
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L35[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class DataPack
+    : public xref:Resource.adoc[Resource];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Resource/Ptr.adoc[`Ptr`] 
+| 
+
+| xref:Resource/WeakPtr.adoc[`WeakPtr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:DataPack/2constructor.adoc[`DataPack`]         [.small]#[constructor]#
+| 
+| xref:Resource/applyFilter.adoc[`applyFilter`] 
+| Returns whether the given filter should filter out &apos;this&apos; (false),
+or if such filter includes the Resource (true)&period;
+
+
+
+| xref:Resource/compare.adoc[`compare`] 
+| Compares two Resources, for sorting purposes, considering a ascending order, returning&colon;
+&gt; 0&colon; &apos;this&apos; comes after &apos;other&apos;
+&equals; 0&colon; &apos;this&apos; is equal to &apos;other&apos;
+&lt; 0&colon; &apos;this&apos; comes before &apos;other&apos;
+
+
+
+| xref:DataPack/compatibleVersions.adoc[`compatibleVersions`] 
+| Gets, respectively, the lower and upper versions supported by the set pack format&period;
+
+
+
+| xref:Resource/dateTimeChanged.adoc[`dateTimeChanged`] 
+| 
+
+| xref:DataPack/description.adoc[`description`] 
+| Gets the description of the data pack&period;
+
+
+
+| xref:Resource/destroy.adoc[`destroy`] 
+| 
+
+| xref:Resource/destroyMetadata.adoc[`destroyMetadata`] 
+| 
+
+| xref:DataPack/directory.adoc[`directory`] 
+| 
+
+| xref:Resource/enable.adoc[`enable`] 
+| Changes the enabled property, according to &apos;action&apos;&period;
+
+
+
+| xref:Resource/enabled.adoc[`enabled`] 
+| 
+
+| xref:Resource/fileinfo.adoc[`fileinfo`] 
+| 
+
+| xref:Resource/getOriginalFileName.adoc[`getOriginalFileName`] 
+| 
+
+| xref:Resource/homepage.adoc[`homepage`] 
+| 
+
+| xref:Resource/internal_id.adoc[`internal&lowbar;id`] 
+| 
+
+| xref:Resource/isMoreThanOneHardLink.adoc[`isMoreThanOneHardLink`] 
+| 
+
+| xref:Resource/isResolved.adoc[`isResolved`] 
+| 
+
+| xref:Resource/isResolving.adoc[`isResolving`] 
+| 
+
+| xref:Resource/isSymLink.adoc[`isSymLink`] 
+| 
+
+| xref:Resource/isSymLinkUnder.adoc[`isSymLinkUnder`] 
+| Take a instance path, checks if the file pointed to by the resource is a symlink or under a symlink in that instance
+
+| xref:Resource/metaObject.adoc[`metaObject`] 
+| 
+| xref:Resource/metadata.adoc[`metadata`] 
+| 
+| xref:Resource/mod_id.adoc[`mod&lowbar;id`] 
+| 
+
+| xref:Resource/name.adoc[`name`] 
+| 
+
+| xref:DataPack/packFormat.adoc[`packFormat`] 
+| Gets the numerical ID of the pack format&period;
+
+
+
+| xref:Resource/parseFile.adoc[`parseFile`] 
+| 
+
+| xref:Resource/provider.adoc[`provider`] 
+| 
+
+| xref:Resource/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:Resource/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:Resource/resolutionTicket.adoc[`resolutionTicket`] 
+| 
+
+| xref:DataPack/setDescription.adoc[`setDescription`] 
+| Thread&hyphen;safe&period;
+
+
+
+| xref:Resource/setFile.adoc[`setFile`] 
+| 
+
+| xref:Resource/setMetadata.adoc[`setMetadata`] 
+| 
+| xref:Resource/setModId.adoc[`setModId`] 
+| 
+
+| xref:DataPack/setPackFormat.adoc[`setPackFormat`] 
+| Thread&hyphen;safe&period;
+
+
+
+| xref:Resource/setResolving.adoc[`setResolving`] 
+| 
+
+| xref:Resource/setStatus.adoc[`setStatus`] 
+| 
+
+| xref:Resource/shouldResolve.adoc[`shouldResolve`] 
+| 
+
+| xref:Resource/sizeInfo.adoc[`sizeInfo`] 
+| 
+
+| xref:Resource/sizeStr.adoc[`sizeStr`] 
+| 
+
+| xref:Resource/status.adoc[`status`] 
+| 
+
+| xref:Resource/type.adoc[`type`] 
+| 
+
+| xref:Resource/valid.adoc[`valid`] 
+| 
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Resource/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Resource/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:DataPack/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Resource/m_changed_date_time.adoc[`m&lowbar;changed&lowbar;date&lowbar;time`] 
+| 
+
+| xref:DataPack/m_data_lock.adoc[`m&lowbar;data&lowbar;lock`] 
+| 
+
+| xref:DataPack/m_description.adoc[`m&lowbar;description`] 
+| The data pack&apos;s description, as defined in the pack&period;mcmeta file&period;
+
+
+
+| xref:Resource/m_enabled.adoc[`m&lowbar;enabled`] 
+| 
+
+| xref:Resource/m_file_info.adoc[`m&lowbar;file&lowbar;info`] 
+| 
+
+| xref:Resource/m_internal_id.adoc[`m&lowbar;internal&lowbar;id`] 
+| 
+
+| xref:Resource/m_is_resolved.adoc[`m&lowbar;is&lowbar;resolved`] 
+| 
+
+| xref:Resource/m_is_resolving.adoc[`m&lowbar;is&lowbar;resolving`] 
+| 
+
+| xref:Resource/m_metadata.adoc[`m&lowbar;metadata`] 
+| 
+
+| xref:Resource/m_mod_id.adoc[`m&lowbar;mod&lowbar;id`] 
+| 
+
+| xref:Resource/m_name.adoc[`m&lowbar;name`] 
+| 
+
+| xref:DataPack/m_pack_format.adoc[`m&lowbar;pack&lowbar;format`] 
+| 
+
+| xref:Resource/m_resolution_ticket.adoc[`m&lowbar;resolution&lowbar;ticket`] 
+| 
+
+| xref:Resource/m_size_info.adoc[`m&lowbar;size&lowbar;info`] 
+| 
+
+| xref:Resource/m_size_str.adoc[`m&lowbar;size&lowbar;str`] 
+| 
+
+| xref:Resource/m_status.adoc[`m&lowbar;status`] 
+| 
+
+| xref:Resource/m_type.adoc[`m&lowbar;type`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

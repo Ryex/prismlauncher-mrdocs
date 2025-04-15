@@ -1,0 +1,19 @@
+[#LaunchProfile-getMainJar]
+= xref:LaunchProfile.adoc[LaunchProfile]::getMainJar
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L85[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LibraryPtr.adoc[LibraryPtr] const
+getMainJar() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

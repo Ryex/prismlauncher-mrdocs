@@ -1,0 +1,24 @@
+[#FlameCreationTask-2constructor]
+= xref:FlameCreationTask.adoc[FlameCreationTask]::FlameCreationTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameInstanceCreationTask.h#L54[modplatform&sol;flame&sol;FlameInstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FlameCreationTask(
+    xref:QString.adoc[QString] const& staging&lowbar;path,
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] global&lowbar;settings,
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] id,
+    xref:QString.adoc[QString] version&lowbar;id,
+    xref:QString.adoc[QString] original&lowbar;instance&lowbar;id = &equals; &lcub;&rcub;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#XboxAuthorizationStep-tr]
+= xref:XboxAuthorizationStep.adoc[XboxAuthorizationStep]::tr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxAuthorizationStep.h#L10[minecraft&sol;auth&sol;steps&sol;XboxAuthorizationStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

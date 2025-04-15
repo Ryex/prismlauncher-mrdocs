@@ -1,0 +1,114 @@
+[#FileIgnoreProxy]
+= FileIgnoreProxy
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L43[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FileIgnoreProxy
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FileIgnoreProxy/2constructor.adoc[`FileIgnoreProxy`]         [.small]#[constructor]#
+| 
+
+| xref:FileIgnoreProxy/blockedPaths.adoc[`blockedPaths`] 
+| 
+| xref:FileIgnoreProxy/data.adoc[`data`] 
+| 
+
+| xref:FileIgnoreProxy/filterFile.adoc[`filterFile`] 
+| 
+
+| xref:FileIgnoreProxy/flags.adoc[`flags`] 
+| 
+
+| xref:FileIgnoreProxy/ignoreFilesWithName.adoc[`ignoreFilesWithName`] 
+| 
+
+| xref:FileIgnoreProxy/ignoreFilesWithPath.adoc[`ignoreFilesWithPath`] 
+| 
+
+| xref:FileIgnoreProxy/lessThan.adoc[`lessThan`] 
+| 
+
+| xref:FileIgnoreProxy/loadBlockedPathsFromFile.adoc[`loadBlockedPathsFromFile`] 
+| 
+
+| xref:FileIgnoreProxy/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FileIgnoreProxy/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FileIgnoreProxy/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FileIgnoreProxy/relPath.adoc[`relPath`] 
+| 
+
+| xref:FileIgnoreProxy/saveBlockedPathsToFile.adoc[`saveBlockedPathsToFile`] 
+| 
+
+| xref:FileIgnoreProxy/setBlockedPaths.adoc[`setBlockedPaths`] 
+| 
+
+| xref:FileIgnoreProxy/setData.adoc[`setData`] 
+| 
+
+| xref:FileIgnoreProxy/setFilterState.adoc[`setFilterState`] 
+| 
+
+| xref:FileIgnoreProxy/shouldExpand.adoc[`shouldExpand`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FileIgnoreProxy/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FileIgnoreProxy/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FileIgnoreProxy/filterAcceptsColumn.adoc[`filterAcceptsColumn`] 
+| 
+
+| xref:FileIgnoreProxy/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+| xref:FileIgnoreProxy/ignoreFile.adoc[`ignoreFile`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

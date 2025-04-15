@@ -1,0 +1,19 @@
+[#BasePage-opened]
+= xref:BasePage.adoc[BasePage]::opened
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePage.h#L55[ui&sol;pages&sol;BasePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+opened();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

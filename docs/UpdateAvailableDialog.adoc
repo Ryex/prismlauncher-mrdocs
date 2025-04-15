@@ -1,0 +1,70 @@
+[#UpdateAvailableDialog]
+= UpdateAvailableDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/UpdateAvailableDialog.h#L30[ui&sol;dialogs&sol;UpdateAvailableDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class UpdateAvailableDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UpdateAvailableDialog/ResultCode.adoc[`ResultCode`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UpdateAvailableDialog/2constructor.adoc[`UpdateAvailableDialog`]         [.small]#[constructor]#
+| 
+
+| xref:UpdateAvailableDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:UpdateAvailableDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:UpdateAvailableDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:UpdateAvailableDialog/2destructor.adoc[`&tilde;UpdateAvailableDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UpdateAvailableDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UpdateAvailableDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

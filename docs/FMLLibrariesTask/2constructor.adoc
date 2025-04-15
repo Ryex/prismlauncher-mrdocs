@@ -1,0 +1,18 @@
+[#FMLLibrariesTask-2constructor]
+= xref:FMLLibrariesTask.adoc[FMLLibrariesTask]::FMLLibrariesTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/update/FMLLibrariesTask.h#L11[minecraft&sol;update&sol;FMLLibrariesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FMLLibrariesTask(xref:MinecraftInstance.adoc[MinecraftInstance]* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

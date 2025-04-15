@@ -1,0 +1,23 @@
+[#VersionSelectDialog-2constructor]
+= xref:VersionSelectDialog.adoc[VersionSelectDialog]::VersionSelectDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/VersionSelectDialog.h#L35[ui&sol;dialogs&sol;VersionSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+VersionSelectDialog(
+    xref:BaseVersionList.adoc[BaseVersionList]* vlist,
+    xref:QString.adoc[QString] title,
+    xref:QWidget.adoc[QWidget]* parent = 0,
+    bool cancelable = true);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

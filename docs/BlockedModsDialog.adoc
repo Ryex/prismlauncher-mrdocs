@@ -1,0 +1,76 @@
+[#BlockedModsDialog]
+= BlockedModsDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L54[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BlockedModsDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BlockedModsDialog/2constructor.adoc[`BlockedModsDialog`]         [.small]#[constructor]#
+| 
+
+| xref:BlockedModsDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:BlockedModsDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:BlockedModsDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BlockedModsDialog/2destructor.adoc[`&tilde;BlockedModsDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BlockedModsDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BlockedModsDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BlockedModsDialog/done.adoc[`done`] 
+| 
+
+| xref:BlockedModsDialog/dragEnterEvent.adoc[`dragEnterEvent`] 
+| 
+
+| xref:BlockedModsDialog/dropEvent.adoc[`dropEvent`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

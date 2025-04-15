@@ -1,0 +1,20 @@
+[#AccessibleInstanceView-child]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::child
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L29[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QAccessibleInterface.adoc[QAccessibleInterface]*
+child(int index) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

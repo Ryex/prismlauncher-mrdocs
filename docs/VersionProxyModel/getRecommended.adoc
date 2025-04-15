@@ -1,0 +1,19 @@
+[#VersionProxyModel-getRecommended]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::getRecommended
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L34[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QModelIndex.adoc[QModelIndex]
+getRecommended() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#Meta-serializeFormatVersion]
+= xref:Meta.adoc[Meta]::serializeFormatVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L50[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+serializeFormatVersion(
+    xref:QJsonObject.adoc[QJsonObject]& obj,
+    xref:Meta/MetadataVersion.adoc[MetadataVersion] version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

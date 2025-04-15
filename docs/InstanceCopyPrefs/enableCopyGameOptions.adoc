@@ -1,0 +1,19 @@
+[#InstanceCopyPrefs-enableCopyGameOptions]
+= xref:InstanceCopyPrefs.adoc[InstanceCopyPrefs]::enableCopyGameOptions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyPrefs.h#L31[InstanceCopyPrefs&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+enableCopyGameOptions(bool b);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

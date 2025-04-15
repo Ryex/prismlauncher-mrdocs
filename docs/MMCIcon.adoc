@@ -1,0 +1,68 @@
+[#MMCIcon]
+= MMCIcon
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L49[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MMCIcon;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MMCIcon/getFilePath.adoc[`getFilePath`] 
+| 
+
+| xref:MMCIcon/has.adoc[`has`] 
+| 
+
+| xref:MMCIcon/icon.adoc[`icon`] 
+| 
+
+| xref:MMCIcon/isBuiltIn.adoc[`isBuiltIn`] 
+| 
+
+| xref:MMCIcon/name.adoc[`name`] 
+| 
+
+| xref:MMCIcon/remove.adoc[`remove`] 
+| 
+
+| xref:MMCIcon/replace.adoc[`replace`] 
+| 
+| xref:MMCIcon/type.adoc[`type`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MMCIcon/m_current_type.adoc[`m&lowbar;current&lowbar;type`] 
+| 
+
+| xref:MMCIcon/m_images.adoc[`m&lowbar;images`] 
+| 
+
+| xref:MMCIcon/m_key.adoc[`m&lowbar;key`] 
+| 
+
+| xref:MMCIcon/m_name.adoc[`m&lowbar;name`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

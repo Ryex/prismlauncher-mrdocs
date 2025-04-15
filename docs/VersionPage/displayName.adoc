@@ -1,0 +1,20 @@
+[#VersionPage-displayName]
+= xref:VersionPage.adoc[VersionPage]::displayName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/VersionPage.h#L60[ui&sol;pages&sol;instance&sol;VersionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+displayName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

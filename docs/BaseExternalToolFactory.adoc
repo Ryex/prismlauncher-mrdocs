@@ -1,0 +1,50 @@
+[#BaseExternalToolFactory]
+= BaseExternalToolFactory
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseExternalTool.h#L33[tools&sol;BaseExternalTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseExternalToolFactory;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalToolFactory/check.adoc[`check`] 
+| 
+| xref:BaseExternalToolFactory/createTool.adoc[`createTool`] 
+| 
+
+| xref:BaseExternalToolFactory/name.adoc[`name`] 
+| 
+
+| xref:BaseExternalToolFactory/registerSettings.adoc[`registerSettings`] 
+| 
+
+| xref:BaseExternalToolFactory/2destructor.adoc[`&tilde;BaseExternalToolFactory`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalToolFactory/globalSettings.adoc[`globalSettings`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

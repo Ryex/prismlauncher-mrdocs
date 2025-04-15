@@ -1,0 +1,66 @@
+[#Library-getApplicableFiles]
+= xref:Library.adoc[Library]::getApplicableFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+Collect applicable files for the library&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L107[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+getApplicableFiles(
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext,
+    xref:QStringList.adoc[QStringList]& jar,
+    xref:QStringList.adoc[QStringList]& native,
+    xref:QStringList.adoc[QStringList]& native32,
+    xref:QStringList.adoc[QStringList]& native64,
+    xref:QString.adoc[QString] const& overridePath) const;
+----
+
+== Description
+
+Depending on whether the library is native or not, it adds paths to the
+appropriate lists for jar files, native libraries for 32&hyphen;bit, and native
+libraries for 64&hyphen;bit&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *runtimeContext*
+| The current runtime context&period;
+
+
+| *jar*
+| List to store paths for jar files&period;
+
+
+| *native*
+| List to store paths for native libraries&period;
+
+
+| *native32*
+| List to store paths for 32&hyphen;bit native libraries&period;
+
+
+| *native64*
+| List to store paths for 64&hyphen;bit native libraries&period;
+
+
+| *overridePath*
+| Optional path to override the default storage path&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

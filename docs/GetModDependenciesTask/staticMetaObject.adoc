@@ -1,0 +1,19 @@
+[#GetModDependenciesTask-staticMetaObject]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L36[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

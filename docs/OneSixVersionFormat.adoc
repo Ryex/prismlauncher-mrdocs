@@ -1,0 +1,54 @@
+[#OneSixVersionFormat]
+= OneSixVersionFormat
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/OneSixVersionFormat.h#L9[minecraft&sol;OneSixVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class OneSixVersionFormat;
+----
+
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:OneSixVersionFormat/jarModFromJson.adoc[`jarModFromJson`] 
+| 
+
+| xref:OneSixVersionFormat/jarModtoJson.adoc[`jarModtoJson`] 
+| 
+
+| xref:OneSixVersionFormat/libraryFromJson.adoc[`libraryFromJson`] 
+| 
+
+| xref:OneSixVersionFormat/libraryToJson.adoc[`libraryToJson`] 
+| 
+
+| xref:OneSixVersionFormat/modFromJson.adoc[`modFromJson`] 
+| 
+
+| xref:OneSixVersionFormat/modtoJson.adoc[`modtoJson`] 
+| 
+
+| xref:OneSixVersionFormat/plusJarModFromJson.adoc[`plusJarModFromJson`] 
+| 
+
+| xref:OneSixVersionFormat/versionFileFromJson.adoc[`versionFileFromJson`] 
+| 
+
+| xref:OneSixVersionFormat/versionFileToJson.adoc[`versionFileToJson`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

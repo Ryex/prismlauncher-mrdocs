@@ -1,0 +1,36 @@
+[#NewsEntry-2constructor]
+= xref:NewsEntry.adoc[NewsEntry]::NewsEntry
+:relfileprefix: ../
+:mrdocs:
+
+
+Constructs an empty news entry&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsEntry.h#L30[news&sol;NewsEntry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+xref:NewsEntry/2constructor-05.adoc[NewsEntry](xref:QObject.adoc[QObject]* parent = 0);
+----
+
+[.small]#xref:NewsEntry/2constructor-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:NewsEntry/2constructor-02.adoc[NewsEntry](
+    xref:QString.adoc[QString] const& title,
+    xref:QString.adoc[QString] const& content,
+    xref:QString.adoc[QString] const& link,
+    xref:QObject.adoc[QObject]* parent = 0);
+----
+
+[.small]#xref:NewsEntry/2constructor-02.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

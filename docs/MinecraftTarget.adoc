@@ -1,0 +1,54 @@
+[#MinecraftTarget]
+= MinecraftTarget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/MinecraftTarget.h#L22[minecraft&sol;launch&sol;MinecraftTarget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MinecraftTarget;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftTarget/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftTarget/parse.adoc[`parse`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftTarget/address.adoc[`address`] 
+| 
+
+| xref:MinecraftTarget/port.adoc[`port`] 
+| 
+
+| xref:MinecraftTarget/world.adoc[`world`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

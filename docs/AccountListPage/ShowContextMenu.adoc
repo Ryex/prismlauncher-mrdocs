@@ -1,0 +1,19 @@
+[#AccountListPage-ShowContextMenu]
+= xref:AccountListPage.adoc[AccountListPage]::ShowContextMenu
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L87[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+ShowContextMenu(xref:QPoint.adoc[QPoint] const& pos);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

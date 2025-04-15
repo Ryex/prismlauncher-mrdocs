@@ -1,0 +1,19 @@
+[#MainWindow-updatesAllowedChanged]
+= xref:MainWindow.adoc[MainWindow]::updatesAllowedChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.h#L81[ui&sol;MainWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updatesAllowedChanged(bool allowed);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#DefaultVariable-2constructor]
+= xref:DefaultVariable.adoc[DefaultVariable]::DefaultVariable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DefaultVariable.h#L6[DefaultVariable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+DefaultVariable(T const& value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

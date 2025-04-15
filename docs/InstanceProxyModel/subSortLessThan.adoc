@@ -1,0 +1,21 @@
+[#InstanceProxyModel-subSortLessThan]
+= xref:InstanceProxyModel.adoc[InstanceProxyModel]::subSortLessThan
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceProxyModel.h#L30[ui&sol;instanceview&sol;InstanceProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+subSortLessThan(
+    xref:QModelIndex.adoc[QModelIndex] const& left,
+    xref:QModelIndex.adoc[QModelIndex] const& right) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

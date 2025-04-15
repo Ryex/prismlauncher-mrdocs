@@ -1,0 +1,23 @@
+[#NotesPage-tr]
+= xref:NotesPage.adoc[NotesPage]::tr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/NotesPage.h#L49[ui&sol;pages&sol;instance&sol;NotesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

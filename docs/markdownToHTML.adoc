@@ -1,0 +1,19 @@
+[#markdownToHTML]
+= markdownToHTML
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Markdown.h#L24[Markdown&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+markdownToHTML(xref:QString.adoc[QString] const& markdown);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

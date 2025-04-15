@@ -1,0 +1,20 @@
+[#BaseVersionList-roleNames]
+= xref:BaseVersionList.adoc[BaseVersionList]::roleNames
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L82[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QHash.adoc[QHash]&lt;int, xref:QByteArray.adoc[QByteArray]&gt;
+roleNames() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

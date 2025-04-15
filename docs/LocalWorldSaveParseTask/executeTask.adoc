@@ -1,0 +1,20 @@
+[#LocalWorldSaveParseTask-executeTask]
+= xref:LocalWorldSaveParseTask.adoc[LocalWorldSaveParseTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalWorldSaveParseTask.h#L52[minecraft&sol;mod&sol;tasks&sol;LocalWorldSaveParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

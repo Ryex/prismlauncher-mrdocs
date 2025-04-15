@@ -1,0 +1,30 @@
+[#ResourceFolderLoadTask-Result]
+= xref:ResourceFolderLoadTask.adoc[ResourceFolderLoadTask]::Result
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/ResourceFolderLoadTask.h#L50[minecraft&sol;mod&sol;tasks&sol;ResourceFolderLoadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Result;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderLoadTask/Result/resources.adoc[`resources`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

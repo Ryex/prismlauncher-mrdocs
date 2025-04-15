@@ -1,0 +1,37 @@
+[#CenteredEditingDelegate]
+= CenteredEditingDelegate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L219[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CenteredEditingDelegate
+    : public xref:QStyledItemDelegate.adoc[QStyledItemDelegate];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CenteredEditingDelegate/2constructor.adoc[`CenteredEditingDelegate`]         [.small]#[constructor]#
+| 
+
+| xref:CenteredEditingDelegate/createEditor.adoc[`createEditor`] 
+| 
+
+| xref:CenteredEditingDelegate/2destructor.adoc[`&tilde;CenteredEditingDelegate`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

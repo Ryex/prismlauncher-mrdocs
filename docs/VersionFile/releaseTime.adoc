@@ -1,0 +1,22 @@
+[#VersionFile-releaseTime]
+= xref:VersionFile.adoc[VersionFile]::releaseTime
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; the time this version was actually released by Mojang
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L111[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] releaseTime;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

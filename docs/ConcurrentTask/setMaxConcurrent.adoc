@@ -1,0 +1,19 @@
+[#ConcurrentTask-setMaxConcurrent]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::setMaxConcurrent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L59[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setMaxConcurrent(int max&lowbar;concurrent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

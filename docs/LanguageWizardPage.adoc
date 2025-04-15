@@ -1,0 +1,79 @@
+[#LanguageWizardPage]
+= LanguageWizardPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/LanguageWizardPage.h#L7[ui&sol;setupwizard&sol;LanguageWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LanguageWizardPage
+    : public xref:BaseWizardPage.adoc[BaseWizardPage];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageWizardPage/2constructor.adoc[`LanguageWizardPage`]         [.small]#[constructor]#
+| 
+
+| xref:LanguageWizardPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LanguageWizardPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LanguageWizardPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BaseWizardPage/refresh.adoc[`refresh`] 
+| 
+| xref:LanguageWizardPage/validatePage.adoc[`validatePage`] 
+| 
+
+| xref:BaseWizardPage/wantsRefreshButton.adoc[`wantsRefreshButton`] 
+| 
+| xref:LanguageWizardPage/2destructor.adoc[`&tilde;LanguageWizardPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageWizardPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageWizardPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BaseWizardPage/retranslate.adoc[`retranslate`] 
+| 
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

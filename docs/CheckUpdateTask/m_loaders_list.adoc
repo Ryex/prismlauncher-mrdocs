@@ -1,0 +1,18 @@
+[#CheckUpdateTask-m_loaders_list]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::m&lowbar;loaders&lowbar;list
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L75[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderType.adoc[ModLoaderType]&gt; m&lowbar;loaders&lowbar;list;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

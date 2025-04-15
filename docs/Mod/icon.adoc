@@ -1,0 +1,26 @@
+[#Mod-icon]
+= xref:Mod.adoc[Mod]::icon
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the icon of the mod, converted to a QPixmap for drawing, and scaled to size&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L79[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QPixmap.adoc[QPixmap]
+icon(
+    xref:QSize.adoc[QSize] size,
+    xref:Qt.adoc[Qt]::xref:Qt/AspectRatioMode.adoc[AspectRatioMode] mode = Qt&colon;&colon;AspectRatioMode&colon;&colon;IgnoreAspectRatio) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,29 @@
+[#AccountType]
+= AccountType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L91[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum AccountType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`MSA`
+|
+|`Offline`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

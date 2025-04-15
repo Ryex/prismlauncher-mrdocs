@@ -1,0 +1,18 @@
+[#Language-untranslated]
+= xref:Language.adoc[Language]::untranslated
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L145[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+unsigned int untranslated = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

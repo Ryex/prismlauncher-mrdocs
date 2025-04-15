@@ -1,0 +1,22 @@
+[#DataPack-m_description]
+= xref:DataPack.adoc[DataPack]::m&lowbar;description
+:relfileprefix: ../
+:mrdocs:
+
+
+The data pack&apos;s description, as defined in the pack&period;mcmeta file&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L72[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;description;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

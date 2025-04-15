@@ -1,0 +1,21 @@
+[#FS-s_non_link_filesystems]
+= xref:FS.adoc[FS]::s&lowbar;non&lowbar;link&lowbar;filesystems
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L539[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QList.adoc[QList]&lt;xref:FS/FilesystemType.adoc[FilesystemType]&gt; const s&lowbar;non&lowbar;link&lowbar;filesystems = &lcub;
+    FilesystemType&colon;&colon;FAT,
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ModLicense-operator_assign-08]
+= xref:ModLicense.adoc[ModLicense]::operator&equals;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L101[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModLicense.adoc[ModLicense]&
+operator&equals;(xref:ModLicense.adoc[ModLicense] const&& other);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

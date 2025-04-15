@@ -1,0 +1,43 @@
+[#VersionProxyModel-Column]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::Column
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L12[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Column;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Name`
+|
+|`ParentVersion`
+|
+|`Branch`
+|
+|`Type`
+|
+|`CPUArchitecture`
+|
+|`Path`
+|
+|`Time`
+|
+|`JavaName`
+|
+|`JavaMajor`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

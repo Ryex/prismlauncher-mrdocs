@@ -1,0 +1,19 @@
+[#OfflineLoginDialog-on_userTextBox_textEdited]
+= xref:OfflineLoginDialog.adoc[OfflineLoginDialog]::on&lowbar;userTextBox&lowbar;textEdited
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/OfflineLoginDialog.h#L33[ui&sol;dialogs&sol;OfflineLoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;userTextBox&lowbar;textEdited(xref:QString.adoc[QString] const& newText);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

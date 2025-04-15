@@ -1,0 +1,19 @@
+[#RecursiveFileSystemWatcher-enable]
+= xref:RecursiveFileSystemWatcher.adoc[RecursiveFileSystemWatcher]::enable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L28[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+enable();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

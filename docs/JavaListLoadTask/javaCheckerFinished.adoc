@@ -1,0 +1,19 @@
+[#JavaListLoadTask-javaCheckerFinished]
+= xref:JavaListLoadTask.adoc[JavaListLoadTask]::javaCheckerFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L71[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+javaCheckerFinished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

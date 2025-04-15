@@ -1,0 +1,18 @@
+[#Component-m_order]
+= xref:Component.adoc[Component]::m&lowbar;order
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L144[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int m&lowbar;order = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

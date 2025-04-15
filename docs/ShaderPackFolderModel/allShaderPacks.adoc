@@ -1,0 +1,19 @@
+[#ShaderPackFolderModel-allShaderPacks]
+= xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]::allShaderPacks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPackFolderModel.h#L24[minecraft&sol;mod&sol;ShaderPackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ShaderPack.adoc[ShaderPack]*&gt;
+allShaderPacks();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

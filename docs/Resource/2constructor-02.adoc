@@ -1,0 +1,18 @@
+[#Resource-2constructor-02]
+= xref:Resource.adoc[Resource]::Resource
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L79[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Resource(xref:QString.adoc[QString] file&lowbar;path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

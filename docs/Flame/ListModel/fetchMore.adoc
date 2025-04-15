@@ -1,0 +1,20 @@
+[#Flame-ListModel-fetchMore]
+= xref:Flame.adoc[Flame]::xref:Flame/ListModel.adoc[ListModel]::fetchMore
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameModel.h#L39[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+fetchMore(xref:QModelIndex.adoc[QModelIndex] const& parent) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

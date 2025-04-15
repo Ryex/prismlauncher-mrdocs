@@ -1,0 +1,39 @@
+[#Hashing-Algorithm]
+= xref:Hashing.adoc[Hashing]::Algorithm
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L13[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Algorithm : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Md4`
+|
+|`Md5`
+|
+|`Sha1`
+|
+|`Sha256`
+|
+|`Sha512`
+|
+|`Murmur2`
+|
+|`Unknown`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

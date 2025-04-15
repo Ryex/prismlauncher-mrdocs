@@ -1,0 +1,19 @@
+[#api-02]
+= api
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlamePage.cpp#L57[ui&sol;pages&sol;modplatform&sol;flame&sol;FlamePage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:FlameAPI.adoc[FlameAPI] api = api;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

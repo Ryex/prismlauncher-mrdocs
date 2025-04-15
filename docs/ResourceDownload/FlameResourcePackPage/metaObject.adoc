@@ -1,0 +1,20 @@
+[#ResourceDownload-FlameResourcePackPage-metaObject]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameResourcePackPage.adoc[FlameResourcePackPage]::metaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L109[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

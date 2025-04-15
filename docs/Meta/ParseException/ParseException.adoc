@@ -1,0 +1,26 @@
+[#Meta-ParseException-ParseException]
+= xref:Meta.adoc[Meta]::xref:Meta/ParseException.adoc[ParseException]::ParseException
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L32[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using xref:Exception.adoc[Exception]::ParseException;
+----
+
+== Introduced Symbols
+
+|===
+| Name
+| Exception
+| Exception
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

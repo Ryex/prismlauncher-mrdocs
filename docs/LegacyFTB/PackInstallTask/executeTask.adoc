@@ -1,0 +1,24 @@
+[#LegacyFTB-PackInstallTask-executeTask]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackInstallTask.adoc[PackInstallTask]::executeTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+Entry point for tasks&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackInstallTask.h#L29[modplatform&sol;legacy&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

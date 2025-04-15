@@ -1,0 +1,18 @@
+[#FoldersTask-2constructor]
+= xref:FoldersTask.adoc[FoldersTask]::FoldersTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/update/FoldersTask.h#L9[minecraft&sol;update&sol;FoldersTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FoldersTask(xref:MinecraftInstance.adoc[MinecraftInstance]* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,36 @@
+[#Server-2constructor]
+= xref:Server.adoc[Server]::Server
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L64[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Server/2constructor-04.adoc[Server]();
+----
+
+[.small]#xref:Server/2constructor-04.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Server/2constructor-0d5.adoc[Server](
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& address);
+----
+
+[.small]#xref:Server/2constructor-0d5.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Server/2constructor-0dc.adoc[Server](xref:nbt.adoc[nbt]::xref:nbt/tag_compound.adoc[tag&lowbar;compound]& server);
+----
+
+[.small]#xref:Server/2constructor-0dc.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

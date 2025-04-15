@@ -1,0 +1,19 @@
+[#ResourceUtils-getPackedTypeName]
+= xref:ResourceUtils.adoc[ResourceUtils]::getPackedTypeName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceParse.h#L36[minecraft&sol;mod&sol;tasks&sol;LocalResourceParse&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getPackedTypeName(xref:PackedResourceType.adoc[PackedResourceType] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

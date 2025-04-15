@@ -1,0 +1,57 @@
+[#SimplePrefixMatcher]
+= SimplePrefixMatcher
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/SimplePrefixMatcher.h#L8[pathmatcher&sol;SimplePrefixMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SimplePrefixMatcher
+    : public xref:IPathMatcher.adoc[IPathMatcher];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IPathMatcher/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SimplePrefixMatcher/2constructor.adoc[`SimplePrefixMatcher`]         [.small]#[constructor]#
+| 
+
+| xref:IPathMatcher/matches.adoc[`matches`] 
+| 
+| xref:SimplePrefixMatcher/2destructor.adoc[`&tilde;SimplePrefixMatcher`] [.small]#[destructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SimplePrefixMatcher/m_isPrefix.adoc[`m&lowbar;isPrefix`] 
+| 
+
+| xref:SimplePrefixMatcher/m_prefix.adoc[`m&lowbar;prefix`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

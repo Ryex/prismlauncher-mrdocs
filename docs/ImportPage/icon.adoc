@@ -1,0 +1,20 @@
+[#ImportPage-icon]
+= xref:ImportPage.adoc[ImportPage]::icon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ImportPage.h#L57[ui&sol;pages&sol;modplatform&sol;ImportPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QIcon.adoc[QIcon]
+icon() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

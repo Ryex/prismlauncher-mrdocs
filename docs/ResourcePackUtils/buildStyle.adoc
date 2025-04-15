@@ -1,0 +1,19 @@
+[#ResourcePackUtils-buildStyle]
+= xref:ResourcePackUtils.adoc[ResourcePackUtils]::buildStyle
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourcePackParseTask.cpp#L33[minecraft&sol;mod&sol;tasks&sol;LocalResourcePackParseTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+buildStyle(xref:QJsonObject.adoc[QJsonObject] const& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

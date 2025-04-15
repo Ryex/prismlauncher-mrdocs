@@ -1,0 +1,18 @@
+[#Packwiz-V1-Mod-project_id]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::xref:Packwiz/V1/Mod.adoc[Mod]::project&lowbar;id
+:relfileprefix: ../../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L60[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant] project&lowbar;id = &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

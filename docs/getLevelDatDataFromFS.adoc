@@ -1,0 +1,19 @@
+[#getLevelDatDataFromFS]
+= getLevelDatDataFromFS
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L167[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray]
+getLevelDatDataFromFS(xref:QFileInfo.adoc[QFileInfo] const& file);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#00namespace-collectPathsFromDir]
+= collectPathsFromDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.cpp#L57[minecraft&sol;AssetsUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt;
+collectPathsFromDir(xref:QString.adoc[QString] dirPath);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

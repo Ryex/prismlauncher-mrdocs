@@ -1,0 +1,19 @@
+[#AccountList-queueRefresh]
+= xref:AccountList.adoc[AccountList]::queueRefresh
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L88[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+queueRefresh(xref:QString.adoc[QString] accountId);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

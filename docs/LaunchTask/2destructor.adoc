@@ -1,0 +1,19 @@
+[#LaunchTask-2destructor]
+= xref:LaunchTask.adoc[LaunchTask]::&tilde;LaunchTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L58[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;LaunchTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

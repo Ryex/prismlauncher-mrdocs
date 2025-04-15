@@ -1,0 +1,21 @@
+[#LaunchTask-onLogLines]
+= xref:LaunchTask.adoc[LaunchTask]::onLogLines
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L108[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onLogLines(
+    xref:QStringList.adoc[QStringList] const& lines,
+    xref:MessageLevel.adoc[MessageLevel]::xref:MessageLevel/Enum.adoc[Enum] defaultLevel = MessageLevel&colon;&colon;Launcher);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

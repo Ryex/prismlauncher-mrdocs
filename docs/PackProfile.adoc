@@ -1,0 +1,217 @@
+[#PackProfile]
+= PackProfile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L58[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PackProfile
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/Result.adoc[`Result`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/Columns.adoc[`Columns`] 
+| 
+
+| xref:PackProfile/MoveDirection.adoc[`MoveDirection`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/2constructor.adoc[`PackProfile`]         [.small]#[constructor]#
+| 
+
+| xref:PackProfile/appendComponent.adoc[`appendComponent`] 
+| Add the component to the internal list of patches
+
+
+
+| xref:PackProfile/buildingFromScratch.adoc[`buildingFromScratch`] 
+| call this to explicitly mark the component list as loaded &hyphen; this is used to build a new component list from scratch&period;
+
+
+
+| xref:PackProfile/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:PackProfile/customize.adoc[`customize`] 
+| 
+
+| xref:PackProfile/data.adoc[`data`] 
+| 
+
+| xref:PackProfile/flags.adoc[`flags`] 
+| 
+
+| xref:PackProfile/getComponent.adoc[`getComponent`] 
+| get the profile component by id
+
+
+get the profile component by index
+
+
+
+| xref:PackProfile/getComponentVersion.adoc[`getComponentVersion`] 
+| 
+
+| xref:PackProfile/getCurrentTask.adoc[`getCurrentTask`] 
+| get current running task&period;&period;&period;
+
+
+
+| xref:PackProfile/getModLoaders.adoc[`getModLoaders`] 
+| 
+
+| xref:PackProfile/getModLoadersList.adoc[`getModLoadersList`] 
+| 
+
+| xref:PackProfile/getProfile.adoc[`getProfile`] 
+| 
+
+| xref:PackProfile/getSupportedModLoaders.adoc[`getSupportedModLoaders`] 
+| 
+
+| xref:PackProfile/headerData.adoc[`headerData`] 
+| 
+
+| xref:PackProfile/installAgents.adoc[`installAgents`] 
+| install Java agent files
+
+
+
+| xref:PackProfile/installComponents.adoc[`installComponents`] 
+| install MMC&sol;Prism component files
+
+
+
+| xref:PackProfile/installCustomJar.adoc[`installCustomJar`] 
+| install a jar&sol;zip as a replacement for the main jar
+
+
+
+| xref:PackProfile/installEmpty.adoc[`installEmpty`] 
+| 
+
+| xref:PackProfile/installJarMods.adoc[`installJarMods`] 
+| install more jar mods
+
+
+
+| xref:PackProfile/invalidateLaunchProfile.adoc[`invalidateLaunchProfile`] 
+| apply the component patches&period; Catches all the errors and returns true&sol;false for success&sol;failure
+
+
+
+| xref:PackProfile/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:PackProfile/minecraftChanged.adoc[`minecraftChanged`] 
+| 
+
+| xref:PackProfile/move.adoc[`move`] 
+| move component file &num; up or down the list
+
+
+
+| xref:PackProfile/patchFilePathForUid.adoc[`patchFilePathForUid`] 
+| 
+
+| xref:PackProfile/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:PackProfile/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:PackProfile/reload.adoc[`reload`] 
+| reload the list, reload all components, resolve dependencies
+
+
+
+| xref:PackProfile/remove.adoc[`remove`] 
+| remove component file &num; &hyphen; including files&sol;records
+
+
+remove component file by id &hyphen; including files&sol;records
+
+
+
+| xref:PackProfile/resolve.adoc[`resolve`] 
+| 
+
+| xref:PackProfile/revertToBase.adoc[`revertToBase`] 
+| 
+
+| xref:PackProfile/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:PackProfile/runtimeContext.adoc[`runtimeContext`] 
+| helper method, returns RuntimeContext of instance
+
+
+
+| xref:PackProfile/saveNow.adoc[`saveNow`] 
+| if there is a save scheduled, do it now&period;
+
+
+
+| xref:PackProfile/setComponentVersion.adoc[`setComponentVersion`] 
+| 
+
+| xref:PackProfile/setData.adoc[`setData`] 
+| 
+
+| xref:PackProfile/setOldConfigVersion.adoc[`setOldConfigVersion`] 
+| 
+
+| xref:PackProfile/2destructor.adoc[`&tilde;PackProfile`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfile/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

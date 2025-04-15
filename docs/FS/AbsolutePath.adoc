@@ -1,0 +1,19 @@
+[#FS-AbsolutePath]
+= xref:FS.adoc[FS]::AbsolutePath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L303[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+AbsolutePath(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

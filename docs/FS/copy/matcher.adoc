@@ -1,0 +1,19 @@
+[#FS-copy-matcher]
+= xref:FS.adoc[FS]::xref:FS/copy.adoc[copy]::matcher
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L118[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FS/copy.adoc[copy]&
+matcher(xref:IPathMatcher.adoc[IPathMatcher]::xref:IPathMatcher/Ptr.adoc[Ptr] filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

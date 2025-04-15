@@ -1,0 +1,22 @@
+[#loadVersionExtraArguments]
+= loadVersionExtraArguments
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.cpp#L207[modplatform&sol;atlauncher&sol;ATLPackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadVersionExtraArguments(
+    xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackVersionExtraArguments.adoc[PackVersionExtraArguments]& a,
+    xref:QJsonObject.adoc[QJsonObject]& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

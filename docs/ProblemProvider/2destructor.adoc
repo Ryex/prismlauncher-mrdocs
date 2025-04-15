@@ -1,0 +1,19 @@
+[#ProblemProvider-2destructor]
+= xref:ProblemProvider.adoc[ProblemProvider]::&tilde;ProblemProvider
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L15[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ProblemProvider();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

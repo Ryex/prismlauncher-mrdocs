@@ -1,0 +1,20 @@
+[#PreLaunchCommand-canAbort]
+= xref:PreLaunchCommand.adoc[PreLaunchCommand]::canAbort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PreLaunchCommand.h#L29[launch&sol;steps&sol;PreLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canAbort() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

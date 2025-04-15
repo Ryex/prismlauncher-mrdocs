@@ -1,0 +1,31 @@
+[#ResourceUtils]
+= ResourceUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceUtils/getPackedTypeName.adoc[`getPackedTypeName`] 
+| 
+
+| xref:ResourceUtils/identify.adoc[`identify`] 
+| 
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceUtils/ValidResourceTypes.adoc[`ValidResourceTypes`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

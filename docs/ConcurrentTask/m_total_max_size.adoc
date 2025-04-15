@@ -1,0 +1,18 @@
+[#ConcurrentTask-m_total_max_size]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::m&lowbar;total&lowbar;max&lowbar;size
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L107[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int m&lowbar;total&lowbar;max&lowbar;size;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#FS-s_clone_filesystems]
+= xref:FS.adoc[FS]::s&lowbar;clone&lowbar;filesystems
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L463[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QList.adoc[QList]&lt;xref:FS/FilesystemType.adoc[FilesystemType]&gt; const s&lowbar;clone&lowbar;filesystems = &lcub; FilesystemType&colon;&colon;BTRFS, FilesystemType&colon;&colon;APFS, FilesystemType&colon;&colon;ZFS,
+                                                           FilesystemType&colon;&colon;XFS,   FilesystemType&colon;&colon;REFS, FilesystemType&colon;&colon;BCACHEFS &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

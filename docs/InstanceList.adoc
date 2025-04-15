@@ -1,0 +1,205 @@
+[#InstanceList]
+= InstanceList
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L66[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InstanceList
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceList/AdditionalRoles.adoc[`AdditionalRoles`] 
+| 
+
+| xref:InstanceList/InstListError.adoc[`InstListError`] 
+| Error codes returned by functions in the InstanceList class&period;
+NoError Indicates that no error occurred&period;
+UnknownError indicates that an unspecified error occurred&period;
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceList/2constructor.adoc[`InstanceList`]         [.small]#[constructor]#
+| 
+
+| xref:InstanceList/at.adoc[`at`] 
+| 
+
+| xref:InstanceList/canDropMimeData.adoc[`canDropMimeData`] 
+| 
+
+| xref:InstanceList/commitStagedInstance.adoc[`commitStagedInstance`] 
+| Commit the staging area given by  to the provider &hyphen; used when creation succeeds&period;
+Used by instance manipulation tasks&period;
+should&lowbar;override is used when another similar instance already exists, and we want to override it
+&hyphen; for instance, when updating it&period;
+
+
+
+| xref:InstanceList/count.adoc[`count`] 
+| 
+
+| xref:InstanceList/data.adoc[`data`] 
+| 
+
+| xref:InstanceList/dataIsInvalid.adoc[`dataIsInvalid`] 
+| 
+
+| xref:InstanceList/deleteGroup.adoc[`deleteGroup`] 
+| 
+
+| xref:InstanceList/deleteInstance.adoc[`deleteInstance`] 
+| 
+
+| xref:InstanceList/destroyStagingPath.adoc[`destroyStagingPath`] 
+| Destroy a previously created staging area given by  &hyphen; used when creation fails&period;
+Used by instance manipulation tasks&period;
+
+
+
+| xref:InstanceList/dropMimeData.adoc[`dropMimeData`] 
+| 
+
+| xref:InstanceList/flags.adoc[`flags`] 
+| 
+
+| xref:InstanceList/getGroups.adoc[`getGroups`] 
+| 
+
+| xref:InstanceList/getInstanceById.adoc[`getInstanceById`] 
+| 
+
+| xref:InstanceList/getInstanceByManagedName.adoc[`getInstanceByManagedName`] 
+| 
+
+| xref:InstanceList/getInstanceGroup.adoc[`getInstanceGroup`] 
+| 
+
+| xref:InstanceList/getInstanceIndexById.adoc[`getInstanceIndexById`] 
+| 
+
+| xref:InstanceList/getLinkedInstancesById.adoc[`getLinkedInstancesById`] 
+| 
+
+| xref:InstanceList/getStagedInstancePath.adoc[`getStagedInstancePath`] 
+| Create a new empty staging area for instance creation and
+
+
+
+| xref:InstanceList/getTotalPlayTime.adoc[`getTotalPlayTime`] 
+| 
+
+| xref:InstanceList/groupsChanged.adoc[`groupsChanged`] 
+| 
+
+| xref:InstanceList/index.adoc[`index`] 
+| 
+
+| xref:InstanceList/instanceSelectRequest.adoc[`instanceSelectRequest`] 
+| 
+
+| xref:InstanceList/instancesChanged.adoc[`instancesChanged`] 
+| 
+
+| xref:InstanceList/isGroupCollapsed.adoc[`isGroupCollapsed`] 
+| 
+
+| xref:InstanceList/loadList.adoc[`loadList`] 
+| 
+
+| xref:InstanceList/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:InstanceList/mimeData.adoc[`mimeData`] 
+| 
+
+| xref:InstanceList/mimeTypes.adoc[`mimeTypes`] 
+| 
+
+| xref:InstanceList/on_GroupStateChanged.adoc[`on&lowbar;GroupStateChanged`] 
+| 
+
+| xref:InstanceList/on_InstFolderChanged.adoc[`on&lowbar;InstFolderChanged`] 
+| 
+
+| xref:InstanceList/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:InstanceList/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:InstanceList/renameGroup.adoc[`renameGroup`] 
+| 
+
+| xref:InstanceList/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:InstanceList/saveNow.adoc[`saveNow`] 
+| 
+
+| xref:InstanceList/setData.adoc[`setData`] 
+| 
+
+| xref:InstanceList/setInstanceGroup.adoc[`setInstanceGroup`] 
+| 
+
+| xref:InstanceList/supportedDragActions.adoc[`supportedDragActions`] 
+| 
+
+| xref:InstanceList/supportedDropActions.adoc[`supportedDropActions`] 
+| 
+
+| xref:InstanceList/trashInstance.adoc[`trashInstance`] 
+| 
+
+| xref:InstanceList/trashedSomething.adoc[`trashedSomething`] 
+| 
+
+| xref:InstanceList/undoTrashInstance.adoc[`undoTrashInstance`] 
+| 
+
+| xref:InstanceList/wrapInstanceTask.adoc[`wrapInstanceTask`] 
+| 
+
+| xref:InstanceList/2destructor.adoc[`&tilde;InstanceList`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceList/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

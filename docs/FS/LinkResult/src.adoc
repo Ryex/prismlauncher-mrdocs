@@ -1,0 +1,18 @@
+[#FS-LinkResult-src]
+= xref:FS.adoc[FS]::xref:FS/LinkResult.adoc[LinkResult]::src
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L165[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] src;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

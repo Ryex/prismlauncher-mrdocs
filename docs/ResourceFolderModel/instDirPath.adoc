@@ -1,0 +1,19 @@
+[#ResourceFolderModel-instDirPath]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::instDirPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L184[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+instDirPath() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

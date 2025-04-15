@@ -1,0 +1,40 @@
+[#UpdateActionLatestRecommendedCompatible]
+= UpdateActionLatestRecommendedCompatible
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L26[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct UpdateActionLatestRecommendedCompatible;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UpdateActionLatestRecommendedCompatible/parentName.adoc[`parentName`] 
+| 
+
+| xref:UpdateActionLatestRecommendedCompatible/parentUid.adoc[`parentUid`] 
+| Parent uid
+
+
+
+| xref:UpdateActionLatestRecommendedCompatible/version.adoc[`version`] 
+| Parent version
+
+
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

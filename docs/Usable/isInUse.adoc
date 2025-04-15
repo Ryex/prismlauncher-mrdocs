@@ -1,0 +1,19 @@
+[#Usable-isInUse]
+= xref:Usable.adoc[Usable]::isInUse
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Usable.h#L22[Usable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isInUse() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

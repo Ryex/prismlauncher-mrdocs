@@ -1,0 +1,51 @@
+[#ATLauncher-IndexedPack]
+= xref:ATLauncher.adoc[ATLauncher]::IndexedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackIndex.h#L32[modplatform&sol;atlauncher&sol;ATLPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct IndexedPack;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/IndexedPack/description.adoc[`description`] 
+| 
+
+| xref:ATLauncher/IndexedPack/id.adoc[`id`] 
+| 
+
+| xref:ATLauncher/IndexedPack/name.adoc[`name`] 
+| 
+
+| xref:ATLauncher/IndexedPack/position.adoc[`position`] 
+| 
+
+| xref:ATLauncher/IndexedPack/safeName.adoc[`safeName`] 
+| 
+
+| xref:ATLauncher/IndexedPack/system.adoc[`system`] 
+| 
+
+| xref:ATLauncher/IndexedPack/type.adoc[`type`] 
+| 
+
+| xref:ATLauncher/IndexedPack/versions.adoc[`versions`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

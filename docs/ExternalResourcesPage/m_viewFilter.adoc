@@ -1,0 +1,18 @@
+[#ExternalResourcesPage-m_viewFilter]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::m&lowbar;viewFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L75[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;viewFilter;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

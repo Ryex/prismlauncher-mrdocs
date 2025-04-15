@@ -1,0 +1,22 @@
+[#ExternalResourcesPage-updateFrame]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::updateFrame
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L46[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateFrame(
+    xref:QModelIndex.adoc[QModelIndex] const& current,
+    xref:QModelIndex.adoc[QModelIndex] const& previous);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

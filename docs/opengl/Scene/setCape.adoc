@@ -1,0 +1,19 @@
+[#opengl-Scene-setCape]
+= xref:opengl.adoc[opengl]::xref:opengl/Scene.adoc[Scene]::setCape
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/Scene.h#L32[ui&sol;dialogs&sol;skins&sol;draw&sol;Scene&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setCape(xref:QImage.adoc[QImage] const& cape);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#FS-copy-totalCopied]
+= xref:FS.adoc[FS]::xref:FS/copy.adoc[copy]::totalCopied
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L136[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qsizetype.adoc[qsizetype]
+totalCopied();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

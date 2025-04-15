@@ -1,0 +1,19 @@
+[#MinecraftInstance-libDir]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::libDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L84[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+libDir() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

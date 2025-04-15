@@ -1,0 +1,341 @@
+[#LaunchTask]
+= LaunchTask
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L47[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LaunchTask
+    : public xref:Task.adoc[Task]
+    , public xref:Task.adoc[Task]
+    , public xref:Task.adoc[Task];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/State.adoc[`State`] 
+| 
+
+| xref:LaunchTask/State.adoc[`State`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/abort.adoc[`abort`] 
+| abort launch
+used by external code to ask the task to abort
+
+
+
+| xref:Task/abortStatusChanged.adoc[`abortStatusChanged`] 
+| Emitted when the canAbort() status has changed&period; &ast;&sol;
+
+
+
+| xref:Task/aborted.adoc[`aborted`] 
+| called when a task has been aborted by calling abort()
+
+
+
+| xref:LaunchTask/appendStep.adoc[`appendStep`] 
+| 
+
+| xref:Task/canAbort.adoc[`canAbort`] 
+| 
+| xref:LaunchTask/censorPrivateInfo.adoc[`censorPrivateInfo`] 
+| 
+
+| xref:Task/details.adoc[`details`] 
+| 
+
+| xref:LaunchTask/executeTask.adoc[`executeTask`] 
+| prepare the process for launch (for multi&hyphen;stage launch)
+
+| xref:Task/failReason.adoc[`failReason`] 
+| Returns the string that was passed to emitFailed as the error message when the task failed&period;
+If the task hasn&apos;t failed, returns an empty string&period;
+
+
+
+| xref:Task/failed.adoc[`failed`] 
+| 
+
+| xref:Task/finished.adoc[`finished`] 
+| called when a task has either succeeded, aborted or failed&period;
+
+
+
+| xref:Task/getDetails.adoc[`getDetails`] 
+| 
+
+| xref:LaunchTask/getLogModel.adoc[`getLogModel`] 
+| 
+
+| xref:Task/getProgress.adoc[`getProgress`] 
+| 
+
+| xref:Task/getState.adoc[`getState`] 
+| 
+
+| xref:Task/getStatus.adoc[`getStatus`] 
+| 
+
+| xref:Task/getStepProgress.adoc[`getStepProgress`] 
+| 
+
+| xref:Task/getTotalProgress.adoc[`getTotalProgress`] 
+| 
+
+| xref:Task/getUid.adoc[`getUid`] 
+| 
+
+| xref:LaunchTask/instance.adoc[`instance`] 
+| 
+
+| xref:Task/isFinished.adoc[`isFinished`] 
+| 
+
+| xref:Task/isMultiStep.adoc[`isMultiStep`] 
+| MultiStep tasks are combinations of multiple tasks into a single logical task&period;
+The main usage of this is in SequencialTask&period;
+
+
+
+| xref:Task/isRunning.adoc[`isRunning`] 
+| 
+
+| xref:Task/metaObject.adoc[`metaObject`] 
+| 
+| xref:LaunchTask/onLogLine.adoc[`onLogLine`] 
+| 
+
+| xref:LaunchTask/onLogLines.adoc[`onLogLines`] 
+| 
+
+| xref:LaunchTask/onProgressReportingRequested.adoc[`onProgressReportingRequested`] 
+| 
+
+| xref:LaunchTask/onReadyForLaunch.adoc[`onReadyForLaunch`] 
+| 
+
+| xref:LaunchTask/onStepFinished.adoc[`onStepFinished`] 
+| 
+
+| xref:LaunchTask/pid.adoc[`pid`] 
+| 
+
+| xref:LaunchTask/prependStep.adoc[`prependStep`] 
+| 
+
+| xref:LaunchTask/proceed.adoc[`proceed`] 
+| launch the armed instance
+
+| xref:Task/progress.adoc[`progress`] 
+| 
+
+| xref:Task/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:Task/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:LaunchTask/readyForLaunch.adoc[`readyForLaunch`] 
+| emitted when the launch preparations are done
+
+| xref:LaunchTask/requestLogging.adoc[`requestLogging`] 
+| 
+
+| xref:LaunchTask/requestProgress.adoc[`requestProgress`] 
+| 
+
+| xref:Task/run.adoc[`run`] 
+| 
+
+| xref:Task/setAbortable.adoc[`setAbortable`] 
+| 
+
+| xref:LaunchTask/setCensorFilter.adoc[`setCensorFilter`] 
+| 
+
+| xref:Task/setDetails.adoc[`setDetails`] 
+| 
+
+| xref:LaunchTask/setPid.adoc[`setPid`] 
+| 
+
+| xref:Task/setProgress.adoc[`setProgress`] 
+| 
+
+| xref:Task/setStatus.adoc[`setStatus`] 
+| 
+
+| xref:Task/start.adoc[`start`] 
+| used by the task caller to start the task
+
+
+
+| xref:Task/started.adoc[`started`] 
+| 
+
+| xref:Task/status.adoc[`status`] 
+| 
+
+| xref:Task/stepProgress.adoc[`stepProgress`] 
+| 
+
+| xref:LaunchTask/substituteVariables.adoc[`substituteVariables`] 
+| 
+
+| xref:Task/succeeded.adoc[`succeeded`] 
+| called when a task has succeeded
+
+
+
+| xref:Task/warnings.adoc[`warnings`] 
+| 
+
+| xref:Task/wasSuccessful.adoc[`wasSuccessful`] 
+| 
+
+| xref:LaunchTask/2destructor.adoc[`&tilde;LaunchTask`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LaunchTask/create.adoc[`create`] 
+| 
+
+| xref:Task/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:LaunchTask/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LaunchTask/2constructor.adoc[`LaunchTask`]         [.small]#[constructor]#
+| 
+
+| xref:Task/emitAborted.adoc[`emitAborted`] 
+| &ast;&ast;The Task subclass&ast;&ast; must call this method when the task has aborted&period; External code should call abort() instead&period;
+
+
+
+| xref:Task/emitFailed.adoc[`emitFailed`] 
+| The Task subclass must call this method when the task has failed
+
+
+
+| xref:Task/emitSucceeded.adoc[`emitSucceeded`] 
+| The Task subclass must call this method when the task has succeeded
+
+
+
+| xref:Task/executeTask.adoc[`executeTask`] 
+| The task subclass must implement this method&period; This method is called to start to run the task&period;
+The task is not finished when this method returns&period; the subclass must manually call emitSucceeded() or emitFailed() instead&period;
+
+
+
+| xref:LaunchTask/init.adoc[`init`] 
+| 
+
+| xref:Task/logWarning.adoc[`logWarning`] 
+| 
+
+| xref:Task/propagateStepProgress.adoc[`propagateStepProgress`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LaunchTask/currentStep.adoc[`currentStep`] 
+| 
+
+| xref:Task/m_Warnings.adoc[`m&lowbar;Warnings`] 
+| 
+
+| xref:LaunchTask/m_censorFilter.adoc[`m&lowbar;censorFilter`] 
+| 
+
+| xref:Task/m_details.adoc[`m&lowbar;details`] 
+| 
+
+| xref:Task/m_failReason.adoc[`m&lowbar;failReason`] 
+| 
+
+| xref:LaunchTask/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+| xref:LaunchTask/m_logModel.adoc[`m&lowbar;logModel`] 
+| 
+
+| xref:LaunchTask/m_pid.adoc[`m&lowbar;pid`] 
+| 
+
+| xref:Task/m_progress.adoc[`m&lowbar;progress`] 
+| 
+
+| xref:Task/m_progressTotal.adoc[`m&lowbar;progressTotal`] 
+| 
+
+| xref:Task/m_show_debug.adoc[`m&lowbar;show&lowbar;debug`] 
+| 
+
+| xref:Task/m_state.adoc[`m&lowbar;state`] 
+| 
+
+| xref:Task/m_status.adoc[`m&lowbar;status`] 
+| 
+
+| xref:LaunchTask/m_steps.adoc[`m&lowbar;steps`] 
+| 
+
+| xref:LaunchTask/state.adoc[`state`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

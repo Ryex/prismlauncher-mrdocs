@@ -1,0 +1,18 @@
+[#Resource-m_is_resolved]
+= xref:Resource.adoc[Resource]::m&lowbar;is&lowbar;resolved
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L182[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;is&lowbar;resolved = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

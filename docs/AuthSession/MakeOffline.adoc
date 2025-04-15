@@ -1,0 +1,19 @@
+[#AuthSession-MakeOffline]
+= xref:AuthSession.adoc[AuthSession]::MakeOffline
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L9[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+MakeOffline(xref:QString.adoc[QString] offline&lowbar;playername);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

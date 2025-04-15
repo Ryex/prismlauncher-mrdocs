@@ -1,0 +1,22 @@
+[#ExportToModListDialog-2constructor]
+= xref:ExportToModListDialog.adoc[ExportToModListDialog]::ExportToModListDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportToModListDialog.h#L34[ui&sol;dialogs&sol;ExportToModListDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ExportToModListDialog(
+    xref:QString.adoc[QString] name,
+    xref:QList.adoc[QList]&lt;xref:Mod.adoc[Mod]*&gt; mods,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

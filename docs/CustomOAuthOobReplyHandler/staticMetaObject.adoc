@@ -1,0 +1,19 @@
+[#CustomOAuthOobReplyHandler-staticMetaObject]
+= xref:CustomOAuthOobReplyHandler.adoc[CustomOAuthOobReplyHandler]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSAStep.cpp#L71[minecraft&sol;auth&sol;steps&sol;MSAStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

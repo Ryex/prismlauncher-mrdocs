@@ -1,0 +1,18 @@
+[#JavaInstall-id]
+= xref:JavaInstall.adoc[JavaInstall]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L39[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaVersion.adoc[JavaVersion] id;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

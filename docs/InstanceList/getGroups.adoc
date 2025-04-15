@@ -1,0 +1,19 @@
+[#InstanceList-getGroups]
+= xref:InstanceList.adoc[InstanceList]::getGroups
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L105[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getGroups();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

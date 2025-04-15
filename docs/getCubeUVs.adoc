@@ -1,0 +1,26 @@
+[#getCubeUVs]
+= getCubeUVs
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L116[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:QVector2D.adoc[QVector2D]&gt;
+getCubeUVs(
+    float u,
+    float v,
+    float width,
+    float height,
+    float depth,
+    float textureWidth,
+    float textureHeight);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

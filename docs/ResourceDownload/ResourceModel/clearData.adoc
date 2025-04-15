@@ -1,0 +1,23 @@
+[#ResourceDownload-ResourceModel-clearData]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::clearData
+:relfileprefix: ../../
+:mrdocs:
+
+
+Resets the model&apos;s data&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L111[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clearData();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

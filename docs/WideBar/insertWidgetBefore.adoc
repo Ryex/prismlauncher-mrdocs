@@ -1,0 +1,21 @@
+[#WideBar-insertWidgetBefore]
+= xref:WideBar.adoc[WideBar]::insertWidgetBefore
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L28[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+insertWidgetBefore(
+    xref:QAction.adoc[QAction]* before,
+    xref:QWidget.adoc[QWidget]* widget);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

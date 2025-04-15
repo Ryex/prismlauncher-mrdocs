@@ -1,0 +1,20 @@
+[#LaunchTask-emitFailed]
+= xref:LaunchTask.adoc[LaunchTask]::emitFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L94[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+emitFailed(xref:QString.adoc[QString] reason) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

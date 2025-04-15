@@ -1,0 +1,20 @@
+[#ResourceAPI-getGameVersionsString]
+= xref:ResourceAPI.adoc[ResourceAPI]::getGameVersionsString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L184[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QString.adoc[QString]
+getGameVersionsString(xref:std.adoc[std]::xref:std/__cxx11/list.adoc[list]&lt;xref:Version.adoc[Version]&gt; mcVersions) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

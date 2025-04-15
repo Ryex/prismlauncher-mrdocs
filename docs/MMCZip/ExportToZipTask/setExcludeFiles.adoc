@@ -1,0 +1,19 @@
+[#MMCZip-ExportToZipTask-setExcludeFiles]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExportToZipTask.adoc[ExportToZipTask]::setExcludeFiles
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L184[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setExcludeFiles(xref:QStringList.adoc[QStringList] excludeFiles);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

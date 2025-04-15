@@ -1,0 +1,23 @@
+[#askForChangingInstanceName]
+= askForChangingInstanceName
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L8[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:InstanceNameChange.adoc[InstanceNameChange]
+askForChangingInstanceName(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] const& old&lowbar;name,
+    xref:QString.adoc[QString] const& new&lowbar;name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

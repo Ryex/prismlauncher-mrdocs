@@ -1,0 +1,19 @@
+[#AccountList-findAccountByProfileId]
+= xref:AccountList.adoc[AccountList]::findAccountByProfileId
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L81[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+findAccountByProfileId(xref:QString.adoc[QString] const& profileId) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

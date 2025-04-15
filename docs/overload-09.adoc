@@ -1,0 +1,23 @@
+[#overload-09]
+= overload
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L540[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;class... Ts&gt;
+struct overload
+    : Ts...;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

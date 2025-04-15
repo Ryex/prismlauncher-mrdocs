@@ -1,0 +1,18 @@
+[#LegacyFTB-Modpack-broken]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/Modpack.adoc[Modpack]::broken
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackHelpers.h#L28[modplatform&sol;legacy&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool broken = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

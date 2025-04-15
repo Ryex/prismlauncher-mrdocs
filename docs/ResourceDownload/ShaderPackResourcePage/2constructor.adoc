@@ -1,0 +1,20 @@
+[#ResourceDownload-ShaderPackResourcePage-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourcePage.adoc[ShaderPackResourcePage]::ShaderPackResourcePage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackPage.h#L48[ui&sol;pages&sol;modplatform&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ShaderPackResourcePage(
+    xref:ResourceDownload/ShaderPackDownloadDialog.adoc[ShaderPackDownloadDialog]* dialog,
+    xref:BaseInstance.adoc[BaseInstance]& instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

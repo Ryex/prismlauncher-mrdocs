@@ -1,0 +1,19 @@
+[#ResourceDownload-ResourceModel-s_running_models]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::s&lowbar;running&lowbar;models
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L159[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QHash.adoc[QHash]&lt;xref:ResourceDownload/ResourceModel.adoc[ResourceModel]*, bool&gt; s&lowbar;running&lowbar;models = s&lowbar;running&lowbar;models;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

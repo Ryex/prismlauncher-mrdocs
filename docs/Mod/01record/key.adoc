@@ -1,0 +1,18 @@
+[#Mod-01record-key]
+= xref:Mod.adoc[Mod]::key
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L103[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QPixmapCache.adoc[QPixmapCache]::xref:QPixmapCache/Key.adoc[Key] key;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

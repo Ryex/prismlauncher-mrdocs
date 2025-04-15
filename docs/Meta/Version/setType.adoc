@@ -1,0 +1,19 @@
+[#Meta-Version-setType]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::setType
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L66[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setType(xref:QString.adoc[QString] const& type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,51 @@
+[#TypeFlag]
+= TypeFlag
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Untar.cpp#L51[Untar&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum TypeFlag : char;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Regular`
+|
+|`ARegular`
+|
+|`Link`
+|
+|`Symlink`
+|
+|`Character`
+|
+|`Block`
+|
+|`Directory`
+|
+|`FIFO`
+|
+|`Contiguous`
+|
+|`GlobalPosixHeader`
+|
+|`ExtendedPosixHeader`
+|
+|`GNULongLink`
+|
+|`GNULongName`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

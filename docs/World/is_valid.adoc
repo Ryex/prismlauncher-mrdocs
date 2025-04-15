@@ -1,0 +1,18 @@
+[#World-is_valid]
+= xref:World.adoc[World]::is&lowbar;valid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L91[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool is&lowbar;valid = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

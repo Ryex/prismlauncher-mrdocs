@@ -1,0 +1,33 @@
+[#FS-LinkPair]
+= xref:FS.adoc[FS]::LinkPair
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L159[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct LinkPair;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/LinkPair/dst.adoc[`dst`] 
+| 
+
+| xref:FS/LinkPair/src.adoc[`src`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

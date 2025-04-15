@@ -1,0 +1,22 @@
+[#Component-m_cachedRequires]
+= xref:Component.adoc[Component]::m&lowbar;cachedRequires
+:relfileprefix: ../
+:mrdocs:
+
+
+cached set of requirements, taken from the version file (meta or local override)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L136[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta.adoc[Meta]::xref:Meta/RequireSet.adoc[RequireSet] m&lowbar;cachedRequires;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

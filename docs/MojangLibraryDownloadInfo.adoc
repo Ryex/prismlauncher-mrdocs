@@ -1,0 +1,53 @@
+[#MojangLibraryDownloadInfo]
+= MojangLibraryDownloadInfo
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L21[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MojangLibraryDownloadInfo;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangLibraryDownloadInfo/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangLibraryDownloadInfo/2constructor.adoc[`MojangLibraryDownloadInfo`]         [.small]#[constructor]#
+| 
+| xref:MojangLibraryDownloadInfo/getDownloadInfo.adoc[`getDownloadInfo`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangLibraryDownloadInfo/artifact.adoc[`artifact`] 
+| 
+
+| xref:MojangLibraryDownloadInfo/classifiers.adoc[`classifiers`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

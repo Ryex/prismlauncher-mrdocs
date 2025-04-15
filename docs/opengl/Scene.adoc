@@ -1,0 +1,48 @@
+[#opengl-Scene]
+= xref:opengl.adoc[opengl]::Scene
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/Scene.h#L25[ui&sol;dialogs&sol;skins&sol;draw&sol;Scene&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Scene;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:opengl/Scene/2constructor.adoc[`Scene`]         [.small]#[constructor]#
+| 
+
+| xref:opengl/Scene/draw.adoc[`draw`] 
+| 
+
+| xref:opengl/Scene/setCape.adoc[`setCape`] 
+| 
+
+| xref:opengl/Scene/setCapeVisible.adoc[`setCapeVisible`] 
+| 
+
+| xref:opengl/Scene/setMode.adoc[`setMode`] 
+| 
+
+| xref:opengl/Scene/setSkin.adoc[`setSkin`] 
+| 
+
+| xref:opengl/Scene/2destructor.adoc[`&tilde;Scene`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

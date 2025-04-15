@@ -1,0 +1,18 @@
+[#QItemSelectionModel-SelectionFlags]
+= xref:QItemSelectionModel.adoc[QItemSelectionModel]::SelectionFlags
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/7wkgdcnn79b0hwly7nwdisll2hfywvqq-qtbase-6.8.2/include/QtCore/qitemselectionmodel.h#L122[&sol;nix&sol;store&sol;7wkgdcnn79b0hwly7nwdisll2hfywvqq&hyphen;qtbase&hyphen;6&period;8&period;2&sol;include&sol;QtCore&sol;qitemselectionmodel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef xref:QFlags-09.adoc[QFlags]&lt;xref:QItemSelectionModel/SelectionFlag.adoc[SelectionFlag]&gt; SelectionFlags;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

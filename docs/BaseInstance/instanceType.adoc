@@ -1,0 +1,23 @@
+[#BaseInstance-instanceType]
+= xref:BaseInstance.adoc[BaseInstance]::instanceType
+:relfileprefix: ../
+:mrdocs:
+
+
+get the type of this instance
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L115[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+instanceType() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

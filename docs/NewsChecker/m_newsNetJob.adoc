@@ -1,0 +1,22 @@
+[#NewsChecker-m_newsNetJob]
+= xref:NewsChecker.adoc[NewsChecker]::m&lowbar;newsNetJob
+:relfileprefix: ../
+:mrdocs:
+
+
+The network job to use to load the news&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L82[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:NetJob.adoc[NetJob]::xref:NetJob/Ptr.adoc[Ptr] m&lowbar;newsNetJob;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

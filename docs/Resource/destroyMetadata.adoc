@@ -1,0 +1,19 @@
+[#Resource-destroyMetadata]
+= xref:Resource.adoc[Resource]::destroyMetadata
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L140[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+destroyMetadata(xref:QDir.adoc[QDir] const& index&lowbar;dir);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

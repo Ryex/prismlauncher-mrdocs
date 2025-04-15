@@ -1,0 +1,20 @@
+[#ResourceAPI-debugName]
+= xref:ResourceAPI.adoc[ResourceAPI]::debugName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L170[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QString.adoc[QString]
+debugName() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

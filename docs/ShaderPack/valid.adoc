@@ -1,0 +1,20 @@
+[#ShaderPack-valid]
+= xref:ShaderPack.adoc[ShaderPack]::valid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPack.h#L56[minecraft&sol;mod&sol;ShaderPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+valid() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

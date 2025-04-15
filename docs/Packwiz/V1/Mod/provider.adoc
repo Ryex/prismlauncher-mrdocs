@@ -1,0 +1,18 @@
+[#Packwiz-V1-Mod-provider]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::xref:Packwiz/V1/Mod.adoc[Mod]::provider
+:relfileprefix: ../../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L58[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] provider = &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

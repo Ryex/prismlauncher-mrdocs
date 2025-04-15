@@ -1,0 +1,70 @@
+[#ImportResourceDialog]
+= ImportResourceDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ImportResourceDialog.h#L13[ui&sol;dialogs&sol;ImportResourceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ImportResourceDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportResourceDialog/2constructor.adoc[`ImportResourceDialog`]         [.small]#[constructor]#
+| 
+
+| xref:ImportResourceDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ImportResourceDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ImportResourceDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ImportResourceDialog/2destructor.adoc[`&tilde;ImportResourceDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportResourceDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportResourceDialog/selectedInstanceKey.adoc[`selectedInstanceKey`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportResourceDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

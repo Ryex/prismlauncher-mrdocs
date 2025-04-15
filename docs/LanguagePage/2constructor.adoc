@@ -1,0 +1,19 @@
+[#LanguagePage-2constructor]
+= xref:LanguagePage.adoc[LanguagePage]::LanguagePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/LanguagePage.h#L50[ui&sol;pages&sol;global&sol;LanguagePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LanguagePage(xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

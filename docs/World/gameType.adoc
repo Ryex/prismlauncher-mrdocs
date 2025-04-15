@@ -1,0 +1,19 @@
+[#World-gameType]
+= xref:World.adoc[World]::gameType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L40[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:GameType.adoc[GameType]
+gameType() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

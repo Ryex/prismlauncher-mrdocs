@@ -1,0 +1,22 @@
+[#Library-m_absoluteURL]
+= xref:Library.adoc[Library]::m&lowbar;absoluteURL
+:relfileprefix: ../
+:mrdocs:
+
+
+DEPRECATED&colon; Prism Launcher&hyphen;specific absolute URL&period; takes precedence over the implicit maven repo URL, if defined
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L174[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;absoluteURL;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

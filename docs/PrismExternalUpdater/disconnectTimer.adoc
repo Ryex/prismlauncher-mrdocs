@@ -1,0 +1,19 @@
+[#PrismExternalUpdater-disconnectTimer]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::disconnectTimer
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L83[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+disconnectTimer();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,42 @@
+[#Modrinth-File]
+= xref:Modrinth.adoc[Modrinth]::File
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L54[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct File;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/File/downloads.adoc[`downloads`] 
+| 
+
+| xref:Modrinth/File/hash.adoc[`hash`] 
+| 
+
+| xref:Modrinth/File/hashAlgorithm.adoc[`hashAlgorithm`] 
+| 
+
+| xref:Modrinth/File/path.adoc[`path`] 
+| 
+
+| xref:Modrinth/File/required.adoc[`required`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

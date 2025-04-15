@@ -1,0 +1,19 @@
+[#Java-getRecommendedJavaVersionsFromVersionList]
+= xref:Java.adoc[Java]::getRecommendedJavaVersionsFromVersionList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L173[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getRecommendedJavaVersionsFromVersionList(xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr] list);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

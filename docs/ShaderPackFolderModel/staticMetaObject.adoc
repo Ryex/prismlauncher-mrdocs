@@ -1,0 +1,19 @@
+[#ShaderPackFolderModel-staticMetaObject]
+= xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPackFolderModel.h#L8[minecraft&sol;mod&sol;ShaderPackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

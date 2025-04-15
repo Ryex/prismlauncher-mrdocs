@@ -1,0 +1,22 @@
+[#Packwiz-V1-updateModIndex]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::updateModIndex
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L86[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+updateModIndex(
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:Packwiz/V1/Mod.adoc[Mod]& mod);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

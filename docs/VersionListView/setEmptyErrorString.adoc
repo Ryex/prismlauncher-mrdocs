@@ -1,0 +1,19 @@
+[#VersionListView-setEmptyErrorString]
+= xref:VersionListView.adoc[VersionListView]::setEmptyErrorString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionListView.h#L29[ui&sol;widgets&sol;VersionListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setEmptyErrorString(xref:QString.adoc[QString] emptyErrorString);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

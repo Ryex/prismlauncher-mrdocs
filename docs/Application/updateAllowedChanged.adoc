@@ -1,0 +1,19 @@
+[#Application-updateAllowedChanged]
+= xref:Application.adoc[Application]::updateAllowedChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L198[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateAllowedChanged(bool status);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#00namespace-getLink]
+= getLink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/AboutDialog.cpp#L48[ui&sol;dialogs&sol;AboutDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getLink(
+    xref:QString.adoc[QString] link,
+    xref:QString.adoc[QString] name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

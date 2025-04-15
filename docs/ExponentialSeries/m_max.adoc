@@ -1,0 +1,18 @@
+[#ExponentialSeries-m_max]
+= xref:ExponentialSeries.adoc[ExponentialSeries]::m&lowbar;max
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ExponentialSeries.h#L34[ExponentialSeries&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+unsigned int m&lowbar;max;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

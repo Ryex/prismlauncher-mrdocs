@@ -1,0 +1,18 @@
+[#VisualGroup-collapsed]
+= xref:VisualGroup.adoc[VisualGroup]::collapsed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L63[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool collapsed = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

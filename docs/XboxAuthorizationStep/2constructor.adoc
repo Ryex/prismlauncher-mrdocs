@@ -1,0 +1,23 @@
+[#XboxAuthorizationStep-2constructor]
+= xref:XboxAuthorizationStep.adoc[XboxAuthorizationStep]::XboxAuthorizationStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxAuthorizationStep.h#L13[minecraft&sol;auth&sol;steps&sol;XboxAuthorizationStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+XboxAuthorizationStep(
+    xref:AccountData.adoc[AccountData]* data,
+    xref:Token.adoc[Token]* token,
+    xref:QString.adoc[QString] relyingParty,
+    xref:QString.adoc[QString] authorizationKind);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

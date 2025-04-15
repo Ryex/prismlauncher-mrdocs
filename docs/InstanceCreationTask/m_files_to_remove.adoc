@@ -1,0 +1,18 @@
+[#InstanceCreationTask-m_files_to_remove]
+= xref:InstanceCreationTask.adoc[InstanceCreationTask]::m&lowbar;files&lowbar;to&lowbar;remove
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCreationTask.h#L42[InstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] m&lowbar;files&lowbar;to&lowbar;remove;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

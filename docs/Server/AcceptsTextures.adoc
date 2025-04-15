@@ -1,0 +1,31 @@
+[#Server-AcceptsTextures]
+= xref:Server.adoc[Server]::AcceptsTextures
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L61[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum AcceptsTextures : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ASK`
+|
+|`ALWAYS`
+|
+|`NEVER`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

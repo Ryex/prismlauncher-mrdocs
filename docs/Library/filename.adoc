@@ -1,0 +1,163 @@
+[#Library-filename]
+= xref:Library.adoc[Library]::filename
+:relfileprefix: ../
+:mrdocs:
+
+
+Get the filename for the library in the current runtime context&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L119[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+filename(xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext) const;
+----
+
+== Description
+
+Get the file name of the library
+
+Get the file name of the library
+
+This function determines the appropriate filename for the library, taking into
+account native classifiers if applicable&period;
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+Get the file name of the library
+
+
+
+== Return Value
+
+QString The filename of the library&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *runtimeContext*
+| The current runtime context&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

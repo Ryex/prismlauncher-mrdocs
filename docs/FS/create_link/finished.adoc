@@ -1,0 +1,19 @@
+[#FS-create_link-finished]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::finished
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L253[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+finished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,28 @@
+[#NoBigComboBoxStyle-getInstance]
+= xref:NoBigComboBoxStyle.adoc[NoBigComboBoxStyle]::getInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+Something about QProxyStyle and QStyle objects means they can&apos;t be free&apos;d just
+because all the widgets using them are gone&period;
+They seems to be tied to the QApplicaiton lifecycle&period;
+So make singletons tied to the lifetime of the application to clean them up and ensure they aren&apos;t
+being remade over and over again, thus leaking memory&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.cpp#L58[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:NoBigComboBoxStyle.adoc[NoBigComboBoxStyle]*
+getInstance(xref:QStyle.adoc[QStyle]* style);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#FS-create_link-linkRecursively]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::linkRecursively
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L222[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FS/create_link.adoc[create&lowbar;link]&
+linkRecursively(bool recursive);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

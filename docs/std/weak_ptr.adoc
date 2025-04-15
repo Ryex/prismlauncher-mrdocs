@@ -1,0 +1,44 @@
+[#std-weak_ptr]
+= xref:std.adoc[std]::weak&lowbar;ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+A non&hyphen;owning observer for a pointer owned by a shared&lowbar;ptr
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/shared_ptr.h#L809[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;shared&lowbar;ptr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename &lowbar;Tp&gt;
+class weak&lowbar;ptr
+    : public xref:std/__weak_ptr.adoc[&lowbar;&lowbar;weak&lowbar;ptr]&lt;&lowbar;Tp&gt;;
+----
+
+
+
+
+== Description
+
+A weak&lowbar;ptr provides a safe alternative to a raw pointer when you want
+a non&hyphen;owning reference to an object that is managed by a shared&lowbar;ptr&period;
+
+Unlike a raw pointer, a weak&lowbar;ptr can be converted to a new shared&lowbar;ptr
+that shares ownership with every other shared&lowbar;ptr that already owns
+the pointer&period; In other words you can upgrade from a non&hyphen;owning &quot;weak&quot;
+reference to an owning shared&lowbar;ptr, without having access to any of
+the existing shared&lowbar;ptr objects&period;
+
+Also unlike a raw pointer, a weak&lowbar;ptr does not become &quot;dangling&quot; after
+the object it points to has been destroyed&period; Instead, a weak&lowbar;ptr
+becomes &lowbar;expired&lowbar; and can no longer be converted to a shared&lowbar;ptr that
+owns the freed pointer, so you cannot accidentally access the pointed&hyphen;to
+object after it has been destroyed&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

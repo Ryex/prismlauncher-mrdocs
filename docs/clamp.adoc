@@ -1,0 +1,23 @@
+[#clamp]
+= clamp
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ExponentialSeries.h#L4[ExponentialSeries&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+void
+clamp(
+    T& current,
+    T min,
+    T max);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

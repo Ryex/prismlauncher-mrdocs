@@ -1,0 +1,19 @@
+[#ExportToModListDialog-formatChanged]
+= xref:ExportToModListDialog.adoc[ExportToModListDialog]::formatChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportToModListDialog.h#L40[ui&sol;dialogs&sol;ExportToModListDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+formatChanged(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

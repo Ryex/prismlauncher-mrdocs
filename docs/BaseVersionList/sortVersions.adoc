@@ -1,0 +1,24 @@
+[#BaseVersionList-sortVersions]
+= xref:BaseVersionList.adoc[BaseVersionList]::sortVersions
+:relfileprefix: ../
+:mrdocs:
+
+
+Sorts the version list&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L104[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+sortVersions() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

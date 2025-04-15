@@ -1,0 +1,51 @@
+[#Meta-Require]
+= xref:Meta.adoc[Meta]::Require
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L34[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Require;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Require/deepEquals.adoc[`deepEquals`] 
+| 
+
+| xref:Meta/Require/operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:Meta/Require/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Require/equalsVersion.adoc[`equalsVersion`] 
+| 
+
+| xref:Meta/Require/suggests.adoc[`suggests`] 
+| 
+
+| xref:Meta/Require/uid.adoc[`uid`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

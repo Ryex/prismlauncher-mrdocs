@@ -1,0 +1,20 @@
+[#Resource-resolutionTicket]
+= xref:Resource.adoc[Resource]::resolutionTicket
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L129[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+int
+resolutionTicket() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

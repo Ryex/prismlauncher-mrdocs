@@ -1,0 +1,22 @@
+[#Modrinth-loadDependencyVersions]
+= xref:Modrinth.adoc[Modrinth]::loadDependencyVersions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackIndex.h#L30[modplatform&sol;modrinth&sol;ModrinthPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]
+loadDependencyVersions(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/Dependency.adoc[Dependency] const& m,
+    xref:QJsonArray.adoc[QJsonArray]& arr,
+    xref:BaseInstance.adoc[BaseInstance] const* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

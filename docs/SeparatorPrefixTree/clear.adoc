@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-clear]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::clear
+:relfileprefix: ../
+:mrdocs:
+
+
+Clear all children of this node tree node
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L153[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clear();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

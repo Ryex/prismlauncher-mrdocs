@@ -1,0 +1,25 @@
+[#nullopt]
+= nullopt
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L61[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using xref:std.adoc[std]::nullopt;
+----
+
+== Introduced Symbols
+
+|===
+| Name
+| nullopt
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

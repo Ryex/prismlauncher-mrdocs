@@ -1,0 +1,68 @@
+[#JavaVersion]
+= JavaVersion
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaVersion.h#L13[java&sol;JavaVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JavaVersion;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaVersion/2constructor.adoc[`JavaVersion`]         [.small]#[constructor]#
+| 
+| xref:JavaVersion/build.adoc[`build`] 
+| 
+
+| xref:JavaVersion/defaultsToUtf8.adoc[`defaultsToUtf8`] 
+| 
+
+| xref:JavaVersion/isModular.adoc[`isModular`] 
+| 
+
+| xref:JavaVersion/major.adoc[`major`] 
+| 
+
+| xref:JavaVersion/minor.adoc[`minor`] 
+| 
+
+| xref:JavaVersion/name.adoc[`name`] 
+| 
+
+| xref:JavaVersion/operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:JavaVersion/operator_assign.adoc[`operator&equals;`] 
+| 
+
+| xref:JavaVersion/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+| xref:JavaVersion/operator_gt.adoc[`operator&gt;`] 
+| 
+
+| xref:JavaVersion/requiresPermGen.adoc[`requiresPermGen`] 
+| 
+
+| xref:JavaVersion/security.adoc[`security`] 
+| 
+
+| xref:JavaVersion/toString.adoc[`toString`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,25 @@
+[#FS-appendSafe]
+= xref:FS.adoc[FS]::appendSafe
+:relfileprefix: ../
+:mrdocs:
+
+
+append data to a file safely
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L67[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+appendSafe(
+    xref:QString.adoc[QString] const& filename,
+    xref:QByteArray.adoc[QByteArray] const& data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

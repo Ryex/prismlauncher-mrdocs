@@ -1,0 +1,19 @@
+[#LanguageWizardPage-2constructor]
+= xref:LanguageWizardPage.adoc[LanguageWizardPage]::LanguageWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/LanguageWizardPage.h#L10[ui&sol;setupwizard&sol;LanguageWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LanguageWizardPage(xref:QWidget.adoc[QWidget]* parent = Q&lowbar;NULLPTR);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

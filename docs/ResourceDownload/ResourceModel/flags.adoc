@@ -1,0 +1,21 @@
+[#ResourceDownload-ResourceModel-flags]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::flags
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L51[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/ItemFlags.adoc[ItemFlags]
+flags(xref:QModelIndex.adoc[QModelIndex] const& index) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

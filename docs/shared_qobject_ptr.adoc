@@ -1,0 +1,38 @@
+[#shared_qobject_ptr]
+= shared&lowbar;qobject&lowbar;ptr
+:relfileprefix: 
+:mrdocs:
+
+
+A shared pointer class with shared pointer semantics intended for derivates of QObject
+Calls deleteLater() instead of destroying the contained object immediately
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/QObjectPtr.h#L20[QObjectPtr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+class shared&lowbar;qobject&lowbar;ptr
+    : public xref:QSharedPointer.adoc[QSharedPointer]&lt;T&gt;;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:shared_qobject_ptr/reset.adoc[`reset`] 
+| 
+| xref:shared_qobject_ptr/2constructor.adoc[`shared&lowbar;qobject&lowbar;ptr`]         [.small]#[constructor]#
+| 
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

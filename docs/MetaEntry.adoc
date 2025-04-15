@@ -1,0 +1,126 @@
+[#MetaEntry]
+= MetaEntry
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L45[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MetaEntry;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MetaEntry/getCurrentAge.adoc[`getCurrentAge`] 
+| 
+
+| xref:MetaEntry/getETag.adoc[`getETag`] 
+| 
+
+| xref:MetaEntry/getFullPath.adoc[`getFullPath`] 
+| 
+
+| xref:MetaEntry/getMD5Sum.adoc[`getMD5Sum`] 
+| 
+
+| xref:MetaEntry/getMaximumAge.adoc[`getMaximumAge`] 
+| 
+
+| xref:MetaEntry/getRemoteChangedTimestamp.adoc[`getRemoteChangedTimestamp`] 
+| 
+
+| xref:MetaEntry/isEternal.adoc[`isEternal`] 
+| 
+
+| xref:MetaEntry/isExpired.adoc[`isExpired`] 
+| 
+
+| xref:MetaEntry/isStale.adoc[`isStale`] 
+| 
+
+| xref:MetaEntry/makeEternal.adoc[`makeEternal`] 
+| 
+
+| xref:MetaEntry/setCurrentAge.adoc[`setCurrentAge`] 
+| 
+
+| xref:MetaEntry/setETag.adoc[`setETag`] 
+| 
+
+| xref:MetaEntry/setLocalChangedTimestamp.adoc[`setLocalChangedTimestamp`] 
+| 
+
+| xref:MetaEntry/setMD5Sum.adoc[`setMD5Sum`] 
+| 
+
+| xref:MetaEntry/setMaximumAge.adoc[`setMaximumAge`] 
+| 
+
+| xref:MetaEntry/setRemoteChangedTimestamp.adoc[`setRemoteChangedTimestamp`] 
+| 
+
+| xref:MetaEntry/setStale.adoc[`setStale`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MetaEntry/2constructor.adoc[`MetaEntry`]         [.small]#[constructor]#
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MetaEntry/m_baseId.adoc[`m&lowbar;baseId`] 
+| 
+
+| xref:MetaEntry/m_basePath.adoc[`m&lowbar;basePath`] 
+| 
+
+| xref:MetaEntry/m_current_age.adoc[`m&lowbar;current&lowbar;age`] 
+| 
+
+| xref:MetaEntry/m_etag.adoc[`m&lowbar;etag`] 
+| 
+
+| xref:MetaEntry/m_is_eternal.adoc[`m&lowbar;is&lowbar;eternal`] 
+| 
+
+| xref:MetaEntry/m_local_changed_timestamp.adoc[`m&lowbar;local&lowbar;changed&lowbar;timestamp`] 
+| 
+
+| xref:MetaEntry/m_max_age.adoc[`m&lowbar;max&lowbar;age`] 
+| 
+
+| xref:MetaEntry/m_md5sum.adoc[`m&lowbar;md5sum`] 
+| 
+
+| xref:MetaEntry/m_relativePath.adoc[`m&lowbar;relativePath`] 
+| 
+
+| xref:MetaEntry/m_remote_changed_timestamp.adoc[`m&lowbar;remote&lowbar;changed&lowbar;timestamp`] 
+| 
+
+| xref:MetaEntry/m_stale.adoc[`m&lowbar;stale`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

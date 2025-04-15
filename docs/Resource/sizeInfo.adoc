@@ -1,0 +1,20 @@
+[#Resource-sizeInfo]
+= xref:Resource.adoc[Resource]::sizeInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L93[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:qint64.adoc[qint64]
+sizeInfo() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,48 @@
+[#ReviewMessageBox-res_info]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::res&lowbar;info
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L16[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct res&lowbar;info;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ReviewMessageBox/res_info/custom_file_path.adoc[`custom&lowbar;file&lowbar;path`] 
+| 
+
+| xref:ReviewMessageBox/res_info/enabled.adoc[`enabled`] 
+| 
+
+| xref:ReviewMessageBox/res_info/filename.adoc[`filename`] 
+| 
+
+| xref:ReviewMessageBox/res_info/name.adoc[`name`] 
+| 
+
+| xref:ReviewMessageBox/res_info/provider.adoc[`provider`] 
+| 
+
+| xref:ReviewMessageBox/res_info/required_by.adoc[`required&lowbar;by`] 
+| 
+
+| xref:ReviewMessageBox/res_info/version_type.adoc[`version&lowbar;type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

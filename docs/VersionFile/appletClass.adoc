@@ -1,0 +1,22 @@
+[#VersionFile-appletClass]
+= xref:VersionFile.adoc[VersionFile]::appletClass
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; class to launch legacy Minecraft with (embed in a custom window)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L93[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] appletClass;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

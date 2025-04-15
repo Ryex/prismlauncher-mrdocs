@@ -1,0 +1,22 @@
+[#Json-ensureBoolean-01]
+= xref:Json.adoc[Json]::ensureBoolean
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L269[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+ensureBoolean(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    bool const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

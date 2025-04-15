@@ -1,0 +1,19 @@
+[#ExternalResourcesPage-filterTextChanged]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::filterTextChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L50[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+filterTextChanged(xref:QString.adoc[QString] const& newContents);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

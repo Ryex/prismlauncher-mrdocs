@@ -1,0 +1,21 @@
+[#FS-clone-fileCloned]
+= xref:FS.adoc[FS]::xref:FS/clone.adoc[clone]::fileCloned
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L510[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+fileCloned(
+    xref:QString.adoc[QString] const& src,
+    xref:QString.adoc[QString] const& dst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

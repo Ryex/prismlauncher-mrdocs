@@ -1,0 +1,20 @@
+[#TaskStepWrapper-executeTask]
+= xref:TaskStepWrapper.adoc[TaskStepWrapper]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/TaskStepWrapper.h#L30[launch&sol;TaskStepWrapper&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

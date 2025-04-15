@@ -1,0 +1,22 @@
+[#Library-m_hint]
+= xref:Library.adoc[Library]::m&lowbar;hint
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&hyphen;specific type hint &hyphen; modifies how the library is treated
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L185[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;hint;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

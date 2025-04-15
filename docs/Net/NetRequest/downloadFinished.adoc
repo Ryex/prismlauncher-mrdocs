@@ -1,0 +1,19 @@
+[#Net-NetRequest-downloadFinished]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::downloadFinished
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L89[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+downloadFinished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

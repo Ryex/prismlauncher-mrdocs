@@ -1,0 +1,19 @@
+[#Net-Sink-initAllValidators]
+= xref:Net.adoc[Net]::xref:Net/Sink.adoc[Sink]::initAllValidators
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Sink.h#L63[net&sol;Sink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+initAllValidators(xref:QNetworkRequest.adoc[QNetworkRequest]& request);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

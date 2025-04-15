@@ -1,0 +1,18 @@
+[#KonamiCode-2constructor]
+= xref:KonamiCode.adoc[KonamiCode]::KonamiCode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/KonamiCode.h#L8[KonamiCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+KonamiCode(xref:QObject.adoc[QObject]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

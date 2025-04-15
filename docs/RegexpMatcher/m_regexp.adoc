@@ -1,0 +1,18 @@
+[#RegexpMatcher-m_regexp]
+= xref:RegexpMatcher.adoc[RegexpMatcher]::m&lowbar;regexp
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/RegexpMatcher.h#L36[pathmatcher&sol;RegexpMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QRegularExpression.adoc[QRegularExpression] m&lowbar;regexp;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

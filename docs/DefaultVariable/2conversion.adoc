@@ -1,0 +1,18 @@
+[#DefaultVariable-2conversion]
+= xref:DefaultVariable.adoc[DefaultVariable]::operator T const&
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DefaultVariable.h#L14[DefaultVariable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+operator T const&() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

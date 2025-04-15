@@ -1,0 +1,22 @@
+[#MinecraftInstance-createLaunchTask]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::createLaunchTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L125[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchTask.adoc[LaunchTask]&gt;
+createLaunchTask(
+    xref:AuthSessionPtr.adoc[AuthSessionPtr] account,
+    xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Language-file_sha1]
+= xref:Language.adoc[Language]::file&lowbar;sha1
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L142[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] file&lowbar;sha1 = QString();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

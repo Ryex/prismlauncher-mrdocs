@@ -1,0 +1,18 @@
+[#VersionFile-runtimes]
+= xref:VersionFile.adoc[VersionFile]::runtimes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L158[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:Java.adoc[Java]::xref:Java/MetadataPtr.adoc[MetadataPtr]&gt; runtimes;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

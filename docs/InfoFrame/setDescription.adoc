@@ -1,0 +1,19 @@
+[#InfoFrame-setDescription]
+= xref:InfoFrame.adoc[InfoFrame]::setDescription
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L56[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setDescription(xref:QString.adoc[QString] text = &equals; &lcub;&rcub;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

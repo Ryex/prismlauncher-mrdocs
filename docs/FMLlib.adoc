@@ -1,0 +1,33 @@
+[#FMLlib]
+= FMLlib
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFilterData.h#L7[minecraft&sol;VersionFilterData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct FMLlib;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FMLlib/checksum.adoc[`checksum`] 
+| 
+
+| xref:FMLlib/filename.adoc[`filename`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

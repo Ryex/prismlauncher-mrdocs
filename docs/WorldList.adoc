@@ -1,0 +1,190 @@
+[#WorldList]
+= WorldList
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L28[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class WorldList
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldList/Columns.adoc[`Columns`] 
+| 
+
+| xref:WorldList/Roles.adoc[`Roles`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldList/2constructor.adoc[`WorldList`]         [.small]#[constructor]#
+| 
+
+| xref:WorldList/allWorlds.adoc[`allWorlds`] 
+| 
+
+| xref:WorldList/changed.adoc[`changed`] 
+| 
+
+| xref:WorldList/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:WorldList/data.adoc[`data`] 
+| 
+
+| xref:WorldList/deleteWorld.adoc[`deleteWorld`] 
+| Deletes the mod at the given index&period;
+
+
+
+| xref:WorldList/deleteWorlds.adoc[`deleteWorlds`] 
+| Deletes all the selected mods
+
+
+
+| xref:WorldList/dir.adoc[`dir`] 
+| 
+
+| xref:WorldList/dropMimeData.adoc[`dropMimeData`] 
+| process data from drop action
+
+
+
+| xref:WorldList/empty.adoc[`empty`] 
+| 
+
+| xref:WorldList/flags.adoc[`flags`] 
+| flags, mostly to support drag&amp;drop
+
+
+
+| xref:WorldList/headerData.adoc[`headerData`] 
+| 
+
+| xref:WorldList/instDirPath.adoc[`instDirPath`] 
+| 
+
+| xref:WorldList/installWorld.adoc[`installWorld`] 
+| Install a world from location
+
+
+
+| xref:WorldList/isValid.adoc[`isValid`] 
+| 
+
+| xref:WorldList/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:WorldList/mimeData.adoc[`mimeData`] 
+| get data for drag action
+
+
+
+| xref:WorldList/mimeTypes.adoc[`mimeTypes`] 
+| get the supported mime types
+
+
+
+| xref:WorldList/operator_subs.adoc[`operator&lsqb;&rsqb;`] 
+| 
+
+| xref:WorldList/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:WorldList/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:WorldList/resetIcon.adoc[`resetIcon`] 
+| Removes the world icon, if any
+
+
+
+| xref:WorldList/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:WorldList/size.adoc[`size`] 
+| 
+
+| xref:WorldList/startWatching.adoc[`startWatching`] 
+| 
+
+| xref:WorldList/stopWatching.adoc[`stopWatching`] 
+| 
+
+| xref:WorldList/supportedDragActions.adoc[`supportedDragActions`] 
+| what drag actions do we support?
+
+
+
+| xref:WorldList/supportedDropActions.adoc[`supportedDropActions`] 
+| what drop actions do we support?
+
+
+
+| xref:WorldList/update.adoc[`update`] 
+| Reloads the mod list and returns true if the list changed&period;
+
+
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldList/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldList/is_watching.adoc[`is&lowbar;watching`] 
+| 
+
+| xref:WorldList/m_dir.adoc[`m&lowbar;dir`] 
+| 
+
+| xref:WorldList/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+| xref:WorldList/m_watcher.adoc[`m&lowbar;watcher`] 
+| 
+
+| xref:WorldList/worlds.adoc[`worlds`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

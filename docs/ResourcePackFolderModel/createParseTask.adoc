@@ -1,0 +1,21 @@
+[#ResourcePackFolderModel-createParseTask]
+= xref:ResourcePackFolderModel.adoc[ResourcePackFolderModel]::createParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourcePackFolderModel.h#L22[minecraft&sol;mod&sol;ResourcePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]*
+createParseTask(xref:Resource.adoc[Resource]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

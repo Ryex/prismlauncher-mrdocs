@@ -1,0 +1,19 @@
+[#IconUtils-isIconSuffix]
+= xref:IconUtils.adoc[IconUtils]::isIconSuffix
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconUtils.h#L48[icons&sol;IconUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isIconSuffix(xref:QString.adoc[QString] suffix);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

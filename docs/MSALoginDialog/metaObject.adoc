@@ -1,0 +1,20 @@
+[#MSALoginDialog-metaObject]
+= xref:MSALoginDialog.adoc[MSALoginDialog]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/MSALoginDialog.h#L29[ui&sol;dialogs&sol;MSALoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,97 @@
+[#AccountData]
+= AccountData
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L95[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct AccountData;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountData/accessToken.adoc[`accessToken`] 
+| Yggdrasil access token, as passed to the game&period;
+
+
+
+| xref:AccountData/accountDisplayString.adoc[`accountDisplayString`] 
+| userName for Mojang accounts, gamertag for MSA
+
+
+
+| xref:AccountData/lastError.adoc[`lastError`] 
+| 
+
+| xref:AccountData/profileId.adoc[`profileId`] 
+| 
+
+| xref:AccountData/profileName.adoc[`profileName`] 
+| 
+
+| xref:AccountData/resumeStateFromV3.adoc[`resumeStateFromV3`] 
+| 
+
+| xref:AccountData/saveState.adoc[`saveState`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountData/accountState.adoc[`accountState`] 
+| 
+
+| xref:AccountData/errorString.adoc[`errorString`] 
+| 
+
+| xref:AccountData/internalId.adoc[`internalId`] 
+| 
+
+| xref:AccountData/minecraftEntitlement.adoc[`minecraftEntitlement`] 
+| 
+
+| xref:AccountData/minecraftProfile.adoc[`minecraftProfile`] 
+| 
+
+| xref:AccountData/mojangservicesToken.adoc[`mojangservicesToken`] 
+| 
+
+| xref:AccountData/msaClientID.adoc[`msaClientID`] 
+| 
+
+| xref:AccountData/msaToken.adoc[`msaToken`] 
+| 
+
+| xref:AccountData/type.adoc[`type`] 
+| 
+
+| xref:AccountData/userToken.adoc[`userToken`] 
+| 
+
+| xref:AccountData/validity_.adoc[`validity&lowbar;`] 
+| 
+
+| xref:AccountData/xboxApiToken.adoc[`xboxApiToken`] 
+| 
+
+| xref:AccountData/yggdrasilToken.adoc[`yggdrasilToken`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

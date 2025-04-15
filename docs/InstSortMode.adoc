@@ -1,0 +1,29 @@
+[#InstSortMode]
+= InstSortMode
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/LauncherPage.cpp#L61[ui&sol;pages&sol;global&sol;LauncherPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum InstSortMode;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Sort&lowbar;Name`
+|
+|`Sort&lowbar;LastLaunch`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Application-m_offlineName]
+= xref:Application.adoc[Application]::m&lowbar;offlineName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L306[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;offlineName;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

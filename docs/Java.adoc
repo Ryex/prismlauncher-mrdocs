@@ -1,0 +1,70 @@
+[#Java]
+= Java
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Java/ArchiveDownloadTask.adoc[`ArchiveDownloadTask`] 
+| 
+
+| xref:Java/InstallDialog.adoc[`InstallDialog`] 
+| 
+
+| xref:Java/ManifestDownloadTask.adoc[`ManifestDownloadTask`] 
+| 
+
+| xref:Java/Metadata.adoc[`Metadata`] 
+| 
+
+| xref:Java/MetadataPtr.adoc[`MetadataPtr`] 
+| 
+
+| xref:Java/SymlinkTask.adoc[`SymlinkTask`] 
+| 
+
+| xref:Java/VersionList.adoc[`VersionList`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Java/DownloadType.adoc[`DownloadType`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Java/downloadTypeToString.adoc[`downloadTypeToString`] 
+| 
+
+| xref:Java/findBinPath.adoc[`findBinPath`] 
+| 
+
+| xref:Java/getRecommendedJavaVersionsFromVersionList.adoc[`getRecommendedJavaVersionsFromVersionList`] 
+| 
+
+| xref:Java/parseDownloadType.adoc[`parseDownloadType`] 
+| 
+
+| xref:Java/parseJavaMeta.adoc[`parseJavaMeta`] 
+| 
+
+| xref:Java/sortJavas.adoc[`sortJavas`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

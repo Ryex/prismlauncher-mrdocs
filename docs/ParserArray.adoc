@@ -1,0 +1,37 @@
+[#ParserArray]
+= ParserArray
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L20[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ParserArray
+    : public xref:QByteArray.adoc[QByteArray];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ParserArray/2constructor.adoc[`ParserArray`]         [.small]#[constructor]#
+| 
+
+| xref:ParserArray/chomp.adoc[`chomp`] 
+| 
+
+| xref:ParserArray/chompString.adoc[`chompString`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

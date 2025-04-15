@@ -1,0 +1,20 @@
+[#ResourceDownload-FlameShaderPackPage-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameShaderPackPage.adoc[FlameShaderPackPage]::FlameShaderPackPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L167[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FlameShaderPackPage(
+    xref:ResourceDownload/ShaderPackDownloadDialog.adoc[ShaderPackDownloadDialog]* dialog,
+    xref:BaseInstance.adoc[BaseInstance]& instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

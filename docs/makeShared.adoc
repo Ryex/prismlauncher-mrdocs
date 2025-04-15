@@ -1,0 +1,22 @@
+[#makeShared]
+= makeShared
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/QObjectPtr.h#L48[QObjectPtr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename T,
+    typename... Args&gt;
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;T&gt;
+makeShared(Args... args);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

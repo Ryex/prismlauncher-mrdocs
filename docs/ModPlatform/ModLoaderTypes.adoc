@@ -1,0 +1,18 @@
+[#ModPlatform-ModLoaderTypes]
+= xref:ModPlatform.adoc[ModPlatform]::ModLoaderTypes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L34[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef xref:QFlags-09.adoc[QFlags]&lt;xref:ModPlatform/ModLoaderType.adoc[ModLoaderType]&gt; ModLoaderTypes;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

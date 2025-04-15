@@ -1,0 +1,20 @@
+[#ModrinthCheckUpdate-abort]
+= xref:ModrinthCheckUpdate.adoc[ModrinthCheckUpdate]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthCheckUpdate.h#L18[modplatform&sol;modrinth&sol;ModrinthCheckUpdate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

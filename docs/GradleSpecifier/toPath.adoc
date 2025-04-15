@@ -1,0 +1,19 @@
+[#GradleSpecifier-toPath]
+= xref:GradleSpecifier.adoc[GradleSpecifier]::toPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L103[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+toPath(xref:QString.adoc[QString] const& filenameOverride = QString()) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

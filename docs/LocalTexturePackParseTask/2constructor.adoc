@@ -1,0 +1,20 @@
+[#LocalTexturePackParseTask-2constructor]
+= xref:LocalTexturePackParseTask.adoc[LocalTexturePackParseTask]::LocalTexturePackParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalTexturePackParseTask.h#L51[minecraft&sol;mod&sol;tasks&sol;LocalTexturePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+LocalTexturePackParseTask(
+    int token,
+    xref:TexturePack.adoc[TexturePack]& rp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

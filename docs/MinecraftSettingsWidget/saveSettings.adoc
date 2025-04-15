@@ -1,0 +1,19 @@
+[#MinecraftSettingsWidget-saveSettings]
+= xref:MinecraftSettingsWidget.adoc[MinecraftSettingsWidget]::saveSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/MinecraftSettingsWidget.h#L53[ui&sol;widgets&sol;MinecraftSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+saveSettings();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

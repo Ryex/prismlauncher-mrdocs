@@ -1,0 +1,31 @@
+[#ShouldUpdate]
+= ShouldUpdate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L9[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ShouldUpdate : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Update`
+|
+|`SkipUpdating`
+|
+|`Cancel`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

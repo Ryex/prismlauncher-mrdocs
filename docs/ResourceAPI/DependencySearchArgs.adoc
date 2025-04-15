@@ -1,0 +1,36 @@
+[#ResourceAPI-DependencySearchArgs]
+= xref:ResourceAPI.adoc[ResourceAPI]::DependencySearchArgs
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L118[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct DependencySearchArgs;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/DependencySearchArgs/dependency.adoc[`dependency`] 
+| 
+
+| xref:ResourceAPI/DependencySearchArgs/loader.adoc[`loader`] 
+| 
+
+| xref:ResourceAPI/DependencySearchArgs/mcVersion.adoc[`mcVersion`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

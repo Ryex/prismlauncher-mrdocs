@@ -1,0 +1,21 @@
+[#Parsers-getBool]
+= xref:Parsers.adoc[Parsers]::getBool
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L10[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+getBool(
+    xref:QJsonValue.adoc[QJsonValue] value,
+    bool& out);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

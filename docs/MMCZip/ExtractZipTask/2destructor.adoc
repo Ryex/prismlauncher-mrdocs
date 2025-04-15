@@ -1,0 +1,19 @@
+[#MMCZip-ExtractZipTask-2destructor]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExtractZipTask.adoc[ExtractZipTask]::&tilde;ExtractZipTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L219[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ExtractZipTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

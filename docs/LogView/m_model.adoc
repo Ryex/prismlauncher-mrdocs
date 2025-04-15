@@ -1,0 +1,18 @@
+[#LogView-m_model]
+= xref:LogView.adoc[LogView]::m&lowbar;model
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L31[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QAbstractItemModel.adoc[QAbstractItemModel]* m&lowbar;model = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

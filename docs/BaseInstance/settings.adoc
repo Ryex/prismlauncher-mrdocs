@@ -1,0 +1,36 @@
+[#BaseInstance-settings]
+= xref:BaseInstance.adoc[BaseInstance]::settings
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets this instance&apos;s settings object&period;
+This settings object stores instance&hyphen;specific settings&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L179[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:SettingsObjectPtr.adoc[SettingsObjectPtr]
+settings();
+----
+
+== Description
+
+Note that this method is not const&period;
+It may call loadSpecificSettings() to ensure those are loaded&period;
+
+
+
+== Return Value
+
+A pointer to this instance&apos;s settings object&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

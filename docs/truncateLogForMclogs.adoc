@@ -1,0 +1,19 @@
+[#truncateLogForMclogs]
+= truncateLogForMclogs
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.cpp#L58[ui&sol;GuiUtil&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+truncateLogForMclogs(xref:QString.adoc[QString] const& logContent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

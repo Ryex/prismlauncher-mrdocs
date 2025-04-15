@@ -1,0 +1,36 @@
+[#ProblemProvider]
+= ProblemProvider
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L13[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProblemProvider;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProblemProvider/getProblemSeverity.adoc[`getProblemSeverity`] 
+| 
+
+| xref:ProblemProvider/getProblems.adoc[`getProblems`] 
+| 
+
+| xref:ProblemProvider/2destructor.adoc[`&tilde;ProblemProvider`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

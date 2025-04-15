@@ -1,0 +1,19 @@
+[#ManagedPackPage-setInstanceWindow]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::setInstanceWindow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L60[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setInstanceWindow(xref:InstanceWindow.adoc[InstanceWindow]* window);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ManagedPackPage-staticMetaObject]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L29[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

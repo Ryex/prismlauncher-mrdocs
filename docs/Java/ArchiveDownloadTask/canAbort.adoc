@@ -1,0 +1,21 @@
+[#Java-ArchiveDownloadTask-canAbort]
+= xref:Java.adoc[Java]::xref:Java/ArchiveDownloadTask.adoc[ArchiveDownloadTask]::canAbort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ArchiveDownloadTask.h#L31[java&sol;download&sol;ArchiveDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+canAbort() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

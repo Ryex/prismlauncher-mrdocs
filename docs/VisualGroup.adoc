@@ -1,0 +1,140 @@
+[#VisualGroup]
+= VisualGroup
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L55[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VisualGroup;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualGroup/HitResults.adoc[`HitResults`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualGroup/HitResult.adoc[`HitResult`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualGroup/2constructor.adoc[`VisualGroup`]         [.small]#[constructor]#
+| 
+| xref:VisualGroup/calculateNumRows.adoc[`calculateNumRows`] 
+| actually calculate the above value
+
+
+
+| xref:VisualGroup/contentHeight.adoc[`contentHeight`] 
+| height of the group content, in pixels
+
+
+
+| xref:VisualGroup/drawHeader.adoc[`drawHeader`] 
+| draw the header at y&hyphen;position&period;
+
+
+
+| xref:VisualGroup/hitScan.adoc[`hitScan`] 
+| shoot! BANG! what did we hit?
+
+
+
+| xref:VisualGroup/items.adoc[`items`] 
+| 
+
+| xref:VisualGroup/numRows.adoc[`numRows`] 
+| the number of visual rows this group has
+
+
+
+| xref:VisualGroup/positionOf.adoc[`positionOf`] 
+| x&sol;y position of the given item inside the group (in items!)
+
+
+
+| xref:VisualGroup/rowHeightOf.adoc[`rowHeightOf`] 
+| height of the row of the given item
+
+
+
+| xref:VisualGroup/rowTopOf.adoc[`rowTopOf`] 
+| relative geometry &hyphen; top of the row of the given item
+
+
+
+| xref:VisualGroup/totalHeight.adoc[`totalHeight`] 
+| height of the group, in total&period; includes a small bit of padding&period;
+
+
+
+| xref:VisualGroup/update.adoc[`update`] 
+| update the internal list of items and flow them into the rows&period;
+
+
+
+| xref:VisualGroup/verticalPosition.adoc[`verticalPosition`] 
+| the height at which this group starts, in pixels
+
+
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualGroup/headerHeight.adoc[`headerHeight`] 
+| height of the group header, in pixels
+
+
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualGroup/collapsed.adoc[`collapsed`] 
+| 
+
+| xref:VisualGroup/firstItemIndex.adoc[`firstItemIndex`] 
+| 
+
+| xref:VisualGroup/m_verticalPosition.adoc[`m&lowbar;verticalPosition`] 
+| 
+
+| xref:VisualGroup/rows.adoc[`rows`] 
+| 
+
+| xref:VisualGroup/text.adoc[`text`] 
+| 
+
+| xref:VisualGroup/view.adoc[`view`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

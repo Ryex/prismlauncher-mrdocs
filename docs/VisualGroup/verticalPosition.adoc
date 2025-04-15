@@ -1,0 +1,23 @@
+[#VisualGroup-verticalPosition]
+= xref:VisualGroup.adoc[VisualGroup]::verticalPosition
+:relfileprefix: ../
+:mrdocs:
+
+
+the height at which this group starts, in pixels
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L91[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+verticalPosition() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

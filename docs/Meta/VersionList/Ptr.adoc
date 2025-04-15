@@ -1,0 +1,18 @@
+[#Meta-VersionList-Ptr]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::Ptr
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L35[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Meta/VersionList.adoc[VersionList]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

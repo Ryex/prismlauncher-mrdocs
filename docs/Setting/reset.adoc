@@ -1,0 +1,24 @@
+[#Setting-reset]
+= xref:Setting.adoc[Setting]::reset
+:relfileprefix: ../
+:mrdocs:
+
+
+Reset the setting to default
+This is done by emitting the settingReset() signal which will then be
+handled by the SettingsObject object and cause the setting to change&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L102[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+reset();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

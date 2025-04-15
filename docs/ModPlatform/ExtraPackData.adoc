@@ -1,0 +1,48 @@
+[#ModPlatform-ExtraPackData]
+= xref:ModPlatform.adoc[ModPlatform]::ExtraPackData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L116[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ExtraPackData;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/ExtraPackData/body.adoc[`body`] 
+| 
+
+| xref:ModPlatform/ExtraPackData/discordUrl.adoc[`discordUrl`] 
+| 
+
+| xref:ModPlatform/ExtraPackData/donate.adoc[`donate`] 
+| 
+
+| xref:ModPlatform/ExtraPackData/issuesUrl.adoc[`issuesUrl`] 
+| 
+
+| xref:ModPlatform/ExtraPackData/sourceUrl.adoc[`sourceUrl`] 
+| 
+
+| xref:ModPlatform/ExtraPackData/status.adoc[`status`] 
+| 
+
+| xref:ModPlatform/ExtraPackData/wikiUrl.adoc[`wikiUrl`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

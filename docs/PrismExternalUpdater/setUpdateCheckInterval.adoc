@@ -1,0 +1,31 @@
+[#PrismExternalUpdater-setUpdateCheckInterval]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::setUpdateCheckInterval
+:relfileprefix: ../
+:mrdocs:
+
+
+Set the current automatic update check interval in seconds&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L75[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setUpdateCheckInterval(double seconds) override;
+----
+
+== Description
+
+The update schedule cycle will be reset in a short delay after the property’s new value is set&period; This is to allow
+reverting this property without kicking off a schedule change immediately&period;&quot;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

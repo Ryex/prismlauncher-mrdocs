@@ -1,0 +1,18 @@
+[#MetaEntry-m_basePath]
+= xref:MetaEntry.adoc[MetaEntry]::m&lowbar;basePath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L81[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;basePath;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

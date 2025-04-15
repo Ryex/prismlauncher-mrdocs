@@ -1,0 +1,26 @@
+[#00namespace-appDebugOutput]
+= appDebugOutput
+:relfileprefix: ../
+:mrdocs:
+
+
+This is used so that we can output to the log file in addition to the CLI&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.cpp#L171[Application&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+appDebugOutput(
+    xref:QtMsgType.adoc[QtMsgType] type,
+    xref:QMessageLogContext.adoc[QMessageLogContext] const& context,
+    xref:QString.adoc[QString] const& msg);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

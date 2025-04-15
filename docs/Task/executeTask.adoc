@@ -1,0 +1,25 @@
+[#Task-executeTask]
+= xref:Task.adoc[Task]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+The task subclass must implement this method&period; This method is called to start to run the task&period;
+The task is not finished when this method returns&period; the subclass must manually call emitSucceeded() or emitFailed() instead&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L177[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

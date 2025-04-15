@@ -1,0 +1,19 @@
+[#ResourceFolderModel-2destructor]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::&tilde;ResourceFolderModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L65[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ResourceFolderModel() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

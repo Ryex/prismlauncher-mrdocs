@@ -1,0 +1,18 @@
+[#Net-Validator-2constructor]
+= xref:Net.adoc[Net]::xref:Net/Validator.adoc[Validator]::Validator
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Validator.h#L42[net&sol;Validator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Validator();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

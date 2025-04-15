@@ -1,0 +1,18 @@
+[#Net-Download-Ptr]
+= xref:Net.adoc[Net]::xref:Net/Download.adoc[Download]::Ptr
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Download.h#L50[net&sol;Download&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:Net/Download.adoc[Download]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#NotesPage-2constructor]
+= xref:NotesPage.adoc[NotesPage]::NotesPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/NotesPage.h#L52[ui&sol;pages&sol;instance&sol;NotesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+NotesPage(
+    xref:BaseInstance.adoc[BaseInstance]* inst,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

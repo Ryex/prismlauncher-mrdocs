@@ -1,0 +1,19 @@
+[#Application-currentCatChanged]
+= xref:Application.adoc[Application]::currentCatChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L201[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+currentCatChanged(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

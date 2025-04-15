@@ -1,0 +1,24 @@
+[#ExternalUpdater-getBetaAllowed]
+= xref:ExternalUpdater.adoc[ExternalUpdater]::getBetaAllowed
+:relfileprefix: ../
+:mrdocs:
+
+
+Indicates whether or not beta updates should be checked for in addition to regular releases&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/ExternalUpdater.h#L56[updater&sol;ExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+getBetaAllowed() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Flame-File-required]
+= xref:Flame.adoc[Flame]::xref:Flame/File.adoc[File]::required
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L51[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool required = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

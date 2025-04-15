@@ -1,0 +1,94 @@
+[#Atl-FilterModel]
+= xref:Atl.adoc[Atl]::FilterModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlFilterModel.h#L23[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlFilterModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FilterModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/FilterModel/Sorting.adoc[`Sorting`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/FilterModel/2constructor.adoc[`FilterModel`]         [.small]#[constructor]#
+| 
+
+| xref:Atl/FilterModel/getAvailableSortings.adoc[`getAvailableSortings`] 
+| 
+
+| xref:Atl/FilterModel/getCurrentSorting.adoc[`getCurrentSorting`] 
+| 
+
+| xref:Atl/FilterModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Atl/FilterModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Atl/FilterModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Atl/FilterModel/setSearchTerm.adoc[`setSearchTerm`] 
+| 
+
+| xref:Atl/FilterModel/setSorting.adoc[`setSorting`] 
+| 
+
+| xref:Atl/FilterModel/translateCurrentSorting.adoc[`translateCurrentSorting`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/FilterModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/FilterModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/FilterModel/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+| xref:Atl/FilterModel/lessThan.adoc[`lessThan`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

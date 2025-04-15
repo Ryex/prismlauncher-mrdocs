@@ -1,0 +1,20 @@
+[#ExternalResourcesPage-closedImpl]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::closedImpl
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L35[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+closedImpl() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

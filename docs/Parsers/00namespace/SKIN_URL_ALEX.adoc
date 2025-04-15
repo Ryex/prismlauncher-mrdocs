@@ -1,0 +1,19 @@
+[#Parsers-00namespace-SKIN_URL_ALEX]
+= xref:Parsers.adoc[Parsers]::SKIN&lowbar;URL&lowbar;ALEX
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.cpp#L226[minecraft&sol;auth&sol;Parsers&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString] const SKIN&lowbar;URL&lowbar;ALEX = &quot;https&colon;&sol;&sol;textures&period;minecraft&period;net&sol;texture&sol;83cee5ca6afcdb171285aa00e8049c297b2dbeba0efb8ff970a5677a1b644032&quot;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

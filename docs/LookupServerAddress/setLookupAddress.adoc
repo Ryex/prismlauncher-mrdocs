@@ -1,0 +1,19 @@
+[#LookupServerAddress-setLookupAddress]
+= xref:LookupServerAddress.adoc[LookupServerAddress]::setLookupAddress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/LookupServerAddress.h#L34[launch&sol;steps&sol;LookupServerAddress&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setLookupAddress(xref:QString.adoc[QString] const& lookupAddress);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

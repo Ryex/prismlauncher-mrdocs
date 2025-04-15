@@ -1,0 +1,19 @@
+[#InstanceWindow-instanceId]
+= xref:InstanceWindow.adoc[InstanceWindow]::instanceId
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/InstanceWindow.h#L63[ui&sol;InstanceWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+instanceId();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

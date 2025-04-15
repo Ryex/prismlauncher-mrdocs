@@ -1,0 +1,39 @@
+[#CatPack]
+= CatPack
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L43[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CatPack;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CatPack/id.adoc[`id`] 
+| 
+
+| xref:CatPack/name.adoc[`name`] 
+| 
+
+| xref:CatPack/path.adoc[`path`] 
+| 
+
+| xref:CatPack/2destructor.adoc[`&tilde;CatPack`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

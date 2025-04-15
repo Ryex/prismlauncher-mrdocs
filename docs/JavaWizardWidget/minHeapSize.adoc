@@ -1,0 +1,19 @@
+[#JavaWizardWidget-minHeapSize]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::minHeapSize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L40[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+minHeapSize() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#World-resetIcon]
+= xref:World.adoc[World]::resetIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L52[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+resetIcon();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

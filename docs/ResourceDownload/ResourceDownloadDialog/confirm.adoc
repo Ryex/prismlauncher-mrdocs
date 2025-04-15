@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourceDownloadDialog-confirm]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog]::confirm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L81[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+confirm();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,41 @@
+[#ResourceFolderModel-stopWatching]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::stopWatching
+:relfileprefix: ../
+:mrdocs:
+
+
+Stops watching the paths for changes&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L81[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:ResourceFolderModel/stopWatching-0b.adoc[stopWatching](xref:QStringList.adoc[QStringList] const& paths);
+----
+
+[.small]#xref:ResourceFolderModel/stopWatching-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+xref:ResourceFolderModel/stopWatching-0e.adoc[stopWatching]();
+----
+
+[.small]#xref:ResourceFolderModel/stopWatching-0e.adoc[_» more..._]#
+
+== Description
+
+Returns whether stopping to watch all the paths was successful&period;
+If one or more fails, it returns false&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

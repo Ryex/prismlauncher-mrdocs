@@ -1,0 +1,69 @@
+[#LineSeparator]
+= LineSeparator
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LineSeparator.h#L6[ui&sol;widgets&sol;LineSeparator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LineSeparator
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LineSeparator/2constructor.adoc[`LineSeparator`]         [.small]#[constructor]#
+| Create a line separator&period; orientation is the orientation of the line&period;
+
+
+
+| xref:LineSeparator/initStyleOption.adoc[`initStyleOption`] 
+| 
+
+| xref:LineSeparator/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LineSeparator/paintEvent.adoc[`paintEvent`] 
+| 
+
+| xref:LineSeparator/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LineSeparator/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LineSeparator/sizeHint.adoc[`sizeHint`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LineSeparator/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LineSeparator/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

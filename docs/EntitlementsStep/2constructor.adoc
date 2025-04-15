@@ -1,0 +1,19 @@
+[#EntitlementsStep-2constructor]
+= xref:EntitlementsStep.adoc[EntitlementsStep]::EntitlementsStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/EntitlementsStep.h#L13[minecraft&sol;auth&sol;steps&sol;EntitlementsStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+EntitlementsStep(xref:AccountData.adoc[AccountData]* data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

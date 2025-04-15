@@ -1,0 +1,19 @@
+[#GenericPageProvider-setDialogTitle]
+= xref:GenericPageProvider.adoc[GenericPageProvider]::setDialogTitle
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L44[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setDialogTitle(xref:QString.adoc[QString] const& title);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

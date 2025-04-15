@@ -1,0 +1,21 @@
+[#Parsers-parseMinecraftProfile]
+= xref:Parsers.adoc[Parsers]::parseMinecraftProfile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L15[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+parseMinecraftProfile(
+    xref:QByteArray.adoc[QByteArray]& data,
+    xref:MinecraftProfile.adoc[MinecraftProfile]& output);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

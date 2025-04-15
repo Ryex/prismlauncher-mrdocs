@@ -1,0 +1,19 @@
+[#Filter-2destructor]
+= xref:Filter.adoc[Filter]::&tilde;Filter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L8[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;Filter() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

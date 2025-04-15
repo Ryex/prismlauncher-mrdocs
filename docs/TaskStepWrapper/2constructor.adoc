@@ -1,0 +1,21 @@
+[#TaskStepWrapper-2constructor]
+= xref:TaskStepWrapper.adoc[TaskStepWrapper]::TaskStepWrapper
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/TaskStepWrapper.h#L27[launch&sol;TaskStepWrapper&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+TaskStepWrapper(
+    xref:LaunchTask.adoc[LaunchTask]* parent,
+    xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr] task);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

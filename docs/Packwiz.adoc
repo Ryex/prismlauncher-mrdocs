@@ -1,0 +1,37 @@
+[#Packwiz]
+= Packwiz
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/V1.adoc[`V1`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/getRealIndexName.adoc[`getRealIndexName`] 
+| 
+
+| xref:Packwiz/indexFileName.adoc[`indexFileName`] 
+| 
+
+| xref:Packwiz/intEntry.adoc[`intEntry`] 
+| 
+
+| xref:Packwiz/stringEntry.adoc[`stringEntry`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

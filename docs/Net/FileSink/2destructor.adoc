@@ -1,0 +1,19 @@
+[#Net-FileSink-2destructor]
+= xref:Net.adoc[Net]::xref:Net/FileSink.adoc[FileSink]::&tilde;FileSink
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/FileSink.h#L45[net&sol;FileSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;FileSink() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,39 @@
+[#File]
+= File
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.cpp#L26[java&sol;download&sol;ManifestDownloadTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct File;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:File/hash.adoc[`hash`] 
+| 
+
+| xref:File/isExec.adoc[`isExec`] 
+| 
+
+| xref:File/path.adoc[`path`] 
+| 
+
+| xref:File/url.adoc[`url`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

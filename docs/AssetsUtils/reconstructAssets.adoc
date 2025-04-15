@@ -1,0 +1,25 @@
+[#AssetsUtils-reconstructAssets]
+= xref:AssetsUtils.adoc[AssetsUtils]::reconstructAssets
+:relfileprefix: ../
+:mrdocs:
+
+
+Reconstruct a virtual assets folder for the given assets ID and return the folder
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L49[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+reconstructAssets(
+    xref:QString.adoc[QString] assetsId,
+    xref:QString.adoc[QString] resourcesFolder);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

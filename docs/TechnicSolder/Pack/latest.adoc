@@ -1,0 +1,18 @@
+[#TechnicSolder-Pack-latest]
+= xref:TechnicSolder.adoc[TechnicSolder]::xref:TechnicSolder/Pack.adoc[Pack]::latest
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackManifest.h#L29[modplatform&sol;technic&sol;SolderPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] latest;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

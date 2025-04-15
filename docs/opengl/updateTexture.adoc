@@ -1,0 +1,21 @@
+[#opengl-updateTexture]
+= xref:opengl.adoc[opengl]::updateTexture
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/Scene.cpp#L103[ui&sol;dialogs&sol;skins&sol;draw&sol;Scene&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateTexture(
+    xref:QOpenGLTexture.adoc[QOpenGLTexture]* texture,
+    xref:QImage.adoc[QImage] const& img);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

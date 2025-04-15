@@ -1,0 +1,21 @@
+[#ImportPage-2constructor]
+= xref:ImportPage.adoc[ImportPage]::ImportPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ImportPage.h#L54[ui&sol;pages&sol;modplatform&sol;ImportPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ImportPage(
+    xref:NewInstanceDialog.adoc[NewInstanceDialog]* dialog,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

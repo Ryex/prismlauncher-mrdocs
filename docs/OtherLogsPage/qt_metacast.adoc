@@ -1,0 +1,20 @@
+[#OtherLogsPage-qt_metacast]
+= xref:OtherLogsPage.adoc[OtherLogsPage]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/OtherLogsPage.h#L51[ui&sol;pages&sol;instance&sol;OtherLogsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

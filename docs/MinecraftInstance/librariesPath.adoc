@@ -1,0 +1,19 @@
+[#MinecraftInstance-librariesPath]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::librariesPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L88[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir]
+librariesPath() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

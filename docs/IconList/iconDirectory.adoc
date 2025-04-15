@@ -1,0 +1,23 @@
+[#IconList-iconDirectory]
+= xref:IconList.adoc[IconList]::iconDirectory
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the directory of the icon with the given key or the default directory if it&apos;s a builtin icon&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L75[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+iconDirectory(xref:QString.adoc[QString] const& key) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

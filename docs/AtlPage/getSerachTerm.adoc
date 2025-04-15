@@ -1,0 +1,25 @@
+[#AtlPage-getSerachTerm]
+= xref:AtlPage.adoc[AtlPage]::getSerachTerm
+:relfileprefix: ../
+:mrdocs:
+
+
+Get the current term in the search bar&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlPage.h#L71[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+getSerachTerm() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

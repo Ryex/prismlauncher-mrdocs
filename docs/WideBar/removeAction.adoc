@@ -1,0 +1,19 @@
+[#WideBar-removeAction]
+= xref:WideBar.adoc[WideBar]::removeAction
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L41[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+removeAction(xref:QAction.adoc[QAction]* action);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceDownloadDialog-m_base_model]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog]::m&lowbar;base&lowbar;model
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L90[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt; const m&lowbar;base&lowbar;model;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

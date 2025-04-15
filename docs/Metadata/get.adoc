@@ -1,0 +1,33 @@
+[#Metadata-get]
+= xref:Metadata.adoc[Metadata]::get
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/MetadataHandler.h#L58[minecraft&sol;mod&sol;MetadataHandler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Metadata/ModStruct.adoc[ModStruct]
+xref:Metadata/get-07.adoc[get](
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:QString.adoc[QString] mod&lowbar;slug);
+----
+
+[.small]#xref:Metadata/get-07.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Metadata/ModStruct.adoc[ModStruct]
+xref:Metadata/get-03.adoc[get](
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:QVariant.adoc[QVariant]& mod&lowbar;id);
+----
+
+[.small]#xref:Metadata/get-03.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

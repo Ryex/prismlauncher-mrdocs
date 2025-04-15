@@ -1,0 +1,18 @@
+[#Technic-Modpack-logoName]
+= xref:Technic.adoc[Technic]::xref:Technic/Modpack.adoc[Modpack]::logoName
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicData.h#L48[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] logoName;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

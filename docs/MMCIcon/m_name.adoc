@@ -1,0 +1,18 @@
+[#MMCIcon-m_name]
+= xref:MMCIcon.adoc[MMCIcon]::m&lowbar;name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L51[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

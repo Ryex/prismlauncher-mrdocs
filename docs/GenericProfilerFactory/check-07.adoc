@@ -1,0 +1,20 @@
+[#GenericProfilerFactory-check-07]
+= xref:GenericProfilerFactory.adoc[GenericProfilerFactory]::check
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/GenericProfiler.h#L27[tools&sol;GenericProfiler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+check(xref:QString.adoc[QString]* error) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

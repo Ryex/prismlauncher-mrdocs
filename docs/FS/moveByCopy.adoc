@@ -1,0 +1,21 @@
+[#FS-moveByCopy]
+= xref:FS.adoc[FS]::moveByCopy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.cpp#L637[FileSystem&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+moveByCopy(
+    xref:QString.adoc[QString] const& source,
+    xref:QString.adoc[QString] const& dest);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

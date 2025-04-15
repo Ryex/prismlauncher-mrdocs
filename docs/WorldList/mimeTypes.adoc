@@ -1,0 +1,24 @@
+[#WorldList-mimeTypes]
+= xref:WorldList.adoc[WorldList]::mimeTypes
+:relfileprefix: ../
+:mrdocs:
+
+
+get the supported mime types
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L67[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+mimeTypes() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

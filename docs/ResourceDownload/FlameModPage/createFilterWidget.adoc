@@ -1,0 +1,20 @@
+[#ResourceDownload-FlameModPage-createFilterWidget]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameModPage.adoc[FlameModPage]::createFilterWidget
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L99[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:unique_qobject_ptr.adoc[unique&lowbar;qobject&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]&gt;
+createFilterWidget() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

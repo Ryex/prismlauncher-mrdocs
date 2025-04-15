@@ -1,0 +1,22 @@
+[#PrismExternalUpdater-offerUpdate]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::offerUpdate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L86[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+offerUpdate(
+    xref:QString.adoc[QString] const& version&lowbar;name,
+    xref:QString.adoc[QString] const& version&lowbar;tag,
+    xref:QString.adoc[QString] const& release&lowbar;notes);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

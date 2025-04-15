@@ -1,0 +1,19 @@
+[#FlameManagedPackPage-2destructor]
+= xref:FlameManagedPackPage.adoc[FlameManagedPackPage]::&tilde;FlameManagedPackPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L144[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;FlameManagedPackPage() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

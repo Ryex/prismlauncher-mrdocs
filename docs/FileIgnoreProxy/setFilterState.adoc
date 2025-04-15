@@ -1,0 +1,21 @@
+[#FileIgnoreProxy-setFilterState]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::setFilterState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L58[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+setFilterState(
+    xref:QModelIndex.adoc[QModelIndex] index,
+    xref:Qt.adoc[Qt]::xref:Qt/CheckState.adoc[CheckState] state);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

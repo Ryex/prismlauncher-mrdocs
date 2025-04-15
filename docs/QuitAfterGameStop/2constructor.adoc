@@ -1,0 +1,19 @@
+[#QuitAfterGameStop-2constructor]
+= xref:QuitAfterGameStop.adoc[QuitAfterGameStop]::QuitAfterGameStop
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/QuitAfterGameStop.h#L26[launch&sol;steps&sol;QuitAfterGameStop&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+QuitAfterGameStop(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

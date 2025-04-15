@@ -1,0 +1,20 @@
+[#ComponentUpdateTask-qt_metacast]
+= xref:ComponentUpdateTask.adoc[ComponentUpdateTask]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.h#L12[minecraft&sol;ComponentUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

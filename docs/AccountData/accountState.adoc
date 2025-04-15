@@ -1,0 +1,18 @@
+[#AccountData-accountState]
+= xref:AccountData.adoc[AccountData]::accountState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L126[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:AccountState.adoc[AccountState] accountState = AccountState&colon;&colon;Unchecked;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

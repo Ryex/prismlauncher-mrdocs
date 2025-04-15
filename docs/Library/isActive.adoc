@@ -1,0 +1,163 @@
+[#Library-isActive]
+= xref:Library.adoc[Library]::isActive
+:relfileprefix: ../
+:mrdocs:
+
+
+Check if the library is active in the given runtime context&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L135[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isActive(xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext) const;
+----
+
+== Description
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+This function evaluates rules to determine if the library should be active,
+considering both general rules and native compatibility&period;
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+Returns true if the library should be loaded (or extracted, in case of natives)
+
+
+
+== Return Value
+
+bool True if the library is active, false otherwise&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *runtimeContext*
+| The current runtime context&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

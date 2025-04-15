@@ -1,0 +1,20 @@
+[#AccessibleInstanceView-state]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::state
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L20[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QAccessible.adoc[QAccessible]::xref:QAccessible/State.adoc[State]
+state() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

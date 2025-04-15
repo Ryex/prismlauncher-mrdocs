@@ -1,0 +1,22 @@
+[#ChooseProviderDialog-2constructor]
+= xref:ChooseProviderDialog.adoc[ChooseProviderDialog]::ChooseProviderDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ChooseProviderDialog.h#L30[ui&sol;dialogs&sol;ChooseProviderDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ChooseProviderDialog(
+    xref:QWidget.adoc[QWidget]* parent,
+    bool single&lowbar;choice = false,
+    bool allow&lowbar;skipping = true);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

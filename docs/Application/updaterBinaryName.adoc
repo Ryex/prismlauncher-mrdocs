@@ -1,0 +1,19 @@
+[#Application-updaterBinaryName]
+= xref:Application.adoc[Application]::updaterBinaryName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L193[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+updaterBinaryName();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

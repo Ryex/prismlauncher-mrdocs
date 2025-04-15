@@ -1,0 +1,20 @@
+[#Java-VersionList-updateListData]
+= xref:Java.adoc[Java]::xref:Java/VersionList.adoc[VersionList]::updateListData
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/VersionList.h#L43[ui&sol;java&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateListData(xref:QList.adoc[QList]&lt;xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]&gt;) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

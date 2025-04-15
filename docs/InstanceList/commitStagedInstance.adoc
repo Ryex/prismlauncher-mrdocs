@@ -1,0 +1,30 @@
+[#InstanceList-commitStagedInstance]
+= xref:InstanceList.adoc[InstanceList]::commitStagedInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+Commit the staging area given by  to the provider &hyphen; used when creation succeeds&period;
+Used by instance manipulation tasks&period;
+should&lowbar;override is used when another similar instance already exists, and we want to override it
+&hyphen; for instance, when updating it&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L133[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+commitStagedInstance(
+    xref:QString.adoc[QString] const& keyPath,
+    xref:InstanceName.adoc[InstanceName] const& instanceName,
+    xref:QString.adoc[QString] groupName,
+    xref:InstanceTask.adoc[InstanceTask] const& commiting);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#TranslationsModel-downloadIndex]
+= xref:TranslationsModel.adoc[TranslationsModel]::downloadIndex
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.h#L40[translations&sol;TranslationsModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+downloadIndex();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

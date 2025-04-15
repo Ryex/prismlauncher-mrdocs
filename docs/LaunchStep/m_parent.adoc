@@ -1,0 +1,18 @@
+[#LaunchStep-m_parent]
+= xref:LaunchStep.adoc[LaunchStep]::m&lowbar;parent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchStep.h#L42[launch&sol;LaunchStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LaunchTask.adoc[LaunchTask]* m&lowbar;parent;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

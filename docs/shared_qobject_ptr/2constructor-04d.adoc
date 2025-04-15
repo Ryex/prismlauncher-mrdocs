@@ -1,0 +1,20 @@
+[#shared_qobject_ptr-2constructor-04d]
+= xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]::shared&lowbar;qobject&lowbar;ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/QObjectPtr.h#L27[QObjectPtr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename Derived&gt;
+constexpr
+shared&lowbar;qobject&lowbar;ptr(xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;Derived&gt; const& other);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

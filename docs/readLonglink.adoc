@@ -1,0 +1,22 @@
+[#readLonglink]
+= readLonglink
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Untar.cpp#L90[Untar&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+readLonglink(
+    xref:QIODevice.adoc[QIODevice]* in,
+    xref:qint64.adoc[qint64] size,
+    xref:QByteArray.adoc[QByteArray]& longlink);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#ModrinthManagedPackPage-2constructor]
+= xref:ModrinthManagedPackPage.adoc[ModrinthManagedPackPage]::ModrinthManagedPackPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L119[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthManagedPackPage(
+    xref:BaseInstance.adoc[BaseInstance]* inst,
+    xref:InstanceWindow.adoc[InstanceWindow]* instance&lowbar;window,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Meta-BaseEntity-localFilename]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntity.adoc[BaseEntity]::localFilename
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L37[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+localFilename() const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

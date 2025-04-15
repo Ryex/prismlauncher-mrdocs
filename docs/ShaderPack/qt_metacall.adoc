@@ -1,0 +1,23 @@
+[#ShaderPack-qt_metacall]
+= xref:ShaderPack.adoc[ShaderPack]::qt&lowbar;metacall
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPack.h#L44[minecraft&sol;mod&sol;ShaderPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+qt&lowbar;metacall(
+    xref:QMetaObject.adoc[QMetaObject]::xref:QMetaObject/Call.adoc[Call],
+    int,
+    void**);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

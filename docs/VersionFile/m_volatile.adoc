@@ -1,0 +1,22 @@
+[#VersionFile-m_volatile]
+= xref:VersionFile.adoc[VersionFile]::m&lowbar;volatile
+:relfileprefix: ../
+:mrdocs:
+
+
+is volatile &hyphen;&hyphen; may be removed as soon as it is no longer needed by something else
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L156[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;volatile = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

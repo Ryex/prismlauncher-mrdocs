@@ -1,0 +1,111 @@
+[#ExternalUpdater]
+= ExternalUpdater
+:relfileprefix: 
+:mrdocs:
+
+
+A base class for an updater that uses an external library&period;
+This class contains basic functions to control the updater&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/ExternalUpdater.h#L34[updater&sol;ExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExternalUpdater
+    : public xref:QObject.adoc[QObject]
+    , public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalUpdater/canCheckForUpdatesChanged.adoc[`canCheckForUpdatesChanged`] 
+| Emits whenever the user&apos;s ability to check for updates changes&period;
+
+
+
+| xref:ExternalUpdater/checkForUpdates.adoc[`checkForUpdates`] 
+| Check for updates manually, showing the user a progress bar and an alert if no updates are found&period;
+
+
+
+| xref:ExternalUpdater/getAutomaticallyChecksForUpdates.adoc[`getAutomaticallyChecksForUpdates`] 
+| Indicates whether or not to check for updates automatically&period;
+
+
+
+| xref:ExternalUpdater/getBetaAllowed.adoc[`getBetaAllowed`] 
+| Indicates whether or not beta updates should be checked for in addition to regular releases&period;
+
+
+
+| xref:ExternalUpdater/getUpdateCheckInterval.adoc[`getUpdateCheckInterval`] 
+| Indicates the current automatic update check interval in seconds&period;
+
+
+
+| xref:ExternalUpdater/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ExternalUpdater/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ExternalUpdater/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ExternalUpdater/setAutomaticallyChecksForUpdates.adoc[`setAutomaticallyChecksForUpdates`] 
+| Set whether or not to check for updates automatically&period;
+
+
+
+| xref:ExternalUpdater/setBetaAllowed.adoc[`setBetaAllowed`] 
+| Set whether or not beta updates should be checked for in addition to regular releases&period;
+
+
+
+| xref:ExternalUpdater/setUpdateCheckInterval.adoc[`setUpdateCheckInterval`] 
+| Set the current automatic update check interval in seconds&period;
+
+
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalUpdater/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalUpdater/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+== Description
+
+To implement the updater on a new platform, create a new class that inherits from this class and
+implement the pure virtual functions&period;
+
+The initializer of the new class should have the side effect of starting the automatic updater&period; That is,
+once the class is initialized, the program should automatically check for updates if necessary&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

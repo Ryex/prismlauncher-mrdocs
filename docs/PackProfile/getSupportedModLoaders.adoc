@@ -1,0 +1,19 @@
+[#PackProfile-getSupportedModLoaders]
+= xref:PackProfile.adoc[PackProfile]::getSupportedModLoaders
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L161[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderTypes.adoc[ModLoaderTypes]&gt;
+getSupportedModLoaders();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

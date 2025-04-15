@@ -1,0 +1,28 @@
+[#FS-createShortcut]
+= xref:FS.adoc[FS]::createShortcut
+:relfileprefix: ../
+:mrdocs:
+
+
+Creates a shortcut to the specified target file at the specified destination path&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L363[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+createShortcut(
+    xref:QString.adoc[QString] destination,
+    xref:QString.adoc[QString] target,
+    xref:QStringList.adoc[QStringList] args,
+    xref:QString.adoc[QString] name,
+    xref:QString.adoc[QString] icon);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

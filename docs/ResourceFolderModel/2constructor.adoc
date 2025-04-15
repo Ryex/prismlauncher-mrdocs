@@ -1,0 +1,23 @@
+[#ResourceFolderModel-2constructor]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::ResourceFolderModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L64[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ResourceFolderModel(
+    xref:QDir.adoc[QDir] const& dir,
+    xref:BaseInstance.adoc[BaseInstance]* instance,
+    bool is&lowbar;indexed,
+    bool create&lowbar;dir,
+    xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

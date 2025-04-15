@@ -1,0 +1,92 @@
+[#MainWindow]
+= MainWindow
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.h#L68[ui&sol;MainWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MainWindow
+    : public xref:QMainWindow.adoc[QMainWindow]
+    , public xref:QMainWindow.adoc[QMainWindow];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MainWindow/2constructor.adoc[`MainWindow`]         [.small]#[constructor]#
+| 
+
+| xref:MainWindow/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:MainWindow/checkInstancePathForProblems.adoc[`checkInstancePathForProblems`] 
+| 
+
+| xref:MainWindow/closeEvent.adoc[`closeEvent`] 
+| 
+
+| xref:MainWindow/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:MainWindow/isClosing.adoc[`isClosing`] 
+| 
+
+| xref:MainWindow/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:MainWindow/processURLs.adoc[`processURLs`] 
+| 
+
+| xref:MainWindow/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:MainWindow/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:MainWindow/updatesAllowedChanged.adoc[`updatesAllowedChanged`] 
+| 
+
+| xref:MainWindow/2destructor.adoc[`&tilde;MainWindow`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MainWindow/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MainWindow/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MainWindow/createPopupMenu.adoc[`createPopupMenu`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ATLauncher-VersionMessages-install]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionMessages.adoc[VersionMessages]::install
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L132[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] install;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Net-NetRequest-qt_metacast]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L57[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

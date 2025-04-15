@@ -1,0 +1,19 @@
+[#LaunchTask-requestProgress]
+= xref:LaunchTask.adoc[LaunchTask]::requestProgress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L103[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+requestProgress(xref:Task.adoc[Task]* task);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

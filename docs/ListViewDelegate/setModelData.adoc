@@ -1,0 +1,23 @@
+[#ListViewDelegate-setModelData]
+= xref:ListViewDelegate.adoc[ListViewDelegate]::setModelData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.h#L34[ui&sol;instanceview&sol;InstanceDelegate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setModelData(
+    xref:QWidget.adoc[QWidget]* editor,
+    xref:QAbstractItemModel.adoc[QAbstractItemModel]* model,
+    xref:QModelIndex.adoc[QModelIndex] const& index) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#DesktopServices-isSnap]
+= xref:DesktopServices.adoc[DesktopServices]::isSnap
+:relfileprefix: ../
+:mrdocs:
+
+
+Determine whether the launcher is running in a Snap environment
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DesktopServices.h#L43[DesktopServices&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isSnap();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

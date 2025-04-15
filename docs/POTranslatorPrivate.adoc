@@ -1,0 +1,48 @@
+[#POTranslatorPrivate]
+= POTranslatorPrivate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L11[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct POTranslatorPrivate;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:POTranslatorPrivate/reload.adoc[`reload`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:POTranslatorPrivate/filename.adoc[`filename`] 
+| 
+
+| xref:POTranslatorPrivate/loaded.adoc[`loaded`] 
+| 
+
+| xref:POTranslatorPrivate/mapping.adoc[`mapping`] 
+| 
+
+| xref:POTranslatorPrivate/mapping_disambiguatrion.adoc[`mapping&lowbar;disambiguatrion`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

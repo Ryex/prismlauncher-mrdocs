@@ -1,0 +1,19 @@
+[#MetaEntry-setStale]
+= xref:MetaEntry.adoc[MetaEntry]::setStale
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L53[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setStale(bool stale);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

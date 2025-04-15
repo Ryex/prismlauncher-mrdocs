@@ -1,0 +1,18 @@
+[#std-size_t]
+= xref:std.adoc[std]::size&lowbar;t
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/x86_64-unknown-linux-gnu/bits/c++config.h#L310[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;x86&lowbar;64&hyphen;unknown&hyphen;linux&hyphen;gnu&sol;bits&sol;c&plus;&plus;config&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef unsigned long size&lowbar;t;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

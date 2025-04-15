@@ -1,0 +1,19 @@
+[#InstanceCopyTask-copyAborted]
+= xref:InstanceCopyTask.adoc[InstanceCopyTask]::copyAborted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyTask.h#L24[InstanceCopyTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+copyAborted();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#JavaWizardWidget-on_javaBrowseBtn_clicked]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::on&lowbar;javaBrowseBtn&lowbar;clicked
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L53[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;javaBrowseBtn&lowbar;clicked();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

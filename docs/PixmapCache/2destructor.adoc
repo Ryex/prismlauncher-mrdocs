@@ -1,0 +1,19 @@
+[#PixmapCache-2destructor]
+= xref:PixmapCache.adoc[PixmapCache]::&tilde;PixmapCache
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L50[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PixmapCache() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#FlamePage-2destructor]
+= xref:FlamePage.adoc[FlamePage]::&tilde;FlamePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlamePage.h#L62[ui&sol;pages&sol;modplatform&sol;flame&sol;FlamePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;FlamePage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,29 @@
+[#FS-create_link-runPrivileged]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::runPrivileged
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L245[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:FS/create_link/runPrivileged-0f.adoc[runPrivileged]();
+----
+
+[.small]#xref:FS/create_link/runPrivileged-0f.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:FS/create_link/runPrivileged-02.adoc[runPrivileged](xref:QString.adoc[QString] const& offset);
+----
+
+[.small]#xref:FS/create_link/runPrivileged-02.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

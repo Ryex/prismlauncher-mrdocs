@@ -1,0 +1,20 @@
+[#ModrinthPage-id]
+= xref:ModrinthPage.adoc[ModrinthPage]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthPage.h#L67[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

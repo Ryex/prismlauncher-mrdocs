@@ -1,0 +1,23 @@
+[#operator_bitor-01]
+= operator&verbar;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L111[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QIncompatibleFlag.adoc[QIncompatibleFlag]
+operator&verbar;(
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    int f2) noexcept;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

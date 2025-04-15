@@ -1,0 +1,136 @@
+[#ResourceDownload]
+= ResourceDownload
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/Flame.adoc[`Flame`] 
+| 
+
+| xref:ResourceDownload/Modrinth.adoc[`Modrinth`] 
+| 
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/FlameModModel.adoc[`FlameModModel`] 
+| 
+
+| xref:ResourceDownload/FlameModPage.adoc[`FlameModPage`] 
+| 
+
+| xref:ResourceDownload/FlameResourcePackModel.adoc[`FlameResourcePackModel`] 
+| 
+
+| xref:ResourceDownload/FlameResourcePackPage.adoc[`FlameResourcePackPage`] 
+| 
+
+| xref:ResourceDownload/FlameShaderPackModel.adoc[`FlameShaderPackModel`] 
+| 
+
+| xref:ResourceDownload/FlameShaderPackPage.adoc[`FlameShaderPackPage`] 
+| 
+
+| xref:ResourceDownload/FlameTexturePackModel.adoc[`FlameTexturePackModel`] 
+| 
+
+| xref:ResourceDownload/FlameTexturePackPage.adoc[`FlameTexturePackPage`] 
+| 
+
+| xref:ResourceDownload/ModDownloadDialog.adoc[`ModDownloadDialog`] 
+| 
+
+| xref:ResourceDownload/ModModel.adoc[`ModModel`] 
+| 
+
+| xref:ResourceDownload/ModPage.adoc[`ModPage`] 
+| 
+
+| xref:ResourceDownload/ModrinthModModel.adoc[`ModrinthModModel`] 
+| 
+
+| xref:ResourceDownload/ModrinthModPage.adoc[`ModrinthModPage`] 
+| 
+
+| xref:ResourceDownload/ModrinthResourcePackModel.adoc[`ModrinthResourcePackModel`] 
+| 
+
+| xref:ResourceDownload/ModrinthResourcePackPage.adoc[`ModrinthResourcePackPage`] 
+| 
+
+| xref:ResourceDownload/ModrinthShaderPackModel.adoc[`ModrinthShaderPackModel`] 
+| 
+
+| xref:ResourceDownload/ModrinthShaderPackPage.adoc[`ModrinthShaderPackPage`] 
+| 
+
+| xref:ResourceDownload/ModrinthTexturePackModel.adoc[`ModrinthTexturePackModel`] 
+| 
+
+| xref:ResourceDownload/ModrinthTexturePackPage.adoc[`ModrinthTexturePackPage`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog.adoc[`ResourceDownloadDialog`] 
+| 
+
+| xref:ResourceDownload/ResourceModel.adoc[`ResourceModel`] 
+| 
+
+| xref:ResourceDownload/ResourcePackDownloadDialog.adoc[`ResourcePackDownloadDialog`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourceModel.adoc[`ResourcePackResourceModel`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourcePage.adoc[`ResourcePackResourcePage`] 
+| 
+
+| xref:ResourceDownload/ResourcePage.adoc[`ResourcePage`] 
+| 
+
+| xref:ResourceDownload/ShaderPackDownloadDialog.adoc[`ShaderPackDownloadDialog`] 
+| 
+
+| xref:ResourceDownload/ShaderPackResourceModel.adoc[`ShaderPackResourceModel`] 
+| 
+
+| xref:ResourceDownload/ShaderPackResourcePage.adoc[`ShaderPackResourcePage`] 
+| 
+
+| xref:ResourceDownload/TexturePackDownloadDialog.adoc[`TexturePackDownloadDialog`] 
+| 
+
+| xref:ResourceDownload/TexturePackResourceModel.adoc[`TexturePackResourceModel`] 
+| 
+
+| xref:ResourceDownload/TexturePackResourcePage.adoc[`TexturePackResourcePage`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/checkSide.adoc[`checkSide`] 
+| 
+
+| xref:ResourceDownload/isOptedOut.adoc[`isOptedOut`] 
+| 
+
+| xref:ResourceDownload/waitOnVersionListLoad.adoc[`waitOnVersionListLoad`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

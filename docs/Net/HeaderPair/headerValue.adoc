@@ -1,0 +1,18 @@
+[#Net-HeaderPair-headerValue]
+= xref:Net.adoc[Net]::xref:Net/HeaderPair.adoc[HeaderPair]::headerValue
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HeaderProxy.h#L29[net&sol;HeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray] headerValue;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

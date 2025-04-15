@@ -1,0 +1,26 @@
+[#CustomMessageBox-selectable]
+= xref:CustomMessageBox.adoc[CustomMessageBox]::selectable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/CustomMessageBox.h#L21[ui&sol;dialogs&sol;CustomMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMessageBox.adoc[QMessageBox]*
+selectable(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] const& title,
+    xref:QString.adoc[QString] const& text,
+    xref:QMessageBox.adoc[QMessageBox]::xref:QMessageBox/Icon.adoc[Icon] icon = QMessageBox&colon;&colon;NoIcon,
+    xref:QMessageBox.adoc[QMessageBox]::xref:QMessageBox/StandardButtons.adoc[StandardButtons] buttons = QMessageBox&colon;&colon;Ok,
+    xref:QMessageBox.adoc[QMessageBox]::xref:QMessageBox/StandardButton.adoc[StandardButton] defaultButton = QMessageBox&colon;&colon;NoButton,
+    xref:QCheckBox.adoc[QCheckBox]* checkBox = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

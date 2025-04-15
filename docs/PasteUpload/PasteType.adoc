@@ -1,0 +1,37 @@
+[#PasteUpload-PasteType]
+= xref:PasteUpload.adoc[PasteUpload]::PasteType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/PasteUpload.h#L48[net&sol;PasteUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum PasteType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NullPointer`
+|
+|`Hastebin`
+|
+|`PasteGG`
+|
+|`Mclogs`
+|
+|`First`
+|
+|`Last`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

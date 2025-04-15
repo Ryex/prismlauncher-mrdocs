@@ -1,0 +1,19 @@
+[#VersionSelectWidget-setResizeOn]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::setResizeOn
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L77[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setResizeOn(int column);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

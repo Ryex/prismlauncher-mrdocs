@@ -1,0 +1,22 @@
+[#AccessibleInstanceViewItem-setText]
+= xref:AccessibleInstanceViewItem.adoc[AccessibleInstanceViewItem]::setText
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L87[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setText(
+    xref:QAccessible.adoc[QAccessible]::xref:QAccessible/Text.adoc[Text] t,
+    xref:QString.adoc[QString] const& text) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

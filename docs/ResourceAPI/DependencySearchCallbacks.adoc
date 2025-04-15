@@ -1,0 +1,33 @@
+[#ResourceAPI-DependencySearchCallbacks]
+= xref:ResourceAPI.adoc[ResourceAPI]::DependencySearchCallbacks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L124[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct DependencySearchCallbacks;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/DependencySearchCallbacks/on_fail.adoc[`on&lowbar;fail`] 
+| 
+
+| xref:ResourceAPI/DependencySearchCallbacks/on_succeed.adoc[`on&lowbar;succeed`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

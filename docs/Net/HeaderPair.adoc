@@ -1,0 +1,33 @@
+[#Net-HeaderPair]
+= xref:Net.adoc[Net]::HeaderPair
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HeaderProxy.h#L27[net&sol;HeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct HeaderPair;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/HeaderPair/headerName.adoc[`headerName`] 
+| 
+
+| xref:Net/HeaderPair/headerValue.adoc[`headerValue`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

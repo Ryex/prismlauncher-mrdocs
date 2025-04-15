@@ -1,0 +1,24 @@
+[#ShaderPackFolderModel-2constructor]
+= xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]::ShaderPackFolderModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPackFolderModel.h#L11[minecraft&sol;mod&sol;ShaderPackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ShaderPackFolderModel(
+    xref:QDir.adoc[QDir] const& dir,
+    xref:BaseInstance.adoc[BaseInstance]* instance,
+    bool is&lowbar;indexed,
+    bool create&lowbar;dir,
+    xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

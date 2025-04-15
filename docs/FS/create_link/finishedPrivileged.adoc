@@ -1,0 +1,19 @@
+[#FS-create_link-finishedPrivileged]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::finishedPrivileged
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L254[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+finishedPrivileged(bool gotResults);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

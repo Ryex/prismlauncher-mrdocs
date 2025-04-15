@@ -1,0 +1,18 @@
+[#ReviewMessageBox-res_info-custom_file_path]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::xref:ReviewMessageBox/res_info.adoc[res&lowbar;info]::custom&lowbar;file&lowbar;path
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L19[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] custom&lowbar;file&lowbar;path = &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

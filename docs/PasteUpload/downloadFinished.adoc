@@ -1,0 +1,19 @@
+[#PasteUpload-downloadFinished]
+= xref:PasteUpload.adoc[PasteUpload]::downloadFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/PasteUpload.h#L88[net&sol;PasteUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+downloadFinished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

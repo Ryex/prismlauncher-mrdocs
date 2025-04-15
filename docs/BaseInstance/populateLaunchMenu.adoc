@@ -1,0 +1,20 @@
+[#BaseInstance-populateLaunchMenu]
+= xref:BaseInstance.adoc[BaseInstance]::populateLaunchMenu
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L255[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+populateLaunchMenu(xref:QMenu.adoc[QMenu]* menu) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

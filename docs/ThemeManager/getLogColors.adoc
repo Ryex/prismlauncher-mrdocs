@@ -1,0 +1,19 @@
+[#ThemeManager-getLogColors]
+= xref:ThemeManager.adoc[ThemeManager]::getLogColors
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L60[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LogColors.adoc[LogColors] const&
+getLogColors();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

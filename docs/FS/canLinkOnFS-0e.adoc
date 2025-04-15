@@ -1,0 +1,21 @@
+[#FS-canLinkOnFS-0e]
+= xref:FS.adoc[FS]::canLinkOnFS
+:relfileprefix: ../
+:mrdocs:
+
+
+if the Filesystem is symlink capable
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L547[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+canLinkOnFS(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Json-toText-02]
+= xref:Json.adoc[Json]::toText
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L64[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray]
+toText(xref:QJsonArray.adoc[QJsonArray] const& array);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#AtlPage-2constructor]
+= xref:AtlPage.adoc[AtlPage]::AtlPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlPage.h#L57[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+AtlPage(
+    xref:NewInstanceDialog.adoc[NewInstanceDialog]* dialog,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

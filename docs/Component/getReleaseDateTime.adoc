@@ -1,0 +1,19 @@
+[#Component-getReleaseDateTime]
+= xref:Component.adoc[Component]::getReleaseDateTime
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L87[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime]
+getReleaseDateTime();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Task-succeeded]
+= xref:Task.adoc[Task]::succeeded
+:relfileprefix: ../
+:mrdocs:
+
+
+called when a task has succeeded
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L143[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+succeeded();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

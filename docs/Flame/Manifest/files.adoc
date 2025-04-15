@@ -1,0 +1,18 @@
+[#Flame-Manifest-files]
+= xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]::files
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L80[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;int, xref:Flame.adoc[Flame]::xref:Flame/File.adoc[File]&gt; files;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

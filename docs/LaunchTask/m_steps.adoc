@@ -1,0 +1,18 @@
+[#LaunchTask-m_steps]
+= xref:LaunchTask.adoc[LaunchTask]::m&lowbar;steps
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L120[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchStep.adoc[LaunchStep]&gt;&gt; m&lowbar;steps;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

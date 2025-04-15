@@ -1,0 +1,25 @@
+[#FlamePackExportTask-2constructor]
+= xref:FlamePackExportTask.adoc[FlamePackExportTask]::FlamePackExportTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackExportTask.h#L31[modplatform&sol;flame&sol;FlamePackExportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FlamePackExportTask(
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& version,
+    xref:QString.adoc[QString] const& author,
+    bool optionalFiles,
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QString.adoc[QString] const& output,
+    xref:MMCZip.adoc[MMCZip]::xref:MMCZip/FilterFunction.adoc[FilterFunction] filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

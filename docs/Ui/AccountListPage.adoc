@@ -1,0 +1,22 @@
+[#Ui-AccountListPage]
+= xref:Ui.adoc[Ui]::AccountListPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L48[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AccountListPage
+    : public xref:Ui_AccountListPage.adoc[Ui&lowbar;AccountListPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

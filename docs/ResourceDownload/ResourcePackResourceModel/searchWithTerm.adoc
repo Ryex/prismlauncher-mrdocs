@@ -1,0 +1,21 @@
+[#ResourceDownload-ResourcePackResourceModel-searchWithTerm]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourceModel.adoc[ResourcePackResourceModel]::searchWithTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackModel.h#L26[ui&sol;pages&sol;modplatform&sol;ResourcePackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+searchWithTerm(
+    xref:QString.adoc[QString] const& term,
+    unsigned int sort);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

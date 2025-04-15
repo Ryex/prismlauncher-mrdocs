@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-leaf]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::leaf
+:relfileprefix: ../
+:mrdocs:
+
+
+is this a leaf node?
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L144[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+leaf() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,91 @@
+[#NewsEntry]
+= NewsEntry
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsEntry.h#L23[news&sol;NewsEntry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NewsEntry
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsEntry/2constructor.adoc[`NewsEntry`]         [.small]#[constructor]#
+| Constructs a new news entry&period;
+Note that content may contain HTML&period;
+
+
+Constructs an empty news entry&period;
+
+
+
+| xref:NewsEntry/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:NewsEntry/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:NewsEntry/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsEntry/fromXmlElement.adoc[`fromXmlElement`] 
+| Attempts to load information from the given XML element into the given news entry pointer&period;
+If this fails, the function will return false and store an error message in the errorMsg pointer&period;
+
+
+
+| xref:NewsEntry/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsEntry/content.adoc[`content`] 
+| The post&apos;s content&period; May contain HTML&period;
+
+
+
+| xref:NewsEntry/link.adoc[`link`] 
+| URL to the post&period;
+
+
+
+| xref:NewsEntry/title.adoc[`title`] 
+| The post title&period;
+
+
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewsEntry/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

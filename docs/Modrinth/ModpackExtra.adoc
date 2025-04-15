@@ -1,0 +1,51 @@
+[#Modrinth-ModpackExtra]
+= xref:Modrinth.adoc[Modrinth]::ModpackExtra
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L69[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModpackExtra;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackExtra/body.adoc[`body`] 
+| 
+
+| xref:Modrinth/ModpackExtra/discordUrl.adoc[`discordUrl`] 
+| 
+
+| xref:Modrinth/ModpackExtra/donate.adoc[`donate`] 
+| 
+
+| xref:Modrinth/ModpackExtra/issuesUrl.adoc[`issuesUrl`] 
+| 
+
+| xref:Modrinth/ModpackExtra/projectUrl.adoc[`projectUrl`] 
+| 
+
+| xref:Modrinth/ModpackExtra/sourceUrl.adoc[`sourceUrl`] 
+| 
+
+| xref:Modrinth/ModpackExtra/status.adoc[`status`] 
+| 
+
+| xref:Modrinth/ModpackExtra/wikiUrl.adoc[`wikiUrl`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,39 @@
+[#ShaderPackUtils]
+= ShaderPackUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ShaderPackUtils/ProcessingLevel.adoc[`ProcessingLevel`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ShaderPackUtils/process.adoc[`process`] 
+| 
+
+| xref:ShaderPackUtils/processFolder.adoc[`processFolder`] 
+| 
+
+| xref:ShaderPackUtils/processZIP.adoc[`processZIP`] 
+| 
+
+| xref:ShaderPackUtils/validate.adoc[`validate`] 
+| Checks whether a file is valid as a shader pack or not&period;
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

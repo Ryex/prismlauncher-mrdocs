@@ -1,0 +1,19 @@
+[#Task-started]
+= xref:Task.adoc[Task]::started
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L138[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+started();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

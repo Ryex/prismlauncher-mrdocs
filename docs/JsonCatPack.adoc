@@ -1,0 +1,61 @@
+[#JsonCatPack]
+= JsonCatPack
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L74[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JsonCatPack
+    : public xref:BasicCatPack.adoc[BasicCatPack];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JsonCatPack/PartialDate.adoc[`PartialDate`] 
+| 
+
+| xref:JsonCatPack/Variant.adoc[`Variant`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JsonCatPack/2constructor.adoc[`JsonCatPack`]         [.small]#[constructor]#
+| 
+
+| xref:CatPack/id.adoc[`id`] 
+| 
+| xref:CatPack/name.adoc[`name`] 
+| 
+| xref:CatPack/path.adoc[`path`] 
+| 
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasicCatPack/m_id.adoc[`m&lowbar;id`] 
+| 
+
+| xref:BasicCatPack/m_name.adoc[`m&lowbar;name`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

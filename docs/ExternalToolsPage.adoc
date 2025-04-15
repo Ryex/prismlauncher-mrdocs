@@ -1,0 +1,128 @@
+[#ExternalToolsPage]
+= ExternalToolsPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/ExternalToolsPage.h#L47[ui&sol;pages&sol;global&sol;ExternalToolsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExternalToolsPage
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:BasePage.adoc[BasePage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalToolsPage/2constructor.adoc[`ExternalToolsPage`]         [.small]#[constructor]#
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:ExternalToolsPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+
+| xref:ExternalToolsPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ExternalToolsPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+
+| xref:ExternalToolsPage/2destructor.adoc[`&tilde;ExternalToolsPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalToolsPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalToolsPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

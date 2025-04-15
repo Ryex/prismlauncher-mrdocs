@@ -1,0 +1,21 @@
+[#ResourceFolderModel-mimeTypes]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::mimeTypes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L151[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QStringList.adoc[QStringList]
+mimeTypes() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

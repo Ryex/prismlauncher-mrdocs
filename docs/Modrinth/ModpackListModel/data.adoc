@@ -1,0 +1,22 @@
+[#Modrinth-ModpackListModel-data]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackListModel.adoc[ModpackListModel]::data
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthModel.h#L66[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

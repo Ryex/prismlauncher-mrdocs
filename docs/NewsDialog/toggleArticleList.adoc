@@ -1,0 +1,19 @@
+[#NewsDialog-toggleArticleList]
+= xref:NewsDialog.adoc[NewsDialog]::toggleArticleList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewsDialog.h#L20[ui&sol;dialogs&sol;NewsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+toggleArticleList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

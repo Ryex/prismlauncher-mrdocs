@@ -1,0 +1,22 @@
+[#MojangDownloadInfo-sha1]
+= xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::sha1
+:relfileprefix: ../
+:mrdocs:
+
+
+sha&hyphen;1 checksum of the file
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L16[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] sha1;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

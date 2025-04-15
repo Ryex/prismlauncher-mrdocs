@@ -1,0 +1,19 @@
+[#JavaPage-2constructor]
+= xref:JavaPage.adoc[JavaPage]::JavaPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/JavaPage.h#L56[ui&sol;pages&sol;global&sol;JavaPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+JavaPage(xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

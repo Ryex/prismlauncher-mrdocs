@@ -1,0 +1,54 @@
+[#RemoteLoadStatus]
+= RemoteLoadStatus
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L13[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct RemoteLoadStatus;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RemoteLoadStatus/Type.adoc[`Type`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RemoteLoadStatus/PackProfileIndex.adoc[`PackProfileIndex`] 
+| 
+
+| xref:RemoteLoadStatus/error.adoc[`error`] 
+| 
+
+| xref:RemoteLoadStatus/finished.adoc[`finished`] 
+| 
+
+| xref:RemoteLoadStatus/succeeded.adoc[`succeeded`] 
+| 
+
+| xref:RemoteLoadStatus/task.adoc[`task`] 
+| 
+
+| xref:RemoteLoadStatus/type.adoc[`type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

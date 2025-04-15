@@ -1,0 +1,51 @@
+[#MojangVersionFormat]
+= MojangVersionFormat
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangVersionFormat.h#L8[minecraft&sol;MojangVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MojangVersionFormat;
+----
+
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangVersionFormat/libraryFromJson.adoc[`libraryFromJson`] 
+| 
+
+| xref:MojangVersionFormat/libraryToJson.adoc[`libraryToJson`] 
+| 
+
+| xref:MojangVersionFormat/versionFileFromJson.adoc[`versionFileFromJson`] 
+| 
+
+| xref:MojangVersionFormat/versionFileToJson.adoc[`versionFileToJson`] 
+| 
+
+|===
+
+== Protected Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangVersionFormat/readVersionProperties.adoc[`readVersionProperties`] 
+| 
+
+| xref:MojangVersionFormat/writeVersionProperties.adoc[`writeVersionProperties`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

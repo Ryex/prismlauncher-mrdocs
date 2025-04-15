@@ -1,0 +1,23 @@
+[#DesktopServices-isFlatpak]
+= xref:DesktopServices.adoc[DesktopServices]::isFlatpak
+:relfileprefix: ../
+:mrdocs:
+
+
+Determine whether the launcher is running in a Flatpak environment
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DesktopServices.h#L38[DesktopServices&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isFlatpak();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

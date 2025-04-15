@@ -1,0 +1,19 @@
+[#AccountListPage-on_actionSetDefault_triggered]
+= xref:AccountListPage.adoc[AccountListPage]::on&lowbar;actionSetDefault&lowbar;triggered
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L77[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;actionSetDefault&lowbar;triggered();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,35 @@
+[#Application-Capability]
+= xref:Application.adoc[Application]::Capability
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L97[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Capability;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`None`
+|
+|`SupportsMSA`
+|
+|`SupportsFlame`
+|
+|`SupportsGameMode`
+|
+|`SupportsMangoHud`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

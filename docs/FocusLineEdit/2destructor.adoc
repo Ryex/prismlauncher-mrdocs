@@ -1,0 +1,19 @@
+[#FocusLineEdit-2destructor]
+= xref:FocusLineEdit.adoc[FocusLineEdit]::&tilde;FocusLineEdit
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/FocusLineEdit.h#L9[ui&sol;widgets&sol;FocusLineEdit&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;FocusLineEdit();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

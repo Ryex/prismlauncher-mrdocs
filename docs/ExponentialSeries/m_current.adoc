@@ -1,0 +1,18 @@
+[#ExponentialSeries-m_current]
+= xref:ExponentialSeries.adoc[ExponentialSeries]::m&lowbar;current
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ExponentialSeries.h#L32[ExponentialSeries&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+unsigned int m&lowbar;current;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

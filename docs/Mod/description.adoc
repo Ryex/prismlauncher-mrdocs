@@ -1,0 +1,19 @@
+[#Mod-description]
+= xref:Mod.adoc[Mod]::description
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L67[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+description() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

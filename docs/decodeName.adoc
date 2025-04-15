@@ -1,0 +1,19 @@
+[#decodeName]
+= decodeName
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Untar.cpp#L115[Untar&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+decodeName(char* name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

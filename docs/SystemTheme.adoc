@@ -1,0 +1,72 @@
+[#SystemTheme]
+= SystemTheme
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/SystemTheme.h#L39[ui&sol;themes&sol;SystemTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SystemTheme
+    : public xref:ITheme.adoc[ITheme];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SystemTheme/2constructor.adoc[`SystemTheme`]         [.small]#[constructor]#
+| 
+
+| xref:ITheme/appStyleSheet.adoc[`appStyleSheet`] 
+| 
+| xref:ITheme/apply.adoc[`apply`] 
+| 
+| xref:ITheme/colorScheme.adoc[`colorScheme`] 
+| 
+| xref:ITheme/fadeAmount.adoc[`fadeAmount`] 
+| 
+| xref:ITheme/fadeColor.adoc[`fadeColor`] 
+| 
+| xref:ITheme/hasStyleSheet.adoc[`hasStyleSheet`] 
+| 
+| xref:ITheme/id.adoc[`id`] 
+| 
+| xref:ITheme/logColorScheme.adoc[`logColorScheme`] 
+| 
+
+| xref:ITheme/name.adoc[`name`] 
+| 
+| xref:ITheme/qtTheme.adoc[`qtTheme`] 
+| 
+| xref:ITheme/searchPaths.adoc[`searchPaths`] 
+| 
+
+| xref:ITheme/tooltip.adoc[`tooltip`] 
+| 
+| xref:SystemTheme/2destructor.adoc[`&tilde;SystemTheme`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ITheme/defaultLogColors.adoc[`defaultLogColors`] 
+| 
+
+| xref:ITheme/fadeInactive.adoc[`fadeInactive`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

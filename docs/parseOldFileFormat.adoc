@@ -1,0 +1,21 @@
+[#parseOldFileFormat]
+= parseOldFileFormat
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.cpp#L116[settings&sol;INIFile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+parseOldFileFormat(
+    xref:QIODevice.adoc[QIODevice]& device,
+    xref:QSettings.adoc[QSettings]::xref:QSettings/SettingsMap.adoc[SettingsMap]& map);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ResourceDownload-ModModel-setFilter]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]::setFilter
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.h#L37[ui&sol;pages&sol;modplatform&sol;ModModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFilter(xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]::xref:ModFilterWidget/Filter.adoc[Filter]&gt; filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

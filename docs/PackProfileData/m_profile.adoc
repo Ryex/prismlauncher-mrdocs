@@ -1,0 +1,18 @@
+[#PackProfileData-m_profile]
+= xref:PackProfileData.adoc[PackProfileData]::m&lowbar;profile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L18[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:LaunchProfile.adoc[LaunchProfile]&gt; m&lowbar;profile;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

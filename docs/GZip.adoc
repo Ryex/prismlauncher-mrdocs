@@ -1,0 +1,33 @@
+[#GZip]
+= GZip
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/GZip.h#L4[GZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class GZip;
+----
+
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GZip/unzip.adoc[`unzip`] 
+| 
+
+| xref:GZip/zip.adoc[`zip`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

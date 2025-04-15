@@ -1,0 +1,22 @@
+[#Component-m_disabled]
+= xref:Component.adoc[Component]::m&lowbar;disabled
+:relfileprefix: ../
+:mrdocs:
+
+
+if true, the component is disabled
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L129[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;disabled = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

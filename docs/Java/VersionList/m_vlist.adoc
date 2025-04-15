@@ -1,0 +1,18 @@
+[#Java-VersionList-m_vlist]
+= xref:Java.adoc[Java]::xref:Java/VersionList.adoc[VersionList]::m&lowbar;vlist
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/VersionList.h#L47[ui&sol;java&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:Java.adoc[Java]::xref:Java/MetadataPtr.adoc[MetadataPtr]&gt; m&lowbar;vlist;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

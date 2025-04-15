@@ -1,0 +1,18 @@
+[#ATLauncher-IndexedPack-id]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/IndexedPack.adoc[IndexedPack]::id
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackIndex.h#L33[modplatform&sol;atlauncher&sol;ATLPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int id;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

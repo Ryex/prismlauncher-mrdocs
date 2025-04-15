@@ -1,0 +1,20 @@
+[#Json-toJson-0d9]
+= xref:Json.adoc[Json]::toJson&lt;xref:QByteArray.adoc[QByteArray], xref:QByteArray.adoc[QByteArray]&gt;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L87[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-00.adoc[toJson]&lt;xref:QByteArray.adoc[QByteArray], xref:QByteArray.adoc[QByteArray]&gt;(xref:QByteArray.adoc[QByteArray] const& data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

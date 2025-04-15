@@ -1,0 +1,36 @@
+[#FS-getFilesystemTypeName]
+= xref:FS.adoc[FS]::getFilesystemTypeName
+:relfileprefix: ../
+:mrdocs:
+
+
+Get the string name of Filesystem enum object
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L420[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getFilesystemTypeName(xref:FS/FilesystemType.adoc[FilesystemType] type);
+----
+
+== Return Value
+
+QString
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *type*
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

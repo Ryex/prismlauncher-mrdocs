@@ -1,0 +1,33 @@
+[#BasePageProvider]
+= BasePageProvider
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L21[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BasePageProvider;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePageProvider/dialogTitle.adoc[`dialogTitle`] 
+| 
+
+| xref:BasePageProvider/getPages.adoc[`getPages`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

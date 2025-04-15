@@ -1,0 +1,21 @@
+[#Hashing-hash-02]
+= xref:Hashing.adoc[Hashing]::hash
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L17[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+hash(
+    xref:QIODevice.adoc[QIODevice]* device,
+    xref:Hashing/Algorithm.adoc[Algorithm] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

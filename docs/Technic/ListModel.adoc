@@ -1,0 +1,83 @@
+[#Technic-ListModel]
+= xref:Technic.adoc[Technic]::ListModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicModel.h#L47[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/ListModel/2constructor.adoc[`ListModel`]         [.small]#[constructor]#
+| 
+
+| xref:Technic/ListModel/activeSearchJob.adoc[`activeSearchJob`] 
+| 
+
+| xref:Technic/ListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:Technic/ListModel/data.adoc[`data`] 
+| 
+
+| xref:Technic/ListModel/getLogo.adoc[`getLogo`] 
+| 
+
+| xref:Technic/ListModel/hasActiveSearchJob.adoc[`hasActiveSearchJob`] 
+| 
+
+| xref:Technic/ListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Technic/ListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Technic/ListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Technic/ListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:Technic/ListModel/searchWithTerm.adoc[`searchWithTerm`] 
+| 
+
+| xref:Technic/ListModel/2destructor.adoc[`&tilde;ListModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/ListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/ListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

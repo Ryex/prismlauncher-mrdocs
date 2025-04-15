@@ -1,0 +1,56 @@
+[#AccountTaskState]
+= AccountTaskState
+:relfileprefix: 
+:mrdocs:
+
+
+Enum for describing the state of the current task&period;
+Used by the getStateMessage function to determine what the status message should be&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthStep.h#L13[minecraft&sol;auth&sol;AuthStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum AccountTaskState : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`STATE&lowbar;CREATED`
+|
+|`STATE&lowbar;WORKING`
+|
+|`STATE&lowbar;SUCCEEDED`
+|
+|`STATE&lowbar;DISABLED`
+|MSA Client ID has changed&amp;period&semi; Tell user to reloginn
+
+
+|`STATE&lowbar;FAILED&lowbar;SOFT`
+|soft failure&amp;period&semi; authentication went through partially
+
+
+|`STATE&lowbar;FAILED&lowbar;HARD`
+|hard failure&amp;period&semi; main tokens are invalid
+
+
+|`STATE&lowbar;FAILED&lowbar;GONE`
+|hard failure&amp;period&semi; main tokens are invalid, and the account no longer exists
+
+
+|`STATE&lowbar;OFFLINE`
+|soft failure&amp;period&semi; authentication failed in the first step in a &amp;apos&semi;soft&amp;apos&semi; way
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ResourceFolderModel-createHeaderContextMenu]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::createHeaderContextMenu
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L164[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMenu.adoc[QMenu]*
+createHeaderContextMenu(xref:QTreeView.adoc[QTreeView]* tree);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

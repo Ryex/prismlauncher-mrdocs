@@ -1,0 +1,19 @@
+[#Technic-TechnicPackProcessor-failed]
+= xref:Technic.adoc[Technic]::xref:Technic/TechnicPackProcessor.adoc[TechnicPackProcessor]::failed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/TechnicPackProcessor.h#L28[modplatform&sol;technic&sol;TechnicPackProcessor&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+failed(xref:QString.adoc[QString] reason);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

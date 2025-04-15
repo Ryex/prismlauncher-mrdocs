@@ -1,0 +1,20 @@
+[#BaseInstance-createLaunchEnvironment]
+= xref:BaseInstance.adoc[BaseInstance]::createLaunchEnvironment
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L199[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QProcessEnvironment.adoc[QProcessEnvironment]
+createLaunchEnvironment() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

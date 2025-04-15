@@ -1,0 +1,18 @@
+[#FS-FilesystemInfo-rootPath]
+= xref:FS.adoc[FS]::xref:FS/FilesystemInfo.adoc[FilesystemInfo]::rootPath
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L448[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] rootPath;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

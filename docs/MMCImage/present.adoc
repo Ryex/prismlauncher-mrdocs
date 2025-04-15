@@ -1,0 +1,19 @@
+[#MMCImage-present]
+= xref:MMCImage.adoc[MMCImage]::present
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L46[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+present() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

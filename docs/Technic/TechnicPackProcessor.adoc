@@ -1,0 +1,64 @@
+[#Technic-TechnicPackProcessor]
+= xref:Technic.adoc[Technic]::TechnicPackProcessor
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/TechnicPackProcessor.h#L23[modplatform&sol;technic&sol;TechnicPackProcessor&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class TechnicPackProcessor
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/TechnicPackProcessor/failed.adoc[`failed`] 
+| 
+
+| xref:Technic/TechnicPackProcessor/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Technic/TechnicPackProcessor/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Technic/TechnicPackProcessor/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Technic/TechnicPackProcessor/run.adoc[`run`] 
+| 
+
+| xref:Technic/TechnicPackProcessor/succeeded.adoc[`succeeded`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/TechnicPackProcessor/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Technic/TechnicPackProcessor/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

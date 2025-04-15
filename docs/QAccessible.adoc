@@ -1,0 +1,48 @@
+[#QAccessible]
+= QAccessible
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/7wkgdcnn79b0hwly7nwdisll2hfywvqq-qtbase-6.8.2/include/QtGui/qaccessible_base.h#L25[&sol;nix&sol;store&sol;7wkgdcnn79b0hwly7nwdisll2hfywvqq&hyphen;qtbase&hyphen;6&period;8&period;2&sol;include&sol;QtGui&sol;qaccessible&lowbar;base&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QAccessible;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAccessible/Id.adoc[`Id`] 
+| 
+
+| xref:QAccessible/State.adoc[`State`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAccessible/InterfaceType.adoc[`InterfaceType`] 
+| 
+
+| xref:QAccessible/Role.adoc[`Role`] 
+| 
+
+| xref:QAccessible/Text.adoc[`Text`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#ResourceDownload-ResourceDownloadDialog-getModDependenciesTask]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog]::getModDependenciesTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L87[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+virtual
+xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::xref:GetModDependenciesTask/Ptr.adoc[Ptr]
+getModDependenciesTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

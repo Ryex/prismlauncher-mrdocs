@@ -1,0 +1,19 @@
+[#ModFilterWidget-getFilter]
+= xref:ModFilterWidget.adoc[ModFilterWidget]::getFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L89[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFilterWidget/Filter.adoc[Filter]&gt;
+getFilter();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

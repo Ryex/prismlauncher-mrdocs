@@ -1,0 +1,20 @@
+[#ExternalToolsPage-apply]
+= xref:ExternalToolsPage.adoc[ExternalToolsPage]::apply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/ExternalToolsPage.h#L65[ui&sol;pages&sol;global&sol;ExternalToolsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+apply() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

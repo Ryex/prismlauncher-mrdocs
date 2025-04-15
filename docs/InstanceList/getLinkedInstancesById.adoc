@@ -1,0 +1,19 @@
+[#InstanceList-getLinkedInstancesById]
+= xref:InstanceList.adoc[InstanceList]::getLinkedInstancesById
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L154[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getLinkedInstancesById(xref:QString.adoc[QString] const& id) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,44 @@
+[#UseLock]
+= UseLock
+:relfileprefix: 
+:mrdocs:
+
+
+Lock class to use for keeping track of uses of other things derived from Usable
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Usable.h#L37[Usable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class UseLock;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UseLock/2constructor.adoc[`UseLock`]         [.small]#[constructor]#
+| 
+
+| xref:UseLock/2destructor.adoc[`&tilde;UseLock`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+== See Also
+
+Usable
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

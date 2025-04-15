@@ -1,0 +1,18 @@
+[#ComponentUpdateTaskData-m_profile]
+= xref:ComponentUpdateTaskData.adoc[ComponentUpdateTaskData]::m&lowbar;profile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L23[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:PackProfile.adoc[PackProfile]* m&lowbar;profile = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

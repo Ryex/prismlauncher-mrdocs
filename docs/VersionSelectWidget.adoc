@@ -1,0 +1,133 @@
+[#VersionSelectWidget]
+= VersionSelectWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L50[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionSelectWidget
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectWidget/2constructor.adoc[`VersionSelectWidget`]         [.small]#[constructor]#
+| 
+
+| xref:VersionSelectWidget/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:VersionSelectWidget/hasVersions.adoc[`hasVersions`] 
+| 
+
+| xref:VersionSelectWidget/initialize.adoc[`initialize`] 
+| loads the list if needed&period;
+
+
+
+| xref:VersionSelectWidget/loadList.adoc[`loadList`] 
+| Starts a task that loads the list&period;
+
+
+
+| xref:VersionSelectWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VersionSelectWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VersionSelectWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:VersionSelectWidget/selectCurrent.adoc[`selectCurrent`] 
+| 
+
+| xref:VersionSelectWidget/selectRecommended.adoc[`selectRecommended`] 
+| 
+
+| xref:VersionSelectWidget/selectSearch.adoc[`selectSearch`] 
+| 
+
+| xref:VersionSelectWidget/selectedVersion.adoc[`selectedVersion`] 
+| 
+
+| xref:VersionSelectWidget/selectedVersionChanged.adoc[`selectedVersionChanged`] 
+| 
+
+| xref:VersionSelectWidget/setCurrentVersion.adoc[`setCurrentVersion`] 
+| 
+
+| xref:VersionSelectWidget/setEmptyErrorString.adoc[`setEmptyErrorString`] 
+| 
+
+| xref:VersionSelectWidget/setEmptyMode.adoc[`setEmptyMode`] 
+| 
+
+| xref:VersionSelectWidget/setEmptyString.adoc[`setEmptyString`] 
+| 
+
+| xref:VersionSelectWidget/setExactFilter.adoc[`setExactFilter`] 
+| 
+
+| xref:VersionSelectWidget/setExactIfPresentFilter.adoc[`setExactIfPresentFilter`] 
+| 
+
+| xref:VersionSelectWidget/setFilter.adoc[`setFilter`] 
+| 
+
+| xref:VersionSelectWidget/setFuzzyFilter.adoc[`setFuzzyFilter`] 
+| 
+
+| xref:VersionSelectWidget/setResizeOn.adoc[`setResizeOn`] 
+| 
+
+| xref:VersionSelectWidget/view.adoc[`view`] 
+| 
+
+| xref:VersionSelectWidget/2destructor.adoc[`&tilde;VersionSelectWidget`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionSelectWidget/closeEvent.adoc[`closeEvent`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

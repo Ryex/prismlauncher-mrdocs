@@ -1,0 +1,18 @@
+[#Flame-File-version]
+= xref:Flame.adoc[Flame]::xref:Flame/File.adoc[File]::version
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L54[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion] version;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

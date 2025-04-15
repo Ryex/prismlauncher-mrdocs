@@ -1,0 +1,24 @@
+[#NoBigComboBoxStyle-styleHint]
+= xref:NoBigComboBoxStyle.adoc[NoBigComboBoxStyle]::styleHint
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.cpp#L41[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+styleHint(
+    xref:QStyle.adoc[QStyle]::xref:QStyle/StyleHint.adoc[StyleHint] hint,
+    xref:QStyleOption.adoc[QStyleOption] const* option = nullptr,
+    xref:QWidget.adoc[QWidget] const* widget = nullptr,
+    xref:QStyleHintReturn.adoc[QStyleHintReturn]* returnData = nullptr) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

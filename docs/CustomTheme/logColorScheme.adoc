@@ -1,0 +1,20 @@
+[#CustomTheme-logColorScheme]
+= xref:CustomTheme.adoc[CustomTheme]::logColorScheme
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CustomTheme.h#L55[ui&sol;themes&sol;CustomTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:LogColors.adoc[LogColors]
+logColorScheme() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#PackProfile-setComponentVersion]
+= xref:PackProfile.adoc[PackProfile]::setComponentVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L133[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+setComponentVersion(
+    xref:QString.adoc[QString] const& uid,
+    xref:QString.adoc[QString] const& version,
+    bool important = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

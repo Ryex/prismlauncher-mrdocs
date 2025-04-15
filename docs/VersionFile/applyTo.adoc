@@ -1,0 +1,21 @@
+[#VersionFile-applyTo]
+= xref:VersionFile.adoc[VersionFile]::applyTo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L65[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyTo(
+    xref:LaunchProfile.adoc[LaunchProfile]* profile,
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

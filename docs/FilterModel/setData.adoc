@@ -1,0 +1,23 @@
+[#FilterModel-setData]
+= xref:FilterModel.adoc[FilterModel]::setData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L173[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+setData(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    xref:QVariant.adoc[QVariant] const& value,
+    int role = Qt&colon;&colon;EditRole);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

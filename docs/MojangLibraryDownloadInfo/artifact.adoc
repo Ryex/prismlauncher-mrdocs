@@ -1,0 +1,18 @@
+[#MojangLibraryDownloadInfo-artifact]
+= xref:MojangLibraryDownloadInfo.adoc[MojangLibraryDownloadInfo]::artifact
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L39[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::xref:MojangDownloadInfo/Ptr.adoc[Ptr] artifact;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,27 @@
+[#QMetaTypeId-03d-03enum]
+= Unnamed enum
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L53[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum &lt;unnamed&gt;;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Defined`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

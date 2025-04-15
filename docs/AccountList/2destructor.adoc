@@ -1,0 +1,19 @@
+[#AccountList-2destructor]
+= xref:AccountList.adoc[AccountList]::&tilde;AccountList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L66[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;AccountList() noexcept;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

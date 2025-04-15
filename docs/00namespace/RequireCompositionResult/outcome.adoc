@@ -1,0 +1,18 @@
+[#00namespace-RequireCompositionResult-outcome]
+= xref:00namespace/RequireCompositionResult.adoc[RequireCompositionResult]::outcome
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L223[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:00namespace/RequireEx.adoc[RequireEx] outcome;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

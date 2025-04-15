@@ -1,0 +1,19 @@
+[#Net-NetRequest-setUrl]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::setUrl
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L76[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setUrl(xref:QUrl.adoc[QUrl] url);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

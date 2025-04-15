@@ -1,0 +1,24 @@
+[#PrismExternalUpdater-getUpdateCheckInterval]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::getUpdateCheckInterval
+:relfileprefix: ../
+:mrdocs:
+
+
+Indicates the current automatic update check interval in seconds&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L54[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+double
+getUpdateCheckInterval() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

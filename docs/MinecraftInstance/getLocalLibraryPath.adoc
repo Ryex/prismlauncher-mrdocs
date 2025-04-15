@@ -1,0 +1,19 @@
+[#MinecraftInstance-getLocalLibraryPath]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::getLocalLibraryPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L102[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getLocalLibraryPath() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

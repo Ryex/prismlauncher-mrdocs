@@ -1,0 +1,86 @@
+[#ThemeCustomizationWidget]
+= ThemeCustomizationWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ThemeCustomizationWidget.h#L29[ui&sol;widgets&sol;ThemeCustomizationWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ThemeCustomizationWidget
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeCustomizationWidget/2constructor.adoc[`ThemeCustomizationWidget`]         [.small]#[constructor]#
+| 
+
+| xref:ThemeCustomizationWidget/applySettings.adoc[`applySettings`] 
+| 
+
+| xref:ThemeCustomizationWidget/currentCatChanged.adoc[`currentCatChanged`] 
+| 
+
+| xref:ThemeCustomizationWidget/currentIconThemeChanged.adoc[`currentIconThemeChanged`] 
+| 
+
+| xref:ThemeCustomizationWidget/currentWidgetThemeChanged.adoc[`currentWidgetThemeChanged`] 
+| 
+
+| xref:ThemeCustomizationWidget/loadSettings.adoc[`loadSettings`] 
+| 
+
+| xref:ThemeCustomizationWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ThemeCustomizationWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ThemeCustomizationWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ThemeCustomizationWidget/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:ThemeCustomizationWidget/showFeatures.adoc[`showFeatures`] 
+| &lt;summary&gt;
+The layout was not quite right, so currently this just disables the UI elements, which should be hidden instead
+TODO FIXME
+
+
+
+| xref:ThemeCustomizationWidget/2destructor.adoc[`&tilde;ThemeCustomizationWidget`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeCustomizationWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeCustomizationWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

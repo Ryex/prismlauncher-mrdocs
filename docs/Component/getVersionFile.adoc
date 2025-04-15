@@ -1,0 +1,19 @@
+[#Component-getVersionFile]
+= xref:Component.adoc[Component]::getVersionFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L91[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:VersionFile.adoc[VersionFile]&gt;
+getVersionFile() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

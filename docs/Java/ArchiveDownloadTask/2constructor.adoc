@@ -1,0 +1,22 @@
+[#Java-ArchiveDownloadTask-2constructor]
+= xref:Java.adoc[Java]::xref:Java/ArchiveDownloadTask.adoc[ArchiveDownloadTask]::ArchiveDownloadTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ArchiveDownloadTask.h#L28[java&sol;download&sol;ArchiveDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ArchiveDownloadTask(
+    xref:QUrl.adoc[QUrl] url,
+    xref:QString.adoc[QString] final&lowbar;path,
+    xref:QString.adoc[QString] checksumType = &quot;&quot;,
+    xref:QString.adoc[QString] checksumHash = &quot;&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

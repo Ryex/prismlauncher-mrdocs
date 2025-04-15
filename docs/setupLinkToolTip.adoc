@@ -1,0 +1,19 @@
+[#setupLinkToolTip]
+= setupLinkToolTip
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.cpp#L48[ui&sol;widgets&sol;InfoFrame&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setupLinkToolTip(xref:QLabel.adoc[QLabel]* label);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Task-abortStatusChanged]
+= xref:Task.adoc[Task]::abortStatusChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Emitted when the canAbort() status has changed&period; &ast;&sol;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L152[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+abortStatusChanged(bool can&lowbar;abort);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Ui-GameOptionsPage]
+= xref:Ui.adoc[Ui]::GameOptionsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/GameOptionsPage.h#L45[ui&sol;pages&sol;instance&sol;GameOptionsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class GameOptionsPage
+    : public xref:Ui_GameOptionsPage.adoc[Ui&lowbar;GameOptionsPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

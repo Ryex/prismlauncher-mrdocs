@@ -1,0 +1,20 @@
+[#VersionProxyModel-rowCount]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::rowCount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L20[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+rowCount(xref:QModelIndex.adoc[QModelIndex] const& parent = QModelIndex()) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

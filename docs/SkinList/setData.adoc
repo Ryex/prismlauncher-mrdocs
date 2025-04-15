@@ -1,0 +1,23 @@
+[#SkinList-setData]
+= xref:SkinList.adoc[SkinList]::setData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L38[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+setData(
+    xref:QModelIndex.adoc[QModelIndex] const& idx,
+    xref:QVariant.adoc[QVariant] const& value,
+    int role) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

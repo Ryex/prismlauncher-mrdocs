@@ -1,0 +1,81 @@
+[#NoBigComboBoxStyle]
+= NoBigComboBoxStyle
+:relfileprefix: 
+:mrdocs:
+
+
+This is just to override the combo box popup behavior so that the combo box doesn&apos;t take the whole screen&period;
+&period;&period;&period; thanks Qt&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.cpp#L36[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NoBigComboBoxStyle
+    : public xref:QProxyStyle.adoc[QProxyStyle];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QStyle/StyleHint.adoc[`StyleHint`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NoBigComboBoxStyle/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:NoBigComboBoxStyle/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:NoBigComboBoxStyle/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:NoBigComboBoxStyle/styleHint.adoc[`styleHint`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NoBigComboBoxStyle/getInstance.adoc[`getInstance`] 
+| Something about QProxyStyle and QStyle objects means they can&apos;t be free&apos;d just
+because all the widgets using them are gone&period;
+They seems to be tied to the QApplicaiton lifecycle&period;
+So make singletons tied to the lifetime of the application to clean them up and ensure they aren&apos;t
+being remade over and over again, thus leaking memory&period;
+
+
+
+| xref:NoBigComboBoxStyle/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NoBigComboBoxStyle/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

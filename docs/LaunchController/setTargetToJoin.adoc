@@ -1,0 +1,19 @@
+[#LaunchController-setTargetToJoin]
+= xref:LaunchController.adoc[LaunchController]::setTargetToJoin
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LaunchController.h#L67[LaunchController&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setTargetToJoin(xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

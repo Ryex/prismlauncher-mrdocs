@@ -1,0 +1,19 @@
+[#ExtractNatives-2constructor]
+= xref:ExtractNatives.adoc[ExtractNatives]::ExtractNatives
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/ExtractNatives.h#L24[minecraft&sol;launch&sol;ExtractNatives&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ExtractNatives(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

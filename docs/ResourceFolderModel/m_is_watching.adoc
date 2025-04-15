@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_is_watching]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;is&lowbar;watching
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L251[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;is&lowbar;watching = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

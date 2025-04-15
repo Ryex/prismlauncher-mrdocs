@@ -1,0 +1,25 @@
+[#FS-trash]
+= xref:FS.adoc[FS]::trash
+:relfileprefix: ../
+:mrdocs:
+
+
+Trash a folder &sol; file
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L297[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+trash(
+    xref:QString.adoc[QString] path,
+    xref:QString.adoc[QString]* pathInTrash = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

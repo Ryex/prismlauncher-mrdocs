@@ -1,0 +1,18 @@
+[#uint]
+= uint
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/71xyq87gpb2qrwn314p0sf2n002lgd91-glibc-2.40-66-dev/include/sys/types.h#L150[&sol;nix&sol;store&sol;71xyq87gpb2qrwn314p0sf2n002lgd91&hyphen;glibc&hyphen;2&period;40&hyphen;66&hyphen;dev&sol;include&sol;sys&sol;types&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef unsigned int uint;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

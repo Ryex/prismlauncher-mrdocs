@@ -1,0 +1,19 @@
+[#OfflineLoginDialog-on_allowLongUsernames_stateChanged]
+= xref:OfflineLoginDialog.adoc[OfflineLoginDialog]::on&lowbar;allowLongUsernames&lowbar;stateChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/OfflineLoginDialog.h#L34[ui&sol;dialogs&sol;OfflineLoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;allowLongUsernames&lowbar;stateChanged(int value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

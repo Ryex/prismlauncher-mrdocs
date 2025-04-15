@@ -1,0 +1,21 @@
+[#ScreenshotsPage-2constructor]
+= xref:ScreenshotsPage.adoc[ScreenshotsPage]::ScreenshotsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.h#L60[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ScreenshotsPage(
+    xref:QString.adoc[QString] path,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

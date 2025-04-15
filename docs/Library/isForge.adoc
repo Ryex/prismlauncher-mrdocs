@@ -1,0 +1,23 @@
+[#Library-isForge]
+= xref:Library.adoc[Library]::isForge
+:relfileprefix: ../
+:mrdocs:
+
+
+Return true if the library requires forge XZ hacks
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L144[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isForge() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

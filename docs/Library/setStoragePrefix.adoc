@@ -1,0 +1,32 @@
+[#Library-setStoragePrefix]
+= xref:Library.adoc[Library]::setStoragePrefix
+:relfileprefix: ../
+:mrdocs:
+
+
+Set the storage prefix for the library&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L102[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setStoragePrefix(xref:QString.adoc[QString] prefix = QString());
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *prefix*
+| The storage prefix to set&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

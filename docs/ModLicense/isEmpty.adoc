@@ -1,0 +1,19 @@
+[#ModLicense-isEmpty]
+= xref:ModLicense.adoc[ModLicense]::isEmpty
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L111[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isEmpty();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

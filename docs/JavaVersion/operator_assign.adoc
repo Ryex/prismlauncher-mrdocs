@@ -1,0 +1,19 @@
+[#JavaVersion-operator_assign]
+= xref:JavaVersion.adoc[JavaVersion]::operator&equals;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaVersion.h#L21[java&sol;JavaVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaVersion.adoc[JavaVersion]&
+operator&equals;(xref:QString.adoc[QString] const& rhs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

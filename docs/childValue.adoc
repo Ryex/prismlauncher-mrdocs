@@ -1,0 +1,26 @@
+[#childValue]
+= childValue
+:relfileprefix: 
+:mrdocs:
+
+
+Gets the text content of the given child element as a QVariant&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsEntry.cpp#L38[news&sol;NewsEntry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+childValue(
+    xref:QDomElement.adoc[QDomElement] const& element,
+    xref:QString.adoc[QString] const& childName,
+    xref:QString.adoc[QString] defaultVal = &quot;&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

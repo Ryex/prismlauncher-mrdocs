@@ -1,0 +1,18 @@
+[#Net-NetRequest-m_last_progress_time]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::m&lowbar;last&lowbar;progress&lowbar;time
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L101[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/chrono.adoc[chrono]::xref:std/chrono/time_point.adoc[time&lowbar;point]&lt;xref:std.adoc[std]::xref:std/chrono.adoc[chrono]::xref:std/chrono/_V2/steady_clock.adoc[steady&lowbar;clock]&gt; m&lowbar;last&lowbar;progress&lowbar;time;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

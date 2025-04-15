@@ -1,0 +1,56 @@
+[#MMCZip-collectFileListRecursively]
+= xref:MMCZip.adoc[MMCZip]::collectFileListRecursively
+:relfileprefix: ../
+:mrdocs:
+
+
+Populate a QFileInfoList with a directory tree recursively, while allowing to excludeFilter what shouldn&apos;t be included&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L152[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+collectFileListRecursively(
+    xref:QString.adoc[QString] const& rootDir,
+    xref:QString.adoc[QString] const& subDir,
+    xref:QFileInfoList.adoc[QFileInfoList]* files,
+    xref:MMCZip/FilterFunction.adoc[FilterFunction] excludeFilter);
+----
+
+== Return Value
+
+true for success or false for failure
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *rootDir*
+| directory to start off
+
+
+| *subDir*
+| subdirectory, should be nullptr for first invocation
+
+
+| *files*
+| resulting list of QFileInfo
+
+
+| *excludeFilter*
+| function to excludeFilter which files shouldn&apos;t be included (returning true means to excude)
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

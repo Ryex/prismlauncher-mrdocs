@@ -1,0 +1,20 @@
+[#VersionProxyModel-mapToSource]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::mapToSource
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L22[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QModelIndex.adoc[QModelIndex]
+mapToSource(xref:QModelIndex.adoc[QModelIndex] const& proxyIndex) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

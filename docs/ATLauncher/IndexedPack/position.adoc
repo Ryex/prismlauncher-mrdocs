@@ -1,0 +1,18 @@
+[#ATLauncher-IndexedPack-position]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/IndexedPack.adoc[IndexedPack]::position
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackIndex.h#L34[modplatform&sol;atlauncher&sol;ATLPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int position;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

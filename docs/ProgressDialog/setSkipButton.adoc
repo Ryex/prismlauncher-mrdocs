@@ -1,0 +1,21 @@
+[#ProgressDialog-setSkipButton]
+= xref:ProgressDialog.adoc[ProgressDialog]::setSkipButton
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.h#L68[ui&sol;dialogs&sol;ProgressDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSkipButton(
+    bool present,
+    xref:QString.adoc[QString] label = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

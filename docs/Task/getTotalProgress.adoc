@@ -1,0 +1,19 @@
+[#Task-getTotalProgress]
+= xref:Task.adoc[Task]::getTotalProgress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L126[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64]
+getTotalProgress();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

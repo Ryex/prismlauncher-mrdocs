@@ -1,0 +1,21 @@
+[#Parsers-getString]
+= xref:Parsers.adoc[Parsers]::getString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L7[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+getString(
+    xref:QJsonValue.adoc[QJsonValue] value,
+    xref:QString.adoc[QString]& out);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

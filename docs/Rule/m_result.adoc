@@ -1,0 +1,18 @@
+[#Rule-m_result]
+= xref:Rule.adoc[Rule]::m&lowbar;result
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L53[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:RuleAction.adoc[RuleAction] m&lowbar;result;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

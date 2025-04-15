@@ -1,0 +1,108 @@
+[#ATLauncher-VersionMod]
+= xref:ATLauncher.adoc[ATLauncher]::VersionMod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L90[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VersionMod;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/VersionMod/client.adoc[`client`] 
+| 
+
+| xref:ATLauncher/VersionMod/colour.adoc[`colour`] 
+| 
+
+| xref:ATLauncher/VersionMod/decompFile.adoc[`decompFile`] 
+| 
+
+| xref:ATLauncher/VersionMod/decompType.adoc[`decompType`] 
+| 
+
+| xref:ATLauncher/VersionMod/decompType_raw.adoc[`decompType&lowbar;raw`] 
+| 
+
+| xref:ATLauncher/VersionMod/depends.adoc[`depends`] 
+| 
+
+| xref:ATLauncher/VersionMod/description.adoc[`description`] 
+| 
+
+| xref:ATLauncher/VersionMod/download.adoc[`download`] 
+| 
+
+| xref:ATLauncher/VersionMod/download_raw.adoc[`download&lowbar;raw`] 
+| 
+
+| xref:ATLauncher/VersionMod/effectively_hidden.adoc[`effectively&lowbar;hidden`] 
+| 
+
+| xref:ATLauncher/VersionMod/extractFolder.adoc[`extractFolder`] 
+| 
+
+| xref:ATLauncher/VersionMod/extractTo.adoc[`extractTo`] 
+| 
+
+| xref:ATLauncher/VersionMod/extractTo_raw.adoc[`extractTo&lowbar;raw`] 
+| 
+
+| xref:ATLauncher/VersionMod/file.adoc[`file`] 
+| 
+
+| xref:ATLauncher/VersionMod/group.adoc[`group`] 
+| 
+
+| xref:ATLauncher/VersionMod/hidden.adoc[`hidden`] 
+| 
+
+| xref:ATLauncher/VersionMod/library.adoc[`library`] 
+| 
+
+| xref:ATLauncher/VersionMod/md5.adoc[`md5`] 
+| 
+
+| xref:ATLauncher/VersionMod/name.adoc[`name`] 
+| 
+
+| xref:ATLauncher/VersionMod/optional.adoc[`optional`] 
+| 
+
+| xref:ATLauncher/VersionMod/recommended.adoc[`recommended`] 
+| 
+
+| xref:ATLauncher/VersionMod/selected.adoc[`selected`] 
+| 
+
+| xref:ATLauncher/VersionMod/type.adoc[`type`] 
+| 
+
+| xref:ATLauncher/VersionMod/type_raw.adoc[`type&lowbar;raw`] 
+| 
+
+| xref:ATLauncher/VersionMod/url.adoc[`url`] 
+| 
+
+| xref:ATLauncher/VersionMod/version.adoc[`version`] 
+| 
+
+| xref:ATLauncher/VersionMod/warning.adoc[`warning`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

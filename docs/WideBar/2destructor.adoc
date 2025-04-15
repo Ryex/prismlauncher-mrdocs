@@ -1,0 +1,19 @@
+[#WideBar-2destructor]
+= xref:WideBar.adoc[WideBar]::&tilde;WideBar
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L19[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;WideBar() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

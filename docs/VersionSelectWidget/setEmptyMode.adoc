@@ -1,0 +1,19 @@
+[#VersionSelectWidget-setEmptyMode]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::setEmptyMode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L76[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setEmptyMode(xref:VersionListView.adoc[VersionListView]::xref:VersionListView/EmptyMode.adoc[EmptyMode] mode);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,36 @@
+[#std-_Tuple_impl]
+= xref:std.adoc[std]::&lowbar;Tuple&lowbar;impl
+:relfileprefix: ../
+:mrdocs:
+
+
+Contains the actual implementation of the
+`tuple`
+template, stored
+as a recursive inheritance hierarchy from the first element (most
+derived class) to the last (least derived class)&period; The
+`Idx`
+parameter gives the 0&hyphen;based index of the element stored at this
+point in the hierarchy&semi; we use it to implement a constant&hyphen;time
+get() operation&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/tuple#L274[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;tuple]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    xref:std/size_t.adoc[size&lowbar;t] &lowbar;Idx,
+    typename... &lowbar;Elements&gt;
+struct &lowbar;Tuple&lowbar;impl;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

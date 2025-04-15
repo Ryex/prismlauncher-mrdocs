@@ -1,0 +1,35 @@
+[#TexturePackUtils-processPackPNG]
+= xref:TexturePackUtils.adoc[TexturePackUtils]::processPackPNG
+:relfileprefix: ../
+:mrdocs:
+
+
+processes ONLY the pack&period;png (rest of the pack may be invalid)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalTexturePackParseTask.h#L39[minecraft&sol;mod&sol;tasks&sol;LocalTexturePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:TexturePackUtils/processPackPNG-0a7.adoc[processPackPNG](
+    xref:TexturePack.adoc[TexturePack] const& pack,
+    xref:QByteArray.adoc[QByteArray]&& raw&lowbar;data);
+----
+
+[.small]#xref:TexturePackUtils/processPackPNG-0a7.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:TexturePackUtils/processPackPNG-0a9.adoc[processPackPNG](xref:TexturePack.adoc[TexturePack] const& pack);
+----
+
+[.small]#xref:TexturePackUtils/processPackPNG-0a9.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

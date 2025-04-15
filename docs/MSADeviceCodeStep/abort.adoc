@@ -1,0 +1,20 @@
+[#MSADeviceCodeStep-abort]
+= xref:MSADeviceCodeStep.adoc[MSADeviceCodeStep]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.h#L55[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

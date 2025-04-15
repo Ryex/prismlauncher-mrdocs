@@ -1,0 +1,19 @@
+[#VersionPage-2destructor]
+= xref:VersionPage.adoc[VersionPage]::&tilde;VersionPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/VersionPage.h#L59[ui&sol;pages&sol;instance&sol;VersionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;VersionPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

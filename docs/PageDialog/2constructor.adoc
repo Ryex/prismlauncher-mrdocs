@@ -1,0 +1,22 @@
+[#PageDialog-2constructor]
+= xref:PageDialog.adoc[PageDialog]::PageDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pagedialog/PageDialog.h#L25[ui&sol;pagedialog&sol;PageDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PageDialog(
+    xref:BasePageProvider.adoc[BasePageProvider]* pageProvider,
+    xref:QString.adoc[QString] defaultId = QString(),
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

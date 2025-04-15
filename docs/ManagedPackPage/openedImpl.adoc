@@ -1,0 +1,20 @@
+[#ManagedPackPage-openedImpl]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::openedImpl
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L46[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+openedImpl() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

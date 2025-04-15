@@ -1,0 +1,24 @@
+[#Task-emitAborted]
+= xref:Task.adoc[Task]::emitAborted
+:relfileprefix: ../
+:mrdocs:
+
+
+&ast;&ast;The Task subclass&ast;&ast; must call this method when the task has aborted&period; External code should call abort() instead&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L183[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+emitAborted();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

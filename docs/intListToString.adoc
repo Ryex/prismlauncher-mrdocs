@@ -1,0 +1,19 @@
+[#intListToString]
+= intListToString
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.cpp#L828[ui&sol;MainWindow&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+intListToString(xref:QList.adoc[QList]&lt;int&gt; const& list);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

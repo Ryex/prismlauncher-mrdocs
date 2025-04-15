@@ -1,0 +1,18 @@
+[#FocusLineEdit-2constructor]
+= xref:FocusLineEdit.adoc[FocusLineEdit]::FocusLineEdit
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/FocusLineEdit.h#L8[ui&sol;widgets&sol;FocusLineEdit&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FocusLineEdit(xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

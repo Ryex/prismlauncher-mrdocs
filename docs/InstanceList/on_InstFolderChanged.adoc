@@ -1,0 +1,21 @@
+[#InstanceList-on_InstFolderChanged]
+= xref:InstanceList.adoc[InstanceList]::on&lowbar;InstFolderChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L163[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;InstFolderChanged(
+    xref:Setting.adoc[Setting] const& setting,
+    xref:QVariant.adoc[QVariant] value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

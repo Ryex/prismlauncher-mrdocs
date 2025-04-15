@@ -1,0 +1,21 @@
+[#PassthroughSetting-2constructor]
+= xref:PassthroughSetting.adoc[PassthroughSetting]::PassthroughSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/PassthroughSetting.h#L31[settings&sol;PassthroughSetting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PassthroughSetting(
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; overridden,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; gate);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

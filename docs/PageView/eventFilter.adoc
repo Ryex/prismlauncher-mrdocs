@@ -1,0 +1,22 @@
+[#PageView-eventFilter]
+= xref:PageView.adoc[PageView]::eventFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer_p.h#L104[ui&sol;widgets&sol;PageContainer&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+eventFilter(
+    xref:QObject.adoc[QObject]* obj,
+    xref:QEvent.adoc[QEvent]* event);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

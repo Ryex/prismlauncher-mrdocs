@@ -1,0 +1,33 @@
+[#Meta-VersionList-Roles]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::Roles
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L37[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Roles;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`UidRole`
+|
+|`TimeRole`
+|
+|`RequiresRole`
+|
+|`VersionPtrRole`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

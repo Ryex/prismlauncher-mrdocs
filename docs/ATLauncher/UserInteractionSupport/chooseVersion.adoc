@@ -1,0 +1,27 @@
+[#ATLauncher-UserInteractionSupport-chooseVersion]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/UserInteractionSupport.adoc[UserInteractionSupport]::chooseVersion
+:relfileprefix: ../../
+:mrdocs:
+
+
+Requests a user interaction to select a component version from a given version list
+and constrained to a given Minecraft version&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L71[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+chooseVersion(
+    xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr] vlist,
+    xref:QString.adoc[QString] minecraftVersion) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,38 @@
+[#ProfileSelectDialog-Flags]
+= xref:ProfileSelectDialog.adoc[ProfileSelectDialog]::Flags
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L31[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Flags;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NoFlags`
+|
+|`GlobalDefaultCheckbox`
+|Shows a check box on the dialog that allows the user to specify that the account
+they&amp;apos&semi;ve selected should be used as the global default for all instances&amp;period&semi;
+
+
+|`InstanceDefaultCheckbox`
+|Shows a check box on the dialog that allows the user to specify that the account
+they&amp;apos&semi;ve selected should be used as the default for the instance they are currently launching&amp;period&semi;
+This is not currently implemented&amp;period&semi;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

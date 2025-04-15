@@ -1,0 +1,20 @@
+[#IconList-flags]
+= xref:IconList.adoc[IconList]::flags
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L67[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/ItemFlags.adoc[ItemFlags]
+flags(xref:QModelIndex.adoc[QModelIndex] const& index) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

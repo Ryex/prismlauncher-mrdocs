@@ -1,0 +1,56 @@
+[#MojangDownloadInfo]
+= MojangDownloadInfo
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L6[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MojangDownloadInfo;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangDownloadInfo/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangDownloadInfo/path.adoc[`path`] 
+| Local filesystem path&period; WARNING&colon; not used, only here so we can pass through mojang files unmolested!
+
+
+
+| xref:MojangDownloadInfo/sha1.adoc[`sha1`] 
+| sha&hyphen;1 checksum of the file
+
+
+
+| xref:MojangDownloadInfo/size.adoc[`size`] 
+| size of the file in bytes
+
+
+
+| xref:MojangDownloadInfo/url.adoc[`url`] 
+| absolute URL of this file
+
+
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

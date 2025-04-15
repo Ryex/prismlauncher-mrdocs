@@ -1,0 +1,20 @@
+[#PixmapCache-setFastEvictionThreshold]
+= xref:PixmapCache.adoc[PixmapCache]::setFastEvictionThreshold
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L67[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+setFastEvictionThreshold(int p1);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

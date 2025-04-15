@@ -1,0 +1,38 @@
+[#SettingsObject-registerSetting-09]
+= xref:SettingsObject.adoc[SettingsObject]::registerSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+Registers the given setting with this SettingsObject and connects the necessary  signals&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L86[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt;
+registerSetting(
+    xref:QStringList.adoc[QStringList] synonyms,
+    xref:QVariant.adoc[QVariant] defVal = QVariant());
+----
+
+== Description
+
+This will fail if there is already a setting with the same ID as
+the one that is being registered&period;
+
+
+
+== Return Value
+
+A valid Setting shared pointer if successful&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

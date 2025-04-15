@@ -1,0 +1,61 @@
+[#FS-FilesystemType]
+= xref:FS.adoc[FS]::FilesystemType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L365[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum FilesystemType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`FAT`
+|
+|`NTFS`
+|
+|`REFS`
+|
+|`EXT`
+|
+|`EXT&lowbar;2&lowbar;OLD`
+|
+|`EXT&lowbar;2&lowbar;3&lowbar;4`
+|
+|`XFS`
+|
+|`BTRFS`
+|
+|`NFS`
+|
+|`ZFS`
+|
+|`APFS`
+|
+|`HFS`
+|
+|`HFSPLUS`
+|
+|`HFSX`
+|
+|`FUSEBLK`
+|
+|`F2FS`
+|
+|`BCACHEFS`
+|
+|`UNKNOWN`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

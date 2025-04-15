@@ -1,0 +1,22 @@
+[#Ui-PasteWizardPage]
+= xref:Ui.adoc[Ui]::PasteWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/PasteWizardPage.h#L8[ui&sol;setupwizard&sol;PasteWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PasteWizardPage
+    : public xref:Ui_PasteWizardPage.adoc[Ui&lowbar;PasteWizardPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ShaderPackFolderModel-selectedShaderPacks]
+= xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]::selectedShaderPacks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPackFolderModel.h#L24[minecraft&sol;mod&sol;ShaderPackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ShaderPack.adoc[ShaderPack]*&gt;
+selectedShaderPacks(xref:QModelIndexList.adoc[QModelIndexList] const& indexes);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

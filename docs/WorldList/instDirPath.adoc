@@ -1,0 +1,19 @@
+[#WorldList-instDirPath]
+= xref:WorldList.adoc[WorldList]::instDirPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L83[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+instDirPath() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

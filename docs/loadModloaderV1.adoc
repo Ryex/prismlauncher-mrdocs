@@ -1,0 +1,22 @@
+[#loadModloaderV1]
+= loadModloaderV1
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.cpp#L11[modplatform&sol;flame&sol;PackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadModloaderV1(
+    xref:Flame.adoc[Flame]::xref:Flame/Modloader.adoc[Modloader]& m,
+    xref:QJsonObject.adoc[QJsonObject]& modLoader);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

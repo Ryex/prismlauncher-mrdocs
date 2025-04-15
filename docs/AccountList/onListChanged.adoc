@@ -1,0 +1,24 @@
+[#AccountList-onListChanged]
+= xref:AccountList.adoc[AccountList]::onListChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Called whenever the list changes&period;
+This emits the listChanged() signal and autosaves the list (if autosave is enabled)&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L154[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onListChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

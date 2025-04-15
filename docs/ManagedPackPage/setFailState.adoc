@@ -1,0 +1,32 @@
+[#ManagedPackPage-setFailState]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::setFailState
+:relfileprefix: ../
+:mrdocs:
+
+
+Does the necessary UI changes for when something failed&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L78[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFailState();
+----
+
+== Description
+
+This includes&colon;
+&hyphen; Setting an appropriate text on the version selector to indicate a fail&semi;
+&hyphen; Setting an appropriate text on the changelog text browser to indicate a fail&semi;
+&hyphen; Disable the update button&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

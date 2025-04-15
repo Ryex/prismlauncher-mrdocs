@@ -1,0 +1,242 @@
+[#Component]
+= Component
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L52[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Component
+    : public xref:QObject.adoc[QObject]
+    , public xref:ProblemProvider.adoc[ProblemProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Component/2constructor.adoc[`Component`]         [.small]#[constructor]#
+| 
+| xref:Component/addComponentProblem.adoc[`addComponentProblem`] 
+| 
+
+| xref:Component/applyTo.adoc[`applyTo`] 
+| 
+
+| xref:Component/canBeDisabled.adoc[`canBeDisabled`] 
+| 
+
+| xref:Component/clearUpdateAction.adoc[`clearUpdateAction`] 
+| 
+
+| xref:Component/customize.adoc[`customize`] 
+| 
+
+| xref:Component/dataChanged.adoc[`dataChanged`] 
+| 
+
+| xref:Component/getFilename.adoc[`getFilename`] 
+| 
+
+| xref:Component/getID.adoc[`getID`] 
+| 
+
+| xref:Component/getMeta.adoc[`getMeta`] 
+| 
+
+| xref:Component/getName.adoc[`getName`] 
+| 
+
+| xref:Component/getOrder.adoc[`getOrder`] 
+| 
+
+| xref:ProblemProvider/getProblemSeverity.adoc[`getProblemSeverity`] 
+| 
+| xref:ProblemProvider/getProblems.adoc[`getProblems`] 
+| 
+| xref:Component/getReleaseDateTime.adoc[`getReleaseDateTime`] 
+| 
+
+| xref:Component/getUpdateAction.adoc[`getUpdateAction`] 
+| 
+
+| xref:Component/getVersion.adoc[`getVersion`] 
+| 
+
+| xref:Component/getVersionFile.adoc[`getVersionFile`] 
+| 
+
+| xref:Component/getVersionList.adoc[`getVersionList`] 
+| 
+
+| xref:Component/isCustom.adoc[`isCustom`] 
+| 
+
+| xref:Component/isCustomizable.adoc[`isCustomizable`] 
+| 
+
+| xref:Component/isEnabled.adoc[`isEnabled`] 
+| 
+
+| xref:Component/isKnownModloader.adoc[`isKnownModloader`] 
+| 
+
+| xref:Component/isMoveable.adoc[`isMoveable`] 
+| 
+
+| xref:Component/isRemovable.adoc[`isRemovable`] 
+| 
+
+| xref:Component/isRevertible.adoc[`isRevertible`] 
+| 
+
+| xref:Component/isVersionChangeable.adoc[`isVersionChangeable`] 
+| 
+
+| xref:Component/knownConflictingComponents.adoc[`knownConflictingComponents`] 
+| 
+
+| xref:Component/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Component/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Component/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Component/resetComponentProblems.adoc[`resetComponentProblems`] 
+| 
+
+| xref:Component/revert.adoc[`revert`] 
+| 
+
+| xref:Component/setEnabled.adoc[`setEnabled`] 
+| 
+
+| xref:Component/setImportant.adoc[`setImportant`] 
+| 
+
+| xref:Component/setOrder.adoc[`setOrder`] 
+| 
+
+| xref:Component/setUpdateAction.adoc[`setUpdateAction`] 
+| 
+
+| xref:Component/setVersion.adoc[`setVersion`] 
+| 
+
+| xref:Component/updateCachedData.adoc[`updateCachedData`] 
+| 
+
+| xref:Component/waitLoadMeta.adoc[`waitLoadMeta`] 
+| 
+
+| xref:Component/2destructor.adoc[`&tilde;Component`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Component/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Component/m_cachedConflicts.adoc[`m&lowbar;cachedConflicts`] 
+| 
+
+| xref:Component/m_cachedName.adoc[`m&lowbar;cachedName`] 
+| cached name for display purposes, taken from the version file (meta or local override)
+
+
+
+| xref:Component/m_cachedRequires.adoc[`m&lowbar;cachedRequires`] 
+| cached set of requirements, taken from the version file (meta or local override)
+
+
+
+| xref:Component/m_cachedVersion.adoc[`m&lowbar;cachedVersion`] 
+| cached version for display AND other purposes, taken from the version file (meta or local override)
+
+
+
+| xref:Component/m_cachedVolatile.adoc[`m&lowbar;cachedVolatile`] 
+| if true, the component is volatile and may be automatically removed when no longer needed
+
+
+
+| xref:Component/m_dependencyOnly.adoc[`m&lowbar;dependencyOnly`] 
+| if true, this has been added automatically to satisfy dependencies and may be automatically removed
+
+
+
+| xref:Component/m_disabled.adoc[`m&lowbar;disabled`] 
+| if true, the component is disabled
+
+
+
+| xref:Component/m_file.adoc[`m&lowbar;file`] 
+| 
+
+| xref:Component/m_important.adoc[`m&lowbar;important`] 
+| if true, the component is either the main component of the instance, or otherwise important and cannot be removed&period;
+
+
+
+| xref:Component/m_loaded.adoc[`m&lowbar;loaded`] 
+| 
+
+| xref:Component/m_metaVersion.adoc[`m&lowbar;metaVersion`] 
+| 
+
+| xref:Component/m_order.adoc[`m&lowbar;order`] 
+| 
+
+| xref:Component/m_orderOverride.adoc[`m&lowbar;orderOverride`] 
+| 
+
+| xref:Component/m_parent.adoc[`m&lowbar;parent`] 
+| 
+
+| xref:Component/m_uid.adoc[`m&lowbar;uid`] 
+| ID of the component
+
+
+
+| xref:Component/m_version.adoc[`m&lowbar;version`] 
+| version of the component &hyphen; when there&apos;s a custom json override, this is also the version the component reverts to
+
+
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Component/KNOWN_MODLOADERS.adoc[`KNOWN&lowbar;MODLOADERS`] 
+| 
+
+| xref:Component/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

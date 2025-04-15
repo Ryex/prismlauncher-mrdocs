@@ -1,0 +1,19 @@
+[#LaunchController-setProfiler]
+= xref:LaunchController.adoc[LaunchController]::setProfiler
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LaunchController.h#L63[LaunchController&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setProfiler(xref:BaseProfilerFactory.adoc[BaseProfilerFactory]* profiler);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

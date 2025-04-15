@@ -1,0 +1,28 @@
+[#GameType-2constructor]
+= xref:GameType.adoc[GameType]::GameType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L22[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+xref:GameType/2constructor-09.adoc[GameType]() = default;
+----
+
+[.small]#xref:GameType/2constructor-09.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:GameType/2constructor-01.adoc[GameType](xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;int&gt; original);
+----
+
+[.small]#xref:GameType/2constructor-01.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

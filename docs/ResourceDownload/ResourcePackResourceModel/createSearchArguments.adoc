@@ -1,0 +1,24 @@
+[#ResourceDownload-ResourcePackResourceModel-createSearchArguments]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourceModel.adoc[ResourcePackResourceModel]::createSearchArguments
+:relfileprefix: ../../
+:mrdocs:
+
+
+&ast;&ast;&ast;&ast;&ast;&ast; Make data requests &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackModel.h#L33[ui&sol;pages&sol;modplatform&sol;ResourcePackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SearchArgs.adoc[SearchArgs]
+createSearchArguments() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

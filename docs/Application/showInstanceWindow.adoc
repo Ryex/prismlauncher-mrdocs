@@ -1,0 +1,21 @@
+[#Application-showInstanceWindow]
+= xref:Application.adoc[Application]::showInstanceWindow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L184[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstanceWindow.adoc[InstanceWindow]*
+showInstanceWindow(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QString.adoc[QString] page = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

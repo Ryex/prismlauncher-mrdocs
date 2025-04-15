@@ -1,0 +1,74 @@
+[#Server]
+= Server
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L59[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Server;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Server/AcceptsTextures.adoc[`AcceptsTextures`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Server/2constructor.adoc[`Server`]         [.small]#[constructor]#
+| 
+| xref:Server/serialize.adoc[`serialize`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Server/m_acceptsTextures.adoc[`m&lowbar;acceptsTextures`] 
+| 
+
+| xref:Server/m_address.adoc[`m&lowbar;address`] 
+| 
+
+| xref:Server/m_checked.adoc[`m&lowbar;checked`] 
+| 
+
+| xref:Server/m_currentPlayers.adoc[`m&lowbar;currentPlayers`] 
+| 
+
+| xref:Server/m_icon.adoc[`m&lowbar;icon`] 
+| 
+
+| xref:Server/m_maxPlayers.adoc[`m&lowbar;maxPlayers`] 
+| 
+
+| xref:Server/m_motd.adoc[`m&lowbar;motd`] 
+| 
+
+| xref:Server/m_name.adoc[`m&lowbar;name`] 
+| 
+
+| xref:Server/m_up.adoc[`m&lowbar;up`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

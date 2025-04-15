@@ -1,0 +1,19 @@
+[#ExternalResourcesPage-removeItem]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::removeItem
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L53[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+removeItem();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

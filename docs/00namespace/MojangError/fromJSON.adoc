@@ -1,0 +1,20 @@
+[#00namespace-MojangError-fromJSON]
+= xref:00namespace/MojangError.adoc[MojangError]::fromJSON
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.cpp#L226[ui&sol;dialogs&sol;ProfileSetupDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:00namespace/MojangError.adoc[MojangError]
+fromJSON(xref:QByteArray.adoc[QByteArray] data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

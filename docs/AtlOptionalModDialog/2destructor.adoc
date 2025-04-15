@@ -1,0 +1,19 @@
+[#AtlOptionalModDialog-2destructor]
+= xref:AtlOptionalModDialog.adoc[AtlOptionalModDialog]::&tilde;AtlOptionalModDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.h#L101[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlOptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;AtlOptionalModDialog() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

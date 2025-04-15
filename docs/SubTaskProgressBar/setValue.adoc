@@ -1,0 +1,19 @@
+[#SubTaskProgressBar-setValue]
+= xref:SubTaskProgressBar.adoc[SubTaskProgressBar]::setValue
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/SubTaskProgressBar.h#L38[ui&sol;widgets&sol;SubTaskProgressBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setValue(int value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

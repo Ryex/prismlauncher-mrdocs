@@ -1,0 +1,33 @@
+[#ModPlatform-Category]
+= xref:ModPlatform.adoc[ModPlatform]::Category
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L194[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Category;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/Category/id.adoc[`id`] 
+| 
+
+| xref:ModPlatform/Category/name.adoc[`name`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

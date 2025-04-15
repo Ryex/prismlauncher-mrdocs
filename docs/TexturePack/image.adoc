@@ -1,0 +1,26 @@
+[#TexturePack-image]
+= xref:TexturePack.adoc[TexturePack]::image
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the image of the texture pack, converted to a QPixmap for drawing, and scaled to size&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L43[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QPixmap.adoc[QPixmap]
+image(
+    xref:QSize.adoc[QSize] size,
+    xref:Qt.adoc[Qt]::xref:Qt/AspectRatioMode.adoc[AspectRatioMode] mode = Qt&colon;&colon;AspectRatioMode&colon;&colon;IgnoreAspectRatio) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

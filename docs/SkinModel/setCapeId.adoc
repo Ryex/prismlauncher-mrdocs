@@ -1,0 +1,19 @@
+[#SkinModel-setCapeId]
+= xref:SkinModel.adoc[SkinModel]::setCapeId
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L45[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setCapeId(xref:QString.adoc[QString] capeID);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

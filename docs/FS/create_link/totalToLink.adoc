@@ -1,0 +1,19 @@
+[#FS-create_link-totalToLink]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::totalToLink
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L243[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+totalToLink();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

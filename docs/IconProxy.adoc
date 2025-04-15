@@ -1,0 +1,61 @@
+[#IconProxy]
+= IconProxy
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/VersionPage.cpp#L77[ui&sol;pages&sol;instance&sol;VersionPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class IconProxy
+    : public xref:QIdentityProxyModel.adoc[QIdentityProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconProxy/2constructor.adoc[`IconProxy`]         [.small]#[constructor]#
+| 
+
+| xref:IconProxy/data.adoc[`data`] 
+| 
+
+| xref:IconProxy/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:IconProxy/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:IconProxy/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconProxy/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconProxy/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

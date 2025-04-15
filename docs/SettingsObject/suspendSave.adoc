@@ -1,0 +1,20 @@
+[#SettingsObject-suspendSave]
+= xref:SettingsObject.adoc[SettingsObject]::suspendSave
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L142[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+suspendSave() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

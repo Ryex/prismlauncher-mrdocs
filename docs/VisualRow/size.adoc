@@ -1,0 +1,19 @@
+[#VisualRow-size]
+= xref:VisualRow.adoc[VisualRow]::size
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L51[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+size() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

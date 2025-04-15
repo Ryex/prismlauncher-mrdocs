@@ -1,0 +1,23 @@
+[#GetModDependenciesTask-tr]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::tr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L36[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

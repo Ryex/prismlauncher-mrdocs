@@ -1,0 +1,74 @@
+[#IconLabel]
+= IconLabel
+:relfileprefix: 
+:mrdocs:
+
+
+This is a trivial widget that paints a QIcon of the specified size&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/IconLabel.h#L10[ui&sol;widgets&sol;IconLabel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class IconLabel
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconLabel/2constructor.adoc[`IconLabel`]         [.small]#[constructor]#
+| Create a line separator&period; orientation is the orientation of the line&period;
+
+
+
+| xref:IconLabel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:IconLabel/paintEvent.adoc[`paintEvent`] 
+| 
+
+| xref:IconLabel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:IconLabel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:IconLabel/setIcon.adoc[`setIcon`] 
+| 
+
+| xref:IconLabel/sizeHint.adoc[`sizeHint`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconLabel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconLabel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

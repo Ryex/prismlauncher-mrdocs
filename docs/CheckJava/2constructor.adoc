@@ -1,0 +1,19 @@
+[#CheckJava-2constructor]
+= xref:CheckJava.adoc[CheckJava]::CheckJava
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/CheckJava.h#L25[launch&sol;steps&sol;CheckJava&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+CheckJava(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

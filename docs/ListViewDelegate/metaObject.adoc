@@ -1,0 +1,20 @@
+[#ListViewDelegate-metaObject]
+= xref:ListViewDelegate.adoc[ListViewDelegate]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.h#L22[ui&sol;instanceview&sol;InstanceDelegate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

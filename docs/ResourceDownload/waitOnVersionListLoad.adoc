@@ -1,0 +1,19 @@
+[#ResourceDownload-waitOnVersionListLoad]
+= xref:ResourceDownload.adoc[ResourceDownload]::waitOnVersionListLoad
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/TexturePackModel.cpp#L26[ui&sol;pages&sol;modplatform&sol;TexturePackModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+waitOnVersionListLoad(xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr] version&lowbar;list);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

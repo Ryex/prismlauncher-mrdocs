@@ -1,0 +1,19 @@
+[#MinecraftAccount-shouldRefresh]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::shouldRefresh
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L145[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+shouldRefresh() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

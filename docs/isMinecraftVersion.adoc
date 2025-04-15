@@ -1,0 +1,20 @@
+[#isMinecraftVersion]
+= isMinecraftVersion
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.cpp#L49[minecraft&sol;VersionFile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+isMinecraftVersion(xref:QString.adoc[QString] const& uid);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

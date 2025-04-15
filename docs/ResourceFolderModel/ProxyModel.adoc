@@ -1,0 +1,43 @@
+[#ResourceFolderModel-ProxyModel]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::ProxyModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L175[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProxyModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/ProxyModel/2constructor.adoc[`ProxyModel`]         [.small]#[constructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/ProxyModel/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+| xref:ResourceFolderModel/ProxyModel/lessThan.adoc[`lessThan`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

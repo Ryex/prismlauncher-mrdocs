@@ -1,0 +1,21 @@
+[#FlameAPI-getFiles]
+= xref:FlameAPI.adoc[FlameAPI]::getFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L24[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getFiles(
+    xref:QStringList.adoc[QStringList] const& fileIds,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QByteArray.adoc[QByteArray]&gt; response) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

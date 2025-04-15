@@ -1,0 +1,19 @@
+[#partialDate]
+= partialDate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.cpp#L64[ui&sol;themes&sol;CatPack&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JsonCatPack.adoc[JsonCatPack]::xref:JsonCatPack/PartialDate.adoc[PartialDate]
+partialDate(xref:QJsonObject.adoc[QJsonObject] date);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

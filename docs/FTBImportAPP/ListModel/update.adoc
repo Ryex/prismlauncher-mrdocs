@@ -1,0 +1,19 @@
+[#FTBImportAPP-ListModel-update]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/ListModel.adoc[ListModel]::update
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L61[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+update();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#VersionSelectWidget-loadList]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::loadList
+:relfileprefix: ../
+:mrdocs:
+
+
+Starts a task that loads the list&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L60[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Agent-argument]
+= xref:Agent.adoc[Agent]::argument
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Agent.h#L21[minecraft&sol;Agent&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+argument();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

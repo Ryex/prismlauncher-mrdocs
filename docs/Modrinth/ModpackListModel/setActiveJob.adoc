@@ -1,0 +1,19 @@
+[#Modrinth-ModpackListModel-setActiveJob]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackListModel.adoc[ModpackListModel]::setActiveJob
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthModel.h#L69[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setActiveJob(xref:NetJob.adoc[NetJob]::xref:NetJob/Ptr.adoc[Ptr] ptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

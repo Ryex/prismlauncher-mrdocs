@@ -1,0 +1,18 @@
+[#SimplePrefixMatcher-m_isPrefix]
+= xref:SimplePrefixMatcher.adoc[SimplePrefixMatcher]::m&lowbar;isPrefix
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/SimplePrefixMatcher.h#L24[pathmatcher&sol;SimplePrefixMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;isPrefix = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

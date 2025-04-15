@@ -1,0 +1,19 @@
+[#MetaEntry-getETag]
+= xref:MetaEntry.adoc[MetaEntry]::getETag
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L61[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getETag();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

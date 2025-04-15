@@ -1,0 +1,20 @@
+[#Resource-isMoreThanOneHardLink]
+= xref:Resource.adoc[Resource]::isMoreThanOneHardLink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L152[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+bool
+isMoreThanOneHardLink() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

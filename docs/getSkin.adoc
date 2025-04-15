@@ -1,0 +1,20 @@
+[#getSkin]
+= getSkin
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.cpp#L43[minecraft&sol;skins&sol;SkinModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QImage.adoc[QImage]
+getSkin(xref:QString.adoc[QString] const path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

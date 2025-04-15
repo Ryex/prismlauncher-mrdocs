@@ -1,0 +1,19 @@
+[#BaseInstance-launchTaskChanged]
+= xref:BaseInstance.adoc[BaseInstance]::launchTaskChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L291[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+launchTaskChanged(xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchTask.adoc[LaunchTask]&gt;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

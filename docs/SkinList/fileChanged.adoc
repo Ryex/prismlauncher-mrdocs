@@ -1,0 +1,19 @@
+[#SkinList-fileChanged]
+= xref:SkinList.adoc[SkinList]::fileChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L71[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+fileChanged(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,114 @@
+[#PageContainer]
+= PageContainer
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L56[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PageContainer
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePageContainer.adoc[BasePageContainer];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageContainer/2constructor.adoc[`PageContainer`]         [.small]#[constructor]#
+| 
+
+| xref:PageContainer/addButtons.adoc[`addButtons`] 
+| 
+| xref:PageContainer/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BasePageContainer/getPage.adoc[`getPage`] 
+| 
+| xref:PageContainer/getPages.adoc[`getPages`] 
+| 
+
+| xref:PageContainer/help.adoc[`help`] 
+| 
+
+| xref:PageContainer/hidePageList.adoc[`hidePageList`] 
+| 
+
+| xref:PageContainer/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:PageContainer/prepareToClose.adoc[`prepareToClose`] 
+| 
+
+| xref:PageContainer/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:PageContainer/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BasePageContainer/refreshContainer.adoc[`refreshContainer`] 
+| 
+| xref:BasePageContainer/requestClose.adoc[`requestClose`] 
+| 
+| xref:PageContainer/saveAll.adoc[`saveAll`] 
+| 
+
+| xref:BasePageContainer/selectPage.adoc[`selectPage`] 
+| 
+| xref:BasePageContainer/selectedPage.adoc[`selectedPage`] 
+| 
+| xref:PageContainer/selectedPageChanged.adoc[`selectedPageChanged`] 
+| Emitted when the currently selected page is changed
+
+
+
+| xref:PageContainer/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:PageContainer/2destructor.adoc[`&tilde;PageContainer`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageContainer/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageContainer/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

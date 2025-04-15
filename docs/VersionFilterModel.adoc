@@ -1,0 +1,65 @@
+[#VersionFilterModel]
+= VersionFilterModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.cpp#L44[VersionProxyModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionFilterModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel]
+    , public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionFilterModel/2constructor.adoc[`VersionFilterModel`]         [.small]#[constructor]#
+| 
+
+| xref:VersionFilterModel/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+| xref:VersionFilterModel/filterChanged.adoc[`filterChanged`] 
+| 
+
+| xref:VersionFilterModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VersionFilterModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VersionFilterModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionFilterModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionFilterModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

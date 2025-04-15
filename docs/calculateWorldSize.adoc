@@ -1,0 +1,19 @@
+[#calculateWorldSize]
+= calculateWorldSize
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L201[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:int64_t.adoc[int64&lowbar;t]
+calculateWorldSize(xref:QFileInfo.adoc[QFileInfo] const& file);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

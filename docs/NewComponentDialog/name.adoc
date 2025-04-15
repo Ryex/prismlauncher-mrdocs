@@ -1,0 +1,19 @@
+[#NewComponentDialog-name]
+= xref:NewComponentDialog.adoc[NewComponentDialog]::name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewComponentDialog.h#L35[ui&sol;dialogs&sol;NewComponentDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+name() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#InstanceView-horizontalOffset]
+= xref:InstanceView.adoc[InstanceView]::horizontalOffset
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L70[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+horizontalOffset() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LoggedProcess-stateChanged]
+= xref:LoggedProcess.adoc[LoggedProcess]::stateChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L62[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+stateChanged(xref:LoggedProcess.adoc[LoggedProcess]::xref:LoggedProcess/State.adoc[State] state);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

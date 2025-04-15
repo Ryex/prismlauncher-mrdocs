@@ -1,0 +1,24 @@
+[#BaseInstance-getLogFileRoot]
+= xref:BaseInstance.adoc[BaseInstance]::getLogFileRoot
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the root folder to use for looking up log files
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L209[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+getLogFileRoot() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

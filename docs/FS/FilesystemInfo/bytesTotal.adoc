@@ -1,0 +1,18 @@
+[#FS-FilesystemInfo-bytesTotal]
+= xref:FS.adoc[FS]::xref:FS/FilesystemInfo.adoc[FilesystemInfo]::bytesTotal
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L446[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64] bytesTotal;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

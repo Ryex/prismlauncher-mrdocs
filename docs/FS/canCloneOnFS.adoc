@@ -1,0 +1,39 @@
+[#FS-canCloneOnFS]
+= xref:FS.adoc[FS]::canCloneOnFS
+:relfileprefix: ../
+:mrdocs:
+
+
+if the Filesystem is reflink&sol;clone capable
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L470[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:FS/canCloneOnFS-01.adoc[canCloneOnFS](xref:QString.adoc[QString] const& path);
+----
+
+[.small]#xref:FS/canCloneOnFS-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:FS/canCloneOnFS-02.adoc[canCloneOnFS](xref:FS/FilesystemInfo.adoc[FilesystemInfo] const& info);
+----
+
+[.small]#xref:FS/canCloneOnFS-02.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:FS/canCloneOnFS-0c.adoc[canCloneOnFS](xref:FS/FilesystemType.adoc[FilesystemType] type);
+----
+
+[.small]#xref:FS/canCloneOnFS-0c.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

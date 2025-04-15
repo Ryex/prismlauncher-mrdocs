@@ -1,0 +1,19 @@
+[#Net-Sink-addValidator]
+= xref:Net.adoc[Net]::xref:Net/Sink.adoc[Sink]::addValidator
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Sink.h#L55[net&sol;Sink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addValidator(xref:Net/Validator.adoc[Validator]* validator);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

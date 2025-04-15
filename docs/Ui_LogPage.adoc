@@ -1,0 +1,21 @@
+[#Ui_LogPage]
+= Ui&lowbar;LogPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/build/launcher/ui_LogPage.h#L29[&sol;home&sol;ryex&sol;projects&sol;prism&sol;build&sol;launcher&sol;ui&lowbar;LogPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Ui&lowbar;LogPage;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ComponentUpdateTask-2destructor]
+= xref:ComponentUpdateTask.adoc[ComponentUpdateTask]::&tilde;ComponentUpdateTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.h#L18[minecraft&sol;ComponentUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ComponentUpdateTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

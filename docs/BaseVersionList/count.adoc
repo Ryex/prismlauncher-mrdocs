@@ -1,0 +1,24 @@
+[#BaseVersionList-count]
+= xref:BaseVersionList.adoc[BaseVersionList]::count
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the number of versions in the list&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L76[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+count() const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

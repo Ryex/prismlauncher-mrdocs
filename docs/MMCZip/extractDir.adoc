@@ -1,0 +1,63 @@
+[#MMCZip-extractDir]
+= xref:MMCZip.adoc[MMCZip]::extractDir
+:relfileprefix: ../
+:mrdocs:
+
+
+Extract a whole archive&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L122[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QStringList.adoc[QStringList]&gt;
+xref:MMCZip/extractDir-07.adoc[extractDir](
+    xref:QString.adoc[QString] fileCompressed,
+    xref:QString.adoc[QString] dir);
+----
+
+[.small]#xref:MMCZip/extractDir-07.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QStringList.adoc[QStringList]&gt;
+xref:MMCZip/extractDir-03.adoc[extractDir](
+    xref:QString.adoc[QString] fileCompressed,
+    xref:QString.adoc[QString] subdir,
+    xref:QString.adoc[QString] dir);
+----
+
+[.small]#xref:MMCZip/extractDir-03.adoc[_» more..._]#
+
+== Return Value
+
+The list of the full paths of the files extracted, empty on failure&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *fileCompressed*
+| The name of the archive&period;
+
+
+| *dir*
+| The directory to extract to, the current directory if left empty&period;
+
+
+| *subdir*
+| The directory within the archive to extract
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

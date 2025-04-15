@@ -1,0 +1,36 @@
+[#SkinProvider]
+= SkinProvider
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L31[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SkinProvider;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinProvider/capes.adoc[`capes`] 
+| 
+
+| xref:SkinProvider/getSelectedSkin.adoc[`getSelectedSkin`] 
+| 
+
+| xref:SkinProvider/2destructor.adoc[`&tilde;SkinProvider`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

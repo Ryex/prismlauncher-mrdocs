@@ -1,0 +1,30 @@
+[#InstanceName-2constructor]
+= xref:InstanceName.adoc[InstanceName]::InstanceName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L14[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+xref:InstanceName/2constructor-05.adoc[InstanceName]() = default;
+----
+
+[.small]#xref:InstanceName/2constructor-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstanceName/2constructor-01.adoc[InstanceName](
+    xref:QString.adoc[QString] name,
+    xref:QString.adoc[QString] version);
+----
+
+[.small]#xref:InstanceName/2constructor-01.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

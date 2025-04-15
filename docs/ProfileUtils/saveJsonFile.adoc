@@ -1,0 +1,25 @@
+[#ProfileUtils-saveJsonFile]
+= xref:ProfileUtils.adoc[ProfileUtils]::saveJsonFile
+:relfileprefix: ../
+:mrdocs:
+
+
+Save a JSON file (in any format)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L53[minecraft&sol;ProfileUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+saveJsonFile(
+    xref:QJsonDocument.adoc[QJsonDocument] const& doc,
+    xref:QString.adoc[QString] const& filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedPack-slug]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::slug
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L135[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] slug;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

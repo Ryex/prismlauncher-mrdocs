@@ -1,0 +1,22 @@
+[#Json-ensureVariant-052]
+= xref:Json.adoc[Json]::ensureVariant
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L277[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant]
+ensureVariant(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QVariant.adoc[QVariant] const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

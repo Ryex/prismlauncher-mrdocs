@@ -1,0 +1,25 @@
+[#IconUtils]
+= IconUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconUtils/findBestIconIn.adoc[`findBestIconIn`] 
+| 
+
+| xref:IconUtils/getIconFilter.adoc[`getIconFilter`] 
+| 
+
+| xref:IconUtils/isIconSuffix.adoc[`isIconSuffix`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

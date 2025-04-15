@@ -1,0 +1,20 @@
+[#ResourceDownload-ShaderPackResourceModel-createInfoArguments]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourceModel.adoc[ShaderPackResourceModel]::createInfoArguments
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackModel.h#L35[ui&sol;pages&sol;modplatform&sol;ShaderPackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/ProjectInfoArgs.adoc[ProjectInfoArgs]
+createInfoArguments(xref:QModelIndex.adoc[QModelIndex]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

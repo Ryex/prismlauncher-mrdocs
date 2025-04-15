@@ -1,0 +1,19 @@
+[#MainWindow-processURLs]
+= xref:MainWindow.adoc[MainWindow]::processURLs
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.h#L83[ui&sol;MainWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+processURLs(xref:QList.adoc[QList]&lt;xref:QUrl.adoc[QUrl]&gt; urls);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

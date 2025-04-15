@@ -1,0 +1,24 @@
+[#ResourceDownload-ResourceModel-addPack]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::addPack
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L101[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addPack(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr] pack,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]& version,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt; packs,
+    bool is&lowbar;indexed = false,
+    xref:QString.adoc[QString] custom&lowbar;target&lowbar;folder = &equals; &lcub;&rcub;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

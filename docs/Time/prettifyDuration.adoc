@@ -1,0 +1,21 @@
+[#Time-prettifyDuration]
+= xref:Time.adoc[Time]::prettifyDuration
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCTime.h#L23[MMCTime&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+prettifyDuration(
+    xref:int64_t.adoc[int64&lowbar;t] duration,
+    bool noDays = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

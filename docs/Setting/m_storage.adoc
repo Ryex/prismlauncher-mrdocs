@@ -1,0 +1,18 @@
+[#Setting-m_storage]
+= xref:Setting.adoc[Setting]::m&lowbar;storage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L106[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SettingsObject.adoc[SettingsObject]* m&lowbar;storage;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

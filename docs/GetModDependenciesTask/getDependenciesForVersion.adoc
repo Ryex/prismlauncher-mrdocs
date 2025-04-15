@@ -1,0 +1,21 @@
+[#GetModDependenciesTask-getDependenciesForVersion]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::getDependenciesForVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L70[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/Dependency.adoc[Dependency]&gt;
+getDependenciesForVersion(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion] const&,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] providerName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

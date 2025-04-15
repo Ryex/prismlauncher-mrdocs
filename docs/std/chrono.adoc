@@ -1,0 +1,35 @@
+[#std-chrono]
+= xref:std.adoc[std]::chrono
+:relfileprefix: ../
+:mrdocs:
+
+
+@&rcub; group chrono
+
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/chrono/_V2.adoc[`&lowbar;V2`] 
+| @&rcub;
+@&rcub; group chrono
+
+
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/chrono/time_point.adoc[`time&lowbar;point`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

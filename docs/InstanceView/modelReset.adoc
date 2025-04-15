@@ -1,0 +1,19 @@
+[#InstanceView-modelReset]
+= xref:InstanceView.adoc[InstanceView]::modelReset
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L89[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+modelReset();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

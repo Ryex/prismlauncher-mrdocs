@@ -1,0 +1,21 @@
+[#ExponentialSeries-2constructor]
+= xref:ExponentialSeries.adoc[ExponentialSeries]::ExponentialSeries
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ExponentialSeries.h#L18[ExponentialSeries&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ExponentialSeries(
+    unsigned int min,
+    unsigned int max,
+    unsigned int exponent = 2);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

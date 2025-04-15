@@ -1,0 +1,19 @@
+[#opengl-BoxGeometry-2destructor]
+= xref:opengl.adoc[opengl]::xref:opengl/BoxGeometry.adoc[BoxGeometry]::&tilde;BoxGeometry
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.h#L33[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;BoxGeometry();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

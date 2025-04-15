@@ -1,0 +1,19 @@
+[#MCEditTool-getProgramPath]
+= xref:MCEditTool.adoc[MCEditTool]::getProgramPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/MCEditTool.h#L12[tools&sol;MCEditTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getProgramPath();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

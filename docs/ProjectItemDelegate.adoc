@@ -1,0 +1,68 @@
+[#ProjectItemDelegate]
+= ProjectItemDelegate
+:relfileprefix: 
+:mrdocs:
+
+
+This is an item delegate composed of&colon;
+&hyphen; An Icon on the left
+&hyphen; A title
+&hyphen; A description
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectItem.h#L18[ui&sol;widgets&sol;ProjectItem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProjectItemDelegate
+    : public xref:QStyledItemDelegate.adoc[QStyledItemDelegate];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProjectItemDelegate/2constructor.adoc[`ProjectItemDelegate`]         [.small]#[constructor]#
+| 
+
+| xref:ProjectItemDelegate/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ProjectItemDelegate/paint.adoc[`paint`] 
+| 
+
+| xref:ProjectItemDelegate/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ProjectItemDelegate/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProjectItemDelegate/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProjectItemDelegate/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

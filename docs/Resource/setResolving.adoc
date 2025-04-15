@@ -1,0 +1,21 @@
+[#Resource-setResolving]
+= xref:Resource.adoc[Resource]::setResolving
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L131[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setResolving(
+    bool resolving,
+    int resolutionTicket);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

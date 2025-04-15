@@ -1,0 +1,36 @@
+[#ContainsFilter]
+= ContainsFilter
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L12[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ContainsFilter
+    : public xref:Filter.adoc[Filter];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ContainsFilter/2constructor.adoc[`ContainsFilter`]         [.small]#[constructor]#
+| 
+
+| xref:Filter/accepts.adoc[`accepts`] 
+| 
+| xref:ContainsFilter/2destructor.adoc[`&tilde;ContainsFilter`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

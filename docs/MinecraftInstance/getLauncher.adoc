@@ -1,0 +1,19 @@
+[#MinecraftInstance-getLauncher]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::getLauncher
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L132[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getLauncher();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

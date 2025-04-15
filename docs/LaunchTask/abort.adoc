@@ -1,0 +1,22 @@
+[#LaunchTask-abort]
+= xref:LaunchTask.adoc[LaunchTask]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+abort launch
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L83[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#PageContainer-2constructor]
+= xref:PageContainer.adoc[PageContainer]::PageContainer
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L59[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PageContainer(
+    xref:BasePageProvider.adoc[BasePageProvider]* pageProvider,
+    xref:QString.adoc[QString] defaultId = QString(),
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

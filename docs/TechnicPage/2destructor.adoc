@@ -1,0 +1,19 @@
+[#TechnicPage-2destructor]
+= xref:TechnicPage.adoc[TechnicPage]::&tilde;TechnicPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicPage.h#L62[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;TechnicPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#Ui-SetupWizard]
+= xref:Ui.adoc[Ui]::SetupWizard
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/SetupWizard.h#L21[ui&sol;setupwizard&sol;SetupWizard&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SetupWizard;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,135 @@
+[#ImportPage]
+= ImportPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ImportPage.h#L50[ui&sol;pages&sol;modplatform&sol;ImportPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ImportPage
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:BasePage.adoc[BasePage]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:BasePage.adoc[BasePage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportPage/2constructor.adoc[`ImportPage`]         [.small]#[constructor]#
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:ImportPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+| xref:ImportPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ImportPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:ImportPage/setExtraInfo.adoc[`setExtraInfo`] 
+| 
+
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:ImportPage/setUrl.adoc[`setUrl`] 
+| 
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+| xref:ImportPage/2destructor.adoc[`&tilde;ImportPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ImportPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

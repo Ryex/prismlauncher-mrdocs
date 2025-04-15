@@ -1,0 +1,22 @@
+[#replaceTokensIn]
+= replaceTokensIn
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.cpp#L688[minecraft&sol;MinecraftInstance&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+replaceTokensIn(
+    xref:QString.adoc[QString] text,
+    xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt; with);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

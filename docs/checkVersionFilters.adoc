@@ -1,0 +1,33 @@
+[#checkVersionFilters]
+= checkVersionFilters
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlamePage.cpp#L148[ui&sol;pages&sol;modplatform&sol;flame&sol;FlamePage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:checkVersionFilters-01.adoc[checkVersionFilters](
+    xref:Flame.adoc[Flame]::xref:Flame/IndexedVersion.adoc[IndexedVersion] const& v,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]::xref:ModFilterWidget/Filter.adoc[Filter]&gt; filter);
+----
+
+[.small]#xref:checkVersionFilters-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:checkVersionFilters-0a.adoc[checkVersionFilters](
+    xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackVersion.adoc[ModpackVersion] const& v,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]::xref:ModFilterWidget/Filter.adoc[Filter]&gt; filter);
+----
+
+[.small]#xref:checkVersionFilters-0a.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

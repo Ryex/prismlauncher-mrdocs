@@ -1,0 +1,27 @@
+[#askToUpdateInstanceDirName]
+= askToUpdateInstanceDirName
+:relfileprefix: 
+:mrdocs:
+
+
+Update instanceRoot to make it sync with name&sol;id&semi; return newRoot if a directory rename happened
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceDirUpdate.h#L40[InstanceDirUpdate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+askToUpdateInstanceDirName(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QString.adoc[QString] const& oldName,
+    xref:QString.adoc[QString] const& newName,
+    xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

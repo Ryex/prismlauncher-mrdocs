@@ -1,0 +1,19 @@
+[#MinecraftAccount-isActive]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::isActive
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L115[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isActive() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

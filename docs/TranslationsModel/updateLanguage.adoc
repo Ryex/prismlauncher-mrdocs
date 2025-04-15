@@ -1,0 +1,19 @@
+[#TranslationsModel-updateLanguage]
+= xref:TranslationsModel.adoc[TranslationsModel]::updateLanguage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.h#L36[translations&sol;TranslationsModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateLanguage(xref:QString.adoc[QString] key);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

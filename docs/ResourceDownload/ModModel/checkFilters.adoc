@@ -1,0 +1,20 @@
+[#ResourceDownload-ModModel-checkFilters]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]::checkFilters
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.h#L49[ui&sol;pages&sol;modplatform&sol;ModModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+checkFilters(xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr]) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#TexturePackFolderModel-createParseTask]
+= xref:TexturePackFolderModel.adoc[TexturePackFolderModel]::createParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePackFolderModel.h#L59[minecraft&sol;mod&sol;TexturePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]*
+createParseTask(xref:Resource.adoc[Resource]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

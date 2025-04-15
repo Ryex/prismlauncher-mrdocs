@@ -1,0 +1,24 @@
+[#NewsChecker-getLastLoadErrorMsg]
+= xref:NewsChecker.adoc[NewsChecker]::getLastLoadErrorMsg
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the error message for the last time the news was loaded&period;
+Empty string if the last load was successful&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L38[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getLastLoadErrorMsg() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

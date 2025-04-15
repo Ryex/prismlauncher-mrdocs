@@ -1,0 +1,76 @@
+[#SubTaskProgressBar]
+= SubTaskProgressBar
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/SubTaskProgressBar.h#L28[ui&sol;widgets&sol;SubTaskProgressBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SubTaskProgressBar
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SubTaskProgressBar/2constructor.adoc[`SubTaskProgressBar`]         [.small]#[constructor]#
+| 
+
+| xref:SubTaskProgressBar/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:SubTaskProgressBar/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:SubTaskProgressBar/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:SubTaskProgressBar/setDetails.adoc[`setDetails`] 
+| 
+
+| xref:SubTaskProgressBar/setRange.adoc[`setRange`] 
+| 
+
+| xref:SubTaskProgressBar/setStatus.adoc[`setStatus`] 
+| 
+
+| xref:SubTaskProgressBar/setValue.adoc[`setValue`] 
+| 
+
+| xref:SubTaskProgressBar/2destructor.adoc[`&tilde;SubTaskProgressBar`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SubTaskProgressBar/create.adoc[`create`] 
+| 
+
+| xref:SubTaskProgressBar/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SubTaskProgressBar/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

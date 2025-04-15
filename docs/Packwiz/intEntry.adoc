@@ -1,0 +1,21 @@
+[#Packwiz-intEntry]
+= xref:Packwiz.adoc[Packwiz]::intEntry
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.cpp#L82[modplatform&sol;packwiz&sol;Packwiz&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+intEntry(
+    xref:toml.adoc[toml]::xref:toml/v3/table.adoc[table] table,
+    xref:QString.adoc[QString] entry&lowbar;name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

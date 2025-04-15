@@ -1,0 +1,19 @@
+[#ResourceDownloadTask-getVersion]
+= xref:ResourceDownloadTask.adoc[ResourceDownloadTask]::getVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ResourceDownloadTask.h#L41[ResourceDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion] const&
+getVersion() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

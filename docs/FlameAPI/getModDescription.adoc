@@ -1,0 +1,19 @@
+[#FlameAPI-getModDescription]
+= xref:FlameAPI.adoc[FlameAPI]::getModDescription
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L16[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getModDescription(int modId);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

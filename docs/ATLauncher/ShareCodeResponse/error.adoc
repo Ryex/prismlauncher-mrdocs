@@ -1,0 +1,18 @@
+[#ATLauncher-ShareCodeResponse-error]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/ShareCodeResponse.adoc[ShareCodeResponse]::error
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLShareCode.h#L39[modplatform&sol;atlauncher&sol;ATLShareCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool error;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

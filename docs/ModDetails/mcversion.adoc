@@ -1,0 +1,18 @@
+[#ModDetails-mcversion]
+= xref:ModDetails.adoc[ModDetails]::mcversion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L125[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] mcversion = &equals; &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

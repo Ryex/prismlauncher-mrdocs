@@ -1,0 +1,22 @@
+[#VersionFile-updateTime]
+= xref:VersionFile.adoc[VersionFile]::updateTime
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; DEPRECATED the time this version was last updated by Mojang
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L114[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] updateTime;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

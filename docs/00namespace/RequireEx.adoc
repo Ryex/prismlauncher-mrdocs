@@ -1,0 +1,55 @@
+[#00namespace-RequireEx]
+= RequireEx
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L218[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct RequireEx
+    : xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Require/deepEquals.adoc[`deepEquals`] 
+| 
+
+| xref:Meta/Require/operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:Meta/Require/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Require/equalsVersion.adoc[`equalsVersion`] 
+| 
+
+| xref:00namespace/RequireEx/indexOfFirstDependee.adoc[`indexOfFirstDependee`] 
+| 
+
+| xref:Meta/Require/suggests.adoc[`suggests`] 
+| 
+
+| xref:Meta/Require/uid.adoc[`uid`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

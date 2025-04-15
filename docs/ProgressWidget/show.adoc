@@ -1,0 +1,23 @@
+[#ProgressWidget-show]
+= xref:ProgressWidget.adoc[ProgressWidget]::show
+:relfileprefix: ../
+:mrdocs:
+
+
+Un&hyphen;hide the widget if needed&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L39[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+show();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

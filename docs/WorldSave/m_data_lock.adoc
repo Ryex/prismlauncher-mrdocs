@@ -1,0 +1,19 @@
+[#WorldSave-m_data_lock]
+= xref:WorldSave.adoc[WorldSave]::m&lowbar;data&lowbar;lock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L53[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:QMutex.adoc[QMutex] m&lowbar;data&lowbar;lock;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,33 @@
+[#ResourceFolderModel-applyUpdates]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::applyUpdates
+:relfileprefix: ../
+:mrdocs:
+
+
+Standard implementation of the model update logic&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L215[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyUpdates(
+    xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt;& current&lowbar;set,
+    xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt;& new&lowbar;set,
+    xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:Resource.adoc[Resource]::xref:Resource/Ptr.adoc[Ptr]&gt;& new&lowbar;resources);
+----
+
+== Description
+
+It uses set operations to find differences between the current state and the updated state,
+to act only on those disparities&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ShaderPackPage-changeShaderPackVersion]
+= xref:ShaderPackPage.adoc[ShaderPackPage]::changeShaderPackVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ShaderPackPage.h#L59[ui&sol;pages&sol;instance&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+changeShaderPackVersion();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

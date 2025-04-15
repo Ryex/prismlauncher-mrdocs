@@ -1,0 +1,19 @@
+[#ExportToModListDialog-trigger]
+= xref:ExportToModListDialog.adoc[ExportToModListDialog]::trigger
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportToModListDialog.h#L42[ui&sol;dialogs&sol;ExportToModListDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+trigger(int);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

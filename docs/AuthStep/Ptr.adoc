@@ -1,0 +1,18 @@
+[#AuthStep-Ptr]
+= xref:AuthStep.adoc[AuthStep]::Ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthStep.h#L28[minecraft&sol;auth&sol;AuthStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:AuthStep.adoc[AuthStep]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

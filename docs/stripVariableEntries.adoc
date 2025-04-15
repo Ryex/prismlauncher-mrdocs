@@ -1,0 +1,22 @@
+[#stripVariableEntries]
+= stripVariableEntries
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L26[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+stripVariableEntries(
+    xref:QString.adoc[QString] name,
+    xref:QString.adoc[QString] target,
+    xref:QString.adoc[QString] remove);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

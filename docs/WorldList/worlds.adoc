@@ -1,0 +1,18 @@
+[#WorldList-worlds]
+= xref:WorldList.adoc[WorldList]::worlds
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L98[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:World.adoc[World]&gt; worlds;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ThumbnailRunnable-m_resultEmitter]
+= xref:ThumbnailRunnable.adoc[ThumbnailRunnable]::m&lowbar;resultEmitter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L125[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ThumbnailingResult.adoc[ThumbnailingResult] m&lowbar;resultEmitter;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

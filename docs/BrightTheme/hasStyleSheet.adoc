@@ -1,0 +1,20 @@
+[#BrightTheme-hasStyleSheet]
+= xref:BrightTheme.adoc[BrightTheme]::hasStyleSheet
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/BrightTheme.h#L46[ui&sol;themes&sol;BrightTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+hasStyleSheet() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,48 @@
+[#QValidator]
+= QValidator
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/7wkgdcnn79b0hwly7nwdisll2hfywvqq-qtbase-6.8.2/include/QtGui/qvalidator.h#L23[&sol;nix&sol;store&sol;7wkgdcnn79b0hwly7nwdisll2hfywvqq&hyphen;qtbase&hyphen;6&period;8&period;2&sol;include&sol;QtGui&sol;qvalidator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QValidator
+    : public xref:QObject.adoc[QObject];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QValidator/State.adoc[`State`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QValidator/2constructor-08.adoc[`QValidator`]         [.small]#[constructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QValidator/2constructor.adoc[`QValidator`]         [.small]#[constructor]#
+| 
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

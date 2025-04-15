@@ -1,0 +1,18 @@
+[#SeparatorPrefixTree-2constructor-0b]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::SeparatorPrefixTree
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L9[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+SeparatorPrefixTree(xref:QStringList.adoc[QStringList] paths);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

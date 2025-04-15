@@ -1,0 +1,27 @@
+[#getTrivialRemovals]
+= getTrivialRemovals
+:relfileprefix: 
+:mrdocs:
+
+
+Get list of uids that can be trivially removed because nothing is depending on them anymore (and they are installed as deps)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L296[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+getTrivialRemovals(
+    xref:ComponentContainer.adoc[ComponentContainer] const& components,
+    xref:00namespace/RequireExSet.adoc[RequireExSet] const& reqs,
+    xref:QStringList.adoc[QStringList]& toRemove);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

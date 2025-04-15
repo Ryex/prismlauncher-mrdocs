@@ -1,0 +1,18 @@
+[#VisualGroup-m_verticalPosition]
+= xref:VisualGroup.adoc[VisualGroup]::m&lowbar;verticalPosition
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L66[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int m&lowbar;verticalPosition = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

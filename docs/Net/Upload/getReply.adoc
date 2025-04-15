@@ -1,0 +1,20 @@
+[#Net-Upload-getReply]
+= xref:Net.adoc[Net]::xref:Net/Upload.adoc[Upload]::getReply
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Upload.h#L53[net&sol;Upload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QNetworkReply.adoc[QNetworkReply]*
+getReply(xref:QNetworkRequest.adoc[QNetworkRequest]& request) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

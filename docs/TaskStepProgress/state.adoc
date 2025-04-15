@@ -1,0 +1,18 @@
+[#TaskStepProgress-state]
+= xref:TaskStepProgress.adoc[TaskStepProgress]::state
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L61[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:TaskStepState.adoc[TaskStepState] state = TaskStepState&colon;&colon;Waiting;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

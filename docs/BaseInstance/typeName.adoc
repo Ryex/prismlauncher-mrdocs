@@ -1,0 +1,20 @@
+[#BaseInstance-typeName]
+= xref:BaseInstance.adoc[BaseInstance]::typeName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L219[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+typeName() const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

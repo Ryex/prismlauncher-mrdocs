@@ -1,0 +1,19 @@
+[#Net-Sink-finalizeAllValidators]
+= xref:Net.adoc[Net]::xref:Net/Sink.adoc[Sink]::finalizeAllValidators
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Sink.h#L71[net&sol;Sink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+finalizeAllValidators(xref:QNetworkReply.adoc[QNetworkReply]& reply);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

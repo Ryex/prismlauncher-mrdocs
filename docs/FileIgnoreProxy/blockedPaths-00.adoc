@@ -1,0 +1,19 @@
+[#FileIgnoreProxy-blockedPaths-00]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::blockedPaths
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L65[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]&lt;&apos;&sol;&apos;&gt;&
+blockedPaths();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

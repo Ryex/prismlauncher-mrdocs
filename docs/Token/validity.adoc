@@ -1,0 +1,18 @@
+[#Token-validity]
+= xref:Token.adoc[Token]::validity
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L56[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Validity.adoc[Validity] validity = Validity&colon;&colon;None;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

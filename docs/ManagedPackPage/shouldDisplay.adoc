@@ -1,0 +1,21 @@
+[#ManagedPackPage-shouldDisplay]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::shouldDisplay
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L44[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+shouldDisplay() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

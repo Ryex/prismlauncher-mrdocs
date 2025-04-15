@@ -1,0 +1,19 @@
+[#FS-ExternalLinkFileProcess-processExited]
+= xref:FS.adoc[FS]::xref:FS/ExternalLinkFileProcess.adoc[ExternalLinkFileProcess]::processExited
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L185[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+processExited();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

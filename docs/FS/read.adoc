@@ -1,0 +1,23 @@
+[#FS-read]
+= xref:FS.adoc[FS]::read
+:relfileprefix: ../
+:mrdocs:
+
+
+read data from a file safely
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L77[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray]
+read(xref:QString.adoc[QString] const& filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#InstanceTask-shouldConfirmUpdate]
+= xref:InstanceTask.adoc[InstanceTask]::shouldConfirmUpdate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L47[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+shouldConfirmUpdate() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

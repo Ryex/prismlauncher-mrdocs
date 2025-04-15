@@ -1,0 +1,21 @@
+[#InstanceSettingsPage-2constructor]
+= xref:InstanceSettingsPage.adoc[InstanceSettingsPage]::InstanceSettingsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/InstanceSettingsPage.h#L48[ui&sol;pages&sol;instance&sol;InstanceSettingsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+InstanceSettingsPage(
+    xref:MinecraftInstancePtr.adoc[MinecraftInstancePtr] instance,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

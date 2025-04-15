@@ -1,0 +1,18 @@
+[#LegacyFTB-PrivatePackManager-2destructor]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PrivatePackManager.adoc[PrivatePackManager]::&tilde;PrivatePackManager
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PrivatePackManager.h#L11[modplatform&sol;legacy&lowbar;ftb&sol;PrivatePackManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+&tilde;PrivatePackManager();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

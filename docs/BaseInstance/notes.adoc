@@ -1,0 +1,19 @@
+[#BaseInstance-notes]
+= xref:BaseInstance.adoc[BaseInstance]::notes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L138[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+notes() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

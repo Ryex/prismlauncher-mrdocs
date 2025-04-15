@@ -1,0 +1,20 @@
+[#ModrinthPackExportTask-executeTask]
+= xref:ModrinthPackExportTask.adoc[ModrinthPackExportTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackExportTask.h#L41[modplatform&sol;modrinth&sol;ModrinthPackExportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

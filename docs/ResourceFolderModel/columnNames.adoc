@@ -1,0 +1,19 @@
+[#ResourceFolderModel-columnNames]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::columnNames
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L142[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+columnNames(bool translated = true) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

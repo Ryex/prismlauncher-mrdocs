@@ -1,0 +1,19 @@
+[#SkinModel-rename]
+= xref:SkinModel.adoc[SkinModel]::rename
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L44[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+rename(xref:QString.adoc[QString] newName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

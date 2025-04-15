@@ -1,0 +1,25 @@
+[#ProfileUtils-readOverrideOrders]
+= xref:ProfileUtils.adoc[ProfileUtils]::readOverrideOrders
+:relfileprefix: ../
+:mrdocs:
+
+
+Read and parse a OneSix format order file
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L44[minecraft&sol;ProfileUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+readOverrideOrders(
+    xref:QString.adoc[QString] path,
+    xref:ProfileUtils/PatchOrder.adoc[PatchOrder]& order);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#World-name]
+= xref:World.adoc[World]::name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L36[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+name() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

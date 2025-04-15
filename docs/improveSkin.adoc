@@ -1,0 +1,20 @@
+[#improveSkin]
+= improveSkin
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.cpp#L26[minecraft&sol;skins&sol;SkinModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QImage.adoc[QImage]
+improveSkin(xref:QImage.adoc[QImage] const& skin);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

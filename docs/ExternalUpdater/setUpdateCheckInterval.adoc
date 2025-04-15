@@ -1,0 +1,24 @@
+[#ExternalUpdater-setUpdateCheckInterval]
+= xref:ExternalUpdater.adoc[ExternalUpdater]::setUpdateCheckInterval
+:relfileprefix: ../
+:mrdocs:
+
+
+Set the current automatic update check interval in seconds&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/ExternalUpdater.h#L66[updater&sol;ExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setUpdateCheckInterval(double seconds) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

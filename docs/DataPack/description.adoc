@@ -1,0 +1,24 @@
+[#DataPack-description]
+= xref:DataPack.adoc[DataPack]::description
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the description of the data pack&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L47[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QString.adoc[QString]
+description() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

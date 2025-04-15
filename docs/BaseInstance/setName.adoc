@@ -1,0 +1,19 @@
+[#BaseInstance-setName]
+= xref:BaseInstance.adoc[BaseInstance]::setName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L127[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setName(xref:QString.adoc[QString] val);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,50 @@
+[#ThemeCustomizationWidget-showFeatures]
+= xref:ThemeCustomizationWidget.adoc[ThemeCustomizationWidget]::showFeatures
+:relfileprefix: ../
+:mrdocs:
+
+
+&lt;summary&gt;
+The layout was not quite right, so currently this just disables the UI elements, which should be hidden instead
+TODO FIXME
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ThemeCustomizationWidget.h#L36[ui&sol;widgets&sol;ThemeCustomizationWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+showFeatures(xref:ThemeFields.adoc[ThemeFields] features);
+----
+
+== Description
+
+Original Method One&colon;
+ui&hyphen;&gt;iconsComboBox&hyphen;&gt;setVisible(features&amp; ThemeFields&colon;&colon;ICONS)&semi;
+ui&hyphen;&gt;iconsLabel&hyphen;&gt;setVisible(features&amp; ThemeFields&colon;&colon;ICONS)&semi;
+ui&hyphen;&gt;widgetStyleComboBox&hyphen;&gt;setVisible(features&amp; ThemeFields&colon;&colon;WIDGETS)&semi;
+ui&hyphen;&gt;widgetThemeLabel&hyphen;&gt;setVisible(features&amp; ThemeFields&colon;&colon;WIDGETS)&semi;
+ui&hyphen;&gt;backgroundCatComboBox&hyphen;&gt;setVisible(features&amp; ThemeFields&colon;&colon;CAT)&semi;
+ui&hyphen;&gt;backgroundCatLabel&hyphen;&gt;setVisible(features&amp; ThemeFields&colon;&colon;CAT)&semi;
+
+original Method Two&colon;
+if (!(features&amp; ThemeFields&colon;&colon;ICONS)) &lcub;
+ui&hyphen;&gt;formLayout&hyphen;&gt;setRowVisible(0, false)&semi;
+&rcub;
+if (!(features&amp; ThemeFields&colon;&colon;WIDGETS)) &lcub;
+ui&hyphen;&gt;formLayout&hyphen;&gt;setRowVisible(1, false)&semi;
+&rcub;
+if (!(features&amp; ThemeFields&colon;&colon;CAT)) &lcub;
+ui&hyphen;&gt;formLayout&hyphen;&gt;setRowVisible(2, false)&semi;
+&rcub;
+&lt;&sol;summary&gt;
+&lt;param name&equals;&quot;features&quot;&gt;&lt;&sol;param&gt;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

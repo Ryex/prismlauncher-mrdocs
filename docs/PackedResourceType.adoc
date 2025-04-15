@@ -1,0 +1,39 @@
+[#PackedResourceType]
+= PackedResourceType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceParse.h#L30[minecraft&sol;mod&sol;tasks&sol;LocalResourceParse&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum PackedResourceType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`DataPack`
+|
+|`ResourcePack`
+|
+|`TexturePack`
+|
+|`ShaderPack`
+|
+|`WorldSave`
+|
+|`Mod`
+|
+|`UNKNOWN`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

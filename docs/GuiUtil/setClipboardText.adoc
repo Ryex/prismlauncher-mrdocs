@@ -1,0 +1,19 @@
+[#GuiUtil-setClipboardText]
+= xref:GuiUtil.adoc[GuiUtil]::setClipboardText
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.h#L8[ui&sol;GuiUtil&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setClipboardText(xref:QString.adoc[QString] const& text);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

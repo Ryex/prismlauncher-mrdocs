@@ -1,0 +1,18 @@
+[#ReviewMessageBox-ui]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::ui
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L39[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Ui.adoc[Ui]::xref:Ui/ReviewMessageBox.adoc[ReviewMessageBox]* ui;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

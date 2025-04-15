@@ -1,0 +1,210 @@
+[#Meta-Version]
+= xref:Meta.adoc[Meta]::Version
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L34[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Version
+    : public xref:QObject.adoc[QObject]
+    , public xref:BaseVersion.adoc[BaseVersion]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity]
+    , public xref:QObject.adoc[QObject]
+    , public xref:BaseVersion.adoc[BaseVersion]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity]
+    , public xref:QObject.adoc[QObject]
+    , public xref:BaseVersion.adoc[BaseVersion]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersion/Ptr.adoc[`Ptr`] 
+| 
+
+| xref:Meta/BaseEntity/Ptr.adoc[`Ptr`] 
+| 
+
+| xref:Meta/Version/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/LoadStatus.adoc[`LoadStatus`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Version/2constructor.adoc[`Version`]         [.small]#[constructor]#
+| 
+
+| xref:Meta/Version/data.adoc[`data`] 
+| 
+
+| xref:BaseVersion/descriptor.adoc[`descriptor`] 
+| A string used to identify this version in config files&period;
+This should be unique within the version list or shenanigans will occur&period;
+
+
+
+| xref:Meta/BaseEntity/isLoaded.adoc[`isLoaded`] 
+| 
+| xref:Meta/Version/isRecommended.adoc[`isRecommended`] 
+| 
+
+| xref:Meta/BaseEntity/loadTask.adoc[`loadTask`] 
+| 
+
+| xref:Meta/BaseEntity/localFilename.adoc[`localFilename`] 
+| 
+| xref:Meta/Version/merge.adoc[`merge`] 
+| 
+
+| xref:Meta/Version/mergeFromList.adoc[`mergeFromList`] 
+| 
+
+| xref:Meta/Version/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:BaseVersion/name.adoc[`name`] 
+| The name of this version as it is displayed to the user&period;
+For example&colon; &quot;1&period;5&period;1&quot;
+
+
+
+| xref:BaseVersion/operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:BaseVersion/operator_gt.adoc[`operator&gt;`] 
+| 
+
+| xref:Meta/BaseEntity/parse.adoc[`parse`] 
+| 
+| xref:Meta/Version/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Meta/Version/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Meta/Version/rawTime.adoc[`rawTime`] 
+| 
+
+| xref:Meta/Version/requiredSet.adoc[`requiredSet`] 
+| 
+
+| xref:Meta/Version/requiresChanged.adoc[`requiresChanged`] 
+| 
+
+| xref:Meta/Version/setData.adoc[`setData`] 
+| 
+
+| xref:Meta/Version/setProvidesRecommendations.adoc[`setProvidesRecommendations`] 
+| 
+
+| xref:Meta/Version/setRecommended.adoc[`setRecommended`] 
+| 
+
+| xref:Meta/Version/setRequires.adoc[`setRequires`] 
+| 
+
+| xref:Meta/BaseEntity/setSha256.adoc[`setSha256`] 
+| 
+
+| xref:Meta/Version/setTime.adoc[`setTime`] 
+| 
+
+| xref:Meta/Version/setType.adoc[`setType`] 
+| 
+
+| xref:Meta/Version/setVolatile.adoc[`setVolatile`] 
+| 
+
+| xref:Meta/BaseEntity/status.adoc[`status`] 
+| 
+
+| xref:Meta/Version/time.adoc[`time`] 
+| 
+
+| xref:Meta/Version/timeChanged.adoc[`timeChanged`] 
+| 
+
+| xref:Meta/Version/toComparableVersion.adoc[`toComparableVersion`] 
+| 
+
+| xref:Meta/Version/type.adoc[`type`] 
+| 
+
+| xref:Meta/Version/typeChanged.adoc[`typeChanged`] 
+| 
+
+| xref:BaseVersion/typeString.adoc[`typeString`] 
+| This should return a string that describes
+the kind of version this is (Stable, Beta, Snapshot, whatever)
+
+
+
+| xref:Meta/Version/uid.adoc[`uid`] 
+| 
+
+| xref:Meta/BaseEntity/url.adoc[`url`] 
+| 
+
+| xref:Meta/Version/version.adoc[`version`] 
+| 
+
+| xref:Meta/Version/2destructor.adoc[`&tilde;Version`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Version/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/Version/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/m_file_sha256.adoc[`m&lowbar;file&lowbar;sha256`] 
+| 
+
+| xref:Meta/BaseEntity/m_sha256.adoc[`m&lowbar;sha256`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

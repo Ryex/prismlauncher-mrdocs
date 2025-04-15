@@ -1,0 +1,35 @@
+[#IconType]
+= IconType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L40[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum IconType : unsigned int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Builtin`
+|
+|`Transient`
+|
+|`FileBased`
+|
+|`ICONS&lowbar;TOTAL`
+|
+|`ToBeDeleted`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

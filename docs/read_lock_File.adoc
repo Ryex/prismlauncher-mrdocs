@@ -1,0 +1,19 @@
+[#read_lock_File]
+= read&lowbar;lock&lowbar;File
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.cpp#L187[Application&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/tuple.adoc[tuple]&lt;xref:QDateTime.adoc[QDateTime], xref:QString.adoc[QString], xref:QString.adoc[QString], xref:QString.adoc[QString], xref:QString.adoc[QString]&gt;
+read&lowbar;lock&lowbar;File(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

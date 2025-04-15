@@ -1,0 +1,18 @@
+[#AssetUpdateTask-2constructor]
+= xref:AssetUpdateTask.adoc[AssetUpdateTask]::AssetUpdateTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/update/AssetUpdateTask.h#L9[minecraft&sol;update&sol;AssetUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+AssetUpdateTask(xref:MinecraftInstance.adoc[MinecraftInstance]* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

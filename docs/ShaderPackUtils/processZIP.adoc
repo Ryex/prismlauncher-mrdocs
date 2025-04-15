@@ -1,0 +1,21 @@
+[#ShaderPackUtils-processZIP]
+= xref:ShaderPackUtils.adoc[ShaderPackUtils]::processZIP
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalShaderPackParseTask.h#L37[minecraft&sol;mod&sol;tasks&sol;LocalShaderPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processZIP(
+    xref:ShaderPack.adoc[ShaderPack]& pack,
+    xref:ShaderPackUtils/ProcessingLevel.adoc[ProcessingLevel] level = ProcessingLevel&colon;&colon;Full);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

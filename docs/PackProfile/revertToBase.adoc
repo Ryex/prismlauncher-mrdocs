@@ -1,0 +1,19 @@
+[#PackProfile-revertToBase]
+= xref:PackProfile.adoc[PackProfile]::revertToBase
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L115[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+revertToBase(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

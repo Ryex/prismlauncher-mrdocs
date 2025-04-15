@@ -1,0 +1,26 @@
+[#StringUtils-naturalCompare]
+= xref:StringUtils.adoc[StringUtils]::naturalCompare
+:relfileprefix: ../
+:mrdocs:
+
+
+TAKEN FROM Qt, because it doesn&apos;t expose it intelligently
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.h#L70[StringUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+naturalCompare(
+    xref:QString.adoc[QString] const& s1,
+    xref:QString.adoc[QString] const& s2,
+    xref:Qt.adoc[Qt]::xref:Qt/CaseSensitivity.adoc[CaseSensitivity] cs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#MetaEntry-setLocalChangedTimestamp]
+= xref:MetaEntry.adoc[MetaEntry]::setLocalChangedTimestamp
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L59[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setLocalChangedTimestamp(xref:qint64.adoc[qint64] timestamp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

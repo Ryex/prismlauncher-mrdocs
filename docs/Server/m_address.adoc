@@ -1,0 +1,18 @@
+[#Server-m_address]
+= xref:Server.adoc[Server]::m&lowbar;address
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L107[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;address;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

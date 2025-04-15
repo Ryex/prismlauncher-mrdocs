@@ -1,0 +1,18 @@
+[#MultiMatcher-m_matchers]
+= xref:MultiMatcher.adoc[MultiMatcher]::m&lowbar;matchers
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/MultiMatcher.h#L27[pathmatcher&sol;MultiMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:IPathMatcher/Ptr.adoc[Ptr]&gt; m&lowbar;matchers;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

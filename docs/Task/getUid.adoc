@@ -1,0 +1,19 @@
+[#Task-getUid]
+= xref:Task.adoc[Task]::getUid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L129[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QUuid.adoc[QUuid]
+getUid();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

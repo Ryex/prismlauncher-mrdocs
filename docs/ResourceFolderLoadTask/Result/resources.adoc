@@ -1,0 +1,18 @@
+[#ResourceFolderLoadTask-Result-resources]
+= xref:ResourceFolderLoadTask.adoc[ResourceFolderLoadTask]::xref:ResourceFolderLoadTask/Result.adoc[Result]::resources
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/ResourceFolderLoadTask.h#L51[minecraft&sol;mod&sol;tasks&sol;ResourceFolderLoadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:Resource.adoc[Resource]::xref:Resource/Ptr.adoc[Ptr]&gt; resources;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

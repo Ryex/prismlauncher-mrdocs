@@ -1,0 +1,21 @@
+[#ModUtils-processZIP]
+= xref:ModUtils.adoc[ModUtils]::processZIP
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L22[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processZIP(
+    xref:Mod.adoc[Mod]& mod,
+    xref:ModUtils/ProcessingLevel.adoc[ProcessingLevel] level = ProcessingLevel&colon;&colon;Full);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

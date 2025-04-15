@@ -1,0 +1,34 @@
+[#MMCZip-findFilesInZip]
+= xref:MMCZip.adoc[MMCZip]::findFilesInZip
+:relfileprefix: ../
+:mrdocs:
+
+
+Find a multiple files of the same name in archive by file name
+If a file is found in a path, no deeper paths are searched
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L106[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+findFilesInZip(
+    xref:QuaZip.adoc[QuaZip]* zip,
+    xref:QString.adoc[QString] const& what,
+    xref:QStringList.adoc[QStringList]& result,
+    xref:QString.adoc[QString] const& root = QString());
+----
+
+== Return Value
+
+true if anything was found
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PageModel-pages]
+= xref:PageModel.adoc[PageModel]::pages
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer_p.h#L70[ui&sol;widgets&sol;PageContainer&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:BasePage.adoc[BasePage]*&gt; const&
+pages() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

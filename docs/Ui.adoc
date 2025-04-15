@@ -1,0 +1,196 @@
+[#Ui]
+= Ui
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Ui/APIPage.adoc[`APIPage`] 
+| 
+
+| xref:Ui/AboutDialog.adoc[`AboutDialog`] 
+| 
+
+| xref:Ui/AccountListPage.adoc[`AccountListPage`] 
+| 
+
+| xref:Ui/AtlOptionalModDialog.adoc[`AtlOptionalModDialog`] 
+| 
+
+| xref:Ui/AtlPage.adoc[`AtlPage`] 
+| 
+
+| xref:Ui/AutoJavaWizardPage.adoc[`AutoJavaWizardPage`] 
+| 
+
+| xref:Ui/BlockedModsDialog.adoc[`BlockedModsDialog`] 
+| 
+
+| xref:Ui/ChooseProviderDialog.adoc[`ChooseProviderDialog`] 
+| 
+
+| xref:Ui/CopyInstanceDialog.adoc[`CopyInstanceDialog`] 
+| 
+
+| xref:Ui/CustomCommands.adoc[`CustomCommands`] 
+| 
+
+| xref:Ui/CustomPage.adoc[`CustomPage`] 
+| 
+
+| xref:Ui/EnvironmentVariables.adoc[`EnvironmentVariables`] 
+| 
+
+| xref:Ui/ExportInstanceDialog.adoc[`ExportInstanceDialog`] 
+| 
+
+| xref:Ui/ExportPackDialog.adoc[`ExportPackDialog`] 
+| 
+
+| xref:Ui/ExportToModListDialog.adoc[`ExportToModListDialog`] 
+| 
+
+| xref:Ui/ExternalResourcesPage.adoc[`ExternalResourcesPage`] 
+| 
+
+| xref:Ui/ExternalToolsPage.adoc[`ExternalToolsPage`] 
+| 
+
+| xref:Ui/FlamePage.adoc[`FlamePage`] 
+| 
+
+| xref:Ui/GameOptionsPage.adoc[`GameOptionsPage`] 
+| 
+
+| xref:Ui/IconPickerDialog.adoc[`IconPickerDialog`] 
+| 
+
+| xref:Ui/ImportPage.adoc[`ImportPage`] 
+| 
+
+| xref:Ui/ImportResourceDialog.adoc[`ImportResourceDialog`] 
+| 
+
+| xref:Ui/InfoFrame.adoc[`InfoFrame`] 
+| 
+
+| xref:Ui/JavaPage.adoc[`JavaPage`] 
+| 
+
+| xref:Ui/JavaSettingsWidget.adoc[`JavaSettingsWidget`] 
+| 
+
+| xref:Ui/LauncherPage.adoc[`LauncherPage`] 
+| 
+
+| xref:Ui/LogPage.adoc[`LogPage`] 
+| 
+
+| xref:Ui/LoginWizardPage.adoc[`LoginWizardPage`] 
+| 
+
+| xref:Ui/MSALoginDialog.adoc[`MSALoginDialog`] 
+| 
+
+| xref:Ui/MainWindow.adoc[`MainWindow`] 
+| 
+
+| xref:Ui/ManagedPackPage.adoc[`ManagedPackPage`] 
+| 
+
+| xref:Ui/MinecraftSettingsWidget.adoc[`MinecraftSettingsWidget`] 
+| 
+
+| xref:Ui/ModFilterWidget.adoc[`ModFilterWidget`] 
+| 
+
+| xref:Ui/ModrinthPage.adoc[`ModrinthPage`] 
+| 
+
+| xref:Ui/NewComponentDialog.adoc[`NewComponentDialog`] 
+| 
+
+| xref:Ui/NewInstanceDialog.adoc[`NewInstanceDialog`] 
+| 
+
+| xref:Ui/NewsDialog.adoc[`NewsDialog`] 
+| 
+
+| xref:Ui/NotesPage.adoc[`NotesPage`] 
+| 
+
+| xref:Ui/OfflineLoginDialog.adoc[`OfflineLoginDialog`] 
+| 
+
+| xref:Ui/OptionalModDialog.adoc[`OptionalModDialog`] 
+| 
+
+| xref:Ui/OtherLogsPage.adoc[`OtherLogsPage`] 
+| 
+
+| xref:Ui/PasteWizardPage.adoc[`PasteWizardPage`] 
+| 
+
+| xref:Ui/ProfileSelectDialog.adoc[`ProfileSelectDialog`] 
+| 
+
+| xref:Ui/ProfileSetupDialog.adoc[`ProfileSetupDialog`] 
+| 
+
+| xref:Ui/ProgressDialog.adoc[`ProgressDialog`] 
+| 
+
+| xref:Ui/ProxyPage.adoc[`ProxyPage`] 
+| 
+
+| xref:Ui/ResourcePage.adoc[`ResourcePage`] 
+| 
+
+| xref:Ui/ReviewMessageBox.adoc[`ReviewMessageBox`] 
+| 
+
+| xref:Ui/ScreenshotsPage.adoc[`ScreenshotsPage`] 
+| 
+
+| xref:Ui/ScrollMessageBox.adoc[`ScrollMessageBox`] 
+| 
+
+| xref:Ui/ServersPage.adoc[`ServersPage`] 
+| 
+
+| xref:Ui/SetupWizard.adoc[`SetupWizard`] 
+| 
+
+| xref:Ui/SkinManageDialog.adoc[`SkinManageDialog`] 
+| 
+
+| xref:Ui/SubTaskProgressBar.adoc[`SubTaskProgressBar`] 
+| 
+
+| xref:Ui/TechnicPage.adoc[`TechnicPage`] 
+| 
+
+| xref:Ui/ThemeCustomizationWidget.adoc[`ThemeCustomizationWidget`] 
+| 
+
+| xref:Ui/ThemeWizardPage.adoc[`ThemeWizardPage`] 
+| 
+
+| xref:Ui/UpdateAvailableDialog.adoc[`UpdateAvailableDialog`] 
+| 
+
+| xref:Ui/VersionPage.adoc[`VersionPage`] 
+| 
+
+| xref:Ui/WorldListPage.adoc[`WorldListPage`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

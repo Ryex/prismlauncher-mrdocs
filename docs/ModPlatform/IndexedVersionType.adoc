@@ -1,0 +1,80 @@
+[#ModPlatform-IndexedVersionType]
+= xref:ModPlatform.adoc[ModPlatform]::IndexedVersionType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L60[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct IndexedVersionType;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedVersionType/VersionType.adoc[`VersionType`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedVersionType/2constructor.adoc[`IndexedVersionType`]         [.small]#[constructor]#
+| 
+| xref:ModPlatform/IndexedVersionType/isValid.adoc[`isValid`] 
+| 
+
+| xref:ModPlatform/IndexedVersionType/operator_not_eq.adoc[`operator!&equals;`] 
+| 
+| xref:ModPlatform/IndexedVersionType/operator_lt.adoc[`operator&lt;`] 
+| 
+| xref:ModPlatform/IndexedVersionType/operator_le.adoc[`operator&lt;&equals;`] 
+| 
+| xref:ModPlatform/IndexedVersionType/operator_assign.adoc[`operator&equals;`] 
+| 
+
+| xref:ModPlatform/IndexedVersionType/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+| xref:ModPlatform/IndexedVersionType/operator_gt.adoc[`operator&gt;`] 
+| 
+| xref:ModPlatform/IndexedVersionType/operator_ge.adoc[`operator&gt;&equals;`] 
+| 
+| xref:ModPlatform/IndexedVersionType/toString-0c.adoc[`toString`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedVersionType/enumFromString.adoc[`enumFromString`] 
+| 
+
+| xref:ModPlatform/IndexedVersionType/toString-02.adoc[`toString`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedVersionType/m_type.adoc[`m&lowbar;type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Application-themeManager]
+= xref:Application.adoc[Application]::themeManager
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L119[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ThemeManager.adoc[ThemeManager]*
+themeManager();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

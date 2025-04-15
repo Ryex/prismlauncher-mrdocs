@@ -1,0 +1,20 @@
+[#Json-requireIsArrayOf-01]
+= xref:Json.adoc[Json]::requireIsArrayOf
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L190[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+xref:QVector.adoc[QVector]&lt;T&gt;
+requireIsArrayOf(xref:QJsonDocument.adoc[QJsonDocument] const& doc);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

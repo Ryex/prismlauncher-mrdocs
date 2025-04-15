@@ -1,0 +1,20 @@
+[#InstanceView-startDrag]
+= xref:InstanceView.adoc[InstanceView]::startDrag
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L111[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+startDrag(xref:Qt.adoc[Qt]::xref:Qt/DropActions.adoc[DropActions] supportedActions) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

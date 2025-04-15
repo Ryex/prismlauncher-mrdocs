@@ -1,0 +1,19 @@
+[#LanguageSelectionWidget-retranslate]
+= xref:LanguageSelectionWidget.adoc[LanguageSelectionWidget]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LanguageSelectionWidget.h#L33[ui&sol;widgets&sol;LanguageSelectionWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+retranslate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

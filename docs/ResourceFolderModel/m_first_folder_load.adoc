@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_first_folder_load]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;first&lowbar;folder&lowbar;load
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L254[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;first&lowbar;folder&lowbar;load = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

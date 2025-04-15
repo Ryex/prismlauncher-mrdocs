@@ -1,0 +1,18 @@
+[#PackProfileData-interactionDisabled]
+= xref:PackProfileData.adoc[PackProfileData]::interactionDisabled
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L27[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool interactionDisabled = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

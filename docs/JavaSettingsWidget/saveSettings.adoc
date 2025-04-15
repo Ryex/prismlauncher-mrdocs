@@ -1,0 +1,19 @@
+[#JavaSettingsWidget-saveSettings]
+= xref:JavaSettingsWidget.adoc[JavaSettingsWidget]::saveSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaSettingsWidget.h#L56[ui&sol;widgets&sol;JavaSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+saveSettings();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

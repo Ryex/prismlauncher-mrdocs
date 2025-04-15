@@ -1,0 +1,20 @@
+[#SimplePrefixMatcher-matches]
+= xref:SimplePrefixMatcher.adoc[SimplePrefixMatcher]::matches
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/SimplePrefixMatcher.h#L17[pathmatcher&sol;SimplePrefixMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+matches(xref:QString.adoc[QString] const& string) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

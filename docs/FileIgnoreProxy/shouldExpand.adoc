@@ -1,0 +1,19 @@
+[#FileIgnoreProxy-shouldExpand]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::shouldExpand
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L60[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+shouldExpand(xref:QModelIndex.adoc[QModelIndex] index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

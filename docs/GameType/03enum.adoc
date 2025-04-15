@@ -1,0 +1,35 @@
+[#GameType-03enum]
+= Unnamed enum
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L28[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum &lt;unnamed&gt;;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Unknown`
+|
+|`Survival`
+|
+|`Creative`
+|
+|`Adventure`
+|
+|`Spectator`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

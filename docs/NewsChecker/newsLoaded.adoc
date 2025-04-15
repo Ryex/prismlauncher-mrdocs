@@ -1,0 +1,23 @@
+[#NewsChecker-newsLoaded]
+= xref:NewsChecker.adoc[NewsChecker]::newsLoaded
+:relfileprefix: ../
+:mrdocs:
+
+
+Signal fired after the news has finished loading&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L63[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+newsLoaded();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

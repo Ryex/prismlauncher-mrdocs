@@ -1,0 +1,54 @@
+[#ExponentialSeries]
+= ExponentialSeries
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ExponentialSeries.h#L16[ExponentialSeries&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExponentialSeries;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExponentialSeries/2constructor.adoc[`ExponentialSeries`]         [.small]#[constructor]#
+| 
+
+| xref:ExponentialSeries/operator_call.adoc[`operator()`] 
+| 
+
+| xref:ExponentialSeries/reset.adoc[`reset`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExponentialSeries/m_current.adoc[`m&lowbar;current`] 
+| 
+
+| xref:ExponentialSeries/m_exponent.adoc[`m&lowbar;exponent`] 
+| 
+
+| xref:ExponentialSeries/m_max.adoc[`m&lowbar;max`] 
+| 
+
+| xref:ExponentialSeries/m_min.adoc[`m&lowbar;min`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

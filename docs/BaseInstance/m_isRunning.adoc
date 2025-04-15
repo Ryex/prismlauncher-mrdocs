@@ -1,0 +1,18 @@
+[#BaseInstance-m_isRunning]
+= xref:BaseInstance.adoc[BaseInstance]::m&lowbar;isRunning
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L306[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;isRunning = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

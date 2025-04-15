@@ -1,0 +1,20 @@
+[#PageContainer-selectPage]
+= xref:PageContainer.adoc[PageContainer]::selectPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L80[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+selectPage(xref:QString.adoc[QString] pageId) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

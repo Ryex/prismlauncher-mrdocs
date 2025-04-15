@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_helper_thread_task]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;helper&lowbar;thread&lowbar;task
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L264[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ConcurrentTask.adoc[ConcurrentTask] m&lowbar;helper&lowbar;thread&lowbar;task;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

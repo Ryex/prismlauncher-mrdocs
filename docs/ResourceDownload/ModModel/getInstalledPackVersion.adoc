@@ -1,0 +1,20 @@
+[#ResourceDownload-ModModel-getInstalledPackVersion]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]::getInstalledPackVersion
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.h#L38[ui&sol;pages&sol;modplatform&sol;ModModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+getInstalledPackVersion(xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr]) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

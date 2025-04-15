@@ -1,0 +1,19 @@
+[#FS-create_link-whitelist]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::whitelist
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L217[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FS/create_link.adoc[create&lowbar;link]&
+whitelist(bool whitelist);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

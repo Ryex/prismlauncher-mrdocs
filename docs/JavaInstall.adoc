@@ -1,0 +1,85 @@
+[#JavaInstall]
+= JavaInstall
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L24[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct JavaInstall
+    : xref:BaseVersion.adoc[BaseVersion];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersion/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaInstall/2constructor.adoc[`JavaInstall`]         [.small]#[constructor]#
+| 
+| xref:BaseVersion/descriptor.adoc[`descriptor`] 
+| A string used to identify this version in config files&period;
+This should be unique within the version list or shenanigans will occur&period;
+
+
+
+| xref:BaseVersion/name.adoc[`name`] 
+| The name of this version as it is displayed to the user&period;
+For example&colon; &quot;1&period;5&period;1&quot;
+
+
+
+| xref:BaseVersion/operator_lt.adoc[`operator&lt;`] 
+| 
+| xref:JavaInstall/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+| xref:BaseVersion/operator_gt.adoc[`operator&gt;`] 
+| 
+| xref:BaseVersion/typeString.adoc[`typeString`] 
+| This should return a string that describes
+the kind of version this is (Stable, Beta, Snapshot, whatever)
+
+
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaInstall/arch.adoc[`arch`] 
+| 
+
+| xref:JavaInstall/id.adoc[`id`] 
+| 
+
+| xref:JavaInstall/is_64bit.adoc[`is&lowbar;64bit`] 
+| 
+
+| xref:JavaInstall/path.adoc[`path`] 
+| 
+
+| xref:JavaInstall/recommended.adoc[`recommended`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

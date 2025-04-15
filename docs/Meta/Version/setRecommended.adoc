@@ -1,0 +1,19 @@
+[#Meta-Version-setRecommended]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::setRecommended
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L70[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setRecommended(bool recommended);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

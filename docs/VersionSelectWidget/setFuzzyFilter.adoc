@@ -1,0 +1,21 @@
+[#VersionSelectWidget-setFuzzyFilter]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::setFuzzyFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L70[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFuzzyFilter(
+    xref:BaseVersionList.adoc[BaseVersionList]::xref:BaseVersionList/ModelRoles.adoc[ModelRoles] role,
+    xref:QString.adoc[QString] filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

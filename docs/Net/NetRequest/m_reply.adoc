@@ -1,0 +1,22 @@
+[#Net-NetRequest-m_reply]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::m&lowbar;reply
+:relfileprefix: ../../
+:mrdocs:
+
+
+the network reply
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L107[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:unique_qobject_ptr.adoc[unique&lowbar;qobject&lowbar;ptr]&lt;xref:QNetworkReply.adoc[QNetworkReply]&gt; m&lowbar;reply;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

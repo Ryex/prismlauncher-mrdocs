@@ -1,0 +1,18 @@
+[#Mod-2constructor-06]
+= xref:Mod.adoc[Mod]::Mod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L58[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Mod() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

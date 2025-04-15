@@ -1,0 +1,19 @@
+[#Application-updateCapabilities]
+= xref:Application.adoc[Application]::updateCapabilities
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L149[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateCapabilities();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

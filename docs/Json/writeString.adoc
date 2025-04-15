@@ -1,0 +1,26 @@
+[#Json-writeString]
+= xref:Json.adoc[Json]::writeString
+:relfileprefix: ../
+:mrdocs:
+
+
+&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol; WRITING &sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L77[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+writeString(
+    xref:QJsonObject.adoc[QJsonObject]& to,
+    xref:QString.adoc[QString] const& key,
+    xref:QString.adoc[QString] const& value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

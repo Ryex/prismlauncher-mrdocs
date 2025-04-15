@@ -1,0 +1,70 @@
+[#WorldMimeData]
+= WorldMimeData
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.cpp#L302[minecraft&sol;WorldList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class WorldMimeData
+    : public xref:QMimeData.adoc[QMimeData];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldMimeData/2constructor.adoc[`WorldMimeData`]         [.small]#[constructor]#
+| 
+
+| xref:WorldMimeData/formats.adoc[`formats`] 
+| 
+
+| xref:WorldMimeData/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:WorldMimeData/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:WorldMimeData/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldMimeData/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldMimeData/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldMimeData/retrieveData.adoc[`retrieveData`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

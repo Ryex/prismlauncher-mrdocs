@@ -1,0 +1,18 @@
+[#Library-2constructor-09]
+= xref:Library.adoc[Library]::Library
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L64[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Library(xref:QString.adoc[QString] const& name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

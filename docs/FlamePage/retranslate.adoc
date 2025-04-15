@@ -1,0 +1,20 @@
+[#FlamePage-retranslate]
+= xref:FlamePage.adoc[FlamePage]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlamePage.h#L68[ui&sol;pages&sol;modplatform&sol;flame&sol;FlamePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+retranslate() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

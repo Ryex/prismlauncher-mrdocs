@@ -1,0 +1,22 @@
+[#Ui-ImportResourceDialog]
+= xref:Ui.adoc[Ui]::ImportResourceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ImportResourceDialog.h#L10[ui&sol;dialogs&sol;ImportResourceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ImportResourceDialog
+    : public xref:Ui_ImportResourceDialog.adoc[Ui&lowbar;ImportResourceDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

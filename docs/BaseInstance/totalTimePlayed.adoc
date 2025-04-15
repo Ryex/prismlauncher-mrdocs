@@ -1,0 +1,19 @@
+[#BaseInstance-totalTimePlayed]
+= xref:BaseInstance.adoc[BaseInstance]::totalTimePlayed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L110[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:int64_t.adoc[int64&lowbar;t]
+totalTimePlayed() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

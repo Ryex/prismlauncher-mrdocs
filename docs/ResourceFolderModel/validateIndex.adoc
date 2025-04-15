@@ -1,0 +1,20 @@
+[#ResourceFolderModel-validateIndex]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::validateIndex
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L154[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+validateIndex(xref:QModelIndex.adoc[QModelIndex] const& index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

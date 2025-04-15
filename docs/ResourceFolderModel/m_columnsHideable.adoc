@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_columnsHideable]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;columnsHideable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L245[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;bool&gt; m&lowbar;columnsHideable = &equals; &lcub; false, false, true, true, true &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

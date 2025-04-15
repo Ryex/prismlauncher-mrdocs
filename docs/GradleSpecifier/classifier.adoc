@@ -1,0 +1,19 @@
+[#GradleSpecifier-classifier]
+= xref:GradleSpecifier.adoc[GradleSpecifier]::classifier
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L124[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+classifier() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LoggedProcess-exitCode]
+= xref:LoggedProcess.adoc[LoggedProcess]::exitCode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L56[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+exitCode() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,26 @@
+[#checkLinkedInstances]
+= checkLinkedInstances
+:relfileprefix: 
+:mrdocs:
+
+
+Check if there are linked instances, and display a warning&semi; return true if the operation should proceed
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceDirUpdate.h#L43[InstanceDirUpdate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+checkLinkedInstances(
+    xref:QString.adoc[QString] const& id,
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] const& verb);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

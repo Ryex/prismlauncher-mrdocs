@@ -1,0 +1,19 @@
+[#ResourceDownloadTask-getProvider]
+= xref:ResourceDownloadTask.adoc[ResourceDownloadTask]::getProvider
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ResourceDownloadTask.h#L42[ResourceDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] const&
+getProvider() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

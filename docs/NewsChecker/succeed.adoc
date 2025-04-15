@@ -1,0 +1,23 @@
+[#NewsChecker-succeed]
+= xref:NewsChecker.adoc[NewsChecker]::succeed
+:relfileprefix: ../
+:mrdocs:
+
+
+Emits newsLoaded() and sets m&lowbar;lastLoadError to empty string&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L99[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+succeed();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

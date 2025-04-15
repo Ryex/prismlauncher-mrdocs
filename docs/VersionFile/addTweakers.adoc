@@ -1,0 +1,22 @@
+[#VersionFile-addTweakers]
+= xref:VersionFile.adoc[VersionFile]::addTweakers
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; list of tweaker mod arguments for launchwrapper
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L120[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] addTweakers;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

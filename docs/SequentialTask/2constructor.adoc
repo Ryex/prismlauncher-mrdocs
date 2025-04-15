@@ -1,0 +1,19 @@
+[#SequentialTask-2constructor]
+= xref:SequentialTask.adoc[SequentialTask]::SequentialTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/SequentialTask.h#L50[tasks&sol;SequentialTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+SequentialTask(xref:QString.adoc[QString] task&lowbar;name = &quot;&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

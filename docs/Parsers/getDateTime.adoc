@@ -1,0 +1,21 @@
+[#Parsers-getDateTime]
+= xref:Parsers.adoc[Parsers]::getDateTime
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L6[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+getDateTime(
+    xref:QJsonValue.adoc[QJsonValue] value,
+    xref:QDateTime.adoc[QDateTime]& out);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ResourceDownload-ModrinthTexturePackModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthTexturePackModel.adoc[ModrinthTexturePackModel]::ModrinthTexturePackModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourceModels.h#L70[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthTexturePackModel(xref:BaseInstance.adoc[BaseInstance] const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

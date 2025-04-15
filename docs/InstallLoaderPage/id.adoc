@@ -1,0 +1,20 @@
+[#InstallLoaderPage-id]
+= xref:InstallLoaderPage.adoc[InstallLoaderPage]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/InstallLoaderDialog.cpp#L54[ui&sol;dialogs&sol;InstallLoaderDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#VisualGroup-view]
+= xref:VisualGroup.adoc[VisualGroup]::view
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L61[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstanceView.adoc[InstanceView]* view = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

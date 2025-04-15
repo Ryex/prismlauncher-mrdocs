@@ -1,0 +1,20 @@
+[#InstallJavaPage-metaObject]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L48[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

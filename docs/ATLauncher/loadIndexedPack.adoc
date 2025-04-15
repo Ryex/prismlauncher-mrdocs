@@ -1,0 +1,21 @@
+[#ATLauncher-loadIndexedPack]
+= xref:ATLauncher.adoc[ATLauncher]::loadIndexedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackIndex.h#L44[modplatform&sol;atlauncher&sol;ATLPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadIndexedPack(
+    xref:ATLauncher/IndexedPack.adoc[IndexedPack]& m,
+    xref:QJsonObject.adoc[QJsonObject]& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

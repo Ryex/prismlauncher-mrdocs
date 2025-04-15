@@ -1,0 +1,18 @@
+[#LegacyFTB-ModpackList]
+= xref:LegacyFTB.adoc[LegacyFTB]::ModpackList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackHelpers.h#L34[modplatform&sol;legacy&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using ModpackList = xref:QList.adoc[QList]&lt;xref:LegacyFTB/Modpack.adoc[Modpack]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

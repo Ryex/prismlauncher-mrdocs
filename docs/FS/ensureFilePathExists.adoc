@@ -1,0 +1,24 @@
+[#FS-ensureFilePathExists]
+= xref:FS.adoc[FS]::ensureFilePathExists
+:relfileprefix: ../
+:mrdocs:
+
+
+Creates all the folders in a path for the specified path
+last segment of the path is treated as a file name and is ignored!
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L88[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+ensureFilePathExists(xref:QString.adoc[QString] filenamepath);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,97 @@
+[#InstanceWindow]
+= InstanceWindow
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/InstanceWindow.h#L52[ui&sol;InstanceWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InstanceWindow
+    : public xref:QMainWindow.adoc[QMainWindow]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QMainWindow.adoc[QMainWindow]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QMainWindow.adoc[QMainWindow]
+    , public xref:BasePageContainer.adoc[BasePageContainer]
+    , public xref:QMainWindow.adoc[QMainWindow]
+    , public xref:BasePageContainer.adoc[BasePageContainer];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceWindow/2constructor.adoc[`InstanceWindow`]         [.small]#[constructor]#
+| 
+
+| xref:BasePageContainer/getPage.adoc[`getPage`] 
+| 
+
+| xref:InstanceWindow/instanceId.adoc[`instanceId`] 
+| 
+
+| xref:InstanceWindow/isClosing.adoc[`isClosing`] 
+| 
+
+| xref:InstanceWindow/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:InstanceWindow/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:InstanceWindow/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BasePageContainer/refreshContainer.adoc[`refreshContainer`] 
+| 
+| xref:BasePageContainer/requestClose.adoc[`requestClose`] 
+| 
+| xref:InstanceWindow/saveAll.adoc[`saveAll`] 
+| 
+
+| xref:BasePageContainer/selectPage.adoc[`selectPage`] 
+| 
+| xref:BasePageContainer/selectedPage.adoc[`selectedPage`] 
+| 
+| xref:InstanceWindow/2destructor.adoc[`&tilde;InstanceWindow`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceWindow/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceWindow/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceWindow/closeEvent.adoc[`closeEvent`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

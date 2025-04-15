@@ -1,0 +1,22 @@
+[#Library-m_extractExcludes]
+= xref:Library.adoc[Library]::m&lowbar;extractExcludes
+:relfileprefix: ../
+:mrdocs:
+
+
+a list of files that shouldn&apos;t be extracted from the library
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L197[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] m&lowbar;extractExcludes;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ConcurrentTask-Ptr]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::Ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L53[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:ConcurrentTask.adoc[ConcurrentTask]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

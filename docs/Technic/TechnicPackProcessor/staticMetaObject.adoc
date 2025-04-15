@@ -1,0 +1,19 @@
+[#Technic-TechnicPackProcessor-staticMetaObject]
+= xref:Technic.adoc[Technic]::xref:Technic/TechnicPackProcessor.adoc[TechnicPackProcessor]::staticMetaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/TechnicPackProcessor.h#L24[modplatform&sol;technic&sol;TechnicPackProcessor&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

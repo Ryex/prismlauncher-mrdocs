@@ -1,0 +1,19 @@
+[#ModFolderPage-2destructor]
+= xref:ModFolderPage.adoc[ModFolderPage]::&tilde;ModFolderPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ModFolderPage.h#L48[ui&sol;pages&sol;instance&sol;ModFolderPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ModFolderPage() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

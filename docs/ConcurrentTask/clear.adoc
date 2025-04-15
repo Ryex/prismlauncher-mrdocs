@@ -1,0 +1,24 @@
+[#ConcurrentTask-clear]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::clear
+:relfileprefix: ../
+:mrdocs:
+
+
+Resets the internal state of the task&period;
+This allows the same task to be re&hyphen;used&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L75[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clear();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

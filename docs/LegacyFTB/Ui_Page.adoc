@@ -1,0 +1,21 @@
+[#LegacyFTB-Ui_Page]
+= xref:LegacyFTB.adoc[LegacyFTB]::Ui&lowbar;Page
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/build/launcher/ui_Page.h#L29[&sol;home&sol;ryex&sol;projects&sol;prism&sol;build&sol;launcher&sol;ui&lowbar;Page&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Ui&lowbar;Page;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

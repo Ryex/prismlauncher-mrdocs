@@ -1,0 +1,19 @@
+[#WorldList-stopWatching]
+= xref:WorldList.adoc[WorldList]::stopWatching
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L77[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+stopWatching();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

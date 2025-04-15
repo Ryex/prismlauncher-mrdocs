@@ -1,0 +1,29 @@
+[#INIFile-loadFile]
+= xref:INIFile.adoc[INIFile]::loadFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.h#L51[settings&sol;INIFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:INIFile/loadFile-0e.adoc[loadFile](xref:QString.adoc[QString] fileName);
+----
+
+[.small]#xref:INIFile/loadFile-0e.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:INIFile/loadFile-03.adoc[loadFile](xref:QByteArray.adoc[QByteArray] data);
+----
+
+[.small]#xref:INIFile/loadFile-03.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

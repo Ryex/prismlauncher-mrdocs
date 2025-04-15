@@ -1,0 +1,19 @@
+[#00namespace-getWebsite]
+= getWebsite
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/AboutDialog.cpp#L53[ui&sol;dialogs&sol;AboutDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getWebsite(xref:QString.adoc[QString] link);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

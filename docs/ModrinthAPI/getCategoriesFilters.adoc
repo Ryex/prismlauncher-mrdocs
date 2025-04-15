@@ -1,0 +1,20 @@
+[#ModrinthAPI-getCategoriesFilters]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getCategoriesFilters
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L63[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString] const
+getCategoriesFilters(xref:QStringList.adoc[QStringList] categories);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#ResourceDownload-ShaderPackResourcePage-addResourceToPage]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourcePage.adoc[ShaderPackResourcePage]::addResourceToPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackPage.h#L41[ui&sol;pages&sol;modplatform&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+addResourceToPage(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr],
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]&,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt;) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#MinecraftInstance-2constructor]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::MinecraftInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L58[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+MinecraftInstance(
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] globalSettings,
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings,
+    xref:QString.adoc[QString] const& rootDir);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LaunchTask-onStepFinished]
+= xref:LaunchTask.adoc[LaunchTask]::onStepFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L111[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onStepFinished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

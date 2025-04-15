@@ -1,0 +1,20 @@
+[#LocalShaderPackParseTask-2constructor]
+= xref:LocalShaderPackParseTask.adoc[LocalShaderPackParseTask]::LocalShaderPackParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalShaderPackParseTask.h#L47[minecraft&sol;mod&sol;tasks&sol;LocalShaderPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+LocalShaderPackParseTask(
+    int token,
+    xref:ShaderPack.adoc[ShaderPack]& sp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

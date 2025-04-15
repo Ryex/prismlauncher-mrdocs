@@ -1,0 +1,22 @@
+[#Ui-UpdateAvailableDialog]
+= xref:Ui.adoc[Ui]::UpdateAvailableDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/UpdateAvailableDialog.h#L27[ui&sol;dialogs&sol;UpdateAvailableDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class UpdateAvailableDialog
+    : public xref:Ui_UpdateAvailableDialog.adoc[Ui&lowbar;UpdateAvailableDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

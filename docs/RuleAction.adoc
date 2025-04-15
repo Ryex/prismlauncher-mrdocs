@@ -1,0 +1,31 @@
+[#RuleAction]
+= RuleAction
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L47[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum RuleAction;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Allow`
+|
+|`Disallow`
+|
+|`Defer`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

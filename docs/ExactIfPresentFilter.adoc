@@ -1,0 +1,36 @@
+[#ExactIfPresentFilter]
+= ExactIfPresentFilter
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L32[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExactIfPresentFilter
+    : public xref:Filter.adoc[Filter];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExactIfPresentFilter/2constructor.adoc[`ExactIfPresentFilter`]         [.small]#[constructor]#
+| 
+
+| xref:Filter/accepts.adoc[`accepts`] 
+| 
+| xref:ExactIfPresentFilter/2destructor.adoc[`&tilde;ExactIfPresentFilter`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

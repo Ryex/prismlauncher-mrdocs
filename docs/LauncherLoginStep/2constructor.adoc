@@ -1,0 +1,19 @@
+[#LauncherLoginStep-2constructor]
+= xref:LauncherLoginStep.adoc[LauncherLoginStep]::LauncherLoginStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/LauncherLoginStep.h#L13[minecraft&sol;auth&sol;steps&sol;LauncherLoginStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LauncherLoginStep(xref:AccountData.adoc[AccountData]* data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

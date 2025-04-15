@@ -1,0 +1,30 @@
+[#LocaleString]
+= LocaleString
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.cpp#L130[ui&sol;instanceview&sol;InstanceView&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LocaleString
+    : public xref:QString.adoc[QString];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LocaleString/2constructor.adoc[`LocaleString`]         [.small]#[constructor]#
+| 
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

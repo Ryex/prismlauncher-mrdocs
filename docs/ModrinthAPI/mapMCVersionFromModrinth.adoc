@@ -1,0 +1,21 @@
+[#ModrinthAPI-mapMCVersionFromModrinth]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::mapMCVersionFromModrinth
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L86[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+static
+xref:QString.adoc[QString]
+mapMCVersionFromModrinth(xref:QString.adoc[QString] v);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

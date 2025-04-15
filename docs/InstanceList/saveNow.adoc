@@ -1,0 +1,19 @@
+[#InstanceList-saveNow]
+= xref:InstanceList.adoc[InstanceList]::saveNow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L98[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+saveNow();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

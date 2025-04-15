@@ -1,0 +1,23 @@
+[#NewInstanceDialog-2constructor]
+= xref:NewInstanceDialog.adoc[NewInstanceDialog]::NewInstanceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L56[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+NewInstanceDialog(
+    xref:QString.adoc[QString] const& initialGroup,
+    xref:QString.adoc[QString] const& url = QString(),
+    xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt; const& extra&lowbar;info = &equals; &lcub;&rcub;,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

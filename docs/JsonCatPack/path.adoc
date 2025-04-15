@@ -1,0 +1,30 @@
+[#JsonCatPack-path]
+= xref:JsonCatPack.adoc[JsonCatPack]::path
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L86[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+xref:JsonCatPack/path-03.adoc[path]() override;
+----
+
+[.small]#xref:JsonCatPack/path-03.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:JsonCatPack/path-0b.adoc[path](xref:QDate.adoc[QDate] now);
+----
+
+[.small]#xref:JsonCatPack/path-0b.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

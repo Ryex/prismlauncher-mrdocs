@@ -1,0 +1,19 @@
+[#BaseInstance-globalSettings]
+= xref:BaseInstance.adoc[BaseInstance]::globalSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L280[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SettingsObjectPtr.adoc[SettingsObjectPtr]
+globalSettings() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

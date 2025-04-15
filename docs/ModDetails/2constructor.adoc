@@ -1,0 +1,32 @@
+[#ModDetails-2constructor]
+= xref:ModDetails.adoc[ModDetails]::ModDetails
+:relfileprefix: ../
+:mrdocs:
+
+
+Metadata should be handled manually to properly set the mod status&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L145[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+xref:ModDetails/2constructor-0c.adoc[ModDetails]() = default;
+----
+
+[.small]#xref:ModDetails/2constructor-0c.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModDetails/2constructor-0b.adoc[ModDetails](xref:ModDetails.adoc[ModDetails] const& other);
+----
+
+[.small]#xref:ModDetails/2constructor-0b.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

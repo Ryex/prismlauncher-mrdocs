@@ -1,0 +1,59 @@
+[#Parsers-parseMinecraftProfileMojang]
+= xref:Parsers.adoc[Parsers]::parseMinecraftProfileMojang
+:relfileprefix: ../
+:mrdocs:
+
+
+Uses session server for skin&sol;cape lookup instead of profile,
+because locked Mojang accounts cannot access profile endpoint
+(https&colon;&sol;&sol;api&period;minecraftservices&period;com&sol;minecraft&sol;profile&sol;)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L16[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+parseMinecraftProfileMojang(
+    xref:QByteArray.adoc[QByteArray]& data,
+    xref:MinecraftProfile.adoc[MinecraftProfile]& output);
+----
+
+== Description
+
+ref&colon; https&colon;&sol;&sol;wiki&period;vg&sol;Mojang&lowbar;API&num;UUID&lowbar;to&lowbar;Profile&lowbar;and&lowbar;Skin&period;2FCape
+
+&lcub;
+&quot;id&quot;&colon; &quot;&lt;profile identifier&gt;&quot;,
+&quot;name&quot;&colon; &quot;&lt;player name&gt;&quot;,
+&quot;properties&quot;&colon; &lsqb;
+&lcub;
+&quot;name&quot;&colon; &quot;textures&quot;,
+&quot;value&quot;&colon; &quot;&lt;base64 string&gt;&quot;
+&rcub;
+&rsqb;
+&rcub;
+
+decoded base64 &quot;value&quot;&colon;
+&lcub;
+&quot;timestamp&quot;&colon;&lt;java time in ms&gt;,
+&quot;profileId&quot;&colon; &quot;&lt;profile uuid&gt;&quot;,
+&quot;profileName&quot;&colon; &quot;&lt;player name&gt;&quot;,
+&quot;textures&quot;&colon; &lcub;
+&quot;SKIN&quot;&colon; &lcub;
+&quot;url&quot;&colon; &quot;&lt;player skin URL&gt;&quot;
+&rcub;,
+&quot;CAPE&quot;&colon; &lcub;
+&quot;url&quot;&colon; &quot;&lt;player cape URL&gt;&quot;
+&rcub;
+&rcub;
+&rcub;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

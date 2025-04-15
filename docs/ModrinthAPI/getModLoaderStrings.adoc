@@ -1,0 +1,20 @@
+[#ModrinthAPI-getModLoaderStrings]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getModLoaderStrings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L42[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QStringList.adoc[QStringList] const
+getModLoaderStrings(xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderTypes.adoc[ModLoaderTypes] const types);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

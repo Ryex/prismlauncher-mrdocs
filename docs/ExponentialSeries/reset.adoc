@@ -1,0 +1,19 @@
+[#ExponentialSeries-reset]
+= xref:ExponentialSeries.adoc[ExponentialSeries]::reset
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ExponentialSeries.h#L24[ExponentialSeries&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+reset();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

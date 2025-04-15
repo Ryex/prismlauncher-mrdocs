@@ -1,0 +1,18 @@
+[#Java-Metadata-m_name]
+= xref:Java.adoc[Java]::xref:Java/Metadata.adoc[Metadata]::m&lowbar;name
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaMetadata.h#L47[java&sol;JavaMetadata&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Resource-isSymLink]
+= xref:Resource.adoc[Resource]::isSymLink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L142[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+bool
+isSymLink() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

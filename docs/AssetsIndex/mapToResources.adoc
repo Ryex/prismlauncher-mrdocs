@@ -1,0 +1,18 @@
+[#AssetsIndex-mapToResources]
+= xref:AssetsIndex.adoc[AssetsIndex]::mapToResources
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L39[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool mapToResources = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LaunchProfile-2destructor]
+= xref:LaunchProfile.adoc[LaunchProfile]::&tilde;LaunchProfile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L44[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;LaunchProfile();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

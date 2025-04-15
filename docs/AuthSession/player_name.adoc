@@ -1,0 +1,18 @@
+[#AuthSession-player_name]
+= xref:AuthSession.adoc[AuthSession]::player&lowbar;name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L29[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] player&lowbar;name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

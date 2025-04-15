@@ -1,0 +1,19 @@
+[#InstanceView-updateScrollbar]
+= xref:InstanceView.adoc[InstanceView]::updateScrollbar
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L113[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateScrollbar();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

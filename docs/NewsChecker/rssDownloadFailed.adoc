@@ -1,0 +1,19 @@
+[#NewsChecker-rssDownloadFailed]
+= xref:NewsChecker.adoc[NewsChecker]::rssDownloadFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L72[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+rssDownloadFailed(xref:QString.adoc[QString] reason);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

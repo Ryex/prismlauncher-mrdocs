@@ -1,0 +1,22 @@
+[#findLibraryByName]
+= findLibraryByName
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.cpp#L127[minecraft&sol;LaunchProfile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+findLibraryByName(
+    xref:QList.adoc[QList]&lt;xref:LibraryPtr.adoc[LibraryPtr]&gt;* haystack,
+    xref:GradleSpecifier.adoc[GradleSpecifier] const& needle);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

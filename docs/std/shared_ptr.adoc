@@ -1,0 +1,44 @@
+[#std-shared_ptr]
+= xref:std.adoc[std]::shared&lowbar;ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+A smart pointer with reference&hyphen;counted copy semantics&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/shared_ptr.h#L174[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;shared&lowbar;ptr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename &lowbar;Tp&gt;
+class shared&lowbar;ptr
+    : public xref:std/__shared_ptr.adoc[&lowbar;&lowbar;shared&lowbar;ptr]&lt;&lowbar;Tp&gt;;
+----
+
+
+
+
+== Description
+
+A &grave;shared&lowbar;ptr&grave; object is either empty or &lowbar;owns&lowbar; a pointer passed
+to the constructor&period; Copies of a &grave;shared&lowbar;ptr&grave; share ownership of
+the same pointer&period; When the last &grave;shared&lowbar;ptr&grave; that owns the pointer
+is destroyed or reset, the owned pointer is freed (either by &grave;delete&grave;
+or by invoking a custom deleter that was passed to the constructor)&period;
+
+A &grave;shared&lowbar;ptr&grave; also stores another pointer, which is usually
+(but not always) the same pointer as it owns&period; The stored pointer
+can be retrieved by calling the &grave;get()&grave; member function&period;
+
+The equality and relational operators for &grave;shared&lowbar;ptr&grave; only compare
+the stored pointer returned by &grave;get()&grave;, not the owned pointer&period;
+To test whether two &grave;shared&lowbar;ptr&grave; objects share ownership of the same
+pointer see &grave;std&colon;&colon;shared&lowbar;ptr&colon;&colon;owner&lowbar;before&grave; and &grave;std&colon;&colon;owner&lowbar;less&grave;&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

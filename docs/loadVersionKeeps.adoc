@@ -1,0 +1,22 @@
+[#loadVersionKeeps]
+= loadVersionKeeps
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.cpp#L219[modplatform&sol;atlauncher&sol;ATLPackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadVersionKeeps(
+    xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionKeeps.adoc[VersionKeeps]& k,
+    xref:QJsonObject.adoc[QJsonObject]& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

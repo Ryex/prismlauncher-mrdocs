@@ -1,0 +1,19 @@
+[#00namespace-konamiCode]
+= konamiCode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/KonamiCode.cpp#L7[KonamiCode&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/array.adoc[array]&lt;xref:Qt.adoc[Qt]::xref:Qt/Key.adoc[Key], 10&gt; const konamiCode = &lcub; &lcub; Qt&colon;&colon;Key&lowbar;Up, Qt&colon;&colon;Key&lowbar;Up, Qt&colon;&colon;Key&lowbar;Down, Qt&colon;&colon;Key&lowbar;Down, Qt&colon;&colon;Key&lowbar;Left, Qt&colon;&colon;Key&lowbar;Right,
+                                               Qt&colon;&colon;Key&lowbar;Left, Qt&colon;&colon;Key&lowbar;Right, Qt&colon;&colon;Key&lowbar;B, Qt&colon;&colon;Key&lowbar;A &rcub; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#JavaWizardPage-retranslate]
+= xref:JavaWizardPage.adoc[JavaWizardPage]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/JavaWizardPage.h#L21[ui&sol;setupwizard&sol;JavaWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+retranslate() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

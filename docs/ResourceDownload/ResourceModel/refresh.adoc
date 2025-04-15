@@ -1,0 +1,23 @@
+[#ResourceDownload-ResourceModel-refresh]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::refresh
+:relfileprefix: ../../
+:mrdocs:
+
+
+Schedule a refresh, clearing the current state&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L96[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+refresh();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

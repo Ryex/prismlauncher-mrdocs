@@ -1,0 +1,18 @@
+[#LogView-m_scrolling]
+= xref:LogView.adoc[LogView]::m&lowbar;scrolling
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L34[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;scrolling = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

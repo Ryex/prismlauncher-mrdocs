@@ -1,0 +1,19 @@
+[#INISettingsObject-doSave]
+= xref:INISettingsObject.adoc[INISettingsObject]::doSave
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INISettingsObject.h#L58[settings&sol;INISettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+doSave();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

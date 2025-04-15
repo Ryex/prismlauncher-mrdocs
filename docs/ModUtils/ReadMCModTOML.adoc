@@ -1,0 +1,19 @@
+[#ModUtils-ReadMCModTOML]
+= xref:ModUtils.adoc[ModUtils]::ReadMCModTOML
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.cpp#L102[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModDetails.adoc[ModDetails]
+ReadMCModTOML(xref:QByteArray.adoc[QByteArray] contents);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

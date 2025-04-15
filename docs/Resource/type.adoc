@@ -1,0 +1,20 @@
+[#Resource-type]
+= xref:Resource.adoc[Resource]::type
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L89[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:ResourceType.adoc[ResourceType]
+type() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

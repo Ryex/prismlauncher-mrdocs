@@ -1,0 +1,39 @@
+[#laxCompare]
+= laxCompare
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.cpp#L310[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+auto laxCompare = &lsqb;&rsqb;(QString fsfilename, QString metadataFilename, bool excludeDigits &equals; false) &lcub;
+    &sol;&sol; allowed character seperators
+    QList&lt;QChar&gt; allowedSeperators &equals; &lcub; &apos;&hyphen;&apos;, &apos;&plus;&apos;, &apos;&period;&apos;, &apos;&lowbar;&apos; &rcub;&semi;
+    if (excludeDigits)
+        allowedSeperators&period;append(&lcub; &apos;0&apos;, &apos;1&apos;, &apos;2&apos;, &apos;3&apos;, &apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, &apos;8&apos;, &apos;9&apos; &rcub;)&semi;
+
+    &sol;&sol; copy in lowercase
+    auto fsName &equals; fsfilename&period;toLower()&semi;
+    auto metaName &equals; metadataFilename&period;toLower()&semi;
+
+    &sol;&sol; replace all potential allowed seperatores with whitespace
+    for (auto sep &colon; allowedSeperators) &lcub;
+        fsName &equals; fsName&period;replace(sep, &apos; &apos;)&semi;
+        metaName &equals; metaName&period;replace(sep, &apos; &apos;)&semi;
+    &rcub;
+
+    &sol;&sol; remove extraneous whitespace
+    fsName &equals; fsName&period;simplified()&semi;
+    metaName &equals; metaName&period;simplified()&semi;
+
+    return fsName&period;compare(metaName) &equals;&equals; 0&semi;
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

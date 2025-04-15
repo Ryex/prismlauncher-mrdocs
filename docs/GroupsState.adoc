@@ -1,0 +1,31 @@
+[#GroupsState]
+= GroupsState
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L57[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum GroupsState : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NotLoaded`
+|
+|`Steady`
+|
+|`Dirty`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

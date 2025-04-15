@@ -1,0 +1,21 @@
+[#LaunchProfile-applyLibrary]
+= xref:LaunchProfile.adoc[LaunchProfile]::applyLibrary
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L58[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyLibrary(
+    xref:LibraryPtr.adoc[LibraryPtr] library,
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

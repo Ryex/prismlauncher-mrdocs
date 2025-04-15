@@ -1,0 +1,21 @@
+[#InstanceView-groupStateChanged]
+= xref:InstanceView.adoc[InstanceView]::groupStateChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L95[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+groupStateChanged(
+    xref:QString.adoc[QString] group,
+    bool collapsed);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

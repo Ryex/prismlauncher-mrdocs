@@ -1,0 +1,27 @@
+[#Ui-ResourcePage]
+= xref:Ui.adoc[Ui]::ResourcePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/build/launcher/ui_ResourcePage.h#L133[&sol;home&sol;ryex&sol;projects&sol;prism&sol;build&sol;launcher&sol;ui&lowbar;ResourcePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ResourcePage
+    : public xref:Ui_ResourcePage.adoc[Ui&lowbar;ResourcePage]
+    , public xref:Ui_ResourcePage.adoc[Ui&lowbar;ResourcePage]
+    , public xref:Ui_ResourcePage.adoc[Ui&lowbar;ResourcePage]
+    , public xref:Ui_ResourcePage.adoc[Ui&lowbar;ResourcePage]
+    , public xref:Ui_ResourcePage.adoc[Ui&lowbar;ResourcePage]
+    , public xref:Ui_ResourcePage.adoc[Ui&lowbar;ResourcePage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Packwiz-getRealIndexName]
+= xref:Packwiz.adoc[Packwiz]::getRealIndexName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L35[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getRealIndexName(
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:QString.adoc[QString] normalized&lowbar;index&lowbar;name,
+    bool should&lowbar;match = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

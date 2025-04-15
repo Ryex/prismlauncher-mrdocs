@@ -1,0 +1,18 @@
+[#AuthSession-user_type]
+= xref:AuthSession.adoc[AuthSession]::user&lowbar;type
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L33[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] user&lowbar;type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

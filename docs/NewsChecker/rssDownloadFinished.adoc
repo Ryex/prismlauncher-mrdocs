@@ -1,0 +1,19 @@
+[#NewsChecker-rssDownloadFinished]
+= xref:NewsChecker.adoc[NewsChecker]::rssDownloadFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L71[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+rssDownloadFinished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

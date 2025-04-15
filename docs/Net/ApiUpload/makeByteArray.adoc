@@ -1,0 +1,22 @@
+[#Net-ApiUpload-makeByteArray]
+= xref:Net.adoc[Net]::xref:Net/ApiUpload.adoc[ApiUpload]::makeByteArray
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ApiUpload.h#L27[net&sol;ApiUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Net/Upload.adoc[Upload]::xref:Net/Upload/Ptr.adoc[Ptr]
+makeByteArray(
+    xref:QUrl.adoc[QUrl] url,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QByteArray.adoc[QByteArray]&gt; output,
+    xref:QByteArray.adoc[QByteArray] m&lowbar;post&lowbar;data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

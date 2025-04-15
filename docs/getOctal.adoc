@@ -1,0 +1,22 @@
+[#getOctal]
+= getOctal
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Untar.cpp#L110[Untar&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+getOctal(
+    char* buffer,
+    int maxlenght,
+    bool* ok);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-exists]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::exists
+:relfileprefix: ../
+:mrdocs:
+
+
+Does the path&hyphen;specified node exist in the tree? It does not have to be contained&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L104[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+exists(xref:QString.adoc[QString] path) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

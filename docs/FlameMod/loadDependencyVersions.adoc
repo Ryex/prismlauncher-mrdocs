@@ -1,0 +1,22 @@
+[#FlameMod-loadDependencyVersions]
+= xref:FlameMod.adoc[FlameMod]::loadDependencyVersions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameModIndex.h#L18[modplatform&sol;flame&sol;FlameModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]
+loadDependencyVersions(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/Dependency.adoc[Dependency] const& m,
+    xref:QJsonArray.adoc[QJsonArray]& arr,
+    xref:BaseInstance.adoc[BaseInstance] const* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

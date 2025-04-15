@@ -1,0 +1,41 @@
+[#WorldList-Roles]
+= xref:WorldList.adoc[WorldList]::Roles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L33[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Roles;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ObjectRole`
+|
+|`FolderRole`
+|
+|`SeedRole`
+|
+|`NameRole`
+|
+|`GameModeRole`
+|
+|`LastPlayedRole`
+|
+|`SizeRole`
+|
+|`IconFileRole`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

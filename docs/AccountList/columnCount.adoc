@@ -1,0 +1,20 @@
+[#AccountList-columnCount]
+= xref:AccountList.adoc[AccountList]::columnCount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L75[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+columnCount(xref:QModelIndex.adoc[QModelIndex] const& parent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

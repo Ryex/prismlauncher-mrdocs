@@ -1,0 +1,23 @@
+[#FocusLineEdit-qt_metacall]
+= xref:FocusLineEdit.adoc[FocusLineEdit]::qt&lowbar;metacall
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/FocusLineEdit.h#L6[ui&sol;widgets&sol;FocusLineEdit&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+qt&lowbar;metacall(
+    xref:QMetaObject.adoc[QMetaObject]::xref:QMetaObject/Call.adoc[Call],
+    int,
+    void**);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

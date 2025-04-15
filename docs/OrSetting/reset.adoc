@@ -1,0 +1,20 @@
+[#OrSetting-reset]
+= xref:OrSetting.adoc[OrSetting]::reset
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.cpp#L156[minecraft&sol;MinecraftInstance&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+reset();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

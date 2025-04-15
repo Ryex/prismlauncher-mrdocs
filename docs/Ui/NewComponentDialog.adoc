@@ -1,0 +1,22 @@
+[#Ui-NewComponentDialog]
+= xref:Ui.adoc[Ui]::NewComponentDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewComponentDialog.h#L24[ui&sol;dialogs&sol;NewComponentDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NewComponentDialog
+    : public xref:Ui_NewComponentDialog.adoc[Ui&lowbar;NewComponentDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

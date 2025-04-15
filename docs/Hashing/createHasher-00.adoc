@@ -1,0 +1,21 @@
+[#Hashing-createHasher-00]
+= xref:Hashing.adoc[Hashing]::createHasher
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L48[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Hashing/Hasher.adoc[Hasher]::xref:Hashing/Hasher/Ptr.adoc[Ptr]
+createHasher(
+    xref:QString.adoc[QString] file&lowbar;path,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] provider);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

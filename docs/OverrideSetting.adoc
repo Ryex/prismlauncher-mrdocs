@@ -1,0 +1,125 @@
+[#OverrideSetting]
+= OverrideSetting
+:relfileprefix: 
+:mrdocs:
+
+
+A setting that &apos;overrides another&period;&apos;
+This means that the setting&apos;s default value will be the value of another setting&period;
+The other setting can be (and usually is) a part of a different SettingsObject
+than this one&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/OverrideSetting.h#L29[settings&sol;OverrideSetting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class OverrideSetting
+    : public xref:Setting.adoc[Setting];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:OverrideSetting/2constructor.adoc[`OverrideSetting`]         [.small]#[constructor]#
+| 
+
+| xref:Setting/SettingChanged.adoc[`SettingChanged`] 
+| Signal emitted when this Setting object&apos;s value changes&period;
+
+| xref:Setting/configKeys.adoc[`configKeys`] 
+| Gets this setting&apos;s config file key&period;
+This is used to store the setting&apos;s value in the config file&period; It is usually
+the same as the setting&apos;s ID, but it can be different&period;
+
+| xref:Setting/defValue.adoc[`defValue`] 
+| Gets this setting&apos;s default value&period;
+
+| xref:Setting/get.adoc[`get`] 
+| Gets this setting&apos;s value as a QVariant&period;
+This is done by calling the SettingsObject&apos;s retrieveValue() function&period;
+If this Setting doesn&apos;t have a SettingsObject, this returns an invalid QVariant&period;
+
+| xref:Setting/id.adoc[`id`] 
+| Gets this setting&apos;s ID&period;
+This is used to refer to the setting within the application&period;
+
+| xref:Setting/metaObject.adoc[`metaObject`] 
+| 
+| xref:Setting/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:Setting/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:Setting/reset.adoc[`reset`] 
+| Reset the setting to default
+This is done by emitting the settingReset() signal which will then be
+handled by the SettingsObject object and cause the setting to change&period;
+
+| xref:Setting/set.adoc[`set`] 
+| Changes the setting&apos;s value&period;
+This is done by emitting the SettingChanged() signal which will then be
+handled by the SettingsObject object and cause the setting to change&period;
+
+| xref:Setting/settingReset.adoc[`settingReset`] 
+| Signal emitted when this Setting object&apos;s value resets to default&period;
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Setting/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Setting/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:OverrideSetting/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Setting/m_defVal.adoc[`m&lowbar;defVal`] 
+| 
+
+| xref:OverrideSetting/m_gate.adoc[`m&lowbar;gate`] 
+| 
+
+| xref:OverrideSetting/m_other.adoc[`m&lowbar;other`] 
+| 
+
+| xref:Setting/m_storage.adoc[`m&lowbar;storage`] 
+| 
+
+| xref:Setting/m_synonyms.adoc[`m&lowbar;synonyms`] 
+| 
+
+|===
+== Protected Friends
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Setting/08friend.adoc[`class SettingsObject`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

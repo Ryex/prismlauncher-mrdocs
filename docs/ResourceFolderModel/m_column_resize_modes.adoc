@@ -1,0 +1,19 @@
+[#ResourceFolderModel-m_column_resize_modes]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;column&lowbar;resize&lowbar;modes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L243[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:QHeaderView.adoc[QHeaderView]::xref:QHeaderView/ResizeMode.adoc[ResizeMode]&gt; m&lowbar;column&lowbar;resize&lowbar;modes = &equals; &lcub; QHeaderView&colon;&colon;Interactive, QHeaderView&colon;&colon;Stretch, QHeaderView&colon;&colon;Interactive,
+                                                             QHeaderView&colon;&colon;Interactive, QHeaderView&colon;&colon;Interactive &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

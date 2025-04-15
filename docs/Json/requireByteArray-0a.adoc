@@ -1,0 +1,21 @@
+[#Json-requireByteArray-0a]
+= xref:Json.adoc[Json]::requireByteArray
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L274[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray]
+requireByteArray(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

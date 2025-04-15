@@ -1,0 +1,18 @@
+[#Server-m_checked]
+= xref:Server.adoc[Server]::m&lowbar;checked
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L114[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;checked = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

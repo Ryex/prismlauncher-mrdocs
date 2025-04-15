@@ -1,0 +1,33 @@
+[#ATLauncher-DownloadType]
+= xref:ATLauncher.adoc[ATLauncher]::DownloadType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L70[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum DownloadType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Server`
+|
+|`Browser`
+|
+|`Direct`
+|
+|`Unknown`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

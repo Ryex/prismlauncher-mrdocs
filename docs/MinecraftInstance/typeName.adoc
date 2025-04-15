@@ -1,0 +1,20 @@
+[#MinecraftInstance-typeName]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::typeName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L65[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+typeName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

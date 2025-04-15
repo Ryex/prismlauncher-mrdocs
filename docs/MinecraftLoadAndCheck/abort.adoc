@@ -1,0 +1,20 @@
+[#MinecraftLoadAndCheck-abort]
+= xref:MinecraftLoadAndCheck.adoc[MinecraftLoadAndCheck]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftLoadAndCheck.h#L32[minecraft&sol;MinecraftLoadAndCheck&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,51 @@
+[#MMCZip-extractDir-03]
+= xref:MMCZip.adoc[MMCZip]::extractDir
+:relfileprefix: ../
+:mrdocs:
+
+
+Extract a subdirectory from an archive
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L132[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QStringList.adoc[QStringList]&gt;
+extractDir(
+    xref:QString.adoc[QString] fileCompressed,
+    xref:QString.adoc[QString] subdir,
+    xref:QString.adoc[QString] dir);
+----
+
+== Return Value
+
+The list of the full paths of the files extracted, empty on failure&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *fileCompressed*
+| The name of the archive&period;
+
+
+| *subdir*
+| The directory within the archive to extract
+
+
+| *dir*
+| The directory to extract to, the current directory if left empty&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

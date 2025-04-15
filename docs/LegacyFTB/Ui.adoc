@@ -1,0 +1,19 @@
+[#LegacyFTB-Ui]
+= xref:LegacyFTB.adoc[LegacyFTB]::Ui
+:relfileprefix: ../
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/Ui/Page.adoc[`Page`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

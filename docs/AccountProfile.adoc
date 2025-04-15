@@ -1,0 +1,48 @@
+[#AccountProfile]
+= AccountProfile
+:relfileprefix: 
+:mrdocs:
+
+
+A profile within someone&apos;s Mojang account&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L65[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct AccountProfile;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountProfile/id.adoc[`id`] 
+| 
+
+| xref:AccountProfile/legacy.adoc[`legacy`] 
+| 
+
+| xref:AccountProfile/name.adoc[`name`] 
+| 
+
+|===
+
+
+
+== Description
+
+Currently, the profile system has not been implemented by Mojang yet,
+but we might as well add some things for it in Prism Launcher right now so
+we don&apos;t have to rip the code to pieces to add it later&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

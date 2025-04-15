@@ -1,0 +1,30 @@
+[#ProjectDescriptionPage-flush]
+= xref:ProjectDescriptionPage.adoc[ProjectDescriptionPage]::flush
+:relfileprefix: ../
+:mrdocs:
+
+
+Flushes the current processing happening in the page&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectDescriptionPage.h#L28[ui&sol;widgets&sol;ProjectDescriptionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+flush();
+----
+
+== Description
+
+Should be called when changing the page&apos;s content entirely, to
+prevent old tasks from changing the new content&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

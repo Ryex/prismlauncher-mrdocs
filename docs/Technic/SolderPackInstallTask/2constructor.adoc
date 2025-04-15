@@ -1,0 +1,24 @@
+[#Technic-SolderPackInstallTask-2constructor]
+= xref:Technic.adoc[Technic]::xref:Technic/SolderPackInstallTask.adoc[SolderPackInstallTask]::SolderPackInstallTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackInstallTask.h#L49[modplatform&sol;technic&sol;SolderPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+SolderPackInstallTask(
+    xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:QNetworkAccessManager.adoc[QNetworkAccessManager]&gt; network,
+    xref:QUrl.adoc[QUrl] const& solderUrl,
+    xref:QString.adoc[QString] const& pack,
+    xref:QString.adoc[QString] const& version,
+    xref:QString.adoc[QString] const& minecraftVersion);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

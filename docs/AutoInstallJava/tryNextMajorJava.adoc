@@ -1,0 +1,19 @@
+[#AutoInstallJava-tryNextMajorJava]
+= xref:AutoInstallJava.adoc[AutoInstallJava]::tryNextMajorJava
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/AutoInstallJava.h#L59[minecraft&sol;launch&sol;AutoInstallJava&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+tryNextMajorJava();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

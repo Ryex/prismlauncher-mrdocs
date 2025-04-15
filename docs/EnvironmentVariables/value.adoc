@@ -1,0 +1,19 @@
+[#EnvironmentVariables-value]
+= xref:EnvironmentVariables.adoc[EnvironmentVariables]::value
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/EnvironmentVariables.h#L39[ui&sol;widgets&sol;EnvironmentVariables&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QVariant.adoc[QVariant]&gt;
+value() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

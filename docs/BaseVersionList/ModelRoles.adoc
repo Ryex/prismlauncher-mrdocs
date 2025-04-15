@@ -1,0 +1,51 @@
+[#BaseVersionList-ModelRoles]
+= xref:BaseVersionList.adoc[BaseVersionList]::ModelRoles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L41[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ModelRoles;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`VersionPointerRole`
+|
+|`VersionRole`
+|
+|`VersionIdRole`
+|
+|`ParentVersionRole`
+|
+|`RecommendedRole`
+|
+|`LatestRole`
+|
+|`TypeRole`
+|
+|`BranchRole`
+|
+|`PathRole`
+|
+|`JavaNameRole`
+|
+|`JavaMajorRole`
+|
+|`CPUArchitectureRole`
+|
+|`SortRole`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

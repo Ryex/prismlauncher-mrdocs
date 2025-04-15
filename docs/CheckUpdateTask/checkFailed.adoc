@@ -1,0 +1,22 @@
+[#CheckUpdateTask-checkFailed]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::checkFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L70[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+checkFailed(
+    xref:Resource.adoc[Resource]* failed,
+    xref:QString.adoc[QString] reason,
+    xref:QUrl.adoc[QUrl] recover&lowbar;url = &equals; &lcub;&rcub;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

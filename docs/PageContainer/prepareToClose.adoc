@@ -1,0 +1,19 @@
+[#PageContainer-prepareToClose]
+= xref:PageContainer.adoc[PageContainer]::prepareToClose
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L68[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+prepareToClose();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

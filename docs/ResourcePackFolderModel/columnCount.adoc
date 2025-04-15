@@ -1,0 +1,21 @@
+[#ResourcePackFolderModel-columnCount]
+= xref:ResourcePackFolderModel.adoc[ResourcePackFolderModel]::columnCount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourcePackFolderModel.h#L19[minecraft&sol;mod&sol;ResourcePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+int
+columnCount(xref:QModelIndex.adoc[QModelIndex] const& parent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Mod-setIcon]
+= xref:Mod.adoc[Mod]::setIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+Thread&hyphen;safe&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L81[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QPixmap.adoc[QPixmap]
+setIcon(xref:QImage.adoc[QImage] new&lowbar;image) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

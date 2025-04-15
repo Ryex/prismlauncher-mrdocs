@@ -1,0 +1,24 @@
+[#ATLauncher-UserInteractionSupport-displayMessage]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/UserInteractionSupport.adoc[UserInteractionSupport]::displayMessage
+:relfileprefix: ../../
+:mrdocs:
+
+
+Requests a user interaction to display a message&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L76[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+displayMessage(xref:QString.adoc[QString] message) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

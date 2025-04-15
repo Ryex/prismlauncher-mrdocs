@@ -1,0 +1,19 @@
+[#WorldList-changed]
+= xref:WorldList.adoc[WorldList]::changed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L91[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+changed();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Net-Validator-init]
+= xref:Net.adoc[Net]::xref:Net/Validator.adoc[Validator]::init
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Validator.h#L46[net&sol;Validator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+init(xref:QNetworkRequest.adoc[QNetworkRequest]& request) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#NewInstanceDialog-setSuggestedPack-09]
+= xref:NewInstanceDialog.adoc[NewInstanceDialog]::setSuggestedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L64[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSuggestedPack(
+    xref:QString.adoc[QString] const& name = QString(),
+    xref:InstanceTask.adoc[InstanceTask]* task = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

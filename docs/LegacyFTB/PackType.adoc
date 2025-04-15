@@ -1,0 +1,31 @@
+[#LegacyFTB-PackType]
+= xref:LegacyFTB.adoc[LegacyFTB]::PackType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackHelpers.h#L11[modplatform&sol;legacy&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum PackType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Public`
+|
+|`ThirdParty`
+|
+|`Private`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

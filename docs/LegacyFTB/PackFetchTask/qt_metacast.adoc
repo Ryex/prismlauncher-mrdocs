@@ -1,0 +1,20 @@
+[#LegacyFTB-PackFetchTask-qt_metacast]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackFetchTask.adoc[PackFetchTask]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackFetchTask.h#L13[modplatform&sol;legacy&lowbar;ftb&sol;PackFetchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

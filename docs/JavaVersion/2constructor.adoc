@@ -1,0 +1,39 @@
+[#JavaVersion-2constructor]
+= xref:JavaVersion.adoc[JavaVersion]::JavaVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaVersion.h#L17[java&sol;JavaVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaVersion/2constructor-0f.adoc[JavaVersion]();
+----
+
+[.small]#xref:JavaVersion/2constructor-0f.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaVersion/2constructor-06.adoc[JavaVersion](xref:QString.adoc[QString] const& rhs);
+----
+
+[.small]#xref:JavaVersion/2constructor-06.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaVersion/2constructor-0d.adoc[JavaVersion](
+    int major,
+    int minor,
+    int security,
+    int build = 0,
+    xref:QString.adoc[QString] name = &quot;&quot;);
+----
+
+[.small]#xref:JavaVersion/2constructor-0d.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

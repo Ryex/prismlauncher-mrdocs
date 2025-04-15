@@ -1,0 +1,22 @@
+[#MojangDownloadInfo-size]
+= xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::size
+:relfileprefix: ../
+:mrdocs:
+
+
+size of the file in bytes
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L18[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int size;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

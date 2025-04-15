@@ -1,0 +1,83 @@
+[#MMCZip]
+= MMCZip
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MMCZip/ExportToZipTask.adoc[`ExportToZipTask`] 
+| 
+
+| xref:MMCZip/ExtractZipTask.adoc[`ExtractZipTask`] 
+| 
+
+| xref:MMCZip/FilterFunction.adoc[`FilterFunction`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MMCZip/collectFileListRecursively.adoc[`collectFileListRecursively`] 
+| Populate a QFileInfoList with a directory tree recursively, while allowing to excludeFilter what shouldn&apos;t be included&period;
+
+
+
+| xref:MMCZip/compressDirFiles.adoc[`compressDirFiles`] 
+| Compress directory, by providing a list of files to compress
+
+
+
+| xref:MMCZip/createModdedJar.adoc[`createModdedJar`] 
+| take a source jar, add mods to it, resulting in target jar
+
+
+
+| xref:MMCZip/extractDir.adoc[`extractDir`] 
+| Extract a subdirectory from an archive
+
+
+Extract a whole archive&period;
+
+
+
+| xref:MMCZip/extractFile.adoc[`extractFile`] 
+| Extract a single file from an archive into a directory
+
+
+
+| xref:MMCZip/extractRelFile.adoc[`extractRelFile`] 
+| 
+
+| xref:MMCZip/extractSubDir.adoc[`extractSubDir`] 
+| Extract a subdirectory from an archive
+
+
+
+| xref:MMCZip/findFilesInZip.adoc[`findFilesInZip`] 
+| Find a multiple files of the same name in archive by file name
+If a file is found in a path, no deeper paths are searched
+
+
+
+| xref:MMCZip/findFolderOfFileInZip.adoc[`findFolderOfFileInZip`] 
+| Find a single file in archive by file name (not path)
+
+
+
+| xref:MMCZip/mergeZipFiles.adoc[`mergeZipFiles`] 
+| Merge two zip files, using a filter function
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

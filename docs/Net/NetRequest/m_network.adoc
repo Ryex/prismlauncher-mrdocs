@@ -1,0 +1,18 @@
+[#Net-NetRequest-m_network]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::m&lowbar;network
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L104[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:QNetworkAccessManager.adoc[QNetworkAccessManager]&gt; m&lowbar;network;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

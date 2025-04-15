@@ -1,0 +1,67 @@
+[#LegacyFTB]
+= LegacyFTB
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/Ui.adoc[`Ui`] 
+| 
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/FTBLogoMap.adoc[`FTBLogoMap`] 
+| 
+
+| xref:LegacyFTB/FilterModel.adoc[`FilterModel`] 
+| 
+
+| xref:LegacyFTB/ListModel.adoc[`ListModel`] 
+| 
+
+| xref:LegacyFTB/LogoCallback.adoc[`LogoCallback`] 
+| 
+
+| xref:LegacyFTB/Modpack.adoc[`Modpack`] 
+| 
+
+| xref:LegacyFTB/ModpackList.adoc[`ModpackList`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask.adoc[`PackFetchTask`] 
+| 
+
+| xref:LegacyFTB/PackInstallTask.adoc[`PackInstallTask`] 
+| 
+
+| xref:LegacyFTB/Page.adoc[`Page`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager.adoc[`PrivatePackManager`] 
+| 
+
+| xref:LegacyFTB/Ui_Page.adoc[`Ui&lowbar;Page`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PackType.adoc[`PackType`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

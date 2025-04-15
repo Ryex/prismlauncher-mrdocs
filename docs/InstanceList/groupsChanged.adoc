@@ -1,0 +1,19 @@
+[#InstanceList-groupsChanged]
+= xref:InstanceList.adoc[InstanceList]::groupsChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L160[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+groupsChanged(xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt; groups);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

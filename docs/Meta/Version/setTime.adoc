@@ -1,0 +1,19 @@
+[#Meta-Version-setTime]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::setTime
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L67[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setTime(xref:qint64.adoc[qint64] time);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

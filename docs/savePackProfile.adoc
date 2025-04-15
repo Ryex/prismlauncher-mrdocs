@@ -1,0 +1,22 @@
+[#savePackProfile]
+= savePackProfile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.cpp#L150[minecraft&sol;PackProfile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+savePackProfile(
+    xref:QString.adoc[QString] const& filename,
+    xref:ComponentContainer.adoc[ComponentContainer] const& container);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

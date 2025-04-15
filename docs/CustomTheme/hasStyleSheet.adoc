@@ -1,0 +1,20 @@
+[#CustomTheme-hasStyleSheet]
+= xref:CustomTheme.adoc[CustomTheme]::hasStyleSheet
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CustomTheme.h#L49[ui&sol;themes&sol;CustomTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+hasStyleSheet() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

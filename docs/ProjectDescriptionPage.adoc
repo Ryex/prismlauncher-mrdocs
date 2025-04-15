@@ -1,0 +1,71 @@
+[#ProjectDescriptionPage]
+= ProjectDescriptionPage
+:relfileprefix: 
+:mrdocs:
+
+
+This subclasses QTextBrowser to provide additional capabilities
+to it, like allowing for images to be shown&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectDescriptionPage.h#L14[ui&sol;widgets&sol;ProjectDescriptionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProjectDescriptionPage
+    : public xref:QTextBrowser.adoc[QTextBrowser];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProjectDescriptionPage/2constructor.adoc[`ProjectDescriptionPage`]         [.small]#[constructor]#
+| 
+
+| xref:ProjectDescriptionPage/flush.adoc[`flush`] 
+| Flushes the current processing happening in the page&period;
+
+
+
+| xref:ProjectDescriptionPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ProjectDescriptionPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ProjectDescriptionPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ProjectDescriptionPage/setMetaEntry.adoc[`setMetaEntry`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProjectDescriptionPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProjectDescriptionPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

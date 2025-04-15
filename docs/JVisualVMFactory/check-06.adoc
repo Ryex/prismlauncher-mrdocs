@@ -1,0 +1,22 @@
+[#JVisualVMFactory-check-06]
+= xref:JVisualVMFactory.adoc[JVisualVMFactory]::check
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/JVisualVM.h#L11[tools&sol;JVisualVM&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+check(
+    xref:QString.adoc[QString] const& path,
+    xref:QString.adoc[QString]* error) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

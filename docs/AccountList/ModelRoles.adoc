@@ -1,0 +1,27 @@
+[#AccountList-ModelRoles]
+= xref:AccountList.adoc[AccountList]::ModelRoles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L53[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ModelRoles;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`PointerRole`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

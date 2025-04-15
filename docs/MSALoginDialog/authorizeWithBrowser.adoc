@@ -1,0 +1,19 @@
+[#MSALoginDialog-authorizeWithBrowser]
+= xref:MSALoginDialog.adoc[MSALoginDialog]::authorizeWithBrowser
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/MSALoginDialog.h#L44[ui&sol;dialogs&sol;MSALoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+authorizeWithBrowser(xref:QUrl.adoc[QUrl] const& url);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

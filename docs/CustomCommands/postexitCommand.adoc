@@ -1,0 +1,19 @@
+[#CustomCommands-postexitCommand]
+= xref:CustomCommands.adoc[CustomCommands]::postexitCommand
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CustomCommands.h#L56[ui&sol;widgets&sol;CustomCommands&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+postexitCommand() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

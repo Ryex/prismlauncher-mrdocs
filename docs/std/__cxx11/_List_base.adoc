@@ -1,0 +1,28 @@
+[#std-__cxx11-_List_base]
+= xref:std.adoc[std]::xref:std/__cxx11.adoc[&lowbar;&lowbar;cxx11]::&lowbar;List&lowbar;base
+:relfileprefix: ../../
+:mrdocs:
+
+
+See bits&sol;stl&lowbar;deque&period;h&apos;s &lowbar;Deque&lowbar;base for an explanation&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/stl_list.h#L424[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;stl&lowbar;list&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename &lowbar;Tp,
+    typename &lowbar;Alloc&gt;
+class &lowbar;List&lowbar;base;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

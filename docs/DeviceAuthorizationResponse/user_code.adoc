@@ -1,0 +1,18 @@
+[#DeviceAuthorizationResponse-user_code]
+= xref:DeviceAuthorizationResponse.adoc[DeviceAuthorizationResponse]::user&lowbar;code
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.cpp#L84[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] user&lowbar;code;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

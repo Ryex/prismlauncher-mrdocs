@@ -1,0 +1,20 @@
+[#ClaimAccount-canAbort]
+= xref:ClaimAccount.adoc[ClaimAccount]::canAbort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/ClaimAccount.h#L29[minecraft&sol;launch&sol;ClaimAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canAbort() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

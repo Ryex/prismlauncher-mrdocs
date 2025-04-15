@@ -1,0 +1,19 @@
+[#LaunchTask-setCensorFilter]
+= xref:LaunchTask.adoc[LaunchTask]::setCensorFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L62[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setCensorFilter(xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt; filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

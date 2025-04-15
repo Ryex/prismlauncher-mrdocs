@@ -1,0 +1,18 @@
+[#GetModDependenciesTask-Provider-mod]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::xref:GetModDependenciesTask/Provider.adoc[Provider]::mod
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L59[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]&gt; mod;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

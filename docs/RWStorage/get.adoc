@@ -1,0 +1,31 @@
+[#RWStorage-get]
+= xref:RWStorage.adoc[RWStorage]::get
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RWStorage.h#L16[RWStorage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+V
+xref:RWStorage/get-0d.adoc[get](K key);
+----
+
+[.small]#xref:RWStorage/get-0d.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:RWStorage/get-04.adoc[get](
+    K key,
+    V& value);
+----
+
+[.small]#xref:RWStorage/get-04.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Net-ChecksumValidator-2destructor]
+= xref:Net.adoc[Net]::xref:Net/ChecksumValidator.adoc[ChecksumValidator]::&tilde;ChecksumValidator
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ChecksumValidator.h#L51[net&sol;ChecksumValidator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ChecksumValidator() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

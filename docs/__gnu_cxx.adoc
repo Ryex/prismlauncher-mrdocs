@@ -1,0 +1,28 @@
+[#__gnu_cxx]
+= &lowbar;&lowbar;gnu&lowbar;cxx
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:__gnu_cxx/char_traits.adoc[`char&lowbar;traits`] 
+| Base class used to implement std&colon;&colon;char&lowbar;traits&period;
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:__gnu_cxx/_Lock_policy.adoc[`&lowbar;Lock&lowbar;policy`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

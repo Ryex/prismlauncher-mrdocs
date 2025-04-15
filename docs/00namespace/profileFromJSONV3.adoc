@@ -1,0 +1,21 @@
+[#00namespace-profileFromJSONV3]
+= profileFromJSONV3
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.cpp#L150[minecraft&sol;auth&sol;AccountData&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MinecraftProfile.adoc[MinecraftProfile]
+profileFromJSONV3(
+    xref:QJsonObject.adoc[QJsonObject] const& parent,
+    char const* tokenName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

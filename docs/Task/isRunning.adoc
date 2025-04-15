@@ -1,0 +1,19 @@
+[#Task-isRunning]
+= xref:Task.adoc[Task]::isRunning
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L100[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isRunning() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

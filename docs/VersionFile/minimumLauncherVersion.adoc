@@ -1,0 +1,22 @@
+[#VersionFile-minimumLauncherVersion]
+= xref:VersionFile.adoc[VersionFile]::minimumLauncherVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; DEPRECATED used to version the Mojang version format
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L84[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int minimumLauncherVersion = &hyphen;1;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

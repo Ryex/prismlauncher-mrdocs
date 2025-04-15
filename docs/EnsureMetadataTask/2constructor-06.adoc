@@ -1,0 +1,21 @@
+[#EnsureMetadataTask-2constructor-06]
+= xref:EnsureMetadataTask.adoc[EnsureMetadataTask]::EnsureMetadataTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.h#L20[modplatform&sol;EnsureMetadataTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+EnsureMetadataTask(
+    xref:QHash.adoc[QHash]&lt;xref:QString.adoc[QString], xref:Resource.adoc[Resource]*&gt;&,
+    xref:QDir.adoc[QDir],
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] = ModPlatform&colon;&colon;ResourceProvider&colon;&colon;MODRINTH);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

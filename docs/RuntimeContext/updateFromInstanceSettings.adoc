@@ -1,0 +1,19 @@
+[#RuntimeContext-updateFromInstanceSettings]
+= xref:RuntimeContext.adoc[RuntimeContext]::updateFromInstanceSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RuntimeContext.h#L44[RuntimeContext&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateFromInstanceSettings(xref:SettingsObjectPtr.adoc[SettingsObjectPtr] instanceSettings);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

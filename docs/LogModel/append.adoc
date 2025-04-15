@@ -1,0 +1,21 @@
+[#LogModel-append]
+= xref:LogModel.adoc[LogModel]::append
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L15[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+append(
+    xref:MessageLevel.adoc[MessageLevel]::xref:MessageLevel/Enum.adoc[Enum],
+    xref:QString.adoc[QString] line);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

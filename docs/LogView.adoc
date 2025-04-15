@@ -1,0 +1,115 @@
+[#LogView]
+= LogView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L7[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LogView
+    : public xref:QPlainTextEdit.adoc[QPlainTextEdit];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogView/2constructor.adoc[`LogView`]         [.small]#[constructor]#
+| 
+
+| xref:LogView/findNext.adoc[`findNext`] 
+| 
+
+| xref:LogView/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LogView/model.adoc[`model`] 
+| 
+
+| xref:LogView/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LogView/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LogView/scrollToBottom.adoc[`scrollToBottom`] 
+| 
+
+| xref:LogView/setModel.adoc[`setModel`] 
+| 
+
+| xref:LogView/setWordWrap.adoc[`setWordWrap`] 
+| 
+
+| xref:LogView/2destructor.adoc[`&tilde;LogView`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogView/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogView/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogView/modelDestroyed.adoc[`modelDestroyed`] 
+| 
+
+| xref:LogView/repopulate.adoc[`repopulate`] 
+| 
+
+| xref:LogView/rowsAboutToBeInserted.adoc[`rowsAboutToBeInserted`] 
+| 
+
+| xref:LogView/rowsInserted.adoc[`rowsInserted`] 
+| 
+
+| xref:LogView/rowsRemoved.adoc[`rowsRemoved`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogView/m_defaultFormat.adoc[`m&lowbar;defaultFormat`] 
+| 
+
+| xref:LogView/m_model.adoc[`m&lowbar;model`] 
+| 
+
+| xref:LogView/m_scroll.adoc[`m&lowbar;scroll`] 
+| 
+
+| xref:LogView/m_scrolling.adoc[`m&lowbar;scrolling`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ResourceAPI-ProjectInfoArgs-2constructor]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/ProjectInfoArgs.adoc[ProjectInfoArgs]::ProjectInfoArgs
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L109[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ProjectInfoArgs(xref:ResourceAPI/ProjectInfoArgs.adoc[ProjectInfoArgs] const&) = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

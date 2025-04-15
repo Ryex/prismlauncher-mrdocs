@@ -1,0 +1,26 @@
+[#MinecraftInstance-guessLevel]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::guessLevel
+:relfileprefix: ../
+:mrdocs:
+
+
+guess log level from a line of minecraft log
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L143[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:MessageLevel.adoc[MessageLevel]::xref:MessageLevel/Enum.adoc[Enum]
+guessLevel(
+    xref:QString.adoc[QString] const& line,
+    xref:MessageLevel.adoc[MessageLevel]::xref:MessageLevel/Enum.adoc[Enum] level) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

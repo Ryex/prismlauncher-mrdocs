@@ -1,0 +1,20 @@
+[#SkinOpenGLWindow-mouseMoveEvent]
+= xref:SkinOpenGLWindow.adoc[SkinOpenGLWindow]::mouseMoveEvent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L50[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+mouseMoveEvent(xref:QMouseEvent.adoc[QMouseEvent]* event) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

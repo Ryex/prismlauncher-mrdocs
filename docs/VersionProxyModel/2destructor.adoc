@@ -1,0 +1,19 @@
+[#VersionProxyModel-2destructor]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::&tilde;VersionProxyModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L17[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;VersionProxyModel();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

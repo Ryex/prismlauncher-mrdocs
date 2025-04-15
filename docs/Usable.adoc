@@ -1,0 +1,59 @@
+[#Usable]
+= Usable
+:relfileprefix: 
+:mrdocs:
+
+
+Base class for things that can be used by multiple other things and we want to track the use count&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Usable.h#L15[Usable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Usable;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Usable/isInUse.adoc[`isInUse`] 
+| 
+
+| xref:Usable/useCount.adoc[`useCount`] 
+| 
+
+| xref:Usable/2destructor.adoc[`&tilde;Usable`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Usable/decrementUses.adoc[`decrementUses`] 
+| 
+
+| xref:Usable/incrementUses.adoc[`incrementUses`] 
+| 
+
+|===
+
+
+== See Also
+
+UseLock
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

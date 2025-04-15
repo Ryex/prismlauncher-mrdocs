@@ -1,0 +1,21 @@
+[#Net-MetaCacheSink-2constructor]
+= xref:Net.adoc[Net]::xref:Net/MetaCacheSink.adoc[MetaCacheSink]::MetaCacheSink
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/MetaCacheSink.h#L45[net&sol;MetaCacheSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+MetaCacheSink(
+    xref:MetaEntryPtr.adoc[MetaEntryPtr] entry,
+    xref:Net/ChecksumValidator.adoc[ChecksumValidator]* md5sum,
+    bool is&lowbar;eternal = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

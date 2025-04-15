@@ -1,0 +1,22 @@
+[#Ui-JavaPage]
+= xref:Ui.adoc[Ui]::JavaPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/JavaPage.h#L49[ui&sol;pages&sol;global&sol;JavaPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JavaPage
+    : public xref:Ui_JavaPage.adoc[Ui&lowbar;JavaPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

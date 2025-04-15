@@ -1,0 +1,22 @@
+[#VersionFile-type]
+= xref:VersionFile.adoc[VersionFile]::type
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; type of the Minecraft version
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L108[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

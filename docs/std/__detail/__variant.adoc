@@ -1,0 +1,49 @@
+[#std-__detail-__variant]
+= xref:std.adoc[std]::xref:std/__detail.adoc[&lowbar;&lowbar;detail]::&lowbar;&lowbar;variant
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/__detail/__variant/_Copy_assign_alias.adoc[`&lowbar;Copy&lowbar;assign&lowbar;alias`] 
+| 
+
+| xref:std/__detail/__variant/_Copy_assign_base.adoc[`&lowbar;Copy&lowbar;assign&lowbar;base`] 
+| 
+
+| xref:std/__detail/__variant/_Copy_ctor_alias.adoc[`&lowbar;Copy&lowbar;ctor&lowbar;alias`] 
+| 
+
+| xref:std/__detail/__variant/_Copy_ctor_base.adoc[`&lowbar;Copy&lowbar;ctor&lowbar;base`] 
+| 
+
+| xref:std/__detail/__variant/_Move_assign_alias.adoc[`&lowbar;Move&lowbar;assign&lowbar;alias`] 
+| 
+
+| xref:std/__detail/__variant/_Move_assign_base.adoc[`&lowbar;Move&lowbar;assign&lowbar;base`] 
+| 
+
+| xref:std/__detail/__variant/_Move_ctor_alias.adoc[`&lowbar;Move&lowbar;ctor&lowbar;alias`] 
+| 
+
+| xref:std/__detail/__variant/_Move_ctor_base.adoc[`&lowbar;Move&lowbar;ctor&lowbar;base`] 
+| 
+
+| xref:std/__detail/__variant/_Variant_base.adoc[`&lowbar;Variant&lowbar;base`] 
+| 
+
+| xref:std/__detail/__variant/_Variant_storage.adoc[`&lowbar;Variant&lowbar;storage`] 
+| 
+
+| xref:std/__detail/__variant/_Variant_storage_alias.adoc[`&lowbar;Variant&lowbar;storage&lowbar;alias`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

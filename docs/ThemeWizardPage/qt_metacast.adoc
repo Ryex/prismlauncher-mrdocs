@@ -1,0 +1,20 @@
+[#ThemeWizardPage-qt_metacast]
+= xref:ThemeWizardPage.adoc[ThemeWizardPage]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/ThemeWizardPage.h#L28[ui&sol;setupwizard&sol;ThemeWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

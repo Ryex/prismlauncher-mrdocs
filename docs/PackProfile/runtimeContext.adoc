@@ -1,0 +1,23 @@
+[#PackProfile-runtimeContext]
+= xref:PackProfile.adoc[PackProfile]::runtimeContext
+:relfileprefix: ../
+:mrdocs:
+
+
+helper method, returns RuntimeContext of instance
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L143[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:RuntimeContext.adoc[RuntimeContext]
+runtimeContext();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

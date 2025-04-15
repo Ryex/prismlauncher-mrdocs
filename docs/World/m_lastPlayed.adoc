@@ -1,0 +1,18 @@
+[#World-m_lastPlayed]
+= xref:World.adoc[World]::m&lowbar;lastPlayed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L87[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] m&lowbar;lastPlayed;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

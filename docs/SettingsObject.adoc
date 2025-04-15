@@ -1,0 +1,178 @@
+[#SettingsObject]
+= SettingsObject
+:relfileprefix: 
+:mrdocs:
+
+
+The SettingsObject handles communicating settings between the application and a
+settings file&period;
+The class keeps a list of Setting objects&period; Each Setting object represents one
+of the application&apos;s settings&period; These Setting objects are registered with
+a SettingsObject and can be managed similarly to the way a list works&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L44[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SettingsObject
+    : public xref:QObject.adoc[QObject]
+    , public xref:QObject.adoc[QObject]
+    , public xref:QObject.adoc[QObject];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/Lock.adoc[`Lock`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/SettingChanged.adoc[`SettingChanged`] 
+| Signal emitted when one of this SettingsObject object&apos;s settings changes&period;
+This is usually just connected directly to each Setting object&apos;s
+SettingChanged() signals&period;
+
+| xref:SettingsObject/2constructor.adoc[`SettingsObject`]         [.small]#[constructor]#
+| 
+
+| xref:SettingsObject/contains.adoc[`contains`] 
+| Checks if this SettingsObject contains a setting with the given ID&period;
+
+| xref:SettingsObject/get.adoc[`get`] 
+| Gets the value of the setting with the given ID&period;
+
+| xref:SettingsObject/getSetting.adoc[`getSetting`] 
+| Gets the setting with the given ID&period;
+
+| xref:SettingsObject/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:SettingsObject/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:SettingsObject/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:SettingsObject/registerOverride.adoc[`registerOverride`] 
+| Registers an override setting for the given original setting in this settings object
+gate decides if the passthrough (true) or the original (false) is used for value
+
+
+
+| xref:SettingsObject/registerPassthrough.adoc[`registerPassthrough`] 
+| Registers a passthorugh setting for the given original setting in this settings object
+gate decides if the passthrough (true) or the original (false) is used for value
+
+
+
+| xref:SettingsObject/registerSetting.adoc[`registerSetting`] 
+| Registers the given setting with this SettingsObject and connects the necessary  signals&period;
+
+
+Registers the given setting with this SettingsObject and connects the necessary signals&period;
+
+
+
+| xref:SettingsObject/reload.adoc[`reload`] 
+| Reloads the settings and emit signals for changed settings
+
+| xref:SettingsObject/reset.adoc[`reset`] 
+| Reverts the setting with the given ID to default&period;
+
+| xref:SettingsObject/resumeSave.adoc[`resumeSave`] 
+| 
+
+| xref:SettingsObject/set.adoc[`set`] 
+| Sets the value of the setting with the given ID&period;
+If no setting with the given ID exists, returns false
+
+| xref:SettingsObject/settingReset.adoc[`settingReset`] 
+| Signal emitted when one of this SettingsObject object&apos;s settings resets&period;
+This is usually just connected directly to each Setting object&apos;s
+settingReset() signals&period;
+
+| xref:SettingsObject/suspendSave.adoc[`suspendSave`] 
+| 
+
+| xref:SettingsObject/2destructor.adoc[`&tilde;SettingsObject`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/changeSetting.adoc[`changeSetting`] 
+| Changes a setting&period;
+This slot is usually connected to each Setting object&apos;s
+SettingChanged() signal&period; The signal is emitted, causing this slot
+to update the setting&apos;s value in the config file&period;
+
+| xref:SettingsObject/connectSignals.adoc[`connectSignals`] 
+| Connects the necessary signals to the given Setting&period;
+
+| xref:SettingsObject/resetSetting.adoc[`resetSetting`] 
+| Resets a setting&period;
+This slot is usually connected to each Setting object&apos;s
+settingReset() signal&period; The signal is emitted, causing this slot
+to update the setting&apos;s value in the config file&period;
+
+| xref:SettingsObject/retrieveValue.adoc[`retrieveValue`] 
+| Function used by Setting objects to get their values from the SettingsObject&period;
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/m_doSave.adoc[`m&lowbar;doSave`] 
+| 
+
+| xref:SettingsObject/m_suspendSave.adoc[`m&lowbar;suspendSave`] 
+| 
+
+|===
+== Protected Friends
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/08friend.adoc[`class Setting`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

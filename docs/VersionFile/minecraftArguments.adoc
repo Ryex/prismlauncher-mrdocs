@@ -1,0 +1,22 @@
+[#VersionFile-minecraftArguments]
+= xref:VersionFile.adoc[VersionFile]::minecraftArguments
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; Minecraft launch arguments (may contain placeholders for variable substitution)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L96[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] minecraftArguments;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

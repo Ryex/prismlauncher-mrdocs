@@ -1,0 +1,19 @@
+[#ProgressDialog-onTaskFailed]
+= xref:ProgressDialog.adoc[ProgressDialog]::onTaskFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.h#L74[ui&sol;dialogs&sol;ProgressDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onTaskFailed(xref:QString.adoc[QString] failure);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

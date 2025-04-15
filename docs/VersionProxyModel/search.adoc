@@ -1,0 +1,19 @@
+[#VersionProxyModel-search]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::search
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L30[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] const&
+search() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

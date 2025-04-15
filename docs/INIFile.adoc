@@ -1,0 +1,42 @@
+[#INIFile]
+= INIFile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.h#L47[settings&sol;INIFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class INIFile
+    : public xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QVariant.adoc[QVariant]&gt;;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:INIFile/2constructor.adoc[`INIFile`]         [.small]#[constructor]#
+| 
+
+| xref:INIFile/get.adoc[`get`] 
+| 
+
+| xref:INIFile/loadFile.adoc[`loadFile`] 
+| 
+| xref:INIFile/saveFile.adoc[`saveFile`] 
+| 
+
+| xref:INIFile/set.adoc[`set`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

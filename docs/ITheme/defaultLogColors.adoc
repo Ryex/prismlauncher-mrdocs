@@ -1,0 +1,20 @@
+[#ITheme-defaultLogColors]
+= xref:ITheme.adoc[ITheme]::defaultLogColors
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ITheme.h#L67[ui&sol;themes&sol;ITheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:LogColors.adoc[LogColors]
+defaultLogColors(xref:QPalette.adoc[QPalette] const& palette);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

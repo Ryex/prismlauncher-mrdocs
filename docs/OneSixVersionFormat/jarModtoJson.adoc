@@ -1,0 +1,20 @@
+[#OneSixVersionFormat-jarModtoJson]
+= xref:OneSixVersionFormat.adoc[OneSixVersionFormat]::jarModtoJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/OneSixVersionFormat.h#L27[minecraft&sol;OneSixVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QJsonObject.adoc[QJsonObject]
+jarModtoJson(xref:Library.adoc[Library]* jarmod);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

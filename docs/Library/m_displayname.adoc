@@ -1,0 +1,22 @@
+[#Library-m_displayname]
+= xref:Library.adoc[Library]::m&lowbar;displayname
+:relfileprefix: ../
+:mrdocs:
+
+
+DEPRECATED Prism Launcher extension &hyphen; display name
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L180[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;displayname;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

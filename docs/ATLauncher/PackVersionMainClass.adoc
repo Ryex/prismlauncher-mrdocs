@@ -1,0 +1,33 @@
+[#ATLauncher-PackVersionMainClass]
+= xref:ATLauncher.adoc[ATLauncher]::PackVersionMainClass
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L156[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PackVersionMainClass;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/PackVersionMainClass/depends.adoc[`depends`] 
+| 
+
+| xref:ATLauncher/PackVersionMainClass/mainClass.adoc[`mainClass`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

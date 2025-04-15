@@ -1,0 +1,23 @@
+[#TexturePackUtils-validate]
+= xref:TexturePackUtils.adoc[TexturePackUtils]::validate
+:relfileprefix: ../
+:mrdocs:
+
+
+Checks whether a file is valid as a texture pack or not&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalTexturePackParseTask.h#L45[minecraft&sol;mod&sol;tasks&sol;LocalTexturePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+validate(xref:QFileInfo.adoc[QFileInfo] file);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

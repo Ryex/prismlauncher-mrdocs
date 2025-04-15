@@ -1,0 +1,22 @@
+[#00namespace-tokenToJSONV3]
+= tokenToJSONV3
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.cpp#L45[minecraft&sol;auth&sol;AccountData&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+tokenToJSONV3(
+    xref:QJsonObject.adoc[QJsonObject]& parent,
+    xref:Token.adoc[Token] t,
+    char const* tokenName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

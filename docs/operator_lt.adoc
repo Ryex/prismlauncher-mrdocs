@@ -1,0 +1,21 @@
+[#operator_lt]
+= operator&lt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.cpp#L136[ui&sol;instanceview&sol;InstanceView&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator&lt;(
+    xref:LocaleString.adoc[LocaleString] const& lhs,
+    xref:LocaleString.adoc[LocaleString] const& rhs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

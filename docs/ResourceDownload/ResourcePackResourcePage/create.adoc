@@ -1,0 +1,23 @@
+[#ResourceDownload-ResourcePackResourcePage-create]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourcePage.adoc[ResourcePackResourcePage]::create
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackPage.h#L22[ui&sol;pages&sol;modplatform&sol;ResourcePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+static
+T*
+create(
+    xref:ResourceDownload/ResourcePackDownloadDialog.adoc[ResourcePackDownloadDialog]* dialog,
+    xref:BaseInstance.adoc[BaseInstance]& instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

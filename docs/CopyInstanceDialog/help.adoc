@@ -1,0 +1,19 @@
+[#CopyInstanceDialog-help]
+= xref:CopyInstanceDialog.adoc[CopyInstanceDialog]::help
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/CopyInstanceDialog.h#L44[ui&sol;dialogs&sol;CopyInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+help();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

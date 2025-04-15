@@ -1,0 +1,20 @@
+[#OfflineLoginDialog-accept]
+= xref:OfflineLoginDialog.adoc[OfflineLoginDialog]::accept
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/OfflineLoginDialog.h#L26[ui&sol;dialogs&sol;OfflineLoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+accept();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

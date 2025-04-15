@@ -1,0 +1,20 @@
+[#PixmapCache-insert-08]
+= xref:PixmapCache.adoc[PixmapCache]::insert
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L61[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QPixmapCache.adoc[QPixmapCache]::xref:QPixmapCache/Key.adoc[Key]
+insert(xref:QPixmap.adoc[QPixmap] const& p1);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

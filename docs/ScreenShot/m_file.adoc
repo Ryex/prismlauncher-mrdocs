@@ -1,0 +1,18 @@
+[#ScreenShot-m_file]
+= xref:ScreenShot.adoc[ScreenShot]::m&lowbar;file
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/Screenshot.h#L12[screenshots&sol;Screenshot&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QFileInfo.adoc[QFileInfo] m&lowbar;file;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

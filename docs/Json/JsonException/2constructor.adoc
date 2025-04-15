@@ -1,0 +1,18 @@
+[#Json-JsonException-2constructor]
+= xref:Json.adoc[Json]::xref:Json/JsonException.adoc[JsonException]::JsonException
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L53[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+JsonException(xref:QString.adoc[QString] const& message);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Application-metacache]
+= xref:Application.adoc[Application]::metacache
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L145[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:HttpMetaCache.adoc[HttpMetaCache]&gt;
+metacache();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

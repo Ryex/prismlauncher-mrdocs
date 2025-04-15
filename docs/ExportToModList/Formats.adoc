@@ -1,0 +1,37 @@
+[#ExportToModList-Formats]
+= xref:ExportToModList.adoc[ExportToModList]::Formats
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/ExportToModList.h#L25[modplatform&sol;helpers&sol;ExportToModList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Formats;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`HTML`
+|
+|`MARKDOWN`
+|
+|`PLAINTXT`
+|
+|`JSON`
+|
+|`CSV`
+|
+|`CUSTOM`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

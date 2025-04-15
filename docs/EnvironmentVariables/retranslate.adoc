@@ -1,0 +1,19 @@
+[#EnvironmentVariables-retranslate]
+= xref:EnvironmentVariables.adoc[EnvironmentVariables]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/EnvironmentVariables.h#L37[ui&sol;widgets&sol;EnvironmentVariables&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+retranslate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

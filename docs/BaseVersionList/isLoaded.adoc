@@ -1,0 +1,24 @@
+[#BaseVersionList-isLoaded]
+= xref:BaseVersionList.adoc[BaseVersionList]::isLoaded
+:relfileprefix: ../
+:mrdocs:
+
+
+Checks whether or not the list is loaded&period; If this returns false, the list should be
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L70[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+isLoaded() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

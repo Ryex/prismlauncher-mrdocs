@@ -1,0 +1,20 @@
+[#Technic-ListModel-activeSearchJob]
+= xref:Technic.adoc[Technic]::xref:Technic/ListModel.adoc[ListModel]::activeSearchJob
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicModel.h#L62[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+activeSearchJob();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

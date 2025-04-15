@@ -1,0 +1,18 @@
+[#ImplicitRule-2constructor]
+= xref:ImplicitRule.adoc[ImplicitRule]::ImplicitRule
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L91[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ImplicitRule(xref:RuleAction.adoc[RuleAction] result);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

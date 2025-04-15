@@ -1,0 +1,20 @@
+[#ModPlatform-IndexedVersionType-enumFromString]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::enumFromString
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L67[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::xref:ModPlatform/IndexedVersionType/VersionType.adoc[VersionType]
+enumFromString(xref:QString.adoc[QString] const& type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

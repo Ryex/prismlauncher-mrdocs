@@ -1,0 +1,19 @@
+[#SetupWizard-2constructor]
+= xref:SetupWizard.adoc[SetupWizard]::SetupWizard
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/SetupWizard.h#L30[ui&sol;setupwizard&sol;SetupWizard&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+SetupWizard(xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

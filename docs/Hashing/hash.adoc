@@ -1,0 +1,43 @@
+[#Hashing-hash]
+= xref:Hashing.adoc[Hashing]::hash
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L17[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:Hashing/hash-02.adoc[hash](
+    xref:QIODevice.adoc[QIODevice]* device,
+    xref:Hashing/Algorithm.adoc[Algorithm] type);
+----
+
+[.small]#xref:Hashing/hash-02.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:Hashing/hash-0b.adoc[hash](
+    xref:QString.adoc[QString] fileName,
+    xref:Hashing/Algorithm.adoc[Algorithm] type);
+----
+
+[.small]#xref:Hashing/hash-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:Hashing/hash-09.adoc[hash](
+    xref:QByteArray.adoc[QByteArray] data,
+    xref:Hashing/Algorithm.adoc[Algorithm] type);
+----
+
+[.small]#xref:Hashing/hash-09.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

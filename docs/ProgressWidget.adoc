@@ -1,0 +1,100 @@
+[#ProgressWidget]
+= ProgressWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L12[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProgressWidget
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProgressWidget/2constructor.adoc[`ProgressWidget`]         [.small]#[constructor]#
+| 
+
+| xref:ProgressWidget/exec.adoc[`exec`] 
+| Blocking way of waiting for a task to finish&period;
+
+
+
+| xref:ProgressWidget/hide.adoc[`hide`] 
+| Make the widget invisible&period;
+
+
+
+| xref:ProgressWidget/hideIfInactive.adoc[`hideIfInactive`] 
+| Whether to hide the widget automatically if it&apos;s watching no running task&period;
+
+
+
+| xref:ProgressWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ProgressWidget/progressFormat.adoc[`progressFormat`] 
+| The text that shows up in the middle of the progress bar&period;
+By default it&apos;s &apos;%p%&apos;, with &apos;%p&apos; being the total progress in percentage&period;
+
+
+
+| xref:ProgressWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ProgressWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ProgressWidget/reset.adoc[`reset`] 
+| Reset the displayed progress to 0
+
+
+
+| xref:ProgressWidget/show.adoc[`show`] 
+| Un&hyphen;hide the widget if needed&period;
+
+
+
+| xref:ProgressWidget/start.adoc[`start`] 
+| Watch the progress of a task, and start it if needed
+
+
+
+| xref:ProgressWidget/watch.adoc[`watch`] 
+| Watch the progress of a task&period;
+
+
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProgressWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProgressWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

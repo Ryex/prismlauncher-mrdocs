@@ -1,0 +1,61 @@
+[#ScrollMessageBox]
+= ScrollMessageBox
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ScrollMessageBox.h#L11[ui&sol;dialogs&sol;ScrollMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ScrollMessageBox
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ScrollMessageBox/2constructor.adoc[`ScrollMessageBox`]         [.small]#[constructor]#
+| 
+
+| xref:ScrollMessageBox/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ScrollMessageBox/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ScrollMessageBox/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ScrollMessageBox/2destructor.adoc[`&tilde;ScrollMessageBox`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ScrollMessageBox/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ScrollMessageBox/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

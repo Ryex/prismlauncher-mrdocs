@@ -1,0 +1,20 @@
+[#PasteWizardPage-metaObject]
+= xref:PasteWizardPage.adoc[PasteWizardPage]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/PasteWizardPage.h#L12[ui&sol;setupwizard&sol;PasteWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

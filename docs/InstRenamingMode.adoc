@@ -1,0 +1,31 @@
+[#InstRenamingMode]
+= InstRenamingMode
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/LauncherPage.cpp#L68[ui&sol;pages&sol;global&sol;LauncherPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum InstRenamingMode;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Rename&lowbar;Always`
+|
+|`Rename&lowbar;Ask`
+|
+|`Rename&lowbar;Never`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

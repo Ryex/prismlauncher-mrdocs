@@ -1,0 +1,22 @@
+[#ImportResourceDialog-2constructor]
+= xref:ImportResourceDialog.adoc[ImportResourceDialog]::ImportResourceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ImportResourceDialog.h#L17[ui&sol;dialogs&sol;ImportResourceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ImportResourceDialog(
+    xref:QString.adoc[QString] file&lowbar;path,
+    xref:PackedResourceType.adoc[PackedResourceType] type,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

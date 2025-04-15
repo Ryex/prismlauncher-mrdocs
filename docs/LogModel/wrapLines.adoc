@@ -1,0 +1,19 @@
+[#LogModel-wrapLines]
+= xref:LogModel.adoc[LogModel]::wrapLines
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L29[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+wrapLines() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

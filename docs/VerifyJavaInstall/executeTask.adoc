@@ -1,0 +1,20 @@
+[#VerifyJavaInstall-executeTask]
+= xref:VerifyJavaInstall.adoc[VerifyJavaInstall]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/VerifyJavaInstall.h#L48[minecraft&sol;launch&sol;VerifyJavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

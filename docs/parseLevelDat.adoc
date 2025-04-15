@@ -1,0 +1,19 @@
+[#parseLevelDat]
+= parseLevelDat
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L127[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/unique_ptr.adoc[unique&lowbar;ptr]&lt;xref:nbt.adoc[nbt]::xref:nbt/tag_compound.adoc[tag&lowbar;compound]&gt;
+parseLevelDat(xref:QByteArray.adoc[QByteArray] data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

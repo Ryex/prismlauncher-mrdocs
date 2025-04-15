@@ -1,0 +1,33 @@
+[#ThemeFields]
+= ThemeFields
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ThemeCustomizationWidget.h#L23[ui&sol;widgets&sol;ThemeCustomizationWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ThemeFields;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NONE`
+|
+|`ICONS`
+|
+|`WIDGETS`
+|
+|`CAT`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

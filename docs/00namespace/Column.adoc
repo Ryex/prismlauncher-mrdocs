@@ -1,0 +1,29 @@
+[#00namespace-Column]
+= Column
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L347[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Column : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Language`
+|
+|`Completeness`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

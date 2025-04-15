@@ -1,0 +1,21 @@
+[#operator_dec]
+= operator&hyphen;&hyphen;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.cpp#L41[icons&sol;MMCIcon&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:IconType.adoc[IconType]
+operator&hyphen;&hyphen;(
+    xref:IconType.adoc[IconType]& t,
+    int);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

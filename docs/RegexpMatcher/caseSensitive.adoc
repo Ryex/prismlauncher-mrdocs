@@ -1,0 +1,19 @@
+[#RegexpMatcher-caseSensitive]
+= xref:RegexpMatcher.adoc[RegexpMatcher]::caseSensitive
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/RegexpMatcher.h#L15[pathmatcher&sol;RegexpMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:RegexpMatcher.adoc[RegexpMatcher]&
+caseSensitive(bool cs = true);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ReviewMessageBox-res_info-filename]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::xref:ReviewMessageBox/res_info.adoc[res&lowbar;info]::filename
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L18[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] filename;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

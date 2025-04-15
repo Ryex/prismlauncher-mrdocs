@@ -1,0 +1,41 @@
+[#ModPlatform-IndexedVersionType-2constructor]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::IndexedVersionType
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L62[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform/IndexedVersionType/2constructor-08.adoc[IndexedVersionType](xref:QString.adoc[QString] const& type);
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/2constructor-08.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform/IndexedVersionType/2constructor-02.adoc[IndexedVersionType](xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::xref:ModPlatform/IndexedVersionType/VersionType.adoc[VersionType] const& type);
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/2constructor-02.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform/IndexedVersionType/2constructor-01.adoc[IndexedVersionType](xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType] const& type);
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/2constructor-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform/IndexedVersionType/2constructor-09.adoc[IndexedVersionType]();
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/2constructor-09.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

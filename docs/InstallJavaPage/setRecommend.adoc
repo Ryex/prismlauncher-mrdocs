@@ -1,0 +1,19 @@
+[#InstallJavaPage-setRecommend]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::setRecommend
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L135[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setRecommend(bool recommend);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

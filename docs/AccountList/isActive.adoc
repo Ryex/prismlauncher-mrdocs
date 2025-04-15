@@ -1,0 +1,19 @@
+[#AccountList-isActive]
+= xref:AccountList.adoc[AccountList]::isActive
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L107[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isActive() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,25 @@
+[#Task-isMultiStep]
+= xref:Task.adoc[Task]::isMultiStep
+:relfileprefix: ../
+:mrdocs:
+
+
+MultiStep tasks are combinations of multiple tasks into a single logical task&period;
+The main usage of this is in SequencialTask&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L108[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+isMultiStep() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

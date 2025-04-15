@@ -1,0 +1,19 @@
+[#ModrinthCheckUpdate-checkNextLoader]
+= xref:ModrinthCheckUpdate.adoc[ModrinthCheckUpdate]::checkNextLoader
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthCheckUpdate.h#L24[modplatform&sol;modrinth&sol;ModrinthCheckUpdate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+checkNextLoader();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

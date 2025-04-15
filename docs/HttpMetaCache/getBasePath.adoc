@@ -1,0 +1,19 @@
+[#HttpMetaCache-getBasePath]
+= xref:HttpMetaCache.adoc[HttpMetaCache]::getBasePath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L124[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getBasePath(xref:QString.adoc[QString] base);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

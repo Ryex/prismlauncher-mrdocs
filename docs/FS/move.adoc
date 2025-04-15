@@ -1,0 +1,38 @@
+[#FS-move]
+= xref:FS.adoc[FS]::move
+:relfileprefix: ../
+:mrdocs:
+
+
+moves a file by renaming it
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L287[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+move(
+    xref:QString.adoc[QString] const& source,
+    xref:QString.adoc[QString] const& dest);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *source*
+| source file path
+
+
+| *dest*
+| destination filepath
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ProfileSelectDialog-on_buttonBox_accepted]
+= xref:ProfileSelectDialog.adoc[ProfileSelectDialog]::on&lowbar;buttonBox&lowbar;accepted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L74[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;buttonBox&lowbar;accepted();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

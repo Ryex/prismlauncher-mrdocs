@@ -1,0 +1,22 @@
+[#Ui-AboutDialog]
+= xref:Ui.adoc[Ui]::AboutDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/AboutDialog.h#L21[ui&sol;dialogs&sol;AboutDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AboutDialog
+    : public xref:Ui_AboutDialog.adoc[Ui&lowbar;AboutDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

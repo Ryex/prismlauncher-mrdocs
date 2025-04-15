@@ -1,0 +1,18 @@
+[#ATLauncher-VersionConfigs-filesize]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionConfigs.adoc[VersionConfigs]::filesize
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L127[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int filesize;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#removeThePrefix]
+= removeThePrefix
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.cpp#L83[minecraft&sol;mod&sol;Resource&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+removeThePrefix(xref:QString.adoc[QString]& string);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

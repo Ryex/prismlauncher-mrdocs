@@ -1,0 +1,22 @@
+[#Component-m_cachedVolatile]
+= xref:Component.adoc[Component]::m&lowbar;cachedVolatile
+:relfileprefix: ../
+:mrdocs:
+
+
+if true, the component is volatile and may be automatically removed when no longer needed
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L139[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;cachedVolatile = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

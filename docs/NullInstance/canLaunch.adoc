@@ -1,0 +1,20 @@
+[#NullInstance-canLaunch]
+= xref:NullInstance.adoc[NullInstance]::canLaunch
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/NullInstance.h#L65[NullInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canLaunch() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

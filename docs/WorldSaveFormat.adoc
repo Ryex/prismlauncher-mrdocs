@@ -1,0 +1,31 @@
+[#WorldSaveFormat]
+= WorldSaveFormat
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L30[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum WorldSaveFormat : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`SINGLE`
+|
+|`MULTI`
+|
+|`INVALID`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

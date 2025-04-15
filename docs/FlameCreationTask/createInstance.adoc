@@ -1,0 +1,20 @@
+[#FlameCreationTask-createInstance]
+= xref:FlameCreationTask.adoc[FlameCreationTask]::createInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameInstanceCreationTask.h#L71[modplatform&sol;flame&sol;FlameInstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+createInstance() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

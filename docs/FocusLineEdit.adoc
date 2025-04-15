@@ -1,0 +1,82 @@
+[#FocusLineEdit]
+= FocusLineEdit
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/FocusLineEdit.h#L5[ui&sol;widgets&sol;FocusLineEdit&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FocusLineEdit
+    : public xref:QLineEdit.adoc[QLineEdit];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FocusLineEdit/2constructor.adoc[`FocusLineEdit`]         [.small]#[constructor]#
+| 
+
+| xref:FocusLineEdit/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FocusLineEdit/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FocusLineEdit/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FocusLineEdit/2destructor.adoc[`&tilde;FocusLineEdit`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FocusLineEdit/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FocusLineEdit/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FocusLineEdit/focusInEvent.adoc[`focusInEvent`] 
+| 
+
+| xref:FocusLineEdit/mousePressEvent.adoc[`mousePressEvent`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FocusLineEdit/_selectOnMousePress.adoc[`&lowbar;selectOnMousePress`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

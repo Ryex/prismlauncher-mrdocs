@@ -1,0 +1,20 @@
+[#Meta-ParsingValidator-init]
+= xref:Meta.adoc[Meta]::xref:Meta/ParsingValidator.adoc[ParsingValidator]::init
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.cpp#L40[meta&sol;BaseEntity&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+init(xref:QNetworkRequest.adoc[QNetworkRequest]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

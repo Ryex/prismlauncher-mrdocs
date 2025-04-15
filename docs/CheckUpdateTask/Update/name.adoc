@@ -1,0 +1,18 @@
+[#CheckUpdateTask-Update-name]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::xref:CheckUpdateTask/Update.adoc[Update]::name
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L28[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

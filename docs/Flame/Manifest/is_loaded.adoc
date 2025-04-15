@@ -1,0 +1,18 @@
+[#Flame-Manifest-is_loaded]
+= xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]::is&lowbar;loaded
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L83[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool is&lowbar;loaded = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

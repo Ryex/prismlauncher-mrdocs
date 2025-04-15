@@ -1,0 +1,65 @@
+[#ATLauncher-ModType]
+= xref:ATLauncher.adoc[ATLauncher]::ModType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L47[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ModType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Root`
+|
+|`Forge`
+|
+|`Jar`
+|
+|`Mods`
+|
+|`Flan`
+|
+|`Dependency`
+|
+|`Ic2Lib`
+|
+|`DenLib`
+|
+|`Coremods`
+|
+|`MCPC`
+|
+|`Plugins`
+|
+|`Extract`
+|
+|`Decomp`
+|
+|`TexturePack`
+|
+|`ResourcePack`
+|
+|`ShaderPack`
+|
+|`TexturePackExtract`
+|
+|`ResourcePackExtract`
+|
+|`Millenaire`
+|
+|`Unknown`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

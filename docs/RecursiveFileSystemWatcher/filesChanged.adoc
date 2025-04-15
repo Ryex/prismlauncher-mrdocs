@@ -1,0 +1,19 @@
+[#RecursiveFileSystemWatcher-filesChanged]
+= xref:RecursiveFileSystemWatcher.adoc[RecursiveFileSystemWatcher]::filesChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L24[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+filesChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

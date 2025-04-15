@@ -1,0 +1,19 @@
+[#ModFolderPage-setFilter]
+= xref:ModFolderPage.adoc[ModFolderPage]::setFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ModFolderPage.h#L50[ui&sol;pages&sol;instance&sol;ModFolderPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFilter(xref:QString.adoc[QString] const& filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

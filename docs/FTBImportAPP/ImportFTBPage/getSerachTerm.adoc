@@ -1,0 +1,25 @@
+[#FTBImportAPP-ImportFTBPage-getSerachTerm]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/ImportFTBPage.adoc[ImportFTBPage]::getSerachTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+Get the current term in the search bar&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ImportFTBPage.h#L55[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ImportFTBPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+getSerachTerm() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

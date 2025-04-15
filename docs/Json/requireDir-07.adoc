@@ -1,0 +1,21 @@
+[#Json-requireDir-07]
+= xref:Json.adoc[Json]::requireDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L275[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir]
+requireDir(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

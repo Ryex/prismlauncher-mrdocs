@@ -1,0 +1,35 @@
+[#InstanceCreationTask-updateInstance]
+= xref:InstanceCreationTask.adoc[InstanceCreationTask]::updateInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+Tries to update an already existing instance&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCreationTask.h#L25[InstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+updateInstance();
+----
+
+== Description
+
+This can be implemented by subclasses to provide a way of updating an already existing
+instance, according to that implementation&apos;s concept of &apos;identity&apos; (i&period;e&period; instances that
+are updates &sol; downgrades of one another)&period;
+
+If this returns true, createInstance() will not run, so you should do all update steps in here&period;
+Otherwise, createInstance() is run as normal&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

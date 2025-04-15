@@ -1,0 +1,20 @@
+[#NullInstance-typeName]
+= xref:NullInstance.adoc[NullInstance]::typeName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/NullInstance.h#L62[NullInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+typeName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

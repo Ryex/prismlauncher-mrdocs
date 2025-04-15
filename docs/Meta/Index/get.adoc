@@ -1,0 +1,31 @@
+[#Meta-Index-get]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::get
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L45[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr]
+xref:Meta/Index/get-0d.adoc[get](xref:QString.adoc[QString] const& uid);
+----
+
+[.small]#xref:Meta/Index/get-0d.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta/Version.adoc[Version]::xref:Meta/Version/Ptr.adoc[Ptr]
+xref:Meta/Index/get-09.adoc[get](
+    xref:QString.adoc[QString] const& uid,
+    xref:QString.adoc[QString] const& version);
+----
+
+[.small]#xref:Meta/Index/get-09.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

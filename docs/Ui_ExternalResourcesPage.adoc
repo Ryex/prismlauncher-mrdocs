@@ -1,0 +1,21 @@
+[#Ui_ExternalResourcesPage]
+= Ui&lowbar;ExternalResourcesPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/build/launcher/ui_ExternalResourcesPage.h#L27[&sol;home&sol;ryex&sol;projects&sol;prism&sol;build&sol;launcher&sol;ui&lowbar;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Ui&lowbar;ExternalResourcesPage;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,24 @@
+[#WorldSave-saveDirName]
+= xref:WorldSave.adoc[WorldSave]::saveDirName
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the name of the save dir (first found in multi mode)&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L43[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QString.adoc[QString]
+saveDirName() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

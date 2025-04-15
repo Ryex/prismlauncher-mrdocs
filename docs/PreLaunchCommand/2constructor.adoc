@@ -1,0 +1,19 @@
+[#PreLaunchCommand-2constructor]
+= xref:PreLaunchCommand.adoc[PreLaunchCommand]::PreLaunchCommand
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PreLaunchCommand.h#L24[launch&sol;steps&sol;PreLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PreLaunchCommand(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

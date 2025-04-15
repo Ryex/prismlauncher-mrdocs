@@ -1,0 +1,35 @@
+[#InstanceList-AdditionalRoles]
+= xref:InstanceList.adoc[InstanceList]::AdditionalRoles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L81[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum AdditionalRoles;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`GroupRole`
+|
+|`InstancePointerRole`
+|Return pointer to real instance
+
+
+|`InstanceIDRole`
+|Return id if the instance
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

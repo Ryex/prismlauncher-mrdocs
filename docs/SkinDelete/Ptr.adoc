@@ -1,0 +1,18 @@
+[#SkinDelete-Ptr]
+= xref:SkinDelete.adoc[SkinDelete]::Ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinDelete.h#L26[minecraft&sol;skins&sol;SkinDelete&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:SkinDelete.adoc[SkinDelete]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

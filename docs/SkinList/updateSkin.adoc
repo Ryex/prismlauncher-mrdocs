@@ -1,0 +1,19 @@
+[#SkinList-updateSkin]
+= xref:SkinList.adoc[SkinList]::updateSkin
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L61[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateSkin(xref:SkinModel.adoc[SkinModel]* s);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

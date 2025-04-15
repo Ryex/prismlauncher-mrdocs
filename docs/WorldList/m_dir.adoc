@@ -1,0 +1,18 @@
+[#WorldList-m_dir]
+= xref:WorldList.adoc[WorldList]::m&lowbar;dir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L97[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir] m&lowbar;dir;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

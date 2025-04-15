@@ -1,0 +1,21 @@
+[#SkinList-deleteSkin]
+= xref:SkinList.adoc[SkinList]::deleteSkin
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L46[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+deleteSkin(
+    xref:QString.adoc[QString] const& key,
+    bool trash);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

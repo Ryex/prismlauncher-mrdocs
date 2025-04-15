@@ -1,0 +1,22 @@
+[#Ui-InfoFrame]
+= xref:Ui.adoc[Ui]::InfoFrame
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L45[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InfoFrame
+    : public xref:Ui_InfoFrame.adoc[Ui&lowbar;InfoFrame];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

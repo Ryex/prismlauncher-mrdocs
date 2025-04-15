@@ -1,0 +1,19 @@
+[#LaunchProfile-applyProblemSeverity]
+= xref:LaunchProfile.adoc[LaunchProfile]::applyProblemSeverity
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L64[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyProblemSeverity(xref:ProblemSeverity.adoc[ProblemSeverity] severity);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

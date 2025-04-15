@@ -1,0 +1,18 @@
+[#ResourceAPI-DependencySearchArgs-loader]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/DependencySearchArgs.adoc[DependencySearchArgs]::loader
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L121[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderTypes.adoc[ModLoaderTypes] loader;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

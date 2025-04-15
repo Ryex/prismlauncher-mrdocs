@@ -1,0 +1,18 @@
+[#UpdateActionNone]
+= UpdateActionNone
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L39[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using UpdateActionNone = xref:std.adoc[std]::xref:std/monostate.adoc[monostate];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LaunchController-setOfflineName]
+= xref:LaunchController.adoc[LaunchController]::setOfflineName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LaunchController.h#L59[LaunchController&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setOfflineName(xref:QString.adoc[QString] const& offlineName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

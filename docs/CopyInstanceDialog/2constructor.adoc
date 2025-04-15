@@ -1,0 +1,21 @@
+[#CopyInstanceDialog-2constructor]
+= xref:CopyInstanceDialog.adoc[CopyInstanceDialog]::CopyInstanceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/CopyInstanceDialog.h#L33[ui&sol;dialogs&sol;CopyInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+CopyInstanceDialog(
+    xref:InstancePtr.adoc[InstancePtr] original,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

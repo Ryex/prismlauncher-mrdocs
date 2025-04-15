@@ -1,0 +1,20 @@
+[#BaseProfiler-beginProfilingImpl]
+= xref:BaseProfiler.adoc[BaseProfiler]::beginProfilingImpl
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseProfiler.h#L23[tools&sol;BaseProfiler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+beginProfilingImpl(xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchTask.adoc[LaunchTask]&gt; process) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

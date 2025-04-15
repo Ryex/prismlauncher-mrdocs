@@ -1,0 +1,18 @@
+[#ApplicationMessage-command]
+= xref:ApplicationMessage.adoc[ApplicationMessage]::command
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ApplicationMessage.h#L8[ApplicationMessage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] command;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

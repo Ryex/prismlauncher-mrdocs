@@ -1,0 +1,24 @@
+[#drawBadges]
+= drawBadges
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.cpp#L126[ui&sol;instanceview&sol;InstanceDelegate&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+drawBadges(
+    xref:QPainter.adoc[QPainter]* painter,
+    xref:QStyleOptionViewItem.adoc[QStyleOptionViewItem] const& option,
+    xref:BaseInstance.adoc[BaseInstance]* instance,
+    xref:QIcon.adoc[QIcon]::xref:QIcon/Mode.adoc[Mode] mode,
+    xref:QIcon.adoc[QIcon]::xref:QIcon/State.adoc[State] state);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

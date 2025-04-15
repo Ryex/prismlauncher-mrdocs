@@ -1,0 +1,22 @@
+[#Library-m_nativeClassifiers]
+= xref:Library.adoc[Library]::m&lowbar;nativeClassifiers
+:relfileprefix: ../
+:mrdocs:
+
+
+native suffixes per OS
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L200[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt; m&lowbar;nativeClassifiers;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

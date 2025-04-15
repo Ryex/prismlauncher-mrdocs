@@ -1,0 +1,29 @@
+[#Net-Mode]
+= xref:Net.adoc[Net]::Mode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Mode.h#L4[net&sol;Mode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Mode : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Offline`
+|
+|`Online`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

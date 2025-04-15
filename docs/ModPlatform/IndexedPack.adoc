@@ -1,0 +1,90 @@
+[#ModPlatform-IndexedPack]
+= xref:ModPlatform.adoc[ModPlatform]::IndexedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L129[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct IndexedPack;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedPack/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedPack/isAnyVersionSelected.adoc[`isAnyVersionSelected`] 
+| 
+
+| xref:ModPlatform/IndexedPack/isVersionSelected.adoc[`isVersionSelected`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedPack/addonId.adoc[`addonId`] 
+| 
+
+| xref:ModPlatform/IndexedPack/authors.adoc[`authors`] 
+| 
+
+| xref:ModPlatform/IndexedPack/description.adoc[`description`] 
+| 
+
+| xref:ModPlatform/IndexedPack/extraData.adoc[`extraData`] 
+| 
+
+| xref:ModPlatform/IndexedPack/extraDataLoaded.adoc[`extraDataLoaded`] 
+| 
+
+| xref:ModPlatform/IndexedPack/logoName.adoc[`logoName`] 
+| 
+
+| xref:ModPlatform/IndexedPack/logoUrl.adoc[`logoUrl`] 
+| 
+
+| xref:ModPlatform/IndexedPack/name.adoc[`name`] 
+| 
+
+| xref:ModPlatform/IndexedPack/provider.adoc[`provider`] 
+| 
+
+| xref:ModPlatform/IndexedPack/side.adoc[`side`] 
+| 
+
+| xref:ModPlatform/IndexedPack/slug.adoc[`slug`] 
+| 
+
+| xref:ModPlatform/IndexedPack/versions.adoc[`versions`] 
+| 
+
+| xref:ModPlatform/IndexedPack/versionsLoaded.adoc[`versionsLoaded`] 
+| 
+
+| xref:ModPlatform/IndexedPack/websiteUrl.adoc[`websiteUrl`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

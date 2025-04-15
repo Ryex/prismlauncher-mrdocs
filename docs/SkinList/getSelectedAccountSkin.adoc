@@ -1,0 +1,19 @@
+[#SkinList-getSelectedAccountSkin]
+= xref:SkinList.adoc[SkinList]::getSelectedAccountSkin
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L59[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+getSelectedAccountSkin();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

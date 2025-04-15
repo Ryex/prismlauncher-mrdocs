@@ -1,0 +1,22 @@
+[#MangoHud]
+= MangoHud
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MangoHud/findLibrary.adoc[`findLibrary`] 
+| 
+
+| xref:MangoHud/getLibraryString.adoc[`getLibraryString`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

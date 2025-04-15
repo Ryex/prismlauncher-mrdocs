@@ -1,0 +1,75 @@
+[#Modrinth]
+= Modrinth
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/DonationData.adoc[`DonationData`] 
+| 
+
+| xref:Modrinth/File.adoc[`File`] 
+| 
+
+| xref:Modrinth/LogoCallback.adoc[`LogoCallback`] 
+| 
+
+| xref:Modrinth/LogoMap.adoc[`LogoMap`] 
+| 
+
+| xref:Modrinth/Modpack.adoc[`Modpack`] 
+| 
+
+| xref:Modrinth/ModpackExtra.adoc[`ModpackExtra`] 
+| 
+
+| xref:Modrinth/ModpackListModel.adoc[`ModpackListModel`] 
+| 
+
+| xref:Modrinth/ModpackVersion.adoc[`ModpackVersion`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/loadDependencyVersions.adoc[`loadDependencyVersions`] 
+| 
+
+| xref:Modrinth/loadExtraPackData.adoc[`loadExtraPackData`] 
+| 
+
+| xref:Modrinth/loadIndexedInfo.adoc[`loadIndexedInfo`] 
+| 
+
+| xref:Modrinth/loadIndexedPack.adoc[`loadIndexedPack`] 
+| 
+| xref:Modrinth/loadIndexedPackVersion.adoc[`loadIndexedPackVersion`] 
+| 
+
+| xref:Modrinth/loadIndexedPackVersions.adoc[`loadIndexedPackVersions`] 
+| 
+
+| xref:Modrinth/loadIndexedVersion.adoc[`loadIndexedVersion`] 
+| 
+
+| xref:Modrinth/loadIndexedVersions.adoc[`loadIndexedVersions`] 
+| 
+
+| xref:Modrinth/sortFromIndex.adoc[`sortFromIndex`] 
+| 
+
+| xref:Modrinth/validateDownloadUrl.adoc[`validateDownloadUrl`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

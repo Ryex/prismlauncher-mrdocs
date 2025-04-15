@@ -1,0 +1,20 @@
+[#InstancePageProvider-dialogTitle]
+= xref:InstancePageProvider.adoc[InstancePageProvider]::dialogTitle
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstancePageProvider.h#L54[InstancePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+dialogTitle() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

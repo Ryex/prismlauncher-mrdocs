@@ -1,0 +1,87 @@
+[#Net-MetaCacheSink]
+= xref:Net.adoc[Net]::MetaCacheSink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/MetaCacheSink.h#L43[net&sol;MetaCacheSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MetaCacheSink
+    : public xref:Net/FileSink.adoc[FileSink];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/MetaCacheSink/2constructor.adoc[`MetaCacheSink`]         [.small]#[constructor]#
+| 
+
+| xref:Net/Sink/abort.adoc[`abort`] 
+| 
+| xref:Net/Sink/addValidator.adoc[`addValidator`] 
+| 
+
+| xref:Net/Sink/finalize.adoc[`finalize`] 
+| 
+| xref:Net/Sink/hasLocalData.adoc[`hasLocalData`] 
+| 
+| xref:Net/Sink/init.adoc[`init`] 
+| 
+| xref:Net/Sink/write.adoc[`write`] 
+| 
+| xref:Net/MetaCacheSink/2destructor.adoc[`&tilde;MetaCacheSink`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/Sink/failAllValidators.adoc[`failAllValidators`] 
+| 
+
+| xref:Net/Sink/finalizeAllValidators.adoc[`finalizeAllValidators`] 
+| 
+
+| xref:Net/FileSink/finalizeCache.adoc[`finalizeCache`] 
+| 
+| xref:Net/Sink/initAllValidators.adoc[`initAllValidators`] 
+| 
+
+| xref:Net/FileSink/initCache.adoc[`initCache`] 
+| 
+| xref:Net/Sink/writeAllValidators.adoc[`writeAllValidators`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/FileSink/m_filename.adoc[`m&lowbar;filename`] 
+| 
+
+| xref:Net/FileSink/m_output_file.adoc[`m&lowbar;output&lowbar;file`] 
+| 
+
+| xref:Net/FileSink/m_wroteAnyData.adoc[`m&lowbar;wroteAnyData`] 
+| 
+
+| xref:Net/Sink/validators.adoc[`validators`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

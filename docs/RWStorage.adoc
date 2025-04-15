@@ -1,0 +1,47 @@
+[#RWStorage]
+= RWStorage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RWStorage.h#L7[RWStorage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename K,
+    typename V&gt;
+class RWStorage;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RWStorage/add.adoc[`add`] 
+| 
+
+| xref:RWStorage/clear.adoc[`clear`] 
+| 
+
+| xref:RWStorage/get.adoc[`get`] 
+| 
+| xref:RWStorage/has.adoc[`has`] 
+| 
+
+| xref:RWStorage/setStale.adoc[`setStale`] 
+| 
+
+| xref:RWStorage/stale.adoc[`stale`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

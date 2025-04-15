@@ -1,0 +1,19 @@
+[#JavaWizardWidget-permGenEnabled]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::permGenEnabled
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L38[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+permGenEnabled() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

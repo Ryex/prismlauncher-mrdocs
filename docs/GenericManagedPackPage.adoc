@@ -1,0 +1,189 @@
+[#GenericManagedPackPage]
+= GenericManagedPackPage
+:relfileprefix: 
+:mrdocs:
+
+
+Simple page for when we aren&apos;t a managed pack&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L102[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class GenericManagedPackPage
+    : public xref:ManagedPackPage.adoc[ManagedPackPage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GenericManagedPackPage/2constructor.adoc[`GenericManagedPackPage`]         [.small]#[constructor]#
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:ManagedPackPage/metaObject.adoc[`metaObject`] 
+| 
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+| xref:ManagedPackPage/parseManagedPack.adoc[`parseManagedPack`] 
+| Gets the necessary information about the managed pack, such as
+available versions
+
+
+
+| xref:ManagedPackPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ManagedPackPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:ManagedPackPage/setInstanceWindow.adoc[`setInstanceWindow`] 
+| 
+
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+| xref:ManagedPackPage/suggestVersion.adoc[`suggestVersion`] 
+| Gets the current version selection and update the UI, including the update button and the changelog&period;
+
+
+
+| xref:ManagedPackPage/update.adoc[`update`] 
+| 
+
+| xref:ManagedPackPage/updateFromFile.adoc[`updateFromFile`] 
+| 
+
+| xref:ManagedPackPage/url.adoc[`url`] 
+| URL of the managed pack&period;
+Not the version&hyphen;specific one&period;
+
+
+
+| xref:GenericManagedPackPage/2destructor.adoc[`&tilde;GenericManagedPackPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ManagedPackPage/createPage.adoc[`createPage`] 
+| 
+| xref:ManagedPackPage/tr.adoc[`tr`] 
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ManagedPackPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:GenericManagedPackPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ManagedPackPage/onUpdateTaskCompleted.adoc[`onUpdateTaskCompleted`] 
+| Called when the update task has completed&period;
+Internally handles the closing of the instance window if the update was successful and shows a message box&period;
+
+| xref:ManagedPackPage/runUpdateTask.adoc[`runUpdateTask`] 
+| Run the InstanceTask, with a progress dialog and all&period;
+Similar to MainWindow&colon;&colon;instanceFromInstanceTask
+
+
+
+| xref:ManagedPackPage/setFailState.adoc[`setFailState`] 
+| Does the necessary UI changes for when something failed&period;
+
+
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+| xref:ManagedPackPage/m_inst.adoc[`m&lowbar;inst`] 
+| 
+
+| xref:ManagedPackPage/m_instance_window.adoc[`m&lowbar;instance&lowbar;window`] 
+| 
+
+| xref:ManagedPackPage/m_loaded.adoc[`m&lowbar;loaded`] 
+| 
+
+| xref:ManagedPackPage/ui.adoc[`ui`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#VersionFilterData-java17BeginsDate]
+= xref:VersionFilterData.adoc[VersionFilterData]::java17BeginsDate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFilterData.h#L27[minecraft&sol;VersionFilterData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] java17BeginsDate;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

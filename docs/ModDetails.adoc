@@ -1,0 +1,70 @@
+[#ModDetails]
+= ModDetails
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L114[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModDetails;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModDetails/2constructor.adoc[`ModDetails`]         [.small]#[constructor]#
+| Metadata should be handled manually to properly set the mod status&period;
+
+
+
+| xref:ModDetails/operator_assign.adoc[`operator&equals;`] 
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModDetails/authors.adoc[`authors`] 
+| 
+
+| xref:ModDetails/description.adoc[`description`] 
+| 
+
+| xref:ModDetails/homeurl.adoc[`homeurl`] 
+| 
+
+| xref:ModDetails/icon_file.adoc[`icon&lowbar;file`] 
+| 
+
+| xref:ModDetails/issue_tracker.adoc[`issue&lowbar;tracker`] 
+| 
+
+| xref:ModDetails/licenses.adoc[`licenses`] 
+| 
+
+| xref:ModDetails/mcversion.adoc[`mcversion`] 
+| 
+
+| xref:ModDetails/mod_id.adoc[`mod&lowbar;id`] 
+| 
+
+| xref:ModDetails/name.adoc[`name`] 
+| 
+
+| xref:ModDetails/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

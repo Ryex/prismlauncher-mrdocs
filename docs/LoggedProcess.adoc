@@ -1,0 +1,88 @@
+[#LoggedProcess]
+= LoggedProcess
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L46[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LoggedProcess
+    : public xref:QProcess.adoc[QProcess];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoggedProcess/State.adoc[`State`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoggedProcess/2constructor.adoc[`LoggedProcess`]         [.small]#[constructor]#
+| 
+
+| xref:LoggedProcess/exitCode.adoc[`exitCode`] 
+| 
+
+| xref:LoggedProcess/kill.adoc[`kill`] 
+| kill the process &hyphen; equivalent to kill &hyphen;9
+
+| xref:LoggedProcess/log.adoc[`log`] 
+| 
+
+| xref:LoggedProcess/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LoggedProcess/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LoggedProcess/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LoggedProcess/setDetachable.adoc[`setDetachable`] 
+| 
+
+| xref:LoggedProcess/state.adoc[`state`] 
+| 
+
+| xref:LoggedProcess/stateChanged.adoc[`stateChanged`] 
+| 
+
+| xref:LoggedProcess/2destructor.adoc[`&tilde;LoggedProcess`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoggedProcess/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LoggedProcess/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

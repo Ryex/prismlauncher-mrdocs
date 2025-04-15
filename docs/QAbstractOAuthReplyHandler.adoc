@@ -1,0 +1,22 @@
+[#QAbstractOAuthReplyHandler]
+= QAbstractOAuthReplyHandler
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/bvfpl05r0wyqlfy9mmr9fac235bdcy8g-qtnetworkauth-6.8.2/include/QtNetworkAuth/qabstractoauthreplyhandler.h#L17[&sol;nix&sol;store&sol;bvfpl05r0wyqlfy9mmr9fac235bdcy8g&hyphen;qtnetworkauth&hyphen;6&period;8&period;2&sol;include&sol;QtNetworkAuth&sol;qabstractoauthreplyhandler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QAbstractOAuthReplyHandler
+    : public xref:QObject.adoc[QObject];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

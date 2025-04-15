@@ -1,0 +1,21 @@
+[#VersionPage-versionCurrent]
+= xref:VersionPage.adoc[VersionPage]::versionCurrent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/VersionPage.h#L115[ui&sol;pages&sol;instance&sol;VersionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+versionCurrent(
+    xref:QModelIndex.adoc[QModelIndex] const& current,
+    xref:QModelIndex.adoc[QModelIndex] const& previous);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

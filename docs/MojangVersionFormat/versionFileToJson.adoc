@@ -1,0 +1,20 @@
+[#MojangVersionFormat-versionFileToJson]
+= xref:MojangVersionFormat.adoc[MojangVersionFormat]::versionFileToJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangVersionFormat.h#L20[minecraft&sol;MojangVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QJsonDocument.adoc[QJsonDocument]
+versionFileToJson(xref:VersionFilePtr.adoc[VersionFilePtr] const& patch);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

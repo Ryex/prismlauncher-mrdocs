@@ -1,0 +1,22 @@
+[#MSADeviceCodeStep-authorizeWithBrowser]
+= xref:MSADeviceCodeStep.adoc[MSADeviceCodeStep]::authorizeWithBrowser
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.h#L58[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+authorizeWithBrowser(
+    xref:QString.adoc[QString] url,
+    xref:QString.adoc[QString] code,
+    int expiresIn);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

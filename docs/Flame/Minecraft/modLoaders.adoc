@@ -1,0 +1,18 @@
+[#Flame-Minecraft-modLoaders]
+= xref:Flame.adoc[Flame]::xref:Flame/Minecraft.adoc[Minecraft]::modLoaders
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L69[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:Flame.adoc[Flame]::xref:Flame/Modloader.adoc[Modloader]&gt; modLoaders;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

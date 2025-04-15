@@ -1,0 +1,19 @@
+[#RecursiveFileSystemWatcher-setMatcher]
+= xref:RecursiveFileSystemWatcher.adoc[RecursiveFileSystemWatcher]::setMatcher
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L19[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setMatcher(xref:IPathMatcher.adoc[IPathMatcher]::xref:IPathMatcher/Ptr.adoc[Ptr] matcher);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

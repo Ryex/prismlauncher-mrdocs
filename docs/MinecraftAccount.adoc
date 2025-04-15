@@ -1,0 +1,191 @@
+[#MinecraftAccount]
+= MinecraftAccount
+:relfileprefix: 
+:mrdocs:
+
+
+Object that stores information about a certain Mojang account&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L77[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MinecraftAccount
+    : public xref:QObject.adoc[QObject]
+    , public xref:Usable.adoc[Usable]
+    , public xref:QObject.adoc[QObject]
+    , public xref:Usable.adoc[Usable]
+    , public xref:QObject.adoc[QObject]
+    , public xref:Usable.adoc[Usable];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftAccount/2constructor.adoc[`MinecraftAccount`]         [.small]#[constructor]#
+| Default constructor
+
+
+Do not copy accounts&period; ever&period;
+
+
+
+| xref:MinecraftAccount/accessToken.adoc[`accessToken`] 
+| 
+
+| xref:MinecraftAccount/accountData.adoc[`accountData`] 
+| 
+
+| xref:MinecraftAccount/accountDisplayString.adoc[`accountDisplayString`] 
+| 
+
+| xref:MinecraftAccount/accountState.adoc[`accountState`] 
+| Returns the current state of the account
+
+
+
+| xref:MinecraftAccount/accountType.adoc[`accountType`] 
+| 
+
+| xref:MinecraftAccount/activityChanged.adoc[`activityChanged`] 
+| 
+
+| xref:MinecraftAccount/changed.adoc[`changed`] 
+| This signal is emitted when the account changes
+
+
+
+| xref:MinecraftAccount/currentTask.adoc[`currentTask`] 
+| 
+
+| xref:MinecraftAccount/fillSession.adoc[`fillSession`] 
+| 
+
+| xref:MinecraftAccount/getFace.adoc[`getFace`] 
+| 
+
+| xref:MinecraftAccount/hasProfile.adoc[`hasProfile`] 
+| 
+
+| xref:MinecraftAccount/internalId.adoc[`internalId`] 
+| 
+
+| xref:MinecraftAccount/isActive.adoc[`isActive`] 
+| 
+
+| xref:Usable/isInUse.adoc[`isInUse`] 
+| 
+
+| xref:MinecraftAccount/lastError.adoc[`lastError`] 
+| 
+
+| xref:MinecraftAccount/login.adoc[`login`] 
+| 
+
+| xref:MinecraftAccount/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:MinecraftAccount/ownsMinecraft.adoc[`ownsMinecraft`] 
+| 
+
+| xref:MinecraftAccount/profileId.adoc[`profileId`] 
+| 
+
+| xref:MinecraftAccount/profileName.adoc[`profileName`] 
+| 
+
+| xref:MinecraftAccount/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:MinecraftAccount/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:MinecraftAccount/refresh.adoc[`refresh`] 
+| 
+
+| xref:MinecraftAccount/saveToJson.adoc[`saveToJson`] 
+| Saves a MinecraftAccount to a JSON object and returns it&period;
+
+
+
+| xref:MinecraftAccount/shouldRefresh.adoc[`shouldRefresh`] 
+| 
+
+| xref:MinecraftAccount/typeString.adoc[`typeString`] 
+| 
+
+| xref:Usable/useCount.adoc[`useCount`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftAccount/createBlankMSA.adoc[`createBlankMSA`] 
+| 
+
+| xref:MinecraftAccount/createOffline.adoc[`createOffline`] 
+| 
+
+| xref:MinecraftAccount/loadFromJsonV3.adoc[`loadFromJsonV3`] 
+| 
+
+| xref:MinecraftAccount/tr.adoc[`tr`] 
+| 
+
+| xref:MinecraftAccount/uuidFromUsername.adoc[`uuidFromUsername`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftAccount/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Usable/decrementUses.adoc[`decrementUses`] 
+| 
+| xref:Usable/incrementUses.adoc[`incrementUses`] 
+| 
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftAccount/data.adoc[`data`] 
+| 
+
+| xref:MinecraftAccount/m_currentTask.adoc[`m&lowbar;currentTask`] 
+| 
+
+|===
+
+
+== Description
+
+Said information may include things such as that account&apos;s username, client token, and access
+token if the user chose to stay logged in&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

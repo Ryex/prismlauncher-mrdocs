@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourcePackResourceModel-m_base_instance]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourceModel.adoc[ResourcePackResourceModel]::m&lowbar;base&lowbar;instance
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackModel.h#L38[ui&sol;pages&sol;modplatform&sol;ResourcePackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:BaseInstance.adoc[BaseInstance] const& m&lowbar;base&lowbar;instance;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

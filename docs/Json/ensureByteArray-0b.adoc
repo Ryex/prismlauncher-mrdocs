@@ -1,0 +1,22 @@
+[#Json-ensureByteArray-0b]
+= xref:Json.adoc[Json]::ensureByteArray
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L274[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray]
+ensureByteArray(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QByteArray.adoc[QByteArray] const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#MainWindow-closeEvent]
+= xref:MainWindow.adoc[MainWindow]::closeEvent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.h#L76[ui&sol;MainWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+closeEvent(xref:QCloseEvent.adoc[QCloseEvent]* event) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,24 @@
+[#Task-failReason]
+= xref:Task.adoc[Task]::failReason
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the string that was passed to emitFailed as the error message when the task failed&period;
+If the task hasn&apos;t failed, returns an empty string&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L114[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+failReason() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

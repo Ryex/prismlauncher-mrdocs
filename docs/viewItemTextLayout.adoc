@@ -1,0 +1,43 @@
+[#viewItemTextLayout]
+= viewItemTextLayout
+:relfileprefix: 
+:mrdocs:
+
+
+Cuts out the text in textLayout into smaller pieces, according to the lineWidth&period;
+Returns a list of pairs, each containing the width of that line and that line&apos;s string, respectively&period;
+The total height of those lines is set in the last argument, &apos;height&apos;&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/Common.h#L9[ui&sol;widgets&sol;Common&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:std.adoc[std]::xref:std/pair.adoc[pair]&lt;xref:qreal.adoc[qreal], xref:QString.adoc[QString]&gt;&gt;
+xref:viewItemTextLayout-04.adoc[viewItemTextLayout](
+    xref:QTextLayout.adoc[QTextLayout]& textLayout,
+    int lineWidth,
+    xref:qreal.adoc[qreal]& height);
+----
+
+[.small]#xref:viewItemTextLayout-04.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+xref:viewItemTextLayout-0e.adoc[viewItemTextLayout](
+    xref:QTextLayout.adoc[QTextLayout]& textLayout,
+    int lineWidth,
+    xref:qreal.adoc[qreal]& height,
+    xref:qreal.adoc[qreal]& widthUsed);
+----
+
+[.small]#xref:viewItemTextLayout-0e.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

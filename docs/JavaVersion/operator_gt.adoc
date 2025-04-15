@@ -1,0 +1,19 @@
+[#JavaVersion-operator_gt]
+= xref:JavaVersion.adoc[JavaVersion]::operator&gt;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaVersion.h#L25[java&sol;JavaVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator&gt;(xref:JavaVersion.adoc[JavaVersion] const& rhs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

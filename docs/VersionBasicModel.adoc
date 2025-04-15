@@ -1,0 +1,61 @@
+[#VersionBasicModel]
+= VersionBasicModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.cpp#L57[ui&sol;widgets&sol;ModFilterWidget&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionBasicModel
+    : public xref:QIdentityProxyModel.adoc[QIdentityProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionBasicModel/2constructor.adoc[`VersionBasicModel`]         [.small]#[constructor]#
+| 
+
+| xref:VersionBasicModel/data.adoc[`data`] 
+| 
+
+| xref:VersionBasicModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VersionBasicModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VersionBasicModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionBasicModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionBasicModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

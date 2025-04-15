@@ -1,0 +1,22 @@
+[#ModFolderPage-2constructor]
+= xref:ModFolderPage.adoc[ModFolderPage]::ModFolderPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ModFolderPage.h#L47[ui&sol;pages&sol;instance&sol;ModFolderPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ModFolderPage(
+    xref:BaseInstance.adoc[BaseInstance]* inst,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFolderModel.adoc[ModFolderModel]&gt; model,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

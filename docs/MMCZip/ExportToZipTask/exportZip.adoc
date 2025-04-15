@@ -1,0 +1,19 @@
+[#MMCZip-ExportToZipTask-exportZip]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExportToZipTask.adoc[ExportToZipTask]::exportZip
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L193[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MMCZip/ExportToZipTask/ZipResult.adoc[ZipResult]
+exportZip();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

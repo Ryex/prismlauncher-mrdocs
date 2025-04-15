@@ -1,0 +1,90 @@
+[#MSADeviceCodeStep]
+= MSADeviceCodeStep
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.h#L44[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MSADeviceCodeStep
+    : public xref:AuthStep.adoc[AuthStep];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthStep/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MSADeviceCodeStep/2constructor.adoc[`MSADeviceCodeStep`]         [.small]#[constructor]#
+| 
+
+| xref:AuthStep/abort.adoc[`abort`] 
+| 
+| xref:MSADeviceCodeStep/authorizeWithBrowser.adoc[`authorizeWithBrowser`] 
+| 
+
+| xref:AuthStep/describe.adoc[`describe`] 
+| 
+| xref:AuthStep/finished.adoc[`finished`] 
+| 
+
+| xref:AuthStep/metaObject.adoc[`metaObject`] 
+| 
+| xref:AuthStep/perform.adoc[`perform`] 
+| 
+| xref:AuthStep/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:AuthStep/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:MSADeviceCodeStep/2destructor.adoc[`&tilde;MSADeviceCodeStep`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthStep/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthStep/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:MSADeviceCodeStep/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthStep/m_data.adoc[`m&lowbar;data`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,110 @@
+[#VersionListView]
+= VersionListView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionListView.h#L19[ui&sol;widgets&sol;VersionListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionListView
+    : public xref:QTreeView.adoc[QTreeView]
+    , public xref:QTreeView.adoc[QTreeView];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionListView/EmptyMode.adoc[`EmptyMode`] 
+| 
+
+| xref:QAbstractItemView/ScrollHint.adoc[`ScrollHint`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionListView/2constructor.adoc[`VersionListView`]         [.small]#[constructor]#
+| 
+
+| xref:VersionListView/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VersionListView/paintEvent.adoc[`paintEvent`] 
+| 
+
+| xref:VersionListView/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VersionListView/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:VersionListView/reset.adoc[`reset`] 
+| 
+
+| xref:VersionListView/setEmptyErrorString.adoc[`setEmptyErrorString`] 
+| 
+
+| xref:VersionListView/setEmptyMode.adoc[`setEmptyMode`] 
+| 
+
+| xref:VersionListView/setEmptyString.adoc[`setEmptyString`] 
+| 
+
+| xref:VersionListView/setModel.adoc[`setModel`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionListView/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionListView/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/CursorAction.adoc[`CursorAction`] 
+| 
+
+|===
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionListView/rowsAboutToBeRemoved.adoc[`rowsAboutToBeRemoved`] 
+| 
+
+| xref:VersionListView/rowsInserted.adoc[`rowsInserted`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

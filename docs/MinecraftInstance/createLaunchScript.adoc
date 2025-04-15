@@ -1,0 +1,21 @@
+[#MinecraftInstance-createLaunchScript]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::createLaunchScript
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L129[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+createLaunchScript(
+    xref:AuthSessionPtr.adoc[AuthSessionPtr] session,
+    xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

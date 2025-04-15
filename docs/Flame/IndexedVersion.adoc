@@ -1,0 +1,48 @@
+[#Flame-IndexedVersion]
+= xref:Flame.adoc[Flame]::IndexedVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L16[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct IndexedVersion;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/IndexedVersion/addonId.adoc[`addonId`] 
+| 
+
+| xref:Flame/IndexedVersion/downloadUrl.adoc[`downloadUrl`] 
+| 
+
+| xref:Flame/IndexedVersion/fileId.adoc[`fileId`] 
+| 
+
+| xref:Flame/IndexedVersion/loaders.adoc[`loaders`] 
+| 
+
+| xref:Flame/IndexedVersion/mcVersion.adoc[`mcVersion`] 
+| 
+
+| xref:Flame/IndexedVersion/version.adoc[`version`] 
+| 
+
+| xref:Flame/IndexedVersion/version_type.adoc[`version&lowbar;type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

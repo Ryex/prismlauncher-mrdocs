@@ -1,0 +1,19 @@
+[#getOnlinePlayers]
+= getOnlinePlayers
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServerPingTask.cpp#L8[ui&sol;pages&sol;instance&sol;ServerPingTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+unsigned int
+getOnlinePlayers(xref:QJsonObject.adoc[QJsonObject] data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

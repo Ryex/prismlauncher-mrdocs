@@ -1,0 +1,20 @@
+[#LocalTexturePackParseTask-token]
+= xref:LocalTexturePackParseTask.adoc[LocalTexturePackParseTask]::token
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalTexturePackParseTask.h#L58[minecraft&sol;mod&sol;tasks&sol;LocalTexturePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+int
+token() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

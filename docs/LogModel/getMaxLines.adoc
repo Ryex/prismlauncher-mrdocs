@@ -1,0 +1,19 @@
+[#LogModel-getMaxLines]
+= xref:LogModel.adoc[LogModel]::getMaxLines
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L23[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+getMaxLines();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

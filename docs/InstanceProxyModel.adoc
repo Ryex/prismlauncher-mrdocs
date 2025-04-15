@@ -1,0 +1,74 @@
+[#InstanceProxyModel]
+= InstanceProxyModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceProxyModel.h#L21[ui&sol;instanceview&sol;InstanceProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InstanceProxyModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel]
+    , public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceProxyModel/2constructor.adoc[`InstanceProxyModel`]         [.small]#[constructor]#
+| 
+
+| xref:InstanceProxyModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:InstanceProxyModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:InstanceProxyModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceProxyModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceProxyModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceProxyModel/data.adoc[`data`] 
+| 
+
+| xref:InstanceProxyModel/lessThan.adoc[`lessThan`] 
+| 
+
+| xref:InstanceProxyModel/subSortLessThan.adoc[`subSortLessThan`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

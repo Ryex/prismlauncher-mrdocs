@@ -1,0 +1,21 @@
+[#WideBar-createContextMenu]
+= xref:WideBar.adoc[WideBar]::createContextMenu
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L30[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMenu.adoc[QMenu]*
+createContextMenu(
+    xref:QWidget.adoc[QWidget]* parent = nullptr,
+    xref:QString.adoc[QString] const& title = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

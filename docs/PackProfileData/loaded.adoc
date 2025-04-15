@@ -1,0 +1,18 @@
+[#PackProfileData-loaded]
+= xref:PackProfileData.adoc[PackProfileData]::loaded
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L26[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool loaded = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

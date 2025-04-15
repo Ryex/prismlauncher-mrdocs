@@ -1,0 +1,22 @@
+[#PasteUpload-2constructor]
+= xref:PasteUpload.adoc[PasteUpload]::PasteUpload
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/PasteUpload.h#L70[net&sol;PasteUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+PasteUpload(
+    xref:QWidget.adoc[QWidget]* window,
+    xref:QString.adoc[QString] text,
+    xref:QString.adoc[QString] url,
+    xref:PasteUpload/PasteType.adoc[PasteType] pasteType);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

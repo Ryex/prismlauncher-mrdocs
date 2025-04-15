@@ -1,0 +1,79 @@
+[#CustomCommands]
+= CustomCommands
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CustomCommands.h#L44[ui&sol;widgets&sol;CustomCommands&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CustomCommands
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomCommands/2constructor.adoc[`CustomCommands`]         [.small]#[constructor]#
+| 
+
+| xref:CustomCommands/checked.adoc[`checked`] 
+| 
+
+| xref:CustomCommands/initialize.adoc[`initialize`] 
+| 
+
+| xref:CustomCommands/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:CustomCommands/postexitCommand.adoc[`postexitCommand`] 
+| 
+
+| xref:CustomCommands/prelaunchCommand.adoc[`prelaunchCommand`] 
+| 
+
+| xref:CustomCommands/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:CustomCommands/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:CustomCommands/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:CustomCommands/wrapperCommand.adoc[`wrapperCommand`] 
+| 
+
+| xref:CustomCommands/2destructor.adoc[`&tilde;CustomCommands`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomCommands/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomCommands/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

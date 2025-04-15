@@ -1,0 +1,31 @@
+[#ResourceDownload-Modrinth]
+= xref:ResourceDownload.adoc[ResourceDownload]::Modrinth
+:relfileprefix: ../
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/Modrinth/debugName.adoc[`debugName`] 
+| 
+
+| xref:ResourceDownload/Modrinth/displayName.adoc[`displayName`] 
+| 
+
+| xref:ResourceDownload/Modrinth/icon.adoc[`icon`] 
+| 
+
+| xref:ResourceDownload/Modrinth/id.adoc[`id`] 
+| 
+
+| xref:ResourceDownload/Modrinth/metaEntryBase.adoc[`metaEntryBase`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

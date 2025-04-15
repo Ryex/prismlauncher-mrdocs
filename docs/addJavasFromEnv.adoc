@@ -1,0 +1,19 @@
+[#addJavasFromEnv]
+= addJavasFromEnv
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.cpp#L156[java&sol;JavaUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+addJavasFromEnv(xref:QList.adoc[QList]&lt;xref:QString.adoc[QString]&gt; javas);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

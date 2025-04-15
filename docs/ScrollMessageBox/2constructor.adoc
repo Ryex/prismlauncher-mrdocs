@@ -1,0 +1,22 @@
+[#ScrollMessageBox-2constructor]
+= xref:ScrollMessageBox.adoc[ScrollMessageBox]::ScrollMessageBox
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ScrollMessageBox.h#L15[ui&sol;dialogs&sol;ScrollMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ScrollMessageBox(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] const& title,
+    xref:QString.adoc[QString] const& text,
+    xref:QString.adoc[QString] const& body);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,29 @@
+[#ModPlatform-IndexedVersionType-operator_ge]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::operator&gt;&equals;
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L80[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:ModPlatform/IndexedVersionType/operator_ge-05.adoc[operator&gt;&equals;](xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType] const& other) const;
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/operator_ge-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:ModPlatform/IndexedVersionType/operator_ge-0a.adoc[operator&gt;&equals;](xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::xref:ModPlatform/IndexedVersionType/VersionType.adoc[VersionType] const& type) const;
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/operator_ge-0a.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

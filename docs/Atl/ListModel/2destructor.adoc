@@ -1,0 +1,19 @@
+[#Atl-ListModel-2destructor]
+= xref:Atl.adoc[Atl]::xref:Atl/ListModel.adoc[ListModel]::&tilde;ListModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlListModel.h#L35[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ListModel();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

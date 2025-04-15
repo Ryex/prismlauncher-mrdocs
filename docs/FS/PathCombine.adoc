@@ -1,0 +1,46 @@
+[#FS-PathCombine]
+= xref:FS.adoc[FS]::PathCombine
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L299[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:FS/PathCombine-09.adoc[PathCombine](
+    xref:QString.adoc[QString] const& path1,
+    xref:QString.adoc[QString] const& path2);
+----
+
+[.small]#xref:FS/PathCombine-09.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:FS/PathCombine-0a.adoc[PathCombine](
+    xref:QString.adoc[QString] const& path1,
+    xref:QString.adoc[QString] const& path2,
+    xref:QString.adoc[QString] const& path3);
+----
+
+[.small]#xref:FS/PathCombine-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:FS/PathCombine-03.adoc[PathCombine](
+    xref:QString.adoc[QString] const& path1,
+    xref:QString.adoc[QString] const& path2,
+    xref:QString.adoc[QString] const& path3,
+    xref:QString.adoc[QString] const& path4);
+----
+
+[.small]#xref:FS/PathCombine-03.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

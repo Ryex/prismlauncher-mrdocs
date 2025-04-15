@@ -1,0 +1,22 @@
+[#ComponentUpdateTask-2constructor]
+= xref:ComponentUpdateTask.adoc[ComponentUpdateTask]::ComponentUpdateTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.h#L17[minecraft&sol;ComponentUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ComponentUpdateTask(
+    xref:ComponentUpdateTask/Mode.adoc[Mode] mode,
+    xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] netmode,
+    xref:PackProfile.adoc[PackProfile]* list);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

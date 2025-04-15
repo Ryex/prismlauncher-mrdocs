@@ -1,0 +1,22 @@
+[#Ui-BlockedModsDialog]
+= xref:Ui.adoc[Ui]::BlockedModsDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L50[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BlockedModsDialog
+    : public xref:Ui_BlockedModsDialog.adoc[Ui&lowbar;BlockedModsDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

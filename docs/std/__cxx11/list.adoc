@@ -1,0 +1,102 @@
+[#std-__cxx11-list]
+= xref:std.adoc[std]::xref:std/__cxx11.adoc[&lowbar;&lowbar;cxx11]::list
+:relfileprefix: ../../
+:mrdocs:
+
+
+A standard container with linear time access to elements,
+and fixed time insertion&sol;deletion at any point in the sequence&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/stl_list.h#L631[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;stl&lowbar;list&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename &lowbar;Tp,
+    typename &lowbar;Alloc = xref:std.adoc[std]::xref:std/allocator.adoc[allocator]&lt;&lowbar;Tp&gt;&gt;
+class list
+    : protected xref:std/__cxx11/_List_base.adoc[&lowbar;List&lowbar;base]&lt;&lowbar;Tp, &lowbar;Alloc&gt;;
+----
+
+
+
+
+== Description
+
+Meets the requirements of a
+link:tables.html#65[container]
+, a
+link:tables.html#66[reversible container]
+, and a
+link:tables.html#67[sequence]
+, including the
+link:tables.html#68[optional sequence requirements]
+with the
+%exception of
+`at`
+and
+`operator[].`
+
+This is a
+_doublylinked_
+%list&period;  Traversal up and down the
+%list requires linear time, but adding and removing elements (or
+_nodes)_
+is done in constant time, regardless of where the
+change takes place&period;  Unlike std&colon;&colon;vector and std&colon;&colon;deque,
+random&hyphen;access iterators are not provided, so subscripting (
+`[]`
+) access is not allowed&period;  For algorithms which only need
+sequential access, this lack makes no difference&period;
+
+Also unlike the other standard containers, std&colon;&colon;list provides
+specialized algorithms %unique to linked lists, such as
+splicing, sorting, and in&hyphen;place reversal&period;
+
+A couple points on memory allocation for list&lt;Tp&gt;&colon;
+
+First, we never actually allocate a Tp, we allocate
+List&lowbar;node&lt;Tp&gt;&apos;s and trust &lsqb;20&period;1&period;5&rsqb;&sol;4 to DTRT&period;  This is to ensure
+that after elements from %list&lt;X,Alloc1&gt; are spliced into
+%list&lt;X,Alloc2&gt;, destroying the memory of the second %list is a
+valid operation, i&period;e&period;, Alloc1 giveth and Alloc2 taketh away&period;
+
+Second, a %list conceptually represented as
+
+[,cpp]
+----
+A <---> B <---> C <---> D
+----
+is actually circular&semi; a link exists between A and D&period;  The %list
+class holds (as its only data member) a private list&colon;&colon;iterator
+pointing to
+_D,_
+not to
+_A!_
+To get to the head of the %list,
+we start at the tail and move forward by one&period;  When this member
+iterator&apos;s next&sol;previous pointers refer to itself, the %list is
+%empty&period;
+
+
+
+== Template Parameters
+
+|===
+| Name | Description
+
+| *&lowbar;Tp*
+| Type of element&period;
+
+
+| *&lowbar;Alloc*
+| Allocator type, defaults to allocator&lt;&lowbar;Tp&gt;&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

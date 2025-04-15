@@ -1,0 +1,19 @@
+[#RecursiveFileSystemWatcher-setWatchFiles]
+= xref:RecursiveFileSystemWatcher.adoc[RecursiveFileSystemWatcher]::setWatchFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L16[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setWatchFiles(bool watchFiles);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

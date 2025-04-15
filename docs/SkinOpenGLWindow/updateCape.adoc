@@ -1,0 +1,19 @@
+[#SkinOpenGLWindow-updateCape]
+= xref:SkinOpenGLWindow.adoc[SkinOpenGLWindow]::updateCape
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L45[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateCape(xref:QImage.adoc[QImage] const& cape);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

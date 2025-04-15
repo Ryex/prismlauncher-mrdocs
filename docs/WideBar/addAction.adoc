@@ -1,0 +1,19 @@
+[#WideBar-addAction]
+= xref:WideBar.adoc[WideBar]::addAction
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L21[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addAction(xref:QAction.adoc[QAction]* action);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

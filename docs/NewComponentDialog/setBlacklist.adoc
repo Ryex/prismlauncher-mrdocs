@@ -1,0 +1,19 @@
+[#NewComponentDialog-setBlacklist]
+= xref:NewComponentDialog.adoc[NewComponentDialog]::setBlacklist
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewComponentDialog.h#L33[ui&sol;dialogs&sol;NewComponentDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setBlacklist(xref:QStringList.adoc[QStringList] badUids);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

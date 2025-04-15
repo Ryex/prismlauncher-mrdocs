@@ -1,0 +1,20 @@
+[#ImgurUpload-make]
+= xref:ImgurUpload.adoc[ImgurUpload]::make
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurUpload.h#L63[screenshots&sol;ImgurUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Ptr.adoc[Ptr]
+make(xref:ScreenShot.adoc[ScreenShot]::xref:ScreenShot/Ptr.adoc[Ptr] m&lowbar;shot);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

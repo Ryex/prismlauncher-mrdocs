@@ -1,0 +1,20 @@
+[#LocalDataPackParseTask-2constructor]
+= xref:LocalDataPackParseTask.adoc[LocalDataPackParseTask]::LocalDataPackParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalDataPackParseTask.h#L50[minecraft&sol;mod&sol;tasks&sol;LocalDataPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+LocalDataPackParseTask(
+    int token,
+    xref:DataPack.adoc[DataPack]* dp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#ModrinthPage-metaObject]
+= xref:ModrinthPage.adoc[ModrinthPage]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthPage.h#L59[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#JProfilerFactory-check-032]
+= xref:JProfilerFactory.adoc[JProfilerFactory]::check
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/JProfiler.h#L10[tools&sol;JProfiler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+check(xref:QString.adoc[QString]* error) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

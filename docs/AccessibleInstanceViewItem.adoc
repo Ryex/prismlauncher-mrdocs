@@ -1,0 +1,105 @@
+[#AccessibleInstanceViewItem]
+= AccessibleInstanceViewItem
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L71[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AccessibleInstanceViewItem
+    : public xref:QAccessibleInterface.adoc[QAccessibleInterface]
+    , public xref:QAccessibleTableCellInterface.adoc[QAccessibleTableCellInterface]
+    , public xref:QAccessibleActionInterface.adoc[QAccessibleActionInterface];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccessibleInstanceViewItem/2constructor.adoc[`AccessibleInstanceViewItem`]         [.small]#[constructor]#
+| 
+
+| xref:AccessibleInstanceViewItem/actionNames.adoc[`actionNames`] 
+| 
+
+| xref:AccessibleInstanceViewItem/child.adoc[`child`] 
+| 
+
+| xref:AccessibleInstanceViewItem/childAt.adoc[`childAt`] 
+| 
+
+| xref:AccessibleInstanceViewItem/childCount.adoc[`childCount`] 
+| 
+
+| xref:AccessibleInstanceViewItem/columnExtent.adoc[`columnExtent`] 
+| 
+
+| xref:AccessibleInstanceViewItem/columnHeaderCells.adoc[`columnHeaderCells`] 
+| 
+
+| xref:AccessibleInstanceViewItem/columnIndex.adoc[`columnIndex`] 
+| 
+
+| xref:AccessibleInstanceViewItem/doAction.adoc[`doAction`] 
+| 
+
+| xref:AccessibleInstanceViewItem/indexOfChild.adoc[`indexOfChild`] 
+| 
+
+| xref:AccessibleInstanceViewItem/interface_cast.adoc[`interface&lowbar;cast`] 
+| 
+
+| xref:AccessibleInstanceViewItem/isSelected.adoc[`isSelected`] 
+| 
+
+| xref:AccessibleInstanceViewItem/isValid.adoc[`isValid`] 
+| 
+
+| xref:AccessibleInstanceViewItem/keyBindingsForAction.adoc[`keyBindingsForAction`] 
+| 
+
+| xref:AccessibleInstanceViewItem/object.adoc[`object`] 
+| 
+
+| xref:AccessibleInstanceViewItem/parent.adoc[`parent`] 
+| 
+
+| xref:AccessibleInstanceViewItem/rect.adoc[`rect`] 
+| 
+
+| xref:AccessibleInstanceViewItem/role.adoc[`role`] 
+| 
+
+| xref:AccessibleInstanceViewItem/rowExtent.adoc[`rowExtent`] 
+| 
+
+| xref:AccessibleInstanceViewItem/rowHeaderCells.adoc[`rowHeaderCells`] 
+| 
+
+| xref:AccessibleInstanceViewItem/rowIndex.adoc[`rowIndex`] 
+| 
+
+| xref:AccessibleInstanceViewItem/setText.adoc[`setText`] 
+| 
+
+| xref:AccessibleInstanceViewItem/state.adoc[`state`] 
+| 
+
+| xref:AccessibleInstanceViewItem/table.adoc[`table`] 
+| 
+
+| xref:AccessibleInstanceViewItem/text.adoc[`text`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#MetaEntry-setMaximumAge]
+= xref:MetaEntry.adoc[MetaEntry]::setMaximumAge
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L75[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setMaximumAge(xref:qint64.adoc[qint64] age);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

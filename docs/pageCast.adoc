@@ -1,0 +1,31 @@
+[#pageCast]
+= pageCast
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L166[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:InstallJavaPage.adoc[InstallJavaPage]*
+xref:pageCast-05.adoc[pageCast](xref:BasePage.adoc[BasePage]* page);
+----
+
+[.small]#xref:pageCast-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:InstallLoaderPage.adoc[InstallLoaderPage]*
+xref:pageCast-04.adoc[pageCast](xref:BasePage.adoc[BasePage]* page);
+----
+
+[.small]#xref:pageCast-04.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

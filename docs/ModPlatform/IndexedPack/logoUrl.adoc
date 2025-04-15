@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedPack-logoUrl]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::logoUrl
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L139[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] logoUrl;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#ResourcePackUtils]
+= ResourcePackUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourcePackUtils/buildStyle.adoc[`buildStyle`] 
+| 
+
+| xref:ResourcePackUtils/processComponent.adoc[`processComponent`] 
+| 
+| xref:ResourcePackUtils/processPackPNG.adoc[`processPackPNG`] 
+| processes ONLY the pack&period;png (rest of the pack may be invalid)
+
+
+
+| xref:ResourcePackUtils/validate.adoc[`validate`] 
+| Checks whether a file is valid as a resource pack or not&period;
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

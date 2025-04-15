@@ -1,0 +1,18 @@
+[#RemoteLoadStatus-finished]
+= xref:RemoteLoadStatus.adoc[RemoteLoadStatus]::finished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L16[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool finished = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

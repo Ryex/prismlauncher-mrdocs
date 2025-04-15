@@ -1,0 +1,20 @@
+[#NilModFolderPage-qt_metacast]
+= xref:NilModFolderPage.adoc[NilModFolderPage]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ModFolderPage.h#L90[ui&sol;pages&sol;instance&sol;ModFolderPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#Json-requireDateTime-09]
+= xref:Json.adoc[Json]::requireDateTime
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L272[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime]
+requireDateTime(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

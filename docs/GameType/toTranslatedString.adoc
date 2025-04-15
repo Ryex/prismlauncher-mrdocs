@@ -1,0 +1,19 @@
+[#GameType-toTranslatedString]
+= xref:GameType.adoc[GameType]::toTranslatedString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L25[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+toTranslatedString() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

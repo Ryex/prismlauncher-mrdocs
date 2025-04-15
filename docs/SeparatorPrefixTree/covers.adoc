@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-covers]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::covers
+:relfileprefix: ../
+:mrdocs:
+
+
+does the tree cover a path? That means the prefix of the path is contained in the tree
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L44[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+covers(xref:QString.adoc[QString] path) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

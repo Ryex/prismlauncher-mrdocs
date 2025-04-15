@@ -1,0 +1,18 @@
+[#Server-m_icon]
+= xref:Server.adoc[Server]::m&lowbar;icon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L111[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray] m&lowbar;icon;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

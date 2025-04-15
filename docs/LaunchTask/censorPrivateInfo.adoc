@@ -1,0 +1,19 @@
+[#LaunchTask-censorPrivateInfo]
+= xref:LaunchTask.adoc[LaunchTask]::censorPrivateInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L91[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+censorPrivateInfo(xref:QString.adoc[QString] in);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

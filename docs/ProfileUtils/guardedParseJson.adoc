@@ -1,0 +1,24 @@
+[#ProfileUtils-guardedParseJson]
+= xref:ProfileUtils.adoc[ProfileUtils]::guardedParseJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.cpp#L103[minecraft&sol;ProfileUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:VersionFilePtr.adoc[VersionFilePtr]
+guardedParseJson(
+    xref:QJsonDocument.adoc[QJsonDocument] const& doc,
+    xref:QString.adoc[QString] const& fileId,
+    xref:QString.adoc[QString] const& filepath,
+    bool const& requireOrder);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

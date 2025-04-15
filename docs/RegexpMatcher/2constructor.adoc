@@ -1,0 +1,18 @@
+[#RegexpMatcher-2constructor]
+= xref:RegexpMatcher.adoc[RegexpMatcher]::RegexpMatcher
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/RegexpMatcher.h#L9[pathmatcher&sol;RegexpMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+RegexpMatcher(xref:QString.adoc[QString] const& regexp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

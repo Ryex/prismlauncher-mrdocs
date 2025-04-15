@@ -1,0 +1,19 @@
+[#SkinModel-2destructor]
+= xref:SkinModel.adoc[SkinModel]::&tilde;SkinModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L32[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;SkinModel() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

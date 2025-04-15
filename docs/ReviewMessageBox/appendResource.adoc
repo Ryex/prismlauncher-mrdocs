@@ -1,0 +1,19 @@
+[#ReviewMessageBox-appendResource]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::appendResource
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L26[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+appendResource(xref:ReviewMessageBox/ResourceInformation.adoc[ResourceInformation]&& info);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

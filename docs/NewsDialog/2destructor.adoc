@@ -1,0 +1,19 @@
+[#NewsDialog-2destructor]
+= xref:NewsDialog.adoc[NewsDialog]::&tilde;NewsDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewsDialog.h#L17[ui&sol;dialogs&sol;NewsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;NewsDialog();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

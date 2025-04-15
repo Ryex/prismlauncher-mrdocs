@@ -1,0 +1,20 @@
+[#Technic-SingleZipPackInstallTask-executeTask]
+= xref:Technic.adoc[Technic]::xref:Technic/SingleZipPackInstallTask.adoc[SingleZipPackInstallTask]::executeTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SingleZipPackInstallTask.h#L41[modplatform&sol;technic&sol;SingleZipPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

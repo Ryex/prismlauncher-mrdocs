@@ -1,0 +1,18 @@
+[#uintmax_t]
+= uintmax&lowbar;t
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/71xyq87gpb2qrwn314p0sf2n002lgd91-glibc-2.40-66-dev/include/stdint.h#L91[&sol;nix&sol;store&sol;71xyq87gpb2qrwn314p0sf2n002lgd91&hyphen;glibc&hyphen;2&period;40&hyphen;66&hyphen;dev&sol;include&sol;stdint&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef xref:__uintmax_t.adoc[&lowbar;&lowbar;uintmax&lowbar;t] uintmax&lowbar;t;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

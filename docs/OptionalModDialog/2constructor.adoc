@@ -1,0 +1,20 @@
+[#OptionalModDialog-2constructor]
+= xref:OptionalModDialog.adoc[OptionalModDialog]::OptionalModDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/OptionalModDialog.h#L32[ui&sol;pages&sol;modplatform&sol;OptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+OptionalModDialog(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QStringList.adoc[QStringList] const& mods);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#LanguageSelectionWidget-languageRowChanged]
+= xref:LanguageSelectionWidget.adoc[LanguageSelectionWidget]::languageRowChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LanguageSelectionWidget.h#L36[ui&sol;widgets&sol;LanguageSelectionWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+languageRowChanged(
+    xref:QModelIndex.adoc[QModelIndex] const& current,
+    xref:QModelIndex.adoc[QModelIndex] const& previous);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

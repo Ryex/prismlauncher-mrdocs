@@ -1,0 +1,33 @@
+[#SettingsObject-retrieveValue]
+= xref:SettingsObject.adoc[SettingsObject]::retrieveValue
+:relfileprefix: ../
+:mrdocs:
+
+
+Function used by Setting objects to get their values from the SettingsObject&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L194[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+retrieveValue(xref:Setting.adoc[Setting] const& setting) = 0;
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *setting*
+| The
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

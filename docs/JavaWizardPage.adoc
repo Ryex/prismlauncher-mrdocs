@@ -1,0 +1,85 @@
+[#JavaWizardPage]
+= JavaWizardPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/JavaWizardPage.h#L7[ui&sol;setupwizard&sol;JavaWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JavaWizardPage
+    : public xref:BaseWizardPage.adoc[BaseWizardPage];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardPage/2constructor.adoc[`JavaWizardPage`]         [.small]#[constructor]#
+| 
+
+| xref:JavaWizardPage/initializePage.adoc[`initializePage`] 
+| 
+
+| xref:JavaWizardPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:JavaWizardPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:JavaWizardPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BaseWizardPage/refresh.adoc[`refresh`] 
+| 
+| xref:JavaWizardPage/validatePage.adoc[`validatePage`] 
+| 
+
+| xref:BaseWizardPage/wantsRefreshButton.adoc[`wantsRefreshButton`] 
+| 
+| xref:JavaWizardPage/2destructor.adoc[`&tilde;JavaWizardPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BaseWizardPage/retranslate.adoc[`retranslate`] 
+| 
+| xref:JavaWizardPage/setupUi.adoc[`setupUi`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#MinecraftAccount-decrementUses]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::decrementUses
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L169[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+decrementUses() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

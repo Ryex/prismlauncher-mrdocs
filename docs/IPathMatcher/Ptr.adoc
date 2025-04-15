@@ -1,0 +1,18 @@
+[#IPathMatcher-Ptr]
+= xref:IPathMatcher.adoc[IPathMatcher]::Ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/IPathMatcher.h#L7[pathmatcher&sol;IPathMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using Ptr = xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:IPathMatcher.adoc[IPathMatcher]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

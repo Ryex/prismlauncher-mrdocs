@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedPack-versions]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::versions
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L144[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]&gt; versions;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

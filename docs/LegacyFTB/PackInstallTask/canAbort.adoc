@@ -1,0 +1,20 @@
+[#LegacyFTB-PackInstallTask-canAbort]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackInstallTask.adoc[PackInstallTask]::canAbort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackInstallTask.h#L24[modplatform&sol;legacy&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canAbort() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

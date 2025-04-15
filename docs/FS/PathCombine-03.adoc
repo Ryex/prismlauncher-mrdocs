@@ -1,0 +1,23 @@
+[#FS-PathCombine-03]
+= xref:FS.adoc[FS]::PathCombine
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L301[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+PathCombine(
+    xref:QString.adoc[QString] const& path1,
+    xref:QString.adoc[QString] const& path2,
+    xref:QString.adoc[QString] const& path3,
+    xref:QString.adoc[QString] const& path4);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

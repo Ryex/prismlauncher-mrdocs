@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedVersion-dependencies]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]::dependencies
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L109[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform/Dependency.adoc[Dependency]&gt; dependencies;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Cape-alias]
+= xref:Cape.adoc[Cape]::alias
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L71[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] alias;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

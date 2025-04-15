@@ -1,0 +1,19 @@
+[#flame_api]
+= flame&lowbar;api
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.cpp#L20[modplatform&sol;EnsureMetadataTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:FlameAPI.adoc[FlameAPI] flame&lowbar;api = flame&lowbar;api;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

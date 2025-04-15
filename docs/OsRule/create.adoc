@@ -1,0 +1,23 @@
+[#OsRule-create]
+= xref:OsRule.adoc[OsRule]::create
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L82[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:OsRule.adoc[OsRule]&gt;
+create(
+    xref:RuleAction.adoc[RuleAction] result,
+    xref:QString.adoc[QString] system,
+    xref:QString.adoc[QString] version&lowbar;regexp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

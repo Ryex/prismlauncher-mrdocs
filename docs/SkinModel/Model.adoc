@@ -1,0 +1,29 @@
+[#SkinModel-Model]
+= xref:SkinModel.adoc[SkinModel]::Model
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L27[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Model;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`CLASSIC`
+|
+|`SLIM`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

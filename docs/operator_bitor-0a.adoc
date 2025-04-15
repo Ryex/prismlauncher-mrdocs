@@ -1,0 +1,23 @@
+[#operator_bitor-0a]
+= operator&verbar;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L115[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QIncompatibleFlag.adoc[QIncompatibleFlag]
+operator&verbar;(
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    int f2) noexcept;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

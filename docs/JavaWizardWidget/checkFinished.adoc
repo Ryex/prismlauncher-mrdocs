@@ -1,0 +1,19 @@
+[#JavaWizardWidget-checkFinished]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::checkFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L56[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+checkFinished(xref:JavaChecker.adoc[JavaChecker]::xref:JavaChecker/Result.adoc[Result] const& result);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

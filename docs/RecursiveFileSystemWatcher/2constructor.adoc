@@ -1,0 +1,18 @@
+[#RecursiveFileSystemWatcher-2constructor]
+= xref:RecursiveFileSystemWatcher.adoc[RecursiveFileSystemWatcher]::RecursiveFileSystemWatcher
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L10[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+RecursiveFileSystemWatcher(xref:QObject.adoc[QObject]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

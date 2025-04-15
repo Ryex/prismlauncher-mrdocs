@@ -1,0 +1,22 @@
+[#VersionFile-traits]
+= xref:VersionFile.adoc[VersionFile]::traits
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; list of attached traits of this version file &hyphen; used to enable features
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L135[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt; traits;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

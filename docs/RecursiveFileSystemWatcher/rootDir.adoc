@@ -1,0 +1,19 @@
+[#RecursiveFileSystemWatcher-rootDir]
+= xref:RecursiveFileSystemWatcher.adoc[RecursiveFileSystemWatcher]::rootDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L13[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir]
+rootDir() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

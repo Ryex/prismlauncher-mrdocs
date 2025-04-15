@@ -1,0 +1,18 @@
+[#qint64]
+= qint64
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/7wkgdcnn79b0hwly7nwdisll2hfywvqq-qtbase-6.8.2/include/QtCore/qtypes.h#L65[&sol;nix&sol;store&sol;7wkgdcnn79b0hwly7nwdisll2hfywvqq&hyphen;qtbase&hyphen;6&period;8&period;2&sol;include&sol;QtCore&sol;qtypes&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef long long qint64;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

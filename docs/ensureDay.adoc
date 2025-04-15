@@ -1,0 +1,22 @@
+[#ensureDay]
+= ensureDay
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.cpp#L95[ui&sol;themes&sol;CatPack&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDate.adoc[QDate]
+ensureDay(
+    int year,
+    int month,
+    int day);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

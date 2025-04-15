@@ -1,0 +1,21 @@
+[#AuthFlow-2constructor]
+= xref:AuthFlow.adoc[AuthFlow]::AuthFlow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthFlow.h#L20[minecraft&sol;auth&sol;AuthFlow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+AuthFlow(
+    xref:AccountData.adoc[AccountData]* data,
+    xref:AuthFlow/Action.adoc[Action] action = Action&colon;&colon;Refresh);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

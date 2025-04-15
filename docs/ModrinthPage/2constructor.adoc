@@ -1,0 +1,21 @@
+[#ModrinthPage-2constructor]
+= xref:ModrinthPage.adoc[ModrinthPage]::ModrinthPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthPage.h#L62[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ModrinthPage(
+    xref:NewInstanceDialog.adoc[NewInstanceDialog]* dialog,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,78 @@
+[#AtlUserInteractionSupportImpl]
+= AtlUserInteractionSupportImpl
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlUserInteractionSupportImpl.h#L42[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlUserInteractionSupportImpl&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AtlUserInteractionSupportImpl
+    : public xref:QObject.adoc[QObject]
+    , public xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/UserInteractionSupport.adoc[UserInteractionSupport];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlUserInteractionSupportImpl/2constructor.adoc[`AtlUserInteractionSupportImpl`]         [.small]#[constructor]#
+| 
+
+| xref:ATLauncher/UserInteractionSupport/chooseOptionalMods.adoc[`chooseOptionalMods`] 
+| Requests a user interaction to select which optional mods should be installed&period;
+
+
+
+| xref:ATLauncher/UserInteractionSupport/chooseVersion.adoc[`chooseVersion`] 
+| Requests a user interaction to select a component version from a given version list
+and constrained to a given Minecraft version&period;
+
+
+
+| xref:ATLauncher/UserInteractionSupport/displayMessage.adoc[`displayMessage`] 
+| Requests a user interaction to display a message&period;
+
+
+
+| xref:AtlUserInteractionSupportImpl/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:AtlUserInteractionSupportImpl/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:AtlUserInteractionSupportImpl/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:AtlUserInteractionSupportImpl/2destructor.adoc[`&tilde;AtlUserInteractionSupportImpl`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlUserInteractionSupportImpl/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlUserInteractionSupportImpl/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

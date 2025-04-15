@@ -1,0 +1,19 @@
+[#INIFile-2constructor]
+= xref:INIFile.adoc[INIFile]::INIFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.h#L49[settings&sol;INIFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+INIFile();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

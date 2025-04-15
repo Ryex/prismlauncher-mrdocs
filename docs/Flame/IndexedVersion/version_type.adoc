@@ -1,0 +1,18 @@
+[#Flame-IndexedVersion-version_type]
+= xref:Flame.adoc[Flame]::xref:Flame/IndexedVersion.adoc[IndexedVersion]::version&lowbar;type
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L20[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType] version&lowbar;type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

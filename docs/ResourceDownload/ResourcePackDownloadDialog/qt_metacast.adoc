@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourcePackDownloadDialog-qt_metacast]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackDownloadDialog.adoc[ResourcePackDownloadDialog]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L117[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

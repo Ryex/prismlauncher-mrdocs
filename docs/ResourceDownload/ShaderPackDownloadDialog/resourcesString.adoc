@@ -1,0 +1,21 @@
+[#ResourceDownload-ShaderPackDownloadDialog-resourcesString]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackDownloadDialog.adoc[ShaderPackDownloadDialog]::resourcesString
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L162[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+resourcesString() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#BaseInstance-propertiesChanged]
+= xref:BaseInstance.adoc[BaseInstance]::propertiesChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Signal emitted when properties relevant to the instance view change
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L289[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+propertiesChanged(xref:BaseInstance.adoc[BaseInstance]* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

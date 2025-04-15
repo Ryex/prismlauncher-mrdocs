@@ -1,0 +1,19 @@
+[#Java-VersionList-staticMetaObject]
+= xref:Java.adoc[Java]::xref:Java/VersionList.adoc[VersionList]::staticMetaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/VersionList.h#L28[ui&sol;java&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Component-getName]
+= xref:Component.adoc[Component]::getName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L84[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getName();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

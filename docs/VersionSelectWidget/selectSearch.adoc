@@ -1,0 +1,19 @@
+[#VersionSelectWidget-selectSearch]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::selectSearch
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L66[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+selectSearch();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

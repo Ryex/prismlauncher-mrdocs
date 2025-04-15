@@ -1,0 +1,22 @@
+[#VersionFile-mavenFiles]
+= xref:VersionFile.adoc[VersionFile]::mavenFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; list of maven files to put in the libraries folder, but not in classpath
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L126[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:LibraryPtr.adoc[LibraryPtr]&gt; mavenFiles;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

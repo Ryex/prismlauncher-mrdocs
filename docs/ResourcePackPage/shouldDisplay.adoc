@@ -1,0 +1,20 @@
+[#ResourcePackPage-shouldDisplay]
+= xref:ResourcePackPage.adoc[ResourcePackPage]::shouldDisplay
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ResourcePackPage.h#L55[ui&sol;pages&sol;instance&sol;ResourcePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+shouldDisplay() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

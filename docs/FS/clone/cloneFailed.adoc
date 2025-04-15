@@ -1,0 +1,21 @@
+[#FS-clone-cloneFailed]
+= xref:FS.adoc[FS]::xref:FS/clone.adoc[clone]::cloneFailed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L511[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+cloneFailed(
+    xref:QString.adoc[QString] const& src,
+    xref:QString.adoc[QString] const& dst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

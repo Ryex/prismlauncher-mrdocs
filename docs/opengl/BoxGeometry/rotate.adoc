@@ -1,0 +1,21 @@
+[#opengl-BoxGeometry-rotate]
+= xref:opengl.adoc[opengl]::xref:opengl/BoxGeometry.adoc[BoxGeometry]::rotate
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.h#L38[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+rotate(
+    float angle,
+    xref:QVector3D.adoc[QVector3D] const& vector);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

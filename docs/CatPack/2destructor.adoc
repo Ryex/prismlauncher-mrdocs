@@ -1,0 +1,19 @@
+[#CatPack-2destructor]
+= xref:CatPack.adoc[CatPack]::&tilde;CatPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L45[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;CatPack();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

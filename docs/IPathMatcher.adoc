@@ -1,0 +1,42 @@
+[#IPathMatcher]
+= IPathMatcher
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/IPathMatcher.h#L5[pathmatcher&sol;IPathMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class IPathMatcher;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IPathMatcher/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IPathMatcher/matches.adoc[`matches`] 
+| 
+
+| xref:IPathMatcher/2destructor.adoc[`&tilde;IPathMatcher`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#InstanceView-rowsInserted]
+= xref:InstanceView.adoc[InstanceView]::rowsInserted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L87[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+rowsInserted(
+    xref:QModelIndex.adoc[QModelIndex] const& parent,
+    int start,
+    int end) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

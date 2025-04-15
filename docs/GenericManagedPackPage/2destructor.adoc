@@ -1,0 +1,19 @@
+[#GenericManagedPackPage-2destructor]
+= xref:GenericManagedPackPage.adoc[GenericManagedPackPage]::&tilde;GenericManagedPackPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L109[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;GenericManagedPackPage() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

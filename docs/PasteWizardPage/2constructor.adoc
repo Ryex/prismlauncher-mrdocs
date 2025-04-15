@@ -1,0 +1,19 @@
+[#PasteWizardPage-2constructor]
+= xref:PasteWizardPage.adoc[PasteWizardPage]::PasteWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/PasteWizardPage.h#L15[ui&sol;setupwizard&sol;PasteWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PasteWizardPage(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

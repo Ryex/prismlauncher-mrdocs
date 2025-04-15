@@ -1,0 +1,22 @@
+[#Ui-AtlOptionalModDialog]
+= xref:Ui.adoc[Ui]::AtlOptionalModDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.h#L45[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlOptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AtlOptionalModDialog
+    : public xref:Ui_AtlOptionalModDialog.adoc[Ui&lowbar;AtlOptionalModDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

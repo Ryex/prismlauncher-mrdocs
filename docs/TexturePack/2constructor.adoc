@@ -1,0 +1,27 @@
+[#TexturePack-2constructor]
+= xref:TexturePack.adoc[TexturePack]::TexturePack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L36[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:TexturePack/2constructor-07.adoc[TexturePack](xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+[.small]#xref:TexturePack/2constructor-07.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:TexturePack/2constructor-09.adoc[TexturePack](xref:QFileInfo.adoc[QFileInfo] file&lowbar;info);
+----
+
+[.small]#xref:TexturePack/2constructor-09.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

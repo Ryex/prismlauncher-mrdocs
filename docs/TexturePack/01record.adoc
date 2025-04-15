@@ -1,0 +1,44 @@
+[#TexturePack-01record]
+= Unnamed struct
+:relfileprefix: ../
+:mrdocs:
+
+
+The texture pack&apos;s image file cache key, for access in the QPixmapCache global instance&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L65[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct &lt;unnamed&gt;;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TexturePack/01record/key.adoc[`key`] 
+| 
+
+| xref:TexturePack/01record/was_ever_used.adoc[`was&lowbar;ever&lowbar;used`] 
+| 
+
+|===
+
+
+
+== Description
+
+The &apos;was&lowbar;ever&lowbar;used&apos; state simply identifies whether the key was never inserted on the cache (true),
+so as to tell whether a cache entry is inexistent or if it was just evicted from the cache&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ImgurUpload-Sink-2constructor]
+= xref:ImgurUpload.adoc[ImgurUpload]::xref:ImgurUpload/Sink.adoc[Sink]::Sink
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurUpload.h#L46[screenshots&sol;ImgurUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Sink(xref:ScreenShot.adoc[ScreenShot]::xref:ScreenShot/Ptr.adoc[Ptr] shot);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

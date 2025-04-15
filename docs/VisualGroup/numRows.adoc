@@ -1,0 +1,23 @@
+[#VisualGroup-numRows]
+= xref:VisualGroup.adoc[VisualGroup]::numRows
+:relfileprefix: ../
+:mrdocs:
+
+
+the number of visual rows this group has
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L85[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+numRows() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

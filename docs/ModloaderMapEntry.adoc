@@ -1,0 +1,33 @@
+[#ModloaderMapEntry]
+= ModloaderMapEntry
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L47[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModloaderMapEntry;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModloaderMapEntry/knownConflictingComponents.adoc[`knownConflictingComponents`] 
+| 
+
+| xref:ModloaderMapEntry/type.adoc[`type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

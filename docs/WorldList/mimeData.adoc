@@ -1,0 +1,24 @@
+[#WorldList-mimeData]
+= xref:WorldList.adoc[WorldList]::mimeData
+:relfileprefix: ../
+:mrdocs:
+
+
+get data for drag action
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L65[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMimeData.adoc[QMimeData]*
+mimeData(xref:QModelIndexList.adoc[QModelIndexList] const& indexes) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

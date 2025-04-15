@@ -1,0 +1,24 @@
+[#ProfileSelectDialog-useAsInstDefaullt]
+= xref:ProfileSelectDialog.adoc[ProfileSelectDialog]::useAsInstDefaullt
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns true if the user checked the &quot;use as instance default&quot; checkbox&period;
+If the checkbox wasn&apos;t shown, this function returns false&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L71[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+useAsInstDefaullt() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

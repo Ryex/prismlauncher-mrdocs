@@ -1,0 +1,18 @@
+[#fs]
+= fs
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.cpp#L81[FileSystem&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+namespace fs = xref:std/filesystem.adoc[filesystem];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

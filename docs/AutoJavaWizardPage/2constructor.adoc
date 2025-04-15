@@ -1,0 +1,19 @@
+[#AutoJavaWizardPage-2constructor]
+= xref:AutoJavaWizardPage.adoc[AutoJavaWizardPage]::AutoJavaWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/AutoJavaWizardPage.h#L13[ui&sol;setupwizard&sol;AutoJavaWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+AutoJavaWizardPage(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

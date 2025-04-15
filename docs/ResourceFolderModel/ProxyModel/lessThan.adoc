@@ -1,0 +1,23 @@
+[#ResourceFolderModel-ProxyModel-lessThan]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::xref:ResourceFolderModel/ProxyModel.adoc[ProxyModel]::lessThan
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L181[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+lessThan(
+    xref:QModelIndex.adoc[QModelIndex] const& source&lowbar;left,
+    xref:QModelIndex.adoc[QModelIndex] const& source&lowbar;right) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

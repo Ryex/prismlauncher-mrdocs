@@ -1,0 +1,45 @@
+[#MMCImage]
+= MMCImage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L42[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MMCImage;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MMCImage/present.adoc[`present`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MMCImage/filename.adoc[`filename`] 
+| 
+
+| xref:MMCImage/icon.adoc[`icon`] 
+| 
+
+| xref:MMCImage/key.adoc[`key`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

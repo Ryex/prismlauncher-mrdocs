@@ -1,0 +1,23 @@
+[#Meta-BaseEntityLoadTask-tr]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntityLoadTask.adoc[BaseEntityLoadTask]::tr
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L58[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

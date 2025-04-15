@@ -1,0 +1,18 @@
+[#Resource-m_file_info]
+= xref:Resource.adoc[Resource]::m&lowbar;file&lowbar;info
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L159[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QFileInfo.adoc[QFileInfo] m&lowbar;file&lowbar;info;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

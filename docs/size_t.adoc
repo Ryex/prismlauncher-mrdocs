@@ -1,0 +1,18 @@
+[#size_t]
+= size&lowbar;t
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/v3xqsinpbf93fk7lkxdxfrhd9m6slfm9-clang-20.1.2-lib/lib/clang/20/include/__stddef_size_t.h#L18[&sol;nix&sol;store&sol;v3xqsinpbf93fk7lkxdxfrhd9m6slfm9&hyphen;clang&hyphen;20&period;1&period;2&hyphen;lib&sol;lib&sol;clang&sol;20&sol;include&sol;&lowbar;&lowbar;stddef&lowbar;size&lowbar;t&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef unsigned long size&lowbar;t;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

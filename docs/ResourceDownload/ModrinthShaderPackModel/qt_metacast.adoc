@@ -1,0 +1,20 @@
+[#ResourceDownload-ModrinthShaderPackModel-qt_metacast]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthShaderPackModel.adoc[ModrinthShaderPackModel]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourceModels.h#L85[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

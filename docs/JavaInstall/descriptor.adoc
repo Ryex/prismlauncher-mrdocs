@@ -1,0 +1,20 @@
+[#JavaInstall-descriptor]
+= xref:JavaInstall.adoc[JavaInstall]::descriptor
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L27[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+descriptor() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

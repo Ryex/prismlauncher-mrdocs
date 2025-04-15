@@ -1,0 +1,22 @@
+[#Agent-m_library]
+= xref:Agent.adoc[Agent]::m&lowbar;library
+:relfileprefix: ../
+:mrdocs:
+
+
+The library pointing to the jar this Java agent is contained within
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Agent.h#L25[minecraft&sol;Agent&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LibraryPtr.adoc[LibraryPtr] m&lowbar;library;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

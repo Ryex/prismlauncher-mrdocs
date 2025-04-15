@@ -1,0 +1,20 @@
+[#BaseInstance-canEdit]
+= xref:BaseInstance.adoc[BaseInstance]::canEdit
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L252[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canEdit() const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

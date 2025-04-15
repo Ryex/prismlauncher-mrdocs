@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourcePage-openUrl]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePage.adoc[ResourcePage]::openUrl
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePage.h#L99[ui&sol;pages&sol;modplatform&sol;ResourcePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+openUrl(xref:QUrl.adoc[QUrl] const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

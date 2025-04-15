@@ -1,0 +1,25 @@
+[#FS-write]
+= xref:FS.adoc[FS]::write
+:relfileprefix: ../
+:mrdocs:
+
+
+write data to a file safely
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L62[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+write(
+    xref:QString.adoc[QString] const& filename,
+    xref:QByteArray.adoc[QByteArray] const& data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

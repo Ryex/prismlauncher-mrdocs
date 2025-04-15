@@ -1,0 +1,22 @@
+[#ResourceDownload-ModModel-loadIndexedPackVersions]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]::loadIndexedPackVersions
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.h#L34[ui&sol;pages&sol;modplatform&sol;ModModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+loadIndexedPackVersions(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]& m,
+    xref:QJsonArray.adoc[QJsonArray]& arr) override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

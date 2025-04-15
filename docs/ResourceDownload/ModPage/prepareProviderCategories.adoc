@@ -1,0 +1,20 @@
+[#ResourceDownload-ModPage-prepareProviderCategories]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModPage.adoc[ModPage]::prepareProviderCategories
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModPage.h#L62[ui&sol;pages&sol;modplatform&sol;ModPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+prepareProviderCategories();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,44 @@
+[#FS-pathTruncate]
+= xref:FS.adoc[FS]::pathTruncate
+:relfileprefix: ../
+:mrdocs:
+
+
+cut off segments of path until it is a max of length depth
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L320[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+pathTruncate(
+    xref:QString.adoc[QString] const& path,
+    int depth);
+----
+
+== Return Value
+
+QString truncated path
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *path*
+| path to truncate
+
+
+| *depth*
+| max depth of new path
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

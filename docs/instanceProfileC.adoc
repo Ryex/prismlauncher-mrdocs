@@ -1,0 +1,19 @@
+[#instanceProfileC]
+= instanceProfileC
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Logging.h#L25[minecraft&sol;Logging&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QLoggingCategory.adoc[QLoggingCategory] const&
+instanceProfileC();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

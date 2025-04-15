@@ -1,0 +1,23 @@
+[#FS-updateTimestamp]
+= xref:FS.adoc[FS]::updateTimestamp
+:relfileprefix: ../
+:mrdocs:
+
+
+Update the last changed timestamp of an existing file
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L82[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+updateTimestamp(xref:QString.adoc[QString] const& filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

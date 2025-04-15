@@ -1,0 +1,20 @@
+[#ResourceFolderLoadTask-abort]
+= xref:ResourceFolderLoadTask.adoc[ResourceFolderLoadTask]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/ResourceFolderLoadTask.h#L64[minecraft&sol;mod&sol;tasks&sol;ResourceFolderLoadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

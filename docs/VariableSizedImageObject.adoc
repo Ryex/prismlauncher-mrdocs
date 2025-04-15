@@ -1,0 +1,83 @@
+[#VariableSizedImageObject]
+= VariableSizedImageObject
+:relfileprefix: 
+:mrdocs:
+
+
+Custom image text object to be used instead of the normal one in ProjectDescriptionPage&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VariableSizedImageObject.h#L32[ui&sol;widgets&sol;VariableSizedImageObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VariableSizedImageObject
+    : public xref:QObject.adoc[QObject]
+    , public xref:QTextObjectInterface.adoc[QTextObjectInterface]
+    , public xref:QObject.adoc[QObject]
+    , public xref:QTextObjectInterface.adoc[QTextObjectInterface];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VariableSizedImageObject/drawObject.adoc[`drawObject`] 
+| 
+
+| xref:VariableSizedImageObject/flush.adoc[`flush`] 
+| Stops all currently loading images from modifying the document&period;
+
+
+
+| xref:VariableSizedImageObject/intrinsicSize.adoc[`intrinsicSize`] 
+| 
+
+| xref:VariableSizedImageObject/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VariableSizedImageObject/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VariableSizedImageObject/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:VariableSizedImageObject/setMetaEntry.adoc[`setMetaEntry`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VariableSizedImageObject/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VariableSizedImageObject/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+== Description
+
+Why? Because we want to re&hyphen;scale images dynamically based on the document&apos;s size, in order to
+not have images being weirdly cropped out in different resolutions&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

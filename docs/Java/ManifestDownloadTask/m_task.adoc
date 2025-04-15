@@ -1,0 +1,18 @@
+[#Java-ManifestDownloadTask-m_task]
+= xref:Java.adoc[Java]::xref:Java/ManifestDownloadTask.adoc[ManifestDownloadTask]::m&lowbar;task
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.h#L44[java&sol;download&sol;ManifestDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr] m&lowbar;task;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

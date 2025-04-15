@@ -1,0 +1,22 @@
+[#NewsChecker-m_feedUrl]
+= xref:NewsChecker.adoc[NewsChecker]::m&lowbar;feedUrl
+:relfileprefix: ../
+:mrdocs:
+
+
+The URL for the RSS feed to fetch&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L76[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;feedUrl;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

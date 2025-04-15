@@ -1,0 +1,33 @@
+[#ATLauncher-VersionKeep]
+= xref:ATLauncher.adoc[ATLauncher]::VersionKeep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L136[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VersionKeep;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/VersionKeep/base.adoc[`base`] 
+| 
+
+| xref:ATLauncher/VersionKeep/target.adoc[`target`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

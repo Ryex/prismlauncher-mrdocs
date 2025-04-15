@@ -1,0 +1,22 @@
+[#FileIgnoreProxy-filterAcceptsColumn]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::filterAcceptsColumn
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L79[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+filterAcceptsColumn(
+    int source&lowbar;column,
+    xref:QModelIndex.adoc[QModelIndex] const& source&lowbar;parent) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

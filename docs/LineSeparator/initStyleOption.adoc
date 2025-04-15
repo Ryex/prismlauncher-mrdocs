@@ -1,0 +1,19 @@
+[#LineSeparator-initStyleOption]
+= xref:LineSeparator.adoc[LineSeparator]::initStyleOption
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LineSeparator.h#L14[ui&sol;widgets&sol;LineSeparator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+initStyleOption(xref:QStyleOption.adoc[QStyleOption]* option) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

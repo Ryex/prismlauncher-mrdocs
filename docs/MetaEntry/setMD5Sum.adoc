@@ -1,0 +1,19 @@
+[#MetaEntry-setMD5Sum]
+= xref:MetaEntry.adoc[MetaEntry]::setMD5Sum
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L65[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setMD5Sum(xref:QString.adoc[QString] md5sum);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

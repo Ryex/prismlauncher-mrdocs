@@ -1,0 +1,21 @@
+[#ModUtils-processLitemod]
+= xref:ModUtils.adoc[ModUtils]::processLitemod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L24[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processLitemod(
+    xref:Mod.adoc[Mod]& mod,
+    xref:ModUtils/ProcessingLevel.adoc[ProcessingLevel] level = ProcessingLevel&colon;&colon;Full);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#AccountData-errorString]
+= xref:AccountData.adoc[AccountData]::errorString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L125[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] errorString;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

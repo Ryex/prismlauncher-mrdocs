@@ -1,0 +1,39 @@
+[#TrashHistoryItem]
+= TrashHistoryItem
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L59[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct TrashHistoryItem;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TrashHistoryItem/groupName.adoc[`groupName`] 
+| 
+
+| xref:TrashHistoryItem/id.adoc[`id`] 
+| 
+
+| xref:TrashHistoryItem/path.adoc[`path`] 
+| 
+
+| xref:TrashHistoryItem/trashPath.adoc[`trashPath`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

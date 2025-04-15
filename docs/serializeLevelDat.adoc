@@ -1,0 +1,19 @@
+[#serializeLevelDat]
+= serializeLevelDat
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L150[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QByteArray.adoc[QByteArray]
+serializeLevelDat(xref:nbt.adoc[nbt]::xref:nbt/tag_compound.adoc[tag&lowbar;compound]* levelInfo);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#ResourceDownload-ResourcePage-icon]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePage.adoc[ResourcePage]::icon
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePage.h#L37[ui&sol;pages&sol;modplatform&sol;ResourcePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+virtual
+xref:QIcon.adoc[QIcon]
+icon() const override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PreLaunchCommand-setWorkingDirectory]
+= xref:PreLaunchCommand.adoc[PreLaunchCommand]::setWorkingDirectory
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PreLaunchCommand.h#L30[launch&sol;steps&sol;PreLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setWorkingDirectory(xref:QString.adoc[QString] const& wd);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

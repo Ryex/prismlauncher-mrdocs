@@ -1,0 +1,20 @@
+[#Atl-ListModel-columnCount]
+= xref:Atl.adoc[Atl]::xref:Atl/ListModel.adoc[ListModel]::columnCount
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlListModel.h#L38[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+columnCount(xref:QModelIndex.adoc[QModelIndex] const& parent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

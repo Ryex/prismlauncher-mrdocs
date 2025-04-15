@@ -1,0 +1,39 @@
+[#TexturePackFolderModel-Columns]
+= xref:TexturePackFolderModel.adoc[TexturePackFolderModel]::Columns
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePackFolderModel.h#L47[minecraft&sol;mod&sol;TexturePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Columns;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ActiveColumn`
+|
+|`ImageColumn`
+|
+|`NameColumn`
+|
+|`DateColumn`
+|
+|`ProviderColumn`
+|
+|`SizeColumn`
+|
+|`NUM&lowbar;COLUMNS`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

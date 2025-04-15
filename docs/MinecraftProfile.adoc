@@ -1,0 +1,45 @@
+[#MinecraftProfile]
+= MinecraftProfile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L82[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MinecraftProfile;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftProfile/capes.adoc[`capes`] 
+| 
+
+| xref:MinecraftProfile/currentCape.adoc[`currentCape`] 
+| 
+
+| xref:MinecraftProfile/id.adoc[`id`] 
+| 
+
+| xref:MinecraftProfile/name.adoc[`name`] 
+| 
+
+| xref:MinecraftProfile/skin.adoc[`skin`] 
+| 
+
+| xref:MinecraftProfile/validity.adoc[`validity`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

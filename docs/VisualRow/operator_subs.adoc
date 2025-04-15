@@ -1,0 +1,19 @@
+[#VisualRow-operator_subs]
+= xref:VisualRow.adoc[VisualRow]::operator&lsqb;&rsqb;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L52[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QModelIndex.adoc[QModelIndex]&
+operator&lsqb;&rsqb;(int i);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

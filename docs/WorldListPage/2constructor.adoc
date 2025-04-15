@@ -1,0 +1,22 @@
+[#WorldListPage-2constructor]
+= xref:WorldListPage.adoc[WorldListPage]::WorldListPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/WorldListPage.h#L56[ui&sol;pages&sol;instance&sol;WorldListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+WorldListPage(
+    xref:InstancePtr.adoc[InstancePtr] inst,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:WorldList.adoc[WorldList]&gt; worlds,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

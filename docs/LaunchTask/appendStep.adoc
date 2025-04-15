@@ -1,0 +1,19 @@
+[#LaunchTask-appendStep]
+= xref:LaunchTask.adoc[LaunchTask]::appendStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L60[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+appendStep(xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchStep.adoc[LaunchStep]&gt; step);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

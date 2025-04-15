@@ -1,0 +1,41 @@
+[#std-error_code]
+= xref:std.adoc[std]::error&lowbar;code
+:relfileprefix: ../
+:mrdocs:
+
+
+Class error&lowbar;code
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/system_error#L223[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;system&lowbar;error]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class error&lowbar;code;
+----
+
+
+
+
+== Description
+
+This class is a value type storing an integer error number and a
+category that gives meaning to the error number&period; Typically this is done
+close the the point where the error happens, to capture the original
+error value&period;
+
+An &grave;error&lowbar;code&grave; object can be used to store the original error value
+emitted by some subsystem, with a category relevant to the subsystem&period;
+For example, errors from POSIX library functions can be represented by
+an &grave;errno&grave; value and the &quot;generic&quot; category, but errors from an HTTP
+library might be represented by an HTTP response status code (e&period;g&period; 404)
+and a custom category defined by the library&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

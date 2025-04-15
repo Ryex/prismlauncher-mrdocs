@@ -1,0 +1,18 @@
+[#Modrinth-ModpackVersion-version]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackVersion.adoc[ModpackVersion]::version
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L86[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] version;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

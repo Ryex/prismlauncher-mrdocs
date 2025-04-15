@@ -1,0 +1,20 @@
+[#LineSeparator-sizeHint]
+= xref:LineSeparator.adoc[LineSeparator]::sizeHint
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LineSeparator.h#L12[ui&sol;widgets&sol;LineSeparator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QSize.adoc[QSize]
+sizeHint() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

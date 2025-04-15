@@ -1,0 +1,19 @@
+[#NetJob-isOnline]
+= xref:NetJob.adoc[NetJob]::isOnline
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetJob.h#L77[net&sol;NetJob&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isOnline();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

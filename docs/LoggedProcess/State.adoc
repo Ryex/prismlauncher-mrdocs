@@ -1,0 +1,39 @@
+[#LoggedProcess-State]
+= xref:LoggedProcess.adoc[LoggedProcess]::State
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L49[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum State;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NotRunning`
+|
+|`Starting`
+|
+|`FailedToStart`
+|
+|`Running`
+|
+|`Finished`
+|
+|`Crashed`
+|
+|`Aborted`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

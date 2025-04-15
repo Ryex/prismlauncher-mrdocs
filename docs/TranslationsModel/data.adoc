@@ -1,0 +1,22 @@
+[#TranslationsModel-data]
+= xref:TranslationsModel.adoc[TranslationsModel]::data
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.h#L30[translations&sol;TranslationsModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role = Qt&colon;&colon;DisplayRole) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

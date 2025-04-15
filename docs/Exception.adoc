@@ -1,0 +1,39 @@
+[#Exception]
+= Exception
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Exception.h#L42[Exception&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Exception
+    : public xref:std.adoc[std]::xref:std/exception.adoc[exception];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Exception/2constructor.adoc[`Exception`]         [.small]#[constructor]#
+| 
+| xref:Exception/cause.adoc[`cause`] 
+| 
+
+| xref:Exception/what.adoc[`what`] 
+| 
+
+| xref:Exception/2destructor.adoc[`&tilde;Exception`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

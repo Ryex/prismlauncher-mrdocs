@@ -1,0 +1,20 @@
+[#NewInstanceDialog-getPages]
+= xref:NewInstanceDialog.adoc[NewInstanceDialog]::getPages
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L72[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QList.adoc[QList]&lt;xref:BasePage.adoc[BasePage]*&gt;
+getPages() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

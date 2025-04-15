@@ -1,0 +1,19 @@
+[#std-__detail-__variant-_Move_ctor_alias]
+= xref:std.adoc[std]::xref:std/__detail.adoc[&lowbar;&lowbar;detail]::xref:std/__detail/__variant.adoc[&lowbar;&lowbar;variant]::&lowbar;Move&lowbar;ctor&lowbar;alias
+:relfileprefix: ../../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/variant#L651[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;variant]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename... &lowbar;Types&gt;
+using &lowbar;Move&lowbar;ctor&lowbar;alias = xref:std/__detail/__variant/_Move_ctor_base.adoc[&lowbar;Move&lowbar;ctor&lowbar;base]&lt;&lowbar;Traits&lt;&lowbar;Types&period;&period;&period;&gt;&colon;&colon;&lowbar;S&lowbar;trivial&lowbar;move&lowbar;ctor, &lowbar;Types...&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

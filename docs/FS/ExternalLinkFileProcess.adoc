@@ -1,0 +1,64 @@
+[#FS-ExternalLinkFileProcess]
+= xref:FS.adoc[FS]::ExternalLinkFileProcess
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L171[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExternalLinkFileProcess
+    : public xref:QThread.adoc[QThread];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/ExternalLinkFileProcess/2constructor.adoc[`ExternalLinkFileProcess`]         [.small]#[constructor]#
+| 
+
+| xref:FS/ExternalLinkFileProcess/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FS/ExternalLinkFileProcess/processExited.adoc[`processExited`] 
+| 
+
+| xref:FS/ExternalLinkFileProcess/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FS/ExternalLinkFileProcess/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FS/ExternalLinkFileProcess/run.adoc[`run`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/ExternalLinkFileProcess/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/ExternalLinkFileProcess/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

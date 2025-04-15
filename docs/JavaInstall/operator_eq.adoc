@@ -1,0 +1,19 @@
+[#JavaInstall-operator_eq]
+= xref:JavaInstall.adoc[JavaInstall]::operator&equals;&equals;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L36[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator&equals;&equals;(xref:JavaInstall.adoc[JavaInstall] const& rhs);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

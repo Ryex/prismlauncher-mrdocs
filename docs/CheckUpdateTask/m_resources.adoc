@@ -1,0 +1,18 @@
+[#CheckUpdateTask-m_resources]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::m&lowbar;resources
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L73[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:Resource.adoc[Resource]*&gt;& m&lowbar;resources;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

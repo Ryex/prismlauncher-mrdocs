@@ -1,0 +1,19 @@
+[#currentComponentsFileVersion]
+= currentComponentsFileVersion
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.cpp#L92[minecraft&sol;PackProfile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int const currentComponentsFileVersion = 1;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

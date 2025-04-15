@@ -1,0 +1,21 @@
+[#00namespace-composeLoadResult]
+= composeLoadResult
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L60[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:00namespace/LoadResult.adoc[LoadResult]
+composeLoadResult(
+    xref:00namespace/LoadResult.adoc[LoadResult] a,
+    xref:00namespace/LoadResult.adoc[LoadResult] b);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

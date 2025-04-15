@@ -1,0 +1,85 @@
+[#MSALoginDialog]
+= MSALoginDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/MSALoginDialog.h#L28[ui&sol;dialogs&sol;MSALoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MSALoginDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MSALoginDialog/exec.adoc[`exec`] 
+| 
+
+| xref:MSALoginDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:MSALoginDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:MSALoginDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:MSALoginDialog/2destructor.adoc[`&tilde;MSALoginDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MSALoginDialog/newAccount.adoc[`newAccount`] 
+| 
+
+| xref:MSALoginDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MSALoginDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MSALoginDialog/authorizeWithBrowser.adoc[`authorizeWithBrowser`] 
+| 
+
+| xref:MSALoginDialog/authorizeWithBrowserWithExtra.adoc[`authorizeWithBrowserWithExtra`] 
+| 
+
+| xref:MSALoginDialog/onAuthFlowStatus.adoc[`onAuthFlowStatus`] 
+| 
+
+| xref:MSALoginDialog/onDeviceFlowStatus.adoc[`onDeviceFlowStatus`] 
+| 
+
+| xref:MSALoginDialog/onTaskFailed.adoc[`onTaskFailed`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

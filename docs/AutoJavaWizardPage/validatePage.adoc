@@ -1,0 +1,20 @@
+[#AutoJavaWizardPage-validatePage]
+= xref:AutoJavaWizardPage.adoc[AutoJavaWizardPage]::validatePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/AutoJavaWizardPage.h#L17[ui&sol;setupwizard&sol;AutoJavaWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+validatePage() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

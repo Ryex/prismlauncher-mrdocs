@@ -1,0 +1,19 @@
+[#TranslationsModel-selectedIndex]
+= xref:TranslationsModel.adoc[TranslationsModel]::selectedIndex
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.h#L37[translations&sol;TranslationsModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QModelIndex.adoc[QModelIndex]
+selectedIndex();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

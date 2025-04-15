@@ -1,0 +1,19 @@
+[#ShaderPack-m_data_lock]
+= xref:ShaderPack.adoc[ShaderPack]::m&lowbar;data&lowbar;lock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPack.h#L59[minecraft&sol;mod&sol;ShaderPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:QMutex.adoc[QMutex] m&lowbar;data&lowbar;lock;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

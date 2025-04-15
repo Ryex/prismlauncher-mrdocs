@@ -1,0 +1,19 @@
+[#CURRENT_MINIMUM_LAUNCHER_VERSION]
+= CURRENT&lowbar;MINIMUM&lowbar;LAUNCHER&lowbar;VERSION
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangVersionFormat.cpp#L45[minecraft&sol;MojangVersionFormat&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int const CURRENT&lowbar;MINIMUM&lowbar;LAUNCHER&lowbar;VERSION = 18;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

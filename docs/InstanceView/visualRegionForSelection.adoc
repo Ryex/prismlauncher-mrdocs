@@ -1,0 +1,20 @@
+[#InstanceView-visualRegionForSelection]
+= xref:InstanceView.adoc[InstanceView]::visualRegionForSelection
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L77[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QRegion.adoc[QRegion]
+visualRegionForSelection(xref:QItemSelection.adoc[QItemSelection] const& selection) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,109 @@
+[#NewInstanceDialog]
+= NewInstanceDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L52[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NewInstanceDialog
+    : public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:QDialog.adoc[QDialog]
+    , public xref:BasePageProvider.adoc[BasePageProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewInstanceDialog/2constructor.adoc[`NewInstanceDialog`]         [.small]#[constructor]#
+| 
+
+| xref:NewInstanceDialog/accept.adoc[`accept`] 
+| 
+
+| xref:BasePageProvider/dialogTitle.adoc[`dialogTitle`] 
+| 
+| xref:NewInstanceDialog/extractTask.adoc[`extractTask`] 
+| 
+
+| xref:BasePageProvider/getPages.adoc[`getPages`] 
+| 
+| xref:NewInstanceDialog/iconKey.adoc[`iconKey`] 
+| 
+
+| xref:NewInstanceDialog/instGroup.adoc[`instGroup`] 
+| 
+
+| xref:NewInstanceDialog/instName.adoc[`instName`] 
+| 
+
+| xref:NewInstanceDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:NewInstanceDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:NewInstanceDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:NewInstanceDialog/reject.adoc[`reject`] 
+| 
+
+| xref:NewInstanceDialog/setSuggestedIcon.adoc[`setSuggestedIcon`] 
+| 
+
+| xref:NewInstanceDialog/setSuggestedIconFromFile.adoc[`setSuggestedIconFromFile`] 
+| 
+
+| xref:NewInstanceDialog/setSuggestedPack.adoc[`setSuggestedPack`] 
+| 
+| xref:NewInstanceDialog/updateDialogState.adoc[`updateDialogState`] 
+| 
+
+| xref:NewInstanceDialog/2destructor.adoc[`&tilde;NewInstanceDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewInstanceDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NewInstanceDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

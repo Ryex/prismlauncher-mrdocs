@@ -1,0 +1,19 @@
+[#Meta-BaseEntityLoadTask-2destructor]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntityLoadTask.adoc[BaseEntityLoadTask]::&tilde;BaseEntityLoadTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L62[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;BaseEntityLoadTask() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

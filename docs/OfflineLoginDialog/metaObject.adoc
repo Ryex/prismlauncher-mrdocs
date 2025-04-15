@@ -1,0 +1,20 @@
+[#OfflineLoginDialog-metaObject]
+= xref:OfflineLoginDialog.adoc[OfflineLoginDialog]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/OfflineLoginDialog.h#L13[ui&sol;dialogs&sol;OfflineLoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

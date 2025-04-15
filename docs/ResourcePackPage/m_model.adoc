@@ -1,0 +1,18 @@
+[#ResourcePackPage-m_model]
+= xref:ResourcePackPage.adoc[ResourcePackPage]::m&lowbar;model
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ResourcePackPage.h#L70[ui&sol;pages&sol;instance&sol;ResourcePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourcePackFolderModel.adoc[ResourcePackFolderModel]&gt; m&lowbar;model;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

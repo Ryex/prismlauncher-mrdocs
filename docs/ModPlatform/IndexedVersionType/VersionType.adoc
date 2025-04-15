@@ -1,0 +1,33 @@
+[#ModPlatform-IndexedVersionType-VersionType]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::VersionType
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L61[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum VersionType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Release`
+|
+|`Beta`
+|
+|`Alpha`
+|
+|`Unknown`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

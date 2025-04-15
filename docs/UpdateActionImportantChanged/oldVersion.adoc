@@ -1,0 +1,18 @@
+[#UpdateActionImportantChanged-oldVersion]
+= xref:UpdateActionImportantChanged.adoc[UpdateActionImportantChanged]::oldVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L36[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] oldVersion;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

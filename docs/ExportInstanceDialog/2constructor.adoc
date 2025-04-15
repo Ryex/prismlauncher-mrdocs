@@ -1,0 +1,21 @@
+[#ExportInstanceDialog-2constructor]
+= xref:ExportInstanceDialog.adoc[ExportInstanceDialog]::ExportInstanceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportInstanceDialog.h#L56[ui&sol;dialogs&sol;ExportInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ExportInstanceDialog(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

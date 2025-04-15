@@ -1,0 +1,20 @@
+[#JavaInstallList-at]
+= xref:JavaInstallList.adoc[JavaInstallList]::at
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L40[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] const
+at(int i) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

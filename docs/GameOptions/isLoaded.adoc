@@ -1,0 +1,19 @@
+[#GameOptions-isLoaded]
+= xref:GameOptions.adoc[GameOptions]::isLoaded
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.h#L23[minecraft&sol;gameoptions&sol;GameOptions&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isLoaded() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

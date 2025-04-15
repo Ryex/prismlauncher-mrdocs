@@ -1,0 +1,20 @@
+[#IPathMatcher-matches]
+= xref:IPathMatcher.adoc[IPathMatcher]::matches
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/IPathMatcher.h#L11[pathmatcher&sol;IPathMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+matches(xref:QString.adoc[QString] const& string) const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

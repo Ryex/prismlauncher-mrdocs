@@ -1,0 +1,22 @@
+[#GetModDependenciesTask-2constructor]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::GetModDependenciesTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L63[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+GetModDependenciesTask(
+    xref:BaseInstance.adoc[BaseInstance]* instance,
+    xref:ModFolderModel.adoc[ModFolderModel]* folder,
+    xref:QList.adoc[QList]&lt;xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:GetModDependenciesTask/PackDependency.adoc[PackDependency]&gt;&gt; selected);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

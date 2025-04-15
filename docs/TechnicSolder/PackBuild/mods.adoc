@@ -1,0 +1,18 @@
+[#TechnicSolder-PackBuild-mods]
+= xref:TechnicSolder.adoc[TechnicSolder]::xref:TechnicSolder/PackBuild.adoc[PackBuild]::mods
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackManifest.h#L44[modplatform&sol;technic&sol;SolderPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:TechnicSolder/PackBuildMod.adoc[PackBuildMod]&gt; mods;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

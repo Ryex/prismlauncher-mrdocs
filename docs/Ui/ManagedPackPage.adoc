@@ -1,0 +1,22 @@
+[#Ui-ManagedPackPage]
+= xref:Ui.adoc[Ui]::ManagedPackPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L22[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ManagedPackPage
+    : public xref:Ui_ManagedPackPage.adoc[Ui&lowbar;ManagedPackPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

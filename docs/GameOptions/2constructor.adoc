@@ -1,0 +1,19 @@
+[#GameOptions-2constructor]
+= xref:GameOptions.adoc[GameOptions]::GameOptions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.h#L15[minecraft&sol;gameoptions&sol;GameOptions&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+GameOptions(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

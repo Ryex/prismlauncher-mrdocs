@@ -1,0 +1,19 @@
+[#Meta-Version-typeChanged]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::typeChanged
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L75[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+typeChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

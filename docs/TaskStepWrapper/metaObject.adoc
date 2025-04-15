@@ -1,0 +1,20 @@
+[#TaskStepWrapper-metaObject]
+= xref:TaskStepWrapper.adoc[TaskStepWrapper]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/TaskStepWrapper.h#L25[launch&sol;TaskStepWrapper&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

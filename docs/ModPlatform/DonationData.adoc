@@ -1,0 +1,36 @@
+[#ModPlatform-DonationData]
+= xref:ModPlatform.adoc[ModPlatform]::DonationData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L54[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct DonationData;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/DonationData/id.adoc[`id`] 
+| 
+
+| xref:ModPlatform/DonationData/platform.adoc[`platform`] 
+| 
+
+| xref:ModPlatform/DonationData/url.adoc[`url`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Component-isRemovable]
+= xref:Component.adoc[Component]::isRemovable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L73[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isRemovable();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

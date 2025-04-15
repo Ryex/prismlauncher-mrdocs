@@ -1,0 +1,20 @@
+[#ScreenshotsPage-apply]
+= xref:ScreenshotsPage.adoc[ScreenshotsPage]::apply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.h#L73[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+apply() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

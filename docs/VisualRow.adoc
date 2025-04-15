@@ -1,0 +1,48 @@
+[#VisualRow]
+= VisualRow
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L47[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VisualRow;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualRow/operator_subs.adoc[`operator&lsqb;&rsqb;`] 
+| 
+
+| xref:VisualRow/size.adoc[`size`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VisualRow/height.adoc[`height`] 
+| 
+
+| xref:VisualRow/items.adoc[`items`] 
+| 
+
+| xref:VisualRow/top.adoc[`top`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

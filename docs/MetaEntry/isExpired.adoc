@@ -1,0 +1,19 @@
+[#MetaEntry-isExpired]
+= xref:MetaEntry.adoc[MetaEntry]::isExpired
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L77[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isExpired(xref:qint64.adoc[qint64] offset);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Ui-NewInstanceDialog]
+= xref:Ui.adoc[Ui]::NewInstanceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L44[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NewInstanceDialog
+    : public xref:Ui_NewInstanceDialog.adoc[Ui&lowbar;NewInstanceDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

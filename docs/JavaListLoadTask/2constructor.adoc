@@ -1,0 +1,21 @@
+[#JavaListLoadTask-2constructor]
+= xref:JavaListLoadTask.adoc[JavaListLoadTask]::JavaListLoadTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L65[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+JavaListLoadTask(
+    xref:JavaInstallList.adoc[JavaInstallList]* vlist,
+    bool onlyManagedVersions = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

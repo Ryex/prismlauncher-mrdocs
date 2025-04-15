@@ -1,0 +1,19 @@
+[#Hashing-algorithmToString]
+= xref:Hashing.adoc[Hashing]::algorithmToString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L15[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+algorithmToString(xref:Hashing/Algorithm.adoc[Algorithm] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

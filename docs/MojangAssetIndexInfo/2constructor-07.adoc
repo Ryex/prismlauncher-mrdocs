@@ -1,0 +1,18 @@
+[#MojangAssetIndexInfo-2constructor-07]
+= xref:MojangAssetIndexInfo.adoc[MojangAssetIndexInfo]::MojangAssetIndexInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L50[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+MojangAssetIndexInfo(xref:QString.adoc[QString] id&lowbar;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,43 @@
+[#DefaultVariable]
+= DefaultVariable
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DefaultVariable.h#L3[DefaultVariable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+class DefaultVariable;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:DefaultVariable/2constructor.adoc[`DefaultVariable`]         [.small]#[constructor]#
+| 
+
+| xref:DefaultVariable/isDefault.adoc[`isDefault`] 
+| 
+
+| xref:DefaultVariable/isExplicit.adoc[`isExplicit`] 
+| 
+
+| xref:DefaultVariable/2conversion.adoc[`operator T const&`] 
+| 
+
+| xref:DefaultVariable/operator_assign.adoc[`operator&equals;`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

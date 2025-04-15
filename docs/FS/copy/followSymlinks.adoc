@@ -1,0 +1,19 @@
+[#FS-copy-followSymlinks]
+= xref:FS.adoc[FS]::xref:FS/copy.adoc[copy]::followSymlinks
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L113[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FS/copy.adoc[copy]&
+followSymlinks(bool const follow);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

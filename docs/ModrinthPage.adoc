@@ -1,0 +1,156 @@
+[#ModrinthPage]
+= ModrinthPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthPage.h#L58[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ModrinthPage
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:ModpackProviderBasePage.adoc[ModpackProviderBasePage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModrinthPage/2constructor.adoc[`ModrinthPage`]         [.small]#[constructor]#
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:ModrinthPage/debugName.adoc[`debugName`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:ModrinthPage/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:ModrinthPage/getCurrent.adoc[`getCurrent`] 
+| 
+
+| xref:ModpackProviderBasePage/getSerachTerm.adoc[`getSerachTerm`] 
+| Get the current term in the search bar&period;
+
+
+
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:ModrinthPage/metaEntryBase.adoc[`metaEntryBase`] 
+| 
+
+| xref:ModrinthPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+| xref:ModrinthPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ModrinthPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:ModpackProviderBasePage/setSearchTerm.adoc[`setSearchTerm`] 
+| Programatically set the term in the search bar&period;
+
+
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+
+| xref:ModrinthPage/suggestCurrent.adoc[`suggestCurrent`] 
+| 
+
+| xref:ModrinthPage/updateUI.adoc[`updateUI`] 
+| 
+
+| xref:ModrinthPage/2destructor.adoc[`&tilde;ModrinthPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModrinthPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModrinthPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

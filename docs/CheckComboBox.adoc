@@ -1,0 +1,103 @@
+[#CheckComboBox]
+= CheckComboBox
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CheckComboBox.h#L24[ui&sol;widgets&sol;CheckComboBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CheckComboBox
+    : public xref:QComboBox.adoc[QComboBox];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboBox/2constructor.adoc[`CheckComboBox`]         [.small]#[constructor]#
+| 
+
+| xref:CheckComboBox/checkedItems.adoc[`checkedItems`] 
+| 
+
+| xref:CheckComboBox/checkedItemsChanged.adoc[`checkedItemsChanged`] 
+| 
+
+| xref:CheckComboBox/defaultText.adoc[`defaultText`] 
+| 
+
+| xref:CheckComboBox/hidePopup.adoc[`hidePopup`] 
+| 
+
+| xref:CheckComboBox/itemCheckState.adoc[`itemCheckState`] 
+| 
+
+| xref:CheckComboBox/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:CheckComboBox/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:CheckComboBox/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:CheckComboBox/separator.adoc[`separator`] 
+| 
+
+| xref:CheckComboBox/setCheckedItems.adoc[`setCheckedItems`] 
+| 
+
+| xref:CheckComboBox/setDefaultText.adoc[`setDefaultText`] 
+| 
+
+| xref:CheckComboBox/setItemCheckState.adoc[`setItemCheckState`] 
+| 
+
+| xref:CheckComboBox/setSeparator.adoc[`setSeparator`] 
+| 
+
+| xref:CheckComboBox/setSourceModel.adoc[`setSourceModel`] 
+| 
+
+| xref:CheckComboBox/2destructor.adoc[`&tilde;CheckComboBox`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboBox/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboBox/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboBox/paintEvent.adoc[`paintEvent`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

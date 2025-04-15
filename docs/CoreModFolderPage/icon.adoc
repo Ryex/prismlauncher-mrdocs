@@ -1,0 +1,20 @@
+[#CoreModFolderPage-icon]
+= xref:CoreModFolderPage.adoc[CoreModFolderPage]::icon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ModFolderPage.h#L82[ui&sol;pages&sol;instance&sol;ModFolderPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QIcon.adoc[QIcon]
+icon() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

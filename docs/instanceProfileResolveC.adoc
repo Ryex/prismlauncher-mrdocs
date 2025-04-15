@@ -1,0 +1,19 @@
+[#instanceProfileResolveC]
+= instanceProfileResolveC
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Logging.h#L26[minecraft&sol;Logging&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QLoggingCategory.adoc[QLoggingCategory] const&
+instanceProfileResolveC();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#BrightTheme-fadeAmount]
+= xref:BrightTheme.adoc[BrightTheme]::fadeAmount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/BrightTheme.h#L49[ui&sol;themes&sol;BrightTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+double
+fadeAmount() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

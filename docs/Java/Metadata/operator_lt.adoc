@@ -1,0 +1,30 @@
+[#Java-Metadata-operator_lt]
+= xref:Java.adoc[Java]::xref:Java/Metadata.adoc[Metadata]::operator&lt;
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaMetadata.h#L41[java&sol;JavaMetadata&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+xref:Java/Metadata/operator_lt-0b.adoc[operator&lt;](xref:BaseVersion.adoc[BaseVersion]& a) override;
+----
+
+[.small]#xref:Java/Metadata/operator_lt-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:Java/Metadata/operator_lt-02.adoc[operator&lt;](xref:Java/Metadata.adoc[Metadata] const& rhs);
+----
+
+[.small]#xref:Java/Metadata/operator_lt-02.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

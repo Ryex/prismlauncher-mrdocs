@@ -1,0 +1,19 @@
+[#Component-isEnabled]
+= xref:Component.adoc[Component]::isEnabled
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L66[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isEnabled();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

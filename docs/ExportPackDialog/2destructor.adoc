@@ -1,0 +1,19 @@
+[#ExportPackDialog-2destructor]
+= xref:ExportPackDialog.adoc[ExportPackDialog]::&tilde;ExportPackDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportPackDialog.h#L38[ui&sol;dialogs&sol;ExportPackDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ExportPackDialog();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Hashing-QIODeviceReader-read]
+= xref:Hashing.adoc[Hashing]::xref:Hashing/QIODeviceReader.adoc[QIODeviceReader]::read
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.cpp#L35[modplatform&sol;helpers&sol;HashUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+read(
+    char* s,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

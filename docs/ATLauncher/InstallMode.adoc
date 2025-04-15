@@ -1,0 +1,31 @@
+[#ATLauncher-InstallMode]
+= xref:ATLauncher.adoc[ATLauncher]::InstallMode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L54[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum InstallMode : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Install`
+|
+|`Reinstall`
+|
+|`Update`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

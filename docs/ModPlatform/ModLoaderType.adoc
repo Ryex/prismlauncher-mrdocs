@@ -1,0 +1,37 @@
+[#ModPlatform-ModLoaderType]
+= xref:ModPlatform.adoc[ModPlatform]::ModLoaderType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L33[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ModLoaderType;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NeoForge`
+|
+|`Forge`
+|
+|`Cauldron`
+|
+|`LiteLoader`
+|
+|`Fabric`
+|
+|`Quilt`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

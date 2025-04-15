@@ -1,0 +1,22 @@
+[#Net-NetRequest-m_url]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::m&lowbar;url
+:relfileprefix: ../../
+:mrdocs:
+
+
+source URL
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L110[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QUrl.adoc[QUrl] m&lowbar;url;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

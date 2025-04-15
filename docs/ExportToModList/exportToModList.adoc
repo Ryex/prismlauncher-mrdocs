@@ -1,0 +1,34 @@
+[#ExportToModList-exportToModList]
+= xref:ExportToModList.adoc[ExportToModList]::exportToModList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/ExportToModList.h#L27[modplatform&sol;helpers&sol;ExportToModList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:ExportToModList/exportToModList-05.adoc[exportToModList](
+    xref:QList.adoc[QList]&lt;xref:Mod.adoc[Mod]*&gt; mods,
+    xref:ExportToModList/Formats.adoc[Formats] format,
+    xref:ExportToModList/OptionalData.adoc[OptionalData] extraData);
+----
+
+[.small]#xref:ExportToModList/exportToModList-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:ExportToModList/exportToModList-04.adoc[exportToModList](
+    xref:QList.adoc[QList]&lt;xref:Mod.adoc[Mod]*&gt; mods,
+    xref:QString.adoc[QString] lineTemplate);
+----
+
+[.small]#xref:ExportToModList/exportToModList-04.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

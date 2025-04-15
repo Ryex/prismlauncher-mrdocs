@@ -1,0 +1,69 @@
+[#std-vector]
+= xref:std.adoc[std]::vector
+:relfileprefix: ../
+:mrdocs:
+
+
+A standard container which offers fixed time access to
+individual elements in any order&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/stl_vector.h#L427[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;stl&lowbar;vector&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename &lowbar;Tp,
+    typename &lowbar;Alloc = xref:std.adoc[std]::xref:std/allocator.adoc[allocator]&lt;&lowbar;Tp&gt;&gt;
+class vector
+    : protected xref:std/_Vector_base.adoc[&lowbar;Vector&lowbar;base]&lt;&lowbar;Tp, &lowbar;Alloc&gt;;
+----
+
+
+
+
+== Description
+
+Meets the requirements of a
+link:tables.html#65[container]
+, a
+link:tables.html#66[reversible container]
+, and a
+link:tables.html#67[sequence]
+, including the
+link:tables.html#68[optional sequence requirements]
+with the
+%exception of
+`push_front`
+and
+`pop_front.`
+
+In some terminology a %vector can be described as a dynamic
+C&hyphen;style array, it offers fast and efficient access to individual
+elements in any order and saves the user from worrying about
+memory and size allocation&period;  Subscripting (
+`[]`
+) access is
+also provided as with C&hyphen;style arrays&period;
+
+
+
+== Template Parameters
+
+|===
+| Name | Description
+
+| *&lowbar;Tp*
+| Type of element&period;
+
+
+| *&lowbar;Alloc*
+| Allocator type, defaults to allocator&lt;&lowbar;Tp&gt;&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

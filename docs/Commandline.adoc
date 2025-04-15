@@ -1,0 +1,21 @@
+[#Commandline]
+= Commandline
+:relfileprefix: 
+:mrdocs:
+
+
+commandline parsing and processing utilities
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Commandline/splitArgs.adoc[`splitArgs`] 
+| split a string into argv items like a shell would do
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

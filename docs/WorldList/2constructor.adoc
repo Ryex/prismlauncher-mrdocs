@@ -1,0 +1,20 @@
+[#WorldList-2constructor]
+= xref:WorldList.adoc[WorldList]::WorldList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L35[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+WorldList(
+    xref:QString.adoc[QString] const& dir,
+    xref:BaseInstance.adoc[BaseInstance]* instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

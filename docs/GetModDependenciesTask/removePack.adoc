@@ -1,0 +1,19 @@
+[#GetModDependenciesTask-removePack]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::removePack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L75[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+removePack(xref:QVariant.adoc[QVariant] const& addonId);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

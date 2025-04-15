@@ -1,0 +1,37 @@
+[#Packwiz-V1-createModFormat]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::createModFormat
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L76[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Packwiz/V1/Mod.adoc[Mod]
+xref:Packwiz/V1/createModFormat-03.adoc[createModFormat](
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]& mod&lowbar;pack,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]& mod&lowbar;version);
+----
+
+[.small]#xref:Packwiz/V1/createModFormat-03.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Packwiz/V1/Mod.adoc[Mod]
+xref:Packwiz/V1/createModFormat-01.adoc[createModFormat](
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:Mod.adoc[Mod]& internal&lowbar;mod,
+    xref:QString.adoc[QString] slug);
+----
+
+[.small]#xref:Packwiz/V1/createModFormat-01.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

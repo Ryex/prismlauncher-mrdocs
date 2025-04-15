@@ -1,0 +1,19 @@
+[#Component-isCustom]
+= xref:Component.adoc[Component]::isCustom
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L74[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isCustom();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

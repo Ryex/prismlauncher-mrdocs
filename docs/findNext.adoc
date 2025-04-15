@@ -1,0 +1,23 @@
+[#findNext]
+= findNext
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/OtherLogsPage.cpp#L277[ui&sol;pages&sol;instance&sol;OtherLogsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+findNext(
+    xref:QPlainTextEdit.adoc[QPlainTextEdit]* &lowbar;this,
+    xref:QString.adoc[QString] const& what,
+    bool reverse);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

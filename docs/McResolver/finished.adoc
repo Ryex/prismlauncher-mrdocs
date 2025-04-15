@@ -1,0 +1,19 @@
+[#McResolver-finished]
+= xref:McResolver.adoc[McResolver]::finished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/McResolver.h#L27[ui&sol;pages&sol;instance&sol;McResolver&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+finished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

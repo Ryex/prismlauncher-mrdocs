@@ -1,0 +1,21 @@
+[#FS-create_link-fileLinked]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::fileLinked
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L251[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+fileLinked(
+    xref:QString.adoc[QString] const& srcName,
+    xref:QString.adoc[QString] const& dstName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

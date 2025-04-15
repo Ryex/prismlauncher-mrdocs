@@ -1,0 +1,37 @@
+[#Setting-id]
+= xref:Setting.adoc[Setting]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets this setting&apos;s ID&period;
+This is used to refer to the setting within the application&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L49[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const;
+----
+
+== Description
+
+[WARNING]
+Changing the ID while the setting is registered with a SettingsObject results in
+undefined behavior&period;
+
+
+
+== Return Value
+
+The ID of the setting&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

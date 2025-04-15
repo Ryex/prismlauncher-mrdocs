@@ -1,0 +1,20 @@
+[#XboxProfileStep-perform]
+= xref:XboxProfileStep.adoc[XboxProfileStep]::perform
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxProfileStep.h#L16[minecraft&sol;auth&sol;steps&sol;XboxProfileStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+perform() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

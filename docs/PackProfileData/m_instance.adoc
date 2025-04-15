@@ -1,0 +1,18 @@
+[#PackProfileData-m_instance]
+= xref:PackProfileData.adoc[PackProfileData]::m&lowbar;instance
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L15[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MinecraftInstance.adoc[MinecraftInstance]* m&lowbar;instance;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

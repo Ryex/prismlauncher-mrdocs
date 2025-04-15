@@ -1,0 +1,19 @@
+[#ImgurAlbumCreation-2destructor]
+= xref:ImgurAlbumCreation.adoc[ImgurAlbumCreation]::&tilde;ImgurAlbumCreation
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurAlbumCreation.h#L43[screenshots&sol;ImgurAlbumCreation&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ImgurAlbumCreation() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

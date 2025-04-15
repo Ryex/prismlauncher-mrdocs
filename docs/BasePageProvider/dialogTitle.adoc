@@ -1,0 +1,20 @@
+[#BasePageProvider-dialogTitle]
+= xref:BasePageProvider.adoc[BasePageProvider]::dialogTitle
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L24[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+dialogTitle() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

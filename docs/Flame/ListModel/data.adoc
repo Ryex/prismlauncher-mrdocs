@@ -1,0 +1,22 @@
+[#Flame-ListModel-data]
+= xref:Flame.adoc[Flame]::xref:Flame/ListModel.adoc[ListModel]::data
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameModel.h#L35[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

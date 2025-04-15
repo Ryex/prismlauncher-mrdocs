@@ -1,0 +1,20 @@
+[#MMCZip-ExtractZipTask-executeTask]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExtractZipTask.adoc[ExtractZipTask]::executeTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L224[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

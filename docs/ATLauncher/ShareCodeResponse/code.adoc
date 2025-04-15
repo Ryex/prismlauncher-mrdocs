@@ -1,0 +1,18 @@
+[#ATLauncher-ShareCodeResponse-code]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/ShareCodeResponse.adoc[ShareCodeResponse]::code
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLShareCode.h#L40[modplatform&sol;atlauncher&sol;ATLShareCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int code;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

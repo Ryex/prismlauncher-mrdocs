@@ -1,0 +1,21 @@
+[#ProgressWidget-2constructor]
+= xref:ProgressWidget.adoc[ProgressWidget]::ProgressWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L15[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ProgressWidget(
+    xref:QWidget.adoc[QWidget]* parent = nullptr,
+    bool show&lowbar;label = true);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

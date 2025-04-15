@@ -1,0 +1,31 @@
+[#FileType]
+= FileType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L59[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum FileType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NONE`
+|
+|`QM`
+|
+|`PO`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

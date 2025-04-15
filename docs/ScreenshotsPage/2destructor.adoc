@@ -1,0 +1,19 @@
+[#ScreenshotsPage-2destructor]
+= xref:ScreenshotsPage.adoc[ScreenshotsPage]::&tilde;ScreenshotsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.h#L61[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ScreenshotsPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

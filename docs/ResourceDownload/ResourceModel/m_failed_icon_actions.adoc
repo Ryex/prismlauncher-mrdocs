@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceModel-m_failed_icon_actions]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::m&lowbar;failed&lowbar;icon&lowbar;actions
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L152[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QSet.adoc[QSet]&lt;xref:QUrl.adoc[QUrl]&gt; m&lowbar;failed&lowbar;icon&lowbar;actions;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

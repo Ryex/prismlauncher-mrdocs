@@ -1,0 +1,20 @@
+[#ModrinthCreationTask-metaObject]
+= xref:ModrinthCreationTask.adoc[ModrinthCreationTask]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthInstanceCreationTask.h#L10[modplatform&sol;modrinth&sol;ModrinthInstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#FlameAPI-getLatestVersion]
+= xref:FlameAPI.adoc[FlameAPI]::getLatestVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L18[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]&gt;
+getLatestVersion(
+    xref:QVector.adoc[QVector]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]&gt; versions,
+    xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderType.adoc[ModLoaderType]&gt; instanceLoaders,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderTypes.adoc[ModLoaderTypes] fallback);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#TechnicPage-2constructor]
+= xref:TechnicPage.adoc[TechnicPage]::TechnicPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicPage.h#L61[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+TechnicPage(
+    xref:NewInstanceDialog.adoc[NewInstanceDialog]* dialog,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

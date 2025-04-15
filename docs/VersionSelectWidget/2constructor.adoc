@@ -1,0 +1,19 @@
+[#VersionSelectWidget-2constructor]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::VersionSelectWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L53[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+VersionSelectWidget(xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

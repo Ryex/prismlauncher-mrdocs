@@ -1,0 +1,22 @@
+[#PasteUpload-PasteTypes]
+= xref:PasteUpload.adoc[PasteUpload]::PasteTypes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/PasteUpload.h#L68[net&sol;PasteUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:std.adoc[std]::xref:std/array.adoc[array]&lt;xref:PasteUpload.adoc[PasteUpload]::xref:PasteUpload/PasteTypeInfo.adoc[PasteTypeInfo], 4&gt; PasteTypes = &lcub; &lcub; &lcub; &quot;0x0&period;st&quot;, &quot;https&colon;&sol;&sol;0x0&period;st&quot;, &quot;&quot; &rcub;,
+                                                                        &lcub; &quot;hastebin&quot;, &quot;https&colon;&sol;&sol;hst&period;sh&quot;, &quot;&sol;documents&quot; &rcub;,
+                                                                        &lcub; &quot;paste&period;gg&quot;, &quot;https&colon;&sol;&sol;paste&period;gg&quot;, &quot;&sol;api&sol;v1&sol;pastes&quot; &rcub;,
+                                                                        &lcub; &quot;mclo&period;gs&quot;, &quot;https&colon;&sol;&sol;api&period;mclo&period;gs&quot;, &quot;&sol;1&sol;log&quot; &rcub; &rcub; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

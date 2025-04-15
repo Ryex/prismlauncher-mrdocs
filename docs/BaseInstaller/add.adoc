@@ -1,0 +1,20 @@
+[#BaseInstaller-add]
+= xref:BaseInstaller.adoc[BaseInstaller]::add
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstaller.h#L35[BaseInstaller&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+add(xref:MinecraftInstance.adoc[MinecraftInstance]* to);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

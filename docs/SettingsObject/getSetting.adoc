@@ -1,0 +1,39 @@
+[#SettingsObject-getSetting]
+= xref:SettingsObject.adoc[SettingsObject]::getSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the setting with the given ID&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L104[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt;
+getSetting(xref:QString.adoc[QString] const& id) const;
+----
+
+== Return Value
+
+A pointer to the setting with the given ID&period;
+Returns null if there is no setting with the given ID&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *id*
+| The ID of the setting to get&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

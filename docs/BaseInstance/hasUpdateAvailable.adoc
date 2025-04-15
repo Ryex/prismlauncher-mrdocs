@@ -1,0 +1,19 @@
+[#BaseInstance-hasUpdateAvailable]
+= xref:BaseInstance.adoc[BaseInstance]::hasUpdateAvailable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L233[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+hasUpdateAvailable() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

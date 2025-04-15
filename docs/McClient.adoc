@@ -1,0 +1,72 @@
+[#McClient]
+= McClient
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/McClient.h#L10[ui&sol;pages&sol;instance&sol;McClient&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class McClient
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:McClient/2constructor.adoc[`McClient`]         [.small]#[constructor]#
+| 
+
+| xref:McClient/failed.adoc[`failed`] 
+| 
+
+| xref:McClient/finished.adoc[`finished`] 
+| 
+
+| xref:McClient/getStatusData.adoc[`getStatusData`] 
+| Read status data of the server, and calls the succeeded() signal with the parsed JSON data
+
+
+
+| xref:McClient/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:McClient/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:McClient/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:McClient/succeeded.adoc[`succeeded`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:McClient/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:McClient/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

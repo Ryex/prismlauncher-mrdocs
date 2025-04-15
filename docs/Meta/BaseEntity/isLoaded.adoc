@@ -1,0 +1,19 @@
+[#Meta-BaseEntity-isLoaded]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntity.adoc[BaseEntity]::isLoaded
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L39[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isLoaded() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

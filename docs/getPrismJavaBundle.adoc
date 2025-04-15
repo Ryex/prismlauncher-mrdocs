@@ -1,0 +1,19 @@
+[#getPrismJavaBundle]
+= getPrismJavaBundle
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L29[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getPrismJavaBundle();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

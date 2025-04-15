@@ -1,0 +1,20 @@
+[#OrSetting-set]
+= xref:OrSetting.adoc[OrSetting]::set
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.cpp#L157[minecraft&sol;MinecraftInstance&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+set(xref:QVariant.adoc[QVariant] value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

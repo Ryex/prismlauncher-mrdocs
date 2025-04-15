@@ -1,0 +1,19 @@
+[#MinecraftInstance-worldList]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::worldList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L120[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:WorldList.adoc[WorldList]&gt;
+worldList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

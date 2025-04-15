@@ -1,0 +1,19 @@
+[#JavaVersion-isModular]
+= xref:JavaVersion.adoc[JavaVersion]::isModular
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaVersion.h#L29[java&sol;JavaVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isModular() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

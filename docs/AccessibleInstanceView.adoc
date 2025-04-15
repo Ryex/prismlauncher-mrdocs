@@ -1,0 +1,155 @@
+[#AccessibleInstanceView]
+= AccessibleInstanceView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L14[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AccessibleInstanceView
+    : public xref:QAccessibleTableInterface.adoc[QAccessibleTableInterface]
+    , public xref:QAccessibleObject.adoc[QAccessibleObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccessibleInstanceView/2constructor.adoc[`AccessibleInstanceView`]         [.small]#[constructor]#
+| 
+
+| xref:AccessibleInstanceView/caption.adoc[`caption`] 
+| 
+
+| xref:AccessibleInstanceView/cellAt.adoc[`cellAt`] 
+| 
+
+| xref:AccessibleInstanceView/child.adoc[`child`] 
+| 
+
+| xref:AccessibleInstanceView/childAt.adoc[`childAt`] 
+| 
+
+| xref:AccessibleInstanceView/childCount.adoc[`childCount`] 
+| 
+
+| xref:AccessibleInstanceView/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:AccessibleInstanceView/columnDescription.adoc[`columnDescription`] 
+| 
+
+| xref:AccessibleInstanceView/indexOfChild.adoc[`indexOfChild`] 
+| 
+
+| xref:AccessibleInstanceView/interface_cast.adoc[`interface&lowbar;cast`] 
+| 
+
+| xref:AccessibleInstanceView/isColumnSelected.adoc[`isColumnSelected`] 
+| 
+
+| xref:AccessibleInstanceView/isRowSelected.adoc[`isRowSelected`] 
+| 
+
+| xref:AccessibleInstanceView/isValid.adoc[`isValid`] 
+| 
+
+| xref:AccessibleInstanceView/modelChange.adoc[`modelChange`] 
+| 
+
+| xref:AccessibleInstanceView/parent.adoc[`parent`] 
+| 
+
+| xref:AccessibleInstanceView/rect.adoc[`rect`] 
+| 
+
+| xref:AccessibleInstanceView/role.adoc[`role`] 
+| 
+
+| xref:AccessibleInstanceView/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:AccessibleInstanceView/rowDescription.adoc[`rowDescription`] 
+| 
+
+| xref:AccessibleInstanceView/selectColumn.adoc[`selectColumn`] 
+| 
+
+| xref:AccessibleInstanceView/selectRow.adoc[`selectRow`] 
+| 
+
+| xref:AccessibleInstanceView/selectedCellCount.adoc[`selectedCellCount`] 
+| 
+
+| xref:AccessibleInstanceView/selectedCells.adoc[`selectedCells`] 
+| 
+
+| xref:AccessibleInstanceView/selectedColumnCount.adoc[`selectedColumnCount`] 
+| 
+
+| xref:AccessibleInstanceView/selectedColumns.adoc[`selectedColumns`] 
+| 
+
+| xref:AccessibleInstanceView/selectedRowCount.adoc[`selectedRowCount`] 
+| 
+
+| xref:AccessibleInstanceView/selectedRows.adoc[`selectedRows`] 
+| 
+
+| xref:AccessibleInstanceView/state.adoc[`state`] 
+| 
+
+| xref:AccessibleInstanceView/summary.adoc[`summary`] 
+| 
+
+| xref:AccessibleInstanceView/text.adoc[`text`] 
+| 
+
+| xref:AccessibleInstanceView/unselectColumn.adoc[`unselectColumn`] 
+| 
+
+| xref:AccessibleInstanceView/unselectRow.adoc[`unselectRow`] 
+| 
+
+| xref:AccessibleInstanceView/view.adoc[`view`] 
+| 
+
+|===
+
+== Protected Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccessibleInstanceView/ChildCache.adoc[`ChildCache`] 
+| 
+
+|===
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccessibleInstanceView/2destructor.adoc[`&tilde;AccessibleInstanceView`] [.small]#[destructor]#
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccessibleInstanceView/childToId.adoc[`childToId`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#LaunchTask-emitSucceeded]
+= xref:LaunchTask.adoc[LaunchTask]::emitSucceeded
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L95[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+emitSucceeded() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

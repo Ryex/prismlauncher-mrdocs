@@ -1,0 +1,23 @@
+[#FileIgnoreProxy-setData]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::setData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L54[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+setData(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    xref:QVariant.adoc[QVariant] const& value,
+    int role = Qt&colon;&colon;EditRole);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

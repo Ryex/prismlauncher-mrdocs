@@ -1,0 +1,68 @@
+[#QuaZip]
+= QuaZip
+:relfileprefix: 
+:mrdocs:
+
+
+ZIP archive&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/i7s46b9kaq9aj0bpmk6byz7i3mzb33i8-quazip-1.5-dev/include/QuaZip-Qt6-1.5/quazip/quazip.h#L84[&sol;nix&sol;store&sol;i7s46b9kaq9aj0bpmk6byz7i3mzb33i8&hyphen;quazip&hyphen;1&period;5&hyphen;dev&sol;include&sol;QuaZip&hyphen;Qt6&hyphen;1&period;5&sol;quazip&sol;quazip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QuaZip;
+----
+
+
+
+
+== Description
+
+This class implements basic interface to the ZIP archive&period; It can be
+used to read table contents of the ZIP archive and retreiving
+information about the files inside it&period;
+
+You can also use this class to open files inside archive by passing
+pointer to the instance of this class to the constructor of the
+QuaZipFile class&period; But see QuaZipFile&colon;&colon;QuaZipFile(QuaZip&ast;, QObject&ast;)
+for the possible pitfalls&period;
+
+This class is indended to provide interface to the ZIP subpackage of
+the ZIP&sol;UNZIP package as well as to the UNZIP subpackage&period; But
+currently it supports only UNZIP&period;
+
+The use of this class is simple &hyphen; just create instance using
+constructor, then set ZIP archive file name using setFile() function
+(if you did not passed the name to the constructor), then open() and
+then use different functions to work with it! Well, if you are
+paranoid, you may also wish to call close before destructing the
+instance, to check for errors on close&period;
+
+You may also use getUnzFile() and getZipFile() functions to get the
+ZIP archive handle and use it with ZIP&sol;UNZIP package API directly&period;
+
+This class supports localized file names inside ZIP archive, but you
+have to set up proper codec with setCodec() function&period; By default,
+locale codec will be used, which is probably ok for UNIX systems, but
+will almost certainly fail with ZIP archives created in Windows&period; This
+is because Windows ZIP programs have strange habit of using DOS
+encoding for file names in ZIP archives&period; For example, ZIP archive
+with cyrillic names created in Windows will have file names in
+`IBM866`
+encoding instead of
+`WINDOWS-1251.`
+I think that calling one
+function is not much trouble, but for true platform independency it
+would be nice to have some mechanism for file name encoding auto
+detection using locale information&period; Does anyone know a good way to do
+it?
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

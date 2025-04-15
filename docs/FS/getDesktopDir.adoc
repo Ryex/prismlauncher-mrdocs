@@ -1,0 +1,19 @@
+[#FS-getDesktopDir]
+= xref:FS.adoc[FS]::getDesktopDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L354[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getDesktopDir();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#VersionPage-reloadPackProfile]
+= xref:VersionPage.adoc[VersionPage]::reloadPackProfile
+:relfileprefix: ../
+:mrdocs:
+
+
+FIXME&colon; this shouldn&apos;t be necessary!
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/VersionPage.h#L103[ui&sol;pages&sol;instance&sol;VersionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+reloadPackProfile();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,62 @@
+[#toml-v3-table]
+= xref:toml.adoc[toml]::xref:toml/v3.adoc[v3]::table
+:relfileprefix: ../../
+:mrdocs:
+
+
+A TOML table&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/zh639bj1fmmgkxvy1b84mlbq7ax0r1pz-tomlplusplus-3.4.0/include/toml++/impl/table.hpp#L219[&sol;nix&sol;store&sol;zh639bj1fmmgkxvy1b84mlbq7ax0r1pz&hyphen;tomlplusplus&hyphen;3&period;4&period;0&sol;include&sol;toml&plus;&plus;&sol;impl&sol;table&period;hpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class table
+    : public xref:toml/v3/node.adoc[node];
+----
+
+
+
+
+== Description
+
+The interface of this type is modeled after std&colon;&colon;map, with some
+additional considerations made for the heterogeneous nature of a
+TOML table&period;
+
+
+
+toml&colon;&colon;table tbl &equals; toml&colon;&colon;parse(R&quot;(
+
+&lsqb;animals&rsqb;
+cats &equals; &lsqb; &quot;tiger&quot;, &quot;lion&quot;, &quot;puma&quot; &rsqb;
+birds &equals; &lsqb; &quot;macaw&quot;, &quot;pigeon&quot;, &quot;canary&quot; &rsqb;
+fish &equals; &lsqb; &quot;salmon&quot;, &quot;trout&quot;, &quot;carp&quot; &rsqb;
+
+)&quot;sv)&semi;
+
+&sol;&sol; operator&lsqb;&rsqb; retrieves node&hyphen;views
+std&colon;&colon;cout&lt;&lt; &quot;cats&colon; &quot;&lt;&lt; tbl&lsqb;&quot;animals&quot;&rsqb;&lsqb;&quot;cats&quot;&rsqb;&lt;&lt; &quot;&bsol;n&quot;&semi;
+std&colon;&colon;cout&lt;&lt; &quot;fish&lsqb;1&rsqb;&colon; &quot;&lt;&lt; tbl&lsqb;&quot;animals&quot;&rsqb;&lsqb;&quot;fish&quot;&rsqb;&lsqb;1&rsqb;&lt;&lt; &quot;&bsol;n&quot;&semi;
+
+&sol;&sol; at&lowbar;path() does fully&hyphen;qualified &quot;toml path&quot; lookups
+std&colon;&colon;cout&lt;&lt; &quot;cats&colon; &quot;&lt;&lt; tbl&period;at&lowbar;path(&quot;animals&period;cats&quot;)&lt;&lt; &quot;&bsol;n&quot;&semi;
+std&colon;&colon;cout&lt;&lt; &quot;fish&lsqb;1&rsqb;&colon; &quot;&lt;&lt; tbl&period;at&lowbar;path(&quot;animals&period;fish&lsqb;1&rsqb;&quot;)&lt;&lt; &quot;&bsol;n&quot;&semi;
+
+
+
+
+
+cats&colon; &lsqb;&apos;tiger&apos;, &apos;lion&apos;, &apos;puma&apos;&rsqb;
+fish&lsqb;1&rsqb; &colon; &apos;trout&apos;
+cats &colon; &lsqb;&apos;tiger&apos;, &apos;lion&apos;, &apos;puma&apos;&rsqb;
+fish&lsqb;1&rsqb; &colon; &apos;trout&apos;
+
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

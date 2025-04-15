@@ -1,0 +1,22 @@
+[#SkinOpenGLWindow-generateBackgroundTexture]
+= xref:SkinOpenGLWindow.adoc[SkinOpenGLWindow]::generateBackgroundTexture
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L59[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+generateBackgroundTexture(
+    int width,
+    int height,
+    int tileSize);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#QMetaTypeId-0d-qt_metatype_id]
+= xref:QMetaTypeId-0d.adoc[QMetaTypeId]&lt;xref:TaskStepProgress.adoc[TaskStepProgress]&gt;::qt&lowbar;metatype&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L78[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+qt&lowbar;metatype&lowbar;id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#OverrideSetting-defValue]
+= xref:OverrideSetting.adoc[OverrideSetting]::defValue
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/OverrideSetting.h#L34[settings&sol;OverrideSetting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+defValue() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

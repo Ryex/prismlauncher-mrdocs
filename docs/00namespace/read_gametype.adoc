@@ -1,0 +1,21 @@
+[#00namespace-read_gametype]
+= read&lowbar;gametype
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L422[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:GameType.adoc[GameType]
+read&lowbar;gametype(
+    xref:nbt.adoc[nbt]::xref:nbt/value.adoc[value]& parent,
+    char const* name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

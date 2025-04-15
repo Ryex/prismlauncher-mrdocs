@@ -1,0 +1,167 @@
+[#AccountListPage]
+= AccountListPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L53[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AccountListPage
+    : public xref:QMainWindow.adoc[QMainWindow]
+    , public xref:BasePage.adoc[BasePage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountListPage/2constructor.adoc[`AccountListPage`]         [.small]#[constructor]#
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:AccountListPage/listChanged.adoc[`listChanged`] 
+| 
+
+| xref:AccountListPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:AccountListPage/on_actionAddMicrosoft_triggered.adoc[`on&lowbar;actionAddMicrosoft&lowbar;triggered`] 
+| 
+
+| xref:AccountListPage/on_actionAddOffline_triggered.adoc[`on&lowbar;actionAddOffline&lowbar;triggered`] 
+| 
+
+| xref:AccountListPage/on_actionManageSkins_triggered.adoc[`on&lowbar;actionManageSkins&lowbar;triggered`] 
+| 
+
+| xref:AccountListPage/on_actionNoDefault_triggered.adoc[`on&lowbar;actionNoDefault&lowbar;triggered`] 
+| 
+
+| xref:AccountListPage/on_actionRefresh_triggered.adoc[`on&lowbar;actionRefresh&lowbar;triggered`] 
+| 
+
+| xref:AccountListPage/on_actionRemove_triggered.adoc[`on&lowbar;actionRemove&lowbar;triggered`] 
+| 
+
+| xref:AccountListPage/on_actionSetDefault_triggered.adoc[`on&lowbar;actionSetDefault&lowbar;triggered`] 
+| 
+
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+
+| xref:AccountListPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:AccountListPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+
+| xref:AccountListPage/updateButtonStates.adoc[`updateButtonStates`] 
+| Updates the states of the dialog&apos;s buttons&period;
+
+
+
+| xref:AccountListPage/2destructor.adoc[`&tilde;AccountListPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountListPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountListPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountListPage/ShowContextMenu.adoc[`ShowContextMenu`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

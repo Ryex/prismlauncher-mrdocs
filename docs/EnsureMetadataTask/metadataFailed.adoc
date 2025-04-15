@@ -1,0 +1,19 @@
+[#EnsureMetadataTask-metadataFailed]
+= xref:EnsureMetadataTask.adoc[EnsureMetadataTask]::metadataFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.h#L54[modplatform&sol;EnsureMetadataTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+metadataFailed(xref:Resource.adoc[Resource]*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

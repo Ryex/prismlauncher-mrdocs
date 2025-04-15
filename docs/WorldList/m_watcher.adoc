@@ -1,0 +1,18 @@
+[#WorldList-m_watcher]
+= xref:WorldList.adoc[WorldList]::m&lowbar;watcher
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L95[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QFileSystemWatcher.adoc[QFileSystemWatcher]* m&lowbar;watcher;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

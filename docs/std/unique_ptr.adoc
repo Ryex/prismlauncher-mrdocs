@@ -1,0 +1,28 @@
+[#std-unique_ptr]
+= xref:std.adoc[std]::unique&lowbar;ptr
+:relfileprefix: ../
+:mrdocs:
+
+
+A move&hyphen;only smart pointer that manages unique ownership of a resource&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/unique_ptr.h#L270[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;unique&lowbar;ptr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename &lowbar;Tp,
+    typename &lowbar;Dp = xref:std/default_delete.adoc[default&lowbar;delete]&lt;&lowbar;Tp&gt;&gt;
+class unique&lowbar;ptr;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Setting-08friend]
+= xref:SettingsObject.adoc[SettingsObject]
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L105[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+friend xref:SettingsObject.adoc[SettingsObject];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

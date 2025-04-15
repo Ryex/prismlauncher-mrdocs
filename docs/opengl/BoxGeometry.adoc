@@ -1,0 +1,51 @@
+[#opengl-BoxGeometry]
+= xref:opengl.adoc[opengl]::BoxGeometry
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.h#L28[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BoxGeometry
+    : protected xref:QOpenGLFunctions.adoc[QOpenGLFunctions];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:opengl/BoxGeometry/2constructor.adoc[`BoxGeometry`]         [.small]#[constructor]#
+| 
+| xref:opengl/BoxGeometry/draw.adoc[`draw`] 
+| 
+
+| xref:opengl/BoxGeometry/initGeometry.adoc[`initGeometry`] 
+| 
+
+| xref:opengl/BoxGeometry/rotate.adoc[`rotate`] 
+| 
+
+| xref:opengl/BoxGeometry/2destructor.adoc[`&tilde;BoxGeometry`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:opengl/BoxGeometry/Plane.adoc[`Plane`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

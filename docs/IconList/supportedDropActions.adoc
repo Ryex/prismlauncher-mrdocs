@@ -1,0 +1,20 @@
+[#IconList-supportedDropActions]
+= xref:IconList.adoc[IconList]::supportedDropActions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L65[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/DropActions.adoc[DropActions]
+supportedDropActions() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#Json-requireIsType-09a]
+= xref:Json.adoc[Json]::requireIsType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L111[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+T
+requireIsType(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what = &quot;Value&quot;);
+----
+
+== Exceptions
+
+|===
+| Name | Thrown on
+
+| ``
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

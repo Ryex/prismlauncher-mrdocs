@@ -1,0 +1,19 @@
+[#SeparatorPrefixTree-insert-0de]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::insert
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L13[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+insert(xref:QStringList.adoc[QStringList] paths);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

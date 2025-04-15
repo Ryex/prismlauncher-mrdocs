@@ -1,0 +1,22 @@
+[#Ui-OptionalModDialog]
+= xref:Ui.adoc[Ui]::OptionalModDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/OptionalModDialog.h#L25[ui&sol;pages&sol;modplatform&sol;OptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class OptionalModDialog
+    : public xref:Ui_OptionalModDialog.adoc[Ui&lowbar;OptionalModDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

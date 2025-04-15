@@ -1,0 +1,22 @@
+[#ConcurrentTask-subTaskFailed]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::subTaskFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L83[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+subTaskFailed(
+    xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr],
+    xref:QString.adoc[QString] const& msg);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#MultipleOptionsTask-2destructor]
+= xref:MultipleOptionsTask.adoc[MultipleOptionsTask]::&tilde;MultipleOptionsTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/MultipleOptionsTask.h#L46[tasks&sol;MultipleOptionsTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;MultipleOptionsTask() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#FS-RemoveInvalidPathChars]
+= xref:FS.adoc[FS]::RemoveInvalidPathChars
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L346[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+RemoveInvalidPathChars(
+    xref:QString.adoc[QString] string,
+    xref:QChar.adoc[QChar] replaceWith = &apos;&hyphen;&apos;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

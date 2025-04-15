@@ -1,0 +1,20 @@
+[#SkinProvider-capes]
+= xref:SkinProvider.adoc[SkinProvider]::capes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L35[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QHash.adoc[QHash]&lt;xref:QString.adoc[QString], xref:QImage.adoc[QImage]&gt;
+capes() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

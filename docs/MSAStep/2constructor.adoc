@@ -1,0 +1,21 @@
+[#MSAStep-2constructor]
+= xref:MSAStep.adoc[MSAStep]::MSAStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSAStep.h#L45[minecraft&sol;auth&sol;steps&sol;MSAStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+MSAStep(
+    xref:AccountData.adoc[AccountData]* data,
+    bool silent = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

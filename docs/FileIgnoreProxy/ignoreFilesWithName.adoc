@@ -1,0 +1,19 @@
+[#FileIgnoreProxy-ignoreFilesWithName]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::ignoreFilesWithName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L68[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]&
+ignoreFilesWithName();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

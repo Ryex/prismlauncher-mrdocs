@@ -1,0 +1,21 @@
+[#ResourceDownload-TexturePackResourcePage-resourceString]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/TexturePackResourcePage.adoc[TexturePackResourcePage]::resourceString
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/TexturePackPage.h#L39[ui&sol;pages&sol;modplatform&sol;TexturePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+resourceString() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

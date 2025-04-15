@@ -1,0 +1,22 @@
+[#SkinList-2constructor]
+= xref:SkinList.adoc[SkinList]::SkinList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L32[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+SkinList(
+    xref:QObject.adoc[QObject]* parent,
+    xref:QString.adoc[QString] path,
+    xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr] acct);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

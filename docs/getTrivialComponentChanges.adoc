@@ -1,0 +1,37 @@
+[#getTrivialComponentChanges]
+= getTrivialComponentChanges
+:relfileprefix: 
+:mrdocs:
+
+
+handles&colon;
+&hyphen; trivial addition (there is an unmet requirement and it can be trivially met by adding something)
+&hyphen; trivial version conflict of dependencies &equals;&equals; explicit version required and installed is different
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L320[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+getTrivialComponentChanges(
+    xref:ComponentIndex.adoc[ComponentIndex] const& index,
+    xref:00namespace/RequireExSet.adoc[RequireExSet] const& input,
+    xref:00namespace/RequireExSet.adoc[RequireExSet]& toAdd,
+    xref:00namespace/RequireExSet.adoc[RequireExSet]& toChange);
+----
+
+== Description
+
+toAdd &hyphen; set of requirements than mean adding a new component
+toChange &hyphen; set of requirements that mean changing version of an existing component
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

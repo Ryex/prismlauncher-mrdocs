@@ -1,0 +1,22 @@
+[#NetJob-2constructor]
+= xref:NetJob.adoc[NetJob]::NetJob
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetJob.h#L55[net&sol;NetJob&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+NetJob(
+    xref:QString.adoc[QString] job&lowbar;name,
+    xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:QNetworkAccessManager.adoc[QNetworkAccessManager]&gt; network,
+    int max&lowbar;concurrent = &hyphen;1);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

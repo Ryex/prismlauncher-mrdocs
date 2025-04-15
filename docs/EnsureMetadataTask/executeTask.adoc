@@ -1,0 +1,20 @@
+[#EnsureMetadataTask-executeTask]
+= xref:EnsureMetadataTask.adoc[EnsureMetadataTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.h#L29[modplatform&sol;EnsureMetadataTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

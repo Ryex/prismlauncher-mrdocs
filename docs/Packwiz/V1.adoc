@@ -1,0 +1,60 @@
+[#Packwiz-V1]
+= xref:Packwiz.adoc[Packwiz]::V1
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L37[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class V1;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/V1/Mod.adoc[`Mod`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/V1/Side.adoc[`Side`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/V1/createModFormat.adoc[`createModFormat`] 
+| 
+| xref:Packwiz/V1/deleteModIndex.adoc[`deleteModIndex`] 
+| 
+| xref:Packwiz/V1/getIndexForMod.adoc[`getIndexForMod`] 
+| 
+| xref:Packwiz/V1/sideToString.adoc[`sideToString`] 
+| 
+
+| xref:Packwiz/V1/stringToSide.adoc[`stringToSide`] 
+| 
+
+| xref:Packwiz/V1/updateModIndex.adoc[`updateModIndex`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

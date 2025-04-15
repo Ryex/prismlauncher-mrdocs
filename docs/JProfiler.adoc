@@ -1,0 +1,98 @@
+[#JProfiler]
+= JProfiler
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/JProfiler.cpp#L9[tools&sol;JProfiler&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JProfiler
+    : public xref:BaseProfiler.adoc[BaseProfiler];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JProfiler/2constructor.adoc[`JProfiler`]         [.small]#[constructor]#
+| 
+
+| xref:BaseProfiler/abortLaunch.adoc[`abortLaunch`] 
+| 
+
+| xref:BaseProfiler/abortProfiling.adoc[`abortProfiling`] 
+| 
+
+| xref:BaseProfiler/beginProfiling.adoc[`beginProfiling`] 
+| 
+
+| xref:BaseExternalTool/metaObject.adoc[`metaObject`] 
+| 
+| xref:BaseExternalTool/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:BaseExternalTool/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:BaseProfiler/readyToLaunch.adoc[`readyToLaunch`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:BaseProfiler/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:JProfiler/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseProfiler/abortProfilingImpl.adoc[`abortProfilingImpl`] 
+| 
+
+| xref:BaseProfiler/beginProfilingImpl.adoc[`beginProfilingImpl`] 
+| 
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/globalSettings.adoc[`globalSettings`] 
+| 
+
+| xref:BaseExternalTool/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+| xref:BaseProfiler/m_profilerProcess.adoc[`m&lowbar;profilerProcess`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

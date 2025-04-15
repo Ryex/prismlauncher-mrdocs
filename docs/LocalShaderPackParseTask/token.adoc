@@ -1,0 +1,20 @@
+[#LocalShaderPackParseTask-token]
+= xref:LocalShaderPackParseTask.adoc[LocalShaderPackParseTask]::token
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalShaderPackParseTask.h#L54[minecraft&sol;mod&sol;tasks&sol;LocalShaderPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+int
+token() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

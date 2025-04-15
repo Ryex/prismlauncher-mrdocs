@@ -1,0 +1,19 @@
+[#World-seed]
+= xref:World.adoc[World]::seed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L41[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:int64_t.adoc[int64&lowbar;t]
+seed() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

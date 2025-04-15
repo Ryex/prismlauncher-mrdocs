@@ -1,0 +1,21 @@
+[#ConcurrentTask-subTaskDetails]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::subTaskDetails
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L86[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+subTaskDetails(
+    xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr] task,
+    xref:QString.adoc[QString] const& msg);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

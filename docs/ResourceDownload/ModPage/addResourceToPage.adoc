@@ -1,0 +1,27 @@
+[#ResourceDownload-ModPage-addResourceToPage]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModPage.adoc[ModPage]::addResourceToPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+&ast;&ast;&ast;&ast;&ast;&ast; Make changes to the UI &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModPage.h#L51[ui&sol;pages&sol;modplatform&sol;ModPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+addResourceToPage(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr],
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]&,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt;) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

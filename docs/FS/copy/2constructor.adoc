@@ -1,0 +1,21 @@
+[#FS-copy-2constructor]
+= xref:FS.adoc[FS]::xref:FS/copy.adoc[copy]::copy
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L108[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+copy(
+    xref:QString.adoc[QString] const& src,
+    xref:QString.adoc[QString] const& dst,
+    xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

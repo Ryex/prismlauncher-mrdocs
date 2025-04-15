@@ -1,0 +1,20 @@
+[#pageCast-04]
+= pageCast
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/InstallLoaderDialog.cpp#L84[ui&sol;dialogs&sol;InstallLoaderDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:InstallLoaderPage.adoc[InstallLoaderPage]*
+pageCast(xref:BasePage.adoc[BasePage]* page);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

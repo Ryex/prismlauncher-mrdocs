@@ -1,0 +1,19 @@
+[#ResourceDownloadTask-getPack]
+= xref:ResourceDownloadTask.adoc[ResourceDownloadTask]::getPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ResourceDownloadTask.h#L44[ResourceDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr]
+getPack();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

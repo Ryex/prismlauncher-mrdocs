@@ -1,0 +1,23 @@
+[#FS-checkProblemticPathJava]
+= xref:FS.adoc[FS]::checkProblemticPathJava
+:relfileprefix: ../
+:mrdocs:
+
+
+Checks if the a given Path contains &quot;!&quot;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L351[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+checkProblemticPathJava(xref:QDir.adoc[QDir] folder);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

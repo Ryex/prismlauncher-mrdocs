@@ -1,0 +1,23 @@
+[#VersionListView-rowsInserted]
+= xref:VersionListView.adoc[VersionListView]::rowsInserted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionListView.h#L37[ui&sol;widgets&sol;VersionListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+rowsInserted(
+    xref:QModelIndex.adoc[QModelIndex] const& parent,
+    int start,
+    int end) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

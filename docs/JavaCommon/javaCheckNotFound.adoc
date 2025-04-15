@@ -1,0 +1,19 @@
+[#JavaCommon-javaCheckNotFound]
+= xref:JavaCommon.adoc[JavaCommon]::javaCheckNotFound
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/JavaCommon.h#L19[JavaCommon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+javaCheckNotFound(xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

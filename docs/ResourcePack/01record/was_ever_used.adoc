@@ -1,0 +1,18 @@
+[#ResourcePack-01record-was_ever_used]
+= xref:ResourcePack.adoc[ResourcePack]::was&lowbar;ever&lowbar;used
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourcePack.h#L46[minecraft&sol;mod&sol;ResourcePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool was&lowbar;ever&lowbar;used = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

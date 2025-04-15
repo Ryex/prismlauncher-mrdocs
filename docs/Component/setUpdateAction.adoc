@@ -1,0 +1,19 @@
+[#Component-setUpdateAction]
+= xref:Component.adoc[Component]::setUpdateAction
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L109[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setUpdateAction(xref:UpdateAction.adoc[UpdateAction] action);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

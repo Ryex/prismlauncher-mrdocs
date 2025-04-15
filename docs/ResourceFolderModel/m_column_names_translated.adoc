@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_column_names_translated]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;column&lowbar;names&lowbar;translated
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L242[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] m&lowbar;column&lowbar;names&lowbar;translated = &equals; &lcub; tr(&quot;Enable&quot;), tr(&quot;Name&quot;), tr(&quot;Last Modified&quot;), tr(&quot;Provider&quot;), tr(&quot;Size&quot;) &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

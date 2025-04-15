@@ -1,0 +1,30 @@
+[#Json-requireDocument-02]
+= xref:Json.adoc[Json]::requireDocument
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L67[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonDocument.adoc[QJsonDocument]
+requireDocument(
+    xref:QByteArray.adoc[QByteArray] const& data,
+    xref:QString.adoc[QString] const& what = &quot;Document&quot;);
+----
+
+== Exceptions
+
+|===
+| Name | Thrown on
+
+| ``
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

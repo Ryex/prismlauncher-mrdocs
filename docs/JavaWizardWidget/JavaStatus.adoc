@@ -1,0 +1,37 @@
+[#JavaWizardWidget-JavaStatus]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::JavaStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L29[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum JavaStatus : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NotSet`
+|
+|`Pending`
+|
+|`Good`
+|
+|`DoesNotExist`
+|
+|`DoesNotStart`
+|
+|`ReturnedInvalidData`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

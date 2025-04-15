@@ -1,0 +1,23 @@
+[#ReviewMessageBox-create]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::create
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L14[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ReviewMessageBox.adoc[ReviewMessageBox]*
+create(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString]&& title,
+    xref:QString.adoc[QString]&& icon = &quot;&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

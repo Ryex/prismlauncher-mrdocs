@@ -1,0 +1,39 @@
+[#ModPlatform-OverrideDep]
+= xref:ModPlatform.adoc[ModPlatform]::OverrideDep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L167[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct OverrideDep;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/OverrideDep/fabric.adoc[`fabric`] 
+| 
+
+| xref:ModPlatform/OverrideDep/provider.adoc[`provider`] 
+| 
+
+| xref:ModPlatform/OverrideDep/quilt.adoc[`quilt`] 
+| 
+
+| xref:ModPlatform/OverrideDep/slug.adoc[`slug`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

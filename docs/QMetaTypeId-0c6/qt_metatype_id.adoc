@@ -1,0 +1,20 @@
+[#QMetaTypeId-0c6-qt_metatype_id]
+= xref:QMetaTypeId-0c6.adoc[QMetaTypeId]&lt;xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackVersion.adoc[ModpackVersion]&gt;::qt&lowbar;metatype&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L126[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+qt&lowbar;metatype&lowbar;id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

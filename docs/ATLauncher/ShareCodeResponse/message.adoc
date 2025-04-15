@@ -1,0 +1,18 @@
+[#ATLauncher-ShareCodeResponse-message]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/ShareCodeResponse.adoc[ShareCodeResponse]::message
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLShareCode.h#L41[modplatform&sol;atlauncher&sol;ATLShareCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] message;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

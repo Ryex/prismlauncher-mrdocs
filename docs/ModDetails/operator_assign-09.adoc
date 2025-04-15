@@ -1,0 +1,19 @@
+[#ModDetails-operator_assign-09]
+= xref:ModDetails.adoc[ModDetails]::operator&equals;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L163[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModDetails.adoc[ModDetails]&
+operator&equals;(xref:ModDetails.adoc[ModDetails]&& other) = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourceModel-createInfoCallbacks]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::createInfoCallbacks
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L87[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/ProjectInfoCallbacks.adoc[ProjectInfoCallbacks]
+createInfoCallbacks(xref:QModelIndex.adoc[QModelIndex]&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

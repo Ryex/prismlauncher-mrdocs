@@ -1,0 +1,18 @@
+[#ModloaderMapEntry-type]
+= xref:ModloaderMapEntry.adoc[ModloaderMapEntry]::type
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L48[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderType.adoc[ModLoaderType] type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

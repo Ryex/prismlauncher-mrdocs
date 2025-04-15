@@ -1,0 +1,20 @@
+[#Modrinth-ModpackListModel-hasActiveSearchJob]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackListModel.adoc[ModpackListModel]::hasActiveSearchJob
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthModel.h#L76[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+hasActiveSearchJob() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#OptionalModDialog-qt_metacast]
+= xref:OptionalModDialog.adoc[OptionalModDialog]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/OptionalModDialog.h#L29[ui&sol;pages&sol;modplatform&sol;OptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

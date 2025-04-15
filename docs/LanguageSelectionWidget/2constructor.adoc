@@ -1,0 +1,19 @@
+[#LanguageSelectionWidget-2constructor]
+= xref:LanguageSelectionWidget.adoc[LanguageSelectionWidget]::LanguageSelectionWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LanguageSelectionWidget.h#L29[ui&sol;widgets&sol;LanguageSelectionWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LanguageSelectionWidget(xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

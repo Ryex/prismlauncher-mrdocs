@@ -1,0 +1,19 @@
+[#Component-isRevertible]
+= xref:Component.adoc[Component]::isRevertible
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L72[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isRevertible();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

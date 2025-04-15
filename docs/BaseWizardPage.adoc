@@ -1,0 +1,53 @@
+[#BaseWizardPage]
+= BaseWizardPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/BaseWizardPage.h#L6[ui&sol;setupwizard&sol;BaseWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseWizardPage
+    : public xref:QWizardPage.adoc[QWizardPage]
+    , public xref:QWizardPage.adoc[QWizardPage];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/2constructor.adoc[`BaseWizardPage`]         [.small]#[constructor]#
+| 
+
+| xref:BaseWizardPage/refresh.adoc[`refresh`] 
+| 
+
+| xref:BaseWizardPage/wantsRefreshButton.adoc[`wantsRefreshButton`] 
+| 
+
+| xref:BaseWizardPage/2destructor.adoc[`&tilde;BaseWizardPage`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BaseWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

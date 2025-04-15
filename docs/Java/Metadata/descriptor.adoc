@@ -1,0 +1,20 @@
+[#Java-Metadata-descriptor]
+= xref:Java.adoc[Java]::xref:Java/Metadata.adoc[Metadata]::descriptor
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaMetadata.h#L35[java&sol;JavaMetadata&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+descriptor() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

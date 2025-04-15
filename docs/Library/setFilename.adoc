@@ -1,0 +1,19 @@
+[#Library-setFilename]
+= xref:Library.adoc[Library]::setFilename
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L116[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFilename(xref:QString.adoc[QString] const& filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

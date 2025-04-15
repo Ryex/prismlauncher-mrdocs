@@ -1,0 +1,36 @@
+[#SkinModel-2constructor]
+= xref:SkinModel.adoc[SkinModel]::SkinModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L29[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SkinModel/2constructor-09.adoc[SkinModel]() = default;
+----
+
+[.small]#xref:SkinModel/2constructor-09.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SkinModel/2constructor-0f.adoc[SkinModel](xref:QString.adoc[QString] path);
+----
+
+[.small]#xref:SkinModel/2constructor-0f.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SkinModel/2constructor-01.adoc[SkinModel](
+    xref:QDir.adoc[QDir] skinDir,
+    xref:QJsonObject.adoc[QJsonObject] obj);
+----
+
+[.small]#xref:SkinModel/2constructor-01.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

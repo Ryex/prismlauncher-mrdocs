@@ -1,0 +1,20 @@
+[#ResourceDownload-FlameResourcePackModel-optedOut]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameResourcePackModel.adoc[FlameResourcePackModel]::optedOut
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourceModels.h#L41[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+optedOut(xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion] const& ver) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

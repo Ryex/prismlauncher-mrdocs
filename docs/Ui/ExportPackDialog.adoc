@@ -1,0 +1,22 @@
+[#Ui-ExportPackDialog]
+= xref:Ui.adoc[Ui]::ExportPackDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportPackDialog.h#L28[ui&sol;dialogs&sol;ExportPackDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExportPackDialog
+    : public xref:Ui_ExportPackDialog.adoc[Ui&lowbar;ExportPackDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

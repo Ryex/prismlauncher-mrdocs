@@ -1,0 +1,21 @@
+[#ResourceDownload-ShaderPackResourcePage-helpPage]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourcePage.adoc[ShaderPackResourcePage]::helpPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackPage.h#L45[ui&sol;pages&sol;modplatform&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+helpPage() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

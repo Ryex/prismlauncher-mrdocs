@@ -1,0 +1,60 @@
+[#nbt-value]
+= xref:nbt.adoc[nbt]::value
+:relfileprefix: ../
+:mrdocs:
+
+
+Contains an NBT value of fixed type
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/libraries/libnbtplusplus/include/value.h#L60[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;libnbtplusplus&sol;include&sol;value&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class value;
+----
+
+
+
+
+== Description
+
+This class is a convenience wrapper for
+`std::unique_ptr<tag>.`
+A value can contain any kind of tag or no tag (nullptr) and provides
+operations for handling tags of which the type is not known at compile time&period;
+Assignment or the set method on a value with no tag will fill in the value&period;
+
+The rationale for the existance of this class is to provide a type&hyphen;erasured
+means of storing tags, especially when they are contained in tag&lowbar;compound
+or tag&lowbar;list&period; The alternative would be directly using
+`std::unique_ptr<tag>`
+and
+`tag&,`
+which is how it was done in libnbt&plus;&plus;1&period; The main drawback is that
+it becomes very cumbersome to deal with tags of unknown type&period;
+
+For example, in this case it would not be possible to allow a syntax like
+&period; If the key &quot;foo&quot; does not exist beforehand,
+the left hand side could not have any sensible value if it was of type
+`tag&.`
+Firstly, the compound tag would have to create a new tag&lowbar;int there, but it
+cannot know that the new tag is going to be assigned an integer&period;
+Also, if the type was
+`tag&`
+and it allowed assignment of integers, that
+would mean the tag base class has assignments and conversions like this&period;
+Which means that all other tag classes would inherit them from the base
+class, even though it does not make any sense to allow converting a
+tag&lowbar;compound into an integer&period; Attempts like this should be caught at
+compile time&period;
+
+This is why all the syntactic sugar for tags is contained in the value class
+while the tag class only contains common operations for all tag types&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,73 @@
+[#JavaUtils]
+= JavaUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L31[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JavaUtils
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaUtils/FindJavaPaths.adoc[`FindJavaPaths`] 
+| 
+
+| xref:JavaUtils/GetDefaultJava.adoc[`GetDefaultJava`] 
+| 
+
+| xref:JavaUtils/2constructor.adoc[`JavaUtils`]         [.small]#[constructor]#
+| 
+
+| xref:JavaUtils/MakeJavaPtr.adoc[`MakeJavaPtr`] 
+| 
+
+| xref:JavaUtils/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:JavaUtils/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:JavaUtils/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaUtils/getJavaCheckPath.adoc[`getJavaCheckPath`] 
+| 
+
+| xref:JavaUtils/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaUtils/javaExecutable.adoc[`javaExecutable`] 
+| 
+
+| xref:JavaUtils/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

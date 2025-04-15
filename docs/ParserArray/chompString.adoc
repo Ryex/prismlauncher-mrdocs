@@ -1,0 +1,19 @@
+[#ParserArray-chompString]
+= xref:ParserArray.adoc[ParserArray]::chompString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L31[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+chompString(xref:QByteArray.adoc[QByteArray]& appendHere);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

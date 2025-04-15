@@ -1,0 +1,22 @@
+[#InstanceProxyModel-lessThan]
+= xref:InstanceProxyModel.adoc[InstanceProxyModel]::lessThan
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceProxyModel.h#L29[ui&sol;instanceview&sol;InstanceProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+lessThan(
+    xref:QModelIndex.adoc[QModelIndex] const& left,
+    xref:QModelIndex.adoc[QModelIndex] const& right) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

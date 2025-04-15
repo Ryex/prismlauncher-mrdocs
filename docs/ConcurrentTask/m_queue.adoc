@@ -1,0 +1,18 @@
+[#ConcurrentTask-m_queue]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::m&lowbar;queue
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L98[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QQueue.adoc[QQueue]&lt;xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]&gt; m&lowbar;queue;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

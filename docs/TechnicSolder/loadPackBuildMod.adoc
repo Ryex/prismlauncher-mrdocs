@@ -1,0 +1,22 @@
+[#TechnicSolder-loadPackBuildMod]
+= xref:TechnicSolder.adoc[TechnicSolder]::loadPackBuildMod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackManifest.cpp#L37[modplatform&sol;technic&sol;SolderPackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadPackBuildMod(
+    xref:TechnicSolder/PackBuildMod.adoc[PackBuildMod]& b,
+    xref:QJsonObject.adoc[QJsonObject]& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

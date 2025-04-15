@@ -1,0 +1,40 @@
+[#QMetaTypeId-0f8]
+= QMetaTypeId&lt;xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:BaseInstance.adoc[BaseInstance]&gt;&gt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L321[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+struct QMetaTypeId&lt;xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:BaseInstance.adoc[BaseInstance]&gt;&gt;;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-0f8/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-0f8/qt_metatype_id.adoc[`qt&lowbar;metatype&lowbar;id`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,27 @@
+[#AccountListVersion]
+= AccountListVersion
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.cpp#L55[minecraft&sol;auth&sol;AccountList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum AccountListVersion;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`MojangMSA`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

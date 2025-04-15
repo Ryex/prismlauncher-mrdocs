@@ -1,0 +1,19 @@
+[#ModPlatform-getModLoaderAsString]
+= xref:ModPlatform.adoc[ModPlatform]::getModLoaderAsString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L185[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] const
+getModLoaderAsString(xref:ModPlatform/ModLoaderType.adoc[ModLoaderType] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

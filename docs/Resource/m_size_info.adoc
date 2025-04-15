@@ -1,0 +1,18 @@
+[#Resource-m_size_info]
+= xref:Resource.adoc[Resource]::m&lowbar;size&lowbar;info
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L185[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64] m&lowbar;size&lowbar;info;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

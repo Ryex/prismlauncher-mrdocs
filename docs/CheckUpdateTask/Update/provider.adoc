@@ -1,0 +1,18 @@
+[#CheckUpdateTask-Update-provider]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::xref:CheckUpdateTask/Update.adoc[Update]::provider
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L34[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] provider;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

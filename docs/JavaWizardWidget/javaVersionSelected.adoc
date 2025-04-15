@@ -1,0 +1,19 @@
+[#JavaWizardWidget-javaVersionSelected]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::javaVersionSelected
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L52[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+javaVersionSelected(xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

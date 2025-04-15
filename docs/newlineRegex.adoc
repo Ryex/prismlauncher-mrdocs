@@ -1,0 +1,19 @@
+[#newlineRegex]
+= newlineRegex
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.cpp#L19[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QRegularExpression.adoc[QRegularExpression] newlineRegex = newlineRegex(&quot;&bsol;r&bsol;n&verbar;&bsol;n&verbar;&bsol;r&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

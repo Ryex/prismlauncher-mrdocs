@@ -1,0 +1,19 @@
+[#Component-isKnownModloader]
+= xref:Component.adoc[Component]::isKnownModloader
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L76[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isKnownModloader();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

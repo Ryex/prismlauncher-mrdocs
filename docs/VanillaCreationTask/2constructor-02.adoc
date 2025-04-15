@@ -1,0 +1,18 @@
+[#VanillaCreationTask-2constructor-02]
+= xref:VanillaCreationTask.adoc[VanillaCreationTask]::VanillaCreationTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VanillaInstanceCreationTask.h#L10[minecraft&sol;VanillaInstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+VanillaCreationTask(xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

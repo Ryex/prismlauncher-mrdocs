@@ -1,0 +1,23 @@
+[#WorldSave-m_save_format]
+= xref:WorldSave.adoc[WorldSave]::m&lowbar;save&lowbar;format
+:relfileprefix: ../
+:mrdocs:
+
+
+The format in which the save file is in&period;
+Since saves can be distributed in various slightly different ways, this allows us to treat them separately&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L58[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:WorldSaveFormat.adoc[WorldSaveFormat] m&lowbar;save&lowbar;format = WorldSaveFormat&colon;&colon;INVALID;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

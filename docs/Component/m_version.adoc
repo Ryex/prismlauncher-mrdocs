@@ -1,0 +1,22 @@
+[#Component-m_version]
+= xref:Component.adoc[Component]::m&lowbar;version
+:relfileprefix: ../
+:mrdocs:
+
+
+version of the component &hyphen; when there&apos;s a custom json override, this is also the version the component reverts to
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L123[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;version;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

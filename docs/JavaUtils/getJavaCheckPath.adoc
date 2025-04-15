@@ -1,0 +1,20 @@
+[#JavaUtils-getJavaCheckPath]
+= xref:JavaUtils.adoc[JavaUtils]::getJavaCheckPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L44[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+getJavaCheckPath();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#FS-copy-copyFailed]
+= xref:FS.adoc[FS]::xref:FS/copy.adoc[copy]::copyFailed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L142[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+copyFailed(xref:QString.adoc[QString] const& relativeName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

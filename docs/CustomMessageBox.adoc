@@ -1,0 +1,19 @@
+[#CustomMessageBox]
+= CustomMessageBox
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomMessageBox/selectable.adoc[`selectable`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

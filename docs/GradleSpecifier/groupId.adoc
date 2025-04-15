@@ -1,0 +1,19 @@
+[#GradleSpecifier-groupId]
+= xref:GradleSpecifier.adoc[GradleSpecifier]::groupId
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L121[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+groupId() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

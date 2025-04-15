@@ -1,0 +1,171 @@
+[#ModrinthAPI]
+= ModrinthAPI
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L13[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ModrinthAPI
+    : public xref:NetworkResourceAPI.adoc[NetworkResourceAPI];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/DependencySearchArgs.adoc[`DependencySearchArgs`] 
+| 
+
+| xref:ResourceAPI/DependencySearchCallbacks.adoc[`DependencySearchCallbacks`] 
+| 
+
+| xref:ResourceAPI/ProjectInfoArgs.adoc[`ProjectInfoArgs`] 
+| 
+
+| xref:ResourceAPI/ProjectInfoCallbacks.adoc[`ProjectInfoCallbacks`] 
+| 
+
+| xref:ResourceAPI/SearchArgs.adoc[`SearchArgs`] 
+| 
+
+| xref:ResourceAPI/SearchCallbacks.adoc[`SearchCallbacks`] 
+| 
+
+| xref:ResourceAPI/SortingMethod.adoc[`SortingMethod`] 
+| 
+
+| xref:ResourceAPI/VersionSearchArgs.adoc[`VersionSearchArgs`] 
+| 
+
+| xref:ResourceAPI/VersionSearchCallbacks.adoc[`VersionSearchCallbacks`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModrinthAPI/currentVersion.adoc[`currentVersion`] 
+| 
+
+| xref:ModrinthAPI/currentVersions.adoc[`currentVersions`] 
+| 
+
+| xref:ModrinthAPI/getAuthorURL.adoc[`getAuthorURL`] 
+| 
+
+| xref:ModrinthAPI/getDependencyURL.adoc[`getDependencyURL`] 
+| 
+
+| xref:ResourceAPI/getDependencyVersion.adoc[`getDependencyVersion`] 
+| 
+| xref:ModrinthAPI/getGameVersionsArray.adoc[`getGameVersionsArray`] 
+| 
+
+| xref:ModrinthAPI/getInfoURL.adoc[`getInfoURL`] 
+| 
+
+| xref:ModrinthAPI/getMultipleModInfoURL.adoc[`getMultipleModInfoURL`] 
+| 
+
+| xref:ResourceAPI/getProject.adoc[`getProject`] 
+| 
+| xref:ResourceAPI/getProjectInfo.adoc[`getProjectInfo`] 
+| 
+| xref:ResourceAPI/getProjectVersions.adoc[`getProjectVersions`] 
+| 
+| xref:ResourceAPI/getProjects.adoc[`getProjects`] 
+| 
+| xref:ModrinthAPI/getSearchURL.adoc[`getSearchURL`] 
+| 
+
+| xref:ResourceAPI/getSortingMethods.adoc[`getSortingMethods`] 
+| Gets a list of available sorting methods for this API&period;
+
+
+
+| xref:ModrinthAPI/getVersionsURL.adoc[`getVersionsURL`] 
+| 
+
+| xref:ModrinthAPI/latestVersion.adoc[`latestVersion`] 
+| 
+
+| xref:ModrinthAPI/latestVersions.adoc[`latestVersions`] 
+| 
+
+| xref:ResourceAPI/searchProjects.adoc[`searchProjects`] 
+| 
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModrinthAPI/getCategoriesFilters.adoc[`getCategoriesFilters`] 
+| 
+
+| xref:ModrinthAPI/getModCategories.adoc[`getModCategories`] 
+| 
+
+| xref:ModrinthAPI/getModLoaderFilters.adoc[`getModLoaderFilters`] 
+| 
+
+| xref:ModrinthAPI/getModLoaderStrings.adoc[`getModLoaderStrings`] 
+| 
+
+| xref:ModrinthAPI/getSideFilters.adoc[`getSideFilters`] 
+| 
+
+| xref:ModrinthAPI/loadCategories.adoc[`loadCategories`] 
+| 
+
+| xref:ModrinthAPI/loadModCategories.adoc[`loadModCategories`] 
+| 
+
+| xref:ModrinthAPI/mapMCVersionFromModrinth.adoc[`mapMCVersionFromModrinth`] 
+| 
+
+| xref:ModrinthAPI/validateModLoaders.adoc[`validateModLoaders`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/debugName.adoc[`debugName`] 
+| 
+
+| xref:NetworkResourceAPI/getDependencyURL.adoc[`getDependencyURL`] 
+| 
+
+| xref:ResourceAPI/getGameVersionsString.adoc[`getGameVersionsString`] 
+| 
+
+| xref:NetworkResourceAPI/getInfoURL.adoc[`getInfoURL`] 
+| 
+
+| xref:NetworkResourceAPI/getSearchURL.adoc[`getSearchURL`] 
+| 
+
+| xref:NetworkResourceAPI/getVersionsURL.adoc[`getVersionsURL`] 
+| 
+
+| xref:ResourceAPI/mapMCVersionToModrinth.adoc[`mapMCVersionToModrinth`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

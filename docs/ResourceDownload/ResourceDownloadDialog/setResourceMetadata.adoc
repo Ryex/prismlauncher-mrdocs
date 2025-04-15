@@ -1,0 +1,19 @@
+[#ResourceDownload-ResourceDownloadDialog-setResourceMetadata]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog]::setResourceMetadata
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L72[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setResourceMetadata(xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Metadata.adoc[Metadata]::xref:Metadata/ModStruct.adoc[ModStruct]&gt; const& meta);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

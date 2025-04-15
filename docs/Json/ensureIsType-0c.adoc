@@ -1,0 +1,23 @@
+[#Json-ensureIsType-0c]
+= xref:Json.adoc[Json]::ensureIsType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L156[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+T
+ensureIsType(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    T const default&lowbar; = T(),
+    xref:QString.adoc[QString] const& what = &quot;Value&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

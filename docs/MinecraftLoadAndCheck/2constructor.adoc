@@ -1,0 +1,21 @@
+[#MinecraftLoadAndCheck-2constructor]
+= xref:MinecraftLoadAndCheck.adoc[MinecraftLoadAndCheck]::MinecraftLoadAndCheck
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftLoadAndCheck.h#L26[minecraft&sol;MinecraftLoadAndCheck&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+MinecraftLoadAndCheck(
+    xref:MinecraftInstance.adoc[MinecraftInstance]* inst,
+    xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] netmode);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

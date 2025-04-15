@@ -1,0 +1,33 @@
+[#SettingsObject-Lock]
+= xref:SettingsObject.adoc[SettingsObject]::Lock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L47[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Lock;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SettingsObject/Lock/2constructor.adoc[`Lock`]         [.small]#[constructor]#
+| 
+
+| xref:SettingsObject/Lock/2destructor.adoc[`&tilde;Lock`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

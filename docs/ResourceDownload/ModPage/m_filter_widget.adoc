@@ -1,0 +1,18 @@
+[#ResourceDownload-ModPage-m_filter_widget]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModPage.adoc[ModPage]::m&lowbar;filter&lowbar;widget
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModPage.h#L69[ui&sol;pages&sol;modplatform&sol;ModPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:unique_qobject_ptr.adoc[unique&lowbar;qobject&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]&gt; m&lowbar;filter&lowbar;widget;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

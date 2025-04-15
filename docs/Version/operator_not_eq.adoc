@@ -1,0 +1,19 @@
+[#Version-operator_not_eq]
+= xref:Version.adoc[Version]::operator!&equals;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L56[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator!&equals;(xref:Version.adoc[Version] const& other) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

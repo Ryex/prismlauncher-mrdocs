@@ -1,0 +1,19 @@
+[#Meta-Version-requiredSet]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::requiredSet
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L52[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta.adoc[Meta]::xref:Meta/RequireSet.adoc[RequireSet] const&
+requiredSet() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

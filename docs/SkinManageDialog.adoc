@@ -1,0 +1,114 @@
+[#SkinManageDialog]
+= SkinManageDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/SkinManageDialog.h#L33[ui&sol;dialogs&sol;skins&sol;SkinManageDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SkinManageDialog
+    : public xref:QDialog.adoc[QDialog]
+    , public xref:SkinProvider.adoc[SkinProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinManageDialog/2constructor.adoc[`SkinManageDialog`]         [.small]#[constructor]#
+| 
+
+| xref:SkinManageDialog/accept.adoc[`accept`] 
+| 
+
+| xref:SkinManageDialog/activated.adoc[`activated`] 
+| 
+
+| xref:SkinProvider/capes.adoc[`capes`] 
+| 
+| xref:SkinManageDialog/delayed_scroll.adoc[`delayed&lowbar;scroll`] 
+| 
+
+| xref:SkinManageDialog/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:SkinProvider/getSelectedSkin.adoc[`getSelectedSkin`] 
+| 
+| xref:SkinManageDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:SkinManageDialog/on_action_Delete_Skin_triggered.adoc[`on&lowbar;action&lowbar;Delete&lowbar;Skin&lowbar;triggered`] 
+| 
+
+| xref:SkinManageDialog/on_action_Rename_Skin_triggered.adoc[`on&lowbar;action&lowbar;Rename&lowbar;Skin&lowbar;triggered`] 
+| 
+
+| xref:SkinManageDialog/on_capeCombo_currentIndexChanged.adoc[`on&lowbar;capeCombo&lowbar;currentIndexChanged`] 
+| 
+
+| xref:SkinManageDialog/on_fileBtn_clicked.adoc[`on&lowbar;fileBtn&lowbar;clicked`] 
+| 
+
+| xref:SkinManageDialog/on_openDirBtn_clicked.adoc[`on&lowbar;openDirBtn&lowbar;clicked`] 
+| 
+
+| xref:SkinManageDialog/on_resetBtn_clicked.adoc[`on&lowbar;resetBtn&lowbar;clicked`] 
+| 
+
+| xref:SkinManageDialog/on_steveBtn_toggled.adoc[`on&lowbar;steveBtn&lowbar;toggled`] 
+| 
+
+| xref:SkinManageDialog/on_urlBtn_clicked.adoc[`on&lowbar;urlBtn&lowbar;clicked`] 
+| 
+
+| xref:SkinManageDialog/on_userBtn_clicked.adoc[`on&lowbar;userBtn&lowbar;clicked`] 
+| 
+
+| xref:SkinManageDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:SkinManageDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:SkinManageDialog/resizeEvent.adoc[`resizeEvent`] 
+| 
+
+| xref:SkinManageDialog/selectionChanged.adoc[`selectionChanged`] 
+| 
+
+| xref:SkinManageDialog/show_context_menu.adoc[`show&lowbar;context&lowbar;menu`] 
+| 
+
+| xref:SkinManageDialog/2destructor.adoc[`&tilde;SkinManageDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinManageDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinManageDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

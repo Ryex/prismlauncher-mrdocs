@@ -1,0 +1,19 @@
+[#MinecraftInstance-resourceLists]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::resourceLists
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L119[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt;&gt;
+resourceLists();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

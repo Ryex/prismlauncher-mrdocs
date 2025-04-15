@@ -1,0 +1,24 @@
+[#WorldList-supportedDropActions]
+= xref:WorldList.adoc[WorldList]::supportedDropActions
+:relfileprefix: ../
+:mrdocs:
+
+
+what drop actions do we support?
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L74[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/DropActions.adoc[DropActions]
+supportedDropActions() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,33 @@
+[#PSaveFile]
+= PSaveFile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/PSaveFile.h#L48[PSaveFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PSaveFile
+    : public xref:QSaveFile.adoc[QSaveFile];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PSaveFile/2constructor.adoc[`PSaveFile`]         [.small]#[constructor]#
+| 
+| xref:PSaveFile/2destructor.adoc[`&tilde;PSaveFile`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

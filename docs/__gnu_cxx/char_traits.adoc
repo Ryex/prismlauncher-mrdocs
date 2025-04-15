@@ -1,0 +1,43 @@
+[#__gnu_cxx-char_traits]
+= xref:__gnu_cxx.adoc[&lowbar;&lowbar;gnu&lowbar;cxx]::char&lowbar;traits
+:relfileprefix: ../
+:mrdocs:
+
+
+Base class used to implement std&colon;&colon;char&lowbar;traits&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/char_traits.h#L110[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;char&lowbar;traits&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename &lowbar;CharT&gt;
+struct char&lowbar;traits;
+----
+
+
+
+
+== Description
+
+[NOTE]
+For any given actual character type, this definition is
+probably wrong&period;  (Most of the member functions are likely to be
+right, but the int&lowbar;type and state&lowbar;type typedefs, and the eof()
+member function, are likely to be wrong&period;)  The reason this class
+exists is so users can specialize it&period;  Classes in namespace std
+may not be specialized for fundamental types, but classes in
+namespace &lowbar;&lowbar;gnu&lowbar;cxx may be&period;
+
+See https&colon;&sol;&sol;gcc&period;gnu&period;org&sol;onlinedocs&sol;libstdc&plus;&plus;&sol;manual&sol;strings&period;html&num;strings&period;string&period;character&lowbar;types
+for advice on how to make use of this class for
+_unusual_
+character
+types&period; Also, check out include&sol;ext&sol;pod&lowbar;char&lowbar;traits&period;h&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

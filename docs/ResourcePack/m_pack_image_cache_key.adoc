@@ -1,0 +1,19 @@
+[#ResourcePack-m_pack_image_cache_key]
+= xref:ResourcePack.adoc[ResourcePack]::m&lowbar;pack&lowbar;image&lowbar;cache&lowbar;key
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourcePack.h#L44[minecraft&sol;mod&sol;ResourcePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:ResourcePack/01record.adoc[] m&lowbar;pack&lowbar;image&lowbar;cache&lowbar;key;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

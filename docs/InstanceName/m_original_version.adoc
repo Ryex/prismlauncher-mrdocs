@@ -1,0 +1,18 @@
+[#InstanceName-m_original_version]
+= xref:InstanceName.adoc[InstanceName]::m&lowbar;original&lowbar;version
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L27[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;original&lowbar;version;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

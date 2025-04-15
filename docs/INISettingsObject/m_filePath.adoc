@@ -1,0 +1,18 @@
+[#INISettingsObject-m_filePath]
+= xref:INISettingsObject.adoc[INISettingsObject]::m&lowbar;filePath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INISettingsObject.h#L62[settings&sol;INISettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;filePath;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

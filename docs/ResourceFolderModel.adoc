@@ -1,0 +1,342 @@
+[#ResourceFolderModel]
+= ResourceFolderModel
+:relfileprefix: 
+:mrdocs:
+
+
+A basic model for external resources&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L61[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ResourceFolderModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/ProxyModel.adoc[`ProxyModel`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/Columns.adoc[`Columns`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/2constructor.adoc[`ResourceFolderModel`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceFolderModel/allResources.adoc[`allResources`] 
+| 
+
+| xref:ResourceFolderModel/at.adoc[`at`] 
+| 
+| xref:ResourceFolderModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:ResourceFolderModel/columnNames.adoc[`columnNames`] 
+| 
+
+| xref:ResourceFolderModel/columnResizeModes.adoc[`columnResizeModes`] 
+| 
+
+| xref:ResourceFolderModel/columnToSortKey.adoc[`columnToSortKey`] 
+| 
+
+| xref:ResourceFolderModel/createFilterProxyModel.adoc[`createFilterProxyModel`] 
+| This creates a proxy model to filter &sol; sort the model for a UI&period;
+
+
+
+| xref:ResourceFolderModel/createHeaderContextMenu.adoc[`createHeaderContextMenu`] 
+| 
+
+| xref:ResourceFolderModel/data.adoc[`data`] 
+| 
+
+| xref:ResourceFolderModel/deleteMetadata.adoc[`deleteMetadata`] 
+| 
+
+| xref:ResourceFolderModel/deleteResources.adoc[`deleteResources`] 
+| 
+
+| xref:ResourceFolderModel/dir.adoc[`dir`] 
+| 
+
+| xref:ResourceFolderModel/dropMimeData.adoc[`dropMimeData`] 
+| 
+
+| xref:ResourceFolderModel/empty.adoc[`empty`] 
+| 
+
+| xref:ResourceFolderModel/find.adoc[`find`] 
+| 
+
+| xref:ResourceFolderModel/flags.adoc[`flags`] 
+| flags, mostly to support drag&amp;drop
+
+
+
+| xref:ResourceFolderModel/hasPendingParseTasks.adoc[`hasPendingParseTasks`] 
+| Checks whether there&apos;s any parse tasks being done&period;
+
+
+
+| xref:ResourceFolderModel/headerData.adoc[`headerData`] 
+| 
+
+| xref:ResourceFolderModel/id.adoc[`id`] 
+| 
+
+| xref:ResourceFolderModel/indexDir.adoc[`indexDir`] 
+| 
+
+| xref:ResourceFolderModel/instDirPath.adoc[`instDirPath`] 
+| 
+
+| xref:ResourceFolderModel/installResource.adoc[`installResource`] 
+| Given a path in the system, install that resource, moving it to its place in the
+instance file hierarchy&period;
+
+
+
+| xref:ResourceFolderModel/installResourceWithFlameMetadata.adoc[`installResourceWithFlameMetadata`] 
+| 
+
+| xref:ResourceFolderModel/loadColumns.adoc[`loadColumns`] 
+| 
+
+| xref:ResourceFolderModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ResourceFolderModel/mimeTypes.adoc[`mimeTypes`] 
+| 
+
+| xref:ResourceFolderModel/parseFinished.adoc[`parseFinished`] 
+| 
+
+| xref:ResourceFolderModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ResourceFolderModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ResourceFolderModel/resolveResource.adoc[`resolveResource`] 
+| Creates a new parse task, if needed, for &apos;res&apos; and start it&period;
+
+
+
+| xref:ResourceFolderModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:ResourceFolderModel/saveColumns.adoc[`saveColumns`] 
+| 
+
+| xref:ResourceFolderModel/selectedResources.adoc[`selectedResources`] 
+| 
+
+| xref:ResourceFolderModel/setData.adoc[`setData`] 
+| 
+
+| xref:ResourceFolderModel/setResourceEnabled.adoc[`setResourceEnabled`] 
+| Applies the given &apos;action&apos; to the resources in &apos;indexes&apos;&period;
+
+
+
+| xref:ResourceFolderModel/setupHeaderAction.adoc[`setupHeaderAction`] 
+| 
+
+| xref:ResourceFolderModel/size.adoc[`size`] 
+| 
+
+| xref:ResourceFolderModel/startWatching.adoc[`startWatching`] 
+| Starts watching the paths for changes&period;
+
+
+
+| xref:ResourceFolderModel/stopWatching.adoc[`stopWatching`] 
+| Stops watching the paths for changes&period;
+
+
+
+| xref:ResourceFolderModel/supportedDropActions.adoc[`supportedDropActions`] 
+| 
+
+| xref:ResourceFolderModel/uninstallResource.adoc[`uninstallResource`] 
+| Uninstall (i&period;e&period; remove all data about it) a resource, given its file name&period;
+
+
+
+| xref:ResourceFolderModel/update.adoc[`update`] 
+| Creates a new update task and start it&period; Returns false if no update was done, like when an update is already underway&period;
+
+
+
+| xref:ResourceFolderModel/updateFinished.adoc[`updateFinished`] 
+| 
+
+| xref:ResourceFolderModel/validateIndex.adoc[`validateIndex`] 
+| 
+
+| xref:ResourceFolderModel/2destructor.adoc[`&tilde;ResourceFolderModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/applyUpdates.adoc[`applyUpdates`] 
+| Standard implementation of the model update logic&period;
+
+
+
+| xref:ResourceFolderModel/createParseTask.adoc[`createParseTask`] 
+| This creates a new parse task to be executed by onUpdateSucceeded()&period;
+
+
+
+| xref:ResourceFolderModel/createResource.adoc[`createResource`] 
+| 
+
+| xref:ResourceFolderModel/createUpdateTask.adoc[`createUpdateTask`] 
+| This creates a new update task to be executed by update()&period;
+
+
+
+| xref:ResourceFolderModel/directoryChanged.adoc[`directoryChanged`] 
+| 
+
+| xref:ResourceFolderModel/onParseFailed.adoc[`onParseFailed`] 
+| 
+
+| xref:ResourceFolderModel/onParseSucceeded.adoc[`onParseSucceeded`] 
+| Called when the parse task with the given ticket is successful&period;
+
+
+
+| xref:ResourceFolderModel/onUpdateFailed.adoc[`onUpdateFailed`] 
+| 
+
+| xref:ResourceFolderModel/onUpdateSucceeded.adoc[`onUpdateSucceeded`] 
+| Called when the update task is successful&period;
+
+
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceFolderModel/m_active_parse_tasks.adoc[`m&lowbar;active&lowbar;parse&lowbar;tasks`] 
+| 
+
+| xref:ResourceFolderModel/m_column_names.adoc[`m&lowbar;column&lowbar;names`] 
+| 
+
+| xref:ResourceFolderModel/m_column_names_translated.adoc[`m&lowbar;column&lowbar;names&lowbar;translated`] 
+| 
+
+| xref:ResourceFolderModel/m_column_resize_modes.adoc[`m&lowbar;column&lowbar;resize&lowbar;modes`] 
+| 
+
+| xref:ResourceFolderModel/m_column_sort_keys.adoc[`m&lowbar;column&lowbar;sort&lowbar;keys`] 
+| 
+
+| xref:ResourceFolderModel/m_columnsHiddenByDefault.adoc[`m&lowbar;columnsHiddenByDefault`] 
+| 
+
+| xref:ResourceFolderModel/m_columnsHideable.adoc[`m&lowbar;columnsHideable`] 
+| 
+
+| xref:ResourceFolderModel/m_current_update_task.adoc[`m&lowbar;current&lowbar;update&lowbar;task`] 
+| 
+
+| xref:ResourceFolderModel/m_dir.adoc[`m&lowbar;dir`] 
+| 
+
+| xref:ResourceFolderModel/m_first_folder_load.adoc[`m&lowbar;first&lowbar;folder&lowbar;load`] 
+| 
+
+| xref:ResourceFolderModel/m_helper_thread_task.adoc[`m&lowbar;helper&lowbar;thread&lowbar;task`] 
+| 
+
+| xref:ResourceFolderModel/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+| xref:ResourceFolderModel/m_is_indexed.adoc[`m&lowbar;is&lowbar;indexed`] 
+| 
+
+| xref:ResourceFolderModel/m_is_watching.adoc[`m&lowbar;is&lowbar;watching`] 
+| 
+
+| xref:ResourceFolderModel/m_next_resolution_ticket.adoc[`m&lowbar;next&lowbar;resolution&lowbar;ticket`] 
+| 
+
+| xref:ResourceFolderModel/m_resources.adoc[`m&lowbar;resources`] 
+| 
+
+| xref:ResourceFolderModel/m_resources_index.adoc[`m&lowbar;resources&lowbar;index`] 
+| 
+
+| xref:ResourceFolderModel/m_scheduled_update.adoc[`m&lowbar;scheduled&lowbar;update`] 
+| 
+
+| xref:ResourceFolderModel/m_watcher.adoc[`m&lowbar;watcher`] 
+| 
+
+|===
+
+
+== Description
+
+This model manages a list of resources&period; As such, external users of such resources do not own them,
+and the resource&apos;s lifetime is contingent on the model&apos;s lifetime&period;
+
+TODO&colon; Make the resources unique pointers accessible through weak pointers&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#GetModDependenciesTask-isLocalyInstalled]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::isLocalyInstalled
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L77[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isLocalyInstalled(xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:GetModDependenciesTask/PackDependency.adoc[PackDependency]&gt; pDep);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

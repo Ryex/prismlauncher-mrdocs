@@ -1,0 +1,48 @@
+[#AssetsIndex]
+= AssetsIndex
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L33[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct AssetsIndex;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AssetsIndex/getDownloadJob.adoc[`getDownloadJob`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AssetsIndex/id.adoc[`id`] 
+| 
+
+| xref:AssetsIndex/isVirtual.adoc[`isVirtual`] 
+| 
+
+| xref:AssetsIndex/mapToResources.adoc[`mapToResources`] 
+| 
+
+| xref:AssetsIndex/objects.adoc[`objects`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

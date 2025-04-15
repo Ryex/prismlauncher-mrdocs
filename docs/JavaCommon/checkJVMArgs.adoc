@@ -1,0 +1,21 @@
+[#JavaCommon-checkJVMArgs]
+= xref:JavaCommon.adoc[JavaCommon]::checkJVMArgs
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/JavaCommon.h#L10[JavaCommon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+checkJVMArgs(
+    xref:QString.adoc[QString] args,
+    xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

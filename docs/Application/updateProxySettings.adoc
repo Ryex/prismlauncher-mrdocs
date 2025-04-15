@@ -1,0 +1,24 @@
+[#Application-updateProxySettings]
+= xref:Application.adoc[Application]::updateProxySettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L141[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateProxySettings(
+    xref:QString.adoc[QString] proxyTypeStr,
+    xref:QString.adoc[QString] addr,
+    int port,
+    xref:QString.adoc[QString] user,
+    xref:QString.adoc[QString] password);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LaunchProfile-applyTweakers]
+= xref:LaunchProfile.adoc[LaunchProfile]::applyTweakers
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L55[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyTweakers(xref:QStringList.adoc[QStringList] const& tweakers);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

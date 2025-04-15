@@ -1,0 +1,31 @@
+[#Net-NetRequest-Option]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::Option
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L63[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Option : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NoOptions`
+|
+|`AcceptLocalFiles`
+|
+|`MakeEternal`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

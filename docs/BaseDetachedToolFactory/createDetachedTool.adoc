@@ -1,0 +1,22 @@
+[#BaseDetachedToolFactory-createDetachedTool]
+= xref:BaseDetachedToolFactory.adoc[BaseDetachedToolFactory]::createDetachedTool
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseExternalTool.h#L52[tools&sol;BaseExternalTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BaseDetachedTool.adoc[BaseDetachedTool]*
+createDetachedTool(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QObject.adoc[QObject]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

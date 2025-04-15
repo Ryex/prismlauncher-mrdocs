@@ -1,0 +1,40 @@
+[#TechnicSolder]
+= TechnicSolder
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TechnicSolder/Pack.adoc[`Pack`] 
+| 
+
+| xref:TechnicSolder/PackBuild.adoc[`PackBuild`] 
+| 
+
+| xref:TechnicSolder/PackBuildMod.adoc[`PackBuildMod`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TechnicSolder/loadPack.adoc[`loadPack`] 
+| 
+
+| xref:TechnicSolder/loadPackBuild.adoc[`loadPackBuild`] 
+| 
+
+| xref:TechnicSolder/loadPackBuildMod.adoc[`loadPackBuildMod`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

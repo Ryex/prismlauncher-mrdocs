@@ -1,0 +1,25 @@
+[#LineSeparator-2constructor]
+= xref:LineSeparator.adoc[LineSeparator]::LineSeparator
+:relfileprefix: ../
+:mrdocs:
+
+
+Create a line separator&period; orientation is the orientation of the line&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LineSeparator.h#L11[ui&sol;widgets&sol;LineSeparator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LineSeparator(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:Qt.adoc[Qt]::xref:Qt/Orientation.adoc[Orientation] orientation = Qt&colon;&colon;Horizontal);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

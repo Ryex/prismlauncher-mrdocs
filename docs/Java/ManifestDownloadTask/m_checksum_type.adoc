@@ -1,0 +1,18 @@
+[#Java-ManifestDownloadTask-m_checksum_type]
+= xref:Java.adoc[Java]::xref:Java/ManifestDownloadTask.adoc[ManifestDownloadTask]::m&lowbar;checksum&lowbar;type
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.h#L42[java&sol;download&sol;ManifestDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;checksum&lowbar;type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

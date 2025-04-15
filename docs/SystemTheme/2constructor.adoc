@@ -1,0 +1,21 @@
+[#SystemTheme-2constructor]
+= xref:SystemTheme.adoc[SystemTheme]::SystemTheme
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/SystemTheme.h#L41[ui&sol;themes&sol;SystemTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+SystemTheme(
+    xref:QString.adoc[QString] const& styleName,
+    xref:QPalette.adoc[QPalette] const& defaultPalette,
+    bool isDefaultTheme);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

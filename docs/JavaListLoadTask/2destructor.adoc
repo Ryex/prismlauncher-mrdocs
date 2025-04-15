@@ -1,0 +1,19 @@
+[#JavaListLoadTask-2destructor]
+= xref:JavaListLoadTask.adoc[JavaListLoadTask]::&tilde;JavaListLoadTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L66[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;JavaListLoadTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

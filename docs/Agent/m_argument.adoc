@@ -1,0 +1,22 @@
+[#Agent-m_argument]
+= xref:Agent.adoc[Agent]::m&lowbar;argument
+:relfileprefix: ../
+:mrdocs:
+
+
+The argument to the Java agent, passed after an &equals; if present
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Agent.h#L28[minecraft&sol;Agent&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;argument;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

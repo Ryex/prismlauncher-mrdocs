@@ -1,0 +1,21 @@
+[#FS-DirNameFromString]
+= xref:FS.adoc[FS]::DirNameFromString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L348[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+DirNameFromString(
+    xref:QString.adoc[QString] string,
+    xref:QString.adoc[QString] inDir = &quot;&period;&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

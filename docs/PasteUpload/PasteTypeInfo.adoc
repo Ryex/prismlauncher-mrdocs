@@ -1,0 +1,36 @@
+[#PasteUpload-PasteTypeInfo]
+= xref:PasteUpload.adoc[PasteUpload]::PasteTypeInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/PasteUpload.h#L62[net&sol;PasteUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PasteTypeInfo;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PasteUpload/PasteTypeInfo/defaultBase.adoc[`defaultBase`] 
+| 
+
+| xref:PasteUpload/PasteTypeInfo/endpointPath.adoc[`endpointPath`] 
+| 
+
+| xref:PasteUpload/PasteTypeInfo/name.adoc[`name`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

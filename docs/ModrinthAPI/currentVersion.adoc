@@ -1,0 +1,22 @@
+[#ModrinthAPI-currentVersion]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::currentVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L15[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+currentVersion(
+    xref:QString.adoc[QString] hash,
+    xref:QString.adoc[QString] hash&lowbar;format,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QByteArray.adoc[QByteArray]&gt; response);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

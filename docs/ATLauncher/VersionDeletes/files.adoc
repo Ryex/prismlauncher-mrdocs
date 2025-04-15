@@ -1,0 +1,18 @@
+[#ATLauncher-VersionDeletes-files]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionDeletes.adoc[VersionDeletes]::files
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L152[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:ATLauncher/VersionDelete.adoc[VersionDelete]&gt; files;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

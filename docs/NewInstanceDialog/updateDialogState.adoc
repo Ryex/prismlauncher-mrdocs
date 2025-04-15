@@ -1,0 +1,19 @@
+[#NewInstanceDialog-updateDialogState]
+= xref:NewInstanceDialog.adoc[NewInstanceDialog]::updateDialogState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L62[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateDialogState();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

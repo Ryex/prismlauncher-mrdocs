@@ -1,0 +1,19 @@
+[#InstallJavaPage-selectionChanged]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::selectionChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L150[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+selectionChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

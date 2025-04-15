@@ -1,0 +1,34 @@
+[#Json-requireJsonValue]
+= xref:Json.adoc[Json]::requireJsonValue
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L267[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/requireJsonValue-07.adoc[requireJsonValue](
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what);
+----
+
+[.small]#xref:Json/requireJsonValue-07.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/requireJsonValue-02.adoc[requireJsonValue](
+    xref:QJsonObject.adoc[QJsonObject] const& parent,
+    xref:QString.adoc[QString] const& key,
+    xref:QString.adoc[QString] const& what);
+----
+
+[.small]#xref:Json/requireJsonValue-02.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

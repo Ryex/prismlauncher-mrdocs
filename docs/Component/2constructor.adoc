@@ -1,0 +1,32 @@
+[#Component-2constructor]
+= xref:Component.adoc[Component]::Component
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L55[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Component/2constructor-008.adoc[Component](
+    xref:PackProfile.adoc[PackProfile]* parent,
+    xref:QString.adoc[QString] const& uid);
+----
+
+[.small]#xref:Component/2constructor-008.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Component/2constructor-002.adoc[Component](
+    xref:PackProfile.adoc[PackProfile]* parent,
+    xref:QString.adoc[QString] const& uid,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:VersionFile.adoc[VersionFile]&gt; file);
+----
+
+[.small]#xref:Component/2constructor-002.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

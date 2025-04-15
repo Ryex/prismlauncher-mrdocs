@@ -1,0 +1,18 @@
+[#BlockedMod-targetFolder]
+= xref:BlockedMod.adoc[BlockedMod]::targetFolder
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L44[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] targetFolder;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

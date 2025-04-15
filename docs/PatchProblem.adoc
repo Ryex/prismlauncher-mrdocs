@@ -1,0 +1,33 @@
+[#PatchProblem]
+= PatchProblem
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L8[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PatchProblem;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PatchProblem/m_description.adoc[`m&lowbar;description`] 
+| 
+
+| xref:PatchProblem/m_severity.adoc[`m&lowbar;severity`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#InstallJavaPage-displayName]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::displayName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L99[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+displayName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

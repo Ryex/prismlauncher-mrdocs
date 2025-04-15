@@ -1,0 +1,36 @@
+[#TechnicSolder-Pack]
+= xref:TechnicSolder.adoc[TechnicSolder]::Pack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackManifest.h#L27[modplatform&sol;technic&sol;SolderPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Pack;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TechnicSolder/Pack/builds.adoc[`builds`] 
+| 
+
+| xref:TechnicSolder/Pack/latest.adoc[`latest`] 
+| 
+
+| xref:TechnicSolder/Pack/recommended.adoc[`recommended`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

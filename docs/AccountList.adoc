@@ -1,0 +1,241 @@
+[#AccountList]
+= AccountList
+:relfileprefix: 
+:mrdocs:
+
+
+List of available Mojang accounts&period;
+This should be loaded in the background by Prism Launcher on startup&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L50[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AccountList
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountList/ModelRoles.adoc[`ModelRoles`] 
+| 
+
+| xref:AccountList/VListColumns.adoc[`VListColumns`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountList/2constructor.adoc[`AccountList`]         [.small]#[constructor]#
+| 
+
+| xref:AccountList/accountActivityChanged.adoc[`accountActivityChanged`] 
+| This is called when a (refresh&sol;login) task involving the account starts or ends
+
+
+
+| xref:AccountList/accountChanged.adoc[`accountChanged`] 
+| This is called when one of the accounts changes and the list needs to be updated
+
+
+
+| xref:AccountList/activityChanged.adoc[`activityChanged`] 
+| 
+
+| xref:AccountList/addAccount.adoc[`addAccount`] 
+| 
+
+| xref:AccountList/anyAccountIsValid.adoc[`anyAccountIsValid`] 
+| 
+
+| xref:AccountList/at.adoc[`at`] 
+| 
+
+| xref:AccountList/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:AccountList/count.adoc[`count`] 
+| 
+
+| xref:AccountList/data.adoc[`data`] 
+| &sol;&sol;&sol;&sol;&sol; List Model Functions &sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;
+
+
+
+| xref:AccountList/defaultAccount.adoc[`defaultAccount`] 
+| 
+
+| xref:AccountList/defaultAccountChanged.adoc[`defaultAccountChanged`] 
+| 
+
+| xref:AccountList/fillQueue.adoc[`fillQueue`] 
+| This is initially to run background account refresh tasks, or on a hourly timer
+
+
+
+| xref:AccountList/findAccountByProfileId.adoc[`findAccountByProfileId`] 
+| 
+
+| xref:AccountList/flags.adoc[`flags`] 
+| 
+
+| xref:AccountList/getAccountByProfileName.adoc[`getAccountByProfileName`] 
+| 
+
+| xref:AccountList/headerData.adoc[`headerData`] 
+| 
+
+| xref:AccountList/isActive.adoc[`isActive`] 
+| 
+
+| xref:AccountList/listActivityChanged.adoc[`listActivityChanged`] 
+| 
+
+| xref:AccountList/listChanged.adoc[`listChanged`] 
+| 
+
+| xref:AccountList/loadList.adoc[`loadList`] 
+| 
+
+| xref:AccountList/loadV3.adoc[`loadV3`] 
+| 
+
+| xref:AccountList/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:AccountList/profileNames.adoc[`profileNames`] 
+| 
+
+| xref:AccountList/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:AccountList/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:AccountList/queueRefresh.adoc[`queueRefresh`] 
+| 
+
+| xref:AccountList/removeAccount.adoc[`removeAccount`] 
+| 
+
+| xref:AccountList/requestRefresh.adoc[`requestRefresh`] 
+| 
+
+| xref:AccountList/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:AccountList/saveList.adoc[`saveList`] 
+| 
+
+| xref:AccountList/setData.adoc[`setData`] 
+| 
+
+| xref:AccountList/setDefaultAccount.adoc[`setDefaultAccount`] 
+| 
+
+| xref:AccountList/setListFilePath.adoc[`setListFilePath`] 
+| Sets the path to load&sol;save the list file from&sol;to&period;
+If autosave is true, this list will automatically save to the given path whenever it changes&period;
+THIS FUNCTION DOES NOT LOAD THE LIST&period; If you set autosave, be sure to call loadList() immediately
+after calling this function to ensure an autosaved change doesn&apos;t overwrite the list you intended
+to load&period;
+
+
+
+| xref:AccountList/2destructor.adoc[`&tilde;AccountList`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountList/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountList/beginActivity.adoc[`beginActivity`] 
+| 
+
+| xref:AccountList/endActivity.adoc[`endActivity`] 
+| 
+
+| xref:AccountList/onDefaultAccountChanged.adoc[`onDefaultAccountChanged`] 
+| Called whenever the active account changes&period;
+Emits the defaultAccountChanged() signal and autosaves the list if enabled&period;
+
+
+
+| xref:AccountList/onListChanged.adoc[`onListChanged`] 
+| Called whenever the list changes&period;
+This emits the listChanged() signal and autosaves the list (if autosave is enabled)&period;
+
+
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountList/m_accounts.adoc[`m&lowbar;accounts`] 
+| 
+
+| xref:AccountList/m_autosave.adoc[`m&lowbar;autosave`] 
+| If true, the account list will automatically save to the account list path when it changes&period;
+Ignored if m&lowbar;listFilePath is blank&period;
+
+
+
+| xref:AccountList/m_currentTask.adoc[`m&lowbar;currentTask`] 
+| 
+
+| xref:AccountList/m_defaultAccount.adoc[`m&lowbar;defaultAccount`] 
+| 
+
+| xref:AccountList/m_listFilePath.adoc[`m&lowbar;listFilePath`] 
+| Path to the account list file&period; Empty string if there isn&apos;t one&period;
+
+
+
+| xref:AccountList/m_nextTimer.adoc[`m&lowbar;nextTimer`] 
+| 
+
+| xref:AccountList/m_refreshQueue.adoc[`m&lowbar;refreshQueue`] 
+| 
+
+| xref:AccountList/m_refreshTimer.adoc[`m&lowbar;refreshTimer`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

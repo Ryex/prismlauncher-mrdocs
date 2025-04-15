@@ -1,0 +1,23 @@
+[#BaseInstance-instanceRoot]
+= xref:BaseInstance.adoc[BaseInstance]::instanceRoot
+:relfileprefix: ../
+:mrdocs:
+
+
+Path to the instance&apos;s root directory&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L118[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+instanceRoot() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

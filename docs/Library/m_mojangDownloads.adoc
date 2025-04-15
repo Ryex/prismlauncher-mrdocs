@@ -1,0 +1,22 @@
+[#Library-m_mojangDownloads]
+= xref:Library.adoc[Library]::m&lowbar;mojangDownloads
+:relfileprefix: ../
+:mrdocs:
+
+
+MOJANG&colon; container with Mojang style download info
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L209[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MojangLibraryDownloadInfo.adoc[MojangLibraryDownloadInfo]::xref:MojangLibraryDownloadInfo/Ptr.adoc[Ptr] m&lowbar;mojangDownloads;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

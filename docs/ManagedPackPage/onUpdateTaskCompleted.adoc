@@ -1,0 +1,33 @@
+[#ManagedPackPage-onUpdateTaskCompleted]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::onUpdateTaskCompleted
+:relfileprefix: ../
+:mrdocs:
+
+
+Called when the update task has completed&period;
+Internally handles the closing of the instance window if the update was successful and shows a message box&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L98[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onUpdateTaskCompleted(bool did&lowbar;succeed) const;
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *did&lowbar;succeed*
+| Whether the update task was successful&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

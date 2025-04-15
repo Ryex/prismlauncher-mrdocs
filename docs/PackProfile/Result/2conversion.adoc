@@ -1,0 +1,18 @@
+[#PackProfile-Result-2conversion]
+= xref:PackProfile.adoc[PackProfile]::xref:PackProfile/Result.adoc[Result]::operator bool
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L70[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+operator bool() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#WatchLock-2destructor]
+= xref:WatchLock.adoc[WatchLock]::&tilde;WatchLock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/WatchLock.h#L12[WatchLock&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+&tilde;WatchLock();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

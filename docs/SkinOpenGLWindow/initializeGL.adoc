@@ -1,0 +1,20 @@
+[#SkinOpenGLWindow-initializeGL]
+= xref:SkinOpenGLWindow.adoc[SkinOpenGLWindow]::initializeGL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L53[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+initializeGL() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

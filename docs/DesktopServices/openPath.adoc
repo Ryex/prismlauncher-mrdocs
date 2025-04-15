@@ -1,0 +1,48 @@
+[#DesktopServices-openPath]
+= xref:DesktopServices.adoc[DesktopServices]::openPath
+:relfileprefix: ../
+:mrdocs:
+
+
+Open a path in whatever application is applicable&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DesktopServices.h#L17[DesktopServices&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:DesktopServices/openPath-0e.adoc[openPath](
+    xref:QFileInfo.adoc[QFileInfo] const& path,
+    bool ensureFolderPathExists = false);
+----
+
+[.small]#xref:DesktopServices/openPath-0e.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:DesktopServices/openPath-03.adoc[openPath](
+    xref:QString.adoc[QString] const& path,
+    bool ensureFolderPathExists = false);
+----
+
+[.small]#xref:DesktopServices/openPath-03.adoc[_» more..._]#
+
+== Parameters
+
+|===
+| Name | Description
+
+| *ensureFolderPathExists*
+| Make sure the path exists
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

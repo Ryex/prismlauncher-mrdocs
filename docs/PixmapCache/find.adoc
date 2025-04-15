@@ -1,0 +1,35 @@
+[#PixmapCache-find]
+= xref:PixmapCache.adoc[PixmapCache]::find
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L58[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+xref:PixmapCache/find-0f7.adoc[find](
+    xref:QString.adoc[QString] const& p1,
+    xref:QPixmap.adoc[QPixmap]* p2);
+----
+
+[.small]#xref:PixmapCache/find-0f7.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+xref:PixmapCache/find-0f4.adoc[find](
+    xref:QPixmapCache.adoc[QPixmapCache]::xref:QPixmapCache/Key.adoc[Key] const& p1,
+    xref:QPixmap.adoc[QPixmap]* p2);
+----
+
+[.small]#xref:PixmapCache/find-0f4.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

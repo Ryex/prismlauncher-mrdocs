@@ -1,0 +1,24 @@
+[#Application-getJarPath]
+= xref:Application.adoc[Application]::getJarPath
+:relfileprefix: ../
+:mrdocs:
+
+
+Finds and returns the full path to a jar file&period;
+Returns a null&hyphen;string if it could not be found&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L157[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getJarPath(xref:QString.adoc[QString] jarFile);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

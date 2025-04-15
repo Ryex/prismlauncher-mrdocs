@@ -1,0 +1,22 @@
+[#ModFolderModel-data]
+= xref:ModFolderModel.adoc[ModFolderModel]::data
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModFolderModel.h#L78[minecraft&sol;mod&sol;ModFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role = Qt&colon;&colon;DisplayRole) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

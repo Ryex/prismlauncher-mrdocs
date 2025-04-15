@@ -1,0 +1,20 @@
+[#LocalModParseTask-token]
+= xref:LocalModParseTask.adoc[LocalModParseTask]::token
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L48[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+int
+token() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

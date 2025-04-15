@@ -1,0 +1,28 @@
+[#std-__cxx11]
+= xref:std.adoc[std]::&lowbar;&lowbar;cxx11
+:relfileprefix: ../
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/__cxx11/_List_base.adoc[`&lowbar;List&lowbar;base`] 
+| See bits&sol;stl&lowbar;deque&period;h&apos;s &lowbar;Deque&lowbar;base for an explanation&period;
+
+
+
+| xref:std/__cxx11/basic_string.adoc[`basic&lowbar;string`] 
+| 
+
+| xref:std/__cxx11/list.adoc[`list`] 
+| A standard container with linear time access to elements,
+and fixed time insertion&sol;deletion at any point in the sequence&period;
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

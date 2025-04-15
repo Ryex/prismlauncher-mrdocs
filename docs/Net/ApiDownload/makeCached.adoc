@@ -1,0 +1,22 @@
+[#Net-ApiDownload-makeCached]
+= xref:Net.adoc[Net]::xref:Net/ApiDownload.adoc[ApiDownload]::makeCached
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ApiDownload.h#L27[net&sol;ApiDownload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Net/Download.adoc[Download]::xref:Net/Download/Ptr.adoc[Ptr]
+makeCached(
+    xref:QUrl.adoc[QUrl] url,
+    xref:MetaEntryPtr.adoc[MetaEntryPtr] entry,
+    xref:Net/Download.adoc[Download]::xref:Net/NetRequest/Options.adoc[Options] options = Download&colon;&colon;Option&colon;&colon;NoOptions);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

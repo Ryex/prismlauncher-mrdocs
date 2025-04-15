@@ -1,0 +1,19 @@
+[#MetaEntry-getCurrentAge]
+= xref:MetaEntry.adoc[MetaEntry]::getCurrentAge
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L71[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64]
+getCurrentAge();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#MMCIcon-has]
+= xref:MMCIcon.adoc[MMCIcon]::has
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L57[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+has(xref:IconType.adoc[IconType] &lowbar;type) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,103 @@
+[#AtlOptionalModListModel]
+= AtlOptionalModListModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.h#L48[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlOptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AtlOptionalModListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlOptionalModListModel/Columns.adoc[`Columns`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlOptionalModListModel/2constructor.adoc[`AtlOptionalModListModel`]         [.small]#[constructor]#
+| 
+
+| xref:AtlOptionalModListModel/clearAll.adoc[`clearAll`] 
+| 
+
+| xref:AtlOptionalModListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:AtlOptionalModListModel/data.adoc[`data`] 
+| 
+
+| xref:AtlOptionalModListModel/flags.adoc[`flags`] 
+| 
+
+| xref:AtlOptionalModListModel/getResult.adoc[`getResult`] 
+| 
+
+| xref:AtlOptionalModListModel/headerData.adoc[`headerData`] 
+| 
+
+| xref:AtlOptionalModListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:AtlOptionalModListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:AtlOptionalModListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:AtlOptionalModListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:AtlOptionalModListModel/selectRecommended.adoc[`selectRecommended`] 
+| 
+
+| xref:AtlOptionalModListModel/setData.adoc[`setData`] 
+| 
+
+| xref:AtlOptionalModListModel/shareCodeFailure.adoc[`shareCodeFailure`] 
+| 
+
+| xref:AtlOptionalModListModel/shareCodeSuccess.adoc[`shareCodeSuccess`] 
+| 
+
+| xref:AtlOptionalModListModel/useShareCode.adoc[`useShareCode`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlOptionalModListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AtlOptionalModListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

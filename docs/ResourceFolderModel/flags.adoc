@@ -1,0 +1,25 @@
+[#ResourceFolderModel-flags]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::flags
+:relfileprefix: ../
+:mrdocs:
+
+
+flags, mostly to support drag&amp;drop
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L150[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/ItemFlags.adoc[ItemFlags]
+flags(xref:QModelIndex.adoc[QModelIndex] const& index) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

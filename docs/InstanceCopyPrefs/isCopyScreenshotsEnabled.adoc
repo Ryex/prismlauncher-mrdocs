@@ -1,0 +1,20 @@
+[#InstanceCopyPrefs-isCopyScreenshotsEnabled]
+= xref:InstanceCopyPrefs.adoc[InstanceCopyPrefs]::isCopyScreenshotsEnabled
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyPrefs.h#L22[InstanceCopyPrefs&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+bool
+isCopyScreenshotsEnabled() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#InstanceView-moveCursor]
+= xref:InstanceView.adoc[InstanceView]::moveCursor
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L75[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QModelIndex.adoc[QModelIndex]
+moveCursor(
+    xref:QAbstractItemView/CursorAction.adoc[CursorAction] cursorAction,
+    xref:Qt.adoc[Qt]::xref:Qt/KeyboardModifiers.adoc[KeyboardModifiers] modifiers) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

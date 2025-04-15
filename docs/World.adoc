@@ -1,0 +1,132 @@
+[#World]
+= World
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L32[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class World;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:World/2constructor.adoc[`World`]         [.small]#[constructor]#
+| 
+
+| xref:World/bytes.adoc[`bytes`] 
+| 
+
+| xref:World/canonicalFilePath.adoc[`canonicalFilePath`] 
+| 
+
+| xref:World/container.adoc[`container`] 
+| 
+
+| xref:World/destroy.adoc[`destroy`] 
+| 
+
+| xref:World/folderName.adoc[`folderName`] 
+| 
+
+| xref:World/gameType.adoc[`gameType`] 
+| 
+
+| xref:World/iconFile.adoc[`iconFile`] 
+| 
+
+| xref:World/install.adoc[`install`] 
+| 
+
+| xref:World/isMoreThanOneHardLink.adoc[`isMoreThanOneHardLink`] 
+| 
+
+| xref:World/isOnFS.adoc[`isOnFS`] 
+| 
+
+| xref:World/isSymLink.adoc[`isSymLink`] 
+| 
+
+| xref:World/isSymLinkUnder.adoc[`isSymLinkUnder`] 
+| Take a instance path, checks if the file pointed to by the resource is a symlink or under a symlink in that instance
+
+| xref:World/isValid.adoc[`isValid`] 
+| 
+
+| xref:World/lastPlayed.adoc[`lastPlayed`] 
+| 
+
+| xref:World/name.adoc[`name`] 
+| 
+
+| xref:World/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+| xref:World/rename.adoc[`rename`] 
+| 
+
+| xref:World/repath.adoc[`repath`] 
+| 
+
+| xref:World/replace.adoc[`replace`] 
+| 
+
+| xref:World/resetIcon.adoc[`resetIcon`] 
+| 
+
+| xref:World/seed.adoc[`seed`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:World/is_valid.adoc[`is&lowbar;valid`] 
+| 
+
+| xref:World/levelDatTime.adoc[`levelDatTime`] 
+| 
+
+| xref:World/m_actualName.adoc[`m&lowbar;actualName`] 
+| 
+
+| xref:World/m_containerFile.adoc[`m&lowbar;containerFile`] 
+| 
+
+| xref:World/m_containerOffsetPath.adoc[`m&lowbar;containerOffsetPath`] 
+| 
+
+| xref:World/m_folderName.adoc[`m&lowbar;folderName`] 
+| 
+
+| xref:World/m_gameType.adoc[`m&lowbar;gameType`] 
+| 
+
+| xref:World/m_iconFile.adoc[`m&lowbar;iconFile`] 
+| 
+
+| xref:World/m_lastPlayed.adoc[`m&lowbar;lastPlayed`] 
+| 
+
+| xref:World/m_randomSeed.adoc[`m&lowbar;randomSeed`] 
+| 
+
+| xref:World/m_size.adoc[`m&lowbar;size`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

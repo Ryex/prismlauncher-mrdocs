@@ -1,0 +1,21 @@
+[#NewInstanceDialog-setSuggestedIconFromFile]
+= xref:NewInstanceDialog.adoc[NewInstanceDialog]::setSuggestedIconFromFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L66[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSuggestedIconFromFile(
+    xref:QString.adoc[QString] const& path,
+    xref:QString.adoc[QString] const& name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

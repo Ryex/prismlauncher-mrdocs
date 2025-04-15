@@ -1,0 +1,18 @@
+[#ATLauncher-PackVersion-warnings]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackVersion.adoc[PackVersion]::warnings
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L179[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt; warnings;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

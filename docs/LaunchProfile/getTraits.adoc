@@ -1,0 +1,19 @@
+[#LaunchProfile-getTraits]
+= xref:LaunchProfile.adoc[LaunchProfile]::getTraits
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L76[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt; const&
+getTraits() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#IconList-SettingChanged]
+= xref:IconList.adoc[IconList]::SettingChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L103[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+SettingChanged(
+    xref:Setting.adoc[Setting] const& setting,
+    xref:QVariant.adoc[QVariant] const& value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

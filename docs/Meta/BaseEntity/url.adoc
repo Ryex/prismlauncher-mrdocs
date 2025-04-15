@@ -1,0 +1,20 @@
+[#Meta-BaseEntity-url]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntity.adoc[BaseEntity]::url
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L38[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QUrl.adoc[QUrl]
+url() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#IconList-installIcons]
+= xref:IconList.adoc[IconList]::installIcons
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L77[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+installIcons(xref:QStringList.adoc[QStringList] const& iconFiles);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

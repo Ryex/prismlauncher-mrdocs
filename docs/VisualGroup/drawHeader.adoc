@@ -1,0 +1,25 @@
+[#VisualGroup-drawHeader]
+= xref:VisualGroup.adoc[VisualGroup]::drawHeader
+:relfileprefix: ../
+:mrdocs:
+
+
+draw the header at y&hyphen;position&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L73[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+drawHeader(
+    xref:QPainter.adoc[QPainter]* painter,
+    xref:QStyleOptionViewItem.adoc[QStyleOptionViewItem] const& option) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

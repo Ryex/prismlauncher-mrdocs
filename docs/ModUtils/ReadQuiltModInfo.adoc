@@ -1,0 +1,19 @@
+[#ModUtils-ReadQuiltModInfo]
+= xref:ModUtils.adoc[ModUtils]::ReadQuiltModInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L14[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModDetails.adoc[ModDetails]
+ReadQuiltModInfo(xref:QByteArray.adoc[QByteArray] contents);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

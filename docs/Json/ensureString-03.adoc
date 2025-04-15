@@ -1,0 +1,23 @@
+[#Json-ensureString-03]
+= xref:Json.adoc[Json]::ensureString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L268[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+ensureString(
+    xref:QJsonObject.adoc[QJsonObject] const& parent,
+    xref:QString.adoc[QString] const& key,
+    xref:QString.adoc[QString] const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

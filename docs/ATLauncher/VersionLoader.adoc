@@ -1,0 +1,42 @@
+[#ATLauncher-VersionLoader]
+= xref:ATLauncher.adoc[ATLauncher]::VersionLoader
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L72[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VersionLoader;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/VersionLoader/choose.adoc[`choose`] 
+| 
+
+| xref:ATLauncher/VersionLoader/latest.adoc[`latest`] 
+| 
+
+| xref:ATLauncher/VersionLoader/recommended.adoc[`recommended`] 
+| 
+
+| xref:ATLauncher/VersionLoader/type.adoc[`type`] 
+| 
+
+| xref:ATLauncher/VersionLoader/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

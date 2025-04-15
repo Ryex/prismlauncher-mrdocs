@@ -1,0 +1,99 @@
+[#WideBar]
+= WideBar
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L10[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class WideBar
+    : public xref:QToolBar.adoc[QToolBar];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WideBar/2constructor.adoc[`WideBar`]         [.small]#[constructor]#
+| 
+| xref:WideBar/addAction.adoc[`addAction`] 
+| 
+
+| xref:WideBar/addContextMenuAction.adoc[`addContextMenuAction`] 
+| 
+
+| xref:WideBar/addSeparator.adoc[`addSeparator`] 
+| 
+
+| xref:WideBar/createContextMenu.adoc[`createContextMenu`] 
+| 
+
+| xref:WideBar/getVisibilityState.adoc[`getVisibilityState`] 
+| 
+
+| xref:WideBar/insertActionAfter.adoc[`insertActionAfter`] 
+| 
+
+| xref:WideBar/insertActionBefore.adoc[`insertActionBefore`] 
+| 
+
+| xref:WideBar/insertSeparator.adoc[`insertSeparator`] 
+| 
+
+| xref:WideBar/insertSpacer.adoc[`insertSpacer`] 
+| 
+
+| xref:WideBar/insertWidgetBefore.adoc[`insertWidgetBefore`] 
+| 
+
+| xref:WideBar/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:WideBar/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:WideBar/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:WideBar/removeAction.adoc[`removeAction`] 
+| 
+
+| xref:WideBar/setVisibilityState.adoc[`setVisibilityState`] 
+| 
+
+| xref:WideBar/showVisibilityMenu.adoc[`showVisibilityMenu`] 
+| 
+
+| xref:WideBar/2destructor.adoc[`&tilde;WideBar`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WideBar/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WideBar/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

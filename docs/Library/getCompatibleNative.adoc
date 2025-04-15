@@ -1,0 +1,45 @@
+[#Library-getCompatibleNative]
+= xref:Library.adoc[Library]::getCompatibleNative
+:relfileprefix: ../
+:mrdocs:
+
+
+Get the compatible native classifier for the current runtime context&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L152[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getCompatibleNative(xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext) const;
+----
+
+== Description
+
+This function attempts to match the current runtime context with the appropriate
+native classifier&period;
+
+
+
+== Return Value
+
+QString The compatible native classifier, or an empty string if none is found&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *runtimeContext*
+| The current runtime context&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

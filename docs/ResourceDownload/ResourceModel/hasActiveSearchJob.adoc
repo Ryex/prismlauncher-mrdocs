@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourceModel-hasActiveSearchJob]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::hasActiveSearchJob
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L53[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+hasActiveSearchJob() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#IconList-icon]
+= xref:IconList.adoc[IconList]::icon
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the icon with the given key or nullptr if it doesn&apos;t exist&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L80[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MMCIcon.adoc[MMCIcon] const*
+icon(xref:QString.adoc[QString] const& key) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

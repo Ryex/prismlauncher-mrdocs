@@ -1,0 +1,43 @@
+[#EnsureMetadataTask-2constructor]
+= xref:EnsureMetadataTask.adoc[EnsureMetadataTask]::EnsureMetadataTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.h#L18[modplatform&sol;EnsureMetadataTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:EnsureMetadataTask/2constructor-0d.adoc[EnsureMetadataTask](
+    xref:Resource.adoc[Resource]*,
+    xref:QDir.adoc[QDir],
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] = ModPlatform&colon;&colon;ResourceProvider&colon;&colon;MODRINTH);
+----
+
+[.small]#xref:EnsureMetadataTask/2constructor-0d.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:EnsureMetadataTask/2constructor-0a.adoc[EnsureMetadataTask](
+    xref:QList.adoc[QList]&lt;xref:Resource.adoc[Resource]*&gt;&,
+    xref:QDir.adoc[QDir],
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] = ModPlatform&colon;&colon;ResourceProvider&colon;&colon;MODRINTH);
+----
+
+[.small]#xref:EnsureMetadataTask/2constructor-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:EnsureMetadataTask/2constructor-06.adoc[EnsureMetadataTask](
+    xref:QHash.adoc[QHash]&lt;xref:QString.adoc[QString], xref:Resource.adoc[Resource]*&gt;&,
+    xref:QDir.adoc[QDir],
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] = ModPlatform&colon;&colon;ResourceProvider&colon;&colon;MODRINTH);
+----
+
+[.small]#xref:EnsureMetadataTask/2constructor-06.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

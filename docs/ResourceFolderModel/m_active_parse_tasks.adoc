@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_active_parse_tasks]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;active&lowbar;parse&lowbar;tasks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L265[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;int, xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]&gt; m&lowbar;active&lowbar;parse&lowbar;tasks;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

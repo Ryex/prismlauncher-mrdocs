@@ -1,0 +1,151 @@
+[#ResourceDownload-ResourcePackDownloadDialog]
+= xref:ResourceDownload.adoc[ResourceDownload]::ResourcePackDownloadDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L116[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ResourcePackDownloadDialog
+    : public xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog]
+    , public xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceDownloadDialog/DownloadTaskPtr.adoc[`DownloadTaskPtr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourcePackDownloadDialog/2constructor.adoc[`ResourcePackDownloadDialog`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/accept.adoc[`accept`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/addResource.adoc[`addResource`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/connectButtons.adoc[`connectButtons`] 
+| 
+
+| xref:BasePageProvider/dialogTitle.adoc[`dialogTitle`] 
+| 
+| xref:ResourceDownload/ResourcePackDownloadDialog/geometrySaveKey.adoc[`geometrySaveKey`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/getBaseModel.adoc[`getBaseModel`] 
+| 
+
+| xref:BasePageProvider/getPages.adoc[`getPages`] 
+| 
+| xref:ResourceDownload/ResourceDownloadDialog/getTasks.adoc[`getTasks`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/initializeContainer.adoc[`initializeContainer`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/metaObject.adoc[`metaObject`] 
+| 
+| xref:ResourceDownload/ResourceDownloadDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ResourceDownload/ResourceDownloadDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:ResourceDownload/ResourceDownloadDialog/reject.adoc[`reject`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/removeResource.adoc[`removeResource`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/resourcesString.adoc[`resourcesString`] 
+| 
+| xref:ResourceDownload/ResourceDownloadDialog/selectPage.adoc[`selectPage`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/selectedPage.adoc[`selectedPage`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/setResourceMetadata.adoc[`setResourceMetadata`] 
+| 
+
+| xref:ResourceDownload/ResourcePackDownloadDialog/2destructor.adoc[`&tilde;ResourcePackDownloadDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceDownloadDialog/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceDownloadDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ResourceDownload/ResourcePackDownloadDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceDownloadDialog/confirm.adoc[`confirm`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/geometrySaveKey.adoc[`geometrySaveKey`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/getModDependenciesTask.adoc[`getModDependenciesTask`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/selectedPageChanged.adoc[`selectedPageChanged`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/setButtonStatus.adoc[`setButtonStatus`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceDownloadDialog/m_base_model.adoc[`m&lowbar;base&lowbar;model`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/m_buttons.adoc[`m&lowbar;buttons`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/m_container.adoc[`m&lowbar;container`] 
+| 
+
+| xref:ResourceDownload/ResourceDownloadDialog/m_vertical_layout.adoc[`m&lowbar;vertical&lowbar;layout`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

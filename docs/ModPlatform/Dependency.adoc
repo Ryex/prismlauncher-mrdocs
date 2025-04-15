@@ -1,0 +1,36 @@
+[#ModPlatform-Dependency]
+= xref:ModPlatform.adoc[ModPlatform]::Dependency
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L88[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Dependency;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/Dependency/addonId.adoc[`addonId`] 
+| 
+
+| xref:ModPlatform/Dependency/type.adoc[`type`] 
+| 
+
+| xref:ModPlatform/Dependency/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

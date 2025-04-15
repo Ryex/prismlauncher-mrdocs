@@ -1,0 +1,70 @@
+[#McResolver]
+= McResolver
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/McResolver.h#L8[ui&sol;pages&sol;instance&sol;McResolver&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class McResolver
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:McResolver/2constructor.adoc[`McResolver`]         [.small]#[constructor]#
+| 
+
+| xref:McResolver/failed.adoc[`failed`] 
+| 
+
+| xref:McResolver/finished.adoc[`finished`] 
+| 
+
+| xref:McResolver/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:McResolver/ping.adoc[`ping`] 
+| 
+
+| xref:McResolver/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:McResolver/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:McResolver/succeeded.adoc[`succeeded`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:McResolver/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:McResolver/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

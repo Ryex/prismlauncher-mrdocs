@@ -1,0 +1,19 @@
+[#Meta-Require-deepEquals]
+= xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require]::deepEquals
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L37[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+deepEquals(xref:Meta/Require.adoc[Require] const& rhs) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

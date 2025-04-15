@@ -1,0 +1,20 @@
+[#NullInstance-createLaunchEnvironment]
+= xref:NullInstance.adoc[NullInstance]::createLaunchEnvironment
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/NullInstance.h#L58[NullInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QProcessEnvironment.adoc[QProcessEnvironment]
+createLaunchEnvironment() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

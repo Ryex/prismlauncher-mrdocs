@@ -1,0 +1,19 @@
+[#LogModel-setLineWrap]
+= xref:LogModel.adoc[LogModel]::setLineWrap
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L28[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setLineWrap(bool state);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

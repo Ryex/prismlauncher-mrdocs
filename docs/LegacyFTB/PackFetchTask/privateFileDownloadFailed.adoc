@@ -1,0 +1,21 @@
+[#LegacyFTB-PackFetchTask-privateFileDownloadFailed]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackFetchTask.adoc[PackFetchTask]::privateFileDownloadFailed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackFetchTask.h#L44[modplatform&sol;legacy&lowbar;ftb&sol;PackFetchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+privateFileDownloadFailed(
+    xref:QString.adoc[QString] reason,
+    xref:QString.adoc[QString] packCode);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

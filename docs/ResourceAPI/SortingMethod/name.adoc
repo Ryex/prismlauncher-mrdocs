@@ -1,0 +1,18 @@
+[#ResourceAPI-SortingMethod-name]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SortingMethod.adoc[SortingMethod]::name
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L64[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

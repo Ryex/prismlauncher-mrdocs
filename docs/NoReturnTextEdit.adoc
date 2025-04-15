@@ -1,0 +1,64 @@
+[#NoReturnTextEdit]
+= NoReturnTextEdit
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.cpp#L341[ui&sol;instanceview&sol;InstanceDelegate&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NoReturnTextEdit
+    : public xref:QTextEdit.adoc[QTextEdit];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NoReturnTextEdit/2constructor.adoc[`NoReturnTextEdit`]         [.small]#[constructor]#
+| 
+
+| xref:NoReturnTextEdit/editingDone.adoc[`editingDone`] 
+| 
+
+| xref:NoReturnTextEdit/event.adoc[`event`] 
+| 
+
+| xref:NoReturnTextEdit/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:NoReturnTextEdit/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:NoReturnTextEdit/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NoReturnTextEdit/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:NoReturnTextEdit/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

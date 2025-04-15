@@ -1,0 +1,20 @@
+[#ExportToModListDialog-metaObject]
+= xref:ExportToModListDialog.adoc[ExportToModListDialog]::metaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportToModListDialog.h#L31[ui&sol;dialogs&sol;ExportToModListDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

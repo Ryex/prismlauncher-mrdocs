@@ -1,0 +1,19 @@
+[#LanguageSelectionWidget-2destructor]
+= xref:LanguageSelectionWidget.adoc[LanguageSelectionWidget]::&tilde;LanguageSelectionWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LanguageSelectionWidget.h#L30[ui&sol;widgets&sol;LanguageSelectionWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;LanguageSelectionWidget();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

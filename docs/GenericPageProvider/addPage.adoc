@@ -1,0 +1,20 @@
+[#GenericPageProvider-addPage]
+= xref:GenericPageProvider.adoc[GenericPageProvider]::addPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L47[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename PageClass&gt;
+void
+addPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

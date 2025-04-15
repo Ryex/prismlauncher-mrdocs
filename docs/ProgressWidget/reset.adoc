@@ -1,0 +1,23 @@
+[#ProgressWidget-reset]
+= xref:ProgressWidget.adoc[ProgressWidget]::reset
+:relfileprefix: ../
+:mrdocs:
+
+
+Reset the displayed progress to 0
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L21[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+reset();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

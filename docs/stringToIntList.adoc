@@ -1,0 +1,19 @@
+[#stringToIntList]
+= stringToIntList
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.cpp#L815[ui&sol;MainWindow&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;int&gt;
+stringToIntList(xref:QString.adoc[QString] const& string);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

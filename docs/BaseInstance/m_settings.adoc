@@ -1,0 +1,18 @@
+[#BaseInstance-m_settings]
+= xref:BaseInstance.adoc[BaseInstance]::m&lowbar;settings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L304[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SettingsObjectPtr.adoc[SettingsObjectPtr] m&lowbar;settings;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

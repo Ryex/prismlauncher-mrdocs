@@ -1,0 +1,19 @@
+[#Application-triggerUpdateCheck]
+= xref:Application.adoc[Application]::triggerUpdateCheck
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L123[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+triggerUpdateCheck();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

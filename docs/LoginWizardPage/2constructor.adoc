@@ -1,0 +1,19 @@
+[#LoginWizardPage-2constructor]
+= xref:LoginWizardPage.adoc[LoginWizardPage]::LoginWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/LoginWizardPage.h#L13[ui&sol;setupwizard&sol;LoginWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LoginWizardPage(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

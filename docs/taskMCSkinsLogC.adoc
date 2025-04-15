@@ -1,0 +1,19 @@
+[#taskMCSkinsLogC]
+= taskMCSkinsLogC
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Logging.h#L27[net&sol;Logging&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QLoggingCategory.adoc[QLoggingCategory] const&
+taskMCSkinsLogC();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

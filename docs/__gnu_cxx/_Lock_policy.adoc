@@ -1,0 +1,25 @@
+[#__gnu_cxx-_Lock_policy]
+= xref:__gnu_cxx.adoc[&lowbar;&lowbar;gnu&lowbar;cxx]::&lowbar;Lock&lowbar;policy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/ext/concurrence.h#L49[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;ext&sol;concurrence&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum &lowbar;Lock&lowbar;policy;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

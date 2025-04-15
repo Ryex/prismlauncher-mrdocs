@@ -1,0 +1,19 @@
+[#InstanceCreationTask-getError]
+= xref:InstanceCreationTask.adoc[InstanceCreationTask]::getError
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCreationTask.h#L34[InstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getError() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

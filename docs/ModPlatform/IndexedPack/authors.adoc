@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedPack-authors]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::authors
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L137[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform/ModpackAuthor.adoc[ModpackAuthor]&gt; authors;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

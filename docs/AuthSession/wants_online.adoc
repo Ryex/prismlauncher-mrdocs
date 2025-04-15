@@ -1,0 +1,18 @@
+[#AuthSession-wants_online]
+= xref:AuthSession.adoc[AuthSession]::wants&lowbar;online
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L37[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool wants&lowbar;online = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

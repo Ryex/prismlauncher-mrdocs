@@ -1,0 +1,28 @@
+[#Version-2constructor]
+= xref:Version.adoc[Version]::Version
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L48[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Version/2constructor-01.adoc[Version](xref:QString.adoc[QString] str);
+----
+
+[.small]#xref:Version/2constructor-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+xref:Version/2constructor-0f.adoc[Version]() = default;
+----
+
+[.small]#xref:Version/2constructor-0f.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ShaderPackPage-downloadShaderPack]
+= xref:ShaderPackPage.adoc[ShaderPackPage]::downloadShaderPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ShaderPackPage.h#L56[ui&sol;pages&sol;instance&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+downloadShaderPack();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

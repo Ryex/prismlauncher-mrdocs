@@ -1,0 +1,25 @@
+[#PageContainer-selectedPageChanged]
+= xref:PageContainer.adoc[PageContainer]::selectedPageChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Emitted when the currently selected page is changed
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L101[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+selectedPageChanged(
+    xref:BasePage.adoc[BasePage]* previous,
+    xref:BasePage.adoc[BasePage]* selected);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

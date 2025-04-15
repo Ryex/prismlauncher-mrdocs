@@ -1,0 +1,18 @@
+[#File-path]
+= xref:File.adoc[File]::path
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.cpp#L27[java&sol;download&sol;ManifestDownloadTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] path;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

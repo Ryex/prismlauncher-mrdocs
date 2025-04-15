@@ -1,0 +1,19 @@
+[#PrismExternalUpdater-checkForUpdates-0d]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::checkForUpdates
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L44[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+checkForUpdates(bool triggeredByUser);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

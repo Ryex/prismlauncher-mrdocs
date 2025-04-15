@@ -1,0 +1,20 @@
+[#ResourceDownload-TexturePackDownloadDialog-getPages]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/TexturePackDownloadDialog.adoc[TexturePackDownloadDialog]::getPages
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L148[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QList.adoc[QList]&lt;xref:BasePage.adoc[BasePage]*&gt;
+getPages() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

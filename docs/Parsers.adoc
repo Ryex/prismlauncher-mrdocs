@@ -1,0 +1,58 @@
+[#Parsers]
+= Parsers
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Parsers/00namespace.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Parsers/getBool.adoc[`getBool`] 
+| 
+
+| xref:Parsers/getDateTime.adoc[`getDateTime`] 
+| 
+
+| xref:Parsers/getNumber.adoc[`getNumber`] 
+| 
+| xref:Parsers/getString.adoc[`getString`] 
+| 
+
+| xref:Parsers/parseMinecraftEntitlements.adoc[`parseMinecraftEntitlements`] 
+| 
+
+| xref:Parsers/parseMinecraftProfile.adoc[`parseMinecraftProfile`] 
+| 
+
+| xref:Parsers/parseMinecraftProfileMojang.adoc[`parseMinecraftProfileMojang`] 
+| Uses session server for skin&sol;cape lookup instead of profile,
+because locked Mojang accounts cannot access profile endpoint
+(https&colon;&sol;&sol;api&period;minecraftservices&period;com&sol;minecraft&sol;profile&sol;)
+
+
+
+| xref:Parsers/parseMojangResponse.adoc[`parseMojangResponse`] 
+| 
+
+| xref:Parsers/parseRolloutResponse.adoc[`parseRolloutResponse`] 
+| 
+
+| xref:Parsers/parseXTokenResponse.adoc[`parseXTokenResponse`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

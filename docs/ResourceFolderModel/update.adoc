@@ -1,0 +1,24 @@
+[#ResourceFolderModel-update]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::update
+:relfileprefix: ../
+:mrdocs:
+
+
+Creates a new update task and start it&period; Returns false if no update was done, like when an update is already underway&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L113[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+update();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,31 @@
+[#Meta-Index-2constructor]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::Index
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L31[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+xref:Meta/Index/2constructor-03.adoc[Index](xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+[.small]#xref:Meta/Index/2constructor-03.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+xref:Meta/Index/2constructor-0d.adoc[Index](
+    xref:QVector.adoc[QVector]&lt;xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr]&gt; const& lists,
+    xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+[.small]#xref:Meta/Index/2constructor-0d.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

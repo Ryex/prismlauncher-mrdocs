@@ -1,0 +1,81 @@
+[#Meta-BaseEntity]
+= xref:Meta.adoc[Meta]::BaseEntity
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L27[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseEntity;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/LoadStatus.adoc[`LoadStatus`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/isLoaded.adoc[`isLoaded`] 
+| 
+
+| xref:Meta/BaseEntity/loadTask.adoc[`loadTask`] 
+| 
+
+| xref:Meta/BaseEntity/localFilename.adoc[`localFilename`] 
+| 
+
+| xref:Meta/BaseEntity/parse.adoc[`parse`] 
+| 
+
+| xref:Meta/BaseEntity/setSha256.adoc[`setSha256`] 
+| 
+
+| xref:Meta/BaseEntity/status.adoc[`status`] 
+| 
+
+| xref:Meta/BaseEntity/url.adoc[`url`] 
+| 
+
+| xref:Meta/BaseEntity/2destructor.adoc[`&tilde;BaseEntity`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/m_file_sha256.adoc[`m&lowbar;file&lowbar;sha256`] 
+| 
+
+| xref:Meta/BaseEntity/m_sha256.adoc[`m&lowbar;sha256`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

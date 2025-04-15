@@ -1,0 +1,95 @@
+[#Flame-ListModel]
+= xref:Flame.adoc[Flame]::ListModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameModel.h#L26[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/ListModel/2constructor.adoc[`ListModel`]         [.small]#[constructor]#
+| 
+
+| xref:Flame/ListModel/activeSearchJob.adoc[`activeSearchJob`] 
+| 
+
+| xref:Flame/ListModel/canFetchMore.adoc[`canFetchMore`] 
+| 
+
+| xref:Flame/ListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:Flame/ListModel/data.adoc[`data`] 
+| 
+
+| xref:Flame/ListModel/fetchMore.adoc[`fetchMore`] 
+| 
+
+| xref:Flame/ListModel/flags.adoc[`flags`] 
+| 
+
+| xref:Flame/ListModel/getLogo.adoc[`getLogo`] 
+| 
+
+| xref:Flame/ListModel/hasActiveSearchJob.adoc[`hasActiveSearchJob`] 
+| 
+
+| xref:Flame/ListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Flame/ListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Flame/ListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Flame/ListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:Flame/ListModel/searchWithTerm.adoc[`searchWithTerm`] 
+| 
+
+| xref:Flame/ListModel/setData.adoc[`setData`] 
+| 
+
+| xref:Flame/ListModel/2destructor.adoc[`&tilde;ListModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/ListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/ListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

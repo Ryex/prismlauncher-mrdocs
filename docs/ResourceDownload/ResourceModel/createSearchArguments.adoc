@@ -1,0 +1,20 @@
+[#ResourceDownload-ResourceModel-createSearchArguments]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::createSearchArguments
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L80[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SearchArgs.adoc[SearchArgs]
+createSearchArguments() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

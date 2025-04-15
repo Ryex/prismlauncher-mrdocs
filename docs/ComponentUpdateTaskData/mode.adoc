@@ -1,0 +1,18 @@
+[#ComponentUpdateTaskData-mode]
+= xref:ComponentUpdateTaskData.adoc[ComponentUpdateTaskData]::mode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L27[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ComponentUpdateTask.adoc[ComponentUpdateTask]::xref:ComponentUpdateTask/Mode.adoc[Mode] mode;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,29 @@
+[#ATLauncher-PackType]
+= xref:ATLauncher.adoc[ATLauncher]::PackType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L45[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum PackType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Public`
+|
+|`Private`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

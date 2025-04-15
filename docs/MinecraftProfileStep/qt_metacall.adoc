@@ -1,0 +1,23 @@
+[#MinecraftProfileStep-qt_metacall]
+= xref:MinecraftProfileStep.adoc[MinecraftProfileStep]::qt&lowbar;metacall
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MinecraftProfileStep.h#L10[minecraft&sol;auth&sol;steps&sol;MinecraftProfileStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+qt&lowbar;metacall(
+    xref:QMetaObject.adoc[QMetaObject]::xref:QMetaObject/Call.adoc[Call],
+    int,
+    void**);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

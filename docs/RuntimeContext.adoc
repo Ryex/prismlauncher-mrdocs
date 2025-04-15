@@ -1,0 +1,57 @@
+[#RuntimeContext]
+= RuntimeContext
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RuntimeContext.h#L26[RuntimeContext&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct RuntimeContext;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RuntimeContext/classifierMatches.adoc[`classifierMatches`] 
+| 
+
+| xref:RuntimeContext/getClassifier.adoc[`getClassifier`] 
+| 
+
+| xref:RuntimeContext/isLegacyArch.adoc[`isLegacyArch`] 
+| 
+
+| xref:RuntimeContext/mappedJavaRealArchitecture.adoc[`mappedJavaRealArchitecture`] 
+| 
+
+| xref:RuntimeContext/updateFromInstanceSettings.adoc[`updateFromInstanceSettings`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RuntimeContext/javaArchitecture.adoc[`javaArchitecture`] 
+| 
+
+| xref:RuntimeContext/javaRealArchitecture.adoc[`javaRealArchitecture`] 
+| 
+
+| xref:RuntimeContext/system.adoc[`system`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

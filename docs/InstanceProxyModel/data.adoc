@@ -1,0 +1,22 @@
+[#InstanceProxyModel-data]
+= xref:InstanceProxyModel.adoc[InstanceProxyModel]::data
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceProxyModel.h#L28[ui&sol;instanceview&sol;InstanceProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

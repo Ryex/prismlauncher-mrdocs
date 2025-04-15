@@ -1,0 +1,21 @@
+[#NullInstance-2constructor]
+= xref:NullInstance.adoc[NullInstance]::NullInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/NullInstance.h#L44[NullInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+NullInstance(
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] globalSettings,
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings,
+    xref:QString.adoc[QString] const& rootDir);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

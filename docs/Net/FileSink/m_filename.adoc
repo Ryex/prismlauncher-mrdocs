@@ -1,0 +1,18 @@
+[#Net-FileSink-m_filename]
+= xref:Net.adoc[Net]::xref:Net/FileSink.adoc[FileSink]::m&lowbar;filename
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/FileSink.h#L60[net&sol;FileSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;filename;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

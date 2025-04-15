@@ -1,0 +1,20 @@
+[#Net-ByteArraySink-init]
+= xref:Net.adoc[Net]::xref:Net/ByteArraySink.adoc[ByteArraySink]::init
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ByteArraySink.h#L53[net&sol;ByteArraySink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/State.adoc[State]
+init(xref:QNetworkRequest.adoc[QNetworkRequest]& request) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

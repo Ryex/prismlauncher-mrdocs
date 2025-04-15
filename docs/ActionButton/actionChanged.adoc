@@ -1,0 +1,19 @@
+[#ActionButton-actionChanged]
+= xref:ActionButton.adoc[ActionButton]::actionChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.cpp#L28[ui&sol;widgets&sol;WideBar&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+actionChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Meta-BaseEntity-status]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntity.adoc[BaseEntity]::status
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L40[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta/BaseEntity/LoadStatus.adoc[LoadStatus]
+status() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

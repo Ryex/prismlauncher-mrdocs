@@ -1,0 +1,21 @@
+[#ServersModel-setAddress]
+= xref:ServersModel.adoc[ServersModel]::setAddress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L388[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setAddress(
+    int row,
+    xref:QString.adoc[QString] const& address);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

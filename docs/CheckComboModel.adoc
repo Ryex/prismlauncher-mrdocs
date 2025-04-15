@@ -1,0 +1,73 @@
+[#CheckComboModel]
+= CheckComboModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CheckComboBox.cpp#L32[ui&sol;widgets&sol;CheckComboBox&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CheckComboModel
+    : public xref:QIdentityProxyModel.adoc[QIdentityProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboModel/2constructor.adoc[`CheckComboModel`]         [.small]#[constructor]#
+| 
+
+| xref:CheckComboModel/checkStateChanged.adoc[`checkStateChanged`] 
+| 
+
+| xref:CheckComboModel/data.adoc[`data`] 
+| 
+
+| xref:CheckComboModel/flags.adoc[`flags`] 
+| 
+
+| xref:CheckComboModel/getChecked.adoc[`getChecked`] 
+| 
+
+| xref:CheckComboModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:CheckComboModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:CheckComboModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:CheckComboModel/setData.adoc[`setData`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckComboModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

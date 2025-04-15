@@ -1,0 +1,18 @@
+[#IconProxy-2constructor]
+= xref:IconProxy.adoc[IconProxy]::IconProxy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/VersionPage.cpp#L80[ui&sol;pages&sol;instance&sol;VersionPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+IconProxy(xref:QWidget.adoc[QWidget]* parentWidget);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

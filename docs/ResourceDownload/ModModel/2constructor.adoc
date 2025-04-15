@@ -1,0 +1,20 @@
+[#ResourceDownload-ModModel-2constructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]::ModModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.h#L27[ui&sol;pages&sol;modplatform&sol;ModModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModModel(
+    xref:BaseInstance.adoc[BaseInstance]&,
+    xref:ResourceAPI.adoc[ResourceAPI]* api);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

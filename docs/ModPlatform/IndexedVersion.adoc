@@ -1,0 +1,78 @@
+[#ModPlatform-IndexedVersion]
+= xref:ModPlatform.adoc[ModPlatform]::IndexedVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L94[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct IndexedVersion;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/IndexedVersion/addonId.adoc[`addonId`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/changelog.adoc[`changelog`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/date.adoc[`date`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/dependencies.adoc[`dependencies`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/downloadUrl.adoc[`downloadUrl`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/fileId.adoc[`fileId`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/fileName.adoc[`fileName`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/hash.adoc[`hash`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/hash_type.adoc[`hash&lowbar;type`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/is_currently_selected.adoc[`is&lowbar;currently&lowbar;selected`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/is_preferred.adoc[`is&lowbar;preferred`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/loaders.adoc[`loaders`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/mcVersion.adoc[`mcVersion`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/side.adoc[`side`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/version.adoc[`version`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/version_number.adoc[`version&lowbar;number`] 
+| 
+
+| xref:ModPlatform/IndexedVersion/version_type.adoc[`version&lowbar;type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

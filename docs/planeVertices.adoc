@@ -1,0 +1,24 @@
+[#planeVertices]
+= planeVertices
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L88[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QVector.adoc[QVector]&lt;xref:VertexData.adoc[VertexData]&gt; const planeVertices = &lcub;
+    &lcub; QVector4D(&hyphen;1&period;0f, &hyphen;1&period;0f, &hyphen;0&period;5f, 1&period;0f), QVector2D(0&period;0f, 0&period;0f) &rcub;,  &sol;&sol; Bottom&hyphen;left
+    &lcub; QVector4D(1&period;0f, &hyphen;1&period;0f, &hyphen;0&period;5f, 1&period;0f), QVector2D(1&period;0f, 0&period;0f) &rcub;,   &sol;&sol; Bottom&hyphen;right
+    &lcub; QVector4D(&hyphen;1&period;0f, 1&period;0f, &hyphen;0&period;5f, 1&period;0f), QVector2D(0&period;0f, 1&period;0f) &rcub;,   &sol;&sol; Top&hyphen;left
+    &lcub; QVector4D(1&period;0f, 1&period;0f, &hyphen;0&period;5f, 1&period;0f), QVector2D(1&period;0f, 1&period;0f) &rcub;,    &sol;&sol; Top&hyphen;right
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#ProgressWidget-exec]
+= xref:ProgressWidget.adoc[ProgressWidget]::exec
+:relfileprefix: ../
+:mrdocs:
+
+
+Blocking way of waiting for a task to finish&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L36[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+exec(xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Task.adoc[Task]&gt; task);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

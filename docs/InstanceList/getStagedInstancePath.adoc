@@ -1,0 +1,30 @@
+[#InstanceList-getStagedInstancePath]
+= xref:InstanceList.adoc[InstanceList]::getStagedInstancePath
+:relfileprefix: ../
+:mrdocs:
+
+
+Create a new empty staging area for instance creation and
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L125[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getStagedInstancePath();
+----
+
+== Return Value
+
+a path&sol;key top commit it later&period;
+Used by instance manipulation tasks&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

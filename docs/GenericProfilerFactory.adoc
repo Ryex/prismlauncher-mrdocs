@@ -1,0 +1,48 @@
+[#GenericProfilerFactory]
+= GenericProfilerFactory
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/GenericProfiler.h#L22[tools&sol;GenericProfiler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class GenericProfilerFactory
+    : public xref:BaseProfilerFactory.adoc[BaseProfilerFactory];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalToolFactory/check.adoc[`check`] 
+| 
+| xref:BaseProfilerFactory/createProfiler.adoc[`createProfiler`] 
+| 
+
+| xref:BaseExternalToolFactory/createTool.adoc[`createTool`] 
+| 
+| xref:BaseExternalToolFactory/name.adoc[`name`] 
+| 
+| xref:BaseExternalToolFactory/registerSettings.adoc[`registerSettings`] 
+| 
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalToolFactory/globalSettings.adoc[`globalSettings`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

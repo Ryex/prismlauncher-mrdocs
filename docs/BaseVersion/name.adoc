@@ -1,0 +1,25 @@
+[#BaseVersion-name]
+= xref:BaseVersion.adoc[BaseVersion]::name
+:relfileprefix: ../
+:mrdocs:
+
+
+The name of this version as it is displayed to the user&period;
+For example&colon; &quot;1&period;5&period;1&quot;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersion.h#L39[BaseVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+name() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#MinecraftAccount-login]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::login
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L98[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:AuthFlow.adoc[AuthFlow]&gt;
+login(bool useDeviceCode = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

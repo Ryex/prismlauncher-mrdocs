@@ -1,0 +1,20 @@
+[#ConcurrentTask-isMultiStep]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::isMultiStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L63[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+isMultiStep() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

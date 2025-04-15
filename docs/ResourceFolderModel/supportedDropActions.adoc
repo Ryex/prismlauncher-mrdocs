@@ -1,0 +1,21 @@
+[#ResourceFolderModel-supportedDropActions]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::supportedDropActions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L147[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/DropActions.adoc[DropActions]
+supportedDropActions() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#VisualGroup-positionOf]
+= xref:VisualGroup.adoc[VisualGroup]::positionOf
+:relfileprefix: ../
+:mrdocs:
+
+
+x&sol;y position of the given item inside the group (in items!)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L100[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QPair.adoc[QPair]&lt;int, int&gt;
+positionOf(xref:QModelIndex.adoc[QModelIndex] const& index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

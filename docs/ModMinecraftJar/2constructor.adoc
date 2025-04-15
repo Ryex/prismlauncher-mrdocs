@@ -1,0 +1,19 @@
+[#ModMinecraftJar-2constructor]
+= xref:ModMinecraftJar.adoc[ModMinecraftJar]::ModMinecraftJar
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/ModMinecraftJar.h#L24[minecraft&sol;launch&sol;ModMinecraftJar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ModMinecraftJar(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

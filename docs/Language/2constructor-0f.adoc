@@ -1,0 +1,18 @@
+[#Language-2constructor-0f]
+= xref:Language.adoc[Language]::Language
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L63[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Language(xref:QString.adoc[QString] const& &lowbar;key);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

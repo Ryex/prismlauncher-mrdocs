@@ -1,0 +1,22 @@
+[#composeRequirement]
+= composeRequirement
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L228[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:00namespace/RequireCompositionResult.adoc[RequireCompositionResult]
+composeRequirement(
+    xref:00namespace/RequireEx.adoc[RequireEx] const& a,
+    xref:00namespace/RequireEx.adoc[RequireEx] const& b);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,26 @@
+[#Resource-applyFilter]
+= xref:Resource.adoc[Resource]::applyFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns whether the given filter should filter out &apos;this&apos; (false),
+or if such filter includes the Resource (true)&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L118[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+virtual
+bool
+applyFilter(xref:QRegularExpression.adoc[QRegularExpression] filter) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

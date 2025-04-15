@@ -1,0 +1,18 @@
+[#POEntry-fuzzy]
+= xref:POEntry.adoc[POEntry]::fuzzy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L8[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool fuzzy;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

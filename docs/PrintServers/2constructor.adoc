@@ -1,0 +1,20 @@
+[#PrintServers-2constructor]
+= xref:PrintServers.adoc[PrintServers]::PrintServers
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PrintServers.h#L28[launch&sol;steps&sol;PrintServers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+PrintServers(
+    xref:LaunchTask.adoc[LaunchTask]* parent,
+    xref:QStringList.adoc[QStringList] const& servers);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

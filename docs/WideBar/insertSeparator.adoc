@@ -1,0 +1,19 @@
+[#WideBar-insertSeparator]
+= xref:WideBar.adoc[WideBar]::insertSeparator
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L25[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+insertSeparator(xref:QAction.adoc[QAction]* before);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

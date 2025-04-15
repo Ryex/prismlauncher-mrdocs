@@ -1,0 +1,27 @@
+[#ProfileSelectDialog-2constructor]
+= xref:ProfileSelectDialog.adoc[ProfileSelectDialog]::ProfileSelectDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+Constructs a new account select dialog with the given parent and message&period;
+The message will be shown at the top of the dialog&period; It is an empty string by default&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L52[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ProfileSelectDialog(
+    xref:QString.adoc[QString] const& message = &quot;&quot;,
+    int flags = 0,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

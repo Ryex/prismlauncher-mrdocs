@@ -1,0 +1,19 @@
+[#ATLauncher-UserInteractionSupport-2destructor]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/UserInteractionSupport.adoc[UserInteractionSupport]::&tilde;UserInteractionSupport
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L78[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;UserInteractionSupport() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

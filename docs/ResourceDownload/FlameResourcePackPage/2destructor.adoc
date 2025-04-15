@@ -1,0 +1,19 @@
+[#ResourceDownload-FlameResourcePackPage-2destructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameResourcePackPage.adoc[FlameResourcePackPage]::&tilde;FlameResourcePackPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L118[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;FlameResourcePackPage() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ReconstructAssets-2constructor]
+= xref:ReconstructAssets.adoc[ReconstructAssets]::ReconstructAssets
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/ReconstructAssets.h#L24[minecraft&sol;launch&sol;ReconstructAssets&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ReconstructAssets(xref:LaunchTask.adoc[LaunchTask]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

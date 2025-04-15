@@ -1,0 +1,18 @@
+[#UseLock-2constructor]
+= xref:UseLock.adoc[UseLock]::UseLock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Usable.h#L39[Usable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+UseLock(xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:Usable.adoc[Usable]&gt; usable);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

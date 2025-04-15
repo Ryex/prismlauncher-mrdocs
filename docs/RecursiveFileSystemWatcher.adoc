@@ -1,0 +1,88 @@
+[#RecursiveFileSystemWatcher]
+= RecursiveFileSystemWatcher
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RecursiveFileSystemWatcher.h#L7[RecursiveFileSystemWatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class RecursiveFileSystemWatcher
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RecursiveFileSystemWatcher/2constructor.adoc[`RecursiveFileSystemWatcher`]         [.small]#[constructor]#
+| 
+
+| xref:RecursiveFileSystemWatcher/disable.adoc[`disable`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/enable.adoc[`enable`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/fileChanged.adoc[`fileChanged`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/files.adoc[`files`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/filesChanged.adoc[`filesChanged`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/rootDir.adoc[`rootDir`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/setMatcher.adoc[`setMatcher`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/setRootDir.adoc[`setRootDir`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/setWatchFiles.adoc[`setWatchFiles`] 
+| 
+
+| xref:RecursiveFileSystemWatcher/watchFiles.adoc[`watchFiles`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RecursiveFileSystemWatcher/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RecursiveFileSystemWatcher/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#CustomCommands-retranslate]
+= xref:CustomCommands.adoc[CustomCommands]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CustomCommands.h#L52[ui&sol;widgets&sol;CustomCommands&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+retranslate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

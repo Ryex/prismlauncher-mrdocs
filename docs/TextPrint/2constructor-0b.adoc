@@ -1,0 +1,22 @@
+[#TextPrint-2constructor-0b]
+= xref:TextPrint.adoc[TextPrint]::TextPrint
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/TextPrint.h#L29[launch&sol;steps&sol;TextPrint&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+TextPrint(
+    xref:LaunchTask.adoc[LaunchTask]* parent,
+    xref:QStringList.adoc[QStringList] const& lines,
+    xref:MessageLevel.adoc[MessageLevel]::xref:MessageLevel/Enum.adoc[Enum] level);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

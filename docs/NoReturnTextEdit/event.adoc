@@ -1,0 +1,20 @@
+[#NoReturnTextEdit-event]
+= xref:NoReturnTextEdit.adoc[NoReturnTextEdit]::event
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.cpp#L350[ui&sol;instanceview&sol;InstanceDelegate&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+event(xref:QEvent.adoc[QEvent]* event) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

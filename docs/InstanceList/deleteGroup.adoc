@@ -1,0 +1,19 @@
+[#InstanceList-deleteGroup]
+= xref:InstanceList.adoc[InstanceList]::deleteGroup
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L111[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+deleteGroup(xref:GroupId.adoc[GroupId] const& name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

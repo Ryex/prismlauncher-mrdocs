@@ -1,0 +1,19 @@
+[#SkinList-getDir]
+= xref:SkinList.adoc[SkinList]::getDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L57[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getDir() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

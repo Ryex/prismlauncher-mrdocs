@@ -1,0 +1,21 @@
+[#FTBImportAPP-ImportFTBPage-2constructor]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/ImportFTBPage.adoc[ImportFTBPage]::ImportFTBPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ImportFTBPage.h#L42[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ImportFTBPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ImportFTBPage(
+    xref:NewInstanceDialog.adoc[NewInstanceDialog]* dialog,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

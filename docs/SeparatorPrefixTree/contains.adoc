@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-contains]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::contains
+:relfileprefix: ../
+:mrdocs:
+
+
+is the path fully contained in the tree?
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L37[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+contains(xref:QString.adoc[QString] path) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

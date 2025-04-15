@@ -1,0 +1,18 @@
+[#ResourceAPI-SearchArgs-openSource]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SearchArgs.adoc[SearchArgs]::openSource
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L79[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool openSource;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

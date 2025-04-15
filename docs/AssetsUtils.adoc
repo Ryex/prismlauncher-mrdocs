@@ -1,0 +1,31 @@
+[#AssetsUtils]
+= AssetsUtils
+:relfileprefix: 
+:mrdocs:
+
+
+FIXME&colon; this is absolutely horrendous&period; REDO!!!!
+
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AssetsUtils/getAssetsDir.adoc[`getAssetsDir`] 
+| 
+
+| xref:AssetsUtils/loadAssetsIndexJson.adoc[`loadAssetsIndexJson`] 
+| 
+
+| xref:AssetsUtils/reconstructAssets.adoc[`reconstructAssets`] 
+| Reconstruct a virtual assets folder for the given assets ID and return the folder
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

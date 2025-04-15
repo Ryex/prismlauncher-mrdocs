@@ -1,0 +1,40 @@
+[#Metadata]
+= Metadata
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Metadata/ModSide.adoc[`ModSide`] 
+| 
+
+| xref:Metadata/ModStruct.adoc[`ModStruct`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Metadata/create.adoc[`create`] 
+| 
+| xref:Metadata/get.adoc[`get`] 
+| 
+| xref:Metadata/modSideToString.adoc[`modSideToString`] 
+| 
+
+| xref:Metadata/remove.adoc[`remove`] 
+| 
+| xref:Metadata/update.adoc[`update`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

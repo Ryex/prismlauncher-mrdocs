@@ -1,0 +1,19 @@
+[#ThemeManager-getValidCatPacks]
+= xref:ThemeManager.adoc[ThemeManager]::getValidCatPacks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L58[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:CatPack.adoc[CatPack]*&gt;
+getValidCatPacks();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

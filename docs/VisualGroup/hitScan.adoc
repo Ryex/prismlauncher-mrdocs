@@ -1,0 +1,23 @@
+[#VisualGroup-hitScan]
+= xref:VisualGroup.adoc[VisualGroup]::hitScan
+:relfileprefix: ../
+:mrdocs:
+
+
+shoot! BANG! what did we hit?
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L106[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:VisualGroup/HitResults.adoc[HitResults]
+hitScan(xref:QPoint.adoc[QPoint] const& pos) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

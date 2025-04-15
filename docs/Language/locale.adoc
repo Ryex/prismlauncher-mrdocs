@@ -1,0 +1,18 @@
+[#Language-locale]
+= xref:Language.adoc[Language]::locale
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L137[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QLocale.adoc[QLocale] locale;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

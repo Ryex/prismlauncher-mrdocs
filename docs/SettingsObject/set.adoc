@@ -1,0 +1,45 @@
+[#SettingsObject-set]
+= xref:SettingsObject.adoc[SettingsObject]::set
+:relfileprefix: ../
+:mrdocs:
+
+
+Sets the value of the setting with the given ID&period;
+If no setting with the given ID exists, returns false
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L121[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+set(
+    xref:QString.adoc[QString] const& id,
+    xref:QVariant.adoc[QVariant] value);
+----
+
+== Return Value
+
+True if successful, false if it failed&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *id*
+| The ID of the setting to change&period;
+
+
+| *value*
+| The new value of the setting&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,33 @@
+[#00namespace-RequireCompositionResult]
+= RequireCompositionResult
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L221[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct RequireCompositionResult;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/RequireCompositionResult/ok.adoc[`ok`] 
+| 
+
+| xref:00namespace/RequireCompositionResult/outcome.adoc[`outcome`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

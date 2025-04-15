@@ -1,0 +1,19 @@
+[#FS-create_link-operator_call]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::operator()
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L240[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator()(bool dryRun = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

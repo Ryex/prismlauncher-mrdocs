@@ -1,0 +1,21 @@
+[#InstanceList-on_GroupStateChanged]
+= xref:InstanceList.adoc[InstanceList]::on&lowbar;GroupStateChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L164[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;GroupStateChanged(
+    xref:QString.adoc[QString] const& group,
+    bool collapsed);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

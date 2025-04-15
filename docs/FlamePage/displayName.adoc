@@ -1,0 +1,20 @@
+[#FlamePage-displayName]
+= xref:FlamePage.adoc[FlamePage]::displayName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlamePage.h#L63[ui&sol;pages&sol;modplatform&sol;flame&sol;FlamePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+displayName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

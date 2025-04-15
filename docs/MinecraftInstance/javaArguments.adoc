@@ -1,0 +1,23 @@
+[#MinecraftInstance-javaArguments]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::javaArguments
+:relfileprefix: ../
+:mrdocs:
+
+
+get arguments passed to java
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L131[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+javaArguments();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

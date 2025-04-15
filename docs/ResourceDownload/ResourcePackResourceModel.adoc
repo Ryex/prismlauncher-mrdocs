@@ -1,0 +1,292 @@
+[#ResourceDownload-ResourcePackResourceModel]
+= xref:ResourceDownload.adoc[ResourceDownload]::ResourcePackResourceModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackModel.h#L19[ui&sol;pages&sol;modplatform&sol;ResourcePackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ResourcePackResourceModel
+    : public xref:ResourceDownload/ResourceModel.adoc[ResourceModel];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/DownloadTaskPtr.adoc[`DownloadTaskPtr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourcePackResourceModel/2constructor.adoc[`ResourcePackResourceModel`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceDownload/ResourceModel/activeSearchJob.adoc[`activeSearchJob`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/addPack.adoc[`addPack`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/canFetchMore.adoc[`canFetchMore`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/checkFilters.adoc[`checkFilters`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/checkVersionFilters.adoc[`checkVersionFilters`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/createInfoArguments.adoc[`createInfoArguments`] 
+| 
+| xref:ResourceDownload/ResourceModel/createInfoCallbacks.adoc[`createInfoCallbacks`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/createSearchArguments.adoc[`createSearchArguments`] 
+| &ast;&ast;&ast;&ast;&ast;&ast; Make data requests &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+| xref:ResourceDownload/ResourceModel/createSearchCallbacks.adoc[`createSearchCallbacks`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/createVersionsArguments.adoc[`createVersionsArguments`] 
+| 
+| xref:ResourceDownload/ResourceModel/createVersionsCallbacks.adoc[`createVersionsCallbacks`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/data.adoc[`data`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/debugName.adoc[`debugName`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/fetchMore.adoc[`fetchMore`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/flags.adoc[`flags`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/getIcon.adoc[`getIcon`] 
+| Gets the icon at the URL for the given index&period; If it&apos;s not fetched yet, fetch it and update when fisinhed&period;
+
+
+
+| xref:ResourceDownload/ResourceModel/getInstalledPackVersion.adoc[`getInstalledPackVersion`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/getSortingMethods.adoc[`getSortingMethods`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/hasActiveInfoJob.adoc[`hasActiveInfoJob`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/hasActiveSearchJob.adoc[`hasActiveSearchJob`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/loadEntry.adoc[`loadEntry`] 
+| Applies any processing &sol; extra requests needed to fully load the specified entry&apos;s information&period;
+
+
+
+| xref:ResourceDownload/ResourcePackResourceModel/loadExtraPackInfo.adoc[`loadExtraPackInfo`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourceModel/loadIndexedPack.adoc[`loadIndexedPack`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourceModel/loadIndexedPackVersions.adoc[`loadIndexedPackVersions`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/metaEntryBase.adoc[`metaEntryBase`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/metaObject.adoc[`metaObject`] 
+| 
+| xref:ResourceDownload/ResourceModel/optedOut.adoc[`optedOut`] 
+| Whether the version is opted out or not&period; Currently only makes sense in CF&period;
+
+
+
+| xref:ResourceDownload/ResourceModel/projectInfoUpdated.adoc[`projectInfoUpdated`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ResourceDownload/ResourceModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:ResourceDownload/ResourceModel/refresh.adoc[`refresh`] 
+| Schedule a refresh, clearing the current state&period;
+
+
+
+| xref:ResourceDownload/ResourceModel/removePack.adoc[`removePack`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/roleNames.adoc[`roleNames`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/search.adoc[`search`] 
+| Requests the API for more entries&period;
+
+
+
+| xref:ResourceDownload/ResourcePackResourceModel/searchWithTerm.adoc[`searchWithTerm`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/selectedPacks.adoc[`selectedPacks`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/setData.adoc[`setData`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/setSearchTerm.adoc[`setSearchTerm`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/versionListUpdated.adoc[`versionListUpdated`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourceModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/SearchState.adoc[`SearchState`] 
+| 
+
+|===
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/clearData.adoc[`clearData`] 
+| Resets the model&apos;s data&period;
+
+
+
+| xref:ResourceDownload/ResourceModel/documentToArray.adoc[`documentToArray`] 
+| Converts a JSON document to a common array format&period;
+
+
+
+| xref:ResourceDownload/ResourceModel/getCurrentSortingMethodByIndex.adoc[`getCurrentSortingMethodByIndex`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/isPackInstalled.adoc[`isPackInstalled`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/loadExtraPackInfo.adoc[`loadExtraPackInfo`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/loadIndexedPack.adoc[`loadIndexedPack`] 
+| Functions to load data into a pack&period;
+
+
+
+| xref:ResourceDownload/ResourceModel/loadIndexedPackVersions.adoc[`loadIndexedPackVersions`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/runInfoJob.adoc[`runInfoJob`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/runSearchJob.adoc[`runSearchJob`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/m_api.adoc[`m&lowbar;api`] 
+| 
+
+| xref:ResourceDownload/ResourcePackResourceModel/m_base_instance.adoc[`m&lowbar;base&lowbar;instance`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_current_icon_job.adoc[`m&lowbar;current&lowbar;icon&lowbar;job`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_current_info_job.adoc[`m&lowbar;current&lowbar;info&lowbar;job`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_current_search_job.adoc[`m&lowbar;current&lowbar;search&lowbar;job`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_current_sort_index.adoc[`m&lowbar;current&lowbar;sort&lowbar;index`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_currently_running_icon_actions.adoc[`m&lowbar;currently&lowbar;running&lowbar;icon&lowbar;actions`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_failed_icon_actions.adoc[`m&lowbar;failed&lowbar;icon&lowbar;actions`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_next_search_offset.adoc[`m&lowbar;next&lowbar;search&lowbar;offset`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_packs.adoc[`m&lowbar;packs`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_search_state.adoc[`m&lowbar;search&lowbar;state`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_search_term.adoc[`m&lowbar;search&lowbar;term`] 
+| 
+
+| xref:ResourceDownload/ResourceModel/m_selected.adoc[`m&lowbar;selected`] 
+| 
+
+|===
+== Protected Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/ResourceModel/s_running_models.adoc[`s&lowbar;running&lowbar;models`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

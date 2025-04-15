@@ -1,0 +1,25 @@
+[#Application-launch]
+= xref:Application.adoc[Application]::launch
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L210[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+launch(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    bool online = true,
+    bool demo = false,
+    xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin = nullptr,
+    xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr] accountToUse = nullptr,
+    xref:QString.adoc[QString] const& offlineName = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

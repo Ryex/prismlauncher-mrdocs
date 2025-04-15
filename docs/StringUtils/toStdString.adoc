@@ -1,0 +1,19 @@
+[#StringUtils-toStdString]
+= xref:StringUtils.adoc[StringUtils]::toStdString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.h#L60[StringUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:StringUtils/string.adoc[string]
+toStdString(xref:QString.adoc[QString] s);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

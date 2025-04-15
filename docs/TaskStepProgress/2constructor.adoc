@@ -1,0 +1,27 @@
+[#TaskStepProgress-2constructor]
+= xref:TaskStepProgress.adoc[TaskStepProgress]::TaskStepProgress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L63[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:TaskStepProgress/2constructor-0ef.adoc[TaskStepProgress]();
+----
+
+[.small]#xref:TaskStepProgress/2constructor-0ef.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:TaskStepProgress/2constructor-0e2.adoc[TaskStepProgress](xref:QUuid.adoc[QUuid] uid&lowbar;);
+----
+
+[.small]#xref:TaskStepProgress/2constructor-0e2.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

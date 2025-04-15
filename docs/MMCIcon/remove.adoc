@@ -1,0 +1,19 @@
+[#MMCIcon-remove]
+= xref:MMCIcon.adoc[MMCIcon]::remove
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L59[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+remove(xref:IconType.adoc[IconType] rm&lowbar;type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

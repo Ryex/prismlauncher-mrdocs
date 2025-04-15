@@ -1,0 +1,18 @@
+[#Token-issueInstant]
+= xref:Token.adoc[Token]::issueInstant
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L50[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] issueInstant;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

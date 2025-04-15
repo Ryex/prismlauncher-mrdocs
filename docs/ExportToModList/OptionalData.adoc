@@ -1,0 +1,33 @@
+[#ExportToModList-OptionalData]
+= xref:ExportToModList.adoc[ExportToModList]::OptionalData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/ExportToModList.h#L26[modplatform&sol;helpers&sol;ExportToModList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum OptionalData;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Authors`
+|
+|`Url`
+|
+|`Version`
+|
+|`FileName`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

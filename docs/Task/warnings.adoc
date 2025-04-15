@@ -1,0 +1,20 @@
+[#Task-warnings]
+= xref:Task.adoc[Task]::warnings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L116[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+warnings() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Setting-m_synonyms]
+= xref:Setting.adoc[Setting]::m&lowbar;synonyms
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L107[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] m&lowbar;synonyms;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

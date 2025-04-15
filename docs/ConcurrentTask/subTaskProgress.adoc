@@ -1,0 +1,22 @@
+[#ConcurrentTask-subTaskProgress]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::subTaskProgress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L87[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+subTaskProgress(
+    xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr] task,
+    xref:qint64.adoc[qint64] current,
+    xref:qint64.adoc[qint64] total);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

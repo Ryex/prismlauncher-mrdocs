@@ -1,0 +1,18 @@
+[#ResourceAPI-DependencySearchArgs-mcVersion]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/DependencySearchArgs.adoc[DependencySearchArgs]::mcVersion
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L120[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Version.adoc[Version] mcVersion;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

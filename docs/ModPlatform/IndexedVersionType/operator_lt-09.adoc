@@ -1,0 +1,19 @@
+[#ModPlatform-IndexedVersionType-operator_lt-09]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::operator&lt;
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L74[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator&lt;(xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType] const& other) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#00namespace-read_string]
+= read&lowbar;string
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L362[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt;
+read&lowbar;string(
+    xref:nbt.adoc[nbt]::xref:nbt/value.adoc[value]& parent,
+    char const* name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

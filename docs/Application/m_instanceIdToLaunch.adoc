@@ -1,0 +1,18 @@
+[#Application-m_instanceIdToLaunch]
+= xref:Application.adoc[Application]::m&lowbar;instanceIdToLaunch
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L301[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;instanceIdToLaunch;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#PackProfile-Result-error]
+= xref:PackProfile.adoc[PackProfile]::xref:PackProfile/Result.adoc[Result]::error
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L67[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] error;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#VertexData-texCoord]
+= xref:VertexData.adoc[VertexData]::texCoord
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L28[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector2D.adoc[QVector2D] texCoord;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,24 @@
+[#TexturePack-description]
+= xref:TexturePack.adoc[TexturePack]::description
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the description of the texture pack&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L40[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QString.adoc[QString]
+description() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

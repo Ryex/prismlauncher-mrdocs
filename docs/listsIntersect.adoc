@@ -1,0 +1,22 @@
+[#listsIntersect]
+= listsIntersect
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.cpp#L57[ui&sol;instanceview&sol;InstanceView&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+bool
+listsIntersect(
+    xref:QList.adoc[QList]&lt;T&gt; const& l1,
+    xref:QList.adoc[QList]&lt;T&gt; const t2);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

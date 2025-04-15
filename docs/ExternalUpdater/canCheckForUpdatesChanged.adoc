@@ -1,0 +1,33 @@
+[#ExternalUpdater-canCheckForUpdatesChanged]
+= xref:ExternalUpdater.adoc[ExternalUpdater]::canCheckForUpdatesChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Emits whenever the user&apos;s ability to check for updates changes&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/ExternalUpdater.h#L83[updater&sol;ExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+canCheckForUpdatesChanged(bool canCheck);
+----
+
+== Description
+
+As per Sparkle documentation, &quot;An update check can be made by the user when an update session isn’t in progress,
+or when an update or its progress is being shown to the user&period; A user cannot check for updates when data (such
+as the feed or an update) is still being downloaded automatically in the background&period;
+
+This property is suitable to use for menu item validation for seeing if checkForUpdates can be invoked&period;&quot;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

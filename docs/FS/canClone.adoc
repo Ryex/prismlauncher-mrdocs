@@ -1,0 +1,23 @@
+[#FS-canClone]
+= xref:FS.adoc[FS]::canClone
+:relfileprefix: ../
+:mrdocs:
+
+
+if the Filesystems are reflink&sol;clone capable and both are on the same device
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L478[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+canClone(
+    xref:QString.adoc[QString] const& src,
+    xref:QString.adoc[QString] const& dst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

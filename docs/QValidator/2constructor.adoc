@@ -1,0 +1,39 @@
+[#QValidator-2constructor]
+= xref:QValidator.adoc[QValidator]::QValidator
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/7wkgdcnn79b0hwly7nwdisll2hfywvqq-qtbase-6.8.2/include/QtGui/qvalidator.h#L48[&sol;nix&sol;store&sol;7wkgdcnn79b0hwly7nwdisll2hfywvqq&hyphen;qtbase&hyphen;6&period;8&period;2&sol;include&sol;QtGui&sol;qvalidator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QValidator/2constructor-0e.adoc[QValidator](
+    xref:QValidatorPrivate.adoc[QValidatorPrivate]& d,
+    xref:QObject.adoc[QObject]* parent);
+----
+
+[.small]#xref:QValidator/2constructor-0e.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QValidator/2constructor-01.adoc[QValidator](
+    xref:QObjectPrivate.adoc[QObjectPrivate]& d,
+    xref:QObject.adoc[QObject]* parent);
+----
+
+[.small]#xref:QValidator/2constructor-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+xref:QValidator/2constructor-08.adoc[QValidator](xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+[.small]#xref:QValidator/2constructor-08.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

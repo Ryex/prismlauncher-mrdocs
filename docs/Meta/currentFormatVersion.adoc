@@ -1,0 +1,19 @@
+[#Meta-currentFormatVersion]
+= xref:Meta.adoc[Meta]::currentFormatVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L55[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta/MetadataVersion.adoc[MetadataVersion]
+currentFormatVersion();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

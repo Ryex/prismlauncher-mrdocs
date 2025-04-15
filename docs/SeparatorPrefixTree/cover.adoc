@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-cover]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::cover
+:relfileprefix: ../
+:mrdocs:
+
+
+return the contained path that covers the path specified
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L68[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+cover(xref:QString.adoc[QString] path) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

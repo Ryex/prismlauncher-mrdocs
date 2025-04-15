@@ -1,0 +1,24 @@
+[#ProfileSelectDialog-useAsGlobalDefault]
+= xref:ProfileSelectDialog.adoc[ProfileSelectDialog]::useAsGlobalDefault
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns true if the user checked the &quot;use as global default&quot; checkbox&period;
+If the checkbox wasn&apos;t shown, this function returns false&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L65[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+useAsGlobalDefault() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

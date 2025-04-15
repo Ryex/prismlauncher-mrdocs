@@ -1,0 +1,20 @@
+[#Net-ChecksumValidator-2constructor-07]
+= xref:Net.adoc[Net]::xref:Net/ChecksumValidator.adoc[ChecksumValidator]::ChecksumValidator
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ChecksumValidator.h#L49[net&sol;ChecksumValidator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ChecksumValidator(
+    xref:QCryptographicHash.adoc[QCryptographicHash]::xref:QCryptographicHash/Algorithm.adoc[Algorithm] algorithm,
+    xref:QByteArray.adoc[QByteArray] expected = QByteArray());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

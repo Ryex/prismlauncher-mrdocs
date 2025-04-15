@@ -1,0 +1,18 @@
+[#AuthenticationResponse-token_type]
+= xref:AuthenticationResponse.adoc[AuthenticationResponse]::token&lowbar;type
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.cpp#L196[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] token&lowbar;type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

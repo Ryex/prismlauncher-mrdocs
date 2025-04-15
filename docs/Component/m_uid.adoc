@@ -1,0 +1,22 @@
+[#Component-m_uid]
+= xref:Component.adoc[Component]::m&lowbar;uid
+:relfileprefix: ../
+:mrdocs:
+
+
+ID of the component
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L121[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;uid;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

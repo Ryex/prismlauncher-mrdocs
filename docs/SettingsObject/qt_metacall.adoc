@@ -1,0 +1,23 @@
+[#SettingsObject-qt_metacall]
+= xref:SettingsObject.adoc[SettingsObject]::qt&lowbar;metacall
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L45[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+qt&lowbar;metacall(
+    xref:QMetaObject.adoc[QMetaObject]::xref:QMetaObject/Call.adoc[Call],
+    int,
+    void**);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

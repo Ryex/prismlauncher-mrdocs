@@ -1,0 +1,19 @@
+[#IconList-addThemeIcon]
+= xref:IconList.adoc[IconList]::addThemeIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L69[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+addThemeIcon(xref:QString.adoc[QString] const& key);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

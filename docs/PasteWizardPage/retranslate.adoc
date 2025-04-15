@@ -1,0 +1,20 @@
+[#PasteWizardPage-retranslate]
+= xref:PasteWizardPage.adoc[PasteWizardPage]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/PasteWizardPage.h#L20[ui&sol;setupwizard&sol;PasteWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+retranslate() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

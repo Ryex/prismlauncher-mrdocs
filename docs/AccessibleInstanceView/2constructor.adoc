@@ -1,0 +1,19 @@
+[#AccessibleInstanceView-2constructor]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::AccessibleInstanceView
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L16[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+AccessibleInstanceView(xref:QWidget.adoc[QWidget]* w);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#FS-RemoveInvalidFilenameChars]
+= xref:FS.adoc[FS]::RemoveInvalidFilenameChars
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L344[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+RemoveInvalidFilenameChars(
+    xref:QString.adoc[QString] string,
+    xref:QChar.adoc[QChar] replaceWith = &apos;&hyphen;&apos;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

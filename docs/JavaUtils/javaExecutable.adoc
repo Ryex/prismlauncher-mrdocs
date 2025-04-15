@@ -1,0 +1,19 @@
+[#JavaUtils-javaExecutable]
+= xref:JavaUtils.adoc[JavaUtils]::javaExecutable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L45[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString] const javaExecutable = &quot;java&quot;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

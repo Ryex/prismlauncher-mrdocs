@@ -1,0 +1,23 @@
+[#ATLauncher-PackInstallTask-2constructor]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackInstallTask.adoc[PackInstallTask]::PackInstallTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackInstallTask.h#L85[modplatform&sol;atlauncher&sol;ATLPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PackInstallTask(
+    xref:ATLauncher/UserInteractionSupport.adoc[UserInteractionSupport]* support,
+    xref:QString.adoc[QString] packName,
+    xref:QString.adoc[QString] version,
+    xref:ATLauncher/InstallMode.adoc[InstallMode] installMode = InstallMode&colon;&colon;Install);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

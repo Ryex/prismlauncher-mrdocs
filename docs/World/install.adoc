@@ -1,0 +1,21 @@
+[#World-install]
+= xref:World.adoc[World]::install
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L55[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+install(
+    xref:QString.adoc[QString] const& to,
+    xref:QString.adoc[QString] const& name = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

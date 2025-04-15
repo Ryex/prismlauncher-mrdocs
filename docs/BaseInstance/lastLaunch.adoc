@@ -1,0 +1,24 @@
+[#BaseInstance-lastLaunch]
+= xref:BaseInstance.adoc[BaseInstance]::lastLaunch
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the time that the instance was last launched&period;
+Stored in milliseconds since epoch&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L166[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64]
+lastLaunch() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

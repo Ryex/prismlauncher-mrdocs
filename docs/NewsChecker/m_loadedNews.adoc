@@ -1,0 +1,22 @@
+[#NewsChecker-m_loadedNews]
+= xref:NewsChecker.adoc[NewsChecker]::m&lowbar;loadedNews
+:relfileprefix: ../
+:mrdocs:
+
+
+True if news has been loaded&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L85[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;loadedNews;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

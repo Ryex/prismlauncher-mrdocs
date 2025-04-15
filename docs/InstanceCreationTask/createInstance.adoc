@@ -1,0 +1,30 @@
+[#InstanceCreationTask-createInstance]
+= xref:InstanceCreationTask.adoc[InstanceCreationTask]::createInstance
+:relfileprefix: ../
+:mrdocs:
+
+
+Creates a new instance&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCreationTask.h#L32[InstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+createInstance();
+----
+
+== Description
+
+Returns whether the instance creation was successful (true) or not (false)&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

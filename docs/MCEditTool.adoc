@@ -1,0 +1,42 @@
+[#MCEditTool]
+= MCEditTool
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/MCEditTool.h#L6[tools&sol;MCEditTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MCEditTool;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MCEditTool/2constructor.adoc[`MCEditTool`]         [.small]#[constructor]#
+| 
+
+| xref:MCEditTool/check.adoc[`check`] 
+| 
+
+| xref:MCEditTool/getProgramPath.adoc[`getProgramPath`] 
+| 
+
+| xref:MCEditTool/path.adoc[`path`] 
+| 
+
+| xref:MCEditTool/setPath.adoc[`setPath`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

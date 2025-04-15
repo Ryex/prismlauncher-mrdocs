@@ -1,0 +1,25 @@
+[#VersionSelectWidget-initialize]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::initialize
+:relfileprefix: ../
+:mrdocs:
+
+
+loads the list if needed&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L57[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+initialize(
+    xref:BaseVersionList.adoc[BaseVersionList]* vlist,
+    bool forceLoad = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

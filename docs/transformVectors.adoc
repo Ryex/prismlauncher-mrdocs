@@ -1,0 +1,21 @@
+[#transformVectors]
+= transformVectors
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L98[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:QVector4D.adoc[QVector4D]&gt;
+transformVectors(
+    xref:QMatrix4x4.adoc[QMatrix4x4] const& matrix,
+    xref:QVector.adoc[QVector]&lt;xref:QVector4D.adoc[QVector4D]&gt; const& vectors);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

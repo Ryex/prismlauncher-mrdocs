@@ -1,0 +1,19 @@
+[#ListViewDelegate-2destructor]
+= xref:ListViewDelegate.adoc[ListViewDelegate]::&tilde;ListViewDelegate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceDelegate.h#L26[ui&sol;instanceview&sol;InstanceDelegate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ListViewDelegate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

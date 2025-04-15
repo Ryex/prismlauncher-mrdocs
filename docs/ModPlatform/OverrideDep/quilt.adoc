@@ -1,0 +1,18 @@
+[#ModPlatform-OverrideDep-quilt]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/OverrideDep.adoc[OverrideDep]::quilt
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L168[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] quilt;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

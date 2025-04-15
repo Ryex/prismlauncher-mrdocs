@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedVersion-is_currently_selected]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]::is&lowbar;currently&lowbar;selected
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L113[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool is&lowbar;currently&lowbar;selected = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ResourceAPI-ProjectInfoCallbacks-on_abort]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/ProjectInfoCallbacks.adoc[ProjectInfoCallbacks]::on&lowbar;abort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L115[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/function.adoc[function]&lt;void()&gt; on&lowbar;abort;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

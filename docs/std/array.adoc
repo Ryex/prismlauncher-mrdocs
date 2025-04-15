@@ -1,0 +1,55 @@
+[#std-array]
+= xref:std.adoc[std]::array
+:relfileprefix: ../
+:mrdocs:
+
+
+A standard container for storing a fixed size sequence of elements&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/array#L99[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;array]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename &lowbar;Tp,
+    xref:std.adoc[std]::xref:std/size_t.adoc[size&lowbar;t] &lowbar;Nm&gt;
+struct array;
+----
+
+
+
+
+== Description
+
+Meets the requirements of a
+link:tables.html#65[container]
+, a
+link:tables.html#66[reversible container]
+, and a
+link:tables.html#67[sequence]
+&period;
+
+Sets support random access iterators&period;
+
+
+
+== Template Parameters
+
+|===
+| Name | Description
+
+| *Tp*
+| Type of element&period; Required to be a complete type&period;
+
+
+| *Nm*
+| Number of elements&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

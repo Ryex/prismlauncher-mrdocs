@@ -1,0 +1,18 @@
+[#ProfileSetupDialog-nameStatus]
+= xref:ProfileSetupDialog.adoc[ProfileSetupDialog]::nameStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.h#L38[ui&sol;dialogs&sol;ProfileSetupDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ProfileSetupDialog/NameStatus.adoc[NameStatus] nameStatus = NameStatus&colon;&colon;NotSet;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

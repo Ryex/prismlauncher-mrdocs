@@ -1,0 +1,67 @@
+[#POTranslator]
+= POTranslator
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.h#L7[translations&sol;POTranslator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class POTranslator
+    : public xref:QTranslator.adoc[QTranslator];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:POTranslator/2constructor.adoc[`POTranslator`]         [.small]#[constructor]#
+| 
+
+| xref:POTranslator/isEmpty.adoc[`isEmpty`] 
+| 
+
+| xref:POTranslator/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:POTranslator/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:POTranslator/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:POTranslator/translate.adoc[`translate`] 
+| 
+
+| xref:POTranslator/2destructor.adoc[`&tilde;POTranslator`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:POTranslator/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:POTranslator/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

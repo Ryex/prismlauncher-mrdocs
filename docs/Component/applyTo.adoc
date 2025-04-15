@@ -1,0 +1,19 @@
+[#Component-applyTo]
+= xref:Component.adoc[Component]::applyTo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L64[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyTo(xref:LaunchProfile.adoc[LaunchProfile]* profile);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

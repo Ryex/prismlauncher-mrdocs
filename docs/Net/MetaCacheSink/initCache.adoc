@@ -1,0 +1,20 @@
+[#Net-MetaCacheSink-initCache]
+= xref:Net.adoc[Net]::xref:Net/MetaCacheSink.adoc[MetaCacheSink]::initCache
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/MetaCacheSink.h#L51[net&sol;MetaCacheSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/State.adoc[State]
+initCache(xref:QNetworkRequest.adoc[QNetworkRequest]& request) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

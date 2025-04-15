@@ -1,0 +1,19 @@
+[#SkinModel-getModelString]
+= xref:SkinModel.adoc[SkinModel]::getModelString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L35[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getModelString() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

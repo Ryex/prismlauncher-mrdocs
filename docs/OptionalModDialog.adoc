@@ -1,0 +1,64 @@
+[#OptionalModDialog]
+= OptionalModDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/OptionalModDialog.h#L28[ui&sol;pages&sol;modplatform&sol;OptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class OptionalModDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:OptionalModDialog/2constructor.adoc[`OptionalModDialog`]         [.small]#[constructor]#
+| 
+
+| xref:OptionalModDialog/getResult.adoc[`getResult`] 
+| 
+
+| xref:OptionalModDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:OptionalModDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:OptionalModDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:OptionalModDialog/2destructor.adoc[`&tilde;OptionalModDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:OptionalModDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:OptionalModDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,45 @@
+[#ModLicense-2constructor]
+= xref:ModLicense.adoc[ModLicense]::ModLicense
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L52[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModLicense/2constructor-04.adoc[ModLicense]();
+----
+
+[.small]#xref:ModLicense/2constructor-04.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModLicense/2constructor-0b.adoc[ModLicense](xref:QString.adoc[QString] const license);
+----
+
+[.small]#xref:ModLicense/2constructor-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModLicense/2constructor-07.adoc[ModLicense](
+    xref:QString.adoc[QString] const& name&lowbar;,
+    xref:QString.adoc[QString] const& id&lowbar;,
+    xref:QString.adoc[QString] const& url&lowbar;,
+    xref:QString.adoc[QString] const& description&lowbar;);
+----
+
+[.small]#xref:ModLicense/2constructor-07.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModLicense/2constructor-08.adoc[ModLicense](xref:ModLicense.adoc[ModLicense] const& other);
+----
+
+[.small]#xref:ModLicense/2constructor-08.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

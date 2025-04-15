@@ -1,0 +1,19 @@
+[#shared_qobject_ptr-reset-01]
+= xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]::reset
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/QObjectPtr.h#L35[QObjectPtr&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+reset();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

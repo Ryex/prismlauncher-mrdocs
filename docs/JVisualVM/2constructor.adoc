@@ -1,0 +1,21 @@
+[#JVisualVM-2constructor]
+= xref:JVisualVM.adoc[JVisualVM]::JVisualVM
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/JVisualVM.cpp#L13[tools&sol;JVisualVM&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+JVisualVM(
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings,
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QObject.adoc[QObject]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,57 @@
+[#ScreenShot]
+= ScreenShot
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/Screenshot.h#L8[screenshots&sol;Screenshot&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ScreenShot;
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ScreenShot/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ScreenShot/2constructor.adoc[`ScreenShot`]         [.small]#[constructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ScreenShot/m_file.adoc[`m&lowbar;file`] 
+| 
+
+| xref:ScreenShot/m_imgurDeleteHash.adoc[`m&lowbar;imgurDeleteHash`] 
+| 
+
+| xref:ScreenShot/m_imgurId.adoc[`m&lowbar;imgurId`] 
+| 
+
+| xref:ScreenShot/m_url.adoc[`m&lowbar;url`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

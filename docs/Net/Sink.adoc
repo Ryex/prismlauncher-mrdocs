@@ -1,0 +1,78 @@
+[#Net-Sink]
+= xref:Net.adoc[Net]::Sink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Sink.h#L42[net&sol;Sink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Sink;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/Sink/2constructor.adoc[`Sink`]         [.small]#[constructor]#
+| 
+
+| xref:Net/Sink/abort.adoc[`abort`] 
+| 
+
+| xref:Net/Sink/addValidator.adoc[`addValidator`] 
+| 
+
+| xref:Net/Sink/finalize.adoc[`finalize`] 
+| 
+
+| xref:Net/Sink/hasLocalData.adoc[`hasLocalData`] 
+| 
+
+| xref:Net/Sink/init.adoc[`init`] 
+| 
+
+| xref:Net/Sink/write.adoc[`write`] 
+| 
+
+| xref:Net/Sink/2destructor.adoc[`&tilde;Sink`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/Sink/failAllValidators.adoc[`failAllValidators`] 
+| 
+
+| xref:Net/Sink/finalizeAllValidators.adoc[`finalizeAllValidators`] 
+| 
+
+| xref:Net/Sink/initAllValidators.adoc[`initAllValidators`] 
+| 
+
+| xref:Net/Sink/writeAllValidators.adoc[`writeAllValidators`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/Sink/validators.adoc[`validators`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

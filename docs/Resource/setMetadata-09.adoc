@@ -1,0 +1,19 @@
+[#Resource-setMetadata-09]
+= xref:Resource.adoc[Resource]::setMetadata
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L106[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setMetadata(xref:Metadata.adoc[Metadata]::xref:Metadata/ModStruct.adoc[ModStruct] const& metadata);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

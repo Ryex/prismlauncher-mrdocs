@@ -1,0 +1,20 @@
+[#FTBImportAPP-PackInstallTask-executeTask]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/PackInstallTask.adoc[PackInstallTask]::executeTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/import_ftb/PackInstallTask.h#L37[modplatform&sol;import&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

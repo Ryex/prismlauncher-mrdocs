@@ -1,0 +1,18 @@
+[#InstanceView-visibilityFunction]
+= xref:InstanceView.adoc[InstanceView]::visibilityFunction
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L58[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using visibilityFunction = xref:std.adoc[std]::xref:std/function.adoc[function]&lt;bool(xref:QString.adoc[QString] const&)&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

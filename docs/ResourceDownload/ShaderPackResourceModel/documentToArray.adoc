@@ -1,0 +1,20 @@
+[#ResourceDownload-ShaderPackResourceModel-documentToArray]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourceModel.adoc[ShaderPackResourceModel]::documentToArray
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackModel.h#L40[ui&sol;pages&sol;modplatform&sol;ShaderPackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QJsonArray.adoc[QJsonArray]
+documentToArray(xref:QJsonDocument.adoc[QJsonDocument]& obj) const override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

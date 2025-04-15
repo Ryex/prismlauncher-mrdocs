@@ -1,0 +1,21 @@
+[#JavaInstallList-getLoadTask]
+= xref:JavaInstallList.adoc[JavaInstallList]::getLoadTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L38[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getLoadTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

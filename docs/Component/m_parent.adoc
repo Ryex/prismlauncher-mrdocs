@@ -1,0 +1,18 @@
+[#Component-m_parent]
+= xref:Component.adoc[Component]::m&lowbar;parent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L117[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:PackProfile.adoc[PackProfile]* m&lowbar;parent;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

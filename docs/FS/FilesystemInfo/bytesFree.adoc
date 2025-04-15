@@ -1,0 +1,18 @@
+[#FS-FilesystemInfo-bytesFree]
+= xref:FS.adoc[FS]::xref:FS/FilesystemInfo.adoc[FilesystemInfo]::bytesFree
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L445[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64] bytesFree;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

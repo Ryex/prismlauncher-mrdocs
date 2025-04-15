@@ -1,0 +1,54 @@
+[#vertices]
+= vertices
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L35[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QVector.adoc[QVector]&lt;xref:QVector4D.adoc[QVector4D]&gt; const vertices = &lcub;
+    &sol;&sol; Vertex data for face 0
+    QVector4D(&hyphen;0&period;5f, &hyphen;0&period;5f, 0&period;5f, 1&period;0f),  &sol;&sol; v0
+    QVector4D(0&period;5f, &hyphen;0&period;5f, 0&period;5f, 1&period;0f),   &sol;&sol; v1
+    QVector4D(&hyphen;0&period;5f, 0&period;5f, 0&period;5f, 1&period;0f),   &sol;&sol; v2
+    QVector4D(0&period;5f, 0&period;5f, 0&period;5f, 1&period;0f),    &sol;&sol; v3
+    &sol;&sol; Vertex data for face 1
+    QVector4D(0&period;5f, &hyphen;0&period;5f, 0&period;5f, 1&period;0f),   &sol;&sol; v4
+    QVector4D(0&period;5f, &hyphen;0&period;5f, &hyphen;0&period;5f, 1&period;0f),  &sol;&sol; v5
+    QVector4D(0&period;5f, 0&period;5f, 0&period;5f, 1&period;0f),    &sol;&sol; v6
+    QVector4D(0&period;5f, 0&period;5f, &hyphen;0&period;5f, 1&period;0f),   &sol;&sol; v7
+
+    &sol;&sol; Vertex data for face 2
+    QVector4D(0&period;5f, &hyphen;0&period;5f, &hyphen;0&period;5f, 1&period;0f),   &sol;&sol; v8
+    QVector4D(&hyphen;0&period;5f, &hyphen;0&period;5f, &hyphen;0&period;5f, 1&period;0f),  &sol;&sol; v9
+    QVector4D(0&period;5f, 0&period;5f, &hyphen;0&period;5f, 1&period;0f),    &sol;&sol; v10
+    QVector4D(&hyphen;0&period;5f, 0&period;5f, &hyphen;0&period;5f, 1&period;0f),   &sol;&sol; v11
+
+    &sol;&sol; Vertex data for face 3
+    QVector4D(&hyphen;0&period;5f, &hyphen;0&period;5f, &hyphen;0&period;5f, 1&period;0f),  &sol;&sol; v12
+    QVector4D(&hyphen;0&period;5f, &hyphen;0&period;5f, 0&period;5f, 1&period;0f),   &sol;&sol; v13
+    QVector4D(&hyphen;0&period;5f, 0&period;5f, &hyphen;0&period;5f, 1&period;0f),   &sol;&sol; v14
+    QVector4D(&hyphen;0&period;5f, 0&period;5f, 0&period;5f, 1&period;0f),    &sol;&sol; v15
+
+    &sol;&sol; Vertex data for face 4
+    QVector4D(&hyphen;0&period;5f, &hyphen;0&period;5f, &hyphen;0&period;5f, 1&period;0f),  &sol;&sol; v16
+    QVector4D(0&period;5f, &hyphen;0&period;5f, &hyphen;0&period;5f, 1&period;0f),   &sol;&sol; v17
+    QVector4D(&hyphen;0&period;5f, &hyphen;0&period;5f, 0&period;5f, 1&period;0f),   &sol;&sol; v18
+    QVector4D(0&period;5f, &hyphen;0&period;5f, 0&period;5f, 1&period;0f),    &sol;&sol; v19
+
+    &sol;&sol; Vertex data for face 5
+    QVector4D(&hyphen;0&period;5f, 0&period;5f, 0&period;5f, 1&period;0f),   &sol;&sol; v20
+    QVector4D(0&period;5f, 0&period;5f, 0&period;5f, 1&period;0f),    &sol;&sol; v21
+    QVector4D(&hyphen;0&period;5f, 0&period;5f, &hyphen;0&period;5f, 1&period;0f),  &sol;&sol; v22
+    QVector4D(0&period;5f, 0&period;5f, &hyphen;0&period;5f, 1&period;0f),   &sol;&sol; v23
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

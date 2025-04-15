@@ -1,0 +1,19 @@
+[#Version-operator_lt]
+= xref:Version.adoc[Version]::operator&lt;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L51[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator&lt;(xref:Version.adoc[Version] const& other) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

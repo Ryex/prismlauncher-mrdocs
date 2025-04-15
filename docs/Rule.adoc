@@ -1,0 +1,57 @@
+[#Rule]
+= Rule
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L51[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Rule;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Rule/2constructor.adoc[`Rule`]         [.small]#[constructor]#
+| 
+
+| xref:Rule/apply.adoc[`apply`] 
+| 
+
+| xref:Rule/toJson.adoc[`toJson`] 
+| 
+
+| xref:Rule/2destructor.adoc[`&tilde;Rule`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Rule/applies.adoc[`applies`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Rule/m_result.adoc[`m&lowbar;result`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

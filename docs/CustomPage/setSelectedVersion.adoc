@@ -1,0 +1,19 @@
+[#CustomPage-setSelectedVersion]
+= xref:CustomPage.adoc[CustomPage]::setSelectedVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/CustomPage.h#L70[ui&sol;pages&sol;modplatform&sol;CustomPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSelectedVersion(xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

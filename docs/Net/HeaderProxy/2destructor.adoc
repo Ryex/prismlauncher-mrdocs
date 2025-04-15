@@ -1,0 +1,19 @@
+[#Net-HeaderProxy-2destructor]
+= xref:Net.adoc[Net]::xref:Net/HeaderProxy.adoc[HeaderProxy]::&tilde;HeaderProxy
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HeaderProxy.h#L35[net&sol;HeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;HeaderProxy();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

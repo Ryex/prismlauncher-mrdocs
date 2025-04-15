@@ -1,0 +1,22 @@
+[#Ui-OfflineLoginDialog]
+= xref:Ui.adoc[Ui]::OfflineLoginDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/OfflineLoginDialog.h#L9[ui&sol;dialogs&sol;OfflineLoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class OfflineLoginDialog
+    : public xref:Ui_OfflineLoginDialog.adoc[Ui&lowbar;OfflineLoginDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

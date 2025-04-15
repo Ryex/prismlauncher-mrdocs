@@ -1,0 +1,26 @@
+[#IconLabel-2constructor]
+= xref:IconLabel.adoc[IconLabel]::IconLabel
+:relfileprefix: ../
+:mrdocs:
+
+
+Create a line separator&period; orientation is the orientation of the line&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/IconLabel.h#L15[ui&sol;widgets&sol;IconLabel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+IconLabel(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QIcon.adoc[QIcon] icon,
+    xref:QSize.adoc[QSize] size);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

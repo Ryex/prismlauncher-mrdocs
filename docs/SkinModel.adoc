@@ -1,0 +1,86 @@
+[#SkinModel]
+= SkinModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L25[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SkinModel;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinModel/Model.adoc[`Model`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinModel/2constructor.adoc[`SkinModel`]         [.small]#[constructor]#
+| 
+| xref:SkinModel/getCapeId.adoc[`getCapeId`] 
+| 
+
+| xref:SkinModel/getModel.adoc[`getModel`] 
+| 
+
+| xref:SkinModel/getModelString.adoc[`getModelString`] 
+| 
+
+| xref:SkinModel/getPath.adoc[`getPath`] 
+| 
+
+| xref:SkinModel/getPreview.adoc[`getPreview`] 
+| 
+
+| xref:SkinModel/getTexture.adoc[`getTexture`] 
+| 
+
+| xref:SkinModel/getURL.adoc[`getURL`] 
+| 
+
+| xref:SkinModel/isValid.adoc[`isValid`] 
+| 
+
+| xref:SkinModel/name.adoc[`name`] 
+| 
+
+| xref:SkinModel/refresh.adoc[`refresh`] 
+| 
+
+| xref:SkinModel/rename.adoc[`rename`] 
+| 
+
+| xref:SkinModel/setCapeId.adoc[`setCapeId`] 
+| 
+
+| xref:SkinModel/setModel.adoc[`setModel`] 
+| 
+
+| xref:SkinModel/setURL.adoc[`setURL`] 
+| 
+
+| xref:SkinModel/toJSON.adoc[`toJSON`] 
+| 
+
+| xref:SkinModel/2destructor.adoc[`&tilde;SkinModel`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

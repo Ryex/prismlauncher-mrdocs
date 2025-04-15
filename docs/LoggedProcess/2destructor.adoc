@@ -1,0 +1,19 @@
+[#LoggedProcess-2destructor]
+= xref:LoggedProcess.adoc[LoggedProcess]::&tilde;LoggedProcess
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L53[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;LoggedProcess();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

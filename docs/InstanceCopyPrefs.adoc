@@ -1,0 +1,155 @@
+[#InstanceCopyPrefs]
+= InstanceCopyPrefs
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyPrefs.h#L9[InstanceCopyPrefs&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct InstanceCopyPrefs;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceCopyPrefs/allTrue.adoc[`allTrue`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopyGameOptions.adoc[`enableCopyGameOptions`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopyMods.adoc[`enableCopyMods`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopyResourcePacks.adoc[`enableCopyResourcePacks`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopySaves.adoc[`enableCopySaves`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopyScreenshots.adoc[`enableCopyScreenshots`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopyServers.adoc[`enableCopyServers`] 
+| 
+
+| xref:InstanceCopyPrefs/enableCopyShaderPacks.adoc[`enableCopyShaderPacks`] 
+| 
+
+| xref:InstanceCopyPrefs/enableDontLinkSaves.adoc[`enableDontLinkSaves`] 
+| 
+
+| xref:InstanceCopyPrefs/enableKeepPlaytime.adoc[`enableKeepPlaytime`] 
+| 
+
+| xref:InstanceCopyPrefs/enableLinkRecursively.adoc[`enableLinkRecursively`] 
+| 
+
+| xref:InstanceCopyPrefs/enableUseClone.adoc[`enableUseClone`] 
+| 
+
+| xref:InstanceCopyPrefs/enableUseHardLinks.adoc[`enableUseHardLinks`] 
+| 
+
+| xref:InstanceCopyPrefs/enableUseSymLinks.adoc[`enableUseSymLinks`] 
+| 
+
+| xref:InstanceCopyPrefs/getSelectedFiltersAsRegex.adoc[`getSelectedFiltersAsRegex`] 
+| 
+| xref:InstanceCopyPrefs/isCopyGameOptionsEnabled.adoc[`isCopyGameOptionsEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isCopyModsEnabled.adoc[`isCopyModsEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isCopyResourcePacksEnabled.adoc[`isCopyResourcePacksEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isCopySavesEnabled.adoc[`isCopySavesEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isCopyScreenshotsEnabled.adoc[`isCopyScreenshotsEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isCopyServersEnabled.adoc[`isCopyServersEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isCopyShaderPacksEnabled.adoc[`isCopyShaderPacksEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isDontLinkSavesEnabled.adoc[`isDontLinkSavesEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isKeepPlaytimeEnabled.adoc[`isKeepPlaytimeEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isLinkRecursivelyEnabled.adoc[`isLinkRecursivelyEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isUseCloneEnabled.adoc[`isUseCloneEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isUseHardLinksEnabled.adoc[`isUseHardLinksEnabled`] 
+| 
+
+| xref:InstanceCopyPrefs/isUseSymLinksEnabled.adoc[`isUseSymLinksEnabled`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceCopyPrefs/copyGameOptions.adoc[`copyGameOptions`] 
+| 
+
+| xref:InstanceCopyPrefs/copyMods.adoc[`copyMods`] 
+| 
+
+| xref:InstanceCopyPrefs/copyResourcePacks.adoc[`copyResourcePacks`] 
+| 
+
+| xref:InstanceCopyPrefs/copySaves.adoc[`copySaves`] 
+| 
+
+| xref:InstanceCopyPrefs/copyScreenshots.adoc[`copyScreenshots`] 
+| 
+
+| xref:InstanceCopyPrefs/copyServers.adoc[`copyServers`] 
+| 
+
+| xref:InstanceCopyPrefs/copyShaderPacks.adoc[`copyShaderPacks`] 
+| 
+
+| xref:InstanceCopyPrefs/dontLinkSaves.adoc[`dontLinkSaves`] 
+| 
+
+| xref:InstanceCopyPrefs/keepPlaytime.adoc[`keepPlaytime`] 
+| 
+
+| xref:InstanceCopyPrefs/linkRecursively.adoc[`linkRecursively`] 
+| 
+
+| xref:InstanceCopyPrefs/useClone.adoc[`useClone`] 
+| 
+
+| xref:InstanceCopyPrefs/useHardLinks.adoc[`useHardLinks`] 
+| 
+
+| xref:InstanceCopyPrefs/useSymLinks.adoc[`useSymLinks`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

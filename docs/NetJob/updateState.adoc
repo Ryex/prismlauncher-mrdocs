@@ -1,0 +1,20 @@
+[#NetJob-updateState]
+= xref:NetJob.adoc[NetJob]::updateState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetJob.h#L76[net&sol;NetJob&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateState() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

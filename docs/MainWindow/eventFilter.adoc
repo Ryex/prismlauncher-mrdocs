@@ -1,0 +1,22 @@
+[#MainWindow-eventFilter]
+= xref:MainWindow.adoc[MainWindow]::eventFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.h#L75[ui&sol;MainWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+eventFilter(
+    xref:QObject.adoc[QObject]* obj,
+    xref:QEvent.adoc[QEvent]* ev) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

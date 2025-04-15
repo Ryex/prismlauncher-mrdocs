@@ -1,0 +1,19 @@
+[#LaunchProfile-applyCompatibleJavaName]
+= xref:LaunchProfile.adoc[LaunchProfile]::applyCompatibleJavaName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L62[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyCompatibleJavaName(xref:QString.adoc[QString] javaName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

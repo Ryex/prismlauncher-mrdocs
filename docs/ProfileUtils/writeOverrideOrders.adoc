@@ -1,0 +1,25 @@
+[#ProfileUtils-writeOverrideOrders]
+= xref:ProfileUtils.adoc[ProfileUtils]::writeOverrideOrders
+:relfileprefix: ../
+:mrdocs:
+
+
+Write a OneSix format order file
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L47[minecraft&sol;ProfileUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+writeOverrideOrders(
+    xref:QString.adoc[QString] path,
+    xref:ProfileUtils/PatchOrder.adoc[PatchOrder] const& order);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedPack-extraDataLoaded]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::extraDataLoaded
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L147[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool extraDataLoaded = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

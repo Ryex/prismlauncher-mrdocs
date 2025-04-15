@@ -1,0 +1,24 @@
+[#WorldList-deleteWorld]
+= xref:WorldList.adoc[WorldList]::deleteWorld
+:relfileprefix: ../
+:mrdocs:
+
+
+Deletes the mod at the given index&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L54[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+deleteWorld(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

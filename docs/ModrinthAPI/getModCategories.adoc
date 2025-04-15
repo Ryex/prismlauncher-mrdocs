@@ -1,0 +1,20 @@
+[#ModrinthAPI-getModCategories]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getModCategories
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L33[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getModCategories(xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QByteArray.adoc[QByteArray]&gt; response);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

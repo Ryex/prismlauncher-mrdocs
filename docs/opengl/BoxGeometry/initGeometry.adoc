@@ -1,0 +1,26 @@
+[#opengl-BoxGeometry-initGeometry]
+= xref:opengl.adoc[opengl]::xref:opengl/BoxGeometry.adoc[BoxGeometry]::initGeometry
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.h#L37[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+initGeometry(
+    float u,
+    float v,
+    float width,
+    float height,
+    float depth,
+    float textureWidth = 64,
+    float textureHeight = 64);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

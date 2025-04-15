@@ -1,0 +1,23 @@
+[#VisualGroup-totalHeight]
+= xref:VisualGroup.adoc[VisualGroup]::totalHeight
+:relfileprefix: ../
+:mrdocs:
+
+
+height of the group, in total&period; includes a small bit of padding&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L76[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+totalHeight() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

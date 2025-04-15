@@ -1,0 +1,18 @@
+[#BaseProfiler-m_profilerProcess]
+= xref:BaseProfiler.adoc[BaseProfiler]::m&lowbar;profilerProcess
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseProfiler.h#L21[tools&sol;BaseProfiler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QProcess.adoc[QProcess]* m&lowbar;profilerProcess;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

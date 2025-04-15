@@ -1,0 +1,25 @@
+[#map_int_zero_max]
+= map&lowbar;int&lowbar;zero&lowbar;max
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.cpp#L50[ui&sol;dialogs&sol;ProgressDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename T,
+    xref:std.adoc[std]::bool = true&gt;
+xref:std.adoc[std]::xref:std/tuple.adoc[tuple]&lt;int, int&gt;
+map&lowbar;int&lowbar;zero&lowbar;max(
+    T current,
+    T range&lowbar;max,
+    T range&lowbar;min);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

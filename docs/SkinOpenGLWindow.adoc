@@ -1,0 +1,104 @@
+[#SkinOpenGLWindow]
+= SkinOpenGLWindow
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L37[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SkinOpenGLWindow
+    : public xref:QOpenGLWindow.adoc[QOpenGLWindow]
+    , protected xref:QOpenGLFunctions.adoc[QOpenGLFunctions];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinOpenGLWindow/2constructor.adoc[`SkinOpenGLWindow`]         [.small]#[constructor]#
+| 
+
+| xref:SkinOpenGLWindow/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:SkinOpenGLWindow/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:SkinOpenGLWindow/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:SkinOpenGLWindow/updateCape.adoc[`updateCape`] 
+| 
+
+| xref:SkinOpenGLWindow/updateScene.adoc[`updateScene`] 
+| 
+
+| xref:SkinOpenGLWindow/2destructor.adoc[`&tilde;SkinOpenGLWindow`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinOpenGLWindow/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinOpenGLWindow/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinOpenGLWindow/generateBackgroundTexture.adoc[`generateBackgroundTexture`] 
+| 
+
+| xref:SkinOpenGLWindow/initShaders.adoc[`initShaders`] 
+| 
+
+| xref:SkinOpenGLWindow/initializeGL.adoc[`initializeGL`] 
+| 
+
+| xref:SkinOpenGLWindow/mouseMoveEvent.adoc[`mouseMoveEvent`] 
+| 
+
+| xref:SkinOpenGLWindow/mousePressEvent.adoc[`mousePressEvent`] 
+| 
+
+| xref:SkinOpenGLWindow/mouseReleaseEvent.adoc[`mouseReleaseEvent`] 
+| 
+
+| xref:SkinOpenGLWindow/paintGL.adoc[`paintGL`] 
+| 
+
+| xref:SkinOpenGLWindow/renderBackground.adoc[`renderBackground`] 
+| 
+
+| xref:SkinOpenGLWindow/resizeGL.adoc[`resizeGL`] 
+| 
+
+| xref:SkinOpenGLWindow/wheelEvent.adoc[`wheelEvent`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

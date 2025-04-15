@@ -1,0 +1,21 @@
+[#ServersModel-2constructor]
+= xref:ServersModel.adoc[ServersModel]::ServersModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L162[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ServersModel(
+    xref:QString.adoc[QString] const& path,
+    xref:QObject.adoc[QObject]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

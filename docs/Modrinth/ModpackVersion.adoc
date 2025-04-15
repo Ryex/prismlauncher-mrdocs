@@ -1,0 +1,57 @@
+[#Modrinth-ModpackVersion]
+= xref:Modrinth.adoc[Modrinth]::ModpackVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L84[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModpackVersion;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/ModpackVersion/changelog.adoc[`changelog`] 
+| 
+
+| xref:Modrinth/ModpackVersion/date.adoc[`date`] 
+| 
+
+| xref:Modrinth/ModpackVersion/download_url.adoc[`download&lowbar;url`] 
+| 
+
+| xref:Modrinth/ModpackVersion/gameVersion.adoc[`gameVersion`] 
+| 
+
+| xref:Modrinth/ModpackVersion/id.adoc[`id`] 
+| 
+
+| xref:Modrinth/ModpackVersion/loaders.adoc[`loaders`] 
+| 
+
+| xref:Modrinth/ModpackVersion/name.adoc[`name`] 
+| 
+
+| xref:Modrinth/ModpackVersion/project_id.adoc[`project&lowbar;id`] 
+| 
+
+| xref:Modrinth/ModpackVersion/version.adoc[`version`] 
+| 
+
+| xref:Modrinth/ModpackVersion/version_type.adoc[`version&lowbar;type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

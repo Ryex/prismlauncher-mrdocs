@@ -1,0 +1,18 @@
+[#AccessibleInstanceView-ChildCache]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::ChildCache
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L62[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using ChildCache = xref:QHash.adoc[QHash]&lt;int, xref:QAccessible.adoc[QAccessible]::xref:QAccessible/Id.adoc[Id]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

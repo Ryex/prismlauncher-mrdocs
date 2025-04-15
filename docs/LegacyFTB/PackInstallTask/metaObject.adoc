@@ -1,0 +1,20 @@
+[#LegacyFTB-PackInstallTask-metaObject]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackInstallTask.adoc[PackInstallTask]::metaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackInstallTask.h#L18[modplatform&sol;legacy&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

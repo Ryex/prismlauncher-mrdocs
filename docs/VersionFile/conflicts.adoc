@@ -1,0 +1,23 @@
+[#VersionFile-conflicts]
+= xref:VersionFile.adoc[VersionFile]::conflicts
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; set of packages this conflicts with
+NOTE&colon; this is shared with the meta format!!!
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L153[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta.adoc[Meta]::xref:Meta/RequireSet.adoc[RequireSet] conflicts;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

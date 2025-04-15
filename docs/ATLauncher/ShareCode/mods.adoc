@@ -1,0 +1,18 @@
+[#ATLauncher-ShareCode-mods]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/ShareCode.adoc[ShareCode]::mods
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLShareCode.h#L35[modplatform&sol;atlauncher&sol;ATLShareCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:ATLauncher/ShareCodeMod.adoc[ShareCodeMod]&gt; mods;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

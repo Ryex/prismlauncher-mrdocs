@@ -1,0 +1,23 @@
+[#OneSixVersionFormat-versionFileFromJson]
+= xref:OneSixVersionFormat.adoc[OneSixVersionFormat]::versionFileFromJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/OneSixVersionFormat.h#L12[minecraft&sol;OneSixVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:VersionFilePtr.adoc[VersionFilePtr]
+versionFileFromJson(
+    xref:QJsonDocument.adoc[QJsonDocument] const& doc,
+    xref:QString.adoc[QString] const& filename,
+    bool requireOrder);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

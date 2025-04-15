@@ -1,0 +1,19 @@
+[#ResourceAPI-VersionSearchArgs-operator_assign]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/VersionSearchArgs.adoc[VersionSearchArgs]::operator&equals;
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L94[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+operator&equals;(xref:ResourceAPI/VersionSearchArgs.adoc[VersionSearchArgs] other);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

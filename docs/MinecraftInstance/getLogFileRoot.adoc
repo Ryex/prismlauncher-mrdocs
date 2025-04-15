@@ -1,0 +1,20 @@
+[#MinecraftInstance-getLogFileRoot]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::getLogFileRoot
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L147[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+getLogFileRoot() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

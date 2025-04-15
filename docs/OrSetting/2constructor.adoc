@@ -1,0 +1,21 @@
+[#OrSetting-2constructor]
+= xref:OrSetting.adoc[OrSetting]::OrSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.cpp#L149[minecraft&sol;MinecraftInstance&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+OrSetting(
+    xref:QString.adoc[QString] id,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; a,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; b);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

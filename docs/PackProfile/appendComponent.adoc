@@ -1,0 +1,23 @@
+[#PackProfile-appendComponent]
+= xref:PackProfile.adoc[PackProfile]::appendComponent
+:relfileprefix: ../
+:mrdocs:
+
+
+Add the component to the internal list of patches
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L157[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+appendComponent(xref:ComponentPtr.adoc[ComponentPtr] component);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

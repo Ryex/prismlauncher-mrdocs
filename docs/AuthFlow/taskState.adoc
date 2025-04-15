@@ -1,0 +1,19 @@
+[#AuthFlow-taskState]
+= xref:AuthFlow.adoc[AuthFlow]::taskState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthFlow.h#L25[minecraft&sol;auth&sol;AuthFlow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:AccountTaskState.adoc[AccountTaskState]
+taskState();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

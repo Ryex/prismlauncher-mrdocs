@@ -1,0 +1,97 @@
+[#ProfileSetupDialog]
+= ProfileSetupDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.h#L32[ui&sol;dialogs&sol;ProfileSetupDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProfileSetupDialog
+    : public xref:QDialog.adoc[QDialog];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSetupDialog/NameStatus.adoc[`NameStatus`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSetupDialog/2constructor.adoc[`ProfileSetupDialog`]         [.small]#[constructor]#
+| 
+
+| xref:ProfileSetupDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ProfileSetupDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ProfileSetupDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ProfileSetupDialog/2destructor.adoc[`&tilde;ProfileSetupDialog`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSetupDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSetupDialog/nameStatus.adoc[`nameStatus`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSetupDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProfileSetupDialog/checkName.adoc[`checkName`] 
+| 
+
+| xref:ProfileSetupDialog/scheduleCheck.adoc[`scheduleCheck`] 
+| 
+
+| xref:ProfileSetupDialog/setNameStatus.adoc[`setNameStatus`] 
+| 
+
+| xref:ProfileSetupDialog/setupProfile.adoc[`setupProfile`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

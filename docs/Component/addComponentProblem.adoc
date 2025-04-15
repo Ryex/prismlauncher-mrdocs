@@ -1,0 +1,21 @@
+[#Component-addComponentProblem]
+= xref:Component.adoc[Component]::addComponentProblem
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L98[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addComponentProblem(
+    xref:ProblemSeverity.adoc[ProblemSeverity] severity,
+    xref:QString.adoc[QString] const& description);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

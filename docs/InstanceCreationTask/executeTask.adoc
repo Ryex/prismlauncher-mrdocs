@@ -1,0 +1,20 @@
+[#InstanceCreationTask-executeTask]
+= xref:InstanceCreationTask.adoc[InstanceCreationTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCreationTask.h#L13[InstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override final;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

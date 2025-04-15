@@ -1,0 +1,19 @@
+[#LookupServerAddress-setOutputAddressPtr]
+= xref:LookupServerAddress.adoc[LookupServerAddress]::setOutputAddressPtr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/LookupServerAddress.h#L35[launch&sol;steps&sol;LookupServerAddress&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setOutputAddressPtr(xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] output);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

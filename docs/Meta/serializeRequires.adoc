@@ -1,0 +1,22 @@
+[#Meta-serializeRequires]
+= xref:Meta.adoc[Meta]::serializeRequires
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L54[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+serializeRequires(
+    xref:QJsonObject.adoc[QJsonObject]& objOut,
+    xref:Meta/RequireSet.adoc[RequireSet]* ptr,
+    char const* keyName = &quot;requires&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

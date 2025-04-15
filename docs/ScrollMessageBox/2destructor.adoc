@@ -1,0 +1,19 @@
+[#ScrollMessageBox-2destructor]
+= xref:ScrollMessageBox.adoc[ScrollMessageBox]::&tilde;ScrollMessageBox
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ScrollMessageBox.h#L17[ui&sol;dialogs&sol;ScrollMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ScrollMessageBox() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

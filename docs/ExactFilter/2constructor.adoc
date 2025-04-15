@@ -1,0 +1,18 @@
+[#ExactFilter-2constructor]
+= xref:ExactFilter.adoc[ExactFilter]::ExactFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L24[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ExactFilter(xref:QString.adoc[QString] const& pattern);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

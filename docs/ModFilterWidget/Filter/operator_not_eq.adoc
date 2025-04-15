@@ -1,0 +1,19 @@
+[#ModFilterWidget-Filter-operator_not_eq]
+= xref:ModFilterWidget.adoc[ModFilterWidget]::xref:ModFilterWidget/Filter.adoc[Filter]::operator!&equals;
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L74[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+operator!&equals;(xref:ModFilterWidget/Filter.adoc[Filter] const& other) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

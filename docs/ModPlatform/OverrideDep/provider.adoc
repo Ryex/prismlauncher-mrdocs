@@ -1,0 +1,18 @@
+[#ModPlatform-OverrideDep-provider]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/OverrideDep.adoc[OverrideDep]::provider
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L171[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] provider;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

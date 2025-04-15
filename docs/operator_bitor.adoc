@@ -1,0 +1,85 @@
+[#operator_bitor]
+= operator&verbar;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L115[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QFlags-09.adoc[QFlags]&lt;xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type]&gt;
+xref:operator_bitor-09.adoc[operator&verbar;](
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f2) noexcept;
+----
+
+[.small]#xref:operator_bitor-09.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QFlags-09.adoc[QFlags]&lt;xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type]&gt;
+xref:operator_bitor-00.adoc[operator&verbar;](
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    xref:QFlags-09.adoc[QFlags]&lt;xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type]&gt; f2) noexcept;
+----
+
+[.small]#xref:operator_bitor-00.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QIncompatibleFlag.adoc[QIncompatibleFlag]
+xref:operator_bitor-0a.adoc[operator&verbar;](
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    int f2) noexcept;
+----
+
+[.small]#xref:operator_bitor-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QFlags-09.adoc[QFlags]&lt;xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type]&gt;
+xref:operator_bitor-0b.adoc[operator&verbar;](
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f2) noexcept;
+----
+
+[.small]#xref:operator_bitor-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QFlags-09.adoc[QFlags]&lt;xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type]&gt;
+xref:operator_bitor-0d.adoc[operator&verbar;](
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    xref:QFlags-09.adoc[QFlags]&lt;xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type]&gt; f2) noexcept;
+----
+
+[.small]#xref:operator_bitor-0d.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QIncompatibleFlag.adoc[QIncompatibleFlag]
+xref:operator_bitor-01.adoc[operator&verbar;](
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    int f2) noexcept;
+----
+
+[.small]#xref:operator_bitor-01.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

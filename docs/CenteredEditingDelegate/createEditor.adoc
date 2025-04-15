@@ -1,0 +1,23 @@
+[#CenteredEditingDelegate-createEditor]
+= xref:CenteredEditingDelegate.adoc[CenteredEditingDelegate]::createEditor
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L223[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QWidget.adoc[QWidget]*
+createEditor(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QStyleOptionViewItem.adoc[QStyleOptionViewItem] const& option,
+    xref:QModelIndex.adoc[QModelIndex] const& index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

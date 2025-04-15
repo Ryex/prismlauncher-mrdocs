@@ -1,0 +1,18 @@
+[#UseLock-2destructor]
+= xref:UseLock.adoc[UseLock]::&tilde;UseLock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Usable.h#L44[Usable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+&tilde;UseLock();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

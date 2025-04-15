@@ -1,0 +1,33 @@
+[#Modrinth-ModpackListModel-SearchState]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackListModel.adoc[ModpackListModel]::SearchState
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthModel.h#L117[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum SearchState;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`None`
+|
+|`CanPossiblyFetchMore`
+|
+|`ResetRequested`
+|
+|`Finished`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

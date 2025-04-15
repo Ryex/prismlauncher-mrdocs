@@ -1,0 +1,31 @@
+[#ResourceDownload-Flame]
+= xref:ResourceDownload.adoc[ResourceDownload]::Flame
+:relfileprefix: ../
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceDownload/Flame/debugName.adoc[`debugName`] 
+| 
+
+| xref:ResourceDownload/Flame/displayName.adoc[`displayName`] 
+| 
+
+| xref:ResourceDownload/Flame/icon.adoc[`icon`] 
+| 
+
+| xref:ResourceDownload/Flame/id.adoc[`id`] 
+| 
+
+| xref:ResourceDownload/Flame/metaEntryBase.adoc[`metaEntryBase`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

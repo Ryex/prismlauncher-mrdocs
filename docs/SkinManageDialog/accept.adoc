@@ -1,0 +1,20 @@
+[#SkinManageDialog-accept]
+= xref:SkinManageDialog.adoc[SkinManageDialog]::accept
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/SkinManageDialog.h#L51[ui&sol;dialogs&sol;skins&sol;SkinManageDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+accept() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#LegacyFTB-Ui-Page]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/Ui.adoc[Ui]::Page
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/Page.h#L53[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;Page&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Page
+    : public xref:LegacyFTB/Ui_Page.adoc[Ui&lowbar;Page];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

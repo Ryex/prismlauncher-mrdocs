@@ -1,0 +1,21 @@
+[#ActionButton-2constructor]
+= xref:ActionButton.adoc[ActionButton]::ActionButton
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.cpp#L10[ui&sol;widgets&sol;WideBar&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ActionButton(
+    xref:QAction.adoc[QAction]* action,
+    xref:QWidget.adoc[QWidget]* parent = nullptr,
+    bool use&lowbar;default&lowbar;action = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

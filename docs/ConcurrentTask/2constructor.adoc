@@ -1,0 +1,21 @@
+[#ConcurrentTask-2constructor]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::ConcurrentTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L55[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ConcurrentTask(
+    xref:QString.adoc[QString] task&lowbar;name = &quot;&quot;,
+    int max&lowbar;concurrent = 6);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

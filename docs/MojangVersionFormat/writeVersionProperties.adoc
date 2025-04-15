@@ -1,0 +1,22 @@
+[#MojangVersionFormat-writeVersionProperties]
+= xref:MojangVersionFormat.adoc[MojangVersionFormat]::writeVersionProperties
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangVersionFormat.h#L15[minecraft&sol;MojangVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+writeVersionProperties(
+    xref:VersionFile.adoc[VersionFile] const* in,
+    xref:QJsonObject.adoc[QJsonObject]& out);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

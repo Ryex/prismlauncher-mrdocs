@@ -1,0 +1,47 @@
+[#SortType]
+= SortType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L61[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum SortType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NAME`
+|
+|`DATE`
+|
+|`VERSION`
+|
+|`ENABLED`
+|
+|`PACK&lowbar;FORMAT`
+|
+|`PROVIDER`
+|
+|`SIZE`
+|
+|`SIDE`
+|
+|`MC&lowbar;VERSIONS`
+|
+|`LOADERS`
+|
+|`RELEASE&lowbar;TYPE`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#JsonCatPack-PartialDate-month]
+= xref:JsonCatPack.adoc[JsonCatPack]::xref:JsonCatPack/PartialDate.adoc[PartialDate]::month
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L77[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int month;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

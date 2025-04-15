@@ -1,0 +1,18 @@
+[#Net-NetRequest-m_headerProxies]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::m&lowbar;headerProxies
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L111[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/vector.adoc[vector]&lt;xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Net.adoc[Net]::xref:Net/HeaderProxy.adoc[HeaderProxy]&gt;&gt; m&lowbar;headerProxies;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

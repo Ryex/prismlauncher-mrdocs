@@ -1,0 +1,32 @@
+[#ThemeManager-getCatPack]
+= xref:ThemeManager.adoc[ThemeManager]::getCatPack
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns the background based on selected and with events (Birthday, XMas, etc&period;)
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L57[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getCatPack(xref:QString.adoc[QString] catName = &quot;&quot;);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *catName*
+| Optional, if you need a specific background&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

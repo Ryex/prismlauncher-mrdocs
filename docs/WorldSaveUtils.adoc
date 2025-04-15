@@ -1,0 +1,40 @@
+[#WorldSaveUtils]
+= WorldSaveUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldSaveUtils/ProcessingLevel.adoc[`ProcessingLevel`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldSaveUtils/contains_level_dat.adoc[`contains&lowbar;level&lowbar;dat`] 
+| checks a folder structure to see if it contains a level&period;dat
+
+| xref:WorldSaveUtils/process.adoc[`process`] 
+| 
+
+| xref:WorldSaveUtils/processFolder.adoc[`processFolder`] 
+| 
+
+| xref:WorldSaveUtils/processZIP.adoc[`processZIP`] 
+| 
+
+| xref:WorldSaveUtils/validate.adoc[`validate`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

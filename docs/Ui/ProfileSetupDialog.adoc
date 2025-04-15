@@ -1,0 +1,22 @@
+[#Ui-ProfileSetupDialog]
+= xref:Ui.adoc[Ui]::ProfileSetupDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.h#L29[ui&sol;dialogs&sol;ProfileSetupDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProfileSetupDialog
+    : public xref:Ui_ProfileSetupDialog.adoc[Ui&lowbar;ProfileSetupDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#IconUtils-findBestIconIn]
+= xref:IconUtils.adoc[IconUtils]::findBestIconIn
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconUtils.h#L43[icons&sol;IconUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+findBestIconIn(
+    xref:QString.adoc[QString] const& folder,
+    xref:QString.adoc[QString] const& iconKey);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Component-canBeDisabled]
+= xref:Component.adoc[Component]::canBeDisabled
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L68[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+canBeDisabled();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

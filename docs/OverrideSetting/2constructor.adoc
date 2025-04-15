@@ -1,0 +1,21 @@
+[#OverrideSetting-2constructor]
+= xref:OverrideSetting.adoc[OverrideSetting]::OverrideSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/OverrideSetting.h#L32[settings&sol;OverrideSetting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+OverrideSetting(
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; overridden,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; gate);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

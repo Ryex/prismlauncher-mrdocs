@@ -1,0 +1,19 @@
+[#Task-2constructor]
+= xref:Task.adoc[Task]::Task
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L97[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+Task(bool show&lowbar;debug&lowbar;log = true);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

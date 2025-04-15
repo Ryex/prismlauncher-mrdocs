@@ -1,0 +1,20 @@
+[#Java-ArchiveDownloadTask-executeTask]
+= xref:Java.adoc[Java]::xref:Java/ArchiveDownloadTask.adoc[ArchiveDownloadTask]::executeTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ArchiveDownloadTask.h#L32[java&sol;download&sol;ArchiveDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

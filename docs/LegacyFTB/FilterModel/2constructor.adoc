@@ -1,0 +1,18 @@
+[#LegacyFTB-FilterModel-2constructor]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/FilterModel.adoc[FilterModel]::FilterModel
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L22[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FilterModel(xref:QObject.adoc[QObject]* parent = Q&lowbar;NULLPTR);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

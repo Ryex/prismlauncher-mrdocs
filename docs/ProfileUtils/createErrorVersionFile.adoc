@@ -1,0 +1,23 @@
+[#ProfileUtils-createErrorVersionFile]
+= xref:ProfileUtils.adoc[ProfileUtils]::createErrorVersionFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.cpp#L94[minecraft&sol;ProfileUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:VersionFilePtr.adoc[VersionFilePtr]
+createErrorVersionFile(
+    xref:QString.adoc[QString] fileId,
+    xref:QString.adoc[QString] filepath,
+    xref:QString.adoc[QString] error);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

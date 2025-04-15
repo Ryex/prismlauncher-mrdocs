@@ -1,0 +1,23 @@
+[#ResourceDownload-ModrinthResourcePackModel-qt_metacall]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModrinthResourcePackModel.adoc[ModrinthResourcePackModel]::qt&lowbar;metacall
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthResourceModels.h#L49[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthResourceModels&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+qt&lowbar;metacall(
+    xref:QMetaObject.adoc[QMetaObject]::xref:QMetaObject/Call.adoc[Call],
+    int,
+    void**);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#AccountList-loadV3]
+= xref:AccountList.adoc[AccountList]::loadV3
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L100[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+loadV3(xref:QJsonObject.adoc[QJsonObject]& root);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

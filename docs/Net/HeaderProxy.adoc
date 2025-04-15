@@ -1,0 +1,39 @@
+[#Net-HeaderProxy]
+= xref:Net.adoc[Net]::HeaderProxy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HeaderProxy.h#L32[net&sol;HeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class HeaderProxy;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/HeaderProxy/2constructor.adoc[`HeaderProxy`]         [.small]#[constructor]#
+| 
+
+| xref:Net/HeaderProxy/headers.adoc[`headers`] 
+| 
+
+| xref:Net/HeaderProxy/writeHeaders.adoc[`writeHeaders`] 
+| 
+
+| xref:Net/HeaderProxy/2destructor.adoc[`&tilde;HeaderProxy`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

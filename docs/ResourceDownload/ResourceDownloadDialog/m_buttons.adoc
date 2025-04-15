@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceDownloadDialog-m_buttons]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceDownloadDialog.adoc[ResourceDownloadDialog]::m&lowbar;buttons
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L94[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDialogButtonBox.adoc[QDialogButtonBox] m&lowbar;buttons;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#IconPickerDialog-qt_metacast]
+= xref:IconPickerDialog.adoc[IconPickerDialog]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/IconPickerDialog.h#L27[ui&sol;dialogs&sol;IconPickerDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

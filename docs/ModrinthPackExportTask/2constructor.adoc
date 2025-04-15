@@ -1,0 +1,25 @@
+[#ModrinthPackExportTask-2constructor]
+= xref:ModrinthPackExportTask.adoc[ModrinthPackExportTask]::ModrinthPackExportTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackExportTask.h#L32[modplatform&sol;modrinth&sol;ModrinthPackExportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthPackExportTask(
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& version,
+    xref:QString.adoc[QString] const& summary,
+    bool optionalFiles,
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QString.adoc[QString] const& output,
+    xref:MMCZip.adoc[MMCZip]::xref:MMCZip/FilterFunction.adoc[FilterFunction] filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

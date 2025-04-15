@@ -1,0 +1,19 @@
+[#OptionalModDialog-getResult]
+= xref:OptionalModDialog.adoc[OptionalModDialog]::getResult
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/OptionalModDialog.h#L35[ui&sol;pages&sol;modplatform&sol;OptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getResult();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

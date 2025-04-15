@@ -1,0 +1,147 @@
+[#IconList]
+= IconList
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L51[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class IconList
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconList/2constructor.adoc[`IconList`]         [.small]#[constructor]#
+| 
+
+| xref:IconList/addIcon.adoc[`addIcon`] 
+| 
+
+| xref:IconList/addThemeIcon.adoc[`addThemeIcon`] 
+| 
+
+| xref:IconList/data.adoc[`data`] 
+| 
+
+| xref:IconList/deleteIcon.adoc[`deleteIcon`] 
+| 
+
+| xref:IconList/directoryChanged.adoc[`directoryChanged`] 
+| 
+
+| xref:IconList/dropMimeData.adoc[`dropMimeData`] 
+| 
+
+| xref:IconList/flags.adoc[`flags`] 
+| 
+
+| xref:IconList/getDirectory.adoc[`getDirectory`] 
+| 
+
+| xref:IconList/getIcon.adoc[`getIcon`] 
+| 
+
+| xref:IconList/getIconIndex.adoc[`getIconIndex`] 
+| 
+
+| xref:IconList/icon.adoc[`icon`] 
+| Returns the icon with the given key or nullptr if it doesn&apos;t exist&period;
+
+
+
+| xref:IconList/iconDirectory.adoc[`iconDirectory`] 
+| Returns the directory of the icon with the given key or the default directory if it&apos;s a builtin icon&period;
+
+
+
+| xref:IconList/iconFileExists.adoc[`iconFileExists`] 
+| 
+
+| xref:IconList/iconUpdated.adoc[`iconUpdated`] 
+| 
+
+| xref:IconList/installIcon.adoc[`installIcon`] 
+| 
+
+| xref:IconList/installIcons.adoc[`installIcons`] 
+| 
+
+| xref:IconList/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:IconList/mimeTypes.adoc[`mimeTypes`] 
+| 
+
+| xref:IconList/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:IconList/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:IconList/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:IconList/saveIcon.adoc[`saveIcon`] 
+| 
+
+| xref:IconList/startWatching.adoc[`startWatching`] 
+| 
+
+| xref:IconList/stopWatching.adoc[`stopWatching`] 
+| 
+
+| xref:IconList/supportedDropActions.adoc[`supportedDropActions`] 
+| 
+
+| xref:IconList/trashIcon.adoc[`trashIcon`] 
+| 
+
+| xref:IconList/2destructor.adoc[`&tilde;IconList`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconList/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IconList/SettingChanged.adoc[`SettingChanged`] 
+| 
+
+| xref:IconList/fileChanged.adoc[`fileChanged`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

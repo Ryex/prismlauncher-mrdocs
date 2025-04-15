@@ -1,0 +1,22 @@
+[#Ui-EnvironmentVariables]
+= xref:Ui.adoc[Ui]::EnvironmentVariables
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/EnvironmentVariables.h#L25[ui&sol;widgets&sol;EnvironmentVariables&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class EnvironmentVariables
+    : public xref:Ui_EnvironmentVariables.adoc[Ui&lowbar;EnvironmentVariables];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#ModrinthCheckUpdate-2constructor]
+= xref:ModrinthCheckUpdate.adoc[ModrinthCheckUpdate]::ModrinthCheckUpdate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthCheckUpdate.h#L9[modplatform&sol;modrinth&sol;ModrinthCheckUpdate&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthCheckUpdate(
+    xref:QList.adoc[QList]&lt;xref:Resource.adoc[Resource]*&gt;& resources,
+    xref:std.adoc[std]::xref:std/__cxx11/list.adoc[list]&lt;xref:Version.adoc[Version]&gt;& mcVersions,
+    xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderType.adoc[ModLoaderType]&gt; loadersList,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt; resourceModel);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

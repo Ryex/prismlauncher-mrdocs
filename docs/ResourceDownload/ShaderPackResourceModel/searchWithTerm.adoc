@@ -1,0 +1,21 @@
+[#ResourceDownload-ShaderPackResourceModel-searchWithTerm]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourceModel.adoc[ShaderPackResourceModel]::searchWithTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackModel.h#L26[ui&sol;pages&sol;modplatform&sol;ShaderPackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+searchWithTerm(
+    xref:QString.adoc[QString] const& term,
+    unsigned int sort);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

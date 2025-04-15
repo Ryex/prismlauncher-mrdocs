@@ -1,0 +1,18 @@
+[#MetaEntry-m_remote_changed_timestamp]
+= xref:MetaEntry.adoc[MetaEntry]::m&lowbar;remote&lowbar;changed&lowbar;timestamp
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L87[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;remote&lowbar;changed&lowbar;timestamp;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

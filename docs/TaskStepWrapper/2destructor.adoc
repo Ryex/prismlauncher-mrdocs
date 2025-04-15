@@ -1,0 +1,19 @@
+[#TaskStepWrapper-2destructor]
+= xref:TaskStepWrapper.adoc[TaskStepWrapper]::&tilde;TaskStepWrapper
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/TaskStepWrapper.h#L28[launch&sol;TaskStepWrapper&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;TaskStepWrapper() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

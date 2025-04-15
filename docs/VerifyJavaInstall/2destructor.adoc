@@ -1,0 +1,19 @@
+[#VerifyJavaInstall-2destructor]
+= xref:VerifyJavaInstall.adoc[VerifyJavaInstall]::&tilde;VerifyJavaInstall
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/VerifyJavaInstall.h#L46[minecraft&sol;launch&sol;VerifyJavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;VerifyJavaInstall() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

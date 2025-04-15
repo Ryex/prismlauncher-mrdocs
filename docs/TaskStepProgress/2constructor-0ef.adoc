@@ -1,0 +1,18 @@
+[#TaskStepProgress-2constructor-0ef]
+= xref:TaskStepProgress.adoc[TaskStepProgress]::TaskStepProgress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L63[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+TaskStepProgress();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

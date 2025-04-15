@@ -1,0 +1,25 @@
+[#BaseInstance-id]
+= xref:BaseInstance.adoc[BaseInstance]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+The instance&apos;s ID&period; The ID SHALL be determined by LAUNCHER internally&period; The ID IS guaranteed to
+be unique&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L105[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

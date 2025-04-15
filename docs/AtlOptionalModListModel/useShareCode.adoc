@@ -1,0 +1,19 @@
+[#AtlOptionalModListModel-useShareCode]
+= xref:AtlOptionalModListModel.adoc[AtlOptionalModListModel]::useShareCode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.h#L71[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlOptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+useShareCode(xref:QString.adoc[QString] const& code);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

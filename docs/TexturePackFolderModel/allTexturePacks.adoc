@@ -1,0 +1,19 @@
+[#TexturePackFolderModel-allTexturePacks]
+= xref:TexturePackFolderModel.adoc[TexturePackFolderModel]::allTexturePacks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePackFolderModel.h#L61[minecraft&sol;mod&sol;TexturePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:TexturePack.adoc[TexturePack]*&gt;
+allTexturePacks();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

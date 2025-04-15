@@ -1,0 +1,23 @@
+[#MinecraftInstance-jarModsDir]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::jarModsDir
+:relfileprefix: ../
+:mrdocs:
+
+
+&sol;&sol;&sol; Directories and files &sol;&sol;&sol;&sol;&sol;&sol;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L76[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+jarModsDir() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

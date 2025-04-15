@@ -1,0 +1,22 @@
+[#VersionFile-compatibleJavaMajors]
+= xref:VersionFile.adoc[VersionFile]::compatibleJavaMajors
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; list of compatible java majors
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L102[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;int&gt; compatibleJavaMajors;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#VersionProxyModel-clearFilters]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::clearFilters
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L33[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clearFilters();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

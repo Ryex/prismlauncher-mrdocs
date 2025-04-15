@@ -1,0 +1,20 @@
+[#Resource-internal_id]
+= xref:Resource.adoc[Resource]::internal&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L88[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:QString.adoc[QString]
+internal&lowbar;id() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

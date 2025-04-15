@@ -1,0 +1,19 @@
+[#GZTar]
+= GZTar
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GZTar/extract.adoc[`extract`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

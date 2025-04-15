@@ -1,0 +1,20 @@
+[#CustomPage-retranslate]
+= xref:CustomPage.adoc[CustomPage]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/CustomPage.h#L61[ui&sol;pages&sol;modplatform&sol;CustomPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+retranslate() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

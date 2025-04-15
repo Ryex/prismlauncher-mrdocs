@@ -1,0 +1,22 @@
+[#ResourceDownload-ModModel-searchWithTerm]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModModel.adoc[ModModel]::searchWithTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModModel.h#L30[ui&sol;pages&sol;modplatform&sol;ModModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+searchWithTerm(
+    xref:QString.adoc[QString] const& term,
+    unsigned int sort,
+    bool filter&lowbar;changed);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

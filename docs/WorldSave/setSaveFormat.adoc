@@ -1,0 +1,23 @@
+[#WorldSave-setSaveFormat]
+= xref:WorldSave.adoc[WorldSave]::setSaveFormat
+:relfileprefix: ../
+:mrdocs:
+
+
+Thread&hyphen;safe&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L46[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSaveFormat(xref:WorldSaveFormat.adoc[WorldSaveFormat] new&lowbar;save&lowbar;format);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ModPlatform-DonationData-id]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/DonationData.adoc[DonationData]::id
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L55[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] id;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

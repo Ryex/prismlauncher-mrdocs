@@ -1,0 +1,20 @@
+[#CheckUpdateTask-executeTask]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L67[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

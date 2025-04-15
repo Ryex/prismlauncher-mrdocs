@@ -1,0 +1,22 @@
+[#FS-linux_ficlone]
+= xref:FS.adoc[FS]::linux&lowbar;ficlone
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L534[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+linux&lowbar;ficlone(
+    xref:std.adoc[std]::xref:std/string.adoc[string] const& src&lowbar;path,
+    xref:std.adoc[std]::xref:std/string.adoc[string] const& dst&lowbar;path,
+    xref:std.adoc[std]::xref:std/error_code.adoc[error&lowbar;code]& ec);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

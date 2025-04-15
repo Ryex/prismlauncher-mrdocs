@@ -1,0 +1,19 @@
+[#World-bytes]
+= xref:World.adoc[World]::bytes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L38[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:int64_t.adoc[int64&lowbar;t]
+bytes() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

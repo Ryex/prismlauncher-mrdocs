@@ -1,0 +1,19 @@
+[#defaultLangCode]
+= defaultLangCode
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L57[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QLatin1String.adoc[QLatin1String] const defaultLangCode = defaultLangCode(&quot;en&lowbar;US&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

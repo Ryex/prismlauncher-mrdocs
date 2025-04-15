@@ -1,0 +1,70 @@
+[#DarkTheme]
+= DarkTheme
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/DarkTheme.h#L39[ui&sol;themes&sol;DarkTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class DarkTheme
+    : public xref:FusionTheme.adoc[FusionTheme];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ITheme/appStyleSheet.adoc[`appStyleSheet`] 
+| 
+| xref:ITheme/apply.adoc[`apply`] 
+| 
+
+| xref:ITheme/colorScheme.adoc[`colorScheme`] 
+| 
+| xref:ITheme/fadeAmount.adoc[`fadeAmount`] 
+| 
+| xref:ITheme/fadeColor.adoc[`fadeColor`] 
+| 
+| xref:ITheme/hasStyleSheet.adoc[`hasStyleSheet`] 
+| 
+| xref:ITheme/id.adoc[`id`] 
+| 
+| xref:ITheme/logColorScheme.adoc[`logColorScheme`] 
+| 
+
+| xref:ITheme/name.adoc[`name`] 
+| 
+| xref:ITheme/qtTheme.adoc[`qtTheme`] 
+| 
+| xref:ITheme/searchPaths.adoc[`searchPaths`] 
+| 
+
+| xref:ITheme/tooltip.adoc[`tooltip`] 
+| 
+| xref:DarkTheme/2destructor.adoc[`&tilde;DarkTheme`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ITheme/defaultLogColors.adoc[`defaultLogColors`] 
+| 
+
+| xref:ITheme/fadeInactive.adoc[`fadeInactive`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,25 @@
+[#ResourceDownload-ResourceModel-getIcon]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::getIcon
+:relfileprefix: ../../
+:mrdocs:
+
+
+Gets the icon at the URL for the given index&period; If it&apos;s not fetched yet, fetch it and update when fisinhed&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L99[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QIcon.adoc[QIcon]&gt;
+getIcon(
+    xref:QModelIndex.adoc[QModelIndex]&,
+    xref:QUrl.adoc[QUrl] const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

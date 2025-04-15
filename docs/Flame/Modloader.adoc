@@ -1,0 +1,33 @@
+[#Flame-Modloader]
+= xref:Flame.adoc[Flame]::Modloader
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L61[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Modloader;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/Modloader/id.adoc[`id`] 
+| 
+
+| xref:Flame/Modloader/primary.adoc[`primary`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

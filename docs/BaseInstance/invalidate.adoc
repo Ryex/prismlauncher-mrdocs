@@ -1,0 +1,31 @@
+[#BaseInstance-invalidate]
+= xref:BaseInstance.adoc[BaseInstance]::invalidate
+:relfileprefix: ../
+:mrdocs:
+
+
+&ast;
+the instance has been invalidated &hyphen; it is no longer tracked by the launcher for some reason,
+but it has not necessarily been deleted&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L101[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+invalidate();
+----
+
+== Description
+
+Happens when the instance folder changes to some other location, or the instance is removed by external means&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

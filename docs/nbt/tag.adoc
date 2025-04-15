@@ -1,0 +1,25 @@
+[#nbt-tag]
+= xref:nbt.adoc[nbt]::tag
+:relfileprefix: ../
+:mrdocs:
+
+
+Base class for all NBT tag classes
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//home/ryex/projects/prism/libraries/libnbtplusplus/include/tag.h#L66[&sol;home&sol;ryex&sol;projects&sol;prism&sol;libraries&sol;libnbtplusplus&sol;include&sol;tag&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class tag;
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

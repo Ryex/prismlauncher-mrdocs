@@ -1,0 +1,22 @@
+[#InstanceImportTask-2constructor]
+= xref:InstanceImportTask.adoc[InstanceImportTask]::InstanceImportTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceImportTask.h#L48[InstanceImportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+InstanceImportTask(
+    xref:QUrl.adoc[QUrl] const& sourceUrl,
+    xref:QWidget.adoc[QWidget]* parent = nullptr,
+    xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt;&& extra&lowbar;info = &equals; &lcub;&rcub;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

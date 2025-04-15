@@ -1,0 +1,19 @@
+[#Component-2destructor]
+= xref:Component.adoc[Component]::&tilde;Component
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L60[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;Component();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

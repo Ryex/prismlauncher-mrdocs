@@ -1,0 +1,19 @@
+[#Component-setVersion]
+= xref:Component.adoc[Component]::setVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L101[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setVersion(xref:QString.adoc[QString] const& version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

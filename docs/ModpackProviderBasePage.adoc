@@ -1,0 +1,111 @@
+[#ModpackProviderBasePage]
+= ModpackProviderBasePage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModpackProviderBasePage.h#L23[ui&sol;pages&sol;modplatform&sol;ModpackProviderBasePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ModpackProviderBasePage
+    : public xref:BasePage.adoc[BasePage]
+    , public xref:BasePage.adoc[BasePage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+
+| xref:ModpackProviderBasePage/getSerachTerm.adoc[`getSerachTerm`] 
+| Get the current term in the search bar&period;
+
+
+
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+
+| xref:BasePage/id.adoc[`id`] 
+| 
+
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:ModpackProviderBasePage/setSearchTerm.adoc[`setSearchTerm`] 
+| Programatically set the term in the search bar&period;
+
+
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

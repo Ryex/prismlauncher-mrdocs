@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourcePage-m_model]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePage.adoc[ResourcePage]::m&lowbar;model
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePage.h#L108[ui&sol;pages&sol;modplatform&sol;ResourcePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ResourceDownload/ResourceModel.adoc[ResourceModel]* m&lowbar;model = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

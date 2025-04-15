@@ -1,0 +1,30 @@
+[#BaseVersionList-getLoadTask]
+= xref:BaseVersionList.adoc[BaseVersionList]::getLoadTask
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets a task that will reload the version list&period;
+Simply execute the task to load the list&period;
+The task returned by this function should reset the model when it&apos;s done&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L66[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getLoadTask() = 0;
+----
+
+== Return Value
+
+A pointer to a task that reloads the version list&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

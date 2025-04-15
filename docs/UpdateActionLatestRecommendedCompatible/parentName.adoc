@@ -1,0 +1,18 @@
+[#UpdateActionLatestRecommendedCompatible-parentName]
+= xref:UpdateActionLatestRecommendedCompatible.adoc[UpdateActionLatestRecommendedCompatible]::parentName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L29[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] parentName;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PostLaunchCommand-2destructor]
+= xref:PostLaunchCommand.adoc[PostLaunchCommand]::&tilde;PostLaunchCommand
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PostLaunchCommand.h#L25[launch&sol;steps&sol;PostLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PostLaunchCommand();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

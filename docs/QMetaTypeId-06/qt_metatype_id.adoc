@@ -1,0 +1,20 @@
+[#QMetaTypeId-06-qt_metatype_id]
+= xref:QMetaTypeId-06.adoc[QMetaTypeId]&lt;xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::xref:Meta/Version/Ptr.adoc[Ptr]&gt;::qt&lowbar;metatype&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L94[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+qt&lowbar;metatype&lowbar;id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

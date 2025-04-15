@@ -1,0 +1,19 @@
+[#ProjectDescriptionPage-setMetaEntry]
+= xref:ProjectDescriptionPage.adoc[ProjectDescriptionPage]::setMetaEntry
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectDescriptionPage.h#L20[ui&sol;widgets&sol;ProjectDescriptionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setMetaEntry(xref:QString.adoc[QString] entry);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

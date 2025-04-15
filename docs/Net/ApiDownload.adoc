@@ -1,0 +1,25 @@
+[#Net-ApiDownload]
+= xref:Net.adoc[Net]::ApiDownload
+:relfileprefix: ../
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/ApiDownload/makeByteArray.adoc[`makeByteArray`] 
+| 
+
+| xref:Net/ApiDownload/makeCached.adoc[`makeCached`] 
+| 
+
+| xref:Net/ApiDownload/makeFile.adoc[`makeFile`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

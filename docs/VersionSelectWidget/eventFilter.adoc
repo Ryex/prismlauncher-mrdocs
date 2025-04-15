@@ -1,0 +1,22 @@
+[#VersionSelectWidget-eventFilter]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::eventFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L79[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+eventFilter(
+    xref:QObject.adoc[QObject]* watched,
+    xref:QEvent.adoc[QEvent]* event) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

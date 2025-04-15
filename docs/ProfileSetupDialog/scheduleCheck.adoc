@@ -1,0 +1,19 @@
+[#ProfileSetupDialog-scheduleCheck]
+= xref:ProfileSetupDialog.adoc[ProfileSetupDialog]::scheduleCheck
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.h#L51[ui&sol;dialogs&sol;ProfileSetupDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+scheduleCheck(xref:QString.adoc[QString] const& name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ExternalResourcesPage-m_wide_bar_setting]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::m&lowbar;wide&lowbar;bar&lowbar;setting
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L77[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Setting.adoc[Setting]&gt; m&lowbar;wide&lowbar;bar&lowbar;setting = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

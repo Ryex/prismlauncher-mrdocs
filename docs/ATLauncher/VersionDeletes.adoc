@@ -1,0 +1,33 @@
+[#ATLauncher-VersionDeletes]
+= xref:ATLauncher.adoc[ATLauncher]::VersionDeletes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L151[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VersionDeletes;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/VersionDeletes/files.adoc[`files`] 
+| 
+
+| xref:ATLauncher/VersionDeletes/folders.adoc[`folders`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,30 @@
+[#ModPlatform-IndexedVersionType-toString]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::toString
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L66[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString] const
+xref:ModPlatform/IndexedVersionType/toString-02.adoc[toString](xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::xref:ModPlatform/IndexedVersionType/VersionType.adoc[VersionType] const& type);
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/toString-02.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:ModPlatform/IndexedVersionType/toString-0c.adoc[toString]() const;
+----
+
+[.small]#xref:ModPlatform/IndexedVersionType/toString-0c.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

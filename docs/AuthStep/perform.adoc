@@ -1,0 +1,20 @@
+[#AuthStep-perform]
+= xref:AuthStep.adoc[AuthStep]::perform
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthStep.h#L36[minecraft&sol;auth&sol;AuthStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+perform() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

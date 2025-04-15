@@ -1,0 +1,24 @@
+[#AccountList-onDefaultAccountChanged]
+= xref:AccountList.adoc[AccountList]::onDefaultAccountChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Called whenever the active account changes&period;
+Emits the defaultAccountChanged() signal and autosaves the list if enabled&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L160[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onDefaultAccountChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

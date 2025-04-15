@@ -1,0 +1,19 @@
+[#MCEditTool-path]
+= xref:MCEditTool.adoc[MCEditTool]::path
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/MCEditTool.h#L10[tools&sol;MCEditTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+path() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

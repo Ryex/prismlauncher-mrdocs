@@ -1,0 +1,20 @@
+[#Java-SymlinkTask-metaObject]
+= xref:Java.adoc[Java]::xref:Java/SymlinkTask.adoc[SymlinkTask]::metaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/SymlinkTask.h#L25[java&sol;download&sol;SymlinkTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

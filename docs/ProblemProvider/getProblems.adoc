@@ -1,0 +1,20 @@
+[#ProblemProvider-getProblems]
+= xref:ProblemProvider.adoc[ProblemProvider]::getProblems
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L16[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QList.adoc[QList]&lt;xref:PatchProblem.adoc[PatchProblem]&gt; const
+getProblems() const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

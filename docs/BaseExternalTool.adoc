@@ -1,0 +1,74 @@
+[#BaseExternalTool]
+= BaseExternalTool
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseExternalTool.h#L10[tools&sol;BaseExternalTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseExternalTool
+    : public xref:QObject.adoc[QObject]
+    , public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/2constructor.adoc[`BaseExternalTool`]         [.small]#[constructor]#
+| 
+
+| xref:BaseExternalTool/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:BaseExternalTool/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:BaseExternalTool/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BaseExternalTool/2destructor.adoc[`&tilde;BaseExternalTool`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalTool/globalSettings.adoc[`globalSettings`] 
+| 
+
+| xref:BaseExternalTool/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

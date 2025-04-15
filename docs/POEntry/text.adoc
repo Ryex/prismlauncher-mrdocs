@@ -1,0 +1,18 @@
+[#POEntry-text]
+= xref:POEntry.adoc[POEntry]::text
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L7[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] text;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

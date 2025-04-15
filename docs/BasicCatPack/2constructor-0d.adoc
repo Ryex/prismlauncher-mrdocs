@@ -1,0 +1,18 @@
+[#BasicCatPack-2constructor-0d]
+= xref:BasicCatPack.adoc[BasicCatPack]::BasicCatPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L54[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+BasicCatPack(xref:QString.adoc[QString] id);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

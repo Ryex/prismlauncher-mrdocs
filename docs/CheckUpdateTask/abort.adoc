@@ -1,0 +1,20 @@
+[#CheckUpdateTask-abort]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L64[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

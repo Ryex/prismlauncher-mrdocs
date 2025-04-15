@@ -1,0 +1,19 @@
+[#FTBImportAPP-Ui]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::Ui
+:relfileprefix: ../
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/Ui/ImportFTBPage.adoc[`ImportFTBPage`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

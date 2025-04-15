@@ -1,0 +1,19 @@
+[#InfoFrame-clear]
+= xref:InfoFrame.adoc[InfoFrame]::clear
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L61[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clear();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

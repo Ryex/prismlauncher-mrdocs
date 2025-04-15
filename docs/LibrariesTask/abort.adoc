@@ -1,0 +1,20 @@
+[#LibrariesTask-abort]
+= xref:LibrariesTask.adoc[LibrariesTask]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/update/LibrariesTask.h#L20[minecraft&sol;update&sol;LibrariesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

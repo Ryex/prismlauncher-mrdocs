@@ -1,0 +1,52 @@
+[#Agent]
+= Agent
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Agent.h#L11[minecraft&sol;Agent&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Agent;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Agent/2constructor.adoc[`Agent`]         [.small]#[constructor]#
+| 
+
+| xref:Agent/argument.adoc[`argument`] 
+| 
+
+| xref:Agent/library.adoc[`library`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Agent/m_argument.adoc[`m&lowbar;argument`] 
+| The argument to the Java agent, passed after an &equals; if present
+
+
+
+| xref:Agent/m_library.adoc[`m&lowbar;library`] 
+| The library pointing to the jar this Java agent is contained within
+
+
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

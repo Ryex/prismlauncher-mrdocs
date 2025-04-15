@@ -1,0 +1,20 @@
+[#ConcurrentTask-getStepProgress]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::getStepProgress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L64[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:TaskStepProgressList.adoc[TaskStepProgressList]
+getStepProgress() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

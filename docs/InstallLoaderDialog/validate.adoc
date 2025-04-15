@@ -1,0 +1,19 @@
+[#InstallLoaderDialog-validate]
+= xref:InstallLoaderDialog.adoc[InstallLoaderDialog]::validate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/InstallLoaderDialog.h#L38[ui&sol;dialogs&sol;InstallLoaderDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+validate(xref:BasePage.adoc[BasePage]* page);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

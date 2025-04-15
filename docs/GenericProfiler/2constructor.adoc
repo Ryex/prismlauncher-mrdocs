@@ -1,0 +1,21 @@
+[#GenericProfiler-2constructor]
+= xref:GenericProfiler.adoc[GenericProfiler]::GenericProfiler
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/GenericProfiler.cpp#L27[tools&sol;GenericProfiler&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+GenericProfiler(
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings,
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QObject.adoc[QObject]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

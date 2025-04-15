@@ -1,0 +1,27 @@
+[#Override]
+= Override
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Override/createOverrides.adoc[`createOverrides`] 
+| This creates a file in &grave;parent&lowbar;folder&grave; that holds information about which
+overrides are in &grave;override&lowbar;path&grave;&period;
+
+
+
+| xref:Override/readOverrides.adoc[`readOverrides`] 
+| This reads an existing overrides archive, returning a list of overrides&period;
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

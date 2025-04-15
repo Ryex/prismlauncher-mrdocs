@@ -1,0 +1,30 @@
+[#Resource-compare]
+= xref:Resource.adoc[Resource]::compare
+:relfileprefix: ../
+:mrdocs:
+
+
+Compares two Resources, for sorting purposes, considering a ascending order, returning&colon;
+&gt; 0&colon; &apos;this&apos; comes after &apos;other&apos;
+&equals; 0&colon; &apos;this&apos; is equal to &apos;other&apos;
+&lt; 0&colon; &apos;this&apos; comes before &apos;other&apos;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L113[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+virtual
+int
+compare(
+    xref:Resource.adoc[Resource] const& other,
+    xref:SortType.adoc[SortType] type = SortType&colon;&colon;NAME) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,67 @@
+[#JavaCommon-TestCheck]
+= xref:JavaCommon.adoc[JavaCommon]::TestCheck
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/JavaCommon.h#L21[JavaCommon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class TestCheck
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaCommon/TestCheck/2constructor.adoc[`TestCheck`]         [.small]#[constructor]#
+| 
+
+| xref:JavaCommon/TestCheck/finished.adoc[`finished`] 
+| 
+
+| xref:JavaCommon/TestCheck/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:JavaCommon/TestCheck/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:JavaCommon/TestCheck/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:JavaCommon/TestCheck/run.adoc[`run`] 
+| 
+
+| xref:JavaCommon/TestCheck/2destructor.adoc[`&tilde;TestCheck`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaCommon/TestCheck/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaCommon/TestCheck/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Modrinth-File-required]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/File.adoc[File]::required
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L60[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool required = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

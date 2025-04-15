@@ -1,0 +1,19 @@
+[#Resource-setStatus]
+= xref:Resource.adoc[Resource]::setStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L104[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setStatus(xref:ResourceStatus.adoc[ResourceStatus] status);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

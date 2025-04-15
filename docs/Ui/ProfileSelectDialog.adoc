@@ -1,0 +1,22 @@
+[#Ui-ProfileSelectDialog]
+= xref:Ui.adoc[Ui]::ProfileSelectDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L25[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProfileSelectDialog
+    : public xref:Ui_ProfileSelectDialog.adoc[Ui&lowbar;ProfileSelectDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

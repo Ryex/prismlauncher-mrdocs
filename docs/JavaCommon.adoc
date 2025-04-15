@@ -1,0 +1,44 @@
+[#JavaCommon]
+= JavaCommon
+:relfileprefix: 
+:mrdocs:
+
+
+Common UI bits for the java pages to use&period;
+
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaCommon/TestCheck.adoc[`TestCheck`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaCommon/checkJVMArgs.adoc[`checkJVMArgs`] 
+| 
+
+| xref:JavaCommon/javaArgsWereBad.adoc[`javaArgsWereBad`] 
+| 
+
+| xref:JavaCommon/javaBinaryWasBad.adoc[`javaBinaryWasBad`] 
+| 
+
+| xref:JavaCommon/javaCheckNotFound.adoc[`javaCheckNotFound`] 
+| 
+
+| xref:JavaCommon/javaWasOk.adoc[`javaWasOk`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

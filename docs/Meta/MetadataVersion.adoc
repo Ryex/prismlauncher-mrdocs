@@ -1,0 +1,29 @@
+[#Meta-MetadataVersion]
+= xref:Meta.adoc[Meta]::MetadataVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L28[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum MetadataVersion : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Invalid`
+|
+|`InitialRelease`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

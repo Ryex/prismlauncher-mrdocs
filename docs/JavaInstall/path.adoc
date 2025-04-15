@@ -1,0 +1,18 @@
+[#JavaInstall-path]
+= xref:JavaInstall.adoc[JavaInstall]::path
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstall.h#L41[java&sol;JavaInstall&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] path;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,32 @@
+[#ResourceFolderModel-uninstallResource]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::uninstallResource
+:relfileprefix: ../
+:mrdocs:
+
+
+Uninstall (i&period;e&period; remove all data about it) a resource, given its file name&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L102[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+uninstallResource(
+    xref:QString.adoc[QString] file&lowbar;name,
+    bool preserve&lowbar;metadata = false);
+----
+
+== Description
+
+Returns whether the removal was successful&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

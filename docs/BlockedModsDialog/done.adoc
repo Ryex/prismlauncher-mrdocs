@@ -1,0 +1,20 @@
+[#BlockedModsDialog-done]
+= xref:BlockedModsDialog.adoc[BlockedModsDialog]::done
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L67[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+done(int r) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

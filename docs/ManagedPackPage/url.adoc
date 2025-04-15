@@ -1,0 +1,26 @@
+[#ManagedPackPage-url]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::url
+:relfileprefix: ../
+:mrdocs:
+
+
+URL of the managed pack&period;
+Not the version&hyphen;specific one&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L58[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+url() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

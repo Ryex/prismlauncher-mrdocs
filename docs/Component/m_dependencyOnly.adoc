@@ -1,0 +1,22 @@
+[#Component-m_dependencyOnly]
+= xref:Component.adoc[Component]::m&lowbar;dependencyOnly
+:relfileprefix: ../
+:mrdocs:
+
+
+if true, this has been added automatically to satisfy dependencies and may be automatically removed
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L125[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;dependencyOnly = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

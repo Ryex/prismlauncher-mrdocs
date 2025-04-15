@@ -1,0 +1,20 @@
+[#QMetaTypeId-0f8-qt_metatype_id]
+= xref:QMetaTypeId-0f8.adoc[QMetaTypeId]&lt;xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:BaseInstance.adoc[BaseInstance]&gt;&gt;::qt&lowbar;metatype&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L321[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+qt&lowbar;metatype&lowbar;id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

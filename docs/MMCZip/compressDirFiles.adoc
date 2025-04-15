@@ -1,0 +1,74 @@
+[#MMCZip-compressDirFiles]
+= xref:MMCZip.adoc[MMCZip]::compressDirFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+Compress directory, by providing a list of files to compress
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L73[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:MMCZip/compressDirFiles-04.adoc[compressDirFiles](
+    xref:QuaZip.adoc[QuaZip]* zip,
+    xref:QString.adoc[QString] dir,
+    xref:QFileInfoList.adoc[QFileInfoList] files,
+    bool followSymlinks = false);
+----
+
+[.small]#xref:MMCZip/compressDirFiles-04.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:MMCZip/compressDirFiles-0f.adoc[compressDirFiles](
+    xref:QString.adoc[QString] fileCompressed,
+    xref:QString.adoc[QString] dir,
+    xref:QFileInfoList.adoc[QFileInfoList] files,
+    bool followSymlinks = false);
+----
+
+[.small]#xref:MMCZip/compressDirFiles-0f.adoc[_» more..._]#
+
+== Return Value
+
+true for success or false for failure
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *zip*
+| target archive
+
+
+| *dir*
+| directory that will be compressed (to compress with relative paths)
+
+
+| *files*
+| list of files to compress
+
+
+| *followSymlinks*
+| should follow symlinks when compressing file data
+
+
+| *fileCompressed*
+| target archive file
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Library-version]
+= xref:Library.adoc[Library]::version
+:relfileprefix: ../
+:mrdocs:
+
+
+get the artifact version
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L97[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+version() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

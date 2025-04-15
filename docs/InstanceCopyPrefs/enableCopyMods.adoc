@@ -1,0 +1,19 @@
+[#InstanceCopyPrefs-enableCopyMods]
+= xref:InstanceCopyPrefs.adoc[InstanceCopyPrefs]::enableCopyMods
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyPrefs.h#L35[InstanceCopyPrefs&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+enableCopyMods(bool b);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

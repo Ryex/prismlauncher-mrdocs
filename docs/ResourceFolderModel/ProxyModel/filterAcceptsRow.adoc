@@ -1,0 +1,23 @@
+[#ResourceFolderModel-ProxyModel-filterAcceptsRow]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::xref:ResourceFolderModel/ProxyModel.adoc[ProxyModel]::filterAcceptsRow
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L180[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+filterAcceptsRow(
+    int source&lowbar;row,
+    xref:QModelIndex.adoc[QModelIndex] const& source&lowbar;parent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

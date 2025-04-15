@@ -1,0 +1,19 @@
+[#AccountListPage-2destructor]
+= xref:AccountListPage.adoc[AccountListPage]::&tilde;AccountListPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L57[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;AccountListPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

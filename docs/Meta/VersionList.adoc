@@ -1,0 +1,243 @@
+[#Meta-VersionList]
+= xref:Meta.adoc[Meta]::VersionList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L27[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionList
+    : public xref:BaseVersionList.adoc[BaseVersionList]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity]
+    , public xref:BaseVersionList.adoc[BaseVersionList]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity]
+    , public xref:BaseVersionList.adoc[BaseVersionList]
+    , public xref:Meta/BaseEntity.adoc[BaseEntity];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/Ptr.adoc[`Ptr`] 
+| 
+
+| xref:Meta/VersionList/Ptr.adoc[`Ptr`] 
+| 
+
+| xref:BaseVersionList/RoleList.adoc[`RoleList`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/LoadStatus.adoc[`LoadStatus`] 
+| 
+
+| xref:BaseVersionList/ModelRoles.adoc[`ModelRoles`] 
+| 
+
+| xref:Meta/VersionList/Roles.adoc[`Roles`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/VersionList/2constructor.adoc[`VersionList`]         [.small]#[constructor]#
+| 
+
+| xref:Meta/VersionList/addExternalRecommends.adoc[`addExternalRecommends`] 
+| 
+
+| xref:BaseVersionList/at.adoc[`at`] 
+| Gets the version at the given index&period;
+
+
+
+| xref:Meta/VersionList/clearExternalRecommends.adoc[`clearExternalRecommends`] 
+| 
+
+| xref:BaseVersionList/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:BaseVersionList/count.adoc[`count`] 
+| Returns the number of versions in the list&period;
+
+
+
+| xref:BaseVersionList/data.adoc[`data`] 
+| &sol;&sol;&sol;&sol;&sol; List Model Functions &sol;&sol;&sol;&sol;&sol;&sol;&sol;&sol;
+
+
+
+| xref:BaseVersionList/findVersion.adoc[`findVersion`] 
+| Finds a version by its descriptor&period;
+
+| xref:Meta/VersionList/getLatestForParent.adoc[`getLatestForParent`] 
+| 
+
+| xref:BaseVersionList/getLoadTask.adoc[`getLoadTask`] 
+| Gets a task that will reload the version list&period;
+Simply execute the task to load the list&period;
+The task returned by this function should reset the model when it&apos;s done&period;
+
+| xref:BaseVersionList/getRecommended.adoc[`getRecommended`] 
+| Gets the recommended version from this list
+If the list doesn&apos;t support recommended versions, this works exactly as getLatestStable
+
+| xref:Meta/VersionList/getRecommendedForParent.adoc[`getRecommendedForParent`] 
+| 
+
+| xref:Meta/VersionList/getVersion.adoc[`getVersion`] 
+| 
+
+| xref:Meta/VersionList/hasVersion.adoc[`hasVersion`] 
+| 
+
+| xref:Meta/VersionList/humanReadable.adoc[`humanReadable`] 
+| 
+
+| xref:BaseVersionList/isLoaded.adoc[`isLoaded`] 
+| Checks whether or not the list is loaded&period; If this returns false, the list should be
+
+
+
+| xref:Meta/BaseEntity/loadTask.adoc[`loadTask`] 
+| 
+
+| xref:Meta/BaseEntity/localFilename.adoc[`localFilename`] 
+| 
+| xref:Meta/VersionList/merge.adoc[`merge`] 
+| 
+
+| xref:Meta/VersionList/mergeFromIndex.adoc[`mergeFromIndex`] 
+| 
+
+| xref:BaseVersionList/metaObject.adoc[`metaObject`] 
+| 
+| xref:Meta/VersionList/name.adoc[`name`] 
+| 
+
+| xref:Meta/VersionList/nameChanged.adoc[`nameChanged`] 
+| 
+
+| xref:Meta/BaseEntity/parse.adoc[`parse`] 
+| 
+| xref:BaseVersionList/providesRoles.adoc[`providesRoles`] 
+| which roles are provided by this version list?
+
+
+
+| xref:BaseVersionList/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:BaseVersionList/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:BaseVersionList/roleNames.adoc[`roleNames`] 
+| 
+| xref:BaseVersionList/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:Meta/VersionList/setName.adoc[`setName`] 
+| 
+
+| xref:Meta/VersionList/setProvidedRoles.adoc[`setProvidedRoles`] 
+| 
+
+| xref:Meta/BaseEntity/setSha256.adoc[`setSha256`] 
+| 
+
+| xref:Meta/VersionList/setVersions.adoc[`setVersions`] 
+| 
+
+| xref:BaseVersionList/sortVersions.adoc[`sortVersions`] 
+| Sorts the version list&period;
+
+
+
+| xref:Meta/BaseEntity/status.adoc[`status`] 
+| 
+
+| xref:Meta/VersionList/uid.adoc[`uid`] 
+| 
+
+| xref:Meta/BaseEntity/url.adoc[`url`] 
+| 
+
+| xref:Meta/VersionList/versions.adoc[`versions`] 
+| 
+
+| xref:Meta/VersionList/waitToLoad.adoc[`waitToLoad`] 
+| 
+
+| xref:Meta/VersionList/2destructor.adoc[`&tilde;VersionList`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersionList/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersionList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:Meta/VersionList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseVersionList/updateListData.adoc[`updateListData`] 
+| Updates this list with the given list of versions&period;
+This is done by copying each version in the given list and inserting it
+into this one&period;
+We need to do this so that we can set the parents of the versions are set to this
+version list&period; This can&apos;t be done in the load task, because the versions the load
+task creates are on the load task&apos;s thread and Qt won&apos;t allow their parents
+to be set to something created on another thread&period;
+To get around that problem, we invoke this method on the GUI thread, which
+then copies the versions and sets their parents correctly&period;
+
+
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity/m_file_sha256.adoc[`m&lowbar;file&lowbar;sha256`] 
+| 
+
+| xref:Meta/BaseEntity/m_sha256.adoc[`m&lowbar;sha256`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,94 @@
+[#FTBImportAPP-FilterModel]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::FilterModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L29[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FilterModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/FilterModel/Sorting.adoc[`Sorting`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/FilterModel/2constructor.adoc[`FilterModel`]         [.small]#[constructor]#
+| 
+
+| xref:FTBImportAPP/FilterModel/getAvailableSortings.adoc[`getAvailableSortings`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/getCurrentSorting.adoc[`getCurrentSorting`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/setSearchTerm.adoc[`setSearchTerm`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/setSorting.adoc[`setSorting`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/translateCurrentSorting.adoc[`translateCurrentSorting`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/FilterModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/FilterModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/FilterModel/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+| xref:FTBImportAPP/FilterModel/lessThan.adoc[`lessThan`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

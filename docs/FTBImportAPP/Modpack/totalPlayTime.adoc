@@ -1,0 +1,18 @@
+[#FTBImportAPP-Modpack-totalPlayTime]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/Modpack.adoc[Modpack]::totalPlayTime
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/import_ftb/PackHelpers.h#L39[modplatform&sol;import&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int totalPlayTime;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

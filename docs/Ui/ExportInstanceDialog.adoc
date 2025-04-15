@@ -1,0 +1,22 @@
+[#Ui-ExportInstanceDialog]
+= xref:Ui.adoc[Ui]::ExportInstanceDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportInstanceDialog.h#L49[ui&sol;dialogs&sol;ExportInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExportInstanceDialog
+    : public xref:Ui_ExportInstanceDialog.adoc[Ui&lowbar;ExportInstanceDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

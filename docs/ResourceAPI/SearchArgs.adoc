@@ -1,0 +1,54 @@
+[#ResourceAPI-SearchArgs]
+= xref:ResourceAPI.adoc[ResourceAPI]::SearchArgs
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L69[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct SearchArgs;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/SearchArgs/categoryIds.adoc[`categoryIds`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/loaders.adoc[`loaders`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/offset.adoc[`offset`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/openSource.adoc[`openSource`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/search.adoc[`search`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/side.adoc[`side`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/sorting.adoc[`sorting`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/type.adoc[`type`] 
+| 
+
+| xref:ResourceAPI/SearchArgs/versions.adoc[`versions`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

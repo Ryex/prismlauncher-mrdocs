@@ -1,0 +1,22 @@
+[#Ui-ThemeWizardPage]
+= xref:Ui.adoc[Ui]::ThemeWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/ThemeWizardPage.h#L24[ui&sol;setupwizard&sol;ThemeWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ThemeWizardPage
+    : public xref:Ui_ThemeWizardPage.adoc[Ui&lowbar;ThemeWizardPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

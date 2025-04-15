@@ -1,0 +1,22 @@
+[#VersionFile-libraries]
+= xref:VersionFile.adoc[VersionFile]::libraries
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; list of libraries to add to the version
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L123[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:LibraryPtr.adoc[LibraryPtr]&gt; libraries;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

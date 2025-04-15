@@ -1,0 +1,19 @@
+[#FTBImportAPP-ListModel-getUserPath]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/ListModel.adoc[ListModel]::getUserPath
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L63[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getUserPath();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

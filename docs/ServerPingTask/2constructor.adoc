@@ -1,0 +1,21 @@
+[#ServerPingTask-2constructor]
+= xref:ServerPingTask.adoc[ServerPingTask]::ServerPingTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServerPingTask.h#L12[ui&sol;pages&sol;instance&sol;ServerPingTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ServerPingTask(
+    xref:QString.adoc[QString] domain,
+    int port);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

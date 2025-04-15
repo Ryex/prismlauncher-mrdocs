@@ -1,0 +1,23 @@
+[#FS-deletePath]
+= xref:FS.adoc[FS]::deletePath
+:relfileprefix: ../
+:mrdocs:
+
+
+Delete a folder recursively
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L292[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+deletePath(xref:QString.adoc[QString] path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

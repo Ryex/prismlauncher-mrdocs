@@ -1,0 +1,97 @@
+[#LegacyFTB-PackFetchTask]
+= xref:LegacyFTB.adoc[LegacyFTB]::PackFetchTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackFetchTask.h#L12[modplatform&sol;legacy&lowbar;ftb&sol;PackFetchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PackFetchTask
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PackFetchTask/2constructor.adoc[`PackFetchTask`]         [.small]#[constructor]#
+| 
+
+| xref:LegacyFTB/PackFetchTask/aborted.adoc[`aborted`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/failed.adoc[`failed`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/fetch.adoc[`fetch`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/fetchPrivate.adoc[`fetchPrivate`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/finished.adoc[`finished`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/privateFileDownloadFailed.adoc[`privateFileDownloadFailed`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/privateFileDownloadFinished.adoc[`privateFileDownloadFinished`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/2destructor.adoc[`&tilde;PackFetchTask`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PackFetchTask/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PackFetchTask/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PackFetchTask/fileDownloadAborted.adoc[`fileDownloadAborted`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/fileDownloadFailed.adoc[`fileDownloadFailed`] 
+| 
+
+| xref:LegacyFTB/PackFetchTask/fileDownloadFinished.adoc[`fileDownloadFinished`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

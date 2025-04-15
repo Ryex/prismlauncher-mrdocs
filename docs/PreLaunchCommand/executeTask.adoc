@@ -1,0 +1,20 @@
+[#PreLaunchCommand-executeTask]
+= xref:PreLaunchCommand.adoc[PreLaunchCommand]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PreLaunchCommand.h#L27[launch&sol;steps&sol;PreLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

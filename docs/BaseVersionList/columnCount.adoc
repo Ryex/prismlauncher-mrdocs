@@ -1,0 +1,20 @@
+[#BaseVersionList-columnCount]
+= xref:BaseVersionList.adoc[BaseVersionList]::columnCount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L81[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+columnCount(xref:QModelIndex.adoc[QModelIndex] const& parent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

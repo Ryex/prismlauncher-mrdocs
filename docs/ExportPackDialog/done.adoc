@@ -1,0 +1,20 @@
+[#ExportPackDialog-done]
+= xref:ExportPackDialog.adoc[ExportPackDialog]::done
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportPackDialog.h#L40[ui&sol;dialogs&sol;ExportPackDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+done(int result) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

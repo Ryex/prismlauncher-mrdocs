@@ -1,0 +1,21 @@
+[#LegacyFTB-ListModel-getLogo]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/ListModel.adoc[ListModel]::getLogo
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L70[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+getLogo(
+    xref:QString.adoc[QString] const& logo,
+    xref:LegacyFTB/LogoCallback.adoc[LogoCallback] callback);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

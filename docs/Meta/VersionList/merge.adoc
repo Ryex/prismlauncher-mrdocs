@@ -1,0 +1,19 @@
+[#Meta-VersionList-merge]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::merge
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L72[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+merge(xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr] const& other);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

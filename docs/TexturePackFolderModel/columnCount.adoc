@@ -1,0 +1,21 @@
+[#TexturePackFolderModel-columnCount]
+= xref:TexturePackFolderModel.adoc[TexturePackFolderModel]::columnCount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePackFolderModel.h#L56[minecraft&sol;mod&sol;TexturePackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+int
+columnCount(xref:QModelIndex.adoc[QModelIndex] const& parent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

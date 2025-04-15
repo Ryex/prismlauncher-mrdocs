@@ -1,0 +1,18 @@
+[#ComponentUpdateTaskData-netmode]
+= xref:ComponentUpdateTaskData.adoc[ComponentUpdateTaskData]::netmode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L28[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] netmode;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

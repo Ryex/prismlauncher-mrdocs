@@ -1,0 +1,19 @@
+[#ResourceDownload-FlameTexturePackPage-staticMetaObject]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameTexturePackPage.adoc[FlameTexturePackPage]::staticMetaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L134[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

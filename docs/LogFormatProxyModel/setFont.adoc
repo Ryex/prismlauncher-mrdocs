@@ -1,0 +1,19 @@
+[#LogFormatProxyModel-setFont]
+= xref:LogFormatProxyModel.adoc[LogFormatProxyModel]::setFont
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/LogPage.cpp#L88[ui&sol;pages&sol;instance&sol;LogPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFont(xref:QFont.adoc[QFont] font);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

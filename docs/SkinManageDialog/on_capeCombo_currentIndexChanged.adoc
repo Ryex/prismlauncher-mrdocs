@@ -1,0 +1,19 @@
+[#SkinManageDialog-on_capeCombo_currentIndexChanged]
+= xref:SkinManageDialog.adoc[SkinManageDialog]::on&lowbar;capeCombo&lowbar;currentIndexChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/SkinManageDialog.h#L52[ui&sol;dialogs&sol;skins&sol;SkinManageDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;capeCombo&lowbar;currentIndexChanged(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

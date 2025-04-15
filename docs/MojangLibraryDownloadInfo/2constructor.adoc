@@ -1,0 +1,27 @@
+[#MojangLibraryDownloadInfo-2constructor]
+= xref:MojangLibraryDownloadInfo.adoc[MojangLibraryDownloadInfo]::MojangLibraryDownloadInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L22[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MojangLibraryDownloadInfo/2constructor-00.adoc[MojangLibraryDownloadInfo](xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::xref:MojangDownloadInfo/Ptr.adoc[Ptr] artifact&lowbar;);
+----
+
+[.small]#xref:MojangLibraryDownloadInfo/2constructor-00.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MojangLibraryDownloadInfo/2constructor-02.adoc[MojangLibraryDownloadInfo]();
+----
+
+[.small]#xref:MojangLibraryDownloadInfo/2constructor-02.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

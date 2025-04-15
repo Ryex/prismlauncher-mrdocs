@@ -1,0 +1,20 @@
+[#Net-FileSink-hasLocalData]
+= xref:Net.adoc[Net]::xref:Net/FileSink.adoc[FileSink]::hasLocalData
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/FileSink.h#L53[net&sol;FileSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+hasLocalData() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,33 @@
+[#MMCZip-ExtractZipTask-2constructor]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExtractZipTask.adoc[ExtractZipTask]::ExtractZipTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L213[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MMCZip/ExtractZipTask/2constructor-0a.adoc[ExtractZipTask](
+    xref:QString.adoc[QString] input,
+    xref:QDir.adoc[QDir] outputDir,
+    xref:QString.adoc[QString] subdirectory = &quot;&quot;);
+----
+
+[.small]#xref:MMCZip/ExtractZipTask/2constructor-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MMCZip/ExtractZipTask/2constructor-02.adoc[ExtractZipTask](
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QuaZip.adoc[QuaZip]&gt; input,
+    xref:QDir.adoc[QDir] outputDir,
+    xref:QString.adoc[QString] subdirectory = &quot;&quot;);
+----
+
+[.small]#xref:MMCZip/ExtractZipTask/2constructor-02.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

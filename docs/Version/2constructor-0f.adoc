@@ -1,0 +1,19 @@
+[#Version-2constructor-0f]
+= xref:Version.adoc[Version]::Version
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L49[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+Version() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#00namespace-RequireExSet]
+= RequireExSet
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L225[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using RequireExSet = xref:std.adoc[std]::xref:std/set.adoc[set]&lt;xref:00namespace/RequireEx.adoc[RequireEx]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

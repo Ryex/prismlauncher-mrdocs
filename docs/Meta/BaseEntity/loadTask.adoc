@@ -1,0 +1,20 @@
+[#Meta-BaseEntity-loadTask]
+= xref:Meta.adoc[Meta]::xref:Meta/BaseEntity.adoc[BaseEntity]::loadTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.h#L46[meta&sol;BaseEntity&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+loadTask(xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] loadType = Net&colon;&colon;Mode&colon;&colon;Online);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#BaseInstance-m_timeStarted]
+= xref:BaseInstance.adoc[BaseInstance]::m&lowbar;timeStarted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L308[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] m&lowbar;timeStarted;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

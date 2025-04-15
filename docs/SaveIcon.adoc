@@ -1,0 +1,23 @@
+[#SaveIcon]
+= SaveIcon
+:relfileprefix: 
+:mrdocs:
+
+
+Save icon to instance&apos;s folder is needed
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportInstanceDialog.cpp#L100[ui&sol;dialogs&sol;ExportInstanceDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+SaveIcon(xref:InstancePtr.adoc[InstancePtr] m&lowbar;instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

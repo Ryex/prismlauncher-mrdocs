@@ -1,0 +1,19 @@
+[#Application-closeCurrentWindow]
+= xref:Application.adoc[Application]::closeCurrentWindow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L217[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+closeCurrentWindow();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

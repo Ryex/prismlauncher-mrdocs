@@ -1,0 +1,19 @@
+[#nbt-detail]
+= xref:nbt.adoc[nbt]::detail
+:relfileprefix: ../
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:nbt/detail/crtp_tag.adoc[`crtp&lowbar;tag`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#InstallJavaPage-selectedVersion]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::selectedVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L121[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]
+selectedVersion() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

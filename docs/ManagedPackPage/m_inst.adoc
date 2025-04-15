@@ -1,0 +1,18 @@
+[#ManagedPackPage-m_inst]
+= xref:ManagedPackPage.adoc[ManagedPackPage]::m&lowbar;inst
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L94[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:BaseInstance.adoc[BaseInstance]* m&lowbar;inst;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#JavaListLoadTask-m_current_recommended]
+= xref:JavaListLoadTask.adoc[JavaListLoadTask]::m&lowbar;current&lowbar;recommended
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L76[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaInstall.adoc[JavaInstall]* m&lowbar;current&lowbar;recommended;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#VersionProxyModel-setFilter]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::setFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L31[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setFilter(
+    xref:BaseVersionList.adoc[BaseVersionList]::xref:BaseVersionList/ModelRoles.adoc[ModelRoles] column,
+    xref:Filter.adoc[Filter]* filter);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#MinecraftInstance-extraArguments]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::extraArguments
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L126[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+extraArguments() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

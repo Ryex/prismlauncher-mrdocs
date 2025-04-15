@@ -1,0 +1,21 @@
+[#00namespace-entitlementToJSONV3]
+= entitlementToJSONV3
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.cpp#L248[minecraft&sol;auth&sol;AccountData&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+entitlementToJSONV3(
+    xref:QJsonObject.adoc[QJsonObject]& parent,
+    xref:MinecraftEntitlement.adoc[MinecraftEntitlement] p);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

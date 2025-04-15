@@ -1,0 +1,24 @@
+[#ResourceDownload-ModPage-filterMods]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ModPage.adoc[ModPage]::filterMods
+:relfileprefix: ../../
+:mrdocs:
+
+
+&ast;&ast;&ast;&ast;&ast;&ast; Callbacks to events in the UI (set up in the derived classes) &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ModPage.h#L65[ui&sol;pages&sol;modplatform&sol;ModPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+filterMods();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

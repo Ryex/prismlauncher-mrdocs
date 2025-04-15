@@ -1,0 +1,20 @@
+[#ExactIfPresentFilter-accepts]
+= xref:ExactIfPresentFilter.adoc[ExactIfPresentFilter]::accepts
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L36[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+accepts(xref:QString.adoc[QString] const& value) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

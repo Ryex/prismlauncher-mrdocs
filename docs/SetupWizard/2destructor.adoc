@@ -1,0 +1,19 @@
+[#SetupWizard-2destructor]
+= xref:SetupWizard.adoc[SetupWizard]::&tilde;SetupWizard
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/SetupWizard.h#L31[ui&sol;setupwizard&sol;SetupWizard&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;SetupWizard();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

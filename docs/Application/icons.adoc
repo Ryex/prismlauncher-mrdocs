@@ -1,0 +1,19 @@
+[#Application-icons]
+= xref:Application.adoc[Application]::icons
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L131[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:IconList.adoc[IconList]&gt;
+icons() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

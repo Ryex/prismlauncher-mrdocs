@@ -1,0 +1,19 @@
+[#Net-ApiUpload]
+= xref:Net.adoc[Net]::ApiUpload
+:relfileprefix: ../
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/ApiUpload/makeByteArray.adoc[`makeByteArray`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

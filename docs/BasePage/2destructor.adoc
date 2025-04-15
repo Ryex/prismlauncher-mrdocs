@@ -1,0 +1,19 @@
+[#BasePage-2destructor]
+= xref:BasePage.adoc[BasePage]::&tilde;BasePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePage.h#L48[ui&sol;pages&sol;BasePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;BasePage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

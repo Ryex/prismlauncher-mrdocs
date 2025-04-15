@@ -1,0 +1,48 @@
+[#GenericPageProvider]
+= GenericPageProvider
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L27[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class GenericPageProvider
+    : public xref:BasePageProvider.adoc[BasePageProvider]
+    , public xref:BasePageProvider.adoc[BasePageProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GenericPageProvider/2constructor.adoc[`GenericPageProvider`]         [.small]#[constructor]#
+| 
+
+| xref:GenericPageProvider/addPage.adoc[`addPage`] 
+| 
+
+| xref:GenericPageProvider/addPageCreator.adoc[`addPageCreator`] 
+| 
+
+| xref:BasePageProvider/dialogTitle.adoc[`dialogTitle`] 
+| 
+| xref:BasePageProvider/getPages.adoc[`getPages`] 
+| 
+| xref:GenericPageProvider/setDialogTitle.adoc[`setDialogTitle`] 
+| 
+
+| xref:GenericPageProvider/2destructor.adoc[`&tilde;GenericPageProvider`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

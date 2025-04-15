@@ -1,0 +1,36 @@
+[#SettingsObject-resetSetting]
+= xref:SettingsObject.adoc[SettingsObject]::resetSetting
+:relfileprefix: ../
+:mrdocs:
+
+
+Resets a setting&period;
+This slot is usually connected to each Setting object&apos;s
+settingReset() signal&period; The signal is emitted, causing this slot
+to update the setting&apos;s value in the config file&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L180[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+resetSetting(xref:Setting.adoc[Setting] const& setting) = 0;
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *setting*
+| A reference to the Setting object that changed&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

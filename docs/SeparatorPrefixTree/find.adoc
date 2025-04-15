@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-find]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::find
+:relfileprefix: ../
+:mrdocs:
+
+
+find a node in the tree by name
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L124[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree] const*
+find(xref:QString.adoc[QString] path) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

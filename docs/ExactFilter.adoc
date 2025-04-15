@@ -1,0 +1,36 @@
+[#ExactFilter]
+= ExactFilter
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L22[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ExactFilter
+    : public xref:Filter.adoc[Filter];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExactFilter/2constructor.adoc[`ExactFilter`]         [.small]#[constructor]#
+| 
+
+| xref:Filter/accepts.adoc[`accepts`] 
+| 
+| xref:ExactFilter/2destructor.adoc[`&tilde;ExactFilter`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

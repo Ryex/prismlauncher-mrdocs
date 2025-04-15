@@ -1,0 +1,33 @@
+[#ModPlatform-ModpackAuthor]
+= xref:ModPlatform.adoc[ModPlatform]::ModpackAuthor
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L49[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModpackAuthor;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/ModpackAuthor/name.adoc[`name`] 
+| 
+
+| xref:ModPlatform/ModpackAuthor/url.adoc[`url`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

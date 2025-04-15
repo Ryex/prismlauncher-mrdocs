@@ -1,0 +1,19 @@
+[#LaunchTask-pid]
+= xref:LaunchTask.adoc[LaunchTask]::pid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L68[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64]
+pid();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

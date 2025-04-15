@@ -1,0 +1,24 @@
+[#BaseVersionList-providesRoles]
+= xref:BaseVersionList.adoc[BaseVersionList]::providesRoles
+:relfileprefix: ../
+:mrdocs:
+
+
+which roles are provided by this version list?
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L85[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BaseVersionList.adoc[BaseVersionList]::xref:BaseVersionList/RoleList.adoc[RoleList]
+providesRoles() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

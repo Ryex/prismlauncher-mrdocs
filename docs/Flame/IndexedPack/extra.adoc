@@ -1,0 +1,18 @@
+[#Flame-IndexedPack-extra]
+= xref:Flame.adoc[Flame]::xref:Flame/IndexedPack.adoc[IndexedPack]::extra
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L45[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Flame/ModpackExtra.adoc[ModpackExtra] extra;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

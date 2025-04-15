@@ -1,0 +1,19 @@
+[#Meta-VersionList-hasVersion]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::hasVersion
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L62[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+hasVersion(xref:QString.adoc[QString] version) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

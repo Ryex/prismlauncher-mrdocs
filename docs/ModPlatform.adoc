@@ -1,0 +1,109 @@
+[#ModPlatform]
+= ModPlatform
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/ProviderCapabilities.adoc[`ProviderCapabilities`] 
+| 
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/Category.adoc[`Category`] 
+| 
+
+| xref:ModPlatform/Dependency.adoc[`Dependency`] 
+| 
+
+| xref:ModPlatform/DonationData.adoc[`DonationData`] 
+| 
+
+| xref:ModPlatform/ExtraPackData.adoc[`ExtraPackData`] 
+| 
+
+| xref:ModPlatform/IndexedPack.adoc[`IndexedPack`] 
+| 
+
+| xref:ModPlatform/IndexedVersion.adoc[`IndexedVersion`] 
+| 
+
+| xref:ModPlatform/IndexedVersionType.adoc[`IndexedVersionType`] 
+| 
+
+| xref:ModPlatform/ModLoaderTypes.adoc[`ModLoaderTypes`] 
+| 
+
+| xref:ModPlatform/ModpackAuthor.adoc[`ModpackAuthor`] 
+| 
+
+| xref:ModPlatform/OverrideDep.adoc[`OverrideDep`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/DependencyType.adoc[`DependencyType`] 
+| 
+
+| xref:ModPlatform/ModLoaderType.adoc[`ModLoaderType`] 
+| 
+
+| xref:ModPlatform/ResourceProvider.adoc[`ResourceProvider`] 
+| 
+
+| xref:ModPlatform/ResourceType.adoc[`ResourceType`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/getMetaURL.adoc[`getMetaURL`] 
+| 
+
+| xref:ModPlatform/getModLoaderAsString.adoc[`getModLoaderAsString`] 
+| 
+
+| xref:ModPlatform/getModLoaderFromString.adoc[`getModLoaderFromString`] 
+| 
+
+| xref:ModPlatform/getOverrideDeps.adoc[`getOverrideDeps`] 
+| 
+
+| xref:ModPlatform/hasSingleModLoaderSelected.adoc[`hasSingleModLoaderSelected`] 
+| 
+
+| xref:ModPlatform/modLoaderTypesToList.adoc[`modLoaderTypesToList`] 
+| 
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModPlatform/loaderList.adoc[`loaderList`] 
+| 
+
+| xref:ModPlatform/s_indexed_version_type_names.adoc[`s&lowbar;indexed&lowbar;version&lowbar;type&lowbar;names`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

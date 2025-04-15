@@ -1,0 +1,30 @@
+[#VariableSizedImageObject-flush]
+= xref:VariableSizedImageObject.adoc[VariableSizedImageObject]::flush
+:relfileprefix: ../
+:mrdocs:
+
+
+Stops all currently loading images from modifying the document&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VariableSizedImageObject.h#L56[ui&sol;widgets&sol;VariableSizedImageObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+flush();
+----
+
+== Description
+
+This does not stop the ongoing network tasks, it only prevents their result
+from impacting the document any further&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#JavaWizardWidget-autoDownloadJava]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::autoDownloadJava
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L44[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+autoDownloadJava() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

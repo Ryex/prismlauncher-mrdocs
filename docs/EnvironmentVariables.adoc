@@ -1,0 +1,76 @@
+[#EnvironmentVariables]
+= EnvironmentVariables
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/EnvironmentVariables.h#L28[ui&sol;widgets&sol;EnvironmentVariables&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class EnvironmentVariables
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:EnvironmentVariables/2constructor.adoc[`EnvironmentVariables`]         [.small]#[constructor]#
+| 
+
+| xref:EnvironmentVariables/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:EnvironmentVariables/initialize.adoc[`initialize`] 
+| 
+
+| xref:EnvironmentVariables/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:EnvironmentVariables/override.adoc[`override`] 
+| 
+
+| xref:EnvironmentVariables/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:EnvironmentVariables/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:EnvironmentVariables/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:EnvironmentVariables/value.adoc[`value`] 
+| 
+
+| xref:EnvironmentVariables/2destructor.adoc[`&tilde;EnvironmentVariables`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:EnvironmentVariables/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:EnvironmentVariables/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

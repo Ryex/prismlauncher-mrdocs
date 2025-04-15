@@ -1,0 +1,20 @@
+[#ResourceFolderModel-columnToSortKey]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::columnToSortKey
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L172[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:SortType.adoc[SortType]
+columnToSortKey(xref:size_t.adoc[size&lowbar;t] column) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

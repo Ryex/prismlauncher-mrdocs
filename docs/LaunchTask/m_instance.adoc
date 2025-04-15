@@ -1,0 +1,18 @@
+[#LaunchTask-m_instance]
+= xref:LaunchTask.adoc[LaunchTask]::m&lowbar;instance
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L118[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MinecraftInstancePtr.adoc[MinecraftInstancePtr] m&lowbar;instance;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

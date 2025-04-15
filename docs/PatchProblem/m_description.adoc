@@ -1,0 +1,18 @@
+[#PatchProblem-m_description]
+= xref:PatchProblem.adoc[PatchProblem]::m&lowbar;description
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L10[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;description;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

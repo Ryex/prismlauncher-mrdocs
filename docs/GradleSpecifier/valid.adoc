@@ -1,0 +1,19 @@
+[#GradleSpecifier-valid]
+= xref:GradleSpecifier.adoc[GradleSpecifier]::valid
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L119[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+valid() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

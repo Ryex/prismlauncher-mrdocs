@@ -1,0 +1,19 @@
+[#liveCheckFile]
+= liveCheckFile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.cpp#L164[Application&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QLatin1String.adoc[QLatin1String] const liveCheckFile = liveCheckFile(&quot;live&period;check&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

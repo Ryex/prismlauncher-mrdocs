@@ -1,0 +1,25 @@
+[#FS-append]
+= xref:FS.adoc[FS]::append
+:relfileprefix: ../
+:mrdocs:
+
+
+append data to a file
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L72[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+append(
+    xref:QString.adoc[QString] const& filename,
+    xref:QByteArray.adoc[QByteArray] const& data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

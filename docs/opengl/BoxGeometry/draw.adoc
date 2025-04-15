@@ -1,0 +1,19 @@
+[#opengl-BoxGeometry-draw]
+= xref:opengl.adoc[opengl]::xref:opengl/BoxGeometry.adoc[BoxGeometry]::draw
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.h#L35[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+draw(xref:QOpenGLShaderProgram.adoc[QOpenGLShaderProgram]* program);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

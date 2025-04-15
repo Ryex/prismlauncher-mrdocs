@@ -1,0 +1,21 @@
+[#FlameAPI-getModFileChangelog]
+= xref:FlameAPI.adoc[FlameAPI]::getModFileChangelog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L15[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getModFileChangelog(
+    int modId,
+    int fileId);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

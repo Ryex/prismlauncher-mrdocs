@@ -1,0 +1,19 @@
+[#IconTheme-name]
+= xref:IconTheme.adoc[IconTheme]::name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/IconTheme.h#L31[ui&sol;themes&sol;IconTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+name();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

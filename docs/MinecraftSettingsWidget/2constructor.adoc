@@ -1,0 +1,20 @@
+[#MinecraftSettingsWidget-2constructor]
+= xref:MinecraftSettingsWidget.adoc[MinecraftSettingsWidget]::MinecraftSettingsWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/MinecraftSettingsWidget.h#L49[ui&sol;widgets&sol;MinecraftSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+MinecraftSettingsWidget(
+    xref:MinecraftInstancePtr.adoc[MinecraftInstancePtr] instance,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

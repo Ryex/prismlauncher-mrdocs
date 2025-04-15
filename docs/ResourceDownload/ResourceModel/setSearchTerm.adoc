@@ -1,0 +1,19 @@
+[#ResourceDownload-ResourceModel-setSearchTerm]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::setSearchTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L78[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSearchTerm(xref:QString.adoc[QString] term);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

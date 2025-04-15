@@ -1,0 +1,40 @@
+[#BaseVersionList-findVersion]
+= xref:BaseVersionList.adoc[BaseVersionList]::findVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+Finds a version by its descriptor&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L93[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]
+findVersion(xref:QString.adoc[QString] const& descriptor);
+----
+
+== Return Value
+
+A const pointer to the version with the given descriptor&period; NULL if
+one doesn&apos;t exist&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *descriptor*
+| The descriptor of the version to find&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#World-m_actualName]
+= xref:World.adoc[World]::m&lowbar;actualName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L84[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;actualName;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

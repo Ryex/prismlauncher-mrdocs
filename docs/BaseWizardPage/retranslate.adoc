@@ -1,0 +1,20 @@
+[#BaseWizardPage-retranslate]
+= xref:BaseWizardPage.adoc[BaseWizardPage]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/BaseWizardPage.h#L15[ui&sol;setupwizard&sol;BaseWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+retranslate() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

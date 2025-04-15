@@ -1,0 +1,132 @@
+[#VersionProxyModel]
+= VersionProxyModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L9[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionProxyModel
+    : public xref:QAbstractProxyModel.adoc[QAbstractProxyModel]
+    , public xref:QAbstractProxyModel.adoc[QAbstractProxyModel]
+    , public xref:QAbstractProxyModel.adoc[QAbstractProxyModel];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionProxyModel/FilterMap.adoc[`FilterMap`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionProxyModel/Column.adoc[`Column`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionProxyModel/2constructor.adoc[`VersionProxyModel`]         [.small]#[constructor]#
+| 
+
+| xref:VersionProxyModel/clearFilters.adoc[`clearFilters`] 
+| 
+
+| xref:VersionProxyModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:VersionProxyModel/data.adoc[`data`] 
+| 
+
+| xref:VersionProxyModel/filters.adoc[`filters`] 
+| 
+
+| xref:VersionProxyModel/getRecommended.adoc[`getRecommended`] 
+| 
+
+| xref:VersionProxyModel/getVersion.adoc[`getVersion`] 
+| 
+
+| xref:VersionProxyModel/headerData.adoc[`headerData`] 
+| 
+
+| xref:VersionProxyModel/index.adoc[`index`] 
+| 
+
+| xref:VersionProxyModel/mapFromSource.adoc[`mapFromSource`] 
+| 
+
+| xref:VersionProxyModel/mapToSource.adoc[`mapToSource`] 
+| 
+
+| xref:VersionProxyModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:VersionProxyModel/parent.adoc[`parent`] 
+| 
+
+| xref:VersionProxyModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:VersionProxyModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:VersionProxyModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:VersionProxyModel/search.adoc[`search`] 
+| 
+
+| xref:VersionProxyModel/setCurrentVersion.adoc[`setCurrentVersion`] 
+| 
+
+| xref:VersionProxyModel/setFilter.adoc[`setFilter`] 
+| 
+
+| xref:VersionProxyModel/setSearch.adoc[`setSearch`] 
+| 
+
+| xref:VersionProxyModel/setSourceModel.adoc[`setSourceModel`] 
+| 
+
+| xref:VersionProxyModel/2destructor.adoc[`&tilde;VersionProxyModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionProxyModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionProxyModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#GetModDependenciesTask-PackDependency-2constructor-09]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::xref:GetModDependenciesTask/PackDependency.adoc[PackDependency]::PackDependency
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L44[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+PackDependency() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

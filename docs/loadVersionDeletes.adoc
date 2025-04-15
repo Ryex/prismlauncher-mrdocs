@@ -1,0 +1,22 @@
+[#loadVersionDeletes]
+= loadVersionDeletes
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.cpp#L248[modplatform&sol;atlauncher&sol;ATLPackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadVersionDeletes(
+    xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionDeletes.adoc[VersionDeletes]& d,
+    xref:QJsonObject.adoc[QJsonObject]& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LogModel-setStopOnOverflow]
+= xref:LogModel.adoc[LogModel]::setStopOnOverflow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L25[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setStopOnOverflow(bool stop);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

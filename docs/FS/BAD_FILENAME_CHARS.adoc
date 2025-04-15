@@ -1,0 +1,19 @@
+[#FS-BAD_FILENAME_CHARS]
+= xref:FS.adoc[FS]::BAD&lowbar;FILENAME&lowbar;CHARS
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.cpp#L809[FileSystem&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString] const BAD&lowbar;FILENAME&lowbar;CHARS = BAD&lowbar;WIN&lowbar;CHARS &plus; &quot;&bsol;&bsol;&sol;&quot;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,33 @@
+[#ModPlatform-ResourceType]
+= xref:ModPlatform.adoc[ModPlatform]::ResourceType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L39[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ResourceType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`MOD`
+|
+|`RESOURCE&lowbar;PACK`
+|
+|`SHADER&lowbar;PACK`
+|
+|`MODPACK`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

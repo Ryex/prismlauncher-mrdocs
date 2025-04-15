@@ -1,0 +1,20 @@
+[#ComponentUpdateTask-executeTask]
+= xref:ComponentUpdateTask.adoc[ComponentUpdateTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.h#L21[minecraft&sol;ComponentUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

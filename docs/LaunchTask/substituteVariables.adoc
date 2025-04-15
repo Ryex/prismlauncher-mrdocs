@@ -1,0 +1,21 @@
+[#LaunchTask-substituteVariables]
+= xref:LaunchTask.adoc[LaunchTask]::substituteVariables
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L90[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+substituteVariables(
+    xref:QString.adoc[QString]& cmd,
+    bool isLaunch = false) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

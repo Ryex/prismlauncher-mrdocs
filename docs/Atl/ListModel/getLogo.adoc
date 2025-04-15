@@ -1,0 +1,22 @@
+[#Atl-ListModel-getLogo]
+= xref:Atl.adoc[Atl]::xref:Atl/ListModel.adoc[ListModel]::getLogo
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlListModel.h#L43[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+getLogo(
+    xref:QString.adoc[QString] const& logo,
+    xref:QString.adoc[QString] const& logoUrl,
+    xref:Atl/LogoCallback.adoc[LogoCallback] callback);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

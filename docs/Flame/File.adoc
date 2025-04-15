@@ -1,0 +1,48 @@
+[#Flame-File]
+= xref:Flame.adoc[Flame]::File
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L47[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct File;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/File/fileId.adoc[`fileId`] 
+| 
+
+| xref:Flame/File/pack.adoc[`pack`] 
+| 
+
+| xref:Flame/File/projectId.adoc[`projectId`] 
+| 
+
+| xref:Flame/File/required.adoc[`required`] 
+| 
+
+| xref:Flame/File/resourceType.adoc[`resourceType`] 
+| 
+
+| xref:Flame/File/targetFolder.adoc[`targetFolder`] 
+| 
+
+| xref:Flame/File/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Resource-parseFile]
+= xref:Resource.adoc[Resource]::parseFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L84[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+parseFile();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

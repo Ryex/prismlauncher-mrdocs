@@ -1,0 +1,149 @@
+[#Library-isAlwaysStale]
+= xref:Library.adoc[Library]::isAlwaysStale
+:relfileprefix: ../
+:mrdocs:
+
+
+Check if the library is always considered stale&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L141[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isAlwaysStale() const;
+----
+
+== Description
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+Returns true if the library is to always be checked for updates
+
+
+
+== Return Value
+
+bool True if the library is always stale, false otherwise&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Application-m_liveCheck]
+= xref:Application.adoc[Application]::m&lowbar;liveCheck
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L307[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;liveCheck = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

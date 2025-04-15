@@ -1,0 +1,54 @@
+[#00namespace-MojangError]
+= MojangError
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.cpp#L225[ui&sol;dialogs&sol;ProfileSetupDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MojangError;
+----
+
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/MojangError/fromJSON.adoc[`fromJSON`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace/MojangError/error.adoc[`error`] 
+| 
+
+| xref:00namespace/MojangError/errorMessage.adoc[`errorMessage`] 
+| 
+
+| xref:00namespace/MojangError/fullyParsed.adoc[`fullyParsed`] 
+| 
+
+| xref:00namespace/MojangError/parseError.adoc[`parseError`] 
+| 
+
+| xref:00namespace/MojangError/path.adoc[`path`] 
+| 
+
+| xref:00namespace/MojangError/rawError.adoc[`rawError`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

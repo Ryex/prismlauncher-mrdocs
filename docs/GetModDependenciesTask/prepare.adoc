@@ -1,0 +1,19 @@
+[#GetModDependenciesTask-prepare]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::prepare
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L72[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+prepare();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

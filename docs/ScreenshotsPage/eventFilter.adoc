@@ -1,0 +1,22 @@
+[#ScreenshotsPage-eventFilter]
+= xref:ScreenshotsPage.adoc[ScreenshotsPage]::eventFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.h#L68[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+eventFilter(
+    xref:QObject.adoc[QObject]*,
+    xref:QEvent.adoc[QEvent]*) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

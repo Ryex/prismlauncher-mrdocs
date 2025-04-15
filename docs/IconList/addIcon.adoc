@@ -1,0 +1,23 @@
+[#IconList-addIcon]
+= xref:IconList.adoc[IconList]::addIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L70[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+addIcon(
+    xref:QString.adoc[QString] const& key,
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& path,
+    xref:IconType.adoc[IconType] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

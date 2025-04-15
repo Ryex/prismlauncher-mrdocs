@@ -1,0 +1,19 @@
+[#VersionSelectWidget-selectRecommended]
+= xref:VersionSelectWidget.adoc[VersionSelectWidget]::selectRecommended
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionSelectWidget.h#L64[ui&sol;widgets&sol;VersionSelectWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+selectRecommended();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

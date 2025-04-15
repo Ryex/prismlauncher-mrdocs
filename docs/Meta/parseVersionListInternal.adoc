@@ -1,0 +1,20 @@
+[#Meta-parseVersionListInternal]
+= xref:Meta.adoc[Meta]::parseVersionListInternal
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.cpp#L78[meta&sol;JsonFormat&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr]
+parseVersionListInternal(xref:QJsonObject.adoc[QJsonObject] const& obj);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

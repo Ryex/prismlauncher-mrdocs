@@ -1,0 +1,22 @@
+[#FlameAPI-getCategories]
+= xref:FlameAPI.adoc[FlameAPI]::getCategories
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L27[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getCategories(
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QByteArray.adoc[QByteArray]&gt; response,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceType.adoc[ResourceType] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

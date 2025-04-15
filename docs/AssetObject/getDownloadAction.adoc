@@ -1,0 +1,19 @@
+[#AssetObject-getDownloadAction]
+= xref:AssetObject.adoc[AssetObject]::getDownloadAction
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L27[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Ptr.adoc[Ptr]
+getDownloadAction();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

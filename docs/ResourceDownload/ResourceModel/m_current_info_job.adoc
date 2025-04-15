@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceModel-m_current_info_job]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::m&lowbar;current&lowbar;info&lowbar;job
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L148[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ConcurrentTask.adoc[ConcurrentTask] m&lowbar;current&lowbar;info&lowbar;job;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

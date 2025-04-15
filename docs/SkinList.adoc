@@ -1,0 +1,129 @@
+[#SkinList]
+= SkinList
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L29[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SkinList
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinList/2constructor.adoc[`SkinList`]         [.small]#[constructor]#
+| 
+
+| xref:SkinList/data.adoc[`data`] 
+| 
+
+| xref:SkinList/deleteSkin.adoc[`deleteSkin`] 
+| 
+
+| xref:SkinList/dropMimeData.adoc[`dropMimeData`] 
+| 
+
+| xref:SkinList/flags.adoc[`flags`] 
+| 
+
+| xref:SkinList/getDir.adoc[`getDir`] 
+| 
+
+| xref:SkinList/getSelectedAccountSkin.adoc[`getSelectedAccountSkin`] 
+| 
+
+| xref:SkinList/getSkinIndex.adoc[`getSkinIndex`] 
+| 
+
+| xref:SkinList/installSkin.adoc[`installSkin`] 
+| 
+
+| xref:SkinList/installSkins.adoc[`installSkins`] 
+| 
+
+| xref:SkinList/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:SkinList/mimeTypes.adoc[`mimeTypes`] 
+| 
+
+| xref:SkinList/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:SkinList/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:SkinList/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:SkinList/save.adoc[`save`] 
+| 
+
+| xref:SkinList/setData.adoc[`setData`] 
+| 
+
+| xref:SkinList/skin.adoc[`skin`] 
+| 
+| xref:SkinList/startWatching.adoc[`startWatching`] 
+| 
+
+| xref:SkinList/stopWatching.adoc[`stopWatching`] 
+| 
+
+| xref:SkinList/supportedDropActions.adoc[`supportedDropActions`] 
+| 
+
+| xref:SkinList/updateSkin.adoc[`updateSkin`] 
+| 
+
+| xref:SkinList/2destructor.adoc[`&tilde;SkinList`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinList/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinList/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SkinList/directoryChanged.adoc[`directoryChanged`] 
+| 
+
+| xref:SkinList/fileChanged.adoc[`fileChanged`] 
+| 
+
+| xref:SkinList/update.adoc[`update`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

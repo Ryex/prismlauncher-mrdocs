@@ -1,0 +1,18 @@
+[#Meta-Require-suggests]
+= xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require]::suggests
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L40[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] suggests;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

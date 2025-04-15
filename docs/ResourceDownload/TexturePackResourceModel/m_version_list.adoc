@@ -1,0 +1,18 @@
+[#ResourceDownload-TexturePackResourceModel-m_version_list]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/TexturePackResourceModel.adoc[TexturePackResourceModel]::m&lowbar;version&lowbar;list
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/TexturePackModel.h#L24[ui&sol;pages&sol;modplatform&sol;TexturePackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr] m&lowbar;version&lowbar;list;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

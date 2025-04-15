@@ -1,0 +1,19 @@
+[#InstanceTask-shouldOverride]
+= xref:InstanceTask.adoc[InstanceTask]::shouldOverride
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L50[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+shouldOverride() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

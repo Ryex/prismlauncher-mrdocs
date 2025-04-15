@@ -1,0 +1,18 @@
+[#StringUtils-string]
+= xref:StringUtils.adoc[StringUtils]::string
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.h#L58[StringUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using string = xref:std.adoc[std]::xref:std/string.adoc[string];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

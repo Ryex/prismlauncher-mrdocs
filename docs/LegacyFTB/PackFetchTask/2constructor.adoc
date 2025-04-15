@@ -1,0 +1,18 @@
+[#LegacyFTB-PackFetchTask-2constructor]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackFetchTask.adoc[PackFetchTask]::PackFetchTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackFetchTask.h#L16[modplatform&sol;legacy&lowbar;ftb&sol;PackFetchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+PackFetchTask(xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:QNetworkAccessManager.adoc[QNetworkAccessManager]&gt; network);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

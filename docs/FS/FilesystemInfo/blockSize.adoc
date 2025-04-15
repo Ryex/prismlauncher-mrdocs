@@ -1,0 +1,18 @@
+[#FS-FilesystemInfo-blockSize]
+= xref:FS.adoc[FS]::xref:FS/FilesystemInfo.adoc[FilesystemInfo]::blockSize
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L443[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int blockSize;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

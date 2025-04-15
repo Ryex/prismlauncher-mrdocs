@@ -1,0 +1,58 @@
+[#InstanceName]
+= InstanceName
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L12[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct InstanceName;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceName/2constructor.adoc[`InstanceName`]         [.small]#[constructor]#
+| 
+| xref:InstanceName/modifiedName.adoc[`modifiedName`] 
+| 
+
+| xref:InstanceName/name.adoc[`name`] 
+| 
+
+| xref:InstanceName/originalName.adoc[`originalName`] 
+| 
+
+| xref:InstanceName/setName.adoc[`setName`] 
+| 
+| xref:InstanceName/version.adoc[`version`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceName/m_modified_name.adoc[`m&lowbar;modified&lowbar;name`] 
+| 
+
+| xref:InstanceName/m_original_name.adoc[`m&lowbar;original&lowbar;name`] 
+| 
+
+| xref:InstanceName/m_original_version.adoc[`m&lowbar;original&lowbar;version`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

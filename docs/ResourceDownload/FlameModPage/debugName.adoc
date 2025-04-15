@@ -1,0 +1,21 @@
+[#ResourceDownload-FlameModPage-debugName]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameModPage.adoc[FlameModPage]::debugName
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L93[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+debugName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

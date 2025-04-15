@@ -1,0 +1,21 @@
+[#LocalResourceUpdateTask-hasOldResource]
+= xref:LocalResourceUpdateTask.adoc[LocalResourceUpdateTask]::hasOldResource
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceUpdateTask.h#L41[minecraft&sol;mod&sol;tasks&sol;LocalResourceUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+hasOldResource(
+    xref:QString.adoc[QString] name,
+    xref:QString.adoc[QString] filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

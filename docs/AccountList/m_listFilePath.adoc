@@ -1,0 +1,22 @@
+[#AccountList-m_listFilePath]
+= xref:AccountList.adoc[AccountList]::m&lowbar;listFilePath
+:relfileprefix: ../
+:mrdocs:
+
+
+Path to the account list file&period; Empty string if there isn&apos;t one&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L167[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;listFilePath;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

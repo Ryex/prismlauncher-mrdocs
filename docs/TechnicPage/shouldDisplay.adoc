@@ -1,0 +1,20 @@
+[#TechnicPage-shouldDisplay]
+= xref:TechnicPage.adoc[TechnicPage]::shouldDisplay
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicPage.h#L67[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+shouldDisplay() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

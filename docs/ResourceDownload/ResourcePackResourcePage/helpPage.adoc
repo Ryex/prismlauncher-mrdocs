@@ -1,0 +1,21 @@
+[#ResourceDownload-ResourcePackResourcePage-helpPage]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourcePage.adoc[ResourcePackResourcePage]::helpPage
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackPage.h#L43[ui&sol;pages&sol;modplatform&sol;ResourcePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+helpPage() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

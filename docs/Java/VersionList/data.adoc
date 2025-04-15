@@ -1,0 +1,22 @@
+[#Java-VersionList-data]
+= xref:Java.adoc[Java]::xref:Java/VersionList.adoc[VersionList]::data
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/VersionList.h#L39[ui&sol;java&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+data(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    int role) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

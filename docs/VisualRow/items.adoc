@@ -1,0 +1,18 @@
+[#VisualRow-items]
+= xref:VisualRow.adoc[VisualRow]::items
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L48[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:QModelIndex.adoc[QModelIndex]&gt; items;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

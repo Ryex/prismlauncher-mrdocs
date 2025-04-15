@@ -1,0 +1,60 @@
+[#BaseInstaller]
+= BaseInstaller
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstaller.h#L29[BaseInstaller&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseInstaller;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstaller/2constructor.adoc[`BaseInstaller`]         [.small]#[constructor]#
+| 
+
+| xref:BaseInstaller/add.adoc[`add`] 
+| 
+
+| xref:BaseInstaller/createInstallTask.adoc[`createInstallTask`] 
+| 
+
+| xref:BaseInstaller/isApplied.adoc[`isApplied`] 
+| 
+
+| xref:BaseInstaller/remove.adoc[`remove`] 
+| 
+
+| xref:BaseInstaller/2destructor.adoc[`&tilde;BaseInstaller`] [.small]#[destructor]#
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseInstaller/filename.adoc[`filename`] 
+| 
+
+| xref:BaseInstaller/id.adoc[`id`] 
+| 
+
+| xref:BaseInstaller/patchesDir.adoc[`patchesDir`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

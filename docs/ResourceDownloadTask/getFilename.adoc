@@ -1,0 +1,19 @@
+[#ResourceDownloadTask-getFilename]
+= xref:ResourceDownloadTask.adoc[ResourceDownloadTask]::getFilename
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ResourceDownloadTask.h#L38[ResourceDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] const&
+getFilename() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

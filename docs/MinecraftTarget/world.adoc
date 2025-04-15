@@ -1,0 +1,18 @@
+[#MinecraftTarget-world]
+= xref:MinecraftTarget.adoc[MinecraftTarget]::world
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/MinecraftTarget.h#L26[minecraft&sol;launch&sol;MinecraftTarget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] world;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,69 @@
+[#LegacyFTB-Modpack]
+= xref:LegacyFTB.adoc[LegacyFTB]::Modpack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackHelpers.h#L13[modplatform&sol;legacy&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Modpack;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/Modpack/author.adoc[`author`] 
+| 
+
+| xref:LegacyFTB/Modpack/broken.adoc[`broken`] 
+| 
+
+| xref:LegacyFTB/Modpack/bugged.adoc[`bugged`] 
+| 
+
+| xref:LegacyFTB/Modpack/currentVersion.adoc[`currentVersion`] 
+| 
+
+| xref:LegacyFTB/Modpack/description.adoc[`description`] 
+| 
+
+| xref:LegacyFTB/Modpack/dir.adoc[`dir`] 
+| 
+
+| xref:LegacyFTB/Modpack/file.adoc[`file`] 
+| 
+
+| xref:LegacyFTB/Modpack/logo.adoc[`logo`] 
+| 
+
+| xref:LegacyFTB/Modpack/mcVersion.adoc[`mcVersion`] 
+| 
+
+| xref:LegacyFTB/Modpack/mods.adoc[`mods`] 
+| 
+
+| xref:LegacyFTB/Modpack/name.adoc[`name`] 
+| 
+
+| xref:LegacyFTB/Modpack/oldVersions.adoc[`oldVersions`] 
+| 
+
+| xref:LegacyFTB/Modpack/packCode.adoc[`packCode`] 
+| 
+
+| xref:LegacyFTB/Modpack/type.adoc[`type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

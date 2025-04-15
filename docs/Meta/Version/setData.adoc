@@ -1,0 +1,19 @@
+[#Meta-Version-setData]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::setData
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L72[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setData(xref:VersionFilePtr.adoc[VersionFilePtr] const& data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

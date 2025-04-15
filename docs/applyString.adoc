@@ -1,0 +1,22 @@
+[#applyString]
+= applyString
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.cpp#L58[minecraft&sol;LaunchProfile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+applyString(
+    xref:QString.adoc[QString] const& from,
+    xref:QString.adoc[QString]& to);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

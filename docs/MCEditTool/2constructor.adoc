@@ -1,0 +1,18 @@
+[#MCEditTool-2constructor]
+= xref:MCEditTool.adoc[MCEditTool]::MCEditTool
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/MCEditTool.h#L8[tools&sol;MCEditTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+MCEditTool(xref:SettingsObjectPtr.adoc[SettingsObjectPtr] settings);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

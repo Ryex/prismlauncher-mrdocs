@@ -1,0 +1,39 @@
+[#Flame-ModpackExtra]
+= xref:Flame.adoc[Flame]::ModpackExtra
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L26[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ModpackExtra;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/ModpackExtra/issuesUrl.adoc[`issuesUrl`] 
+| 
+
+| xref:Flame/ModpackExtra/sourceUrl.adoc[`sourceUrl`] 
+| 
+
+| xref:Flame/ModpackExtra/websiteUrl.adoc[`websiteUrl`] 
+| 
+
+| xref:Flame/ModpackExtra/wikiUrl.adoc[`wikiUrl`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,32 @@
+[#ResourceFolderModel-onUpdateSucceeded]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::onUpdateSucceeded
+:relfileprefix: ../
+:mrdocs:
+
+
+Called when the update task is successful&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L226[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+onUpdateSucceeded();
+----
+
+== Description
+
+This usually calls static&lowbar;cast on the specific Task type returned by createUpdateTask,
+so care must be taken in such cases&period;
+TODO&colon; Figure out a way to express this relationship better without templated classes (Q&lowbar;OBJECT macro disallows that)&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

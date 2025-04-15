@@ -1,0 +1,18 @@
+[#POTranslatorPrivate-filename]
+= xref:POTranslatorPrivate.adoc[POTranslatorPrivate]::filename
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L12[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] filename;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

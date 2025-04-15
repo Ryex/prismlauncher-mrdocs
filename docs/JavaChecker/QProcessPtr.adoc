@@ -1,0 +1,18 @@
+[#JavaChecker-QProcessPtr]
+= xref:JavaChecker.adoc[JavaChecker]::QProcessPtr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaChecker.h#L12[java&sol;JavaChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using QProcessPtr = xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:QProcess.adoc[QProcess]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

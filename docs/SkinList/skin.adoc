@@ -1,0 +1,29 @@
+[#SkinList-skin]
+= xref:SkinList.adoc[SkinList]::skin
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinList.h#L51[minecraft&sol;skins&sol;SkinList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SkinModel.adoc[SkinModel] const*
+xref:SkinList/skin-01.adoc[skin](xref:QString.adoc[QString] const& key) const;
+----
+
+[.small]#xref:SkinList/skin-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SkinModel.adoc[SkinModel]*
+xref:SkinList/skin-0f.adoc[skin](xref:QString.adoc[QString] const& key);
+----
+
+[.small]#xref:SkinList/skin-0f.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

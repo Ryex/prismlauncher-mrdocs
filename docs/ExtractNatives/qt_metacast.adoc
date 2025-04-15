@@ -1,0 +1,20 @@
+[#ExtractNatives-qt_metacast]
+= xref:ExtractNatives.adoc[ExtractNatives]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/ExtractNatives.h#L22[minecraft&sol;launch&sol;ExtractNatives&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

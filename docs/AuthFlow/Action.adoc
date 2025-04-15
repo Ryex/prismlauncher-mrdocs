@@ -1,0 +1,31 @@
+[#AuthFlow-Action]
+= xref:AuthFlow.adoc[AuthFlow]::Action
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthFlow.h#L18[minecraft&sol;auth&sol;AuthFlow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Action : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Refresh`
+|
+|`Login`
+|
+|`DeviceCode`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

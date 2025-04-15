@@ -1,0 +1,23 @@
+[#Library-m_storagePrefix]
+= xref:Library.adoc[Library]::m&lowbar;storagePrefix
+:relfileprefix: ../
+:mrdocs:
+
+
+storage &hyphen; by default the local libraries folder in Prism Launcher, but could be elsewhere
+Prism Launcher specific, because of FTB&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L191[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;storagePrefix;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

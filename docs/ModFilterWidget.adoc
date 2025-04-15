@@ -1,0 +1,82 @@
+[#ModFilterWidget]
+= ModFilterWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L57[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ModFilterWidget
+    : public xref:QTabWidget.adoc[QTabWidget];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModFilterWidget/Filter.adoc[`Filter`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModFilterWidget/changed.adoc[`changed`] 
+| 
+
+| xref:ModFilterWidget/filterChanged.adoc[`filterChanged`] 
+| 
+
+| xref:ModFilterWidget/getFilter.adoc[`getFilter`] 
+| 
+
+| xref:ModFilterWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ModFilterWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ModFilterWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ModFilterWidget/setCategories.adoc[`setCategories`] 
+| 
+
+| xref:ModFilterWidget/2destructor.adoc[`&tilde;ModFilterWidget`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModFilterWidget/create.adoc[`create`] 
+| 
+
+| xref:ModFilterWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModFilterWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

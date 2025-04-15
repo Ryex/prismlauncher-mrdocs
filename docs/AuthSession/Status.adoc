@@ -1,0 +1,39 @@
+[#AuthSession-Status]
+= xref:AuthSession.adoc[AuthSession]::Status
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L14[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Status;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Undetermined`
+|
+|`RequiresOAuth`
+|
+|`RequiresPassword`
+|
+|`RequiresProfileSetup`
+|
+|`PlayableOffline`
+|
+|`PlayableOnline`
+|
+|`GoneOrMigrated`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

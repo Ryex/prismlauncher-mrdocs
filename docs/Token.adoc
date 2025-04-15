@@ -1,0 +1,48 @@
+[#Token]
+= Token
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L49[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Token;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Token/extra.adoc[`extra`] 
+| 
+
+| xref:Token/issueInstant.adoc[`issueInstant`] 
+| 
+
+| xref:Token/notAfter.adoc[`notAfter`] 
+| 
+
+| xref:Token/persistent.adoc[`persistent`] 
+| 
+
+| xref:Token/refresh_token.adoc[`refresh&lowbar;token`] 
+| 
+
+| xref:Token/token.adoc[`token`] 
+| 
+
+| xref:Token/validity.adoc[`validity`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

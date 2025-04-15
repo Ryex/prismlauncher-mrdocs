@@ -1,0 +1,24 @@
+[#Application-openJsonEditor]
+= xref:Application.adoc[Application]::openJsonEditor
+:relfileprefix: ../
+:mrdocs:
+
+
+Opens a json file using either a system default editor, or, if not empty, the editor
+specified in the settings
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L182[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+openJsonEditor(xref:QString.adoc[QString] const& filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

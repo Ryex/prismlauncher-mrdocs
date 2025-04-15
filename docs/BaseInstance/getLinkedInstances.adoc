@@ -1,0 +1,19 @@
+[#BaseInstance-getLinkedInstances]
+= xref:BaseInstance.adoc[BaseInstance]::getLinkedInstances
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L269[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getLinkedInstances() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

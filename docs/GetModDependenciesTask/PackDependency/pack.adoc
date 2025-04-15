@@ -1,0 +1,18 @@
+[#GetModDependenciesTask-PackDependency-pack]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::xref:GetModDependenciesTask/PackDependency.adoc[PackDependency]::pack
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L42[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::xref:ModPlatform/IndexedPack/Ptr.adoc[Ptr] pack;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

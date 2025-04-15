@@ -1,0 +1,19 @@
+[#InstanceList-getInstanceByManagedName]
+= xref:InstanceList.adoc[InstanceList]::getInstanceByManagedName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L103[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstancePtr.adoc[InstancePtr]
+getInstanceByManagedName(xref:QString.adoc[QString] const& managed&lowbar;name) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

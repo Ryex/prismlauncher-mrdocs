@@ -1,0 +1,18 @@
+[#Modrinth-ModpackVersion-download_url]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackVersion.adoc[ModpackVersion]::download&lowbar;url
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L97[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] download&lowbar;url;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

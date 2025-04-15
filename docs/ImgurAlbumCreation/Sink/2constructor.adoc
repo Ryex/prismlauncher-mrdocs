@@ -1,0 +1,18 @@
+[#ImgurAlbumCreation-Sink-2constructor]
+= xref:ImgurAlbumCreation.adoc[ImgurAlbumCreation]::xref:ImgurAlbumCreation/Sink.adoc[Sink]::Sink
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurAlbumCreation.h#L52[screenshots&sol;ImgurAlbumCreation&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+Sink(xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ImgurAlbumCreation/Result.adoc[Result]&gt; res);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,78 @@
+[#AuthSession]
+= AuthSession
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L8[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct AuthSession;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthSession/Status.adoc[`Status`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthSession/MakeDemo.adoc[`MakeDemo`] 
+| 
+
+| xref:AuthSession/MakeOffline.adoc[`MakeOffline`] 
+| 
+
+| xref:AuthSession/serializeUserProperties.adoc[`serializeUserProperties`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AuthSession/access_token.adoc[`access&lowbar;token`] 
+| 
+
+| xref:AuthSession/auth_server_online.adoc[`auth&lowbar;server&lowbar;online`] 
+| 
+
+| xref:AuthSession/demo.adoc[`demo`] 
+| 
+
+| xref:AuthSession/player_name.adoc[`player&lowbar;name`] 
+| 
+
+| xref:AuthSession/session.adoc[`session`] 
+| 
+
+| xref:AuthSession/status.adoc[`status`] 
+| 
+
+| xref:AuthSession/user_type.adoc[`user&lowbar;type`] 
+| 
+
+| xref:AuthSession/uuid.adoc[`uuid`] 
+| 
+
+| xref:AuthSession/wants_online.adoc[`wants&lowbar;online`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

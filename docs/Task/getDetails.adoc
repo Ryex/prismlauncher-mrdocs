@@ -1,0 +1,19 @@
+[#Task-getDetails]
+= xref:Task.adoc[Task]::getDetails
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L123[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getDetails();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

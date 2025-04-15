@@ -1,0 +1,18 @@
+[#WorldMimeData-2constructor]
+= xref:WorldMimeData.adoc[WorldMimeData]::WorldMimeData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.cpp#L306[minecraft&sol;WorldList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+WorldMimeData(xref:QList.adoc[QList]&lt;xref:World.adoc[World]&gt; worlds);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

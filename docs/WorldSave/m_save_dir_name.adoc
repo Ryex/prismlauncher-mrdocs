@@ -1,0 +1,18 @@
+[#WorldSave-m_save_dir_name]
+= xref:WorldSave.adoc[WorldSave]::m&lowbar;save&lowbar;dir&lowbar;name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/WorldSave.h#L60[minecraft&sol;mod&sol;WorldSave&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;save&lowbar;dir&lowbar;name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

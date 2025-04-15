@@ -1,0 +1,83 @@
+[#SeparatorPrefixTree]
+= SeparatorPrefixTree
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L6[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;char Tseparator&gt;
+class SeparatorPrefixTree;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SeparatorPrefixTree/2constructor.adoc[`SeparatorPrefixTree`]         [.small]#[constructor]#
+| 
+| xref:SeparatorPrefixTree/clear.adoc[`clear`] 
+| Clear all children of this node tree node
+
+
+
+| xref:SeparatorPrefixTree/contained.adoc[`contained`] 
+| is this node actually contained in the tree, or is it purely structural?
+
+
+
+| xref:SeparatorPrefixTree/contains.adoc[`contains`] 
+| is the path fully contained in the tree?
+
+
+
+| xref:SeparatorPrefixTree/cover.adoc[`cover`] 
+| return the contained path that covers the path specified
+
+
+
+| xref:SeparatorPrefixTree/covers.adoc[`covers`] 
+| does the tree cover a path? That means the prefix of the path is contained in the tree
+
+
+
+| xref:SeparatorPrefixTree/exists.adoc[`exists`] 
+| Does the path&hyphen;specified node exist in the tree? It does not have to be contained&period;
+
+
+
+| xref:SeparatorPrefixTree/find.adoc[`find`] 
+| find a node in the tree by name
+
+
+
+| xref:SeparatorPrefixTree/insert.adoc[`insert`] 
+| insert an exact path into the tree
+
+
+
+| xref:SeparatorPrefixTree/leaf.adoc[`leaf`] 
+| is this a leaf node?
+
+
+
+| xref:SeparatorPrefixTree/remove.adoc[`remove`] 
+| Remove a path from the tree
+
+
+
+| xref:SeparatorPrefixTree/toStringList.adoc[`toStringList`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

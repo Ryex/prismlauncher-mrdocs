@@ -1,0 +1,197 @@
+[#VersionFile]
+= VersionFile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L60[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class VersionFile
+    : public xref:ProblemContainer.adoc[ProblemContainer]
+    , public xref:ProblemContainer.adoc[ProblemContainer]
+    , public xref:ProblemContainer.adoc[ProblemContainer];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ProblemContainer/addProblem.adoc[`addProblem`] 
+| 
+
+| xref:VersionFile/applyTo.adoc[`applyTo`] 
+| 
+
+| xref:ProblemProvider/getProblemSeverity.adoc[`getProblemSeverity`] 
+| 
+| xref:ProblemProvider/getProblems.adoc[`getProblems`] 
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionFile/addTweakers.adoc[`addTweakers`] 
+| Prism Launcher&colon; list of tweaker mod arguments for launchwrapper
+
+
+
+| xref:VersionFile/addnJvmArguments.adoc[`addnJvmArguments`] 
+| Prism Launcher&colon; Additional JVM launch arguments
+
+
+
+| xref:VersionFile/agents.adoc[`agents`] 
+| Prism Launcher&colon; list of agents to add to JVM arguments
+
+
+
+| xref:VersionFile/appletClass.adoc[`appletClass`] 
+| Prism Launcher&colon; class to launch legacy Minecraft with (embed in a custom window)
+
+
+
+| xref:VersionFile/assets.adoc[`assets`] 
+| Mojang&colon; DEPRECATED asset group to be used with Minecraft
+
+
+
+| xref:VersionFile/compatibleJavaMajors.adoc[`compatibleJavaMajors`] 
+| Mojang&colon; list of compatible java majors
+
+
+
+| xref:VersionFile/compatibleJavaName.adoc[`compatibleJavaName`] 
+| Mojang&colon; the name of recommended java version
+
+
+
+| xref:VersionFile/conflicts.adoc[`conflicts`] 
+| Prism Launcher&colon; set of packages this conflicts with
+NOTE&colon; this is shared with the meta format!!!
+
+
+
+| xref:VersionFile/dependsOnMinecraftVersion.adoc[`dependsOnMinecraftVersion`] 
+| Prism Launcher&colon; DEPRECATED dependency on a Minecraft version
+
+
+
+| xref:VersionFile/jarMods.adoc[`jarMods`] 
+| Prism Launcher&colon; list of jar mods added to this version
+
+
+
+| xref:VersionFile/libraries.adoc[`libraries`] 
+| Mojang&colon; list of libraries to add to the version
+
+
+
+| xref:VersionFile/m_requires.adoc[`m&lowbar;requires`] 
+| Prism Launcher&colon; set of packages this depends on
+NOTE&colon; this is shared with the meta format!!!
+
+
+
+| xref:VersionFile/m_volatile.adoc[`m&lowbar;volatile`] 
+| is volatile &hyphen;&hyphen; may be removed as soon as it is no longer needed by something else
+
+
+
+| xref:VersionFile/mainClass.adoc[`mainClass`] 
+| Mojang&colon; class to launch Minecraft with
+
+
+
+| xref:VersionFile/mainJar.adoc[`mainJar`] 
+| The main jar (Minecraft version library, normally)
+
+
+
+| xref:VersionFile/mavenFiles.adoc[`mavenFiles`] 
+| Prism Launcher&colon; list of maven files to put in the libraries folder, but not in classpath
+
+
+
+| xref:VersionFile/minecraftArguments.adoc[`minecraftArguments`] 
+| Mojang&colon; Minecraft launch arguments (may contain placeholders for variable substitution)
+
+
+
+| xref:VersionFile/minecraftVersion.adoc[`minecraftVersion`] 
+| Mojang&colon; DEPRECATED version of Minecraft this is
+
+
+
+| xref:VersionFile/minimumLauncherVersion.adoc[`minimumLauncherVersion`] 
+| Mojang&colon; DEPRECATED used to version the Mojang version format
+
+
+
+| xref:VersionFile/mods.adoc[`mods`] 
+| Prism Launcher&colon; list of mods added to this version
+
+
+
+| xref:VersionFile/mojangAssetIndex.adoc[`mojangAssetIndex`] 
+| 
+
+| xref:VersionFile/mojangDownloads.adoc[`mojangDownloads`] 
+| 
+
+| xref:VersionFile/name.adoc[`name`] 
+| Prism Launcher&colon; human readable name of this package
+
+
+
+| xref:VersionFile/order.adoc[`order`] 
+| Prism Launcher&colon; order hint for this version file if no explicit order is set
+
+
+
+| xref:VersionFile/releaseTime.adoc[`releaseTime`] 
+| Mojang&colon; the time this version was actually released by Mojang
+
+
+
+| xref:VersionFile/runtimes.adoc[`runtimes`] 
+| 
+
+| xref:VersionFile/traits.adoc[`traits`] 
+| Prism Launcher&colon; list of attached traits of this version file &hyphen; used to enable features
+
+
+
+| xref:VersionFile/type.adoc[`type`] 
+| Mojang&colon; type of the Minecraft version
+
+
+
+| xref:VersionFile/uid.adoc[`uid`] 
+| Prism Launcher&colon; package ID of this package
+
+
+
+| xref:VersionFile/updateTime.adoc[`updateTime`] 
+| Mojang&colon; DEPRECATED the time this version was last updated by Mojang
+
+
+
+| xref:VersionFile/version.adoc[`version`] 
+| Prism Launcher&colon; version of this package
+
+
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#Meta-VersionList-2constructor]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::VersionList
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L32[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+VersionList(
+    xref:QString.adoc[QString] const& uid,
+    xref:QObject.adoc[QObject]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

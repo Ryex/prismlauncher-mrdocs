@@ -1,0 +1,19 @@
+[#IconList-deleteIcon]
+= xref:IconList.adoc[IconList]::deleteIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L72[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+deleteIcon(xref:QString.adoc[QString] const& key);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

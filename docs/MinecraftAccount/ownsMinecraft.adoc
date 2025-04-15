@@ -1,0 +1,19 @@
+[#MinecraftAccount-ownsMinecraft]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::ownsMinecraft
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L119[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+ownsMinecraft() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,51 @@
+[#AssetObject]
+= AssetObject
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L23[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct AssetObject;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AssetObject/getDownloadAction.adoc[`getDownloadAction`] 
+| 
+
+| xref:AssetObject/getLocalPath.adoc[`getLocalPath`] 
+| 
+
+| xref:AssetObject/getRelPath.adoc[`getRelPath`] 
+| 
+
+| xref:AssetObject/getUrl.adoc[`getUrl`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AssetObject/hash.adoc[`hash`] 
+| 
+
+| xref:AssetObject/size.adoc[`size`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,24 @@
+[#BaseInstance-setManagedPack]
+= xref:BaseInstance.adoc[BaseInstance]::setManagedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L151[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setManagedPack(
+    xref:QString.adoc[QString] const& type,
+    xref:QString.adoc[QString] const& id,
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& versionId,
+    xref:QString.adoc[QString] const& version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

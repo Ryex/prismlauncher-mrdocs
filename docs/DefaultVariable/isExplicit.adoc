@@ -1,0 +1,19 @@
+[#DefaultVariable-isExplicit]
+= xref:DefaultVariable.adoc[DefaultVariable]::isExplicit
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DefaultVariable.h#L16[DefaultVariable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isExplicit() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

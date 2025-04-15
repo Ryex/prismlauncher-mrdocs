@@ -1,0 +1,20 @@
+[#LocalResourceUpdateTask-canAbort]
+= xref:LocalResourceUpdateTask.adoc[LocalResourceUpdateTask]::canAbort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceUpdateTask.h#L33[minecraft&sol;mod&sol;tasks&sol;LocalResourceUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canAbort() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

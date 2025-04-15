@@ -1,0 +1,24 @@
+[#InstanceCopyTask-executeTask]
+= xref:InstanceCopyTask.adoc[InstanceCopyTask]::executeTask
+:relfileprefix: ../
+:mrdocs:
+
+
+Entry point for tasks&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyTask.h#L21[InstanceCopyTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+executeTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

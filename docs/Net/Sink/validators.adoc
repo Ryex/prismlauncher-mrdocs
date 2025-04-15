@@ -1,0 +1,18 @@
+[#Net-Sink-validators]
+= xref:Net.adoc[Net]::xref:Net/Sink.adoc[Sink]::validators
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Sink.h#L97[net&sol;Sink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/vector.adoc[vector]&lt;xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:Net/Validator.adoc[Validator]&gt;&gt; validators;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

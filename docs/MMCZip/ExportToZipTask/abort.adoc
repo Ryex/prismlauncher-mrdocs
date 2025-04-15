@@ -1,0 +1,20 @@
+[#MMCZip-ExportToZipTask-abort]
+= xref:MMCZip.adoc[MMCZip]::xref:MMCZip/ExportToZipTask.adoc[ExportToZipTask]::abort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L191[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,27 @@
+[#SeparatorPrefixTree-2constructor]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::SeparatorPrefixTree
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L9[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SeparatorPrefixTree/2constructor-0b.adoc[SeparatorPrefixTree](xref:QStringList.adoc[QStringList] paths);
+----
+
+[.small]#xref:SeparatorPrefixTree/2constructor-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SeparatorPrefixTree/2constructor-04.adoc[SeparatorPrefixTree](bool contained = false);
+----
+
+[.small]#xref:SeparatorPrefixTree/2constructor-04.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

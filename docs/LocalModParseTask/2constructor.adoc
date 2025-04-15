@@ -1,0 +1,21 @@
+[#LocalModParseTask-2constructor]
+= xref:LocalModParseTask.adoc[LocalModParseTask]::LocalModParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L45[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+LocalModParseTask(
+    int token,
+    xref:ResourceType.adoc[ResourceType] type,
+    xref:QFileInfo.adoc[QFileInfo] const& modFile);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

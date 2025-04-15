@@ -1,0 +1,19 @@
+[#SkinModel-getTexture]
+= xref:SkinModel.adoc[SkinModel]::getTexture
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L38[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QImage.adoc[QImage]
+getTexture() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

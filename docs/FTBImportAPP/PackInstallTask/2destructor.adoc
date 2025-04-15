@@ -1,0 +1,19 @@
+[#FTBImportAPP-PackInstallTask-2destructor]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/PackInstallTask.adoc[PackInstallTask]::&tilde;PackInstallTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/import_ftb/PackInstallTask.h#L34[modplatform&sol;import&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PackInstallTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

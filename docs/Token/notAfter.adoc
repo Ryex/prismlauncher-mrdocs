@@ -1,0 +1,18 @@
+[#Token-notAfter]
+= xref:Token.adoc[Token]::notAfter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L51[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime] notAfter;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Flame-ListModel-searchWithTerm]
+= xref:Flame.adoc[Flame]::xref:Flame/ListModel.adoc[ListModel]::searchWithTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameModel.h#L42[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+searchWithTerm(
+    xref:QString.adoc[QString] const& term,
+    int sort,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]::xref:ModFilterWidget/Filter.adoc[Filter]&gt; filter,
+    bool filterChanged);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

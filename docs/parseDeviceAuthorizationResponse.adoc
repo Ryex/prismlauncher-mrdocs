@@ -1,0 +1,19 @@
+[#parseDeviceAuthorizationResponse]
+= parseDeviceAuthorizationResponse
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.cpp#L93[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:DeviceAuthorizationResponse.adoc[DeviceAuthorizationResponse]
+parseDeviceAuthorizationResponse(xref:QByteArray.adoc[QByteArray] const& data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

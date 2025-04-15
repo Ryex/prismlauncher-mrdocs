@@ -1,0 +1,19 @@
+[#ThemeCustomizationWidget-currentIconThemeChanged]
+= xref:ThemeCustomizationWidget.adoc[ThemeCustomizationWidget]::currentIconThemeChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ThemeCustomizationWidget.h#L50[ui&sol;widgets&sol;ThemeCustomizationWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+currentIconThemeChanged(int index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

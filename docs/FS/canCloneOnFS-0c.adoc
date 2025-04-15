@@ -1,0 +1,19 @@
+[#FS-canCloneOnFS-0c]
+= xref:FS.adoc[FS]::canCloneOnFS
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L472[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+canCloneOnFS(xref:FS/FilesystemType.adoc[FilesystemType] type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

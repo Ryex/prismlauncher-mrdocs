@@ -1,0 +1,20 @@
+[#FastFileIconProvider-icon]
+= xref:FastFileIconProvider.adoc[FastFileIconProvider]::icon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FastFileIconProvider.h#L25[FastFileIconProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QIcon.adoc[QIcon]
+icon(xref:QFileInfo.adoc[QFileInfo] const& info) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

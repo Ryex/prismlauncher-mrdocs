@@ -1,0 +1,19 @@
+[#MinecraftInstance-m_texture_pack_list]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::m&lowbar;texture&lowbar;pack&lowbar;list
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L173[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:TexturePackFolderModel.adoc[TexturePackFolderModel]&gt; m&lowbar;texture&lowbar;pack&lowbar;list;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

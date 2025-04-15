@@ -1,0 +1,19 @@
+[#XboxAuthorizationStep-2destructor]
+= xref:XboxAuthorizationStep.adoc[XboxAuthorizationStep]::&tilde;XboxAuthorizationStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxAuthorizationStep.h#L14[minecraft&sol;auth&sol;steps&sol;XboxAuthorizationStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;XboxAuthorizationStep() noexcept = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

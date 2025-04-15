@@ -1,0 +1,18 @@
+[#World-m_size]
+= xref:World.adoc[World]::m&lowbar;size
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L88[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:int64_t.adoc[int64&lowbar;t] m&lowbar;size;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

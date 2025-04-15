@@ -1,0 +1,32 @@
+[#ResourceDownload-ResourceModel-documentToArray]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::documentToArray
+:relfileprefix: ../../
+:mrdocs:
+
+
+Converts a JSON document to a common array format&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L123[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QJsonArray.adoc[QJsonArray]
+documentToArray(xref:QJsonDocument.adoc[QJsonDocument]&) const;
+----
+
+== Description
+
+This is needed so that different providers, with different JSON structures, can be parsed
+uniformally&period; You NEED to re&hyphen;implement this if you intend on using the default callbacks&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

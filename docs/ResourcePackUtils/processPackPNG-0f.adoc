@@ -1,0 +1,21 @@
+[#ResourcePackUtils-processPackPNG-0f]
+= xref:ResourcePackUtils.adoc[ResourcePackUtils]::processPackPNG
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourcePackParseTask.h#L29[minecraft&sol;mod&sol;tasks&sol;LocalResourcePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processPackPNG(
+    xref:ResourcePack.adoc[ResourcePack] const* pack,
+    xref:QByteArray.adoc[QByteArray]&& raw&lowbar;data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

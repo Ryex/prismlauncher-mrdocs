@@ -1,0 +1,19 @@
+[#Net-NetRequest-sslErrors]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::sslErrors
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L88[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+sslErrors(xref:QList.adoc[QList]&lt;xref:QSslError.adoc[QSslError]&gt; const& errors);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

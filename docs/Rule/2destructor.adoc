@@ -1,0 +1,19 @@
+[#Rule-2destructor]
+= xref:Rule.adoc[Rule]::&tilde;Rule
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L58[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;Rule();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

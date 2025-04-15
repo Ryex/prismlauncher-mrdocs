@@ -1,0 +1,19 @@
+[#CustomCommands-2constructor]
+= xref:CustomCommands.adoc[CustomCommands]::CustomCommands
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CustomCommands.h#L48[ui&sol;widgets&sol;CustomCommands&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+CustomCommands(xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

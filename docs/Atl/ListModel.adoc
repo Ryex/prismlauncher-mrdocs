@@ -1,0 +1,76 @@
+[#Atl-ListModel]
+= xref:Atl.adoc[Atl]::ListModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlListModel.h#L30[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ListModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/ListModel/2constructor.adoc[`ListModel`]         [.small]#[constructor]#
+| 
+
+| xref:Atl/ListModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:Atl/ListModel/data.adoc[`data`] 
+| 
+
+| xref:Atl/ListModel/getLogo.adoc[`getLogo`] 
+| 
+
+| xref:Atl/ListModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Atl/ListModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Atl/ListModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Atl/ListModel/request.adoc[`request`] 
+| 
+
+| xref:Atl/ListModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:Atl/ListModel/2destructor.adoc[`&tilde;ListModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/ListModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Atl/ListModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#JavaUtils-MakeJavaPtr]
+= xref:JavaUtils.adoc[JavaUtils]::MakeJavaPtr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L36[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaInstallPtr.adoc[JavaInstallPtr]
+MakeJavaPtr(
+    xref:QString.adoc[QString] path,
+    xref:QString.adoc[QString] id = &quot;unknown&quot;,
+    xref:QString.adoc[QString] arch = &quot;unknown&quot;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

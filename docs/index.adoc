@@ -1,0 +1,3106 @@
+[#index]
+= Global namespace
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:00namespace.adoc[`&lt;unnamed&gt;`] 
+| 
+
+| xref:ATLauncher.adoc[`ATLauncher`] 
+| 
+
+| xref:AssetsUtils.adoc[`AssetsUtils`] 
+| FIXME&colon; this is absolutely horrendous&period; REDO!!!!
+
+
+
+| xref:Atl.adoc[`Atl`] 
+| 
+
+| xref:Bits.adoc[`Bits`] 
+| 
+
+| xref:Commandline.adoc[`Commandline`] 
+| commandline parsing and processing utilities
+
+| xref:CustomMessageBox.adoc[`CustomMessageBox`] 
+| 
+
+| xref:DataPackUtils.adoc[`DataPackUtils`] 
+| 
+
+| xref:DesktopServices.adoc[`DesktopServices`] 
+| This wraps around QDesktopServices and adds workarounds where needed
+Use this instead of QDesktopServices!
+
+
+
+| xref:ExportToModList.adoc[`ExportToModList`] 
+| 
+
+| xref:FS.adoc[`FS`] 
+| 
+
+| xref:FTBImportAPP.adoc[`FTBImportAPP`] 
+| 
+
+| xref:Flame.adoc[`Flame`] 
+| 
+
+| xref:FlameMod.adoc[`FlameMod`] 
+| 
+
+| xref:GZTar.adoc[`GZTar`] 
+| 
+
+| xref:GuiUtil.adoc[`GuiUtil`] 
+| 
+
+| xref:Hashing.adoc[`Hashing`] 
+| 
+
+| xref:IconUtils.adoc[`IconUtils`] 
+| 
+
+| xref:Java.adoc[`Java`] 
+| 
+
+| xref:JavaCommon.adoc[`JavaCommon`] 
+| Common UI bits for the java pages to use&period;
+
+
+
+| xref:Json.adoc[`Json`] 
+| 
+
+| xref:LegacyFTB.adoc[`LegacyFTB`] 
+| 
+
+| xref:MMCZip.adoc[`MMCZip`] 
+| 
+
+| xref:MangoHud.adoc[`MangoHud`] 
+| 
+
+| xref:MessageLevel.adoc[`MessageLevel`] 
+| the MessageLevel Enum
+defines what level a log message is
+
+| xref:Meta.adoc[`Meta`] 
+| 
+
+| xref:Metadata.adoc[`Metadata`] 
+| 
+
+| xref:ModPlatform.adoc[`ModPlatform`] 
+| 
+
+| xref:ModUtils.adoc[`ModUtils`] 
+| 
+
+| xref:Modrinth.adoc[`Modrinth`] 
+| 
+
+| xref:Murmur2.adoc[`Murmur2`] 
+| 
+
+| xref:Net.adoc[`Net`] 
+| 
+
+| xref:Override.adoc[`Override`] 
+| 
+
+| xref:Packwiz.adoc[`Packwiz`] 
+| 
+
+| xref:Parsers.adoc[`Parsers`] 
+| 
+
+| xref:ProfileUtils.adoc[`ProfileUtils`] 
+| 
+
+| xref:Qt.adoc[`Qt`] 
+| 
+
+| xref:ResourceDownload.adoc[`ResourceDownload`] 
+| 
+
+| xref:ResourcePackUtils.adoc[`ResourcePackUtils`] 
+| 
+
+| xref:ResourceUtils.adoc[`ResourceUtils`] 
+| 
+
+| xref:ShaderPackUtils.adoc[`ShaderPackUtils`] 
+| 
+
+| xref:StringUtils.adoc[`StringUtils`] 
+| 
+
+| xref:SysInfo.adoc[`SysInfo`] 
+| 
+
+| xref:Tar.adoc[`Tar`] 
+| 
+
+| xref:Technic.adoc[`Technic`] 
+| 
+
+| xref:TechnicSolder.adoc[`TechnicSolder`] 
+| 
+
+| xref:TexturePackUtils.adoc[`TexturePackUtils`] 
+| 
+
+| xref:Time.adoc[`Time`] 
+| 
+
+| xref:Ui.adoc[`Ui`] 
+| 
+
+| xref:WorldSaveUtils.adoc[`WorldSaveUtils`] 
+| 
+
+| xref:__gnu_cxx.adoc[`&lowbar;&lowbar;gnu&lowbar;cxx`] 
+| 
+
+| xref:nbt.adoc[`nbt`] 
+| 
+
+| xref:opengl.adoc[`opengl`] 
+| 
+
+| xref:std.adoc[`std`] 
+| 
+
+| xref:toml.adoc[`toml`] 
+| 
+
+|===
+== Namespace Aliases
+[cols=2]
+|===
+| Name | Description 
+
+| xref:fs.adoc[`fs`] 
+| 
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:APIPage.adoc[`APIPage`] 
+| 
+
+| xref:AboutDialog.adoc[`AboutDialog`] 
+| 
+
+| xref:AccessibleInstanceView.adoc[`AccessibleInstanceView`] 
+| 
+
+| xref:AccessibleInstanceViewItem.adoc[`AccessibleInstanceViewItem`] 
+| 
+
+| xref:AccountData.adoc[`AccountData`] 
+| 
+
+| xref:AccountList.adoc[`AccountList`] 
+| List of available Mojang accounts&period;
+This should be loaded in the background by Prism Launcher on startup&period;
+
+
+
+| xref:AccountListPage.adoc[`AccountListPage`] 
+| 
+
+| xref:AccountProfile.adoc[`AccountProfile`] 
+| A profile within someone&apos;s Mojang account&period;
+
+
+
+| xref:ActionButton.adoc[`ActionButton`] 
+| 
+
+| xref:Agent.adoc[`Agent`] 
+| 
+
+| xref:AgentPtr.adoc[`AgentPtr`] 
+| 
+
+| xref:AllVersionProxyModel.adoc[`AllVersionProxyModel`] 
+| 
+
+| xref:Application.adoc[`Application`] 
+| 
+
+| xref:ApplicationMessage.adoc[`ApplicationMessage`] 
+| 
+
+| xref:AssetObject.adoc[`AssetObject`] 
+| 
+
+| xref:AssetUpdateTask.adoc[`AssetUpdateTask`] 
+| 
+
+| xref:AssetsIndex.adoc[`AssetsIndex`] 
+| 
+
+| xref:AtlOptionalModDialog.adoc[`AtlOptionalModDialog`] 
+| 
+
+| xref:AtlOptionalModListModel.adoc[`AtlOptionalModListModel`] 
+| 
+
+| xref:AtlPage.adoc[`AtlPage`] 
+| 
+
+| xref:AtlUserInteractionSupportImpl.adoc[`AtlUserInteractionSupportImpl`] 
+| 
+
+| xref:AuthFlow.adoc[`AuthFlow`] 
+| 
+
+| xref:AuthSession.adoc[`AuthSession`] 
+| 
+
+| xref:AuthSessionPtr.adoc[`AuthSessionPtr`] 
+| 
+
+| xref:AuthStep.adoc[`AuthStep`] 
+| 
+
+| xref:AuthenticateTask.adoc[`AuthenticateTask`] 
+| 
+
+| xref:AuthenticationResponse.adoc[`AuthenticationResponse`] 
+| 
+
+| xref:AutoInstallJava.adoc[`AutoInstallJava`] 
+| 
+
+| xref:AutoJavaWizardPage.adoc[`AutoJavaWizardPage`] 
+| 
+
+| xref:BaseDetachedTool.adoc[`BaseDetachedTool`] 
+| 
+
+| xref:BaseDetachedToolFactory.adoc[`BaseDetachedToolFactory`] 
+| 
+
+| xref:BaseExternalTool.adoc[`BaseExternalTool`] 
+| 
+
+| xref:BaseExternalToolFactory.adoc[`BaseExternalToolFactory`] 
+| 
+
+| xref:BaseInstaller.adoc[`BaseInstaller`] 
+| 
+
+| xref:BaseInstance.adoc[`BaseInstance`] 
+| Base class for instances&period;
+This class implements many functions that are common between instances and
+provides a standard interface for all instances&period;
+
+| xref:BasePage.adoc[`BasePage`] 
+| 
+
+| xref:BasePageContainer.adoc[`BasePageContainer`] 
+| 
+
+| xref:BasePageProvider.adoc[`BasePageProvider`] 
+| 
+
+| xref:BasePagePtr.adoc[`BasePagePtr`] 
+| 
+
+| xref:BaseProfiler.adoc[`BaseProfiler`] 
+| 
+
+| xref:BaseProfilerFactory.adoc[`BaseProfilerFactory`] 
+| 
+
+| xref:BaseVersion.adoc[`BaseVersion`] 
+| An abstract base class for versions&period;
+
+
+
+| xref:BaseVersionList.adoc[`BaseVersionList`] 
+| Class that each instance type&apos;s version list derives from&period;
+Version lists are the lists that keep track of the available game versions
+for that instance&period; This list will not be loaded on startup&period; It will be loaded
+when the list&apos;s load function is called&period; Before using the version list, you
+should check to see if it has been loaded yet and if not, load the list&period;
+
+| xref:BaseWizardPage.adoc[`BaseWizardPage`] 
+| 
+
+| xref:BasicCatPack.adoc[`BasicCatPack`] 
+| 
+
+| xref:BlockedMod.adoc[`BlockedMod`] 
+| 
+
+| xref:BlockedModsDialog.adoc[`BlockedModsDialog`] 
+| 
+
+| xref:BrightTheme.adoc[`BrightTheme`] 
+| 
+
+| xref:Cape.adoc[`Cape`] 
+| 
+
+| xref:CapeChange.adoc[`CapeChange`] 
+| 
+
+| xref:CatPack.adoc[`CatPack`] 
+| 
+
+| xref:CenteredEditingDelegate.adoc[`CenteredEditingDelegate`] 
+| 
+
+| xref:CheckComboBox.adoc[`CheckComboBox`] 
+| 
+
+| xref:CheckComboModel.adoc[`CheckComboModel`] 
+| 
+
+| xref:CheckJava.adoc[`CheckJava`] 
+| 
+
+| xref:CheckUpdateTask.adoc[`CheckUpdateTask`] 
+| 
+
+| xref:ChooseProviderDialog.adoc[`ChooseProviderDialog`] 
+| 
+
+| xref:ClaimAccount.adoc[`ClaimAccount`] 
+| 
+
+| xref:Component.adoc[`Component`] 
+| 
+
+| xref:ComponentContainer.adoc[`ComponentContainer`] 
+| 
+
+| xref:ComponentIndex.adoc[`ComponentIndex`] 
+| 
+
+| xref:ComponentPtr.adoc[`ComponentPtr`] 
+| 
+
+| xref:ComponentUpdateTask.adoc[`ComponentUpdateTask`] 
+| 
+
+| xref:ComponentUpdateTaskData.adoc[`ComponentUpdateTaskData`] 
+| 
+
+| xref:ConcurrentTask.adoc[`ConcurrentTask`] 
+| Runs a list of tasks concurrently (according to &grave;max&lowbar;concurrent&grave; parameter)&period;
+Behaviour is the same as regular Task (e&period;g&period; starts using start())
+
+
+
+| xref:ContainsFilter.adoc[`ContainsFilter`] 
+| 
+
+| xref:CopyInstanceDialog.adoc[`CopyInstanceDialog`] 
+| 
+
+| xref:CoreModFolderPage.adoc[`CoreModFolderPage`] 
+| 
+
+| xref:CreateGameFolders.adoc[`CreateGameFolders`] 
+| 
+
+| xref:CustomCommands.adoc[`CustomCommands`] 
+| 
+
+| xref:CustomOAuthOobReplyHandler.adoc[`CustomOAuthOobReplyHandler`] 
+| 
+
+| xref:CustomPage.adoc[`CustomPage`] 
+| 
+
+| xref:CustomTheme.adoc[`CustomTheme`] 
+| 
+
+| xref:DarkTheme.adoc[`DarkTheme`] 
+| 
+
+| xref:DataMigrationTask.adoc[`DataMigrationTask`] 
+| 
+
+| xref:DataPack.adoc[`DataPack`] 
+| 
+
+| xref:DefaultVariable.adoc[`DefaultVariable`] 
+| 
+
+| xref:DeviceAuthorizationResponse.adoc[`DeviceAuthorizationResponse`] 
+| 
+
+| xref:EnsureMetadataTask.adoc[`EnsureMetadataTask`] 
+| 
+
+| xref:EntitlementsStep.adoc[`EntitlementsStep`] 
+| 
+
+| xref:EnvironmentVariables.adoc[`EnvironmentVariables`] 
+| 
+
+| xref:ExactFilter.adoc[`ExactFilter`] 
+| 
+
+| xref:ExactIfPresentFilter.adoc[`ExactIfPresentFilter`] 
+| 
+
+| xref:ExactListFilter.adoc[`ExactListFilter`] 
+| 
+
+| xref:Exception.adoc[`Exception`] 
+| 
+
+| xref:ExponentialSeries.adoc[`ExponentialSeries`] 
+| 
+
+| xref:ExportInstanceDialog.adoc[`ExportInstanceDialog`] 
+| 
+
+| xref:ExportPackDialog.adoc[`ExportPackDialog`] 
+| 
+
+| xref:ExportToModListDialog.adoc[`ExportToModListDialog`] 
+| 
+
+| xref:ExternalResourcesPage.adoc[`ExternalResourcesPage`] 
+| 
+
+| xref:ExternalToolsPage.adoc[`ExternalToolsPage`] 
+| 
+
+| xref:ExternalUpdater.adoc[`ExternalUpdater`] 
+| A base class for an updater that uses an external library&period;
+This class contains basic functions to control the updater&period;
+
+
+
+| xref:ExtractNatives.adoc[`ExtractNatives`] 
+| 
+
+| xref:FMLLibrariesTask.adoc[`FMLLibrariesTask`] 
+| 
+
+| xref:FMLlib.adoc[`FMLlib`] 
+| 
+
+| xref:FastFileIconProvider.adoc[`FastFileIconProvider`] 
+| 
+
+| xref:File.adoc[`File`] 
+| 
+
+| xref:FileCatPack.adoc[`FileCatPack`] 
+| 
+
+| xref:FileIgnoreProxy.adoc[`FileIgnoreProxy`] 
+| 
+
+| xref:Filter.adoc[`Filter`] 
+| 
+
+| xref:FilterModel.adoc[`FilterModel`] 
+| 
+
+| xref:FlameAPI.adoc[`FlameAPI`] 
+| 
+
+| xref:FlameCheckUpdate.adoc[`FlameCheckUpdate`] 
+| 
+
+| xref:FlameCreationTask.adoc[`FlameCreationTask`] 
+| 
+
+| xref:FlameManagedPackPage.adoc[`FlameManagedPackPage`] 
+| 
+
+| xref:FlamePackExportTask.adoc[`FlamePackExportTask`] 
+| 
+
+| xref:FlamePage.adoc[`FlamePage`] 
+| 
+
+| xref:FocusLineEdit.adoc[`FocusLineEdit`] 
+| 
+
+| xref:FoldersTask.adoc[`FoldersTask`] 
+| 
+
+| xref:FusionTheme.adoc[`FusionTheme`] 
+| 
+
+| xref:GLushort.adoc[`GLushort`] 
+| 
+
+| xref:GZip.adoc[`GZip`] 
+| 
+
+| xref:GameOptionItem.adoc[`GameOptionItem`] 
+| 
+
+| xref:GameOptions.adoc[`GameOptions`] 
+| 
+
+| xref:GameOptionsPage.adoc[`GameOptionsPage`] 
+| 
+
+| xref:GameType.adoc[`GameType`] 
+| 
+
+| xref:GenericManagedPackPage.adoc[`GenericManagedPackPage`] 
+| Simple page for when we aren&apos;t a managed pack&period;
+
+
+
+| xref:GenericPageProvider.adoc[`GenericPageProvider`] 
+| 
+
+| xref:GenericProfiler.adoc[`GenericProfiler`] 
+| 
+
+| xref:GenericProfilerFactory.adoc[`GenericProfilerFactory`] 
+| 
+
+| xref:GetModDependenciesTask.adoc[`GetModDependenciesTask`] 
+| 
+
+| xref:GetSkinStep.adoc[`GetSkinStep`] 
+| 
+
+| xref:GradleSpecifier.adoc[`GradleSpecifier`] 
+| 
+
+| xref:GroupId.adoc[`GroupId`] 
+| 
+
+| xref:HintOverrideProxyStyle.adoc[`HintOverrideProxyStyle`] 
+| Used to override platform&hyphen;specific behaviours which the launcher does work well with&period;
+
+
+
+| xref:HttpMetaCache.adoc[`HttpMetaCache`] 
+| 
+
+| xref:INIFile.adoc[`INIFile`] 
+| 
+
+| xref:INISettingsObject.adoc[`INISettingsObject`] 
+| A settings object that stores its settings in an INIFile&period;
+
+| xref:IPathMatcher.adoc[`IPathMatcher`] 
+| 
+
+| xref:ITheme.adoc[`ITheme`] 
+| 
+
+| xref:IconLabel.adoc[`IconLabel`] 
+| This is a trivial widget that paints a QIcon of the specified size&period;
+
+
+
+| xref:IconList.adoc[`IconList`] 
+| 
+
+| xref:IconPickerDialog.adoc[`IconPickerDialog`] 
+| 
+
+| xref:IconProxy.adoc[`IconProxy`] 
+| 
+
+| xref:IconTheme.adoc[`IconTheme`] 
+| 
+
+| xref:ImgurAlbumCreation.adoc[`ImgurAlbumCreation`] 
+| 
+
+| xref:ImgurUpload.adoc[`ImgurUpload`] 
+| 
+
+| xref:ImplicitRule.adoc[`ImplicitRule`] 
+| 
+
+| xref:ImportPage.adoc[`ImportPage`] 
+| 
+
+| xref:ImportResourceDialog.adoc[`ImportResourceDialog`] 
+| 
+
+| xref:InfoFrame.adoc[`InfoFrame`] 
+| 
+
+| xref:InstallJavaPage.adoc[`InstallJavaPage`] 
+| 
+
+| xref:InstallLoaderDialog.adoc[`InstallLoaderDialog`] 
+| 
+
+| xref:InstallLoaderPage.adoc[`InstallLoaderPage`] 
+| 
+
+| xref:InstanceCopyPrefs.adoc[`InstanceCopyPrefs`] 
+| 
+
+| xref:InstanceCopyTask.adoc[`InstanceCopyTask`] 
+| 
+
+| xref:InstanceCreationTask.adoc[`InstanceCreationTask`] 
+| 
+
+| xref:InstanceId.adoc[`InstanceId`] 
+| 
+
+| xref:InstanceImportTask.adoc[`InstanceImportTask`] 
+| 
+
+| xref:InstanceList.adoc[`InstanceList`] 
+| 
+
+| xref:InstanceLocator.adoc[`InstanceLocator`] 
+| 
+
+| xref:InstanceName.adoc[`InstanceName`] 
+| 
+
+| xref:InstancePageProvider.adoc[`InstancePageProvider`] 
+| 
+
+| xref:InstanceProxyModel.adoc[`InstanceProxyModel`] 
+| 
+
+| xref:InstancePtr.adoc[`InstancePtr`] 
+| 
+
+| xref:InstanceSettingsPage.adoc[`InstanceSettingsPage`] 
+| 
+
+| xref:InstanceStaging.adoc[`InstanceStaging`] 
+| 
+
+| xref:InstanceTask.adoc[`InstanceTask`] 
+| 
+
+| xref:InstanceView.adoc[`InstanceView`] 
+| 
+
+| xref:InstanceViewRoles.adoc[`InstanceViewRoles`] 
+| 
+
+| xref:InstanceWindow.adoc[`InstanceWindow`] 
+| 
+
+| xref:JProfiler.adoc[`JProfiler`] 
+| 
+
+| xref:JProfilerFactory.adoc[`JProfilerFactory`] 
+| 
+
+| xref:JSONValidationError.adoc[`JSONValidationError`] 
+| 
+
+| xref:JVisualVM.adoc[`JVisualVM`] 
+| 
+
+| xref:JVisualVMFactory.adoc[`JVisualVMFactory`] 
+| 
+
+| xref:JavaChecker.adoc[`JavaChecker`] 
+| 
+
+| xref:JavaInstall.adoc[`JavaInstall`] 
+| 
+
+| xref:JavaInstallList.adoc[`JavaInstallList`] 
+| 
+
+| xref:JavaInstallPtr.adoc[`JavaInstallPtr`] 
+| 
+
+| xref:JavaListLoadTask.adoc[`JavaListLoadTask`] 
+| 
+
+| xref:JavaPage.adoc[`JavaPage`] 
+| 
+
+| xref:JavaSettingsWidget.adoc[`JavaSettingsWidget`] 
+| 
+
+| xref:JavaUtils.adoc[`JavaUtils`] 
+| 
+
+| xref:JavaVersion.adoc[`JavaVersion`] 
+| 
+
+| xref:JavaWizardPage.adoc[`JavaWizardPage`] 
+| 
+
+| xref:JavaWizardWidget.adoc[`JavaWizardWidget`] 
+| 
+
+| xref:JsonCatPack.adoc[`JsonCatPack`] 
+| 
+
+| xref:KonamiCode.adoc[`KonamiCode`] 
+| 
+
+| xref:LabeledToolButton.adoc[`LabeledToolButton`] 
+| 
+
+| xref:Language.adoc[`Language`] 
+| 
+
+| xref:LanguagePage.adoc[`LanguagePage`] 
+| 
+
+| xref:LanguageSelectionWidget.adoc[`LanguageSelectionWidget`] 
+| 
+
+| xref:LanguageWizardPage.adoc[`LanguageWizardPage`] 
+| 
+
+| xref:LaunchController.adoc[`LaunchController`] 
+| 
+
+| xref:LaunchProfile.adoc[`LaunchProfile`] 
+| 
+
+| xref:LaunchStep.adoc[`LaunchStep`] 
+| 
+
+| xref:LaunchTask.adoc[`LaunchTask`] 
+| 
+
+| xref:LauncherLoginStep.adoc[`LauncherLoginStep`] 
+| 
+
+| xref:LauncherPage.adoc[`LauncherPage`] 
+| 
+
+| xref:LauncherPartLaunch.adoc[`LauncherPartLaunch`] 
+| 
+
+| xref:LibrariesTask.adoc[`LibrariesTask`] 
+| 
+
+| xref:Library.adoc[`Library`] 
+| 
+
+| xref:LibraryPtr.adoc[`LibraryPtr`] 
+| 
+
+| xref:LineSeparator.adoc[`LineSeparator`] 
+| 
+
+| xref:ListViewDelegate.adoc[`ListViewDelegate`] 
+| 
+
+| xref:LocalDataPackParseTask.adoc[`LocalDataPackParseTask`] 
+| 
+
+| xref:LocalModParseTask.adoc[`LocalModParseTask`] 
+| 
+
+| xref:LocalPeer.adoc[`LocalPeer`] 
+| 
+
+| xref:LocalResourceUpdateTask.adoc[`LocalResourceUpdateTask`] 
+| 
+
+| xref:LocalShaderPackParseTask.adoc[`LocalShaderPackParseTask`] 
+| 
+
+| xref:LocalTexturePackParseTask.adoc[`LocalTexturePackParseTask`] 
+| 
+
+| xref:LocalWorldSaveParseTask.adoc[`LocalWorldSaveParseTask`] 
+| 
+
+| xref:LocaleString.adoc[`LocaleString`] 
+| 
+
+| xref:LogColors.adoc[`LogColors`] 
+| 
+
+| xref:LogFormatProxyModel.adoc[`LogFormatProxyModel`] 
+| 
+
+| xref:LogModel.adoc[`LogModel`] 
+| 
+
+| xref:LogPage.adoc[`LogPage`] 
+| 
+
+| xref:LogView.adoc[`LogView`] 
+| 
+
+| xref:LoggedProcess.adoc[`LoggedProcess`] 
+| 
+
+| xref:LoginWizardPage.adoc[`LoginWizardPage`] 
+| 
+
+| xref:LookupServerAddress.adoc[`LookupServerAddress`] 
+| 
+
+| xref:MCEditTool.adoc[`MCEditTool`] 
+| 
+
+| xref:MMCIcon.adoc[`MMCIcon`] 
+| 
+
+| xref:MMCImage.adoc[`MMCImage`] 
+| 
+
+| xref:MSADeviceCodeStep.adoc[`MSADeviceCodeStep`] 
+| 
+
+| xref:MSALoginDialog.adoc[`MSALoginDialog`] 
+| 
+
+| xref:MSAStep.adoc[`MSAStep`] 
+| 
+
+| xref:MainWindow.adoc[`MainWindow`] 
+| 
+
+| xref:ManagedPackPage.adoc[`ManagedPackPage`] 
+| 
+
+| xref:McClient.adoc[`McClient`] 
+| 
+
+| xref:McResolver.adoc[`McResolver`] 
+| 
+
+| xref:MetaEntry.adoc[`MetaEntry`] 
+| 
+
+| xref:MetaEntryPtr.adoc[`MetaEntryPtr`] 
+| 
+
+| xref:MinecraftAccount.adoc[`MinecraftAccount`] 
+| Object that stores information about a certain Mojang account&period;
+
+
+
+| xref:MinecraftAccountPtr.adoc[`MinecraftAccountPtr`] 
+| 
+
+| xref:MinecraftEntitlement.adoc[`MinecraftEntitlement`] 
+| 
+
+| xref:MinecraftInstance.adoc[`MinecraftInstance`] 
+| 
+
+| xref:MinecraftInstancePtr.adoc[`MinecraftInstancePtr`] 
+| 
+
+| xref:MinecraftLauncher.adoc[`MinecraftLauncher`] 
+| 
+
+| xref:MinecraftLoadAndCheck.adoc[`MinecraftLoadAndCheck`] 
+| 
+
+| xref:MinecraftPage.adoc[`MinecraftPage`] 
+| 
+
+| xref:MinecraftProfile.adoc[`MinecraftProfile`] 
+| 
+
+| xref:MinecraftProfileStep.adoc[`MinecraftProfileStep`] 
+| 
+
+| xref:MinecraftSettingsWidget.adoc[`MinecraftSettingsWidget`] 
+| 
+
+| xref:MinecraftTarget.adoc[`MinecraftTarget`] 
+| 
+
+| xref:Mod.adoc[`Mod`] 
+| 
+
+| xref:ModDetails.adoc[`ModDetails`] 
+| 
+
+| xref:ModFilterWidget.adoc[`ModFilterWidget`] 
+| 
+
+| xref:ModFolderModel.adoc[`ModFolderModel`] 
+| A legacy mod list&period;
+Backed by a folder&period;
+
+
+
+| xref:ModFolderPage.adoc[`ModFolderPage`] 
+| 
+
+| xref:ModLicense.adoc[`ModLicense`] 
+| 
+
+| xref:ModListView.adoc[`ModListView`] 
+| 
+
+| xref:ModMinecraftJar.adoc[`ModMinecraftJar`] 
+| 
+
+| xref:ModPage.adoc[`ModPage`] 
+| 
+
+| xref:ModloaderMapEntry.adoc[`ModloaderMapEntry`] 
+| 
+
+| xref:ModpackProviderBasePage.adoc[`ModpackProviderBasePage`] 
+| 
+
+| xref:ModrinthAPI.adoc[`ModrinthAPI`] 
+| 
+
+| xref:ModrinthCheckUpdate.adoc[`ModrinthCheckUpdate`] 
+| 
+
+| xref:ModrinthCreationTask.adoc[`ModrinthCreationTask`] 
+| 
+
+| xref:ModrinthManagedPackPage.adoc[`ModrinthManagedPackPage`] 
+| 
+
+| xref:ModrinthPackExportTask.adoc[`ModrinthPackExportTask`] 
+| 
+
+| xref:ModrinthPage.adoc[`ModrinthPage`] 
+| 
+
+| xref:MojangAssetIndexInfo.adoc[`MojangAssetIndexInfo`] 
+| 
+
+| xref:MojangDownloadInfo.adoc[`MojangDownloadInfo`] 
+| 
+
+| xref:MojangLibraryDownloadInfo.adoc[`MojangLibraryDownloadInfo`] 
+| 
+
+| xref:MojangVersionFormat.adoc[`MojangVersionFormat`] 
+| 
+
+| xref:MultiMatcher.adoc[`MultiMatcher`] 
+| 
+
+| xref:MultipleOptionsTask.adoc[`MultipleOptionsTask`] 
+| 
+
+| xref:NetJob.adoc[`NetJob`] 
+| 
+
+| xref:NetworkResourceAPI.adoc[`NetworkResourceAPI`] 
+| 
+
+| xref:NewComponentDialog.adoc[`NewComponentDialog`] 
+| 
+
+| xref:NewInstanceDialog.adoc[`NewInstanceDialog`] 
+| 
+
+| xref:NewsChecker.adoc[`NewsChecker`] 
+| 
+
+| xref:NewsDialog.adoc[`NewsDialog`] 
+| 
+
+| xref:NewsEntry.adoc[`NewsEntry`] 
+| 
+
+| xref:NewsEntryPtr.adoc[`NewsEntryPtr`] 
+| 
+
+| xref:NilModFolderPage.adoc[`NilModFolderPage`] 
+| 
+
+| xref:NoBigComboBoxStyle.adoc[`NoBigComboBoxStyle`] 
+| This is just to override the combo box popup behavior so that the combo box doesn&apos;t take the whole screen&period;
+&period;&period;&period; thanks Qt&period;
+
+
+
+| xref:NoReturnTextEdit.adoc[`NoReturnTextEdit`] 
+| 
+
+| xref:NotesPage.adoc[`NotesPage`] 
+| 
+
+| xref:NullInstance.adoc[`NullInstance`] 
+| 
+
+| xref:OfflineLoginDialog.adoc[`OfflineLoginDialog`] 
+| 
+
+| xref:OneSixVersionFormat.adoc[`OneSixVersionFormat`] 
+| 
+
+| xref:OptionalModDialog.adoc[`OptionalModDialog`] 
+| 
+
+| xref:OrSetting.adoc[`OrSetting`] 
+| 
+
+| xref:OsRule.adoc[`OsRule`] 
+| 
+
+| xref:OtherLogsPage.adoc[`OtherLogsPage`] 
+| 
+
+| xref:OverrideSetting.adoc[`OverrideSetting`] 
+| A setting that &apos;overrides another&period;&apos;
+This means that the setting&apos;s default value will be the value of another setting&period;
+The other setting can be (and usually is) a part of a different SettingsObject
+than this one&period;
+
+| xref:POEntry.adoc[`POEntry`] 
+| 
+
+| xref:POTranslator.adoc[`POTranslator`] 
+| 
+
+| xref:POTranslatorPrivate.adoc[`POTranslatorPrivate`] 
+| 
+
+| xref:PSaveFile.adoc[`PSaveFile`] 
+| 
+
+| xref:PackProfile.adoc[`PackProfile`] 
+| 
+
+| xref:PackProfileData.adoc[`PackProfileData`] 
+| 
+
+| xref:PageContainer.adoc[`PageContainer`] 
+| 
+
+| xref:PageDialog.adoc[`PageDialog`] 
+| 
+
+| xref:PageEntryFilterModel.adoc[`PageEntryFilterModel`] 
+| 
+
+| xref:PageModel.adoc[`PageModel`] 
+| 
+
+| xref:PageView.adoc[`PageView`] 
+| 
+
+| xref:PageViewDelegate.adoc[`PageViewDelegate`] 
+| 
+
+| xref:ParserArray.adoc[`ParserArray`] 
+| 
+
+| xref:PassthroughSetting.adoc[`PassthroughSetting`] 
+| A setting that &apos;overrides another&period;&apos; based on the value of a &apos;gate&apos; setting
+If &apos;gate&apos; evaluates to true, the override stores and returns data
+If &apos;gate&apos; evaluates to false, the original does,
+
+| xref:PasteUpload.adoc[`PasteUpload`] 
+| 
+
+| xref:PasteWizardPage.adoc[`PasteWizardPage`] 
+| 
+
+| xref:PatchProblem.adoc[`PatchProblem`] 
+| 
+
+| xref:PixmapCache.adoc[`PixmapCache`] 
+| A wrapper around QPixmapCache with thread affinity with the main thread&period;
+
+
+
+| xref:PostLaunchCommand.adoc[`PostLaunchCommand`] 
+| 
+
+| xref:PreLaunchCommand.adoc[`PreLaunchCommand`] 
+| 
+
+| xref:PrintInstanceInfo.adoc[`PrintInstanceInfo`] 
+| 
+
+| xref:PrintServers.adoc[`PrintServers`] 
+| 
+
+| xref:PrismExternalUpdater.adoc[`PrismExternalUpdater`] 
+| An implementation for the updater on windows and linux that uses out external updater&period;
+
+
+
+| xref:ProblemContainer.adoc[`ProblemContainer`] 
+| 
+
+| xref:ProblemProvider.adoc[`ProblemProvider`] 
+| 
+
+| xref:ProfileSelectDialog.adoc[`ProfileSelectDialog`] 
+| 
+
+| xref:ProfileSetupDialog.adoc[`ProfileSetupDialog`] 
+| 
+
+| xref:ProgressDialog.adoc[`ProgressDialog`] 
+| 
+
+| xref:ProgressWidget.adoc[`ProgressWidget`] 
+| 
+
+| xref:ProjectDescriptionPage.adoc[`ProjectDescriptionPage`] 
+| This subclasses QTextBrowser to provide additional capabilities
+to it, like allowing for images to be shown&period;
+
+
+
+| xref:ProjectItemDelegate.adoc[`ProjectItemDelegate`] 
+| This is an item delegate composed of&colon;
+&hyphen; An Icon on the left
+&hyphen; A title
+&hyphen; A description
+
+
+
+| xref:ProxyPage.adoc[`ProxyPage`] 
+| 
+
+| xref:QAbstractButton.adoc[`QAbstractButton`] 
+| 
+
+| xref:QAbstractFileIconProvider.adoc[`QAbstractFileIconProvider`] 
+| 
+
+| xref:QAbstractItemDelegate.adoc[`QAbstractItemDelegate`] 
+| 
+
+| xref:QAbstractItemModel.adoc[`QAbstractItemModel`] 
+| 
+
+| xref:QAbstractItemView.adoc[`QAbstractItemView`] 
+| 
+
+| xref:QAbstractListModel.adoc[`QAbstractListModel`] 
+| 
+
+| xref:QAbstractOAuthReplyHandler.adoc[`QAbstractOAuthReplyHandler`] 
+| 
+
+| xref:QAbstractProxyModel.adoc[`QAbstractProxyModel`] 
+| 
+
+| xref:QAbstractScrollArea.adoc[`QAbstractScrollArea`] 
+| 
+
+| xref:QAbstractSpinBox.adoc[`QAbstractSpinBox`] 
+| 
+
+| xref:QAccessible.adoc[`QAccessible`] 
+| 
+
+| xref:QAccessibleActionInterface.adoc[`QAccessibleActionInterface`] 
+| 
+
+| xref:QAccessibleEvent.adoc[`QAccessibleEvent`] 
+| 
+
+| xref:QAccessibleInterface.adoc[`QAccessibleInterface`] 
+| 
+
+| xref:QAccessibleObject.adoc[`QAccessibleObject`] 
+| 
+
+| xref:QAccessibleTableCell.adoc[`QAccessibleTableCell`] 
+| 
+
+| xref:QAccessibleTableCellInterface.adoc[`QAccessibleTableCellInterface`] 
+| 
+
+| xref:QAccessibleTableHeaderCell.adoc[`QAccessibleTableHeaderCell`] 
+| 
+
+| xref:QAccessibleTableInterface.adoc[`QAccessibleTableInterface`] 
+| 
+
+| xref:QAccessibleTableModelChangeEvent.adoc[`QAccessibleTableModelChangeEvent`] 
+| 
+
+| xref:QAction.adoc[`QAction`] 
+| 
+
+| xref:QApplication.adoc[`QApplication`] 
+| 
+
+| xref:QBasicMutex.adoc[`QBasicMutex`] 
+| 
+
+| xref:QBoxLayout.adoc[`QBoxLayout`] 
+| 
+
+| xref:QByteArray.adoc[`QByteArray`] 
+| 
+
+| xref:QChar.adoc[`QChar`] 
+| 
+
+| xref:QCheckBox.adoc[`QCheckBox`] 
+| 
+
+| xref:QCloseEvent.adoc[`QCloseEvent`] 
+| 
+
+| xref:QColor.adoc[`QColor`] 
+| 
+
+| xref:QComboBox.adoc[`QComboBox`] 
+| 
+
+| xref:QCommonStyle.adoc[`QCommonStyle`] 
+| 
+
+| xref:QCoreApplication.adoc[`QCoreApplication`] 
+| 
+
+| xref:QCryptographicHash.adoc[`QCryptographicHash`] 
+| 
+
+| xref:QDate.adoc[`QDate`] 
+| 
+
+| xref:QDateTime.adoc[`QDateTime`] 
+| 
+
+| xref:QDebug.adoc[`QDebug`] 
+| 
+
+| xref:QDialog.adoc[`QDialog`] 
+| 
+
+| xref:QDialogButtonBox.adoc[`QDialogButtonBox`] 
+| 
+
+| xref:QDir.adoc[`QDir`] 
+| 
+
+| xref:QDomElement.adoc[`QDomElement`] 
+| 
+
+| xref:QDomNode.adoc[`QDomNode`] 
+| 
+
+| xref:QDragEnterEvent.adoc[`QDragEnterEvent`] 
+| 
+
+| xref:QDragLeaveEvent.adoc[`QDragLeaveEvent`] 
+| 
+
+| xref:QDragMoveEvent.adoc[`QDragMoveEvent`] 
+| 
+
+| xref:QDropEvent.adoc[`QDropEvent`] 
+| 
+
+| xref:QEvent.adoc[`QEvent`] 
+| 
+
+| xref:QFile.adoc[`QFile`] 
+| 
+
+| xref:QFileDevice.adoc[`QFileDevice`] 
+| 
+
+| xref:QFileIconProvider.adoc[`QFileIconProvider`] 
+| 
+
+| xref:QFileInfo.adoc[`QFileInfo`] 
+| 
+
+| xref:QFileInfoList.adoc[`QFileInfoList`] 
+| 
+
+| xref:QFileSystemModel.adoc[`QFileSystemModel`] 
+| 
+
+| xref:QFileSystemWatcher.adoc[`QFileSystemWatcher`] 
+| 
+
+| xref:QFlags-09.adoc[`QFlags`] 
+| 
+
+| xref:QFlags-03.adoc[`QFlags&lt;Option&gt;`] 
+| 
+
+| xref:QFlags-0f.adoc[`QFlags&lt;HitResult&gt;`] 
+| 
+
+| xref:QFocusEvent.adoc[`QFocusEvent`] 
+| 
+
+| xref:QFont.adoc[`QFont`] 
+| 
+
+| xref:QFrame.adoc[`QFrame`] 
+| 
+
+| xref:QGridLayout.adoc[`QGridLayout`] 
+| 
+
+| xref:QGroupBox.adoc[`QGroupBox`] 
+| 
+
+| xref:QGuiApplication.adoc[`QGuiApplication`] 
+| 
+
+| xref:QHBoxLayout.adoc[`QHBoxLayout`] 
+| 
+
+| xref:QHash.adoc[`QHash`] 
+| 
+
+| xref:QHeaderView.adoc[`QHeaderView`] 
+| 
+
+| xref:QIODevice.adoc[`QIODevice`] 
+| 
+
+| xref:QIODeviceBase.adoc[`QIODeviceBase`] 
+| 
+
+| xref:QIcon.adoc[`QIcon`] 
+| 
+
+| xref:QIdentityProxyModel.adoc[`QIdentityProxyModel`] 
+| 
+
+| xref:QImage.adoc[`QImage`] 
+| 
+
+| xref:QIncompatibleFlag.adoc[`QIncompatibleFlag`] 
+| 
+
+| xref:QInputEvent.adoc[`QInputEvent`] 
+| 
+
+| xref:QIntegerForSize-03.adoc[`QIntegerForSize&lt;8&gt;`] 
+| 
+
+| xref:QIntegerForSize-06.adoc[`QIntegerForSize`] 
+| 
+
+| xref:QIntegerForSizeof.adoc[`QIntegerForSizeof`] 
+| 
+
+| xref:QItemSelection.adoc[`QItemSelection`] 
+| 
+
+| xref:QItemSelectionModel.adoc[`QItemSelectionModel`] 
+| 
+
+| xref:QItemSelectionRange.adoc[`QItemSelectionRange`] 
+| 
+
+| xref:QJsonArray.adoc[`QJsonArray`] 
+| 
+
+| xref:QJsonDocument.adoc[`QJsonDocument`] 
+| 
+
+| xref:QJsonObject.adoc[`QJsonObject`] 
+| 
+
+| xref:QJsonParseError.adoc[`QJsonParseError`] 
+| 
+
+| xref:QJsonValue.adoc[`QJsonValue`] 
+| 
+
+| xref:QKeyEvent.adoc[`QKeyEvent`] 
+| 
+
+| xref:QLabel.adoc[`QLabel`] 
+| 
+
+| xref:QLatin1String.adoc[`QLatin1String`] 
+| 
+
+| xref:QLayout.adoc[`QLayout`] 
+| 
+
+| xref:QLayoutItem.adoc[`QLayoutItem`] 
+| 
+
+| xref:QLineEdit.adoc[`QLineEdit`] 
+| 
+
+| xref:QList.adoc[`QList`] 
+| 
+
+| xref:QListSpecialMethods.adoc[`QListSpecialMethods`] 
+| 
+
+| xref:QListSpecialMethodsBase.adoc[`QListSpecialMethodsBase`] 
+| 
+
+| xref:QListView.adoc[`QListView`] 
+| 
+
+| xref:QLocale.adoc[`QLocale`] 
+| 
+
+| xref:QLoggingCategory.adoc[`QLoggingCategory`] 
+| 
+
+| xref:QMainWindow.adoc[`QMainWindow`] 
+| 
+
+| xref:QMap.adoc[`QMap`] 
+| 
+
+| xref:QMatrix4x4.adoc[`QMatrix4x4`] 
+| 
+
+| xref:QMenu.adoc[`QMenu`] 
+| 
+
+| xref:QMessageBox.adoc[`QMessageBox`] 
+| 
+
+| xref:QMessageLogContext.adoc[`QMessageLogContext`] 
+| 
+
+| xref:QMetaObject.adoc[`QMetaObject`] 
+| 
+
+| xref:QMetaType.adoc[`QMetaType`] 
+| 
+
+| xref:QMetaTypeId-09.adoc[`QMetaTypeId&lt;BaseVersion::Ptr&gt;`] 
+| 
+
+| xref:QMetaTypeId-0c2.adoc[`QMetaTypeId&lt;TaskStepState&gt;`] 
+| 
+
+| xref:QMetaTypeId-0d.adoc[`QMetaTypeId&lt;TaskStepProgress&gt;`] 
+| 
+
+| xref:QMetaTypeId-02.adoc[`QMetaTypeId&lt;MinecraftAccountPtr&gt;`] 
+| 
+
+| xref:QMetaTypeId-0f8.adoc[`QMetaTypeId&lt;shared&lowbar;qobject&lowbar;ptr&lt;BaseInstance&gt;&gt;`] 
+| 
+
+| xref:QMetaTypeId-01.adoc[`QMetaTypeId&lt;ModPlatform::IndexedPack&gt;`] 
+| 
+
+| xref:QMetaTypeId-0fe.adoc[`QMetaTypeId&lt;ModPlatform::IndexedPack::Ptr&gt;`] 
+| 
+
+| xref:QMetaTypeId-04.adoc[`QMetaTypeId&lt;ModPlatform::ResourceProvider&gt;`] 
+| 
+
+| xref:QMetaTypeId-036.adoc[`QMetaTypeId&lt;Modrinth::Modpack&gt;`] 
+| 
+
+| xref:QMetaTypeId-0c6.adoc[`QMetaTypeId&lt;Modrinth::ModpackVersion&gt;`] 
+| 
+
+| xref:QMetaTypeId-0e.adoc[`QMetaTypeId&lt;std::set&lt;Meta::Require&gt;&gt;`] 
+| 
+
+| xref:QMetaTypeId-03d.adoc[`QMetaTypeId&lt;Flame::IndexedPack&gt;`] 
+| 
+
+| xref:QMetaTypeId-06.adoc[`QMetaTypeId&lt;Meta::Version::Ptr&gt;`] 
+| 
+
+| xref:QMetaTypeId-0a.adoc[`QMetaTypeId&lt;Meta::VersionList::Ptr&gt;`] 
+| 
+
+| xref:QMetaTypeId-07d.adoc[`QMetaTypeId&lt;FTBImportAPP::Modpack&gt;`] 
+| 
+
+| xref:QMetaTypeId-0cb.adoc[`QMetaTypeId&lt;LegacyFTB::Modpack&gt;`] 
+| 
+
+| xref:QMetaTypeId-074.adoc[`QMetaTypeId&lt;ATLauncher::IndexedPack&gt;`] 
+| 
+
+| xref:QMetaTypeId-037.adoc[`QMetaTypeId&lt;Technic::Modpack&gt;`] 
+| 
+
+| xref:QMimeData.adoc[`QMimeData`] 
+| 
+
+| xref:QModelIndex.adoc[`QModelIndex`] 
+| 
+
+| xref:QModelIndexList.adoc[`QModelIndexList`] 
+| 
+
+| xref:QMouseEvent.adoc[`QMouseEvent`] 
+| 
+
+| xref:QMutex.adoc[`QMutex`] 
+| 
+
+| xref:QNetworkAccessManager.adoc[`QNetworkAccessManager`] 
+| 
+
+| xref:QNetworkReply.adoc[`QNetworkReply`] 
+| 
+
+| xref:QNetworkRequest.adoc[`QNetworkRequest`] 
+| 
+
+| xref:QOAuthOobReplyHandler.adoc[`QOAuthOobReplyHandler`] 
+| 
+
+| xref:QObject.adoc[`QObject`] 
+| 
+
+| xref:QObjectPrivate.adoc[`QObjectPrivate`] 
+| 
+
+| xref:QOpenGLFunctions.adoc[`QOpenGLFunctions`] 
+| 
+
+| xref:QOpenGLShaderProgram.adoc[`QOpenGLShaderProgram`] 
+| 
+
+| xref:QOpenGLTexture.adoc[`QOpenGLTexture`] 
+| 
+
+| xref:QOpenGLWindow.adoc[`QOpenGLWindow`] 
+| 
+
+| xref:QPaintDevice.adoc[`QPaintDevice`] 
+| 
+
+| xref:QPaintDeviceWindow.adoc[`QPaintDeviceWindow`] 
+| 
+
+| xref:QPaintEvent.adoc[`QPaintEvent`] 
+| 
+
+| xref:QPainter.adoc[`QPainter`] 
+| 
+
+| xref:QPair.adoc[`QPair`] 
+| 
+
+| xref:QPalette.adoc[`QPalette`] 
+| 
+
+| xref:QPixmap.adoc[`QPixmap`] 
+| 
+
+| xref:QPixmapCache.adoc[`QPixmapCache`] 
+| 
+
+| xref:QPlainTextEdit.adoc[`QPlainTextEdit`] 
+| 
+
+| xref:QPoint.adoc[`QPoint`] 
+| 
+
+| xref:QPointer.adoc[`QPointer`] 
+| 
+
+| xref:QPointerEvent.adoc[`QPointerEvent`] 
+| 
+
+| xref:QProcess.adoc[`QProcess`] 
+| 
+
+| xref:QProcessEnvironment.adoc[`QProcessEnvironment`] 
+| 
+
+| xref:QProgressBar.adoc[`QProgressBar`] 
+| 
+
+| xref:QProxyStyle.adoc[`QProxyStyle`] 
+| 
+
+| xref:QPushButton.adoc[`QPushButton`] 
+| 
+
+| xref:QQueue.adoc[`QQueue`] 
+| 
+
+| xref:QRect.adoc[`QRect`] 
+| 
+
+| xref:QRectF.adoc[`QRectF`] 
+| 
+
+| xref:QRegion.adoc[`QRegion`] 
+| 
+
+| xref:QRegularExpression.adoc[`QRegularExpression`] 
+| 
+
+| xref:QResizeEvent.adoc[`QResizeEvent`] 
+| 
+
+| xref:QRunnable.adoc[`QRunnable`] 
+| 
+
+| xref:QSaveFile.adoc[`QSaveFile`] 
+| 
+
+| xref:QScopedPointer.adoc[`QScopedPointer`] 
+| 
+
+| xref:QScopedPointerDeleteLater.adoc[`QScopedPointerDeleteLater`] 
+| 
+
+| xref:QScopedPointerDeleter.adoc[`QScopedPointerDeleter`] 
+| 
+
+| xref:QScopedPointerObjectDeleteLater.adoc[`QScopedPointerObjectDeleteLater`] 
+| 
+
+| xref:QSet.adoc[`QSet`] 
+| 
+
+| xref:QSettings.adoc[`QSettings`] 
+| 
+
+| xref:QSharedPointer.adoc[`QSharedPointer`] 
+| 
+
+| xref:QSinglePointEvent.adoc[`QSinglePointEvent`] 
+| 
+
+| xref:QSize.adoc[`QSize`] 
+| 
+
+| xref:QSizeF.adoc[`QSizeF`] 
+| 
+
+| xref:QSortFilterProxyModel.adoc[`QSortFilterProxyModel`] 
+| 
+
+| xref:QSpacerItem.adoc[`QSpacerItem`] 
+| 
+
+| xref:QSpinBox.adoc[`QSpinBox`] 
+| 
+
+| xref:QSslError.adoc[`QSslError`] 
+| 
+
+| xref:QStackedLayout.adoc[`QStackedLayout`] 
+| 
+
+| xref:QString.adoc[`QString`] 
+| 
+
+| xref:QStringConverterBase.adoc[`QStringConverterBase`] 
+| 
+
+| xref:QStringList.adoc[`QStringList`] 
+| 
+
+| xref:QStyle.adoc[`QStyle`] 
+| 
+
+| xref:QStyleHintReturn.adoc[`QStyleHintReturn`] 
+| 
+
+| xref:QStyleOption.adoc[`QStyleOption`] 
+| 
+
+| xref:QStyleOptionViewItem.adoc[`QStyleOptionViewItem`] 
+| 
+
+| xref:QStyledItemDelegate.adoc[`QStyledItemDelegate`] 
+| 
+
+| xref:QSurface.adoc[`QSurface`] 
+| 
+
+| xref:QTabWidget.adoc[`QTabWidget`] 
+| 
+
+| xref:QTextBrowser.adoc[`QTextBrowser`] 
+| 
+
+| xref:QTextCharFormat.adoc[`QTextCharFormat`] 
+| 
+
+| xref:QTextCodec.adoc[`QTextCodec`] 
+| 
+
+| xref:QTextDocument.adoc[`QTextDocument`] 
+| 
+
+| xref:QTextEdit.adoc[`QTextEdit`] 
+| 
+
+| xref:QTextFormat.adoc[`QTextFormat`] 
+| 
+
+| xref:QTextLayout.adoc[`QTextLayout`] 
+| 
+
+| xref:QTextObjectInterface.adoc[`QTextObjectInterface`] 
+| 
+
+| xref:QThread.adoc[`QThread`] 
+| 
+
+| xref:QTimer.adoc[`QTimer`] 
+| 
+
+| xref:QToolBar.adoc[`QToolBar`] 
+| 
+
+| xref:QToolButton.adoc[`QToolButton`] 
+| 
+
+| xref:QTranslator.adoc[`QTranslator`] 
+| 
+
+| xref:QTreeView.adoc[`QTreeView`] 
+| 
+
+| xref:QTreeWidgetItem.adoc[`QTreeWidgetItem`] 
+| 
+
+| xref:QUrl.adoc[`QUrl`] 
+| 
+
+| xref:QUuid.adoc[`QUuid`] 
+| 
+
+| xref:QVBoxLayout.adoc[`QVBoxLayout`] 
+| 
+
+| xref:QValidator.adoc[`QValidator`] 
+| 
+
+| xref:QValidatorPrivate.adoc[`QValidatorPrivate`] 
+| 
+
+| xref:QVariant.adoc[`QVariant`] 
+| 
+
+| xref:QVariantMap.adoc[`QVariantMap`] 
+| 
+
+| xref:QVector.adoc[`QVector`] 
+| 
+
+| xref:QVector2D.adoc[`QVector2D`] 
+| 
+
+| xref:QVector3D.adoc[`QVector3D`] 
+| 
+
+| xref:QVector4D.adoc[`QVector4D`] 
+| 
+
+| xref:QWheelEvent.adoc[`QWheelEvent`] 
+| 
+
+| xref:QWidget.adoc[`QWidget`] 
+| 
+
+| xref:QWindow.adoc[`QWindow`] 
+| 
+
+| xref:QWizard.adoc[`QWizard`] 
+| 
+
+| xref:QWizardPage.adoc[`QWizardPage`] 
+| 
+
+| xref:QuaZip.adoc[`QuaZip`] 
+| ZIP archive&period;
+
+
+
+| xref:QuitAfterGameStop.adoc[`QuitAfterGameStop`] 
+| 
+
+| xref:RWStorage.adoc[`RWStorage`] 
+| 
+
+| xref:ReconstructAssets.adoc[`ReconstructAssets`] 
+| 
+
+| xref:RecursiveFileSystemWatcher.adoc[`RecursiveFileSystemWatcher`] 
+| 
+
+| xref:RegexpFilter.adoc[`RegexpFilter`] 
+| 
+
+| xref:RegexpMatcher.adoc[`RegexpMatcher`] 
+| 
+
+| xref:RemoteLoadStatus.adoc[`RemoteLoadStatus`] 
+| 
+
+| xref:Resource.adoc[`Resource`] 
+| General class for managed resources&period; It mirrors a file in disk, with some more info
+for display and house&hyphen;keeping purposes&period;
+
+
+
+| xref:ResourceAPI.adoc[`ResourceAPI`] 
+| 
+
+| xref:ResourceDownloadTask.adoc[`ResourceDownloadTask`] 
+| 
+
+| xref:ResourceFolderLoadTask.adoc[`ResourceFolderLoadTask`] 
+| 
+
+| xref:ResourceFolderModel.adoc[`ResourceFolderModel`] 
+| A basic model for external resources&period;
+
+
+
+| xref:ResourcePack.adoc[`ResourcePack`] 
+| 
+
+| xref:ResourcePackFolderModel.adoc[`ResourcePackFolderModel`] 
+| 
+
+| xref:ResourcePackPage.adoc[`ResourcePackPage`] 
+| 
+
+| xref:ResourceUpdateDialog.adoc[`ResourceUpdateDialog`] 
+| 
+
+| xref:ReviewMessageBox.adoc[`ReviewMessageBox`] 
+| 
+
+| xref:Rule.adoc[`Rule`] 
+| 
+
+| xref:RuntimeContext.adoc[`RuntimeContext`] 
+| 
+
+| xref:ScanModFolders.adoc[`ScanModFolders`] 
+| 
+
+| xref:ScreenShot.adoc[`ScreenShot`] 
+| 
+
+| xref:ScreenshotList.adoc[`ScreenshotList`] 
+| 
+
+| xref:ScreenshotsPage.adoc[`ScreenshotsPage`] 
+| 
+
+| xref:ScrollMessageBox.adoc[`ScrollMessageBox`] 
+| 
+
+| xref:SeparatorPrefixTree.adoc[`SeparatorPrefixTree`] 
+| 
+
+| xref:SequentialTask.adoc[`SequentialTask`] 
+| A concurrent task that only allows one concurrent task &colon;)
+
+
+
+| xref:Server.adoc[`Server`] 
+| 
+
+| xref:ServerPingTask.adoc[`ServerPingTask`] 
+| 
+
+| xref:ServersModel.adoc[`ServersModel`] 
+| 
+
+| xref:ServersPage.adoc[`ServersPage`] 
+| 
+
+| xref:Setting.adoc[`Setting`] 
+| 
+
+| xref:SettingsObject.adoc[`SettingsObject`] 
+| The SettingsObject handles communicating settings between the application and a
+settings file&period;
+The class keeps a list of Setting objects&period; Each Setting object represents one
+of the application&apos;s settings&period; These Setting objects are registered with
+a SettingsObject and can be managed similarly to the way a list works&period;
+
+| xref:SettingsObjectPtr.adoc[`SettingsObjectPtr`] 
+| 
+
+| xref:SettingsObjectWeakPtr.adoc[`SettingsObjectWeakPtr`] 
+| 
+
+| xref:SetupWizard.adoc[`SetupWizard`] 
+| 
+
+| xref:ShaderPack.adoc[`ShaderPack`] 
+| 
+
+| xref:ShaderPackFolderModel.adoc[`ShaderPackFolderModel`] 
+| 
+
+| xref:ShaderPackPage.adoc[`ShaderPackPage`] 
+| 
+
+| xref:SharedIconCache.adoc[`SharedIconCache`] 
+| 
+
+| xref:SharedIconCachePtr.adoc[`SharedIconCachePtr`] 
+| 
+
+| xref:SimplePrefixMatcher.adoc[`SimplePrefixMatcher`] 
+| 
+
+| xref:Skin.adoc[`Skin`] 
+| 
+
+| xref:SkinDelete.adoc[`SkinDelete`] 
+| 
+
+| xref:SkinList.adoc[`SkinList`] 
+| 
+
+| xref:SkinManageDialog.adoc[`SkinManageDialog`] 
+| 
+
+| xref:SkinModel.adoc[`SkinModel`] 
+| 
+
+| xref:SkinOpenGLWindow.adoc[`SkinOpenGLWindow`] 
+| 
+
+| xref:SkinProvider.adoc[`SkinProvider`] 
+| 
+
+| xref:SkinUpload.adoc[`SkinUpload`] 
+| 
+
+| xref:SubTaskProgressBar.adoc[`SubTaskProgressBar`] 
+| 
+
+| xref:SystemTheme.adoc[`SystemTheme`] 
+| 
+
+| xref:Task.adoc[`Task`] 
+| Represents a task that has to be done&period;
+To create a task, you need to subclass this class, implement the executeTask() method and call
+emitSucceeded() or emitFailed() when the task is done&period;
+the caller needs to call start() to start the task&period;
+
+
+
+| xref:TaskStepProgress.adoc[`TaskStepProgress`] 
+| 
+
+| xref:TaskStepProgressList.adoc[`TaskStepProgressList`] 
+| 
+
+| xref:TaskStepWrapper.adoc[`TaskStepWrapper`] 
+| 
+
+| xref:TechnicPage.adoc[`TechnicPage`] 
+| 
+
+| xref:TextPrint.adoc[`TextPrint`] 
+| 
+
+| xref:TexturePack.adoc[`TexturePack`] 
+| 
+
+| xref:TexturePackFolderModel.adoc[`TexturePackFolderModel`] 
+| 
+
+| xref:TexturePackPage.adoc[`TexturePackPage`] 
+| 
+
+| xref:ThemeCustomizationWidget.adoc[`ThemeCustomizationWidget`] 
+| 
+
+| xref:ThemeManager.adoc[`ThemeManager`] 
+| 
+
+| xref:ThemeWizardPage.adoc[`ThemeWizardPage`] 
+| 
+
+| xref:ThumbnailRunnable.adoc[`ThumbnailRunnable`] 
+| 
+
+| xref:ThumbnailingResult.adoc[`ThumbnailingResult`] 
+| 
+
+| xref:Token.adoc[`Token`] 
+| 
+
+| xref:TranslationsModel.adoc[`TranslationsModel`] 
+| 
+
+| xref:TrashHistoryItem.adoc[`TrashHistoryItem`] 
+| 
+
+| xref:Ui_APIPage.adoc[`Ui&lowbar;APIPage`] 
+| 
+
+| xref:Ui_AboutDialog.adoc[`Ui&lowbar;AboutDialog`] 
+| 
+
+| xref:Ui_AccountListPage.adoc[`Ui&lowbar;AccountListPage`] 
+| 
+
+| xref:Ui_AtlOptionalModDialog.adoc[`Ui&lowbar;AtlOptionalModDialog`] 
+| 
+
+| xref:Ui_AtlPage.adoc[`Ui&lowbar;AtlPage`] 
+| 
+
+| xref:Ui_AutoJavaWizardPage.adoc[`Ui&lowbar;AutoJavaWizardPage`] 
+| 
+
+| xref:Ui_BlockedModsDialog.adoc[`Ui&lowbar;BlockedModsDialog`] 
+| 
+
+| xref:Ui_ChooseProviderDialog.adoc[`Ui&lowbar;ChooseProviderDialog`] 
+| 
+
+| xref:Ui_CopyInstanceDialog.adoc[`Ui&lowbar;CopyInstanceDialog`] 
+| 
+
+| xref:Ui_CustomCommands.adoc[`Ui&lowbar;CustomCommands`] 
+| 
+
+| xref:Ui_CustomPage.adoc[`Ui&lowbar;CustomPage`] 
+| 
+
+| xref:Ui_EnvironmentVariables.adoc[`Ui&lowbar;EnvironmentVariables`] 
+| 
+
+| xref:Ui_ExportInstanceDialog.adoc[`Ui&lowbar;ExportInstanceDialog`] 
+| 
+
+| xref:Ui_ExportPackDialog.adoc[`Ui&lowbar;ExportPackDialog`] 
+| 
+
+| xref:Ui_ExportToModListDialog.adoc[`Ui&lowbar;ExportToModListDialog`] 
+| 
+
+| xref:Ui_ExternalResourcesPage.adoc[`Ui&lowbar;ExternalResourcesPage`] 
+| 
+
+| xref:Ui_ExternalToolsPage.adoc[`Ui&lowbar;ExternalToolsPage`] 
+| 
+
+| xref:Ui_FlamePage.adoc[`Ui&lowbar;FlamePage`] 
+| 
+
+| xref:Ui_GameOptionsPage.adoc[`Ui&lowbar;GameOptionsPage`] 
+| 
+
+| xref:Ui_IconPickerDialog.adoc[`Ui&lowbar;IconPickerDialog`] 
+| 
+
+| xref:Ui_ImportPage.adoc[`Ui&lowbar;ImportPage`] 
+| 
+
+| xref:Ui_ImportResourceDialog.adoc[`Ui&lowbar;ImportResourceDialog`] 
+| 
+
+| xref:Ui_InfoFrame.adoc[`Ui&lowbar;InfoFrame`] 
+| 
+
+| xref:Ui_JavaPage.adoc[`Ui&lowbar;JavaPage`] 
+| 
+
+| xref:Ui_JavaSettingsWidget.adoc[`Ui&lowbar;JavaSettingsWidget`] 
+| 
+
+| xref:Ui_LauncherPage.adoc[`Ui&lowbar;LauncherPage`] 
+| 
+
+| xref:Ui_LogPage.adoc[`Ui&lowbar;LogPage`] 
+| 
+
+| xref:Ui_LoginWizardPage.adoc[`Ui&lowbar;LoginWizardPage`] 
+| 
+
+| xref:Ui_MSALoginDialog.adoc[`Ui&lowbar;MSALoginDialog`] 
+| 
+
+| xref:Ui_MainWindow.adoc[`Ui&lowbar;MainWindow`] 
+| 
+
+| xref:Ui_ManagedPackPage.adoc[`Ui&lowbar;ManagedPackPage`] 
+| 
+
+| xref:Ui_MinecraftSettingsWidget.adoc[`Ui&lowbar;MinecraftSettingsWidget`] 
+| 
+
+| xref:Ui_ModFilterWidget.adoc[`Ui&lowbar;ModFilterWidget`] 
+| 
+
+| xref:Ui_ModrinthPage.adoc[`Ui&lowbar;ModrinthPage`] 
+| 
+
+| xref:Ui_NewComponentDialog.adoc[`Ui&lowbar;NewComponentDialog`] 
+| 
+
+| xref:Ui_NewInstanceDialog.adoc[`Ui&lowbar;NewInstanceDialog`] 
+| 
+
+| xref:Ui_NewsDialog.adoc[`Ui&lowbar;NewsDialog`] 
+| 
+
+| xref:Ui_NotesPage.adoc[`Ui&lowbar;NotesPage`] 
+| 
+
+| xref:Ui_OfflineLoginDialog.adoc[`Ui&lowbar;OfflineLoginDialog`] 
+| 
+
+| xref:Ui_OptionalModDialog.adoc[`Ui&lowbar;OptionalModDialog`] 
+| 
+
+| xref:Ui_OtherLogsPage.adoc[`Ui&lowbar;OtherLogsPage`] 
+| 
+
+| xref:Ui_PasteWizardPage.adoc[`Ui&lowbar;PasteWizardPage`] 
+| 
+
+| xref:Ui_ProfileSelectDialog.adoc[`Ui&lowbar;ProfileSelectDialog`] 
+| 
+
+| xref:Ui_ProfileSetupDialog.adoc[`Ui&lowbar;ProfileSetupDialog`] 
+| 
+
+| xref:Ui_ProgressDialog.adoc[`Ui&lowbar;ProgressDialog`] 
+| 
+
+| xref:Ui_ProxyPage.adoc[`Ui&lowbar;ProxyPage`] 
+| 
+
+| xref:Ui_ResourcePage.adoc[`Ui&lowbar;ResourcePage`] 
+| 
+
+| xref:Ui_ReviewMessageBox.adoc[`Ui&lowbar;ReviewMessageBox`] 
+| 
+
+| xref:Ui_ScreenshotsPage.adoc[`Ui&lowbar;ScreenshotsPage`] 
+| 
+
+| xref:Ui_ScrollMessageBox.adoc[`Ui&lowbar;ScrollMessageBox`] 
+| 
+
+| xref:Ui_ServersPage.adoc[`Ui&lowbar;ServersPage`] 
+| 
+
+| xref:Ui_SkinManageDialog.adoc[`Ui&lowbar;SkinManageDialog`] 
+| 
+
+| xref:Ui_SubTaskProgressBar.adoc[`Ui&lowbar;SubTaskProgressBar`] 
+| 
+
+| xref:Ui_TechnicPage.adoc[`Ui&lowbar;TechnicPage`] 
+| 
+
+| xref:Ui_ThemeCustomizationWidget.adoc[`Ui&lowbar;ThemeCustomizationWidget`] 
+| 
+
+| xref:Ui_ThemeWizardPage.adoc[`Ui&lowbar;ThemeWizardPage`] 
+| 
+
+| xref:Ui_UpdateAvailableDialog.adoc[`Ui&lowbar;UpdateAvailableDialog`] 
+| 
+
+| xref:Ui_VersionPage.adoc[`Ui&lowbar;VersionPage`] 
+| 
+
+| xref:Ui_WorldListPage.adoc[`Ui&lowbar;WorldListPage`] 
+| 
+
+| xref:UpdateAction.adoc[`UpdateAction`] 
+| 
+
+| xref:UpdateActionChangeVersion.adoc[`UpdateActionChangeVersion`] 
+| 
+
+| xref:UpdateActionImportantChanged.adoc[`UpdateActionImportantChanged`] 
+| 
+
+| xref:UpdateActionLatestRecommendedCompatible.adoc[`UpdateActionLatestRecommendedCompatible`] 
+| 
+
+| xref:UpdateActionNone.adoc[`UpdateActionNone`] 
+| 
+
+| xref:UpdateActionRemove.adoc[`UpdateActionRemove`] 
+| 
+
+| xref:UpdateAvailableDialog.adoc[`UpdateAvailableDialog`] 
+| 
+
+| xref:UrlValidator.adoc[`UrlValidator`] 
+| 
+
+| xref:Usable.adoc[`Usable`] 
+| Base class for things that can be used by multiple other things and we want to track the use count&period;
+
+
+
+| xref:UseLock.adoc[`UseLock`] 
+| Lock class to use for keeping track of uses of other things derived from Usable
+
+
+
+| xref:VanillaCreationTask.adoc[`VanillaCreationTask`] 
+| 
+
+| xref:VariableSizedImageObject.adoc[`VariableSizedImageObject`] 
+| Custom image text object to be used instead of the normal one in ProjectDescriptionPage&period;
+
+
+
+| xref:VerifyJavaInstall.adoc[`VerifyJavaInstall`] 
+| 
+
+| xref:Version.adoc[`Version`] 
+| 
+
+| xref:VersionBasicModel.adoc[`VersionBasicModel`] 
+| 
+
+| xref:VersionFile.adoc[`VersionFile`] 
+| 
+
+| xref:VersionFilePtr.adoc[`VersionFilePtr`] 
+| 
+
+| xref:VersionFilterData.adoc[`VersionFilterData`] 
+| 
+
+| xref:VersionFilterModel.adoc[`VersionFilterModel`] 
+| 
+
+| xref:VersionListView.adoc[`VersionListView`] 
+| 
+
+| xref:VersionPage.adoc[`VersionPage`] 
+| 
+
+| xref:VersionProxyModel.adoc[`VersionProxyModel`] 
+| 
+
+| xref:VersionSelectDialog.adoc[`VersionSelectDialog`] 
+| 
+
+| xref:VersionSelectWidget.adoc[`VersionSelectWidget`] 
+| 
+
+| xref:VertexData.adoc[`VertexData`] 
+| 
+
+| xref:VisualGroup.adoc[`VisualGroup`] 
+| 
+
+| xref:VisualRow.adoc[`VisualRow`] 
+| 
+
+| xref:WaitTask.adoc[`WaitTask`] 
+| 
+
+| xref:WatchLock.adoc[`WatchLock`] 
+| 
+
+| xref:WideBar.adoc[`WideBar`] 
+| 
+
+| xref:World.adoc[`World`] 
+| 
+
+| xref:WorldList.adoc[`WorldList`] 
+| 
+
+| xref:WorldListPage.adoc[`WorldListPage`] 
+| 
+
+| xref:WorldListProxyModel.adoc[`WorldListProxyModel`] 
+| 
+
+| xref:WorldMimeData.adoc[`WorldMimeData`] 
+| 
+
+| xref:WorldSave.adoc[`WorldSave`] 
+| 
+
+| xref:XboxAuthorizationStep.adoc[`XboxAuthorizationStep`] 
+| 
+
+| xref:XboxProfileStep.adoc[`XboxProfileStep`] 
+| 
+
+| xref:XboxUserStep.adoc[`XboxUserStep`] 
+| 
+
+| xref:__int64_t.adoc[`&lowbar;&lowbar;int64&lowbar;t`] 
+| 
+
+| xref:__uintmax_t.adoc[`&lowbar;&lowbar;uintmax&lowbar;t`] 
+| 
+
+| xref:int64_t.adoc[`int64&lowbar;t`] 
+| 
+
+| xref:overload-09.adoc[`overload`] 
+| 
+
+| xref:qint64.adoc[`qint64`] 
+| 
+
+| xref:qreal.adoc[`qreal`] 
+| 
+
+| xref:qsizetype.adoc[`qsizetype`] 
+| 
+
+| xref:quint16.adoc[`quint16`] 
+| 
+
+| xref:shared_qobject_ptr.adoc[`shared&lowbar;qobject&lowbar;ptr`] 
+| A shared pointer class with shared pointer semantics intended for derivates of QObject
+Calls deleteLater() instead of destroying the contained object immediately
+
+
+
+| xref:size_t.adoc[`size&lowbar;t`] 
+| 
+
+| xref:uint.adoc[`uint`] 
+| 
+
+| xref:uintmax_t.adoc[`uintmax&lowbar;t`] 
+| 
+
+| xref:unique_qobject_ptr.adoc[`unique&lowbar;qobject&lowbar;ptr`] 
+| A unique pointer class with unique pointer semantics intended for derivates of QObject
+Calls deleteLater() instead of destroying the contained object immediately
+
+
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AccountListVersion.adoc[`AccountListVersion`] 
+| 
+
+| xref:AccountState.adoc[`AccountState`] 
+| 
+
+| xref:AccountTaskState.adoc[`AccountTaskState`] 
+| Enum for describing the state of the current task&period;
+Used by the getStateMessage function to determine what the status message should be&period;
+
+
+
+| xref:AccountType.adoc[`AccountType`] 
+| 
+
+| xref:EnableAction.adoc[`EnableAction`] 
+| 
+
+| xref:FileType.adoc[`FileType`] 
+| 
+
+| xref:FormatProperties.adoc[`FormatProperties`] 
+| 
+
+| xref:GroupsState.adoc[`GroupsState`] 
+| 
+
+| xref:IconType.adoc[`IconType`] 
+| 
+
+| xref:InstCreateError.adoc[`InstCreateError`] 
+| 
+
+| xref:InstRenamingMode.adoc[`InstRenamingMode`] 
+| 
+
+| xref:InstSortMode.adoc[`InstSortMode`] 
+| 
+
+| xref:InstanceNameChange.adoc[`InstanceNameChange`] 
+| 
+
+| xref:PackedResourceType.adoc[`PackedResourceType`] 
+| 
+
+| xref:ProblemSeverity.adoc[`ProblemSeverity`] 
+| 
+
+| xref:QtMsgType.adoc[`QtMsgType`] 
+| 
+
+| xref:ResourceStatus.adoc[`ResourceStatus`] 
+| 
+
+| xref:ResourceType.adoc[`ResourceType`] 
+| 
+
+| xref:RuleAction.adoc[`RuleAction`] 
+| 
+
+| xref:ShaderPackFormat.adoc[`ShaderPackFormat`] 
+| 
+
+| xref:ShouldUpdate.adoc[`ShouldUpdate`] 
+| 
+
+| xref:SortType.adoc[`SortType`] 
+| 
+
+| xref:TaskStepState.adoc[`TaskStepState`] 
+| 
+
+| xref:ThemeFields.adoc[`ThemeFields`] 
+| 
+
+| xref:TypeFlag.adoc[`TypeFlag`] 
+| 
+
+| xref:UserDataTypes.adoc[`UserDataTypes`] 
+| 
+
+| xref:Validity.adoc[`Validity`] 
+| 
+
+| xref:WorldSaveFormat.adoc[`WorldSaveFormat`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BrowseForFileInternal.adoc[`BrowseForFileInternal`] 
+| 
+
+| xref:CleanEnviroment.adoc[`CleanEnviroment`] 
+| 
+
+| xref:RuleAction_fromString.adoc[`RuleAction&lowbar;fromString`] 
+| 
+
+| xref:SaveIcon.adoc[`SaveIcon`] 
+| Save icon to instance&apos;s folder is needed
+
+
+
+| xref:addJavasFromEnv.adoc[`addJavasFromEnv`] 
+| 
+
+| xref:applyString.adoc[`applyString`] 
+| 
+
+| xref:askForChangingInstanceName.adoc[`askForChangingInstanceName`] 
+| 
+
+| xref:askIfShouldUpdate.adoc[`askIfShouldUpdate`] 
+| 
+
+| xref:askToUpdateInstanceDirName.adoc[`askToUpdateInstanceDirName`] 
+| Update instanceRoot to make it sync with name&sol;id&semi; return newRoot if a directory rename happened
+
+
+
+| xref:assetIndexFromJson.adoc[`assetIndexFromJson`] 
+| 
+
+| xref:assetIndexToJson.adoc[`assetIndexToJson`] 
+| 
+
+| xref:calculateContrastingColor.adoc[`calculateContrastingColor`] 
+| 
+
+| xref:calculateFileSize.adoc[`calculateFileSize`] 
+| 
+
+| xref:calculateWorldSize.adoc[`calculateWorldSize`] 
+| 
+
+| xref:checkDependencies.adoc[`checkDependencies`] 
+| 
+
+| xref:checkLinkedInstances.adoc[`checkLinkedInstances`] 
+| Check if there are linked instances, and display a warning&semi; return true if the operation should proceed
+
+
+
+| xref:checkVersionFilters.adoc[`checkVersionFilters`] 
+| 
+| xref:childValue.adoc[`childValue`] 
+| Gets the text content of the given child element as a QVariant&period;
+
+
+
+| xref:clamp.adoc[`clamp`] 
+| 
+
+| xref:componentFromJsonV1.adoc[`componentFromJsonV1`] 
+| 
+
+| xref:componentToJsonV1.adoc[`componentToJsonV1`] 
+| 
+
+| xref:composeRequirement.adoc[`composeRequirement`] 
+| 
+
+| xref:copyAction.adoc[`copyAction`] 
+| 
+
+| xref:decodeName.adoc[`decodeName`] 
+| 
+
+| xref:deepCompare.adoc[`deepCompare`] 
+| deep inspecting compare for requirement sets
+By default, only uids are compared for set operations&period;
+This compares all fields of the Require structs in the sets&period;
+
+
+
+| xref:downloadInfoFromJson.adoc[`downloadInfoFromJson`] 
+| 
+
+| xref:downloadInfoToJson.adoc[`downloadInfoToJson`] 
+| 
+
+| xref:drawBadges.adoc[`drawBadges`] 
+| 
+
+| xref:drawFocusRect.adoc[`drawFocusRect`] 
+| 
+
+| xref:drawProgressOverlay.adoc[`drawProgressOverlay`] 
+| 
+
+| xref:drawSelectionRect.adoc[`drawSelectionRect`] 
+| 
+
+| xref:ensureDay.adoc[`ensureDay`] 
+| 
+
+| xref:enumToString.adoc[`enumToString`] 
+| 
+
+| xref:expandVariables.adoc[`expandVariables`] 
+| 
+
+| xref:findLibraryByName.adoc[`findLibraryByName`] 
+| 
+
+| xref:findNext.adoc[`findNext`] 
+| 
+
+| xref:formatName.adoc[`formatName`] 
+| 
+
+| xref:gatherRequirementsFromComponents.adoc[`gatherRequirementsFromComponents`] 
+| 
+
+| xref:generateChessboardImage.adoc[`generateChessboardImage`] 
+| 
+
+| xref:generatePreviews.adoc[`generatePreviews`] 
+| 
+
+| xref:getAccountStatus.adoc[`getAccountStatus`] 
+| 
+
+| xref:getCubeUVs.adoc[`getCubeUVs`] 
+| 
+
+| xref:getIdMapping.adoc[`getIdMapping`] 
+| 
+
+| xref:getLevelDatDataFromFS.adoc[`getLevelDatDataFromFS`] 
+| 
+
+| xref:getLevelDatFromFS.adoc[`getLevelDatFromFS`] 
+| 
+
+| xref:getMinecraftJavaBundle.adoc[`getMinecraftJavaBundle`] 
+| 
+
+| xref:getNextChar.adoc[`getNextChar`] 
+| TAKEN FROM Qt, because it doesn&apos;t expose it intelligently
+
+
+
+| xref:getOctal.adoc[`getOctal`] 
+| 
+
+| xref:getOnlinePlayers.adoc[`getOnlinePlayers`] 
+| 
+
+| xref:getPrismJavaBundle.adoc[`getPrismJavaBundle`] 
+| 
+
+| xref:getResourceType.adoc[`getResourceType`] 
+| 
+
+| xref:getSkin.adoc[`getSkin`] 
+| 
+
+| xref:getTrivialComponentChanges.adoc[`getTrivialComponentChanges`] 
+| handles&colon;
+&hyphen; trivial addition (there is an unmet requirement and it can be trivially met by adding something)
+&hyphen; trivial version conflict of dependencies &equals;&equals; explicit version required and installed is different
+
+
+
+| xref:getTrivialRemovals.adoc[`getTrivialRemovals`] 
+| Get list of uids that can be trivially removed because nothing is depending on them anymore (and they are installed as deps)
+
+
+
+| xref:groupViewAccessibleFactory.adoc[`groupViewAccessibleFactory`] 
+| 
+
+| xref:improveSkin.adoc[`improveSkin`] 
+| 
+
+| xref:instanceProfileC.adoc[`instanceProfileC`] 
+| 
+
+| xref:instanceProfileResolveC.adoc[`instanceProfileResolveC`] 
+| 
+
+| xref:intListToString.adoc[`intListToString`] 
+| 
+
+| xref:isMinecraftVersion.adoc[`isMinecraftVersion`] 
+| 
+
+| xref:isSchemeHandlerRegistered.adoc[`isSchemeHandlerRegistered`] 
+| 
+
+| xref:libDownloadInfoFromJson.adoc[`libDownloadInfoFromJson`] 
+| 
+
+| xref:libDownloadInfoToJson.adoc[`libDownloadInfoToJson`] 
+| 
+
+| xref:listsIntersect.adoc[`listsIntersect`] 
+| 
+
+| xref:loadFileV1.adoc[`loadFileV1`] 
+| 
+
+| xref:loadIndexedVersion.adoc[`loadIndexedVersion`] 
+| 
+
+| xref:loadManifestV1.adoc[`loadManifestV1`] 
+| 
+
+| xref:loadMinecraftV1.adoc[`loadMinecraftV1`] 
+| 
+
+| xref:loadModloaderV1.adoc[`loadModloaderV1`] 
+| 
+
+| xref:loadPackProfile.adoc[`loadPackProfile`] 
+| 
+
+| xref:loadVersionConfigs.adoc[`loadVersionConfigs`] 
+| 
+
+| xref:loadVersionDelete.adoc[`loadVersionDelete`] 
+| 
+
+| xref:loadVersionDeletes.adoc[`loadVersionDeletes`] 
+| 
+
+| xref:loadVersionExtraArguments.adoc[`loadVersionExtraArguments`] 
+| 
+
+| xref:loadVersionKeep.adoc[`loadVersionKeep`] 
+| 
+
+| xref:loadVersionKeeps.adoc[`loadVersionKeeps`] 
+| 
+
+| xref:loadVersionLibrary.adoc[`loadVersionLibrary`] 
+| 
+
+| xref:loadVersionLoader.adoc[`loadVersionLoader`] 
+| 
+
+| xref:loadVersionMainClass.adoc[`loadVersionMainClass`] 
+| 
+
+| xref:loadVersionMessages.adoc[`loadVersionMessages`] 
+| 
+
+| xref:loadVersionMod.adoc[`loadVersionMod`] 
+| 
+
+| xref:main.adoc[`main`] 
+| 
+
+| xref:makeShared.adoc[`makeShared`] 
+| 
+
+| xref:map_int_zero_max.adoc[`map&lowbar;int&lowbar;zero&lowbar;max`] 
+| 
+
+| xref:markdownToHTML.adoc[`markdownToHTML`] 
+| 
+
+| xref:mcLoaders.adoc[`mcLoaders`] 
+| 
+
+| xref:mcLoadersList.adoc[`mcLoadersList`] 
+| 
+
+| xref:mcVersion.adoc[`mcVersion`] 
+| 
+
+| xref:mcVersions.adoc[`mcVersions`] 
+| 
+
+| xref:next.adoc[`next`] 
+| 
+
+| xref:operator_bitand.adoc[`operator&amp;`] 
+| 
+| xref:operator_plus.adoc[`operator&plus;`] 
+| 
+| xref:operator_minus.adoc[`operator&hyphen;`] 
+| 
+| xref:operator_dec.adoc[`operator&hyphen;&hyphen;`] 
+| 
+
+| xref:operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:operator_lshift.adoc[`operator&lt;&lt;`] 
+| qDebug print support for the BlockedMod struct
+
+
+qDebug print support for the Version class
+
+
+
+| xref:operator_xor.adoc[`operator&circ;`] 
+| 
+| xref:operator_bitor.adoc[`operator&verbar;`] 
+| 
+| xref:pageCast.adoc[`pageCast`] 
+| 
+| xref:parseAuthenticationResponse.adoc[`parseAuthenticationResponse`] 
+| 
+
+| xref:parseDeviceAuthorizationResponse.adoc[`parseDeviceAuthorizationResponse`] 
+| 
+
+| xref:parseDownloadType.adoc[`parseDownloadType`] 
+| 
+
+| xref:parseLevelDat.adoc[`parseLevelDat`] 
+| 
+
+| xref:parseModType.adoc[`parseModType`] 
+| 
+
+| xref:parseOldFileFormat.adoc[`parseOldFileFormat`] 
+| 
+
+| xref:parseServersDat.adoc[`parseServersDat`] 
+| 
+
+| xref:partialDate.adoc[`partialDate`] 
+| 
+
+| xref:previewCape.adoc[`previewCape`] 
+| 
+
+| xref:putLevelDatDataToFS.adoc[`putLevelDatDataToFS`] 
+| 
+
+| xref:readLonglink.adoc[`readLonglink`] 
+| 
+
+| xref:readString.adoc[`readString`] 
+| 
+
+| xref:read_lock_File.adoc[`read&lowbar;lock&lowbar;File`] 
+| 
+
+| xref:removeThePrefix.adoc[`removeThePrefix`] 
+| 
+
+| xref:replaceSuffix.adoc[`replaceSuffix`] 
+| 
+
+| xref:replaceTokensIn.adoc[`replaceTokensIn`] 
+| 
+
+| xref:rulesFromJsonV4.adoc[`rulesFromJsonV4`] 
+| 
+
+| xref:savePackProfile.adoc[`savePackProfile`] 
+| 
+
+| xref:serializeLevelDat.adoc[`serializeLevelDat`] 
+| 
+
+| xref:serializeServerDat.adoc[`serializeServerDat`] 
+| 
+
+| xref:setupLinkToolTip.adoc[`setupLinkToolTip`] 
+| 
+
+| xref:shouldDownloadOnSide.adoc[`shouldDownloadOnSide`] 
+| 
+
+| xref:sortJavas.adoc[`sortJavas`] 
+| 
+
+| xref:stringToIntList.adoc[`stringToIntList`] 
+| 
+
+| xref:stripVariableEntries.adoc[`stripVariableEntries`] 
+| 
+
+| xref:switcherooSetupGPU.adoc[`switcherooSetupGPU`] 
+| 
+
+| xref:taskDownloadLogC.adoc[`taskDownloadLogC`] 
+| 
+
+| xref:taskHttpMetaCacheLogC.adoc[`taskHttpMetaCacheLogC`] 
+| 
+
+| xref:taskLogC.adoc[`taskLogC`] 
+| 
+
+| xref:taskMCSkinsLogC.adoc[`taskMCSkinsLogC`] 
+| 
+
+| xref:taskMetaCacheLogC.adoc[`taskMetaCacheLogC`] 
+| 
+
+| xref:taskNetLogC.adoc[`taskNetLogC`] 
+| 
+
+| xref:taskUploadLogC.adoc[`taskUploadLogC`] 
+| 
+
+| xref:themeDebugLog.adoc[`themeDebugLog`] 
+| 
+
+| xref:themeWarningLog.adoc[`themeWarningLog`] 
+| 
+
+| xref:timeFromS3Time.adoc[`timeFromS3Time`] 
+| take the timestamp used by S3 and turn it into QDateTime
+
+
+
+| xref:timeToS3Time.adoc[`timeToS3Time`] 
+| take a timestamp and convert it into an S3 timestamp
+
+
+
+| xref:toStringSet.adoc[`toStringSet`] 
+| Split into a separate function because the preprocessing impedes readability
+
+
+
+| xref:transformVectors.adoc[`transformVectors`] 
+| 
+
+| xref:truncateLogForMclogs.adoc[`truncateLogForMclogs`] 
+| 
+
+| xref:unescape.adoc[`unescape`] 
+| 
+
+| xref:unquote.adoc[`unquote`] 
+| 
+
+| xref:unzipNatives.adoc[`unzipNatives`] 
+| 
+
+| xref:viewItemTextLayout.adoc[`viewItemTextLayout`] 
+| Cuts out the text in textLayout into smaller pieces, according to the lineWidth&period;
+Returns a list of pairs, each containing the width of that line and that line&apos;s string, respectively&period;
+The total height of those lines is set in the last argument, &apos;height&apos;&period;
+
+
+
+| xref:viewItemTextSize.adoc[`viewItemTextSize`] 
+| 
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:COLUMN_COUNT.adoc[`COLUMN&lowbar;COUNT`] 
+| 
+
+| xref:CURRENT_MINIMUM_LAUNCHER_VERSION.adoc[`CURRENT&lowbar;MINIMUM&lowbar;LAUNCHER&lowbar;VERSION`] 
+| 
+
+| xref:FinalMclogsLines.adoc[`FinalMclogsLines`] 
+| 
+
+| xref:GROUP_FILE_FORMAT_VERSION.adoc[`GROUP&lowbar;FILE&lowbar;FORMAT&lowbar;VERSION`] 
+| 
+
+| xref:InitialMclogsLines.adoc[`InitialMclogsLines`] 
+| 
+
+| xref:MaxMclogsLines.adoc[`MaxMclogsLines`] 
+| 
+
+| xref:S_NATIVE_STYLES.adoc[`S&lowbar;NATIVE&lowbar;STYLES`] 
+| 
+
+| xref:api-0d.adoc[`api`] 
+| 
+
+| xref:api-06.adoc[`api`] 
+| 
+
+| xref:api-0a.adoc[`api`] 
+| 
+
+| xref:api-09.adoc[`api`] 
+| 
+
+| xref:api-0b.adoc[`api`] 
+| 
+
+| xref:api-05.adoc[`api`] 
+| 
+
+| xref:api-02.adoc[`api`] 
+| 
+
+| xref:currentComponentsFileVersion.adoc[`currentComponentsFileVersion`] 
+| 
+
+| xref:defaultLangCode.adoc[`defaultLangCode`] 
+| 
+
+| xref:flameAPI.adoc[`flameAPI`] 
+| 
+
+| xref:flame_api.adoc[`flame&lowbar;api`] 
+| 
+
+| xref:g_VersionFilterData.adoc[`g&lowbar;VersionFilterData`] 
+| 
+
+| xref:indices.adoc[`indices`] 
+| 
+
+| xref:laxCompare.adoc[`laxCompare`] 
+| 
+
+| xref:liveCheckFile.adoc[`liveCheckFile`] 
+| 
+
+| xref:modrinthAPI.adoc[`modrinthAPI`] 
+| 
+
+| xref:modrinth_api.adoc[`modrinth&lowbar;api`] 
+| 
+
+| xref:newlineRegex.adoc[`newlineRegex`] 
+| 
+
+| xref:pageIconSize.adoc[`pageIconSize`] 
+| 
+
+| xref:planeIndices.adoc[`planeIndices`] 
+| 
+
+| xref:planeVertices.adoc[`planeVertices`] 
+| 
+
+| xref:s_availableVersions.adoc[`s&lowbar;availableVersions`] 
+| 
+
+| xref:s_pack_format_versions-01.adoc[`s&lowbar;pack&lowbar;format&lowbar;versions`] 
+| 
+
+| xref:s_pack_format_versions-05.adoc[`s&lowbar;pack&lowbar;format&lowbar;versions`] 
+| 
+
+| xref:s_packed_type_names.adoc[`s&lowbar;packed&lowbar;type&lowbar;names`] 
+| 
+
+| xref:s_units_kibi.adoc[`s&lowbar;units&lowbar;kibi`] 
+| 
+
+| xref:s_units_si.adoc[`s&lowbar;units&lowbar;si`] 
+| 
+
+| xref:s_update_task_mutex.adoc[`s&lowbar;update&lowbar;task&lowbar;mutex`] 
+| 
+
+| xref:themeFile.adoc[`themeFile`] 
+| 
+
+| xref:ulMatcher.adoc[`ulMatcher`] 
+| 
+
+| xref:vertices.adoc[`vertices`] 
+| 
+
+|===
+== Deduction Guides
+[cols=2]
+|===
+| Name | Description 
+
+| xref:overload-01.adoc[`overload&lt;Ts...&gt;`] 
+| 
+
+|===
+
+== Using Directives
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Json.adoc[`Json`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

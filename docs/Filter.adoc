@@ -1,0 +1,33 @@
+[#Filter]
+= Filter
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L6[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Filter;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Filter/accepts.adoc[`accepts`] 
+| 
+
+| xref:Filter/2destructor.adoc[`&tilde;Filter`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

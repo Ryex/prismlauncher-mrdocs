@@ -1,0 +1,22 @@
+[#TexturePack-m_description]
+= xref:TexturePack.adoc[TexturePack]::m&lowbar;description
+:relfileprefix: ../
+:mrdocs:
+
+
+The texture pack&apos;s description, as defined in the pack&period;txt file&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L58[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;description;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

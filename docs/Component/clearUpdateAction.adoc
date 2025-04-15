@@ -1,0 +1,19 @@
+[#Component-clearUpdateAction]
+= xref:Component.adoc[Component]::clearUpdateAction
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L110[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clearUpdateAction();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

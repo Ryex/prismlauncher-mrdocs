@@ -1,0 +1,36 @@
+[#RegexpFilter]
+= RegexpFilter
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Filter.h#L42[Filter&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class RegexpFilter
+    : public xref:Filter.adoc[Filter];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RegexpFilter/2constructor.adoc[`RegexpFilter`]         [.small]#[constructor]#
+| 
+
+| xref:Filter/accepts.adoc[`accepts`] 
+| 
+| xref:RegexpFilter/2destructor.adoc[`&tilde;RegexpFilter`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

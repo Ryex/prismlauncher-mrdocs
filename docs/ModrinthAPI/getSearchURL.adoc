@@ -1,0 +1,21 @@
+[#ModrinthAPI-getSearchURL]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::getSearchURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L145[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt;
+getSearchURL(xref:ResourceAPI/SearchArgs.adoc[SearchArgs] const& args) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

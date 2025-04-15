@@ -1,0 +1,18 @@
+[#GameOptionItem-key]
+= xref:GameOptionItem.adoc[GameOptionItem]::key
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.h#L8[minecraft&sol;gameoptions&sol;GameOptions&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] key;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

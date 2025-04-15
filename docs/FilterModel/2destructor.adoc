@@ -1,0 +1,19 @@
+[#FilterModel-2destructor]
+= xref:FilterModel.adoc[FilterModel]::&tilde;FilterModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L140[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;FilterModel();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

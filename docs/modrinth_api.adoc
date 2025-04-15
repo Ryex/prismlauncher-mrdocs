@@ -1,0 +1,19 @@
+[#modrinth_api]
+= modrinth&lowbar;api
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.cpp#L19[modplatform&sol;EnsureMetadataTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ModrinthAPI.adoc[ModrinthAPI] modrinth&lowbar;api = modrinth&lowbar;api;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

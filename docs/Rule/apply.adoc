@@ -1,0 +1,21 @@
+[#Rule-apply]
+= xref:Rule.adoc[Rule]::apply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L60[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:RuleAction.adoc[RuleAction]
+apply(
+    xref:Library.adoc[Library] const* parent,
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

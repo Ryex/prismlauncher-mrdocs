@@ -1,0 +1,18 @@
+[#Flame-Manifest-manifestType]
+= xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]::manifestType
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L73[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] manifestType;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

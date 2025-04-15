@@ -1,0 +1,20 @@
+[#AccessibleInstanceView-rect]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::rect
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L22[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QRect.adoc[QRect]
+rect() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

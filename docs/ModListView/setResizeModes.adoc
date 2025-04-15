@@ -1,0 +1,20 @@
+[#ModListView-setResizeModes]
+= xref:ModListView.adoc[ModListView]::setResizeModes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModListView.h#L25[ui&sol;widgets&sol;ModListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setResizeModes(xref:QList.adoc[QList]&lt;xref:QHeaderView.adoc[QHeaderView]::xref:QHeaderView/ResizeMode.adoc[ResizeMode]&gt; const& modes);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

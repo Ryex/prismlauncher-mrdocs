@@ -1,0 +1,20 @@
+[#SkinOpenGLWindow-wheelEvent]
+= xref:SkinOpenGLWindow.adoc[SkinOpenGLWindow]::wheelEvent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L51[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+wheelEvent(xref:QWheelEvent.adoc[QWheelEvent]* event) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

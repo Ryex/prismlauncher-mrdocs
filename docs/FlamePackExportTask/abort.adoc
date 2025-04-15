@@ -1,0 +1,20 @@
+[#FlamePackExportTask-abort]
+= xref:FlamePackExportTask.adoc[FlamePackExportTask]::abort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackExportTask.h#L41[modplatform&sol;flame&sol;FlamePackExportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

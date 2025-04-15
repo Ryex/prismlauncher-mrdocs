@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedVersion-fileId]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]::fileId
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L96[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant] fileId;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

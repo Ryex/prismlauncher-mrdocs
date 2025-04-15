@@ -1,0 +1,33 @@
+[#LogColors]
+= LogColors
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ITheme.h#L44[ui&sol;themes&sol;ITheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct LogColors;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogColors/background.adoc[`background`] 
+| 
+
+| xref:LogColors/foreground.adoc[`foreground`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

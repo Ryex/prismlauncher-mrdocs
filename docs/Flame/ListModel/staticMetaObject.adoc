@@ -1,0 +1,19 @@
+[#Flame-ListModel-staticMetaObject]
+= xref:Flame.adoc[Flame]::xref:Flame/ListModel.adoc[ListModel]::staticMetaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameModel.h#L27[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

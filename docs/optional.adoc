@@ -1,0 +1,25 @@
+[#optional]
+= optional
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.cpp#L62[minecraft&sol;World&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using xref:std.adoc[std]::optional;
+----
+
+== Introduced Symbols
+
+|===
+| Name
+| optional
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PrismExternalUpdater-resetAutoCheckTimer]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::resetAutoCheckTimer
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L82[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+resetAutoCheckTimer();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

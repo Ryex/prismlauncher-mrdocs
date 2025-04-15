@@ -1,0 +1,18 @@
+[#GroupId]
+= GroupId
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L52[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using GroupId = xref:QString.adoc[QString];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

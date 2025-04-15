@@ -1,0 +1,22 @@
+[#VersionFilterModel-filterAcceptsRow]
+= xref:VersionFilterModel.adoc[VersionFilterModel]::filterAcceptsRow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.cpp#L54[VersionProxyModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+filterAcceptsRow(
+    int source&lowbar;row,
+    xref:QModelIndex.adoc[QModelIndex] const& source&lowbar;parent) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

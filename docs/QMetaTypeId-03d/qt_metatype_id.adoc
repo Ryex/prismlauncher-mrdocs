@@ -1,0 +1,20 @@
+[#QMetaTypeId-03d-qt_metatype_id]
+= xref:QMetaTypeId-03d.adoc[QMetaTypeId]&lt;xref:Flame.adoc[Flame]::xref:Flame/IndexedPack.adoc[IndexedPack]&gt;::qt&lowbar;metatype&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L53[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+qt&lowbar;metatype&lowbar;id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

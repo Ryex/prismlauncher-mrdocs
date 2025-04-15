@@ -1,0 +1,21 @@
+[#ResourceDownload-FlameModPage-shouldDisplay]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameModPage.adoc[FlameModPage]::shouldDisplay
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L88[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+shouldDisplay() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

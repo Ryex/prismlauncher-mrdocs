@@ -1,0 +1,21 @@
+[#ServersPage-2constructor]
+= xref:ServersPage.adoc[ServersPage]::ServersPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.h#L59[ui&sol;pages&sol;instance&sol;ServersPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ServersPage(
+    xref:InstancePtr.adoc[InstancePtr] inst,
+    xref:QWidget.adoc[QWidget]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

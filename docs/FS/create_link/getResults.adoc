@@ -1,0 +1,19 @@
+[#FS-create_link-getResults]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::getResults
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L248[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:FS/LinkResult.adoc[LinkResult]&gt;
+getResults();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LaunchProfile-applyMainClass]
+= xref:LaunchProfile.adoc[LaunchProfile]::applyMainClass
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L48[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyMainClass(xref:QString.adoc[QString] const& mainClass);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Flame-File-pack]
+= xref:Flame.adoc[Flame]::xref:Flame/File.adoc[File]::pack
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L53[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack] pack;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

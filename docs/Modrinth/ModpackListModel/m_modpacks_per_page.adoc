@@ -1,0 +1,18 @@
+[#Modrinth-ModpackListModel-m_modpacks_per_page]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackListModel.adoc[ModpackListModel]::m&lowbar;modpacks&lowbar;per&lowbar;page
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/modrinth/ModrinthModel.h#L124[ui&sol;pages&sol;modplatform&sol;modrinth&sol;ModrinthModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int m&lowbar;modpacks&lowbar;per&lowbar;page = 20;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

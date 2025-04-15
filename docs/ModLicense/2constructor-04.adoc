@@ -1,0 +1,18 @@
+[#ModLicense-2constructor-04]
+= xref:ModLicense.adoc[ModLicense]::ModLicense
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L52[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModLicense();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

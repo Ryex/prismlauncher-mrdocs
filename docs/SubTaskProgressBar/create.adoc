@@ -1,0 +1,20 @@
+[#SubTaskProgressBar-create]
+= xref:SubTaskProgressBar.adoc[SubTaskProgressBar]::create
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/SubTaskProgressBar.h#L32[ui&sol;widgets&sol;SubTaskProgressBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:unique_qobject_ptr.adoc[unique&lowbar;qobject&lowbar;ptr]&lt;xref:SubTaskProgressBar.adoc[SubTaskProgressBar]&gt;
+create(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

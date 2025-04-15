@@ -1,0 +1,19 @@
+[#Meta-Version-version]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::version
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L48[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+version() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

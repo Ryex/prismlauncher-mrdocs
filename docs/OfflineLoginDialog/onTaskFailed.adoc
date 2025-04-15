@@ -1,0 +1,19 @@
+[#OfflineLoginDialog-onTaskFailed]
+= xref:OfflineLoginDialog.adoc[OfflineLoginDialog]::onTaskFailed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/OfflineLoginDialog.h#L28[ui&sol;dialogs&sol;OfflineLoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onTaskFailed(xref:QString.adoc[QString] const& reason);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

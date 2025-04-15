@@ -1,0 +1,19 @@
+[#PrintInstanceInfo-2destructor]
+= xref:PrintInstanceInfo.adoc[PrintInstanceInfo]::&tilde;PrintInstanceInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/PrintInstanceInfo.h#L28[minecraft&sol;launch&sol;PrintInstanceInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PrintInstanceInfo() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

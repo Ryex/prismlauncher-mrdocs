@@ -1,0 +1,19 @@
+[#FS-create_link-debug]
+= xref:FS.adoc[FS]::xref:FS/create_link.adoc[create&lowbar;link]::debug
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L232[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FS/create_link.adoc[create&lowbar;link]&
+debug(bool d);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

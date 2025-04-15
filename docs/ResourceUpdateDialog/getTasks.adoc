@@ -1,0 +1,19 @@
+[#ResourceUpdateDialog-getTasks]
+= xref:ResourceUpdateDialog.adoc[ResourceUpdateDialog]::getTasks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceUpdateDialog.h#L30[ui&sol;dialogs&sol;ResourceUpdateDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ResourceDownloadTask.adoc[ResourceDownloadTask]::xref:ConcurrentTask/Ptr.adoc[Ptr]&gt; const
+getTasks();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

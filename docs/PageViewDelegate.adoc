@@ -1,0 +1,34 @@
+[#PageViewDelegate]
+= PageViewDelegate
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer_p.h#L26[ui&sol;widgets&sol;PageContainer&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PageViewDelegate
+    : public xref:QStyledItemDelegate.adoc[QStyledItemDelegate];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageViewDelegate/2constructor.adoc[`PageViewDelegate`]         [.small]#[constructor]#
+| 
+
+| xref:PageViewDelegate/sizeHint.adoc[`sizeHint`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

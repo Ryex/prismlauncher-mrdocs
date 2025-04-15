@@ -1,0 +1,26 @@
+[#BrowseForFileInternal]
+= BrowseForFileInternal
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.cpp#L154[ui&sol;GuiUtil&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QStringList.adoc[QStringList]
+BrowseForFileInternal(
+    xref:QString.adoc[QString] context,
+    xref:QString.adoc[QString] caption,
+    xref:QString.adoc[QString] filter,
+    xref:QString.adoc[QString] defaultPath,
+    xref:QWidget.adoc[QWidget]* parentWidget,
+    bool single);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

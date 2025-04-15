@@ -1,0 +1,65 @@
+[#MessageLevel-Enum]
+= xref:MessageLevel.adoc[MessageLevel]::Enum
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MessageLevel.h#L10[MessageLevel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Enum;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Unknown`
+|No idea what this is or where it came from
+
+
+|`StdOut`
+|Undetermined stderr messages
+
+
+|`StdErr`
+|Undetermined stdout messages
+
+
+|`Launcher`
+|Launcher Messages
+
+
+|`Debug`
+|Debug Messages
+
+
+|`Info`
+|Info Messages
+
+
+|`Message`
+|Standard Messages
+
+
+|`Warning`
+|Warnings
+
+
+|`Error`
+|Errors
+
+
+|`Fatal`
+|Fatal Errors
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

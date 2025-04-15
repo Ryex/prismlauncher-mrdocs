@@ -1,0 +1,19 @@
+[#SequentialTask-2destructor]
+= xref:SequentialTask.adoc[SequentialTask]::&tilde;SequentialTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/SequentialTask.h#L51[tasks&sol;SequentialTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;SequentialTask() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

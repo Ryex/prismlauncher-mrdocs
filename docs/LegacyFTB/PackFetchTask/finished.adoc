@@ -1,0 +1,21 @@
+[#LegacyFTB-PackFetchTask-finished]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackFetchTask.adoc[PackFetchTask]::finished
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackFetchTask.h#L39[modplatform&sol;legacy&lowbar;ftb&sol;PackFetchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+finished(
+    xref:LegacyFTB/ModpackList.adoc[ModpackList] publicPacks,
+    xref:LegacyFTB/ModpackList.adoc[ModpackList] thirdPartyPacks);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#LauncherPage-icon]
+= xref:LauncherPage.adoc[LauncherPage]::icon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/LauncherPage.h#L61[ui&sol;pages&sol;global&sol;LauncherPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QIcon.adoc[QIcon]
+icon() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

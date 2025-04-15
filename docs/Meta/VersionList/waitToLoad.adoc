@@ -1,0 +1,19 @@
+[#Meta-VersionList-waitToLoad]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::waitToLoad
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L67[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+waitToLoad();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

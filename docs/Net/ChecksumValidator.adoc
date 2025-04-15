@@ -1,0 +1,47 @@
+[#Net-ChecksumValidator]
+= xref:Net.adoc[Net]::ChecksumValidator
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ChecksumValidator.h#L44[net&sol;ChecksumValidator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ChecksumValidator
+    : public xref:Net/Validator.adoc[Validator];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Net/ChecksumValidator/2constructor.adoc[`ChecksumValidator`]         [.small]#[constructor]#
+| 
+| xref:Net/Validator/abort.adoc[`abort`] 
+| 
+| xref:Net/ChecksumValidator/hash.adoc[`hash`] 
+| 
+
+| xref:Net/Validator/init.adoc[`init`] 
+| 
+| xref:Net/ChecksumValidator/setExpected.adoc[`setExpected`] 
+| 
+
+| xref:Net/Validator/validate.adoc[`validate`] 
+| 
+| xref:Net/Validator/write.adoc[`write`] 
+| 
+| xref:Net/ChecksumValidator/2destructor.adoc[`&tilde;ChecksumValidator`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

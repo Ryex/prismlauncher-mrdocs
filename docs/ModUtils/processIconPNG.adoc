@@ -1,0 +1,22 @@
+[#ModUtils-processIconPNG]
+= xref:ModUtils.adoc[ModUtils]::processIconPNG
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L29[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+processIconPNG(
+    xref:Mod.adoc[Mod] const& mod,
+    xref:QByteArray.adoc[QByteArray]&& raw&lowbar;data,
+    xref:QPixmap.adoc[QPixmap]* pixmap);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

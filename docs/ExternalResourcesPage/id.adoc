@@ -1,0 +1,20 @@
+[#ExternalResourcesPage-id]
+= xref:ExternalResourcesPage.adoc[ExternalResourcesPage]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ExternalResourcesPage.h#L28[ui&sol;pages&sol;instance&sol;ExternalResourcesPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

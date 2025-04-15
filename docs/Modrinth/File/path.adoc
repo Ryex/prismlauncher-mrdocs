@@ -1,0 +1,18 @@
+[#Modrinth-File-path]
+= xref:Modrinth.adoc[Modrinth]::xref:Modrinth/File.adoc[File]::path
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L55[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] path;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

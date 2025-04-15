@@ -1,0 +1,39 @@
+[#Skin]
+= Skin
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L60[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Skin;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Skin/data.adoc[`data`] 
+| 
+
+| xref:Skin/id.adoc[`id`] 
+| 
+
+| xref:Skin/url.adoc[`url`] 
+| 
+
+| xref:Skin/variant.adoc[`variant`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,28 @@
+[#SysInfo]
+= SysInfo
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:SysInfo/currentSystem.adoc[`currentSystem`] 
+| 
+
+| xref:SysInfo/getSupportedJavaArchitecture.adoc[`getSupportedJavaArchitecture`] 
+| 
+
+| xref:SysInfo/suitableMaxMem.adoc[`suitableMaxMem`] 
+| 
+
+| xref:SysInfo/useQTForArch.adoc[`useQTForArch`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

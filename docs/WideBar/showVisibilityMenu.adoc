@@ -1,0 +1,19 @@
+[#WideBar-showVisibilityMenu]
+= xref:WideBar.adoc[WideBar]::showVisibilityMenu
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/WideBar.h#L31[ui&sol;widgets&sol;WideBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+showVisibilityMenu(xref:QPoint.adoc[QPoint] const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

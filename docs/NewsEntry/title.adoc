@@ -1,0 +1,22 @@
+[#NewsEntry-title]
+= xref:NewsEntry.adoc[NewsEntry]::title
+:relfileprefix: ../
+:mrdocs:
+
+
+The post title&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsEntry.h#L45[news&sol;NewsEntry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] title;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

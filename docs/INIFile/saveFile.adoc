@@ -1,0 +1,19 @@
+[#INIFile-saveFile]
+= xref:INIFile.adoc[INIFile]::saveFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.h#L53[settings&sol;INIFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+saveFile(xref:QString.adoc[QString] fileName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

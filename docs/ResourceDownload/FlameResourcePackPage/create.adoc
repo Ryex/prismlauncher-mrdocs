@@ -1,0 +1,22 @@
+[#ResourceDownload-FlameResourcePackPage-create]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/FlameResourcePackPage.adoc[FlameResourcePackPage]::create
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlameResourcePages.h#L112[ui&sol;pages&sol;modplatform&sol;flame&sol;FlameResourcePages&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ResourceDownload/FlameResourcePackPage.adoc[FlameResourcePackPage]*
+create(
+    xref:ResourceDownload/ResourcePackDownloadDialog.adoc[ResourcePackDownloadDialog]* dialog,
+    xref:BaseInstance.adoc[BaseInstance]& instance);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#AuthSession-serializeUserProperties]
+= xref:AuthSession.adoc[AuthSession]::serializeUserProperties
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L12[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+serializeUserProperties();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

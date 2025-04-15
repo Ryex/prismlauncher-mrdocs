@@ -1,0 +1,63 @@
+[#s_pack_format_versions-01]
+= s&lowbar;pack&lowbar;format&lowbar;versions
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.cpp#L32[minecraft&sol;mod&sol;DataPack&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMap.adoc[QMap]&lt;int, xref:std.adoc[std]::xref:std/pair.adoc[pair]&lt;xref:Version.adoc[Version], xref:Version.adoc[Version]&gt;&gt; const s&lowbar;pack&lowbar;format&lowbar;versions = &lcub; &lcub; 4, &lcub; Version(&quot;1&period;13&quot;), Version(&quot;1&period;14&period;4&quot;) &rcub; &rcub;,
+                                                                               &lcub; 5, &lcub; Version(&quot;1&period;15&quot;), Version(&quot;1&period;16&period;1&quot;) &rcub; &rcub;,
+                                                                               &lcub; 6, &lcub; Version(&quot;1&period;16&period;2&quot;), Version(&quot;1&period;16&period;5&quot;) &rcub; &rcub;,
+                                                                               &lcub; 7, &lcub; Version(&quot;1&period;17&quot;), Version(&quot;1&period;17&period;1&quot;) &rcub; &rcub;,
+                                                                               &lcub; 8, &lcub; Version(&quot;1&period;18&quot;), Version(&quot;1&period;18&period;1&quot;) &rcub; &rcub;,
+                                                                               &lcub; 9, &lcub; Version(&quot;1&period;18&period;2&quot;), Version(&quot;1&period;18&period;2&quot;) &rcub; &rcub;,
+                                                                               &lcub; 10, &lcub; Version(&quot;1&period;19&quot;), Version(&quot;1&period;19&period;3&quot;) &rcub; &rcub;,
+                                                                               &lcub; 11, &lcub; Version(&quot;23w03a&quot;), Version(&quot;23w05a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 12, &lcub; Version(&quot;1&period;19&period;4&quot;), Version(&quot;1&period;19&period;4&quot;) &rcub; &rcub;,
+                                                                               &lcub; 13, &lcub; Version(&quot;23w12a&quot;), Version(&quot;23w14a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 14, &lcub; Version(&quot;23w16a&quot;), Version(&quot;23w17a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 15, &lcub; Version(&quot;1&period;20&quot;), Version(&quot;1&period;20&period;1&quot;) &rcub; &rcub;,
+                                                                               &lcub; 16, &lcub; Version(&quot;23w31a&quot;), Version(&quot;23w31a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 17, &lcub; Version(&quot;23w32a&quot;), Version(&quot;23w35a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 18, &lcub; Version(&quot;1&period;20&period;2&quot;), Version(&quot;1&period;20&period;2&quot;) &rcub; &rcub;,
+                                                                               &lcub; 19, &lcub; Version(&quot;23w40a&quot;), Version(&quot;23w40a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 20, &lcub; Version(&quot;23w41a&quot;), Version(&quot;23w41a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 21, &lcub; Version(&quot;23w42a&quot;), Version(&quot;23w42a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 22, &lcub; Version(&quot;23w43a&quot;), Version(&quot;23w43b&quot;) &rcub; &rcub;,
+                                                                               &lcub; 23, &lcub; Version(&quot;23w44a&quot;), Version(&quot;23w44a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 24, &lcub; Version(&quot;23w45a&quot;), Version(&quot;23w45a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 25, &lcub; Version(&quot;23w46a&quot;), Version(&quot;23w46a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 26, &lcub; Version(&quot;1&period;20&period;3&quot;), Version(&quot;1&period;20&period;4&quot;) &rcub; &rcub;,
+                                                                               &lcub; 27, &lcub; Version(&quot;23w51a&quot;), Version(&quot;23w51b&quot;) &rcub; &rcub;,
+                                                                               &lcub; 28, &lcub; Version(&quot;24w05a&quot;), Version(&quot;24w05b&quot;) &rcub; &rcub;,
+                                                                               &lcub; 29, &lcub; Version(&quot;24w04a&quot;), Version(&quot;24w04a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 30, &lcub; Version(&quot;24w05a&quot;), Version(&quot;24w05b&quot;) &rcub; &rcub;,
+                                                                               &lcub; 31, &lcub; Version(&quot;24w06a&quot;), Version(&quot;24w06a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 32, &lcub; Version(&quot;24w07a&quot;), Version(&quot;24w07a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 33, &lcub; Version(&quot;24w09a&quot;), Version(&quot;24w09a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 34, &lcub; Version(&quot;24w10a&quot;), Version(&quot;24w10a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 35, &lcub; Version(&quot;24w11a&quot;), Version(&quot;24w11a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 36, &lcub; Version(&quot;24w12a&quot;), Version(&quot;24w12a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 37, &lcub; Version(&quot;24w13a&quot;), Version(&quot;24w13a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 38, &lcub; Version(&quot;24w14a&quot;), Version(&quot;24w14a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 39, &lcub; Version(&quot;1&period;20&period;5&hyphen;pre1&quot;), Version(&quot;1&period;20&period;5&hyphen;pre1&quot;) &rcub; &rcub;,
+                                                                               &lcub; 40, &lcub; Version(&quot;1&period;20&period;5&hyphen;pre2&quot;), Version(&quot;1&period;20&period;5&hyphen;pre2&quot;) &rcub; &rcub;,
+                                                                               &lcub; 41, &lcub; Version(&quot;1&period;20&period;5&quot;), Version(&quot;1&period;20&period;6&quot;) &rcub; &rcub;,
+                                                                               &lcub; 42, &lcub; Version(&quot;24w18a&quot;), Version(&quot;24w18a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 43, &lcub; Version(&quot;24w19a&quot;), Version(&quot;24w19b&quot;) &rcub; &rcub;,
+                                                                               &lcub; 44, &lcub; Version(&quot;24w20a&quot;), Version(&quot;24w20a&quot;) &rcub; &rcub;,
+                                                                               &lcub; 45, &lcub; Version(&quot;21w21a&quot;), Version(&quot;21w21b&quot;) &rcub; &rcub;,
+                                                                               &lcub; 46, &lcub; Version(&quot;1&period;21&hyphen;pre1&quot;), Version(&quot;1&period;21&hyphen;pre1&quot;) &rcub; &rcub;,
+                                                                               &lcub; 47, &lcub; Version(&quot;1&period;21&hyphen;pre2&quot;), Version(&quot;1&period;21&hyphen;pre2&quot;) &rcub; &rcub;,
+                                                                               &lcub; 48, &lcub; Version(&quot;1&period;21&quot;), Version(&quot;1&period;21&quot;) &rcub; &rcub; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

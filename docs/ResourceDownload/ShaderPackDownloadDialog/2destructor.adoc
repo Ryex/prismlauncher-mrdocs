@@ -1,0 +1,19 @@
+[#ResourceDownload-ShaderPackDownloadDialog-2destructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackDownloadDialog.adoc[ShaderPackDownloadDialog]::&tilde;ShaderPackDownloadDialog
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L159[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ShaderPackDownloadDialog() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

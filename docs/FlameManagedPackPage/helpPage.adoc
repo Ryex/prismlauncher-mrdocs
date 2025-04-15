@@ -1,0 +1,21 @@
+[#FlameManagedPackPage-helpPage]
+= xref:FlameManagedPackPage.adoc[FlameManagedPackPage]::helpPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ManagedPackPage.h#L148[ui&sol;pages&sol;instance&sol;ManagedPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QString.adoc[QString]
+helpPage() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

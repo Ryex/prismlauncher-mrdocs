@@ -1,0 +1,22 @@
+[#MinecraftInstance-verboseDescription]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::verboseDescription
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L127[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+verboseDescription(
+    xref:AuthSessionPtr.adoc[AuthSessionPtr] session,
+    xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

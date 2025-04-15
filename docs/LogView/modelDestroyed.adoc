@@ -1,0 +1,19 @@
+[#LogView-modelDestroyed]
+= xref:LogView.adoc[LogView]::modelDestroyed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L28[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+modelDestroyed(xref:QObject.adoc[QObject]* model);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

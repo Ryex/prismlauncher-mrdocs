@@ -1,0 +1,20 @@
+[#SequentialTask-updateState]
+= xref:SequentialTask.adoc[SequentialTask]::updateState
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/SequentialTask.h#L57[tasks&sol;SequentialTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateState() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

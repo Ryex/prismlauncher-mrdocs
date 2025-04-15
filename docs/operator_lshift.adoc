@@ -1,0 +1,47 @@
+[#operator_lshift]
+= operator&lt;&lt;
+:relfileprefix: 
+:mrdocs:
+
+
+qDebug print support for the Version class
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L61[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDebug.adoc[QDebug]
+xref:operator_lshift-0e.adoc[operator&lt;&lt;](
+    xref:QDebug.adoc[QDebug] debug,
+    xref:Version.adoc[Version] const& v);
+----
+
+[.small]#xref:operator_lshift-0e.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDebug.adoc[QDebug]
+xref:operator_lshift-0a.adoc[operator&lt;&lt;](
+    xref:QDebug.adoc[QDebug] debug,
+    xref:BlockedMod.adoc[BlockedMod] const& m);
+----
+
+[.small]#xref:operator_lshift-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDebug.adoc[QDebug]
+xref:operator_lshift-09.adoc[operator&lt;&lt;](
+    xref:QDebug.adoc[QDebug] d,
+    xref:Component.adoc[Component] const& comp);
+----
+
+[.small]#xref:operator_lshift-09.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

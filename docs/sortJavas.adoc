@@ -1,0 +1,21 @@
+[#sortJavas]
+= sortJavas
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.cpp#L139[java&sol;JavaInstallList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+sortJavas(
+    xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] left,
+    xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] right);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

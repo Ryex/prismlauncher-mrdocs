@@ -1,0 +1,24 @@
+[#ResourceDownload-ShaderPackResourcePage-triggerSearch]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ShaderPackResourcePage.adoc[ShaderPackResourcePage]::triggerSearch
+:relfileprefix: ../../
+:mrdocs:
+
+
+&ast;&ast;&ast;&ast;&ast;&ast; Callbacks to events in the UI (set up in the derived classes) &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ShaderPackPage.h#L51[ui&sol;pages&sol;modplatform&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+triggerSearch() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

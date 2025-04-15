@@ -1,0 +1,19 @@
+[#BaseWizardPage-2constructor]
+= xref:BaseWizardPage.adoc[BaseWizardPage]::BaseWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/BaseWizardPage.h#L8[ui&sol;setupwizard&sol;BaseWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+BaseWizardPage(xref:QWidget.adoc[QWidget]* parent = Q&lowbar;NULLPTR);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

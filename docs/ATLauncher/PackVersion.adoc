@@ -1,0 +1,69 @@
+[#ATLauncher-PackVersion]
+= xref:ATLauncher.adoc[ATLauncher]::PackVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L166[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PackVersion;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/PackVersion/colours.adoc[`colours`] 
+| 
+
+| xref:ATLauncher/PackVersion/configs.adoc[`configs`] 
+| 
+
+| xref:ATLauncher/PackVersion/deletes.adoc[`deletes`] 
+| 
+
+| xref:ATLauncher/PackVersion/extraArguments.adoc[`extraArguments`] 
+| 
+
+| xref:ATLauncher/PackVersion/keeps.adoc[`keeps`] 
+| 
+
+| xref:ATLauncher/PackVersion/libraries.adoc[`libraries`] 
+| 
+
+| xref:ATLauncher/PackVersion/loader.adoc[`loader`] 
+| 
+
+| xref:ATLauncher/PackVersion/mainClass.adoc[`mainClass`] 
+| 
+
+| xref:ATLauncher/PackVersion/messages.adoc[`messages`] 
+| 
+
+| xref:ATLauncher/PackVersion/minecraft.adoc[`minecraft`] 
+| 
+
+| xref:ATLauncher/PackVersion/mods.adoc[`mods`] 
+| 
+
+| xref:ATLauncher/PackVersion/noConfigs.adoc[`noConfigs`] 
+| 
+
+| xref:ATLauncher/PackVersion/version.adoc[`version`] 
+| 
+
+| xref:ATLauncher/PackVersion/warnings.adoc[`warnings`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

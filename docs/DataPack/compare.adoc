@@ -1,0 +1,23 @@
+[#DataPack-compare]
+= xref:DataPack.adoc[DataPack]::compare
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L57[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+int
+compare(
+    xref:Resource.adoc[Resource] const& other,
+    xref:SortType.adoc[SortType] type) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

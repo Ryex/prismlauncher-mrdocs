@@ -1,0 +1,20 @@
+[#Meta-Version-toComparableVersion]
+= xref:Meta.adoc[Meta]::xref:Meta/Version.adoc[Version]::toComparableVersion
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Version.h#L63[meta&sol;Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:Version.adoc[Version]
+toComparableVersion() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

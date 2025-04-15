@@ -1,0 +1,19 @@
+[#IconList-iconUpdated]
+= xref:IconList.adoc[IconList]::iconUpdated
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L86[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+iconUpdated(xref:QString.adoc[QString] key);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

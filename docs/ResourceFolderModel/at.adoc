@@ -1,0 +1,31 @@
+[#ResourceFolderModel-at]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::at
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L121[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:Resource.adoc[Resource]&
+xref:ResourceFolderModel/at-0d.adoc[at](int index);
+----
+
+[.small]#xref:ResourceFolderModel/at-0d.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:Resource.adoc[Resource] const&
+xref:ResourceFolderModel/at-0e.adoc[at](int index) const;
+----
+
+[.small]#xref:ResourceFolderModel/at-0e.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

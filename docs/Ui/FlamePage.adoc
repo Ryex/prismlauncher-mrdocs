@@ -1,0 +1,22 @@
+[#Ui-FlamePage]
+= xref:Ui.adoc[Ui]::FlamePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/flame/FlamePage.h#L48[ui&sol;pages&sol;modplatform&sol;flame&sol;FlamePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FlamePage
+    : public xref:Ui_FlamePage.adoc[Ui&lowbar;FlamePage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

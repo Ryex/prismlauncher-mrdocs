@@ -1,0 +1,19 @@
+[#ThemeManager-isValidApplicationTheme]
+= xref:ThemeManager.adoc[ThemeManager]::isValidApplicationTheme
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L46[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isValidApplicationTheme(xref:QString.adoc[QString] const& id);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#MCEditTool-check]
+= xref:MCEditTool.adoc[MCEditTool]::check
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/MCEditTool.h#L11[tools&sol;MCEditTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+check(
+    xref:QString.adoc[QString] const& toolPath,
+    xref:QString.adoc[QString]& error);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

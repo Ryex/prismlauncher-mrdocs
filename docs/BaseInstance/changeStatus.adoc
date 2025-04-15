@@ -1,0 +1,19 @@
+[#BaseInstance-changeStatus]
+= xref:BaseInstance.adoc[BaseInstance]::changeStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L278[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+changeStatus(xref:BaseInstance/Status.adoc[Status] newStatus);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

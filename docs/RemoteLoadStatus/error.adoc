@@ -1,0 +1,18 @@
+[#RemoteLoadStatus-error]
+= xref:RemoteLoadStatus.adoc[RemoteLoadStatus]::error
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L18[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] error;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

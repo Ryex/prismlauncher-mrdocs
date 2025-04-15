@@ -1,0 +1,18 @@
+[#MinecraftInstance-m_components]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::m&lowbar;components
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L167[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:PackProfile.adoc[PackProfile]&gt; m&lowbar;components;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

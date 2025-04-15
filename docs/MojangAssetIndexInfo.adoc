@@ -1,0 +1,77 @@
+[#MojangAssetIndexInfo]
+= MojangAssetIndexInfo
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L43[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct MojangAssetIndexInfo
+    : xref:MojangDownloadInfo.adoc[MojangDownloadInfo];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangDownloadInfo/Ptr.adoc[`Ptr`] 
+| 
+
+| xref:MojangAssetIndexInfo/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangAssetIndexInfo/2constructor.adoc[`MojangAssetIndexInfo`]         [.small]#[constructor]#
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MojangAssetIndexInfo/id.adoc[`id`] 
+| 
+
+| xref:MojangAssetIndexInfo/known.adoc[`known`] 
+| 
+
+| xref:MojangDownloadInfo/path.adoc[`path`] 
+| Local filesystem path&period; WARNING&colon; not used, only here so we can pass through mojang files unmolested!
+
+
+
+| xref:MojangDownloadInfo/sha1.adoc[`sha1`] 
+| sha&hyphen;1 checksum of the file
+
+
+
+| xref:MojangDownloadInfo/size.adoc[`size`] 
+| size of the file in bytes
+
+
+
+| xref:MojangAssetIndexInfo/totalSize.adoc[`totalSize`] 
+| 
+
+| xref:MojangDownloadInfo/url.adoc[`url`] 
+| absolute URL of this file
+
+
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

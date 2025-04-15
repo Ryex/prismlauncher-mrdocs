@@ -1,0 +1,40 @@
+[#MinecraftSettingsWidget]
+= MinecraftSettingsWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/MinecraftSettingsWidget.h#L47[ui&sol;widgets&sol;MinecraftSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MinecraftSettingsWidget
+    : public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MinecraftSettingsWidget/2constructor.adoc[`MinecraftSettingsWidget`]         [.small]#[constructor]#
+| 
+
+| xref:MinecraftSettingsWidget/loadSettings.adoc[`loadSettings`] 
+| 
+
+| xref:MinecraftSettingsWidget/saveSettings.adoc[`saveSettings`] 
+| 
+
+| xref:MinecraftSettingsWidget/2destructor.adoc[`&tilde;MinecraftSettingsWidget`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

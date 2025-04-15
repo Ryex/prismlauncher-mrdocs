@@ -1,0 +1,32 @@
+[#UpdateActionChangeVersion]
+= UpdateActionChangeVersion
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L22[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct UpdateActionChangeVersion;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:UpdateActionChangeVersion/targetVersion.adoc[`targetVersion`] 
+| version to change to
+
+
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

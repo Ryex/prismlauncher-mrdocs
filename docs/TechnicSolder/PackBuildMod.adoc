@@ -1,0 +1,39 @@
+[#TechnicSolder-PackBuildMod]
+= xref:TechnicSolder.adoc[TechnicSolder]::PackBuildMod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SolderPackManifest.h#L35[modplatform&sol;technic&sol;SolderPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PackBuildMod;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TechnicSolder/PackBuildMod/md5.adoc[`md5`] 
+| 
+
+| xref:TechnicSolder/PackBuildMod/name.adoc[`name`] 
+| 
+
+| xref:TechnicSolder/PackBuildMod/url.adoc[`url`] 
+| 
+
+| xref:TechnicSolder/PackBuildMod/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

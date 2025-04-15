@@ -1,0 +1,22 @@
+[#Ui-SubTaskProgressBar]
+= xref:Ui.adoc[Ui]::SubTaskProgressBar
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/SubTaskProgressBar.h#L25[ui&sol;widgets&sol;SubTaskProgressBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class SubTaskProgressBar
+    : public xref:Ui_SubTaskProgressBar.adoc[Ui&lowbar;SubTaskProgressBar];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

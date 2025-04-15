@@ -1,0 +1,19 @@
+[#ModPlatform-loaderList]
+= xref:ModPlatform.adoc[ModPlatform]::loaderList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.cpp#L34[modplatform&sol;ModIndex&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QList.adoc[QList]&lt;xref:ModPlatform/ModLoaderType.adoc[ModLoaderType]&gt; const loaderList = &lcub; NeoForge, Forge, Cauldron, LiteLoader, Quilt, Fabric &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#DefaultVariable-operator_assign]
+= xref:DefaultVariable.adoc[DefaultVariable]::operator&equals;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DefaultVariable.h#L7[DefaultVariable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:DefaultVariable.adoc[DefaultVariable]&lt;T&gt;&
+operator&equals;(T const& value);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

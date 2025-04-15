@@ -1,0 +1,19 @@
+[#LaunchProfile-getAgents]
+= xref:LaunchProfile.adoc[LaunchProfile]::getAgents
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L82[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:AgentPtr.adoc[AgentPtr]&gt; const&
+getAgents() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

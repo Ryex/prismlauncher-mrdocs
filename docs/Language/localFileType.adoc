@@ -1,0 +1,18 @@
+[#Language-localFileType]
+= xref:Language.adoc[Language]::localFileType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L149[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FileType.adoc[FileType] localFileType = FileType&colon;&colon;NONE;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

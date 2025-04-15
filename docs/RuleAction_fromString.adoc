@@ -1,0 +1,19 @@
+[#RuleAction_fromString]
+= RuleAction&lowbar;fromString
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.cpp#L41[minecraft&sol;Rule&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:RuleAction.adoc[RuleAction]
+RuleAction&lowbar;fromString(xref:QString.adoc[QString] name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

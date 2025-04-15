@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_current_update_task]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;current&lowbar;update&lowbar;task
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L256[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr] m&lowbar;current&lowbar;update&lowbar;task = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

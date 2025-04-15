@@ -1,0 +1,19 @@
+[#Net-NetRequest-downloadError]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::downloadError
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L87[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+downloadError(xref:QNetworkReply.adoc[QNetworkReply]::xref:QNetworkReply/NetworkError.adoc[NetworkError] error);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

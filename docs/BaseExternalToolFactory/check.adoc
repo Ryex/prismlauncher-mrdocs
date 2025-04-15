@@ -1,0 +1,33 @@
+[#BaseExternalToolFactory-check]
+= xref:BaseExternalToolFactory.adoc[BaseExternalToolFactory]::check
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseExternalTool.h#L43[tools&sol;BaseExternalTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+xref:BaseExternalToolFactory/check-0a.adoc[check](xref:QString.adoc[QString]* error) = 0;
+----
+
+[.small]#xref:BaseExternalToolFactory/check-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+xref:BaseExternalToolFactory/check-09.adoc[check](
+    xref:QString.adoc[QString] const& path,
+    xref:QString.adoc[QString]* error) = 0;
+----
+
+[.small]#xref:BaseExternalToolFactory/check-09.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

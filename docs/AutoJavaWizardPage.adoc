@@ -1,0 +1,88 @@
+[#AutoJavaWizardPage]
+= AutoJavaWizardPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/AutoJavaWizardPage.h#L9[ui&sol;setupwizard&sol;AutoJavaWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class AutoJavaWizardPage
+    : public xref:BaseWizardPage.adoc[BaseWizardPage];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AutoJavaWizardPage/2constructor.adoc[`AutoJavaWizardPage`]         [.small]#[constructor]#
+| 
+
+| xref:AutoJavaWizardPage/initializePage.adoc[`initializePage`] 
+| 
+
+| xref:AutoJavaWizardPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:AutoJavaWizardPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:AutoJavaWizardPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BaseWizardPage/refresh.adoc[`refresh`] 
+| 
+
+| xref:AutoJavaWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:AutoJavaWizardPage/validatePage.adoc[`validatePage`] 
+| 
+
+| xref:BaseWizardPage/wantsRefreshButton.adoc[`wantsRefreshButton`] 
+| 
+
+| xref:AutoJavaWizardPage/2destructor.adoc[`&tilde;AutoJavaWizardPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AutoJavaWizardPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:AutoJavaWizardPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BaseWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

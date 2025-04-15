@@ -1,0 +1,18 @@
+[#Net-HeaderProxy-2constructor]
+= xref:Net.adoc[Net]::xref:Net/HeaderProxy.adoc[HeaderProxy]::HeaderProxy
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HeaderProxy.h#L34[net&sol;HeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+HeaderProxy();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

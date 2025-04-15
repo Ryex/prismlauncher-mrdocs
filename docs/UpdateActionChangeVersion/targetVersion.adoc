@@ -1,0 +1,22 @@
+[#UpdateActionChangeVersion-targetVersion]
+= xref:UpdateActionChangeVersion.adoc[UpdateActionChangeVersion]::targetVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+version to change to
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L24[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] targetVersion;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

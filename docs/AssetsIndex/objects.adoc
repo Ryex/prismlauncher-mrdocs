@@ -1,0 +1,18 @@
+[#AssetsIndex-objects]
+= xref:AssetsIndex.adoc[AssetsIndex]::objects
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L37[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:AssetObject.adoc[AssetObject]&gt; objects;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

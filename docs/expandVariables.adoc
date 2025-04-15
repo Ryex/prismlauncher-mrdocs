@@ -1,0 +1,21 @@
+[#expandVariables]
+= expandVariables
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.cpp#L256[launch&sol;LaunchTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+expandVariables(
+    xref:QString.adoc[QString] const& input,
+    xref:QProcessEnvironment.adoc[QProcessEnvironment] dict);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

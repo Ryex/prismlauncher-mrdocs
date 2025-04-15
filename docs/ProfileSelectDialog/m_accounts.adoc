@@ -1,0 +1,18 @@
+[#ProfileSelectDialog-m_accounts]
+= xref:ProfileSelectDialog.adoc[ProfileSelectDialog]::m&lowbar;accounts
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSelectDialog.h#L79[ui&sol;dialogs&sol;ProfileSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:AccountList.adoc[AccountList]&gt; m&lowbar;accounts;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

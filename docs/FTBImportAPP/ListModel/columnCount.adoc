@@ -1,0 +1,20 @@
+[#FTBImportAPP-ListModel-columnCount]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/ListModel.adoc[ListModel]::columnCount
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L58[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+columnCount(xref:QModelIndex.adoc[QModelIndex] const& parent) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

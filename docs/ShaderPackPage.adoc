@@ -1,0 +1,217 @@
+[#ShaderPackPage]
+= ShaderPackPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ShaderPackPage.h#L42[ui&sol;pages&sol;instance&sol;ShaderPackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ShaderPackPage
+    : public xref:ExternalResourcesPage.adoc[ExternalResourcesPage];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/updateExtraInfoFunc.adoc[`updateExtraInfoFunc`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ShaderPackPage/2constructor.adoc[`ShaderPackPage`]         [.small]#[constructor]#
+| 
+
+| xref:BasePage/apply.adoc[`apply`] 
+| 
+
+| xref:ShaderPackPage/changeShaderPackVersion.adoc[`changeShaderPackVersion`] 
+| 
+
+| xref:BasePage/closed.adoc[`closed`] 
+| 
+
+| xref:BasePage/closedImpl.adoc[`closedImpl`] 
+| 
+| xref:ShaderPackPage/deleteShaderPackMetadata.adoc[`deleteShaderPackMetadata`] 
+| 
+
+| xref:BasePage/displayName.adoc[`displayName`] 
+| 
+| xref:ShaderPackPage/downloadShaderPack.adoc[`downloadShaderPack`] 
+| 
+
+| xref:ExternalResourcesPage/extraHeaderInfoString.adoc[`extraHeaderInfoString`] 
+| 
+
+| xref:BasePage/helpPage.adoc[`helpPage`] 
+| 
+| xref:BasePage/icon.adoc[`icon`] 
+| 
+| xref:BasePage/id.adoc[`id`] 
+| 
+| xref:ExternalResourcesPage/metaObject.adoc[`metaObject`] 
+| 
+| xref:BasePage/opened.adoc[`opened`] 
+| 
+
+| xref:BasePage/openedImpl.adoc[`openedImpl`] 
+| 
+| xref:ExternalResourcesPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ExternalResourcesPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:BasePage/retranslate.adoc[`retranslate`] 
+| 
+| xref:BasePage/setParentContainer.adoc[`setParentContainer`] 
+| 
+
+| xref:BasePage/shouldDisplay.adoc[`shouldDisplay`] 
+| 
+| xref:ExternalResourcesPage/updateActions.adoc[`updateActions`] 
+| 
+
+| xref:ExternalResourcesPage/updateFrame.adoc[`updateFrame`] 
+| 
+
+| xref:ShaderPackPage/updateShaderPacks.adoc[`updateShaderPacks`] 
+| 
+
+| xref:ShaderPackPage/2destructor.adoc[`&tilde;ShaderPackPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalResourcesPage/tr.adoc[`tr`] 
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/listIndex.adoc[`listIndex`] 
+| 
+
+| xref:BasePage/stackIndex.adoc[`stackIndex`] 
+| 
+
+| xref:BasePage/updateExtraInfo.adoc[`updateExtraInfo`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalResourcesPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ShaderPackPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalResourcesPage/ShowContextMenu.adoc[`ShowContextMenu`] 
+| 
+
+| xref:ExternalResourcesPage/ShowHeaderContextMenu.adoc[`ShowHeaderContextMenu`] 
+| 
+
+| xref:ExternalResourcesPage/addItem.adoc[`addItem`] 
+| 
+
+| xref:ExternalResourcesPage/createPopupMenu.adoc[`createPopupMenu`] 
+| 
+
+| xref:ExternalResourcesPage/disableItem.adoc[`disableItem`] 
+| 
+
+| xref:ExternalResourcesPage/enableItem.adoc[`enableItem`] 
+| 
+
+| xref:ExternalResourcesPage/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:ExternalResourcesPage/filterTextChanged.adoc[`filterTextChanged`] 
+| 
+
+| xref:ExternalResourcesPage/itemActivated.adoc[`itemActivated`] 
+| 
+
+| xref:ExternalResourcesPage/listFilter.adoc[`listFilter`] 
+| 
+
+| xref:ExternalResourcesPage/removeItem.adoc[`removeItem`] 
+| 
+
+| xref:ExternalResourcesPage/removeItems.adoc[`removeItems`] 
+| 
+
+| xref:ExternalResourcesPage/viewConfigs.adoc[`viewConfigs`] 
+| 
+
+| xref:ExternalResourcesPage/viewFolder.adoc[`viewFolder`] 
+| 
+
+| xref:ExternalResourcesPage/viewHomepage.adoc[`viewHomepage`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePage/isOpened.adoc[`isOpened`] 
+| 
+
+| xref:BasePage/m_container.adoc[`m&lowbar;container`] 
+| 
+
+| xref:ExternalResourcesPage/m_fileSelectionFilter.adoc[`m&lowbar;fileSelectionFilter`] 
+| 
+
+| xref:ExternalResourcesPage/m_filterModel.adoc[`m&lowbar;filterModel`] 
+| 
+
+| xref:ExternalResourcesPage/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+| xref:ExternalResourcesPage/m_model.adoc[`m&lowbar;model`] 
+| 
+
+| xref:ExternalResourcesPage/m_viewFilter.adoc[`m&lowbar;viewFilter`] 
+| 
+
+| xref:ExternalResourcesPage/m_wide_bar_setting.adoc[`m&lowbar;wide&lowbar;bar&lowbar;setting`] 
+| 
+
+| xref:ExternalResourcesPage/ui.adoc[`ui`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

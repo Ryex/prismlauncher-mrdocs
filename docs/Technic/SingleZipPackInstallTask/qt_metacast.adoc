@@ -1,0 +1,20 @@
+[#Technic-SingleZipPackInstallTask-qt_metacast]
+= xref:Technic.adoc[Technic]::xref:Technic/SingleZipPackInstallTask.adoc[SingleZipPackInstallTask]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SingleZipPackInstallTask.h#L32[modplatform&sol;technic&sol;SingleZipPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

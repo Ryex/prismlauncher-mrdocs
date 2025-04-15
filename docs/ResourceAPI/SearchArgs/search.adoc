@@ -1,0 +1,18 @@
+[#ResourceAPI-SearchArgs-search]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SearchArgs.adoc[SearchArgs]::search
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L73[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt; search;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

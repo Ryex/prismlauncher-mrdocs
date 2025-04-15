@@ -1,0 +1,19 @@
+[#ResourceDownload-ResourcePackDownloadDialog-2destructor]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackDownloadDialog.adoc[ResourcePackDownloadDialog]::&tilde;ResourcePackDownloadDialog
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceDownloadDialog.h#L123[ui&sol;dialogs&sol;ResourceDownloadDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ResourcePackDownloadDialog() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

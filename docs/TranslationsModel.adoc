@@ -1,0 +1,92 @@
+[#TranslationsModel]
+= TranslationsModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.h#L24[translations&sol;TranslationsModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class TranslationsModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TranslationsModel/2constructor.adoc[`TranslationsModel`]         [.small]#[constructor]#
+| 
+
+| xref:TranslationsModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:TranslationsModel/data.adoc[`data`] 
+| 
+
+| xref:TranslationsModel/downloadIndex.adoc[`downloadIndex`] 
+| 
+
+| xref:TranslationsModel/headerData.adoc[`headerData`] 
+| 
+
+| xref:TranslationsModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:TranslationsModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:TranslationsModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:TranslationsModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:TranslationsModel/selectLanguage.adoc[`selectLanguage`] 
+| 
+
+| xref:TranslationsModel/selectedIndex.adoc[`selectedIndex`] 
+| 
+
+| xref:TranslationsModel/selectedLanguage.adoc[`selectedLanguage`] 
+| 
+
+| xref:TranslationsModel/setUseSystemLocale.adoc[`setUseSystemLocale`] 
+| 
+
+| xref:TranslationsModel/updateLanguage.adoc[`updateLanguage`] 
+| 
+
+| xref:TranslationsModel/2destructor.adoc[`&tilde;TranslationsModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TranslationsModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:TranslationsModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

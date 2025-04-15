@@ -1,0 +1,19 @@
+[#BaseInstance-hasCrashed]
+= xref:BaseInstance.adoc[BaseInstance]::hasCrashed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L242[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+hasCrashed() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

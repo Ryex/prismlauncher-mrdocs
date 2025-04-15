@@ -1,0 +1,19 @@
+[#XboxUserStep-2constructor]
+= xref:XboxUserStep.adoc[XboxUserStep]::XboxUserStep
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxUserStep.h#L13[minecraft&sol;auth&sol;steps&sol;XboxUserStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+XboxUserStep(xref:AccountData.adoc[AccountData]* data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

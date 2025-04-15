@@ -1,0 +1,29 @@
+[#FTBImportAPP-FilterModel-Sorting]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/FilterModel.adoc[FilterModel]::Sorting
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L33[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Sorting;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ByName`
+|
+|`ByGameVersion`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

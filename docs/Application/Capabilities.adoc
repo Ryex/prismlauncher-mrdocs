@@ -1,0 +1,18 @@
+[#Application-Capabilities]
+= xref:Application.adoc[Application]::Capabilities
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L105[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef xref:QFlags-09.adoc[QFlags]&lt;xref:Application/Capability.adoc[Capability]&gt; Capabilities;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

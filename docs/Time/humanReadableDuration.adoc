@@ -1,0 +1,45 @@
+[#Time-humanReadableDuration]
+= xref:Time.adoc[Time]::humanReadableDuration
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns a string with short form time duration ie&period; &grave;2days 1h3m4s56&period;0ms&grave;&period;
+miliseconds are only included if &grave;precision&grave; is greater than 0&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCTime.h#L33[MMCTime&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+humanReadableDuration(
+    double duration,
+    int precision = 0);
+----
+
+== Return Value
+
+QString
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *duration*
+| a number of seconds as floating point
+
+
+| *precision*
+| number of decmial points to display on fractons of a second, defualts to 0&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

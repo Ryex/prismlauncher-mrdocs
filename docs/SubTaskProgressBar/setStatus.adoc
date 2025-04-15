@@ -1,0 +1,19 @@
+[#SubTaskProgressBar-setStatus]
+= xref:SubTaskProgressBar.adoc[SubTaskProgressBar]::setStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/SubTaskProgressBar.h#L39[ui&sol;widgets&sol;SubTaskProgressBar&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setStatus(xref:QString.adoc[QString] status);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

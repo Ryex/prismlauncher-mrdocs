@@ -1,0 +1,18 @@
+[#FS-LinkResult-err_value]
+= xref:FS.adoc[FS]::xref:FS/LinkResult.adoc[LinkResult]::err&lowbar;value
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L168[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int err&lowbar;value;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

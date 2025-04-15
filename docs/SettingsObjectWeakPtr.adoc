@@ -1,0 +1,18 @@
+[#SettingsObjectWeakPtr]
+= SettingsObjectWeakPtr
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L30[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using SettingsObjectWeakPtr = xref:std.adoc[std]::xref:std/weak_ptr.adoc[weak&lowbar;ptr]&lt;xref:SettingsObject.adoc[SettingsObject]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

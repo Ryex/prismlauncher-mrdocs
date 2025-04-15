@@ -1,0 +1,19 @@
+[#Java-ManifestDownloadTask-staticMetaObject]
+= xref:Java.adoc[Java]::xref:Java/ManifestDownloadTask.adoc[ManifestDownloadTask]::staticMetaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ManifestDownloadTask.h#L27[java&sol;download&sol;ManifestDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

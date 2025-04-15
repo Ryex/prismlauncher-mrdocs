@@ -1,0 +1,21 @@
+[#FlameAPI-getSearchURL]
+= xref:FlameAPI.adoc[FlameAPI]::getSearchURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L88[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt;
+getSearchURL(xref:ResourceAPI/SearchArgs.adoc[SearchArgs] const& args) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

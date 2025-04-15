@@ -1,0 +1,33 @@
+[#Modrinth-loadIndexedPack]
+= xref:Modrinth.adoc[Modrinth]::loadIndexedPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L116[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:Modrinth/loadIndexedPack-02.adoc[loadIndexedPack](
+    xref:Modrinth/Modpack.adoc[Modpack]&,
+    xref:QJsonObject.adoc[QJsonObject]&);
+----
+
+[.small]#xref:Modrinth/loadIndexedPack-02.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+xref:Modrinth/loadIndexedPack-03.adoc[loadIndexedPack](
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]& m,
+    xref:QJsonObject.adoc[QJsonObject]& obj);
+----
+
+[.small]#xref:Modrinth/loadIndexedPack-03.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

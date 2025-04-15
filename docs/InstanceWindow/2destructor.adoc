@@ -1,0 +1,19 @@
+[#InstanceWindow-2destructor]
+= xref:InstanceWindow.adoc[InstanceWindow]::&tilde;InstanceWindow
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/InstanceWindow.h#L57[ui&sol;InstanceWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;InstanceWindow() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

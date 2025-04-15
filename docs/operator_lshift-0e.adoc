@@ -1,0 +1,25 @@
+[#operator_lshift-0e]
+= operator&lt;&lt;
+:relfileprefix: 
+:mrdocs:
+
+
+qDebug print support for the Version class
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L61[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDebug.adoc[QDebug]
+operator&lt;&lt;(
+    xref:QDebug.adoc[QDebug] debug,
+    xref:Version.adoc[Version] const& v);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

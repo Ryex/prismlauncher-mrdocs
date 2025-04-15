@@ -1,0 +1,18 @@
+[#ResourceAPI-ProjectInfoCallbacks-on_succeed]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/ProjectInfoCallbacks.adoc[ProjectInfoCallbacks]::on&lowbar;succeed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L113[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/function.adoc[function]&lt;void(xref:QJsonDocument.adoc[QJsonDocument]&, xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack] const&)&gt; on&lowbar;succeed;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

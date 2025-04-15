@@ -1,0 +1,20 @@
+[#ModPlatform-IndexedPack-isVersionSelected]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]::isVersionSelected
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L151[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+isVersionSelected(int index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

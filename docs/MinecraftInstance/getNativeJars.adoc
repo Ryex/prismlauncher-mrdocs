@@ -1,0 +1,20 @@
+[#MinecraftInstance-getNativeJars]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::getNativeJars
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L154[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+getNativeJars();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

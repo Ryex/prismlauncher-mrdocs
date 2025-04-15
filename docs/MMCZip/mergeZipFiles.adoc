@@ -1,0 +1,27 @@
+[#MMCZip-mergeZipFiles]
+= xref:MMCZip.adoc[MMCZip]::mergeZipFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+Merge two zip files, using a filter function
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L63[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+mergeZipFiles(
+    xref:QuaZip.adoc[QuaZip]* into,
+    xref:QFileInfo.adoc[QFileInfo] from,
+    xref:QSet.adoc[QSet]&lt;xref:QString.adoc[QString]&gt;& contained,
+    xref:MMCZip/FilterFunction.adoc[FilterFunction] const& filter = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

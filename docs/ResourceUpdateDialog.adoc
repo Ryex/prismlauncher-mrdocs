@@ -1,0 +1,119 @@
+[#ResourceUpdateDialog]
+= ResourceUpdateDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceUpdateDialog.h#L16[ui&sol;dialogs&sol;ResourceUpdateDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ResourceUpdateDialog
+    : public xref:ReviewMessageBox.adoc[ReviewMessageBox];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ReviewMessageBox/ResourceInformation.adoc[`ResourceInformation`] 
+| 
+
+| xref:ReviewMessageBox/res_info.adoc[`res&lowbar;info`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceUpdateDialog/2constructor.adoc[`ResourceUpdateDialog`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceUpdateDialog/aborted.adoc[`aborted`] 
+| 
+
+| xref:ReviewMessageBox/appendResource.adoc[`appendResource`] 
+| 
+| xref:ResourceUpdateDialog/checkCandidates.adoc[`checkCandidates`] 
+| 
+
+| xref:ReviewMessageBox/deselectedResources.adoc[`deselectedResources`] 
+| 
+
+| xref:ResourceUpdateDialog/getTasks.adoc[`getTasks`] 
+| 
+
+| xref:ResourceUpdateDialog/indexDir.adoc[`indexDir`] 
+| 
+
+| xref:ReviewMessageBox/metaObject.adoc[`metaObject`] 
+| 
+| xref:ResourceUpdateDialog/noUpdates.adoc[`noUpdates`] 
+| 
+
+| xref:ReviewMessageBox/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ReviewMessageBox/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:ReviewMessageBox/retranslateUi.adoc[`retranslateUi`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ReviewMessageBox/create.adoc[`create`] 
+| 
+
+| xref:ReviewMessageBox/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ReviewMessageBox/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:ResourceUpdateDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ReviewMessageBox/on_toggleDepsButton_clicked.adoc[`on&lowbar;toggleDepsButton&lowbar;clicked`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ReviewMessageBox/m_deps.adoc[`m&lowbar;deps`] 
+| 
+
+| xref:ReviewMessageBox/m_deps_checked.adoc[`m&lowbar;deps&lowbar;checked`] 
+| 
+
+| xref:ReviewMessageBox/ui.adoc[`ui`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

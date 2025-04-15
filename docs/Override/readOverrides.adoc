@@ -1,0 +1,31 @@
+[#Override-readOverrides]
+= xref:Override.adoc[Override]::readOverrides
+:relfileprefix: ../
+:mrdocs:
+
+
+This reads an existing overrides archive, returning a list of overrides&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/OverrideUtils.h#L18[modplatform&sol;helpers&sol;OverrideUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+readOverrides(
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& parent&lowbar;folder);
+----
+
+== Description
+
+If there&apos;s no such file in &grave;parent&lowbar;folder&grave;, it will return an empty list&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

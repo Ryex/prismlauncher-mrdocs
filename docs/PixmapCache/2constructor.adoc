@@ -1,0 +1,18 @@
+[#PixmapCache-2constructor]
+= xref:PixmapCache.adoc[PixmapCache]::PixmapCache
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L49[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+PixmapCache(xref:QObject.adoc[QObject]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Net-Validator-write]
+= xref:Net.adoc[Net]::xref:Net/Validator.adoc[Validator]::write
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Validator.h#L47[net&sol;Validator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+write(xref:QByteArray.adoc[QByteArray]& data) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

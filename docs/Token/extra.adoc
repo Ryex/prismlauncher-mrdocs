@@ -1,0 +1,18 @@
+[#Token-extra]
+= xref:Token.adoc[Token]::extra
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L54[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariantMap.adoc[QVariantMap] extra;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

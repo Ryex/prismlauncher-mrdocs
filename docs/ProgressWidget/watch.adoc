@@ -1,0 +1,23 @@
+[#ProgressWidget-watch]
+= xref:ProgressWidget.adoc[ProgressWidget]::watch
+:relfileprefix: ../
+:mrdocs:
+
+
+Watch the progress of a task&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L30[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+watch(xref:Task.adoc[Task] const* task);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

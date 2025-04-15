@@ -1,0 +1,19 @@
+[#Mod-finishResolvingWithDetails]
+= xref:Mod.adoc[Mod]::finishResolvingWithDetails
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L95[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+finishResolvingWithDetails(xref:ModDetails.adoc[ModDetails]&& details);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

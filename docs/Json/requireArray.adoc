@@ -1,0 +1,53 @@
+[#Json-requireArray]
+= xref:Json.adoc[Json]::requireArray
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L73[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonArray.adoc[QJsonArray]
+xref:Json/requireArray-03.adoc[requireArray](
+    xref:QJsonDocument.adoc[QJsonDocument] const& doc,
+    xref:QString.adoc[QString] const& what = &quot;Document&quot;);
+----
+
+[.small]#xref:Json/requireArray-03.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonArray.adoc[QJsonArray]
+xref:Json/requireArray-09.adoc[requireArray](
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what);
+----
+
+[.small]#xref:Json/requireArray-09.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonArray.adoc[QJsonArray]
+xref:Json/requireArray-0c.adoc[requireArray](
+    xref:QJsonObject.adoc[QJsonObject] const& parent,
+    xref:QString.adoc[QString] const& key,
+    xref:QString.adoc[QString] const& what);
+----
+
+[.small]#xref:Json/requireArray-0c.adoc[_» more..._]#
+
+== Exceptions
+
+|===
+| Name | Thrown on
+
+| ``
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

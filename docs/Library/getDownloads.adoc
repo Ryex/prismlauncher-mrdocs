@@ -1,0 +1,62 @@
+[#Library-getDownloads]
+= xref:Library.adoc[Library]::getDownloads
+:relfileprefix: ../
+:mrdocs:
+
+
+Get download requests for the library files&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L147[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Ptr.adoc[Ptr]&gt;
+getDownloads(
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext,
+    xref:HttpMetaCache.adoc[HttpMetaCache]* cache,
+    xref:QStringList.adoc[QStringList]& failedLocalFiles,
+    xref:QString.adoc[QString] const& overridePath) const;
+----
+
+== Description
+
+Depending on whether the library is native or not, and the current runtime context,
+this function prepares download requests for the necessary files&period; It handles both local
+and remote files, checks for stale cache entries, and adds checksummed downloads&period;
+
+
+
+== Return Value
+
+QList&lt;Net&colon;&colon;NetRequest&colon;&colon;Ptr&gt; List of download requests&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *runtimeContext*
+| The current runtime context&period;
+
+
+| *cache*
+| Pointer to the HTTP meta cache&period;
+
+
+| *failedLocalFiles*
+| List to store paths for failed local files&period;
+
+
+| *overridePath*
+| Optional path to override the default storage path&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

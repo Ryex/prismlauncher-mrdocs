@@ -1,0 +1,24 @@
+[#JavaCommon-TestCheck-2constructor]
+= xref:JavaCommon.adoc[JavaCommon]::xref:JavaCommon/TestCheck.adoc[TestCheck]::TestCheck
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/JavaCommon.h#L24[JavaCommon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+TestCheck(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] path,
+    xref:QString.adoc[QString] args,
+    int minMem,
+    int maxMem,
+    int permGen);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

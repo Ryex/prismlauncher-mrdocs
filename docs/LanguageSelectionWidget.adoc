@@ -1,0 +1,81 @@
+[#LanguageSelectionWidget]
+= LanguageSelectionWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LanguageSelectionWidget.h#L26[ui&sol;widgets&sol;LanguageSelectionWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LanguageSelectionWidget
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageSelectionWidget/2constructor.adoc[`LanguageSelectionWidget`]         [.small]#[constructor]#
+| 
+
+| xref:LanguageSelectionWidget/getSelectedLanguageKey.adoc[`getSelectedLanguageKey`] 
+| 
+
+| xref:LanguageSelectionWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LanguageSelectionWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LanguageSelectionWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LanguageSelectionWidget/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:LanguageSelectionWidget/2destructor.adoc[`&tilde;LanguageSelectionWidget`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageSelectionWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageSelectionWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LanguageSelectionWidget/languageRowChanged.adoc[`languageRowChanged`] 
+| 
+
+| xref:LanguageSelectionWidget/languageSettingChanged.adoc[`languageSettingChanged`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

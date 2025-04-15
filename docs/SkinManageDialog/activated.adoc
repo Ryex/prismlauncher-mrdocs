@@ -1,0 +1,19 @@
+[#SkinManageDialog-activated]
+= xref:SkinManageDialog.adoc[SkinManageDialog]::activated
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/SkinManageDialog.h#L45[ui&sol;dialogs&sol;skins&sol;SkinManageDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+activated(xref:QModelIndex.adoc[QModelIndex]);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

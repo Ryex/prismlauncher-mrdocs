@@ -1,0 +1,21 @@
+[#ModPlatform-getMetaURL]
+= xref:ModPlatform.adoc[ModPlatform]::getMetaURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L183[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getMetaURL(
+    xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] provider,
+    xref:QVariant.adoc[QVariant] projectID);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

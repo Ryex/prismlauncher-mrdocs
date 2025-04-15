@@ -1,0 +1,20 @@
+[#BrightTheme-name]
+= xref:BrightTheme.adoc[BrightTheme]::name
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/BrightTheme.h#L44[ui&sol;themes&sol;BrightTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+name() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,63 @@
+[#ModFilterWidget-Filter]
+= xref:ModFilterWidget.adoc[ModFilterWidget]::Filter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L60[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Filter;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModFilterWidget/Filter/checkMcVersions.adoc[`checkMcVersions`] 
+| 
+
+| xref:ModFilterWidget/Filter/operator_not_eq.adoc[`operator!&equals;`] 
+| 
+
+| xref:ModFilterWidget/Filter/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ModFilterWidget/Filter/categoryIds.adoc[`categoryIds`] 
+| 
+
+| xref:ModFilterWidget/Filter/hideInstalled.adoc[`hideInstalled`] 
+| 
+
+| xref:ModFilterWidget/Filter/loaders.adoc[`loaders`] 
+| 
+
+| xref:ModFilterWidget/Filter/openSource.adoc[`openSource`] 
+| 
+
+| xref:ModFilterWidget/Filter/releases.adoc[`releases`] 
+| 
+
+| xref:ModFilterWidget/Filter/side.adoc[`side`] 
+| 
+
+| xref:ModFilterWidget/Filter/versions.adoc[`versions`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

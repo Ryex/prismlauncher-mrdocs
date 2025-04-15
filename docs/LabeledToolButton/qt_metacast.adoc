@@ -1,0 +1,20 @@
+[#LabeledToolButton-qt_metacast]
+= xref:LabeledToolButton.adoc[LabeledToolButton]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LabeledToolButton.h#L24[ui&sol;widgets&sol;LabeledToolButton&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Mod-authors]
+= xref:Mod.adoc[Mod]::authors
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L68[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+authors() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

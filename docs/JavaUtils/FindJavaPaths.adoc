@@ -1,0 +1,19 @@
+[#JavaUtils-FindJavaPaths]
+= xref:JavaUtils.adoc[JavaUtils]::FindJavaPaths
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L37[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:QString.adoc[QString]&gt;
+FindJavaPaths();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

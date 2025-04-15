@@ -1,0 +1,23 @@
+[#ServersModel-headerData]
+= xref:ServersModel.adoc[ServersModel]::headerData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L288[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+headerData(
+    int section,
+    xref:Qt.adoc[Qt]::xref:Qt/Orientation.adoc[Orientation] orientation,
+    int role) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

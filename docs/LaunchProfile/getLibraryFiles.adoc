@@ -1,0 +1,24 @@
+[#LaunchProfile-getLibraryFiles]
+= xref:LaunchProfile.adoc[LaunchProfile]::getLibraryFiles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L86[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+getLibraryFiles(
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext,
+    xref:QStringList.adoc[QStringList]& jars,
+    xref:QStringList.adoc[QStringList]& nativeJars,
+    xref:QString.adoc[QString] const& overridePath,
+    xref:QString.adoc[QString] const& tempPath) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

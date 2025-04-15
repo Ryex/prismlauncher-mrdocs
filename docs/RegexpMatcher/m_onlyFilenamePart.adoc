@@ -1,0 +1,18 @@
+[#RegexpMatcher-m_onlyFilenamePart]
+= xref:RegexpMatcher.adoc[RegexpMatcher]::m&lowbar;onlyFilenamePart
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/RegexpMatcher.h#L37[pathmatcher&sol;RegexpMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;onlyFilenamePart = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

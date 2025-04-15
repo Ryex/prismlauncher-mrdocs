@@ -1,0 +1,23 @@
+[#LegacyFTB-Page-tr]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/Page.adoc[Page]::tr
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/Page.h#L61[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;Page&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#gatherRequirementsFromComponents]
+= gatherRequirementsFromComponents
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L258[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+gatherRequirementsFromComponents(
+    xref:ComponentContainer.adoc[ComponentContainer] const& input,
+    xref:00namespace/RequireExSet.adoc[RequireExSet]& output);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

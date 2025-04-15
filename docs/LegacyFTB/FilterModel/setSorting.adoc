@@ -1,0 +1,19 @@
+[#LegacyFTB-FilterModel-setSorting]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/FilterModel.adoc[FilterModel]::setSorting
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L26[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSorting(xref:LegacyFTB/FilterModel/Sorting.adoc[Sorting] sorting);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

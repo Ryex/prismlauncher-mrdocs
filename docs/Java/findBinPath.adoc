@@ -1,0 +1,21 @@
+[#Java-findBinPath]
+= xref:Java.adoc[Java]::findBinPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/SymlinkTask.cpp#L26[java&sol;download&sol;SymlinkTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+findBinPath(
+    xref:QString.adoc[QString] root,
+    xref:QString.adoc[QString] pattern);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

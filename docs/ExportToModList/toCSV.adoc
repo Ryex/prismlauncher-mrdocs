@@ -1,0 +1,21 @@
+[#ExportToModList-toCSV]
+= xref:ExportToModList.adoc[ExportToModList]::toCSV
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/ExportToModList.cpp#L149[modplatform&sol;helpers&sol;ExportToModList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+toCSV(
+    xref:QList.adoc[QList]&lt;xref:Mod.adoc[Mod]*&gt; mods,
+    xref:ExportToModList/OptionalData.adoc[OptionalData] extraData);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

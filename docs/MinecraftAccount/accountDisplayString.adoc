@@ -1,0 +1,19 @@
+[#MinecraftAccount-accountDisplayString]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::accountDisplayString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L107[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+accountDisplayString() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

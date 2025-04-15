@@ -1,0 +1,19 @@
+[#ThemeWizardPage-2constructor]
+= xref:ThemeWizardPage.adoc[ThemeWizardPage]::ThemeWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/ThemeWizardPage.h#L31[ui&sol;setupwizard&sol;ThemeWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ThemeWizardPage(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

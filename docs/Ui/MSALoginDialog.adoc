@@ -1,0 +1,22 @@
+[#Ui-MSALoginDialog]
+= xref:Ui.adoc[Ui]::MSALoginDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/MSALoginDialog.h#L25[ui&sol;dialogs&sol;MSALoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MSALoginDialog
+    : public xref:Ui_MSALoginDialog.adoc[Ui&lowbar;MSALoginDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

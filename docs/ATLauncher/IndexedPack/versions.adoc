@@ -1,0 +1,18 @@
+[#ATLauncher-IndexedPack-versions]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/IndexedPack.adoc[IndexedPack]::versions
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackIndex.h#L37[modplatform&sol;atlauncher&sol;ATLPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVector.adoc[QVector]&lt;xref:ATLauncher/IndexedVersion.adoc[IndexedVersion]&gt; versions;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

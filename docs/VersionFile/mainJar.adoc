@@ -1,0 +1,22 @@
+[#VersionFile-mainJar]
+= xref:VersionFile.adoc[VersionFile]::mainJar
+:relfileprefix: ../
+:mrdocs:
+
+
+The main jar (Minecraft version library, normally)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L132[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LibraryPtr.adoc[LibraryPtr] mainJar;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

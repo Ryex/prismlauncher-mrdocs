@@ -1,0 +1,18 @@
+[#ComponentUpdateTaskData-remoteLoadStatusList]
+= xref:ComponentUpdateTaskData.adoc[ComponentUpdateTaskData]::remoteLoadStatusList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask_p.h#L24[minecraft&sol;ComponentUpdateTask&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:RemoteLoadStatus.adoc[RemoteLoadStatus]&gt; remoteLoadStatusList;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

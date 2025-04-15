@@ -1,0 +1,19 @@
+[#MinecraftInstance-m_loader_mod_list]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::m&lowbar;loader&lowbar;mod&lowbar;list
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L168[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ModFolderModel.adoc[ModFolderModel]&gt; m&lowbar;loader&lowbar;mod&lowbar;list;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

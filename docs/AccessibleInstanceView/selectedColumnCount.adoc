@@ -1,0 +1,20 @@
+[#AccessibleInstanceView-selectedColumnCount]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::selectedColumnCount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L44[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+selectedColumnCount() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

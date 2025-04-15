@@ -1,0 +1,22 @@
+[#ExportPackDialog-2constructor]
+= xref:ExportPackDialog.adoc[ExportPackDialog]::ExportPackDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ExportPackDialog.h#L35[ui&sol;dialogs&sol;ExportPackDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ExportPackDialog(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QWidget.adoc[QWidget]* parent = nullptr,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceProvider.adoc[ResourceProvider] provider = ModPlatform&colon;&colon;ResourceProvider&colon;&colon;MODRINTH);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#DataMigrationTask-dryRunAborted]
+= xref:DataMigrationTask.adoc[DataMigrationTask]::dryRunAborted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/DataMigrationTask.h#L29[DataMigrationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+dryRunAborted();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

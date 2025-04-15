@@ -1,0 +1,25 @@
+[#s_packed_type_names]
+= s&lowbar;packed&lowbar;type&lowbar;names
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceParse.cpp#L33[minecraft&sol;mod&sol;tasks&sol;LocalResourceParse&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMap.adoc[QMap]&lt;xref:PackedResourceType.adoc[PackedResourceType], xref:QString.adoc[QString]&gt; const s&lowbar;packed&lowbar;type&lowbar;names = &lcub; &lcub; PackedResourceType&colon;&colon;ResourcePack, QObject&colon;&colon;tr(&quot;resource pack&quot;) &rcub;,
+                                                                       &lcub; PackedResourceType&colon;&colon;TexturePack, QObject&colon;&colon;tr(&quot;texture pack&quot;) &rcub;,
+                                                                       &lcub; PackedResourceType&colon;&colon;DataPack, QObject&colon;&colon;tr(&quot;data pack&quot;) &rcub;,
+                                                                       &lcub; PackedResourceType&colon;&colon;ShaderPack, QObject&colon;&colon;tr(&quot;shader pack&quot;) &rcub;,
+                                                                       &lcub; PackedResourceType&colon;&colon;WorldSave, QObject&colon;&colon;tr(&quot;world save&quot;) &rcub;,
+                                                                       &lcub; PackedResourceType&colon;&colon;Mod, QObject&colon;&colon;tr(&quot;mod&quot;) &rcub;,
+                                                                       &lcub; PackedResourceType&colon;&colon;UNKNOWN, QObject&colon;&colon;tr(&quot;unknown&quot;) &rcub; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

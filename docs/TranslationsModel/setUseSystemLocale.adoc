@@ -1,0 +1,19 @@
+[#TranslationsModel-setUseSystemLocale]
+= xref:TranslationsModel.adoc[TranslationsModel]::setUseSystemLocale
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.h#L41[translations&sol;TranslationsModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setUseSystemLocale(bool useSystemLocale);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

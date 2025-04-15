@@ -1,0 +1,20 @@
+[#World-isSymLink]
+= xref:World.adoc[World]::isSymLink
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L60[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+isSymLink() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

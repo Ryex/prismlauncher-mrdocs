@@ -1,0 +1,22 @@
+[#Ui-IconPickerDialog]
+= xref:Ui.adoc[Ui]::IconPickerDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/IconPickerDialog.h#L23[ui&sol;dialogs&sol;IconPickerDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class IconPickerDialog
+    : public xref:Ui_IconPickerDialog.adoc[Ui&lowbar;IconPickerDialog];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

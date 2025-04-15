@@ -1,0 +1,106 @@
+[#LogModel]
+= LogModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L7[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LogModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogModel/Roles.adoc[`Roles`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogModel/2constructor.adoc[`LogModel`]         [.small]#[constructor]#
+| 
+
+| xref:LogModel/append.adoc[`append`] 
+| 
+
+| xref:LogModel/clear.adoc[`clear`] 
+| 
+
+| xref:LogModel/data.adoc[`data`] 
+| 
+
+| xref:LogModel/getMaxLines.adoc[`getMaxLines`] 
+| 
+
+| xref:LogModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LogModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LogModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LogModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:LogModel/setLineWrap.adoc[`setLineWrap`] 
+| 
+
+| xref:LogModel/setMaxLines.adoc[`setMaxLines`] 
+| 
+
+| xref:LogModel/setOverflowMessage.adoc[`setOverflowMessage`] 
+| 
+
+| xref:LogModel/setStopOnOverflow.adoc[`setStopOnOverflow`] 
+| 
+
+| xref:LogModel/suspend.adoc[`suspend`] 
+| 
+
+| xref:LogModel/suspended.adoc[`suspended`] 
+| 
+
+| xref:LogModel/toPlainText.adoc[`toPlainText`] 
+| 
+
+| xref:LogModel/wrapLines.adoc[`wrapLines`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LogModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

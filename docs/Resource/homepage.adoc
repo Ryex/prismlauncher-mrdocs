@@ -1,0 +1,21 @@
+[#Resource-homepage]
+= xref:Resource.adoc[Resource]::homepage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L102[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+virtual
+xref:QString.adoc[QString]
+homepage() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

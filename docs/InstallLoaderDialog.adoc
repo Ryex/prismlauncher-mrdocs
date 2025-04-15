@@ -1,0 +1,83 @@
+[#InstallLoaderDialog]
+= InstallLoaderDialog
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/InstallLoaderDialog.h#L29[ui&sol;dialogs&sol;InstallLoaderDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InstallLoaderDialog
+    : public xref:QDialog.adoc[QDialog]
+    , protected xref:BasePageProvider.adoc[BasePageProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstallLoaderDialog/2constructor.adoc[`InstallLoaderDialog`]         [.small]#[constructor]#
+| 
+
+| xref:InstallLoaderDialog/dialogTitle.adoc[`dialogTitle`] 
+| 
+
+| xref:InstallLoaderDialog/done.adoc[`done`] 
+| 
+
+| xref:InstallLoaderDialog/getPages.adoc[`getPages`] 
+| 
+
+| xref:InstallLoaderDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:InstallLoaderDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:InstallLoaderDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:InstallLoaderDialog/validate.adoc[`validate`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstallLoaderDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstallLoaderDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePageProvider/dialogTitle.adoc[`dialogTitle`] 
+| 
+
+| xref:BasePageProvider/getPages.adoc[`getPages`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

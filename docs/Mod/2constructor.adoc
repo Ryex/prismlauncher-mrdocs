@@ -1,0 +1,34 @@
+[#Mod-2constructor]
+= xref:Mod.adoc[Mod]::Mod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L58[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Mod/2constructor-06.adoc[Mod]() = default;
+----
+
+[.small]#xref:Mod/2constructor-06.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Mod/2constructor-0a.adoc[Mod](xref:QFileInfo.adoc[QFileInfo] const& file);
+----
+
+[.small]#xref:Mod/2constructor-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Mod/2constructor-05.adoc[Mod](xref:QString.adoc[QString] file&lowbar;path);
+----
+
+[.small]#xref:Mod/2constructor-05.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

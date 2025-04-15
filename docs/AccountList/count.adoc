@@ -1,0 +1,19 @@
+[#AccountList-count]
+= xref:AccountList.adoc[AccountList]::count
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L69[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+count() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

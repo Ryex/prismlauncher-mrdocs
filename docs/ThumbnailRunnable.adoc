@@ -1,0 +1,49 @@
+[#ThumbnailRunnable]
+= ThumbnailRunnable
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L84[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ThumbnailRunnable
+    : public xref:QRunnable.adoc[QRunnable];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThumbnailRunnable/2constructor.adoc[`ThumbnailRunnable`]         [.small]#[constructor]#
+| 
+
+| xref:ThumbnailRunnable/run.adoc[`run`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThumbnailRunnable/m_cache.adoc[`m&lowbar;cache`] 
+| 
+
+| xref:ThumbnailRunnable/m_path.adoc[`m&lowbar;path`] 
+| 
+
+| xref:ThumbnailRunnable/m_resultEmitter.adoc[`m&lowbar;resultEmitter`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

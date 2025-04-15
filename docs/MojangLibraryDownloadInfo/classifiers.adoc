@@ -1,0 +1,18 @@
+[#MojangLibraryDownloadInfo-classifiers]
+= xref:MojangLibraryDownloadInfo.adoc[MojangLibraryDownloadInfo]::classifiers
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L40[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::xref:MojangDownloadInfo/Ptr.adoc[Ptr]&gt; classifiers;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Flame-FileResolvingTask-netJobFinished]
+= xref:Flame.adoc[Flame]::xref:Flame/FileResolvingTask.adoc[FileResolvingTask]::netJobFinished
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FileResolvingTask.h#L39[modplatform&sol;flame&sol;FileResolvingTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+netJobFinished();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

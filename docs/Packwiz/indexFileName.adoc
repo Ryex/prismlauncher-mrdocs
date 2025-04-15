@@ -1,0 +1,20 @@
+[#Packwiz-indexFileName]
+= xref:Packwiz.adoc[Packwiz]::indexFileName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.cpp#L63[modplatform&sol;packwiz&sol;Packwiz&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+indexFileName(xref:QString.adoc[QString] const& mod&lowbar;slug);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

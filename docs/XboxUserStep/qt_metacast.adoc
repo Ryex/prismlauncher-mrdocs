@@ -1,0 +1,20 @@
+[#XboxUserStep-qt_metacast]
+= xref:XboxUserStep.adoc[XboxUserStep]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxUserStep.h#L10[minecraft&sol;auth&sol;steps&sol;XboxUserStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

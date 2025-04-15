@@ -1,0 +1,18 @@
+[#SeparatorPrefixTree-2constructor-04]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::SeparatorPrefixTree
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L11[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+SeparatorPrefixTree(bool contained = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

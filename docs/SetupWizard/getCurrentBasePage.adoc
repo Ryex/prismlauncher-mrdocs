@@ -1,0 +1,19 @@
+[#SetupWizard-getCurrentBasePage]
+= xref:SetupWizard.adoc[SetupWizard]::getCurrentBasePage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/SetupWizard.h#L35[ui&sol;setupwizard&sol;SetupWizard&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:BaseWizardPage.adoc[BaseWizardPage]*
+getCurrentBasePage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

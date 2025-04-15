@@ -1,0 +1,23 @@
+[#timeToS3Time]
+= timeToS3Time
+:relfileprefix: 
+:mrdocs:
+
+
+take a timestamp and convert it into an S3 timestamp
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ParseUtils.h#L9[minecraft&sol;ParseUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+timeToS3Time(xref:QDateTime.adoc[QDateTime] time);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

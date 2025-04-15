@@ -1,0 +1,19 @@
+[#Usable-2destructor]
+= xref:Usable.adoc[Usable]::&tilde;Usable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Usable.h#L19[Usable&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;Usable();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

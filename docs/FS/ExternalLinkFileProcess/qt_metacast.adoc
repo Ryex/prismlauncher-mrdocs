@@ -1,0 +1,20 @@
+[#FS-ExternalLinkFileProcess-qt_metacast]
+= xref:FS.adoc[FS]::xref:FS/ExternalLinkFileProcess.adoc[ExternalLinkFileProcess]::qt&lowbar;metacast
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L172[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,29 @@
+[#PackProfile-MoveDirection]
+= xref:PackProfile.adoc[PackProfile]::MoveDirection
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L103[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum MoveDirection;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`MoveUp`
+|
+|`MoveDown`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Server-m_currentPlayers]
+= xref:Server.adoc[Server]::m&lowbar;currentPlayers
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L117[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;int&gt; m&lowbar;currentPlayers;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

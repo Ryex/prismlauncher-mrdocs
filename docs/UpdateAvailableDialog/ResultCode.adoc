@@ -1,0 +1,31 @@
+[#UpdateAvailableDialog-ResultCode]
+= xref:UpdateAvailableDialog.adoc[UpdateAvailableDialog]::ResultCode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/UpdateAvailableDialog.h#L34[ui&sol;dialogs&sol;UpdateAvailableDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ResultCode;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Install`
+|
+|`DontInstall`
+|
+|`Skip`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

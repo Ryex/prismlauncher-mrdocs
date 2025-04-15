@@ -1,0 +1,19 @@
+[#Mod-destroyMetadata]
+= xref:Mod.adoc[Mod]::destroyMetadata
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L93[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+destroyMetadata(xref:QDir.adoc[QDir]& index&lowbar;dir);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

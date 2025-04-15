@@ -1,0 +1,38 @@
+[#Setting-SettingChanged]
+= xref:Setting.adoc[Setting]::SettingChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+Signal emitted when this Setting object&apos;s value changes&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L80[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+SettingChanged(
+    xref:Setting.adoc[Setting] const& setting,
+    xref:QVariant.adoc[QVariant] value);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *setting*
+| A reference to the Setting that changed&period;
+
+
+| *value*
+| This Setting object&apos;s new value&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#FMLLibrariesTask-canAbort]
+= xref:FMLLibrariesTask.adoc[FMLLibrariesTask]::canAbort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/update/FMLLibrariesTask.h#L16[minecraft&sol;update&sol;FMLLibrariesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+canAbort() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

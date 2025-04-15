@@ -1,0 +1,18 @@
+[#AccountData-mojangservicesToken]
+= xref:AccountData.adoc[AccountData]::mojangservicesToken
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L116[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Token.adoc[Token] mojangservicesToken;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,26 @@
+[#BaseInstance-verboseDescription]
+= xref:BaseInstance.adoc[BaseInstance]::verboseDescription
+:relfileprefix: ../
+:mrdocs:
+
+
+&apos;print&apos; a verbose description of the instance into a QStringList
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L262[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+verboseDescription(
+    xref:AuthSessionPtr.adoc[AuthSessionPtr] session,
+    xref:MinecraftTarget.adoc[MinecraftTarget]::xref:MinecraftTarget/Ptr.adoc[Ptr] targetToJoin) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

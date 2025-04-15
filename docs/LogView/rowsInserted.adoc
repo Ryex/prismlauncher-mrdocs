@@ -1,0 +1,22 @@
+[#LogView-rowsInserted]
+= xref:LogView.adoc[LogView]::rowsInserted
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L24[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+rowsInserted(
+    xref:QModelIndex.adoc[QModelIndex] const& parent,
+    int first,
+    int last);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

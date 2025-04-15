@@ -1,0 +1,19 @@
+[#MaxMclogsLines]
+= MaxMclogsLines
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.cpp#L54[ui&sol;GuiUtil&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+int const MaxMclogsLines = 25000;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ModFilterWidget-filterChanged]
+= xref:ModFilterWidget.adoc[ModFilterWidget]::filterChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L93[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+filterChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

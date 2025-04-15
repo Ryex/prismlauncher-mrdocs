@@ -1,0 +1,24 @@
+[#GuiUtil-BrowseForFile]
+= xref:GuiUtil.adoc[GuiUtil]::BrowseForFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.h#L10[ui&sol;GuiUtil&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+BrowseForFile(
+    xref:QString.adoc[QString] context,
+    xref:QString.adoc[QString] caption,
+    xref:QString.adoc[QString] filter,
+    xref:QString.adoc[QString] defaultPath,
+    xref:QWidget.adoc[QWidget]* parentWidget);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

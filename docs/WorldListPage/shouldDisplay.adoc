@@ -1,0 +1,20 @@
+[#WorldListPage-shouldDisplay]
+= xref:WorldListPage.adoc[WorldListPage]::shouldDisplay
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/WorldListPage.h#L63[ui&sol;pages&sol;instance&sol;WorldListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+shouldDisplay() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

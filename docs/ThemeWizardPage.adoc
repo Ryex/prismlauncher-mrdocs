@@ -1,0 +1,85 @@
+[#ThemeWizardPage]
+= ThemeWizardPage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/ThemeWizardPage.h#L27[ui&sol;setupwizard&sol;ThemeWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ThemeWizardPage
+    : public xref:BaseWizardPage.adoc[BaseWizardPage];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeWizardPage/2constructor.adoc[`ThemeWizardPage`]         [.small]#[constructor]#
+| 
+
+| xref:ThemeWizardPage/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ThemeWizardPage/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ThemeWizardPage/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:BaseWizardPage/refresh.adoc[`refresh`] 
+| 
+
+| xref:ThemeWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:ThemeWizardPage/validatePage.adoc[`validatePage`] 
+| 
+
+| xref:BaseWizardPage/wantsRefreshButton.adoc[`wantsRefreshButton`] 
+| 
+
+| xref:ThemeWizardPage/2destructor.adoc[`&tilde;ThemeWizardPage`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeWizardPage/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeWizardPage/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseWizardPage/changeEvent.adoc[`changeEvent`] 
+| 
+
+| xref:BaseWizardPage/retranslate.adoc[`retranslate`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

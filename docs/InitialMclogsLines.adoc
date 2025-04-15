@@ -1,0 +1,19 @@
+[#InitialMclogsLines]
+= InitialMclogsLines
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.cpp#L55[ui&sol;GuiUtil&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+int const InitialMclogsLines = 10000;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

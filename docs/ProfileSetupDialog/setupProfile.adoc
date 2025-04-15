@@ -1,0 +1,19 @@
+[#ProfileSetupDialog-setupProfile]
+= xref:ProfileSetupDialog.adoc[ProfileSetupDialog]::setupProfile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.h#L55[ui&sol;dialogs&sol;ProfileSetupDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setupProfile(xref:QString.adoc[QString] const& profileName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

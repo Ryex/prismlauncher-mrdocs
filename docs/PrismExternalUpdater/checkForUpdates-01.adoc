@@ -1,0 +1,24 @@
+[#PrismExternalUpdater-checkForUpdates-01]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::checkForUpdates
+:relfileprefix: ../
+:mrdocs:
+
+
+Check for updates manually, showing the user a progress bar and an alert if no updates are found&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L43[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+checkForUpdates() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

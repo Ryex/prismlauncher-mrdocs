@@ -1,0 +1,19 @@
+[#LoggedProcess-setDetachable]
+= xref:LoggedProcess.adoc[LoggedProcess]::setDetachable
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L58[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setDetachable(bool detachable);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

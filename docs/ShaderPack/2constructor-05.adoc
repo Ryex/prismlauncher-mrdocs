@@ -1,0 +1,18 @@
+[#ShaderPack-2constructor-05]
+= xref:ShaderPack.adoc[ShaderPack]::ShaderPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPack.h#L51[minecraft&sol;mod&sol;ShaderPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ShaderPack(xref:QFileInfo.adoc[QFileInfo] file&lowbar;info);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

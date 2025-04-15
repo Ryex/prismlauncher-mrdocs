@@ -1,0 +1,23 @@
+[#PackProfile-installCustomJar]
+= xref:PackProfile.adoc[PackProfile]::installCustomJar
+:relfileprefix: ../
+:mrdocs:
+
+
+install a jar&sol;zip as a replacement for the main jar
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L95[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+installCustomJar(xref:QString.adoc[QString] selectedFile);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

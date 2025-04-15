@@ -1,0 +1,19 @@
+[#EnvironmentVariables-2constructor]
+= xref:EnvironmentVariables.adoc[EnvironmentVariables]::EnvironmentVariables
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/EnvironmentVariables.h#L32[ui&sol;widgets&sol;EnvironmentVariables&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+EnvironmentVariables(xref:QWidget.adoc[QWidget]* state = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,37 @@
+[#ResourceFolderModel-Columns]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::Columns
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L140[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Columns;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ActiveColumn`
+|
+|`NameColumn`
+|
+|`DateColumn`
+|
+|`ProviderColumn`
+|
+|`SizeColumn`
+|
+|`NUM&lowbar;COLUMNS`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

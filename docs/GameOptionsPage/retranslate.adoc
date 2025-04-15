@@ -1,0 +1,20 @@
+[#GameOptionsPage-retranslate]
+= xref:GameOptionsPage.adoc[GameOptionsPage]::retranslate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/GameOptionsPage.h#L65[ui&sol;pages&sol;instance&sol;GameOptionsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+retranslate() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

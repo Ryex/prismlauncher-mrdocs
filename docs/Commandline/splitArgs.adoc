@@ -1,0 +1,38 @@
+[#Commandline-splitArgs]
+= xref:Commandline.adoc[Commandline]::splitArgs
+:relfileprefix: ../
+:mrdocs:
+
+
+split a string into argv items like a shell would do
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Commandline.h#L35[Commandline&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+splitArgs(xref:QString.adoc[QString] args);
+----
+
+== Return Value
+
+a QStringList containing all arguments
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *args*
+| the argument string
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

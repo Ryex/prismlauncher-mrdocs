@@ -1,0 +1,23 @@
+[#QHBoxLayout]
+= QHBoxLayout
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L15[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class QHBoxLayout
+    : public xref:QBoxLayout.adoc[QBoxLayout]
+    , public xref:QBoxLayout.adoc[QBoxLayout];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

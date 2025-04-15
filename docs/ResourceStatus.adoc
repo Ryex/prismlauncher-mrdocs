@@ -1,0 +1,33 @@
+[#ResourceStatus]
+= ResourceStatus
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L54[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ResourceStatus : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`INSTALLED`
+|
+|`NOT&lowbar;INSTALLED`
+|
+|`NO&lowbar;METADATA`
+|
+|`UNKNOWN`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

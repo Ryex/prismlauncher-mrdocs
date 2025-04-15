@@ -1,0 +1,20 @@
+[#getIdMapping]
+= getIdMapping
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.cpp#L414[InstanceList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMap.adoc[QMap]&lt;xref:InstanceId.adoc[InstanceId], xref:InstanceLocator.adoc[InstanceLocator]&gt;
+getIdMapping(xref:QList.adoc[QList]&lt;xref:InstancePtr.adoc[InstancePtr]&gt; const& list);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

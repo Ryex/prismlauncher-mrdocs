@@ -1,0 +1,21 @@
+[#Application-ShowGlobalSettings]
+= xref:Application.adoc[Application]::ShowGlobalSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L190[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+ShowGlobalSettings(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] open&lowbar;page = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

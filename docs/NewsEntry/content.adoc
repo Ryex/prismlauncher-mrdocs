@@ -1,0 +1,22 @@
+[#NewsEntry-content]
+= xref:NewsEntry.adoc[NewsEntry]::content
+:relfileprefix: ../
+:mrdocs:
+
+
+The post&apos;s content&period; May contain HTML&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsEntry.h#L48[news&sol;NewsEntry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] content;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#MSALoginDialog-newAccount]
+= xref:MSALoginDialog.adoc[MSALoginDialog]::newAccount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/MSALoginDialog.h#L34[ui&sol;dialogs&sol;MSALoginDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr]
+newAccount(xref:QWidget.adoc[QWidget]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

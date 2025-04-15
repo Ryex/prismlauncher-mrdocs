@@ -1,0 +1,23 @@
+[#InstallJavaPage-2constructor]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::InstallJavaPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L50[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+InstallJavaPage(
+    xref:QString.adoc[QString] const& id,
+    xref:QString.adoc[QString] const& iconName,
+    xref:QString.adoc[QString] const& name,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

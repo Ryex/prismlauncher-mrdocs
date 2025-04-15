@@ -1,0 +1,30 @@
+[#Setting-configKeys]
+= xref:Setting.adoc[Setting]::configKeys
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets this setting&apos;s config file key&period;
+This is used to store the setting&apos;s value in the config file&period; It is usually
+the same as the setting&apos;s ID, but it can be different&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L57[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QStringList.adoc[QStringList]
+configKeys() const;
+----
+
+== Return Value
+
+The setting&apos;s config file key&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

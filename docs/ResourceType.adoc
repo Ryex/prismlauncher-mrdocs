@@ -1,0 +1,45 @@
+[#ResourceType]
+= ResourceType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L46[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ResourceType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`UNKNOWN`
+|Indicates an unspecified resource type&amp;period&semi;
+
+
+|`ZIPFILE`
+|The resource is a zip file containing the resource&amp;apos&semi;s class files&amp;period&semi;
+
+
+|`SINGLEFILE`
+|The resource is a single file (not a zip file)&amp;period&semi;
+
+
+|`FOLDER`
+|The resource is in a folder on the filesystem&amp;period&semi;
+
+
+|`LITEMOD`
+|The resource is a litemod
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

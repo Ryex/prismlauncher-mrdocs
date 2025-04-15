@@ -1,0 +1,22 @@
+[#loadManifestV1]
+= loadManifestV1
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.cpp#L32[modplatform&sol;flame&sol;PackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadManifestV1(
+    xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]& pack,
+    xref:QJsonObject.adoc[QJsonObject]& manifest);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

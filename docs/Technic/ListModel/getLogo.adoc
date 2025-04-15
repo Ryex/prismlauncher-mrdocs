@@ -1,0 +1,22 @@
+[#Technic-ListModel-getLogo]
+= xref:Technic.adoc[Technic]::xref:Technic/ListModel.adoc[ListModel]::getLogo
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/technic/TechnicModel.h#L58[ui&sol;pages&sol;modplatform&sol;technic&sol;TechnicModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+getLogo(
+    xref:QString.adoc[QString] const& logo,
+    xref:QString.adoc[QString] const& logoUrl,
+    xref:Technic/LogoCallback.adoc[LogoCallback] callback);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

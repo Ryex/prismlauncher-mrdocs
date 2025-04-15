@@ -1,0 +1,19 @@
+[#Server-serialize]
+= xref:Server.adoc[Server]::serialize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L93[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+serialize(xref:nbt.adoc[nbt]::xref:nbt/tag_compound.adoc[tag&lowbar;compound]& server);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

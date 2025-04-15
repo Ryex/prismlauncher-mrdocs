@@ -1,0 +1,63 @@
+[#CheckUpdateTask-Update]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::Update
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L27[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Update;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckUpdateTask/Update/2constructor.adoc[`Update`]         [.small]#[constructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CheckUpdateTask/Update/changelog.adoc[`changelog`] 
+| 
+
+| xref:CheckUpdateTask/Update/download.adoc[`download`] 
+| 
+
+| xref:CheckUpdateTask/Update/enabled.adoc[`enabled`] 
+| 
+
+| xref:CheckUpdateTask/Update/name.adoc[`name`] 
+| 
+
+| xref:CheckUpdateTask/Update/new_version.adoc[`new&lowbar;version`] 
+| 
+
+| xref:CheckUpdateTask/Update/new_version_type.adoc[`new&lowbar;version&lowbar;type`] 
+| 
+
+| xref:CheckUpdateTask/Update/old_hash.adoc[`old&lowbar;hash`] 
+| 
+
+| xref:CheckUpdateTask/Update/old_version.adoc[`old&lowbar;version`] 
+| 
+
+| xref:CheckUpdateTask/Update/provider.adoc[`provider`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

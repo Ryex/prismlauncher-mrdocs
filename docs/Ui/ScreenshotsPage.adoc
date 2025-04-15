@@ -1,0 +1,22 @@
+[#Ui-ScreenshotsPage]
+= xref:Ui.adoc[Ui]::ScreenshotsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.h#L49[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ScreenshotsPage
+    : public xref:Ui_ScreenshotsPage.adoc[Ui&lowbar;ScreenshotsPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

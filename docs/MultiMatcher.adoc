@@ -1,0 +1,57 @@
+[#MultiMatcher]
+= MultiMatcher
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/MultiMatcher.h#L7[pathmatcher&sol;MultiMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class MultiMatcher
+    : public xref:IPathMatcher.adoc[IPathMatcher];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IPathMatcher/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MultiMatcher/2constructor.adoc[`MultiMatcher`]         [.small]#[constructor]#
+| 
+
+| xref:MultiMatcher/add.adoc[`add`] 
+| 
+
+| xref:IPathMatcher/matches.adoc[`matches`] 
+| 
+| xref:MultiMatcher/2destructor.adoc[`&tilde;MultiMatcher`] [.small]#[destructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MultiMatcher/m_matchers.adoc[`m&lowbar;matchers`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

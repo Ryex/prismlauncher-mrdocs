@@ -1,0 +1,18 @@
+[#00namespace-MojangError-fullyParsed]
+= xref:00namespace/MojangError.adoc[MojangError]::fullyParsed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.cpp#L246[ui&sol;dialogs&sol;ProfileSetupDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool fullyParsed;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

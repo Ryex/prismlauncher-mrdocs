@@ -1,0 +1,23 @@
+[#ModFilterWidget-create]
+= xref:ModFilterWidget.adoc[ModFilterWidget]::create
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L86[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:unique_qobject_ptr.adoc[unique&lowbar;qobject&lowbar;ptr]&lt;xref:ModFilterWidget.adoc[ModFilterWidget]&gt;
+create(
+    xref:MinecraftInstance.adoc[MinecraftInstance]* instance,
+    bool extended,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

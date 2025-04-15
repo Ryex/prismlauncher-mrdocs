@@ -1,0 +1,18 @@
+[#LogView-m_defaultFormat]
+= xref:LogView.adoc[LogView]::m&lowbar;defaultFormat
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L32[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QTextCharFormat.adoc[QTextCharFormat]* m&lowbar;defaultFormat = nullptr;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

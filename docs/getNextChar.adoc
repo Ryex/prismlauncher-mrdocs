@@ -1,0 +1,26 @@
+[#getNextChar]
+= getNextChar
+:relfileprefix: 
+:mrdocs:
+
+
+TAKEN FROM Qt, because it doesn&apos;t expose it intelligently
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.cpp#L47[StringUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QChar.adoc[QChar]
+getNextChar(
+    xref:QString.adoc[QString] const& s,
+    int location);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

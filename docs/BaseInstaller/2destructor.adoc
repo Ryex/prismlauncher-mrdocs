@@ -1,0 +1,19 @@
+[#BaseInstaller-2destructor]
+= xref:BaseInstaller.adoc[BaseInstaller]::&tilde;BaseInstaller
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstaller.h#L32[BaseInstaller&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;BaseInstaller();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

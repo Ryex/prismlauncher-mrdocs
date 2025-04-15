@@ -1,0 +1,19 @@
+[#LegacyFTB-FilterModel-setSearchTerm]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/FilterModel.adoc[FilterModel]::setSearchTerm
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L28[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setSearchTerm(xref:QString.adoc[QString] term);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

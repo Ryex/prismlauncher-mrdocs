@@ -1,0 +1,21 @@
+[#ThemeManager-setApplicationTheme]
+= xref:ThemeManager.adoc[ThemeManager]::setApplicationTheme
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L52[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setApplicationTheme(
+    xref:QString.adoc[QString] const& name,
+    bool initial = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,67 @@
+[#FilterModel]
+= FilterModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L130[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FilterModel
+    : public xref:QIdentityProxyModel.adoc[QIdentityProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FilterModel/2constructor.adoc[`FilterModel`]         [.small]#[constructor]#
+| 
+
+| xref:FilterModel/data.adoc[`data`] 
+| 
+
+| xref:FilterModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FilterModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FilterModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FilterModel/setData.adoc[`setData`] 
+| 
+
+| xref:FilterModel/2destructor.adoc[`&tilde;FilterModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FilterModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FilterModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

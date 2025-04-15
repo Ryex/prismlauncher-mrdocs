@@ -1,0 +1,20 @@
+[#componentToJsonV1]
+= componentToJsonV1
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.cpp#L94[minecraft&sol;PackProfile&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QJsonObject.adoc[QJsonObject]
+componentToJsonV1(xref:ComponentPtr.adoc[ComponentPtr] component);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

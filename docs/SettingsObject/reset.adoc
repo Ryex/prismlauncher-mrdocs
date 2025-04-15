@@ -1,0 +1,32 @@
+[#SettingsObject-reset]
+= xref:SettingsObject.adoc[SettingsObject]::reset
+:relfileprefix: ../
+:mrdocs:
+
+
+Reverts the setting with the given ID to default&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L127[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+reset(xref:QString.adoc[QString] const& id) const;
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *id*
+| The ID of the setting to reset&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

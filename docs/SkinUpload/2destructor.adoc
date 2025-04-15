@@ -1,0 +1,19 @@
+[#SkinUpload-2destructor]
+= xref:SkinUpload.adoc[SkinUpload]::&tilde;SkinUpload
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinUpload.h#L30[minecraft&sol;skins&sol;SkinUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;SkinUpload() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

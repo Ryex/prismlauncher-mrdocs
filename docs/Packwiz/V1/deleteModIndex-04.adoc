@@ -1,0 +1,22 @@
+[#Packwiz-V1-deleteModIndex-04]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::deleteModIndex
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L92[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+deleteModIndex(
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:QVariant.adoc[QVariant]& mod&lowbar;id);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

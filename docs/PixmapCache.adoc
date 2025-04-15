@@ -1,0 +1,95 @@
+[#PixmapCache]
+= PixmapCache
+:relfileprefix: 
+:mrdocs:
+
+
+A wrapper around QPixmapCache with thread affinity with the main thread&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L45[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PixmapCache
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PixmapCache/2constructor.adoc[`PixmapCache`]         [.small]#[constructor]#
+| 
+
+| xref:PixmapCache/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:PixmapCache/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:PixmapCache/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:PixmapCache/2destructor.adoc[`&tilde;PixmapCache`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PixmapCache/cacheLimit.adoc[`cacheLimit`] 
+| 
+
+| xref:PixmapCache/clear.adoc[`clear`] 
+| 
+
+| xref:PixmapCache/find.adoc[`find`] 
+| 
+| xref:PixmapCache/insert.adoc[`insert`] 
+| 
+| xref:PixmapCache/instance.adoc[`instance`] 
+| 
+
+| xref:PixmapCache/markCacheMissByEviciton.adoc[`markCacheMissByEviciton`] 
+| 
+
+| xref:PixmapCache/remove.adoc[`remove`] 
+| 
+| xref:PixmapCache/replace.adoc[`replace`] 
+| 
+
+| xref:PixmapCache/setCacheLimit.adoc[`setCacheLimit`] 
+| 
+
+| xref:PixmapCache/setFastEvictionThreshold.adoc[`setFastEvictionThreshold`] 
+| 
+
+| xref:PixmapCache/setInstance.adoc[`setInstance`] 
+| 
+
+| xref:PixmapCache/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PixmapCache/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LegacyFTB-ListModel-addPack]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/ListModel.adoc[ListModel]::addPack
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L65[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addPack(xref:LegacyFTB/Modpack.adoc[Modpack] const& modpack);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

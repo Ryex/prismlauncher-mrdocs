@@ -1,0 +1,22 @@
+[#ResourcePackUtils-processComponent-0f7a]
+= xref:ResourcePackUtils.adoc[ResourcePackUtils]::processComponent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourcePackParseTask.h#L28[minecraft&sol;mod&sol;tasks&sol;LocalResourcePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+processComponent(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    bool strikethrough = false,
+    bool underline = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

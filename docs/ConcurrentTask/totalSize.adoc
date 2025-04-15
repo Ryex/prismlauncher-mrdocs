@@ -1,0 +1,20 @@
+[#ConcurrentTask-totalSize]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::totalSize
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L91[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+unsigned int
+totalSize() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,41 @@
+[#ResourceFolderModel-startWatching]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::startWatching
+:relfileprefix: ../
+:mrdocs:
+
+
+Starts watching the paths for changes&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L74[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+xref:ResourceFolderModel/startWatching-04.adoc[startWatching](xref:QStringList.adoc[QStringList] const& paths);
+----
+
+[.small]#xref:ResourceFolderModel/startWatching-04.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+xref:ResourceFolderModel/startWatching-03.adoc[startWatching]();
+----
+
+[.small]#xref:ResourceFolderModel/startWatching-03.adoc[_» more..._]#
+
+== Description
+
+Returns whether starting to watch all the paths was successful&period;
+If one or more fails, it returns false&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

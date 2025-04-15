@@ -1,0 +1,22 @@
+[#Ui-OtherLogsPage]
+= xref:Ui.adoc[Ui]::OtherLogsPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/OtherLogsPage.h#L45[ui&sol;pages&sol;instance&sol;OtherLogsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class OtherLogsPage
+    : public xref:Ui_OtherLogsPage.adoc[Ui&lowbar;OtherLogsPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#Component-m_cachedConflicts]
+= xref:Component.adoc[Component]::m&lowbar;cachedConflicts
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L137[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta.adoc[Meta]::xref:Meta/RequireSet.adoc[RequireSet] m&lowbar;cachedConflicts;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

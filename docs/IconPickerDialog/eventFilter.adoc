@@ -1,0 +1,22 @@
+[#IconPickerDialog-eventFilter]
+= xref:IconPickerDialog.adoc[IconPickerDialog]::eventFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/IconPickerDialog.h#L36[ui&sol;dialogs&sol;IconPickerDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+eventFilter(
+    xref:QObject.adoc[QObject]*,
+    xref:QEvent.adoc[QEvent]*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

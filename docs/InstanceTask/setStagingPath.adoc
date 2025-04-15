@@ -1,0 +1,19 @@
+[#InstanceTask-setStagingPath]
+= xref:InstanceTask.adoc[InstanceTask]::setStagingPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L40[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setStagingPath(xref:QString.adoc[QString] const& stagingPath);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

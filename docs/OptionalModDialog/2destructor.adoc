@@ -1,0 +1,19 @@
+[#OptionalModDialog-2destructor]
+= xref:OptionalModDialog.adoc[OptionalModDialog]::&tilde;OptionalModDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/OptionalModDialog.h#L33[ui&sol;pages&sol;modplatform&sol;OptionalModDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;OptionalModDialog() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

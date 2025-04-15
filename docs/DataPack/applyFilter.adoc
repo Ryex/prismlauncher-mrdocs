@@ -1,0 +1,21 @@
+[#DataPack-applyFilter]
+= xref:DataPack.adoc[DataPack]::applyFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L58[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+applyFilter(xref:QRegularExpression.adoc[QRegularExpression] filter) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

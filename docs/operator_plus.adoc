@@ -1,0 +1,123 @@
+[#operator_plus]
+= operator&plus;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L115[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-0b.adoc[operator&plus;](
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-06.adoc[operator&plus;](
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    xref:QFlags-09.adoc[QFlags]&lt;xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type]&gt; f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-06.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-02.adoc[operator&plus;](
+    int f1,
+    xref:QFlags-09.adoc[QFlags]&lt;xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type]&gt; f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-02.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-00e.adoc[operator&plus;](
+    int f1,
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-00e.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-09.adoc[operator&plus;](
+    xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::xref:Net/NetRequest/Options.adoc[Options]::xref:QFlags-03/enum_type.adoc[enum&lowbar;type] f1,
+    int f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-09.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-0a.adoc[operator&plus;](
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-0a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-01.adoc[operator&plus;](
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    xref:QFlags-09.adoc[QFlags]&lt;xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type]&gt; f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-01.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-0d0.adoc[operator&plus;](
+    int f1,
+    xref:QFlags-09.adoc[QFlags]&lt;xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type]&gt; f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-0d0.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-00b.adoc[operator&plus;](
+    int f1,
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-00b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+constexpr
+void
+xref:operator_plus-0d5.adoc[operator&plus;](
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    int f2) noexcept = delete;
+----
+
+[.small]#xref:operator_plus-0d5.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

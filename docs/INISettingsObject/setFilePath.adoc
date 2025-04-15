@@ -1,0 +1,33 @@
+[#INISettingsObject-setFilePath]
+= xref:INISettingsObject.adoc[INISettingsObject]::setFilePath
+:relfileprefix: ../
+:mrdocs:
+
+
+Sets the path to the INI file and reloads it&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INISettingsObject.h#L45[settings&sol;INISettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setFilePath(xref:QString.adoc[QString] const& filePath);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *filePath*
+| The INI file&apos;s new path&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

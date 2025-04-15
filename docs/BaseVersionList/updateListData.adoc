@@ -1,0 +1,43 @@
+[#BaseVersionList-updateListData]
+= xref:BaseVersionList.adoc[BaseVersionList]::updateListData
+:relfileprefix: ../
+:mrdocs:
+
+
+Updates this list with the given list of versions&period;
+This is done by copying each version in the given list and inserting it
+into this one&period;
+We need to do this so that we can set the parents of the versions are set to this
+version list&period; This can&apos;t be done in the load task, because the versions the load
+task creates are on the load task&apos;s thread and Qt won&apos;t allow their parents
+to be set to something created on another thread&period;
+To get around that problem, we invoke this method on the GUI thread, which
+then copies the versions and sets their parents correctly&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L119[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateListData(xref:QList.adoc[QList]&lt;xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]&gt; versions) = 0;
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *versions*
+| List of versions whose parents should be set&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

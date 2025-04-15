@@ -1,0 +1,18 @@
+[#ModPlatform-Dependency-type]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/Dependency.adoc[Dependency]::type
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L90[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform/DependencyType.adoc[DependencyType] type;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

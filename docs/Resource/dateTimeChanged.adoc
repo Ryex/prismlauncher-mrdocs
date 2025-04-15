@@ -1,0 +1,20 @@
+[#Resource-dateTimeChanged]
+= xref:Resource.adoc[Resource]::dateTimeChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L87[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard, nodiscard]
+xref:QDateTime.adoc[QDateTime]
+dateTimeChanged() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Meta-Index-loadVersion]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::loadVersion
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L51[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+loadVersion(
+    xref:QString.adoc[QString] const& uid,
+    xref:QString.adoc[QString] const& version = &equals; &lcub;&rcub;,
+    xref:Net.adoc[Net]::xref:Net/Mode.adoc[Mode] mode = Net&colon;&colon;Mode&colon;&colon;Online,
+    bool force = false);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

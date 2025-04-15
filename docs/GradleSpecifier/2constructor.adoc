@@ -1,0 +1,27 @@
+[#GradleSpecifier-2constructor]
+= xref:GradleSpecifier.adoc[GradleSpecifier]::GradleSpecifier
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L44[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:GradleSpecifier/2constructor-0f.adoc[GradleSpecifier]();
+----
+
+[.small]#xref:GradleSpecifier/2constructor-0f.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:GradleSpecifier/2constructor-0a.adoc[GradleSpecifier](xref:QString.adoc[QString] value);
+----
+
+[.small]#xref:GradleSpecifier/2constructor-0a.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

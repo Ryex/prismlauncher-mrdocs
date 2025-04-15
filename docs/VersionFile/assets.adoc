@@ -1,0 +1,22 @@
+[#VersionFile-assets]
+= xref:VersionFile.adoc[VersionFile]::assets
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; DEPRECATED asset group to be used with Minecraft
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L117[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] assets;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

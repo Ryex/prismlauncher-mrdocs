@@ -1,0 +1,21 @@
+[#FS-statFS]
+= xref:FS.adoc[FS]::statFS
+:relfileprefix: ../
+:mrdocs:
+
+
+colect information about the filesystem under a file
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L461[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:FS/FilesystemInfo.adoc[FilesystemInfo]
+statFS(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

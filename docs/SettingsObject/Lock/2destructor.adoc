@@ -1,0 +1,18 @@
+[#SettingsObject-Lock-2destructor]
+= xref:SettingsObject.adoc[SettingsObject]::xref:SettingsObject/Lock.adoc[Lock]::&tilde;Lock
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L50[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+&tilde;Lock();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

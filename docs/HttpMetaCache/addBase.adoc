@@ -1,0 +1,21 @@
+[#HttpMetaCache-addBase]
+= xref:HttpMetaCache.adoc[HttpMetaCache]::addBase
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L118[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addBase(
+    xref:QString.adoc[QString] base,
+    xref:QString.adoc[QString] base&lowbar;root);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

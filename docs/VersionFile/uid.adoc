@@ -1,0 +1,22 @@
+[#VersionFile-uid]
+= xref:VersionFile.adoc[VersionFile]::uid
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; package ID of this package
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L75[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] uid;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

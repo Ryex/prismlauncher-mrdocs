@@ -1,0 +1,25 @@
+[#Component-KNOWN_MODLOADERS]
+= xref:Component.adoc[Component]::KNOWN&lowbar;MODLOADERS
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L62[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:ModloaderMapEntry.adoc[ModloaderMapEntry]&gt; const KNOWN&lowbar;MODLOADERS = &lcub;
+    &lcub; &quot;net&period;neoforged&quot;, &lcub; ModPlatform&colon;&colon;NeoForge, &lcub; &quot;net&period;minecraftforge&quot;, &quot;net&period;fabricmc&period;fabric&hyphen;loader&quot;, &quot;org&period;quiltmc&period;quilt&hyphen;loader&quot; &rcub; &rcub; &rcub;,
+    &lcub; &quot;net&period;minecraftforge&quot;, &lcub; ModPlatform&colon;&colon;Forge, &lcub; &quot;net&period;neoforged&quot;, &quot;net&period;fabricmc&period;fabric&hyphen;loader&quot;, &quot;org&period;quiltmc&period;quilt&hyphen;loader&quot; &rcub; &rcub; &rcub;,
+    &lcub; &quot;net&period;fabricmc&period;fabric&hyphen;loader&quot;, &lcub; ModPlatform&colon;&colon;Fabric, &lcub; &quot;net&period;minecraftforge&quot;, &quot;net&period;neoforged&quot;, &quot;org&period;quiltmc&period;quilt&hyphen;loader&quot; &rcub; &rcub; &rcub;,
+    &lcub; &quot;org&period;quiltmc&period;quilt&hyphen;loader&quot;, &lcub; ModPlatform&colon;&colon;Quilt, &lcub; &quot;net&period;minecraftforge&quot;, &quot;net&period;neoforged&quot;, &quot;net&period;fabricmc&period;fabric&hyphen;loader&quot; &rcub; &rcub; &rcub;,
+    &lcub; &quot;com&period;mumfrey&period;liteloader&quot;, &lcub; ModPlatform&colon;&colon;LiteLoader, &lcub;&rcub; &rcub; &rcub;
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

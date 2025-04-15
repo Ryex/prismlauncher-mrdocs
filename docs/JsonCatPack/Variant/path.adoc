@@ -1,0 +1,18 @@
+[#JsonCatPack-Variant-path]
+= xref:JsonCatPack.adoc[JsonCatPack]::xref:JsonCatPack/Variant.adoc[Variant]::path
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L81[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] path;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

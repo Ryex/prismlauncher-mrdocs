@@ -1,0 +1,18 @@
+[#Flame-Manifest-minecraft]
+= xref:Flame.adoc[Flame]::xref:Flame/Manifest.adoc[Manifest]::minecraft
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L75[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Flame.adoc[Flame]::xref:Flame/Minecraft.adoc[Minecraft] minecraft;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

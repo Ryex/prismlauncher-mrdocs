@@ -1,0 +1,19 @@
+[#ReviewMessageBox-retranslateUi]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::retranslateUi
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L29[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+retranslateUi(xref:QString.adoc[QString] resources&lowbar;name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

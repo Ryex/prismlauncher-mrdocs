@@ -1,0 +1,18 @@
+[#ImportResourceDialog-selectedInstanceKey]
+= xref:ImportResourceDialog.adoc[ImportResourceDialog]::selectedInstanceKey
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ImportResourceDialog.h#L19[ui&sol;dialogs&sol;ImportResourceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] selectedInstanceKey;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

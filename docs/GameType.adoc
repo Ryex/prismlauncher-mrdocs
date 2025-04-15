@@ -1,0 +1,56 @@
+[#GameType]
+= GameType
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L21[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct GameType;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameType/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameType/2constructor.adoc[`GameType`]         [.small]#[constructor]#
+| 
+| xref:GameType/toLogString.adoc[`toLogString`] 
+| 
+
+| xref:GameType/toTranslatedString.adoc[`toTranslatedString`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameType/original.adoc[`original`] 
+| 
+
+| xref:GameType/type.adoc[`type`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

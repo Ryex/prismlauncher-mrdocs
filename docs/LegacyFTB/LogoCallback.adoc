@@ -1,0 +1,18 @@
+[#LegacyFTB-LogoCallback]
+= xref:LegacyFTB.adoc[LegacyFTB]::LogoCallback
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L17[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using LogoCallback = xref:std.adoc[std]::xref:std/function.adoc[function]&lt;void(xref:QString.adoc[QString])&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

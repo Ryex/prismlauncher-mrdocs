@@ -1,0 +1,20 @@
+[#Technic-SingleZipPackInstallTask-abort]
+= xref:Technic.adoc[Technic]::xref:Technic/SingleZipPackInstallTask.adoc[SingleZipPackInstallTask]::abort
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/technic/SingleZipPackInstallTask.h#L38[modplatform&sol;technic&sol;SingleZipPackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+abort() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

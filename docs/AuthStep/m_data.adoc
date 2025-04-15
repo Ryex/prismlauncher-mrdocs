@@ -1,0 +1,18 @@
+[#AuthStep-m_data]
+= xref:AuthStep.adoc[AuthStep]::m&lowbar;data
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthStep.h#L43[minecraft&sol;auth&sol;AuthStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:AccountData.adoc[AccountData]* m&lowbar;data;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

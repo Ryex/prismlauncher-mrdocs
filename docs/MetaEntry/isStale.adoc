@@ -1,0 +1,19 @@
+[#MetaEntry-isStale]
+= xref:MetaEntry.adoc[MetaEntry]::isStale
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L52[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isStale();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

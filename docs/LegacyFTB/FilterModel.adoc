@@ -1,0 +1,95 @@
+[#LegacyFTB-FilterModel]
+= xref:LegacyFTB.adoc[LegacyFTB]::FilterModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/legacy_ftb/ListModel.h#L19[ui&sol;pages&sol;modplatform&sol;legacy&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FilterModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel]
+    , public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/FilterModel/Sorting.adoc[`Sorting`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/FilterModel/2constructor.adoc[`FilterModel`]         [.small]#[constructor]#
+| 
+
+| xref:LegacyFTB/FilterModel/getAvailableSortings.adoc[`getAvailableSortings`] 
+| 
+
+| xref:LegacyFTB/FilterModel/getCurrentSorting.adoc[`getCurrentSorting`] 
+| 
+
+| xref:LegacyFTB/FilterModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LegacyFTB/FilterModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LegacyFTB/FilterModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LegacyFTB/FilterModel/setSearchTerm.adoc[`setSearchTerm`] 
+| 
+
+| xref:LegacyFTB/FilterModel/setSorting.adoc[`setSorting`] 
+| 
+
+| xref:LegacyFTB/FilterModel/translateCurrentSorting.adoc[`translateCurrentSorting`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/FilterModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/FilterModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/FilterModel/filterAcceptsRow.adoc[`filterAcceptsRow`] 
+| 
+
+| xref:LegacyFTB/FilterModel/lessThan.adoc[`lessThan`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

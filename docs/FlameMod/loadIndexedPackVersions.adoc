@@ -1,0 +1,21 @@
+[#FlameMod-loadIndexedPackVersions]
+= xref:FlameMod.adoc[FlameMod]::loadIndexedPackVersions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameModIndex.h#L16[modplatform&sol;flame&sol;FlameModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadIndexedPackVersions(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]& pack,
+    xref:QJsonArray.adoc[QJsonArray]& arr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

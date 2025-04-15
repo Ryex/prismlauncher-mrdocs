@@ -1,0 +1,23 @@
+[#InstanceView-dataChanged]
+= xref:InstanceView.adoc[InstanceView]::dataChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L86[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+dataChanged(
+    xref:QModelIndex.adoc[QModelIndex] const& topLeft,
+    xref:QModelIndex.adoc[QModelIndex] const& bottomRight,
+    xref:QVector.adoc[QVector]&lt;int&gt; const& roles) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

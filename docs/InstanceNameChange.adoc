@@ -1,0 +1,29 @@
+[#InstanceNameChange]
+= InstanceNameChange
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceTask.h#L7[InstanceTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum InstanceNameChange : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ShouldChange`
+|
+|`ShouldKeep`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

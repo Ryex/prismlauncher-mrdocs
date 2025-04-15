@@ -1,0 +1,18 @@
+[#Component-m_file]
+= xref:Component.adoc[Component]::m&lowbar;file
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L148[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:VersionFile.adoc[VersionFile]&gt; m&lowbar;file;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

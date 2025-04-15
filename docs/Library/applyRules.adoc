@@ -1,0 +1,22 @@
+[#Library-applyRules]
+= xref:Library.adoc[Library]::applyRules
+:relfileprefix: ../
+:mrdocs:
+
+
+true if the library had a rules section (even empty)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L203[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool applyRules = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

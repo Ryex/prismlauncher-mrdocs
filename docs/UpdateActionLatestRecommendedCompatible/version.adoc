@@ -1,0 +1,22 @@
+[#UpdateActionLatestRecommendedCompatible-version]
+= xref:UpdateActionLatestRecommendedCompatible.adoc[UpdateActionLatestRecommendedCompatible]::version
+:relfileprefix: ../
+:mrdocs:
+
+
+Parent version
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L31[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] version;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

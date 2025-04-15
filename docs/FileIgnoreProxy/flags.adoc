@@ -1,0 +1,20 @@
+[#FileIgnoreProxy-flags]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::flags
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L51[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Qt.adoc[Qt]::xref:Qt/ItemFlags.adoc[ItemFlags]
+flags(xref:QModelIndex.adoc[QModelIndex] const& index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

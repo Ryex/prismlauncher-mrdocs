@@ -1,0 +1,18 @@
+[#Flame-ModpackExtra-websiteUrl]
+= xref:Flame.adoc[Flame]::xref:Flame/ModpackExtra.adoc[ModpackExtra]::websiteUrl
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlamePackIndex.h#L27[modplatform&sol;flame&sol;FlamePackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] websiteUrl;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

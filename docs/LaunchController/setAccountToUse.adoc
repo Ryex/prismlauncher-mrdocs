@@ -1,0 +1,19 @@
+[#LaunchController-setAccountToUse]
+= xref:LaunchController.adoc[LaunchController]::setAccountToUse
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LaunchController.h#L69[LaunchController&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setAccountToUse(xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr] accountToUse);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

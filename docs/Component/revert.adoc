@@ -1,0 +1,19 @@
+[#Component-revert]
+= xref:Component.adoc[Component]::revert
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L103[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+revert();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

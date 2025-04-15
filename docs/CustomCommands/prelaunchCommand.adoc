@@ -1,0 +1,19 @@
+[#CustomCommands-prelaunchCommand]
+= xref:CustomCommands.adoc[CustomCommands]::prelaunchCommand
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CustomCommands.h#L54[ui&sol;widgets&sol;CustomCommands&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+prelaunchCommand() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

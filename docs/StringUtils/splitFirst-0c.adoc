@@ -1,0 +1,21 @@
+[#StringUtils-splitFirst-0c]
+= xref:StringUtils.adoc[StringUtils]::splitFirst
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.h#L86[StringUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QPair.adoc[QPair]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt;
+splitFirst(
+    xref:QString.adoc[QString] const& s,
+    xref:QRegularExpression.adoc[QRegularExpression] const& re);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

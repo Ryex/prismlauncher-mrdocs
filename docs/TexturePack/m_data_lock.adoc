@@ -1,0 +1,19 @@
+[#TexturePack-m_data_lock]
+= xref:TexturePack.adoc[TexturePack]::m&lowbar;data&lowbar;lock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L54[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:QMutex.adoc[QMutex] m&lowbar;data&lowbar;lock;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

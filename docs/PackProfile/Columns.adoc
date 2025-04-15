@@ -1,0 +1,31 @@
+[#PackProfile-Columns]
+= xref:PackProfile.adoc[PackProfile]::Columns
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L63[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Columns;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`NameColumn`
+|
+|`VersionColumn`
+|
+|`NUM&lowbar;COLUMNS`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

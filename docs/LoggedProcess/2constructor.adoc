@@ -1,0 +1,21 @@
+[#LoggedProcess-2constructor]
+= xref:LoggedProcess.adoc[LoggedProcess]::LoggedProcess
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L52[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LoggedProcess(
+    xref:QTextCodec.adoc[QTextCodec] const* output&lowbar;codec = QTextCodec&colon;&colon;codecForLocale(),
+    xref:QObject.adoc[QObject]* parent = 0);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

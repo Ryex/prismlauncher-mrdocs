@@ -1,0 +1,18 @@
+[#Mod-01record-wasEverUsed]
+= xref:Mod.adoc[Mod]::wasEverUsed
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L104[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool wasEverUsed = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

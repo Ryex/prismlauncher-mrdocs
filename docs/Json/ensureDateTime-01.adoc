@@ -1,0 +1,22 @@
+[#Json-ensureDateTime-01]
+= xref:Json.adoc[Json]::ensureDateTime
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L272[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDateTime.adoc[QDateTime]
+ensureDateTime(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QDateTime.adoc[QDateTime] const default&lowbar;,
+    xref:QString.adoc[QString] const& what);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

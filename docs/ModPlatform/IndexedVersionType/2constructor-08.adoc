@@ -1,0 +1,18 @@
+[#ModPlatform-IndexedVersionType-2constructor-08]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersionType.adoc[IndexedVersionType]::IndexedVersionType
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L62[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+IndexedVersionType(xref:QString.adoc[QString] const& type);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

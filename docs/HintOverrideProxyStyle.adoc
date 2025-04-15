@@ -1,0 +1,74 @@
+[#HintOverrideProxyStyle]
+= HintOverrideProxyStyle
+:relfileprefix: 
+:mrdocs:
+
+
+Used to override platform&hyphen;specific behaviours which the launcher does work well with&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/HintOverrideProxyStyle.h#L25[ui&sol;themes&sol;HintOverrideProxyStyle&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class HintOverrideProxyStyle
+    : public xref:QProxyStyle.adoc[QProxyStyle];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QStyle/StyleHint.adoc[`StyleHint`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:HintOverrideProxyStyle/2constructor.adoc[`HintOverrideProxyStyle`]         [.small]#[constructor]#
+| 
+
+| xref:HintOverrideProxyStyle/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:HintOverrideProxyStyle/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:HintOverrideProxyStyle/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:HintOverrideProxyStyle/styleHint.adoc[`styleHint`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:HintOverrideProxyStyle/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:HintOverrideProxyStyle/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

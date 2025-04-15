@@ -1,0 +1,22 @@
+[#ModrinthAPI-loadCategories]
+= xref:ModrinthAPI.adoc[ModrinthAPI]::loadCategories
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthAPI.h#L34[modplatform&sol;modrinth&sol;ModrinthAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/Category.adoc[Category]&gt;
+loadCategories(
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:QByteArray.adoc[QByteArray]&gt; response,
+    xref:QString.adoc[QString] projectType);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

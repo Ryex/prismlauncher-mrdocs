@@ -1,0 +1,18 @@
+[#FocusLineEdit-_selectOnMousePress]
+= xref:FocusLineEdit.adoc[FocusLineEdit]::&lowbar;selectOnMousePress
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/FocusLineEdit.h#L15[ui&sol;widgets&sol;FocusLineEdit&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool &lowbar;selectOnMousePress;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

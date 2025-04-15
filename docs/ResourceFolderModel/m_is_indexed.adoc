@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_is_indexed]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;is&lowbar;indexed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L253[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;is&lowbar;indexed;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#BaseInstance-loadSpecificSettings]
+= xref:BaseInstance.adoc[BaseInstance]::loadSpecificSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+Loads settings specific to an instance type if they&apos;re not already loaded&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L184[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+loadSpecificSettings() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

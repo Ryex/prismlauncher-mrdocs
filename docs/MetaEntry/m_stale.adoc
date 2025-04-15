@@ -1,0 +1,18 @@
+[#MetaEntry-m_stale]
+= xref:MetaEntry.adoc[MetaEntry]::m&lowbar;stale
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L92[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;stale = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

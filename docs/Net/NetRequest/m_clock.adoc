@@ -1,0 +1,18 @@
+[#Net-NetRequest-m_clock]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::m&lowbar;clock
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L100[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/chrono.adoc[chrono]::xref:std/chrono/_V2/steady_clock.adoc[steady&lowbar;clock] m&lowbar;clock;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

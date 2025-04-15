@@ -1,0 +1,22 @@
+[#LocalResourceUpdateTask-2constructor]
+= xref:LocalResourceUpdateTask.adoc[LocalResourceUpdateTask]::LocalResourceUpdateTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourceUpdateTask.h#L31[minecraft&sol;mod&sol;tasks&sol;LocalResourceUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+LocalResourceUpdateTask(
+    xref:QDir.adoc[QDir] index&lowbar;dir,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]& project,
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedVersion.adoc[IndexedVersion]& version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Language-setTranslationStats]
+= xref:Language.adoc[Language]::setTranslationStats
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/TranslationsModel.cpp#L105[translations&sol;TranslationsModel&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setTranslationStats(
+    unsigned int &lowbar;translated,
+    unsigned int &lowbar;untranslated,
+    unsigned int &lowbar;fuzzy);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

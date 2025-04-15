@@ -1,0 +1,19 @@
+[#MinecraftSettingsWidget-loadSettings]
+= xref:MinecraftSettingsWidget.adoc[MinecraftSettingsWidget]::loadSettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/MinecraftSettingsWidget.h#L52[ui&sol;widgets&sol;MinecraftSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadSettings();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

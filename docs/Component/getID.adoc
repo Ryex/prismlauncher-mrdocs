@@ -1,0 +1,19 @@
+[#Component-getID]
+= xref:Component.adoc[Component]::getID
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L83[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getID();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

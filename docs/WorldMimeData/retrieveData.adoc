@@ -1,0 +1,22 @@
+[#WorldMimeData-retrieveData]
+= xref:WorldMimeData.adoc[WorldMimeData]::retrieveData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.cpp#L311[minecraft&sol;WorldList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QVariant.adoc[QVariant]
+retrieveData(
+    xref:QString.adoc[QString] const& mimetype,
+    xref:QMetaType.adoc[QMetaType] type) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

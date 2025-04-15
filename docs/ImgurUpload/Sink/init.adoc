@@ -1,0 +1,20 @@
+[#ImgurUpload-Sink-init]
+= xref:ImgurUpload.adoc[ImgurUpload]::xref:ImgurUpload/Sink.adoc[Sink]::init
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurUpload.h#L50[screenshots&sol;ImgurUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/State.adoc[State]
+init(xref:QNetworkRequest.adoc[QNetworkRequest]& request) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

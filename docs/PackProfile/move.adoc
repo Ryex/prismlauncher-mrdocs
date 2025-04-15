@@ -1,0 +1,25 @@
+[#PackProfile-move]
+= xref:PackProfile.adoc[PackProfile]::move
+:relfileprefix: ../
+:mrdocs:
+
+
+move component file &num; up or down the list
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L105[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+move(
+    int index,
+    xref:PackProfile/MoveDirection.adoc[MoveDirection] direction);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

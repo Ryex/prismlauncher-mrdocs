@@ -1,0 +1,19 @@
+[#InstanceList-getInstanceIndexById]
+= xref:InstanceList.adoc[InstanceList]::getInstanceIndexById
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L104[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QModelIndex.adoc[QModelIndex]
+getInstanceIndexById(xref:QString.adoc[QString] const& id) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

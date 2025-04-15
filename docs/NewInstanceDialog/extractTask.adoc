@@ -1,0 +1,19 @@
+[#NewInstanceDialog-extractTask]
+= xref:NewInstanceDialog.adoc[NewInstanceDialog]::extractTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/NewInstanceDialog.h#L69[ui&sol;dialogs&sol;NewInstanceDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:InstanceTask.adoc[InstanceTask]*
+extractTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

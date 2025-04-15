@@ -1,0 +1,22 @@
+[#GuiUtil-uploadPaste]
+= xref:GuiUtil.adoc[GuiUtil]::uploadPaste
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/GuiUtil.h#L7[ui&sol;GuiUtil&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt;
+uploadPaste(
+    xref:QString.adoc[QString] const& name,
+    xref:QString.adoc[QString] const& text,
+    xref:QWidget.adoc[QWidget]* parentWidget);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#HintOverrideProxyStyle-2constructor]
+= xref:HintOverrideProxyStyle.adoc[HintOverrideProxyStyle]::HintOverrideProxyStyle
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/HintOverrideProxyStyle.h#L28[ui&sol;themes&sol;HintOverrideProxyStyle&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+HintOverrideProxyStyle(xref:QStyle.adoc[QStyle]* style);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

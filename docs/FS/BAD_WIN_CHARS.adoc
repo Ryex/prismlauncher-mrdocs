@@ -1,0 +1,19 @@
+[#FS-BAD_WIN_CHARS]
+= xref:FS.adoc[FS]::BAD&lowbar;WIN&lowbar;CHARS
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.cpp#L805[FileSystem&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString] const BAD&lowbar;WIN&lowbar;CHARS = &quot;&lt;&gt;&colon;&bsol;&quot;&verbar;?&ast;&bsol;r&bsol;n&quot;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

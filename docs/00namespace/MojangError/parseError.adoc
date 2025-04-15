@@ -1,0 +1,18 @@
+[#00namespace-MojangError-parseError]
+= xref:00namespace/MojangError.adoc[MojangError]::parseError
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProfileSetupDialog.cpp#L245[ui&sol;dialogs&sol;ProfileSetupDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonParseError.adoc[QJsonParseError] parseError;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

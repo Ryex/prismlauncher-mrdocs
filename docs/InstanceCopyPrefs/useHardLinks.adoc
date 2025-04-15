@@ -1,0 +1,18 @@
+[#InstanceCopyPrefs-useHardLinks]
+= xref:InstanceCopyPrefs.adoc[InstanceCopyPrefs]::useHardLinks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceCopyPrefs.h#L54[InstanceCopyPrefs&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool useHardLinks = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

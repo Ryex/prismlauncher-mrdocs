@@ -1,0 +1,23 @@
+[#VisualGroup-rowHeightOf]
+= xref:VisualGroup.adoc[VisualGroup]::rowHeightOf
+:relfileprefix: ../
+:mrdocs:
+
+
+height of the row of the given item
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L97[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+rowHeightOf(xref:QModelIndex.adoc[QModelIndex] const& index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

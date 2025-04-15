@@ -1,0 +1,18 @@
+[#JsonCatPack-Variant-startTime]
+= xref:JsonCatPack.adoc[JsonCatPack]::xref:JsonCatPack/Variant.adoc[Variant]::startTime
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L82[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JsonCatPack/PartialDate.adoc[PartialDate] startTime;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

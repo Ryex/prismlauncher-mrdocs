@@ -1,0 +1,45 @@
+[#BasePageContainer]
+= BasePageContainer
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageContainer.h#L5[ui&sol;pages&sol;BasePageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BasePageContainer;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasePageContainer/getPage.adoc[`getPage`] 
+| 
+
+| xref:BasePageContainer/refreshContainer.adoc[`refreshContainer`] 
+| 
+
+| xref:BasePageContainer/requestClose.adoc[`requestClose`] 
+| 
+
+| xref:BasePageContainer/selectPage.adoc[`selectPage`] 
+| 
+
+| xref:BasePageContainer/selectedPage.adoc[`selectedPage`] 
+| 
+
+| xref:BasePageContainer/2destructor.adoc[`&tilde;BasePageContainer`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

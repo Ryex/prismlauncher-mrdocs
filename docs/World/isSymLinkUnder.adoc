@@ -1,0 +1,39 @@
+[#World-isSymLinkUnder]
+= xref:World.adoc[World]::isSymLinkUnder
+:relfileprefix: ../
+:mrdocs:
+
+
+Take a instance path, checks if the file pointed to by the resource is a symlink or under a symlink in that instance
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/World.h#L69[minecraft&sol;World&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+isSymLinkUnder(xref:QString.adoc[QString] const& instPath) const;
+----
+
+== Return Value
+
+false
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *instPath*
+| path to an instance directory
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

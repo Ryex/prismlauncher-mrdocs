@@ -1,0 +1,19 @@
+[#ProgressDialog-getTask]
+= xref:ProgressDialog.adoc[ProgressDialog]::getTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.h#L70[ui&sol;dialogs&sol;ProgressDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]*
+getTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

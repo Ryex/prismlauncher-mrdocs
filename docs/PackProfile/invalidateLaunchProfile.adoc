@@ -1,0 +1,23 @@
+[#PackProfile-invalidateLaunchProfile]
+= xref:PackProfile.adoc[PackProfile]::invalidateLaunchProfile
+:relfileprefix: ../
+:mrdocs:
+
+
+apply the component patches&period; Catches all the errors and returns true&sol;false for success&sol;failure
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L165[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+invalidateLaunchProfile();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

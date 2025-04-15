@@ -1,0 +1,19 @@
+[#Component-updateCachedData]
+= xref:Component.adoc[Component]::updateCachedData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L105[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateCachedData();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

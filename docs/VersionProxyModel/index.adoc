@@ -1,0 +1,23 @@
+[#VersionProxyModel-index]
+= xref:VersionProxyModel.adoc[VersionProxyModel]::index
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/VersionProxyModel.h#L23[VersionProxyModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QModelIndex.adoc[QModelIndex]
+index(
+    int row,
+    int column,
+    xref:QModelIndex.adoc[QModelIndex] const& parent = QModelIndex()) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

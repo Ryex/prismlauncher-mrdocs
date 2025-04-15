@@ -1,0 +1,36 @@
+[#Modrinth-DonationData]
+= xref:Modrinth.adoc[Modrinth]::DonationData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L63[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct DonationData;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Modrinth/DonationData/id.adoc[`id`] 
+| 
+
+| xref:Modrinth/DonationData/platform.adoc[`platform`] 
+| 
+
+| xref:Modrinth/DonationData/url.adoc[`url`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

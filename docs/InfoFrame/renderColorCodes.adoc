@@ -1,0 +1,20 @@
+[#InfoFrame-renderColorCodes]
+= xref:InfoFrame.adoc[InfoFrame]::renderColorCodes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/InfoFrame.h#L68[ui&sol;widgets&sol;InfoFrame&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+renderColorCodes(xref:QString.adoc[QString] input);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

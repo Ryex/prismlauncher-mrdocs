@@ -1,0 +1,23 @@
+[#SeparatorPrefixTree-contained]
+= xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]::contained
+:relfileprefix: ../
+:mrdocs:
+
+
+is this node actually contained in the tree, or is it purely structural?
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/SeparatorPrefixTree.h#L147[SeparatorPrefixTree&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+contained() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

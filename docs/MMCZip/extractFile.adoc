@@ -1,0 +1,51 @@
+[#MMCZip-extractFile]
+= xref:MMCZip.adoc[MMCZip]::extractFile
+:relfileprefix: ../
+:mrdocs:
+
+
+Extract a single file from an archive into a directory
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L142[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+extractFile(
+    xref:QString.adoc[QString] fileCompressed,
+    xref:QString.adoc[QString] file,
+    xref:QString.adoc[QString] dir);
+----
+
+== Return Value
+
+true for success or false for failure
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *fileCompressed*
+| The name of the archive&period;
+
+
+| *file*
+| The file within the archive to extract
+
+
+| *dir*
+| The directory to extract to, the current directory if left empty&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

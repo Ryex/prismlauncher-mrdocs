@@ -1,0 +1,19 @@
+[#Murmur2]
+= Murmur2
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Murmur2/Reader.adoc[`Reader`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

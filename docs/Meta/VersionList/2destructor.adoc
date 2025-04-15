@@ -1,0 +1,19 @@
+[#Meta-VersionList-2destructor]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::&tilde;VersionList
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L33[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;VersionList() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

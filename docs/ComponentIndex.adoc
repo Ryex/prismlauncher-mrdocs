@@ -1,0 +1,18 @@
+[#ComponentIndex]
+= ComponentIndex
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L11[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using ComponentIndex = xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:ComponentPtr.adoc[ComponentPtr]&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

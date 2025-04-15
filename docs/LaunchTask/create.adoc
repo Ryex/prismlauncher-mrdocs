@@ -1,0 +1,20 @@
+[#LaunchTask-create]
+= xref:LaunchTask.adoc[LaunchTask]::create
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L57[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchTask.adoc[LaunchTask]&gt;
+create(xref:MinecraftInstancePtr.adoc[MinecraftInstancePtr] inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

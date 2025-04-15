@@ -1,0 +1,62 @@
+[#Version]
+= Version
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L46[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Version;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Version/2constructor.adoc[`Version`]         [.small]#[constructor]#
+| 
+| xref:Version/isEmpty.adoc[`isEmpty`] 
+| 
+
+| xref:Version/operator_not_eq.adoc[`operator!&equals;`] 
+| 
+
+| xref:Version/operator_lt.adoc[`operator&lt;`] 
+| 
+
+| xref:Version/operator_le.adoc[`operator&lt;&equals;`] 
+| 
+
+| xref:Version/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+| xref:Version/operator_gt.adoc[`operator&gt;`] 
+| 
+
+| xref:Version/operator_ge.adoc[`operator&gt;&equals;`] 
+| 
+
+| xref:Version/toString.adoc[`toString`] 
+| 
+
+|===
+== Friends
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Version/08friend.adoc[`operator&lt;&lt;`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

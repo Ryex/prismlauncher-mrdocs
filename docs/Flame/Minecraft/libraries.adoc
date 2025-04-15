@@ -1,0 +1,18 @@
+[#Flame-Minecraft-libraries]
+= xref:Flame.adoc[Flame]::xref:Flame/Minecraft.adoc[Minecraft]::libraries
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L68[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] libraries;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

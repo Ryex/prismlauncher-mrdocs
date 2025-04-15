@@ -1,0 +1,35 @@
+[#std-less]
+= xref:std.adoc[std]::less
+:relfileprefix: ../
+:mrdocs:
+
+
+One of the
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/bits/stl_function.h#L399[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;bits&sol;stl&lowbar;function&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename &lowbar;Tp = void&gt;
+struct less
+    : xref:std/binary_function.adoc[binary&lowbar;function]&lt;&lowbar;Tp, &lowbar;Tp, bool&gt;;
+----
+
+
+
+
+== Description
+
+[,cpp]
+----
+comparison_functors comparison functors@endlink.
+----
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

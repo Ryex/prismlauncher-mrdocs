@@ -1,0 +1,18 @@
+[#JSONValidationError]
+= JSONValidationError
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L282[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using JSONValidationError = xref:Json.adoc[Json]::xref:Json/JsonException.adoc[JsonException];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

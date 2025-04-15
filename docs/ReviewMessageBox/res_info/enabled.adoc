@@ -1,0 +1,18 @@
+[#ReviewMessageBox-res_info-enabled]
+= xref:ReviewMessageBox.adoc[ReviewMessageBox]::xref:ReviewMessageBox/res_info.adoc[res&lowbar;info]::enabled
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ReviewMessageBox.h#L23[ui&sol;dialogs&sol;ReviewMessageBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool enabled = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

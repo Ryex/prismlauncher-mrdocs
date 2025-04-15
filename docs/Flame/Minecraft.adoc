@@ -1,0 +1,36 @@
+[#Flame-Minecraft]
+= xref:Flame.adoc[Flame]::Minecraft
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L66[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Minecraft;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/Minecraft/libraries.adoc[`libraries`] 
+| 
+
+| xref:Flame/Minecraft/modLoaders.adoc[`modLoaders`] 
+| 
+
+| xref:Flame/Minecraft/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

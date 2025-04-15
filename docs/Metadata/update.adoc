@@ -1,0 +1,21 @@
+[#Metadata-update]
+= xref:Metadata.adoc[Metadata]::update
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/MetadataHandler.h#L43[minecraft&sol;mod&sol;MetadataHandler&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+update(
+    xref:QDir.adoc[QDir] const& index&lowbar;dir,
+    xref:Metadata/ModStruct.adoc[ModStruct]& mod);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

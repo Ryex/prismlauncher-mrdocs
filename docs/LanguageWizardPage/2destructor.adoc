@@ -1,0 +1,19 @@
+[#LanguageWizardPage-2destructor]
+= xref:LanguageWizardPage.adoc[LanguageWizardPage]::&tilde;LanguageWizardPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/setupwizard/LanguageWizardPage.h#L12[ui&sol;setupwizard&sol;LanguageWizardPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;LanguageWizardPage();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

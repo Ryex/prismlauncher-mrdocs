@@ -1,0 +1,23 @@
+[#OneSixVersionFormat-libraryFromJson]
+= xref:OneSixVersionFormat.adoc[OneSixVersionFormat]::libraryFromJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/OneSixVersionFormat.h#L16[minecraft&sol;OneSixVersionFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:LibraryPtr.adoc[LibraryPtr]
+libraryFromJson(
+    xref:ProblemContainer.adoc[ProblemContainer]& problems,
+    xref:QJsonObject.adoc[QJsonObject] const& libObj,
+    xref:QString.adoc[QString] const& filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

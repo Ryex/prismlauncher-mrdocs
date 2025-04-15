@@ -1,0 +1,23 @@
+[#Application-root]
+= xref:Application.adoc[Application]::root
+:relfileprefix: ../
+:mrdocs:
+
+
+this is the root of the &apos;installation&apos;&period; Used for automatic updates
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L166[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] const&
+root();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

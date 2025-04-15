@@ -1,0 +1,33 @@
+[#PackProfile-getComponent]
+= xref:PackProfile.adoc[PackProfile]::getComponent
+:relfileprefix: ../
+:mrdocs:
+
+
+get the profile component by id
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L150[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ComponentPtr.adoc[ComponentPtr]
+xref:PackProfile/getComponent-03.adoc[getComponent](xref:QString.adoc[QString] const& id);
+----
+
+[.small]#xref:PackProfile/getComponent-03.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ComponentPtr.adoc[ComponentPtr]
+xref:PackProfile/getComponent-0f.adoc[getComponent](xref:size_t.adoc[size&lowbar;t] index);
+----
+
+[.small]#xref:PackProfile/getComponent-0f.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

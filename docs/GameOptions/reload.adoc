@@ -1,0 +1,19 @@
+[#GameOptions-reload]
+= xref:GameOptions.adoc[GameOptions]::reload
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.h#L24[minecraft&sol;gameoptions&sol;GameOptions&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+reload();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

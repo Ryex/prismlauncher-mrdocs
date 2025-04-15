@@ -1,0 +1,20 @@
+[#InstallLoaderDialog-getPages]
+= xref:InstallLoaderDialog.adoc[InstallLoaderDialog]::getPages
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/InstallLoaderDialog.h#L35[ui&sol;dialogs&sol;InstallLoaderDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QList.adoc[QList]&lt;xref:BasePage.adoc[BasePage]*&gt;
+getPages() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

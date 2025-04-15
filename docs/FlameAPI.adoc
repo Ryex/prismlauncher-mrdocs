@@ -1,0 +1,147 @@
+[#FlameAPI]
+= FlameAPI
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L13[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FlameAPI
+    : public xref:NetworkResourceAPI.adoc[NetworkResourceAPI];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/DependencySearchArgs.adoc[`DependencySearchArgs`] 
+| 
+
+| xref:ResourceAPI/DependencySearchCallbacks.adoc[`DependencySearchCallbacks`] 
+| 
+
+| xref:ResourceAPI/ProjectInfoArgs.adoc[`ProjectInfoArgs`] 
+| 
+
+| xref:ResourceAPI/ProjectInfoCallbacks.adoc[`ProjectInfoCallbacks`] 
+| 
+
+| xref:ResourceAPI/SearchArgs.adoc[`SearchArgs`] 
+| 
+
+| xref:ResourceAPI/SearchCallbacks.adoc[`SearchCallbacks`] 
+| 
+
+| xref:ResourceAPI/SortingMethod.adoc[`SortingMethod`] 
+| 
+
+| xref:ResourceAPI/VersionSearchArgs.adoc[`VersionSearchArgs`] 
+| 
+
+| xref:ResourceAPI/VersionSearchCallbacks.adoc[`VersionSearchCallbacks`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/getDependencyVersion.adoc[`getDependencyVersion`] 
+| 
+| xref:FlameAPI/getFile.adoc[`getFile`] 
+| 
+
+| xref:FlameAPI/getFiles.adoc[`getFiles`] 
+| 
+
+| xref:FlameAPI/getLatestVersion.adoc[`getLatestVersion`] 
+| 
+
+| xref:FlameAPI/getModDescription.adoc[`getModDescription`] 
+| 
+
+| xref:FlameAPI/getModFileChangelog.adoc[`getModFileChangelog`] 
+| 
+
+| xref:ResourceAPI/getProject.adoc[`getProject`] 
+| 
+| xref:ResourceAPI/getProjectInfo.adoc[`getProjectInfo`] 
+| 
+| xref:ResourceAPI/getProjectVersions.adoc[`getProjectVersions`] 
+| 
+| xref:ResourceAPI/getProjects.adoc[`getProjects`] 
+| 
+| xref:FlameAPI/getSearchURL.adoc[`getSearchURL`] 
+| 
+
+| xref:ResourceAPI/getSortingMethods.adoc[`getSortingMethods`] 
+| Gets a list of available sorting methods for this API&period;
+
+
+
+| xref:FlameAPI/getVersionsURL.adoc[`getVersionsURL`] 
+| 
+
+| xref:FlameAPI/matchFingerprints.adoc[`matchFingerprints`] 
+| 
+
+| xref:ResourceAPI/searchProjects.adoc[`searchProjects`] 
+| 
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FlameAPI/getCategories.adoc[`getCategories`] 
+| 
+
+| xref:FlameAPI/getModCategories.adoc[`getModCategories`] 
+| 
+
+| xref:FlameAPI/loadModCategories.adoc[`loadModCategories`] 
+| 
+
+| xref:FlameAPI/validateModLoaders.adoc[`validateModLoaders`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/debugName.adoc[`debugName`] 
+| 
+
+| xref:NetworkResourceAPI/getDependencyURL.adoc[`getDependencyURL`] 
+| 
+
+| xref:ResourceAPI/getGameVersionsString.adoc[`getGameVersionsString`] 
+| 
+
+| xref:NetworkResourceAPI/getInfoURL.adoc[`getInfoURL`] 
+| 
+
+| xref:NetworkResourceAPI/getSearchURL.adoc[`getSearchURL`] 
+| 
+
+| xref:NetworkResourceAPI/getVersionsURL.adoc[`getVersionsURL`] 
+| 
+
+| xref:ResourceAPI/mapMCVersionToModrinth.adoc[`mapMCVersionToModrinth`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#InstanceView-setPaintCat]
+= xref:InstanceView.adoc[InstanceView]::setPaintCat
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L80[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setPaintCat(bool visible);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

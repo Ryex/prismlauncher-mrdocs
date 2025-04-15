@@ -1,0 +1,18 @@
+[#FTBImportAPP-Modpack-jvmArgs]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/Modpack.adoc[Modpack]::jvmArgs
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/import_ftb/PackHelpers.h#L41[modplatform&sol;import&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant] jvmArgs;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

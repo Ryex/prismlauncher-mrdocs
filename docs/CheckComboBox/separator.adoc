@@ -1,0 +1,19 @@
+[#CheckComboBox-separator]
+= xref:CheckComboBox.adoc[CheckComboBox]::separator
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CheckComboBox.h#L39[ui&sol;widgets&sol;CheckComboBox&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+separator() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

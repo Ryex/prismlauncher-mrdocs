@@ -1,0 +1,19 @@
+[#Net-NetRequest-2destructor]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::&tilde;NetRequest
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L67[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;NetRequest() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

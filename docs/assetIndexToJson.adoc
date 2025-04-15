@@ -1,0 +1,20 @@
+[#assetIndexToJson]
+= assetIndexToJson
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangVersionFormat.cpp#L50[minecraft&sol;MojangVersionFormat&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QJsonObject.adoc[QJsonObject]
+assetIndexToJson(xref:MojangAssetIndexInfo.adoc[MojangAssetIndexInfo]::xref:MojangAssetIndexInfo/Ptr.adoc[Ptr] assetidxinfo);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

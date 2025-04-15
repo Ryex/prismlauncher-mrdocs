@@ -1,0 +1,21 @@
+[#00namespace-profileInUseFilter]
+= profileInUseFilter
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/MainWindow.cpp#L133[ui&sol;MainWindow&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+profileInUseFilter(
+    xref:QString.adoc[QString] const& profile,
+    bool used);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

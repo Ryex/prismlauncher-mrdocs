@@ -1,0 +1,33 @@
+[#GameOptionItem]
+= GameOptionItem
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.h#L7[minecraft&sol;gameoptions&sol;GameOptions&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct GameOptionItem;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameOptionItem/key.adoc[`key`] 
+| 
+
+| xref:GameOptionItem/value.adoc[`value`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

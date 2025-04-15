@@ -1,0 +1,31 @@
+[#ResourceFolderModel-hasPendingParseTasks]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::hasPendingParseTasks
+:relfileprefix: ../
+:mrdocs:
+
+
+Checks whether there&apos;s any parse tasks being done&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L135[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+bool
+hasPendingParseTasks() const;
+----
+
+== Description
+
+Since they can be quite expensive, and are usually done in a separate thread, if we were to destroy the model while having
+such tasks would introduce an undefined behavior, most likely resulting in a crash&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

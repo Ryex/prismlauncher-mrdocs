@@ -1,0 +1,18 @@
+[#ResourceAPI-SearchArgs-type]
+= xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SearchArgs.adoc[SearchArgs]::type
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L70[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ResourceType.adoc[ResourceType] type = &lcub;&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

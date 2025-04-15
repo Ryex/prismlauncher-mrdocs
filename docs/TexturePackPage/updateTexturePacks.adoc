@@ -1,0 +1,19 @@
+[#TexturePackPage-updateTexturePacks]
+= xref:TexturePackPage.adoc[TexturePackPage]::updateTexturePacks
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/TexturePackPage.h#L60[ui&sol;pages&sol;instance&sol;TexturePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateTexturePacks();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

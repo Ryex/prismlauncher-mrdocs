@@ -1,0 +1,19 @@
+[#FileIgnoreProxy-saveBlockedPathsToFile]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::saveBlockedPathsToFile
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L76[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+saveBlockedPathsToFile(xref:QString.adoc[QString] const& fileName);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

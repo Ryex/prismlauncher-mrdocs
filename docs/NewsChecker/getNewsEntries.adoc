@@ -1,0 +1,23 @@
+[#NewsChecker-getNewsEntries]
+= xref:NewsChecker.adoc[NewsChecker]::getNewsEntries
+:relfileprefix: ../
+:mrdocs:
+
+
+Returns a list of news entries&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/news/NewsChecker.h#L51[news&sol;NewsChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:NewsEntryPtr.adoc[NewsEntryPtr]&gt;
+getNewsEntries() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

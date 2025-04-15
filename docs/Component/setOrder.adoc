@@ -1,0 +1,19 @@
+[#Component-setOrder]
+= xref:Component.adoc[Component]::setOrder
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L80[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setOrder(int order);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

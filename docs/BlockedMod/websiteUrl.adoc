@@ -1,0 +1,18 @@
+[#BlockedMod-websiteUrl]
+= xref:BlockedMod.adoc[BlockedMod]::websiteUrl
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L40[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] websiteUrl;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

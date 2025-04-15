@@ -1,0 +1,40 @@
+[#QMetaTypeId-0e]
+= QMetaTypeId&lt;xref:std.adoc[std]::xref:std/set.adoc[set]&lt;xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require]&gt;&gt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/JsonFormat.h#L58[meta&sol;JsonFormat&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+struct QMetaTypeId&lt;xref:std.adoc[std]::xref:std/set.adoc[set]&lt;xref:Meta.adoc[Meta]::xref:Meta/Require.adoc[Require]&gt;&gt;;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-0e/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-0e/qt_metatype_id.adoc[`qt&lowbar;metatype&lowbar;id`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

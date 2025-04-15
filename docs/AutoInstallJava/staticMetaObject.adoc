@@ -1,0 +1,19 @@
+[#AutoInstallJava-staticMetaObject]
+= xref:AutoInstallJava.adoc[AutoInstallJava]::staticMetaObject
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/AutoInstallJava.h#L45[minecraft&sol;launch&sol;AutoInstallJava&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

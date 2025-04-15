@@ -1,0 +1,19 @@
+[#Meta-Index-hasUid]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::hasUid
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L47[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+hasUid(xref:QString.adoc[QString] const& uid) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

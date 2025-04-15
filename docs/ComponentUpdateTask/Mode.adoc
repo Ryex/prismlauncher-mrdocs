@@ -1,0 +1,29 @@
+[#ComponentUpdateTask-Mode]
+= xref:ComponentUpdateTask.adoc[ComponentUpdateTask]::Mode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.h#L14[minecraft&sol;ComponentUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Mode : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Launch`
+|
+|`Resolution`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

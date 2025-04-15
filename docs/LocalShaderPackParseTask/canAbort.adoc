@@ -1,0 +1,21 @@
+[#LocalShaderPackParseTask-canAbort]
+= xref:LocalShaderPackParseTask.adoc[LocalShaderPackParseTask]::canAbort
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalShaderPackParseTask.h#L49[minecraft&sol;mod&sol;tasks&sol;LocalShaderPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+bool
+canAbort() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

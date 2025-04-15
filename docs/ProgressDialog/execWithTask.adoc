@@ -1,0 +1,37 @@
+[#ProgressDialog-execWithTask]
+= xref:ProgressDialog.adoc[ProgressDialog]::execWithTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.h#L64[ui&sol;dialogs&sol;ProgressDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+xref:ProgressDialog/execWithTask-0f.adoc[execWithTask](xref:Task.adoc[Task]* task);
+----
+
+[.small]#xref:ProgressDialog/execWithTask-0f.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+xref:ProgressDialog/execWithTask-0e5.adoc[execWithTask](xref:std.adoc[std]::xref:std/unique_ptr.adoc[unique&lowbar;ptr]&lt;xref:Task.adoc[Task]&gt;&& task);
+----
+
+[.small]#xref:ProgressDialog/execWithTask-0e5.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+xref:ProgressDialog/execWithTask-0e1.adoc[execWithTask](xref:std.adoc[std]::xref:std/unique_ptr.adoc[unique&lowbar;ptr]&lt;xref:Task.adoc[Task]&gt;& task);
+----
+
+[.small]#xref:ProgressDialog/execWithTask-0e1.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

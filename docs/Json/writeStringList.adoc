@@ -1,0 +1,22 @@
+[#Json-writeStringList]
+= xref:Json.adoc[Json]::writeStringList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L78[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+writeStringList(
+    xref:QJsonObject.adoc[QJsonObject]& to,
+    xref:QString.adoc[QString] const& key,
+    xref:QStringList.adoc[QStringList] const& values);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

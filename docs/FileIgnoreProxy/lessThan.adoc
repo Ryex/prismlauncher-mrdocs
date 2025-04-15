@@ -1,0 +1,22 @@
+[#FileIgnoreProxy-lessThan]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::lessThan
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L49[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+lessThan(
+    xref:QModelIndex.adoc[QModelIndex] const& left,
+    xref:QModelIndex.adoc[QModelIndex] const& right) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

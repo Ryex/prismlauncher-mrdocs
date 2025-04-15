@@ -1,0 +1,19 @@
+[#McClient-succeeded]
+= xref:McClient.adoc[McClient]::succeeded
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/McClient.h#L48[ui&sol;pages&sol;instance&sol;McClient&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+succeeded(xref:QJsonObject.adoc[QJsonObject] data);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

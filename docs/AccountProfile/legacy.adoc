@@ -1,0 +1,18 @@
+[#AccountProfile-legacy]
+= xref:AccountProfile.adoc[AccountProfile]::legacy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L68[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool legacy;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

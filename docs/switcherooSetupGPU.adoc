@@ -1,0 +1,20 @@
+[#switcherooSetupGPU]
+= switcherooSetupGPU
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.cpp#L108[minecraft&sol;MinecraftInstance&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+switcherooSetupGPU(xref:QProcessEnvironment.adoc[QProcessEnvironment]& env);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

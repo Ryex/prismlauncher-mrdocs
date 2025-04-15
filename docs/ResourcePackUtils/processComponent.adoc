@@ -1,0 +1,46 @@
+[#ResourcePackUtils-processComponent]
+= xref:ResourcePackUtils.adoc[ResourcePackUtils]::processComponent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalResourcePackParseTask.h#L28[minecraft&sol;mod&sol;tasks&sol;LocalResourcePackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:ResourcePackUtils/processComponent-0f7a.adoc[processComponent](
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    bool strikethrough = false,
+    bool underline = false);
+----
+
+[.small]#xref:ResourcePackUtils/processComponent-0f7a.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:ResourcePackUtils/processComponent-0f7e.adoc[processComponent](
+    xref:QJsonArray.adoc[QJsonArray] const& value,
+    bool strikethrough,
+    bool underline);
+----
+
+[.small]#xref:ResourcePackUtils/processComponent-0f7e.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+xref:ResourcePackUtils/processComponent-0a.adoc[processComponent](
+    xref:QJsonObject.adoc[QJsonObject] const& obj,
+    bool strikethrough,
+    bool underline);
+----
+
+[.small]#xref:ResourcePackUtils/processComponent-0a.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,39 @@
+[#FS-LinkResult]
+= xref:FS.adoc[FS]::LinkResult
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L164[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct LinkResult;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/LinkResult/dst.adoc[`dst`] 
+| 
+
+| xref:FS/LinkResult/err_msg.adoc[`err&lowbar;msg`] 
+| 
+
+| xref:FS/LinkResult/err_value.adoc[`err&lowbar;value`] 
+| 
+
+| xref:FS/LinkResult/src.adoc[`src`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

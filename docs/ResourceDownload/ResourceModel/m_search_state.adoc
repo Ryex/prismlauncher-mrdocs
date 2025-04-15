@@ -1,0 +1,18 @@
+[#ResourceDownload-ResourceModel-m_search_state]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::m&lowbar;search&lowbar;state
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L138[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ResourceDownload/ResourceModel/SearchState.adoc[SearchState] m&lowbar;search&lowbar;state = SearchState&colon;&colon;None;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

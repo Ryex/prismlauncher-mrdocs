@@ -1,0 +1,19 @@
+[#GenericPageProvider-2constructor]
+= xref:GenericPageProvider.adoc[GenericPageProvider]::GenericPageProvider
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L31[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+GenericPageProvider(xref:QString.adoc[QString] const& dialogTitle);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

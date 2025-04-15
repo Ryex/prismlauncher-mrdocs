@@ -1,0 +1,20 @@
+[#opengl-BoxGeometry-2constructor-03]
+= xref:opengl.adoc[opengl]::xref:opengl/BoxGeometry.adoc[BoxGeometry]::BoxGeometry
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.h#L30[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+BoxGeometry(
+    xref:QVector3D.adoc[QVector3D] size,
+    xref:QVector3D.adoc[QVector3D] position);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

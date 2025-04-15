@@ -1,0 +1,44 @@
+[#MMCZip-findFolderOfFileInZip]
+= xref:MMCZip.adoc[MMCZip]::findFolderOfFileInZip
+:relfileprefix: ../
+:mrdocs:
+
+
+Find a single file in archive by file name (not path)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MMCZip.h#L98[MMCZip&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+findFolderOfFileInZip(
+    xref:QuaZip.adoc[QuaZip]* zip,
+    xref:QString.adoc[QString] const& what,
+    xref:QStringList.adoc[QStringList] const& ignore&lowbar;paths = &equals; &lcub;&rcub;,
+    xref:QString.adoc[QString] const& root = QString(&quot;&quot;));
+----
+
+== Return Value
+
+the path prefix where the file is
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *ignore&lowbar;paths*
+| paths to skip when recursing the search
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

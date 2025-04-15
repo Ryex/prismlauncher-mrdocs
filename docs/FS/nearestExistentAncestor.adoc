@@ -1,0 +1,21 @@
+[#FS-nearestExistentAncestor]
+= xref:FS.adoc[FS]::nearestExistentAncestor
+:relfileprefix: ../
+:mrdocs:
+
+
+path to the near ancestor that exists
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L455[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+nearestExistentAncestor(xref:QString.adoc[QString] const& path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

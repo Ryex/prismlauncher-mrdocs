@@ -1,0 +1,20 @@
+[#FTBImportAPP-ImportFTBPage-metaObject]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/ImportFTBPage.adoc[ImportFTBPage]::metaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ImportFTBPage.h#L39[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ImportFTBPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QMetaObject.adoc[QMetaObject] const*
+metaObject() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

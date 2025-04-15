@@ -1,0 +1,19 @@
+[#Version-toString]
+= xref:Version.adoc[Version]::toString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L58[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+toString() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#NetworkResourceAPI-getDependencyVersion]
+= xref:NetworkResourceAPI.adoc[NetworkResourceAPI]::getDependencyVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/NetworkResourceAPI.h#L18[modplatform&sol;helpers&sol;NetworkResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getDependencyVersion(
+    xref:ResourceAPI/DependencySearchArgs.adoc[DependencySearchArgs]&&,
+    xref:ResourceAPI/DependencySearchCallbacks.adoc[DependencySearchCallbacks]&&) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

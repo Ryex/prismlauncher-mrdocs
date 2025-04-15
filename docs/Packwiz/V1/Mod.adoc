@@ -1,0 +1,87 @@
+[#Packwiz-V1-Mod]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::Mod
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L42[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Mod;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/V1/Mod/isValid.adoc[`isValid`] 
+| 
+
+| xref:Packwiz/V1/Mod/mod_id.adoc[`mod&lowbar;id`] 
+| 
+
+| xref:Packwiz/V1/Mod/version.adoc[`version`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Packwiz/V1/Mod/file_id.adoc[`file&lowbar;id`] 
+| 
+
+| xref:Packwiz/V1/Mod/filename.adoc[`filename`] 
+| 
+
+| xref:Packwiz/V1/Mod/hash.adoc[`hash`] 
+| 
+
+| xref:Packwiz/V1/Mod/hash_format.adoc[`hash&lowbar;format`] 
+| 
+
+| xref:Packwiz/V1/Mod/loaders.adoc[`loaders`] 
+| 
+
+| xref:Packwiz/V1/Mod/mcVersions.adoc[`mcVersions`] 
+| 
+
+| xref:Packwiz/V1/Mod/mode.adoc[`mode`] 
+| 
+
+| xref:Packwiz/V1/Mod/name.adoc[`name`] 
+| 
+
+| xref:Packwiz/V1/Mod/project_id.adoc[`project&lowbar;id`] 
+| 
+
+| xref:Packwiz/V1/Mod/provider.adoc[`provider`] 
+| 
+
+| xref:Packwiz/V1/Mod/releaseType.adoc[`releaseType`] 
+| 
+
+| xref:Packwiz/V1/Mod/side.adoc[`side`] 
+| 
+
+| xref:Packwiz/V1/Mod/slug.adoc[`slug`] 
+| 
+
+| xref:Packwiz/V1/Mod/url.adoc[`url`] 
+| 
+
+| xref:Packwiz/V1/Mod/version_number.adoc[`version&lowbar;number`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

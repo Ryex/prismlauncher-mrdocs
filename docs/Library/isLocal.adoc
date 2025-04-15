@@ -1,0 +1,149 @@
+[#Library-isLocal]
+= xref:Library.adoc[Library]::isLocal
+:relfileprefix: ../
+:mrdocs:
+
+
+Check if the library is considered local&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L138[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isLocal() const;
+----
+
+== Description
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+Returns true if the library is contained in an instance and false if it is shared
+
+
+
+== Return Value
+
+bool True if the library is local, false otherwise&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

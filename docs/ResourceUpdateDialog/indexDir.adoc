@@ -1,0 +1,19 @@
+[#ResourceUpdateDialog-indexDir]
+= xref:ResourceUpdateDialog.adoc[ResourceUpdateDialog]::indexDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceUpdateDialog.h#L31[ui&sol;dialogs&sol;ResourceUpdateDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDir.adoc[QDir]
+indexDir() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,45 @@
+[#ApplicationMessage]
+= ApplicationMessage
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ApplicationMessage.h#L7[ApplicationMessage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ApplicationMessage;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ApplicationMessage/parse.adoc[`parse`] 
+| 
+
+| xref:ApplicationMessage/serialize.adoc[`serialize`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ApplicationMessage/args.adoc[`args`] 
+| 
+
+| xref:ApplicationMessage/command.adoc[`command`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Packwiz-V1-sideToString]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::sideToString
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L104[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+sideToString(xref:Packwiz/V1/Side.adoc[Side] side);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Application-timeSinceStart]
+= xref:Application.adoc[Application]::timeSinceStart
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L115[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64]
+timeSinceStart() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

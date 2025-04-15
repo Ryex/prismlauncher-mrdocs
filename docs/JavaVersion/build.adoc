@@ -1,0 +1,19 @@
+[#JavaVersion-build]
+= xref:JavaVersion.adoc[JavaVersion]::build
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaVersion.h#L36[java&sol;JavaVersion&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+build() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

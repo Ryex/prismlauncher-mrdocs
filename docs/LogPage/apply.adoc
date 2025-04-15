@@ -1,0 +1,20 @@
+[#LogPage-apply]
+= xref:LogPage.adoc[LogPage]::apply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/LogPage.h#L60[ui&sol;pages&sol;instance&sol;LogPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+apply() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

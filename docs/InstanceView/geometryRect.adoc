@@ -1,0 +1,23 @@
+[#InstanceView-geometryRect]
+= xref:InstanceView.adoc[InstanceView]::geometryRect
+:relfileprefix: ../
+:mrdocs:
+
+
+return geometry rectangle occupied by the specified model item
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L62[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QRect.adoc[QRect]
+geometryRect(xref:QModelIndex.adoc[QModelIndex] const& index) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

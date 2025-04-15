@@ -1,0 +1,24 @@
+[#ResourceDownload-ResourcePackResourcePage-triggerSearch]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourcePage.adoc[ResourcePackResourcePage]::triggerSearch
+:relfileprefix: ../../
+:mrdocs:
+
+
+&ast;&ast;&ast;&ast;&ast;&ast; Callbacks to events in the UI (set up in the derived classes) &ast;&ast;&ast;&ast;&ast;&ast;&ast;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackPage.h#L49[ui&sol;pages&sol;modplatform&sol;ResourcePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+triggerSearch() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

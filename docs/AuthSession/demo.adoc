@@ -1,0 +1,18 @@
+[#AuthSession-demo]
+= xref:AuthSession.adoc[AuthSession]::demo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AuthSession.h#L40[minecraft&sol;auth&sol;AuthSession&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool demo = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

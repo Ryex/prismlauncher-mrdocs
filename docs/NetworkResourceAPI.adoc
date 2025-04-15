@@ -1,0 +1,106 @@
+[#NetworkResourceAPI]
+= NetworkResourceAPI
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/NetworkResourceAPI.h#L10[modplatform&sol;helpers&sol;NetworkResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class NetworkResourceAPI
+    : public xref:ResourceAPI.adoc[ResourceAPI];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/DependencySearchArgs.adoc[`DependencySearchArgs`] 
+| 
+
+| xref:ResourceAPI/DependencySearchCallbacks.adoc[`DependencySearchCallbacks`] 
+| 
+
+| xref:ResourceAPI/ProjectInfoArgs.adoc[`ProjectInfoArgs`] 
+| 
+
+| xref:ResourceAPI/ProjectInfoCallbacks.adoc[`ProjectInfoCallbacks`] 
+| 
+
+| xref:ResourceAPI/SearchArgs.adoc[`SearchArgs`] 
+| 
+
+| xref:ResourceAPI/SearchCallbacks.adoc[`SearchCallbacks`] 
+| 
+
+| xref:ResourceAPI/SortingMethod.adoc[`SortingMethod`] 
+| 
+
+| xref:ResourceAPI/VersionSearchArgs.adoc[`VersionSearchArgs`] 
+| 
+
+| xref:ResourceAPI/VersionSearchCallbacks.adoc[`VersionSearchCallbacks`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/getDependencyVersion.adoc[`getDependencyVersion`] 
+| 
+| xref:ResourceAPI/getProject.adoc[`getProject`] 
+| 
+| xref:ResourceAPI/getProjectInfo.adoc[`getProjectInfo`] 
+| 
+| xref:ResourceAPI/getProjectVersions.adoc[`getProjectVersions`] 
+| 
+| xref:ResourceAPI/getProjects.adoc[`getProjects`] 
+| 
+
+| xref:ResourceAPI/getSortingMethods.adoc[`getSortingMethods`] 
+| Gets a list of available sorting methods for this API&period;
+
+
+
+| xref:ResourceAPI/searchProjects.adoc[`searchProjects`] 
+| 
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/debugName.adoc[`debugName`] 
+| 
+
+| xref:NetworkResourceAPI/getDependencyURL.adoc[`getDependencyURL`] 
+| 
+
+| xref:ResourceAPI/getGameVersionsString.adoc[`getGameVersionsString`] 
+| 
+
+| xref:NetworkResourceAPI/getInfoURL.adoc[`getInfoURL`] 
+| 
+
+| xref:NetworkResourceAPI/getSearchURL.adoc[`getSearchURL`] 
+| 
+
+| xref:NetworkResourceAPI/getVersionsURL.adoc[`getVersionsURL`] 
+| 
+
+| xref:ResourceAPI/mapMCVersionToModrinth.adoc[`mapMCVersionToModrinth`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

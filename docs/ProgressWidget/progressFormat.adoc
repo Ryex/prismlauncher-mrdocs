@@ -1,0 +1,24 @@
+[#ProgressWidget-progressFormat]
+= xref:ProgressWidget.adoc[ProgressWidget]::progressFormat
+:relfileprefix: ../
+:mrdocs:
+
+
+The text that shows up in the middle of the progress bar&period;
+By default it&apos;s &apos;%p%&apos;, with &apos;%p&apos; being the total progress in percentage&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProgressWidget.h#L26[ui&sol;widgets&sol;ProgressWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+progressFormat(xref:QString.adoc[QString]);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

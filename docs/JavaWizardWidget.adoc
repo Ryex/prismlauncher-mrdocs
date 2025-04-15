@@ -1,0 +1,161 @@
+[#JavaWizardWidget]
+= JavaWizardWidget
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L22[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class JavaWizardWidget
+    : public xref:QWidget.adoc[QWidget]
+    , public xref:QWidget.adoc[QWidget];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardWidget/JavaStatus.adoc[`JavaStatus`] 
+| 
+
+| xref:JavaWizardWidget/ValidationStatus.adoc[`ValidationStatus`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardWidget/2constructor.adoc[`JavaWizardWidget`]         [.small]#[constructor]#
+| 
+
+| xref:JavaWizardWidget/autoDetectJava.adoc[`autoDetectJava`] 
+| 
+
+| xref:JavaWizardWidget/autoDownloadJava.adoc[`autoDownloadJava`] 
+| 
+
+| xref:JavaWizardWidget/initialize.adoc[`initialize`] 
+| 
+
+| xref:JavaWizardWidget/javaPath.adoc[`javaPath`] 
+| 
+
+| xref:JavaWizardWidget/maxHeapSize.adoc[`maxHeapSize`] 
+| 
+
+| xref:JavaWizardWidget/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:JavaWizardWidget/minHeapSize.adoc[`minHeapSize`] 
+| 
+
+| xref:JavaWizardWidget/permGenEnabled.adoc[`permGenEnabled`] 
+| 
+
+| xref:JavaWizardWidget/permGenSize.adoc[`permGenSize`] 
+| 
+
+| xref:JavaWizardWidget/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:JavaWizardWidget/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:JavaWizardWidget/refresh.adoc[`refresh`] 
+| 
+
+| xref:JavaWizardWidget/retranslate.adoc[`retranslate`] 
+| 
+
+| xref:JavaWizardWidget/updateThresholds.adoc[`updateThresholds`] 
+| 
+
+| xref:JavaWizardWidget/validate.adoc[`validate`] 
+| 
+
+| xref:JavaWizardWidget/2destructor.adoc[`&tilde;JavaWizardWidget`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardWidget/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardWidget/javaStatus.adoc[`javaStatus`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardWidget/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaWizardWidget/checkFinished.adoc[`checkFinished`] 
+| 
+
+| xref:JavaWizardWidget/checkJavaPath.adoc[`checkJavaPath`] 
+| 
+
+| xref:JavaWizardWidget/checkJavaPathOnEdit.adoc[`checkJavaPathOnEdit`] 
+| 
+
+| xref:JavaWizardWidget/javaDownloadBtn_clicked.adoc[`javaDownloadBtn&lowbar;clicked`] 
+| 
+
+| xref:JavaWizardWidget/javaPathEdited.adoc[`javaPathEdited`] 
+| 
+
+| xref:JavaWizardWidget/javaVersionSelected.adoc[`javaVersionSelected`] 
+| 
+
+| xref:JavaWizardWidget/memoryValueChanged.adoc[`memoryValueChanged`] 
+| 
+
+| xref:JavaWizardWidget/onSpinBoxValueChanged.adoc[`onSpinBoxValueChanged`] 
+| 
+
+| xref:JavaWizardWidget/on_javaBrowseBtn_clicked.adoc[`on&lowbar;javaBrowseBtn&lowbar;clicked`] 
+| 
+
+| xref:JavaWizardWidget/on_javaStatusBtn_clicked.adoc[`on&lowbar;javaStatusBtn&lowbar;clicked`] 
+| 
+
+| xref:JavaWizardWidget/setJavaStatus.adoc[`setJavaStatus`] 
+| 
+
+| xref:JavaWizardWidget/setupUi.adoc[`setupUi`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

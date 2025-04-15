@@ -1,0 +1,20 @@
+[#ShaderPackFolderModel-id]
+= xref:ShaderPackFolderModel.adoc[ShaderPackFolderModel]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ShaderPackFolderModel.h#L15[minecraft&sol;mod&sol;ShaderPackFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

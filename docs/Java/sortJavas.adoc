@@ -1,0 +1,21 @@
+[#Java-sortJavas]
+= xref:Java.adoc[Java]::sortJavas
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/VersionList.cpp#L101[ui&sol;java&sol;VersionList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+sortJavas(
+    xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] left,
+    xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr] right);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,32 @@
+[#SettingsObject-connectSignals]
+= xref:SettingsObject.adoc[SettingsObject]::connectSignals
+:relfileprefix: ../
+:mrdocs:
+
+
+Connects the necessary signals to the given Setting&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L187[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+connectSignals(xref:Setting.adoc[Setting] const& setting);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *setting*
+| The setting to connect&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

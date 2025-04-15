@@ -1,0 +1,21 @@
+[#planeIndices]
+= planeIndices
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L94[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QVector.adoc[QVector]&lt;xref:GLushort.adoc[GLushort]&gt; const planeIndices = &lcub;
+    0, 1, 2, 3, 3  &sol;&sol; Face 0 &hyphen; triangle strip ( v0,  v1,  v2,  v3)
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

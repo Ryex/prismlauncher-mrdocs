@@ -1,0 +1,55 @@
+[#PageView]
+= PageView
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer_p.h#L85[ui&sol;widgets&sol;PageContainer&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PageView
+    : public xref:QListView.adoc[QListView];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/ScrollHint.adoc[`ScrollHint`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PageView/2constructor.adoc[`PageView`]         [.small]#[constructor]#
+| 
+
+| xref:PageView/eventFilter.adoc[`eventFilter`] 
+| 
+
+| xref:PageView/sizeHint.adoc[`sizeHint`] 
+| 
+
+|===
+
+== Protected Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QAbstractItemView/CursorAction.adoc[`CursorAction`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

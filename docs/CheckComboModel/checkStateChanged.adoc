@@ -1,0 +1,19 @@
+[#CheckComboModel-checkStateChanged]
+= xref:CheckComboModel.adoc[CheckComboModel]::checkStateChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/CheckComboBox.cpp#L67[ui&sol;widgets&sol;CheckComboBox&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+checkStateChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,51 @@
+[#FS-FilesystemInfo]
+= xref:FS.adoc[FS]::FilesystemInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L440[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct FilesystemInfo;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/FilesystemInfo/blockSize.adoc[`blockSize`] 
+| 
+
+| xref:FS/FilesystemInfo/bytesAvailable.adoc[`bytesAvailable`] 
+| 
+
+| xref:FS/FilesystemInfo/bytesFree.adoc[`bytesFree`] 
+| 
+
+| xref:FS/FilesystemInfo/bytesTotal.adoc[`bytesTotal`] 
+| 
+
+| xref:FS/FilesystemInfo/fsType.adoc[`fsType`] 
+| 
+
+| xref:FS/FilesystemInfo/fsTypeName.adoc[`fsTypeName`] 
+| 
+
+| xref:FS/FilesystemInfo/name.adoc[`name`] 
+| 
+
+| xref:FS/FilesystemInfo/rootPath.adoc[`rootPath`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

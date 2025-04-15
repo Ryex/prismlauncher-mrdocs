@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_resources]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;resources
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L259[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:Resource.adoc[Resource]::xref:Resource/Ptr.adoc[Ptr]&gt; m&lowbar;resources;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#Ui-ProxyPage]
+= xref:Ui.adoc[Ui]::ProxyPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/ProxyPage.h#L47[ui&sol;pages&sol;global&sol;ProxyPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ProxyPage
+    : public xref:Ui_ProxyPage.adoc[Ui&lowbar;ProxyPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

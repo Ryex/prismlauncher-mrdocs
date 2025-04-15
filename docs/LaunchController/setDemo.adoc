@@ -1,0 +1,19 @@
+[#LaunchController-setDemo]
+= xref:LaunchController.adoc[LaunchController]::setDemo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LaunchController.h#L61[LaunchController&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setDemo(bool demo);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

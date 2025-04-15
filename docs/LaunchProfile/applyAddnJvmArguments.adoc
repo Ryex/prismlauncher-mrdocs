@@ -1,0 +1,19 @@
+[#LaunchProfile-applyAddnJvmArguments]
+= xref:LaunchProfile.adoc[LaunchProfile]::applyAddnJvmArguments
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L51[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applyAddnJvmArguments(xref:QStringList.adoc[QStringList] const& minecraftArguments);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

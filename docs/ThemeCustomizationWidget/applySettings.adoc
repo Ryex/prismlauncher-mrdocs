@@ -1,0 +1,19 @@
+[#ThemeCustomizationWidget-applySettings]
+= xref:ThemeCustomizationWidget.adoc[ThemeCustomizationWidget]::applySettings
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ThemeCustomizationWidget.h#L38[ui&sol;widgets&sol;ThemeCustomizationWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+applySettings();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

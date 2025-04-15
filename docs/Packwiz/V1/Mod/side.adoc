@@ -1,0 +1,18 @@
+[#Packwiz-V1-Mod-side]
+= xref:Packwiz.adoc[Packwiz]::xref:Packwiz/V1.adoc[V1]::xref:Packwiz/V1/Mod.adoc[Mod]::side
+:relfileprefix: ../../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/packwiz/Packwiz.h#L46[modplatform&sol;packwiz&sol;Packwiz&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Packwiz/V1/Side.adoc[Side] side = &lcub; Side&colon;&colon;UniversalSide &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

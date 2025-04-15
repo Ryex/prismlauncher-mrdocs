@@ -1,0 +1,18 @@
+[#Setting-m_defVal]
+= xref:Setting.adoc[Setting]::m&lowbar;defVal
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/Setting.h#L108[settings&sol;Setting&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant] m&lowbar;defVal;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

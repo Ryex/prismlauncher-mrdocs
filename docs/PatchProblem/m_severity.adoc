@@ -1,0 +1,18 @@
+[#PatchProblem-m_severity]
+= xref:PatchProblem.adoc[PatchProblem]::m&lowbar;severity
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L9[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ProblemSeverity.adoc[ProblemSeverity] m&lowbar;severity;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

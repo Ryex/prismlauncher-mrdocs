@@ -1,0 +1,19 @@
+[#FTBImportAPP-FilterModel-getAvailableSortings]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/FilterModel.adoc[FilterModel]::getAvailableSortings
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/import_ftb/ListModel.h#L34[ui&sol;pages&sol;modplatform&sol;import&lowbar;ftb&sol;ListModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:FTBImportAPP/FilterModel/Sorting.adoc[Sorting]&gt; const
+getAvailableSortings();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

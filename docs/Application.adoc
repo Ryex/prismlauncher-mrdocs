@@ -1,0 +1,292 @@
+[#Application]
+= Application
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L91[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class Application
+    : public xref:QApplication.adoc[QApplication];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Application/Capabilities.adoc[`Capabilities`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Application/Capability.adoc[`Capability`] 
+| 
+
+| xref:Application/Status.adoc[`Status`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Application/2constructor.adoc[`Application`]         [.small]#[constructor]#
+| 
+
+| xref:Application/ShowGlobalSettings.adoc[`ShowGlobalSettings`] 
+| 
+
+| xref:Application/accounts.adoc[`accounts`] 
+| 
+
+| xref:Application/addQSavePath.adoc[`addQSavePath`] 
+| 
+
+| xref:Application/capabilities.adoc[`capabilities`] 
+| 
+
+| xref:Application/checkQSavePath.adoc[`checkQSavePath`] 
+| 
+
+| xref:Application/closeCurrentWindow.adoc[`closeCurrentWindow`] 
+| 
+
+| xref:Application/currentCatChanged.adoc[`currentCatChanged`] 
+| 
+
+| xref:Application/dataRoot.adoc[`dataRoot`] 
+| the data path the application is using
+
+
+
+| xref:Application/detectLibraries.adoc[`detectLibraries`] 
+| 
+
+| xref:Application/event.adoc[`event`] 
+| 
+
+| xref:Application/getFlameAPIKey.adoc[`getFlameAPIKey`] 
+| 
+
+| xref:Application/getJarPath.adoc[`getJarPath`] 
+| Finds and returns the full path to a jar file&period;
+Returns a null&hyphen;string if it could not be found&period;
+
+
+
+| xref:Application/getMSAClientID.adoc[`getMSAClientID`] 
+| 
+
+| xref:Application/getModrinthAPIToken.adoc[`getModrinthAPIToken`] 
+| 
+
+| xref:Application/getThemedIcon.adoc[`getThemedIcon`] 
+| 
+
+| xref:Application/getUserAgent.adoc[`getUserAgent`] 
+| 
+
+| xref:Application/getUserAgentUncached.adoc[`getUserAgentUncached`] 
+| 
+
+| xref:Application/globalSettingsAboutToOpen.adoc[`globalSettingsAboutToOpen`] 
+| 
+
+| xref:Application/globalSettingsClosed.adoc[`globalSettingsClosed`] 
+| 
+
+| xref:Application/icons.adoc[`icons`] 
+| 
+
+| xref:Application/instances.adoc[`instances`] 
+| 
+
+| xref:Application/isPortable.adoc[`isPortable`] 
+| 
+
+| xref:Application/javaPath.adoc[`javaPath`] 
+| the java installed path the application is using
+
+
+
+| xref:Application/javalist.adoc[`javalist`] 
+| 
+
+| xref:Application/kill.adoc[`kill`] 
+| 
+
+| xref:Application/launch.adoc[`launch`] 
+| 
+
+| xref:Application/mcedit.adoc[`mcedit`] 
+| 
+
+| xref:Application/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Application/metacache.adoc[`metacache`] 
+| 
+
+| xref:Application/metadataIndex.adoc[`metadataIndex`] 
+| 
+
+| xref:Application/network.adoc[`network`] 
+| 
+
+| xref:Application/normalizeImportUrl.adoc[`normalizeImportUrl`] 
+| 
+
+| xref:Application/oauthReplyRecieved.adoc[`oauthReplyRecieved`] 
+| 
+
+| xref:Application/openJsonEditor.adoc[`openJsonEditor`] 
+| Opens a json file using either a system default editor, or, if not empty, the editor
+specified in the settings
+
+
+
+| xref:Application/profilers.adoc[`profilers`] 
+| 
+
+| xref:Application/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Application/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Application/removeQSavePath.adoc[`removeQSavePath`] 
+| 
+
+| xref:Application/root.adoc[`root`] 
+| this is the root of the &apos;installation&apos;&period; Used for automatic updates
+
+
+
+| xref:Application/settings.adoc[`settings`] 
+| 
+
+| xref:Application/showInstanceWindow.adoc[`showInstanceWindow`] 
+| 
+
+| xref:Application/showMainWindow.adoc[`showMainWindow`] 
+| 
+
+| xref:Application/status.adoc[`status`] 
+| 
+
+| xref:Application/themeManager.adoc[`themeManager`] 
+| 
+
+| xref:Application/timeSinceStart.adoc[`timeSinceStart`] 
+| 
+
+| xref:Application/translations.adoc[`translations`] 
+| 
+
+| xref:Application/triggerUpdateCheck.adoc[`triggerUpdateCheck`] 
+| 
+
+| xref:Application/updateAllowedChanged.adoc[`updateAllowedChanged`] 
+| 
+
+| xref:Application/updateCapabilities.adoc[`updateCapabilities`] 
+| 
+
+| xref:Application/updateIsRunning.adoc[`updateIsRunning`] 
+| 
+
+| xref:Application/updateProxySettings.adoc[`updateProxySettings`] 
+| 
+
+| xref:Application/updater.adoc[`updater`] 
+| 
+
+| xref:Application/updaterBinaryName.adoc[`updaterBinaryName`] 
+| 
+
+| xref:Application/updaterEnabled.adoc[`updaterEnabled`] 
+| 
+
+| xref:Application/updatesAreAllowed.adoc[`updatesAreAllowed`] 
+| 
+
+| xref:Application/2destructor.adoc[`&tilde;Application`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Application/tr.adoc[`tr`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Application/logFile.adoc[`logFile`] 
+| 
+
+| xref:Application/m_detectedGLFWPath.adoc[`m&lowbar;detectedGLFWPath`] 
+| 
+
+| xref:Application/m_detectedOpenALPath.adoc[`m&lowbar;detectedOpenALPath`] 
+| 
+
+| xref:Application/m_instanceIdToLaunch.adoc[`m&lowbar;instanceIdToLaunch`] 
+| 
+
+| xref:Application/m_instanceIdToShowWindowOf.adoc[`m&lowbar;instanceIdToShowWindowOf`] 
+| 
+
+| xref:Application/m_liveCheck.adoc[`m&lowbar;liveCheck`] 
+| 
+
+| xref:Application/m_offline.adoc[`m&lowbar;offline`] 
+| 
+
+| xref:Application/m_offlineName.adoc[`m&lowbar;offlineName`] 
+| 
+
+| xref:Application/m_profileToUse.adoc[`m&lowbar;profileToUse`] 
+| 
+
+| xref:Application/m_serverToJoin.adoc[`m&lowbar;serverToJoin`] 
+| 
+
+| xref:Application/m_urlsToImport.adoc[`m&lowbar;urlsToImport`] 
+| 
+
+| xref:Application/m_worldToJoin.adoc[`m&lowbar;worldToJoin`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Application/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

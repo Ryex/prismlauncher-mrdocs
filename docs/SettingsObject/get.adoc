@@ -1,0 +1,39 @@
+[#SettingsObject-get]
+= xref:SettingsObject.adoc[SettingsObject]::get
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the value of the setting with the given ID&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/SettingsObject.h#L112[settings&sol;SettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant]
+get(xref:QString.adoc[QString] const& id) const;
+----
+
+== Return Value
+
+The setting&apos;s value as a QVariant&period;
+If no setting with the given ID exists, returns an invalid QVariant&period;
+
+
+
+== Parameters
+
+|===
+| Name | Description
+
+| *id*
+| The ID of the setting to get&period;
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

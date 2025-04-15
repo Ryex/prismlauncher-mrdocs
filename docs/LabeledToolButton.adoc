@@ -1,0 +1,87 @@
+[#LabeledToolButton]
+= LabeledToolButton
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LabeledToolButton.h#L23[ui&sol;widgets&sol;LabeledToolButton&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LabeledToolButton
+    : public xref:QToolButton.adoc[QToolButton]
+    , public xref:QToolButton.adoc[QToolButton]
+    , public xref:QToolButton.adoc[QToolButton];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LabeledToolButton/2constructor.adoc[`LabeledToolButton`]         [.small]#[constructor]#
+| 
+
+| xref:LabeledToolButton/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:LabeledToolButton/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:LabeledToolButton/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:LabeledToolButton/setIcon.adoc[`setIcon`] 
+| 
+
+| xref:LabeledToolButton/setText.adoc[`setText`] 
+| 
+
+| xref:LabeledToolButton/sizeHint.adoc[`sizeHint`] 
+| 
+
+
+
+
+| xref:LabeledToolButton/text.adoc[`text`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LabeledToolButton/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LabeledToolButton/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LabeledToolButton/resetIcon.adoc[`resetIcon`] 
+| 
+
+| xref:LabeledToolButton/resizeEvent.adoc[`resizeEvent`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

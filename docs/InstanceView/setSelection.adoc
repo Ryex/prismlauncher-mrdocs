@@ -1,0 +1,22 @@
+[#InstanceView-setSelection]
+= xref:InstanceView.adoc[InstanceView]::setSelection
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L68[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+setSelection(
+    xref:QRect.adoc[QRect] const& rect,
+    xref:QItemSelectionModel.adoc[QItemSelectionModel]::xref:QItemSelectionModel/SelectionFlags.adoc[SelectionFlags] commands) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

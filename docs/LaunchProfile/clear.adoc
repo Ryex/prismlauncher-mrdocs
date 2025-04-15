@@ -1,0 +1,23 @@
+[#LaunchProfile-clear]
+= xref:LaunchProfile.adoc[LaunchProfile]::clear
+:relfileprefix: ../
+:mrdocs:
+
+
+clear the profile
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L66[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+clear();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

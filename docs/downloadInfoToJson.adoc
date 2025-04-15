@@ -1,0 +1,20 @@
+[#downloadInfoToJson]
+= downloadInfoToJson
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangVersionFormat.cpp#L52[minecraft&sol;MojangVersionFormat&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QJsonObject.adoc[QJsonObject]
+downloadInfoToJson(xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::xref:MojangDownloadInfo/Ptr.adoc[Ptr] info);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

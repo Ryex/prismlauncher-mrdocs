@@ -1,0 +1,19 @@
+[#LogModel-suspend]
+= xref:LogModel.adoc[LogModel]::suspend
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L18[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+suspend(bool suspend);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

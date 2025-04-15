@@ -1,0 +1,18 @@
+[#ModPlatform-ModpackAuthor-name]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModpackAuthor.adoc[ModpackAuthor]::name
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L50[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] name;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

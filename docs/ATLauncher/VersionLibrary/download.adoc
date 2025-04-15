@@ -1,0 +1,18 @@
+[#ATLauncher-VersionLibrary-download]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/VersionLibrary.adoc[VersionLibrary]::download
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L86[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ATLauncher/DownloadType.adoc[DownloadType] download;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

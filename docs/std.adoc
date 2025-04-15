@@ -1,0 +1,197 @@
+[#std]
+= std
+:relfileprefix: 
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/__cxx11.adoc[`&lowbar;&lowbar;cxx11`] 
+| 
+
+| xref:std/__detail.adoc[`&lowbar;&lowbar;detail`] 
+| 
+
+| xref:std/chrono.adoc[`chrono`] 
+| @&rcub; group chrono
+
+
+
+| xref:std/filesystem.adoc[`filesystem`] 
+| 
+
+|===
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/_Enable_copy_move.adoc[`&lowbar;Enable&lowbar;copy&lowbar;move`] 
+| A mixin helper to conditionally enable or disable the copy&sol;move
+special members&period;
+
+| xref:std/_Optional_base.adoc[`&lowbar;Optional&lowbar;base`] 
+| Class template that provides copy&sol;move constructors of optional&period;
+
+| xref:std/_Optional_base_impl.adoc[`&lowbar;Optional&lowbar;base&lowbar;impl`] 
+| 
+
+| xref:std/_Tuple_impl.adoc[`&lowbar;Tuple&lowbar;impl`] 
+| Contains the actual implementation of the
+`tuple`
+template, stored
+as a recursive inheritance hierarchy from the first element (most
+derived class) to the last (least derived class)&period; The
+`Idx`
+parameter gives the 0&hyphen;based index of the element stored at this
+point in the hierarchy&semi; we use it to implement a constant&hyphen;time
+get() operation&period;
+
+
+
+| xref:std/_Vector_base.adoc[`&lowbar;Vector&lowbar;base`] 
+| See bits&sol;stl&lowbar;deque&period;h&apos;s &lowbar;Deque&lowbar;base for an explanation&period;
+
+
+
+| xref:std/__allocator_base.adoc[`&lowbar;&lowbar;allocator&lowbar;base`] 
+| An alias to the base class for std&colon;&colon;allocator&period;
+
+| xref:std/__atomic_base.adoc[`&lowbar;&lowbar;atomic&lowbar;base`] 
+| Base class for atomic integrals&period;
+
+
+
+| xref:std/__new_allocator.adoc[`&lowbar;&lowbar;new&lowbar;allocator`] 
+| An allocator that uses global &grave;new&grave;, as per C&plus;&plus;03 &lsqb;20&period;4&period;1&rsqb;&period;
+
+| xref:std/__pair_base.adoc[`&lowbar;&lowbar;pair&lowbar;base`] 
+| 
+
+| xref:std/__shared_ptr.adoc[`&lowbar;&lowbar;shared&lowbar;ptr`] 
+| 
+
+| xref:std/__shared_ptr_access.adoc[`&lowbar;&lowbar;shared&lowbar;ptr&lowbar;access`] 
+| 
+
+| xref:std/__weak_ptr.adoc[`&lowbar;&lowbar;weak&lowbar;ptr`] 
+| 
+
+| xref:std/allocator.adoc[`allocator`] 
+| The
+_standard_
+allocator, as per C&plus;&plus;03 &lsqb;20&period;4&period;1&rsqb;&period;
+
+| xref:std/array.adoc[`array`] 
+| A standard container for storing a fixed size sequence of elements&period;
+
+| xref:std/atomic.adoc[`atomic&lt;int&gt;`] 
+| Explicit specialization for int&period;
+
+
+
+| xref:std/binary_function.adoc[`binary&lowbar;function`] 
+| Helper for defining adaptable binary function objects&period;
+
+
+
+| xref:std/char_traits.adoc[`char&lowbar;traits`] 
+| @&lcub;
+
+
+
+| xref:std/default_delete.adoc[`default&lowbar;delete`] 
+| Primary template of default&lowbar;delete, used by unique&lowbar;ptr for single objects
+
+
+
+| xref:std/enable_shared_from_this.adoc[`enable&lowbar;shared&lowbar;from&lowbar;this`] 
+| Base class allowing use of the member function &grave;shared&lowbar;from&lowbar;this&grave;&period;
+
+| xref:std/error_code.adoc[`error&lowbar;code`] 
+| Class error&lowbar;code
+
+
+
+| xref:std/exception.adoc[`exception`] 
+| Base class for all library exceptions&period;
+
+| xref:std/function.adoc[`function`] 
+| 
+
+| xref:std/less.adoc[`less`] 
+| One of the
+
+
+
+| xref:std/monostate.adoc[`monostate`] 
+| 
+
+| xref:std/nullopt_t.adoc[`nullopt&lowbar;t`] 
+| Tag type to disengage optional objects&period;
+
+
+
+| xref:std/nullptr_t.adoc[`nullptr&lowbar;t`] 
+| 
+
+| xref:std/optional.adoc[`optional`] 
+| Class template for optional values&period;
+
+| xref:std/pair.adoc[`pair`] 
+| Struct holding two objects of arbitrary type&period;
+
+| xref:std/set.adoc[`set`] 
+| 
+
+| xref:std/shared_ptr.adoc[`shared&lowbar;ptr`] 
+| A smart pointer with reference&hyphen;counted copy semantics&period;
+
+| xref:std/size_t.adoc[`size&lowbar;t`] 
+| 
+
+| xref:std/string.adoc[`string`] 
+| A string of
+`char`
+
+
+
+| xref:std/tuple.adoc[`tuple`] 
+| Primary class template, tuple
+
+
+
+| xref:std/unique_ptr.adoc[`unique&lowbar;ptr`] 
+| A move&hyphen;only smart pointer that manages unique ownership of a resource&period;
+
+
+
+| xref:std/variant.adoc[`variant`] 
+| 
+
+| xref:std/vector.adoc[`vector`] 
+| A standard container which offers fixed time access to
+individual elements in any order&period;
+
+| xref:std/weak_ptr.adoc[`weak&lowbar;ptr`] 
+| A non&hyphen;owning observer for a pointer owned by a shared&lowbar;ptr
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/nullopt.adoc[`nullopt`] 
+| Tag to disengage optional objects&period;
+
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,72 @@
+[#ThemeManager]
+= ThemeManager
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L39[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ThemeManager;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ThemeManager/2constructor.adoc[`ThemeManager`]         [.small]#[constructor]#
+| 
+
+| xref:ThemeManager/applyCurrentlySelectedTheme.adoc[`applyCurrentlySelectedTheme`] 
+| 
+
+| xref:ThemeManager/getApplicationThemesFolder.adoc[`getApplicationThemesFolder`] 
+| 
+
+| xref:ThemeManager/getCatPack.adoc[`getCatPack`] 
+| Returns the background based on selected and with events (Birthday, XMas, etc&period;)
+
+| xref:ThemeManager/getCatPacksFolder.adoc[`getCatPacksFolder`] 
+| 
+
+| xref:ThemeManager/getIconThemesFolder.adoc[`getIconThemesFolder`] 
+| 
+
+| xref:ThemeManager/getLogColors.adoc[`getLogColors`] 
+| 
+
+| xref:ThemeManager/getValidApplicationThemes.adoc[`getValidApplicationThemes`] 
+| 
+
+| xref:ThemeManager/getValidCatPacks.adoc[`getValidCatPacks`] 
+| 
+
+| xref:ThemeManager/getValidIconThemes.adoc[`getValidIconThemes`] 
+| 
+
+| xref:ThemeManager/isValidApplicationTheme.adoc[`isValidApplicationTheme`] 
+| 
+
+| xref:ThemeManager/isValidIconTheme.adoc[`isValidIconTheme`] 
+| 
+
+| xref:ThemeManager/refresh.adoc[`refresh`] 
+| 
+
+| xref:ThemeManager/setApplicationTheme.adoc[`setApplicationTheme`] 
+| 
+
+| xref:ThemeManager/setIconTheme.adoc[`setIconTheme`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

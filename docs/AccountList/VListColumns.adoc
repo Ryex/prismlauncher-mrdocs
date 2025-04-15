@@ -1,0 +1,35 @@
+[#AccountList-VListColumns]
+= xref:AccountList.adoc[AccountList]::VListColumns
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L55[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum VListColumns;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`ProfileNameColumn`
+|
+|`NameColumn`
+|
+|`TypeColumn`
+|
+|`StatusColumn`
+|
+|`NUM&lowbar;COLUMNS`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

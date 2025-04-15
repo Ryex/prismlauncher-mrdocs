@@ -1,0 +1,18 @@
+[#ProjectDescriptionPage-2constructor]
+= xref:ProjectDescriptionPage.adoc[ProjectDescriptionPage]::ProjectDescriptionPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ProjectDescriptionPage.h#L18[ui&sol;widgets&sol;ProjectDescriptionPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ProjectDescriptionPage(xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

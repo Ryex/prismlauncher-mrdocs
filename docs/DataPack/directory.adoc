@@ -1,0 +1,20 @@
+[#DataPack-directory]
+= xref:DataPack.adoc[DataPack]::directory
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/DataPack.h#L60[minecraft&sol;mod&sol;DataPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+directory();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

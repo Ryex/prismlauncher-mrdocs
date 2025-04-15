@@ -1,0 +1,48 @@
+[#BasicCatPack]
+= BasicCatPack
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L51[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BasicCatPack
+    : public xref:CatPack.adoc[CatPack];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasicCatPack/2constructor.adoc[`BasicCatPack`]         [.small]#[constructor]#
+| 
+| xref:CatPack/id.adoc[`id`] 
+| 
+| xref:CatPack/name.adoc[`name`] 
+| 
+| xref:CatPack/path.adoc[`path`] 
+| 
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BasicCatPack/m_id.adoc[`m&lowbar;id`] 
+| 
+
+| xref:BasicCatPack/m_name.adoc[`m&lowbar;name`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

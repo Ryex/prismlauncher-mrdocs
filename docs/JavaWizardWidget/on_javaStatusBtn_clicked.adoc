@@ -1,0 +1,19 @@
+[#JavaWizardWidget-on_javaStatusBtn_clicked]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::on&lowbar;javaStatusBtn&lowbar;clicked
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L54[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;javaStatusBtn&lowbar;clicked();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

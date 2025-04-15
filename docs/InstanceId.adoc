@@ -1,0 +1,18 @@
+[#InstanceId]
+= InstanceId
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L51[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using InstanceId = xref:QString.adoc[QString];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

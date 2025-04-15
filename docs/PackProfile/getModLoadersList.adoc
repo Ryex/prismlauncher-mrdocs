@@ -1,0 +1,19 @@
+[#PackProfile-getModLoadersList]
+= xref:PackProfile.adoc[PackProfile]::getModLoadersList
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L162[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderType.adoc[ModLoaderType]&gt;
+getModLoadersList();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

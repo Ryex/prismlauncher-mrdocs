@@ -1,0 +1,20 @@
+[#ClaimAccount-qt_metacast]
+= xref:ClaimAccount.adoc[ClaimAccount]::qt&lowbar;metacast
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/ClaimAccount.h#L22[minecraft&sol;launch&sol;ClaimAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void*
+qt&lowbar;metacast(char const*);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

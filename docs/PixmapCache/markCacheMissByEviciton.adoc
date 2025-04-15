@@ -1,0 +1,20 @@
+[#PixmapCache-markCacheMissByEviciton]
+= xref:PixmapCache.adoc[PixmapCache]::markCacheMissByEviciton
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/MTPixmapCache.h#L66[MTPixmapCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+bool
+markCacheMissByEviciton();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

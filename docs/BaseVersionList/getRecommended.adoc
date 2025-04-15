@@ -1,0 +1,23 @@
+[#BaseVersionList-getRecommended]
+= xref:BaseVersionList.adoc[BaseVersionList]::getRecommended
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets the recommended version from this list
+If the list doesn&apos;t support recommended versions, this works exactly as getLatestStable
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseVersionList.h#L99[BaseVersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]
+getRecommended() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,76 @@
+[#Json-toJson]
+= xref:Json.adoc[Json]::toJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L80[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;typename T&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-00.adoc[toJson](T const& t);
+----
+
+[.small]#xref:Json/toJson-00.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-05.adoc[toJson]&lt;xref:QUrl.adoc[QUrl], xref:QUrl.adoc[QUrl]&gt;(xref:QUrl.adoc[QUrl] const& url);
+----
+
+[.small]#xref:Json/toJson-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-0d9.adoc[toJson]&lt;xref:QByteArray.adoc[QByteArray], xref:QByteArray.adoc[QByteArray]&gt;(xref:QByteArray.adoc[QByteArray] const& data);
+----
+
+[.small]#xref:Json/toJson-0d9.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-0b.adoc[toJson]&lt;xref:QDateTime.adoc[QDateTime], xref:QDateTime.adoc[QDateTime]&gt;(xref:QDateTime.adoc[QDateTime] const& datetime);
+----
+
+[.small]#xref:Json/toJson-0b.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-03.adoc[toJson]&lt;xref:QDir.adoc[QDir], xref:QDir.adoc[QDir]&gt;(xref:QDir.adoc[QDir] const& dir);
+----
+
+[.small]#xref:Json/toJson-03.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-0f.adoc[toJson]&lt;xref:QUuid.adoc[QUuid], xref:QUuid.adoc[QUuid]&gt;(xref:QUuid.adoc[QUuid] const& uuid);
+----
+
+[.small]#xref:Json/toJson-0f.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QJsonValue.adoc[QJsonValue]
+xref:Json/toJson-0d1.adoc[toJson]&lt;xref:QVariant.adoc[QVariant], xref:QVariant.adoc[QVariant]&gt;(xref:QVariant.adoc[QVariant] const& variant);
+----
+
+[.small]#xref:Json/toJson-0d1.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

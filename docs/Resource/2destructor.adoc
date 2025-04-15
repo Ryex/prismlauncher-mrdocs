@@ -1,0 +1,19 @@
+[#Resource-2destructor]
+= xref:Resource.adoc[Resource]::&tilde;Resource
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.h#L81[minecraft&sol;mod&sol;Resource&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;Resource() override = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

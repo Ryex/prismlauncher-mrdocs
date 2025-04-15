@@ -1,0 +1,19 @@
+[#std-__detail]
+= xref:std.adoc[std]::&lowbar;&lowbar;detail
+:relfileprefix: ../
+:mrdocs:
+
+
+== Namespaces
+[cols=2]
+|===
+| Name | Description 
+
+| xref:std/__detail/__variant.adoc[`&lowbar;&lowbar;variant`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,61 @@
+[#WorldListProxyModel]
+= WorldListProxyModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/WorldListPage.cpp#L61[ui&sol;pages&sol;instance&sol;WorldListPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class WorldListProxyModel
+    : public xref:QSortFilterProxyModel.adoc[QSortFilterProxyModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldListProxyModel/2constructor.adoc[`WorldListProxyModel`]         [.small]#[constructor]#
+| 
+
+| xref:WorldListProxyModel/data.adoc[`data`] 
+| 
+
+| xref:WorldListProxyModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:WorldListProxyModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:WorldListProxyModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldListProxyModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WorldListProxyModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

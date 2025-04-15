@@ -1,0 +1,31 @@
+[#ProblemSeverity]
+= ProblemSeverity
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L6[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ProblemSeverity : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`None`
+|
+|`Warning`
+|
+|`Error`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

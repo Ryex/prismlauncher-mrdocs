@@ -1,0 +1,22 @@
+[#IconList-saveIcon]
+= xref:IconList.adoc[IconList]::saveIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L71[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+saveIcon(
+    xref:QString.adoc[QString] const& key,
+    xref:QString.adoc[QString] const& path,
+    char const* format) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PackProfile-minecraftChanged]
+= xref:PackProfile.adoc[PackProfile]::minecraftChanged
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L146[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+minecraftChanged();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

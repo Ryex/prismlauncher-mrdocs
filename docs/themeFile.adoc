@@ -1,0 +1,18 @@
+[#themeFile]
+= themeFile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CustomTheme.cpp#L41[ui&sol;themes&sol;CustomTheme&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+char const* themeFile = &quot;theme&period;json&quot;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

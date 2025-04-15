@@ -1,0 +1,20 @@
+[#PageContainer-getPage]
+= xref:PageContainer.adoc[PageContainer]::getPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L82[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BasePage.adoc[BasePage]*
+getPage(xref:QString.adoc[QString] pageId) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

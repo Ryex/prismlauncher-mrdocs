@@ -1,0 +1,52 @@
+[#BaseDetachedToolFactory]
+= BaseDetachedToolFactory
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tools/BaseExternalTool.h#L50[tools&sol;BaseExternalTool&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class BaseDetachedToolFactory
+    : public xref:BaseExternalToolFactory.adoc[BaseExternalToolFactory]
+    , public xref:BaseExternalToolFactory.adoc[BaseExternalToolFactory];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalToolFactory/check.adoc[`check`] 
+| 
+| xref:BaseDetachedToolFactory/createDetachedTool.adoc[`createDetachedTool`] 
+| 
+
+| xref:BaseExternalToolFactory/createTool.adoc[`createTool`] 
+| 
+
+| xref:BaseExternalToolFactory/name.adoc[`name`] 
+| 
+
+| xref:BaseExternalToolFactory/registerSettings.adoc[`registerSettings`] 
+| 
+
+|===
+
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:BaseExternalToolFactory/globalSettings.adoc[`globalSettings`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

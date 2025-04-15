@@ -1,0 +1,19 @@
+[#PageContainer-2destructor]
+= xref:PageContainer.adoc[PageContainer]::&tilde;PageContainer
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/PageContainer.h#L60[ui&sol;widgets&sol;PageContainer&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PageContainer();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LocalModParseTask-result]
+= xref:LocalModParseTask.adoc[LocalModParseTask]::result
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalModParseTask.h#L40[minecraft&sol;mod&sol;tasks&sol;LocalModParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LocalModParseTask/ResultPtr.adoc[ResultPtr]
+result() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

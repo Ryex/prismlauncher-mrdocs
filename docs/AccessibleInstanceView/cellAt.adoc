@@ -1,0 +1,22 @@
+[#AccessibleInstanceView-cellAt]
+= xref:AccessibleInstanceView.adoc[AccessibleInstanceView]::cellAt
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/AccessibleInstanceView_p.h#L34[ui&sol;instanceview&sol;AccessibleInstanceView&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QAccessibleInterface.adoc[QAccessibleInterface]*
+cellAt(
+    int row,
+    int column) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

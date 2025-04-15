@@ -1,0 +1,19 @@
+[#ThemeManager-getValidApplicationThemes]
+= xref:ThemeManager.adoc[ThemeManager]::getValidApplicationThemes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ThemeManager.h#L44[ui&sol;themes&sol;ThemeManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ITheme.adoc[ITheme]*&gt;
+getValidApplicationThemes();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

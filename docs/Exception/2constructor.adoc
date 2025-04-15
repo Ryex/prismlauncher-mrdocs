@@ -1,0 +1,27 @@
+[#Exception-2constructor]
+= xref:Exception.adoc[Exception]::Exception
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Exception.h#L44[Exception&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Exception/2constructor-05.adoc[Exception](xref:QString.adoc[QString] const& message);
+----
+
+[.small]#xref:Exception/2constructor-05.adoc[_» more..._]#
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Exception/2constructor-08.adoc[Exception](xref:Exception.adoc[Exception] const& other);
+----
+
+[.small]#xref:Exception/2constructor-08.adoc[_» more..._]#
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

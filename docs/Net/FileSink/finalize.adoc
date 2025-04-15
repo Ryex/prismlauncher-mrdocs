@@ -1,0 +1,20 @@
+[#Net-FileSink-finalize]
+= xref:Net.adoc[Net]::xref:Net/FileSink.adoc[FileSink]::finalize
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/FileSink.h#L51[net&sol;FileSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:Task.adoc[Task]::xref:Task/State.adoc[State]
+finalize(xref:QNetworkReply.adoc[QNetworkReply]& reply) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

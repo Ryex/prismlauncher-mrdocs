@@ -1,0 +1,18 @@
+[#BaseInstance-m_rootDir]
+= xref:BaseInstance.adoc[BaseInstance]::m&lowbar;rootDir
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L303[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;rootDir;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

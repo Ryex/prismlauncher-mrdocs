@@ -1,0 +1,19 @@
+[#ConcurrentTask-2destructor]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::&tilde;ConcurrentTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L56[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ConcurrentTask() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

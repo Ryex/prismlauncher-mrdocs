@@ -1,0 +1,19 @@
+[#Net-Download-2constructor]
+= xref:Net.adoc[Net]::xref:Net/Download.adoc[Download]::Download
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Download.h#L51[net&sol;Download&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+Download();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

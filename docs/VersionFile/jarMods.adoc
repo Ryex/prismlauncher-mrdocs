@@ -1,0 +1,22 @@
+[#VersionFile-jarMods]
+= xref:VersionFile.adoc[VersionFile]::jarMods
+:relfileprefix: ../
+:mrdocs:
+
+
+Prism Launcher&colon; list of jar mods added to this version
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L138[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:LibraryPtr.adoc[LibraryPtr]&gt; jarMods;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

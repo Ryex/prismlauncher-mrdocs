@@ -1,0 +1,122 @@
+[#PrismExternalUpdater]
+= PrismExternalUpdater
+:relfileprefix: 
+:mrdocs:
+
+
+An implementation for the updater on windows and linux that uses out external updater&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L33[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PrismExternalUpdater
+    : public xref:ExternalUpdater.adoc[ExternalUpdater];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PrismExternalUpdater/2constructor.adoc[`PrismExternalUpdater`]         [.small]#[constructor]#
+| 
+
+| xref:PrismExternalUpdater/autoCheckTimerFired.adoc[`autoCheckTimerFired`] 
+| 
+
+| xref:ExternalUpdater/canCheckForUpdatesChanged.adoc[`canCheckForUpdatesChanged`] 
+| Emits whenever the user&apos;s ability to check for updates changes&period;
+
+
+
+| xref:ExternalUpdater/checkForUpdates.adoc[`checkForUpdates`] 
+| Check for updates manually, showing the user a progress bar and an alert if no updates are found&period;
+
+
+
+| xref:PrismExternalUpdater/connectTimer.adoc[`connectTimer`] 
+| 
+
+| xref:PrismExternalUpdater/disconnectTimer.adoc[`disconnectTimer`] 
+| 
+
+| xref:ExternalUpdater/getAutomaticallyChecksForUpdates.adoc[`getAutomaticallyChecksForUpdates`] 
+| Indicates whether or not to check for updates automatically&period;
+
+
+
+| xref:ExternalUpdater/getBetaAllowed.adoc[`getBetaAllowed`] 
+| Indicates whether or not beta updates should be checked for in addition to regular releases&period;
+
+
+
+| xref:ExternalUpdater/getUpdateCheckInterval.adoc[`getUpdateCheckInterval`] 
+| Indicates the current automatic update check interval in seconds&period;
+
+
+
+| xref:ExternalUpdater/metaObject.adoc[`metaObject`] 
+| 
+| xref:PrismExternalUpdater/offerUpdate.adoc[`offerUpdate`] 
+| 
+
+| xref:PrismExternalUpdater/performUpdate.adoc[`performUpdate`] 
+| 
+
+| xref:ExternalUpdater/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:ExternalUpdater/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:PrismExternalUpdater/resetAutoCheckTimer.adoc[`resetAutoCheckTimer`] 
+| 
+
+| xref:ExternalUpdater/setAutomaticallyChecksForUpdates.adoc[`setAutomaticallyChecksForUpdates`] 
+| Set whether or not to check for updates automatically&period;
+
+
+
+| xref:ExternalUpdater/setBetaAllowed.adoc[`setBetaAllowed`] 
+| Set whether or not beta updates should be checked for in addition to regular releases&period;
+
+
+
+| xref:ExternalUpdater/setUpdateCheckInterval.adoc[`setUpdateCheckInterval`] 
+| Set the current automatic update check interval in seconds&period;
+
+
+
+| xref:PrismExternalUpdater/2destructor.adoc[`&tilde;PrismExternalUpdater`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalUpdater/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ExternalUpdater/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:PrismExternalUpdater/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

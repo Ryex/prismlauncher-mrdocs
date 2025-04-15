@@ -1,0 +1,22 @@
+[#Ui-WorldListPage]
+= xref:Ui.adoc[Ui]::WorldListPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/WorldListPage.h#L49[ui&sol;pages&sol;instance&sol;WorldListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class WorldListPage
+    : public xref:Ui_WorldListPage.adoc[Ui&lowbar;WorldListPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

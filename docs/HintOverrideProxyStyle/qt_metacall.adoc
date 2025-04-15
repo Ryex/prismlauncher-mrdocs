@@ -1,0 +1,23 @@
+[#HintOverrideProxyStyle-qt_metacall]
+= xref:HintOverrideProxyStyle.adoc[HintOverrideProxyStyle]::qt&lowbar;metacall
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/HintOverrideProxyStyle.h#L26[ui&sol;themes&sol;HintOverrideProxyStyle&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+int
+qt&lowbar;metacall(
+    xref:QMetaObject.adoc[QMetaObject]::xref:QMetaObject/Call.adoc[Call],
+    int,
+    void**);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

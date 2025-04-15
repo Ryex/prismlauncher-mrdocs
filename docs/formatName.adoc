@@ -1,0 +1,21 @@
+[#formatName]
+= formatName
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.cpp#L127[icons&sol;IconList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+formatName(
+    xref:QDir.adoc[QDir] const& iconsDir,
+    xref:QFileInfo.adoc[QFileInfo] const& iconFile);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

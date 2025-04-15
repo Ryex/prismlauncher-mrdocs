@@ -1,0 +1,20 @@
+[#ExternalToolsPage-id]
+= xref:ExternalToolsPage.adoc[ExternalToolsPage]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/ExternalToolsPage.h#L63[ui&sol;pages&sol;global&sol;ExternalToolsPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

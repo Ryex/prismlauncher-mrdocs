@@ -1,0 +1,18 @@
+[#Java-ArchiveDownloadTask-m_final_path]
+= xref:Java.adoc[Java]::xref:Java/ArchiveDownloadTask.adoc[ArchiveDownloadTask]::m&lowbar;final&lowbar;path
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/ArchiveDownloadTask.h#L40[java&sol;download&sol;ArchiveDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;final&lowbar;path;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

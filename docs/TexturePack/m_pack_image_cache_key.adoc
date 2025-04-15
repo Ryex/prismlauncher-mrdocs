@@ -1,0 +1,19 @@
+[#TexturePack-m_pack_image_cache_key]
+= xref:TexturePack.adoc[TexturePack]::m&lowbar;pack&lowbar;image&lowbar;cache&lowbar;key
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L65[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+mutable
+xref:TexturePack/01record.adoc[] m&lowbar;pack&lowbar;image&lowbar;cache&lowbar;key;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

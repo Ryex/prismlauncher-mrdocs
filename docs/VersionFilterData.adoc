@@ -1,0 +1,57 @@
+[#VersionFilterData]
+= VersionFilterData
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFilterData.h#L12[minecraft&sol;VersionFilterData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VersionFilterData;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionFilterData/2constructor.adoc[`VersionFilterData`]         [.small]#[constructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:VersionFilterData/fmlLibsMapping.adoc[`fmlLibsMapping`] 
+| 
+
+| xref:VersionFilterData/forgeInstallerBlacklist.adoc[`forgeInstallerBlacklist`] 
+| 
+
+| xref:VersionFilterData/java16BeginsDate.adoc[`java16BeginsDate`] 
+| 
+
+| xref:VersionFilterData/java17BeginsDate.adoc[`java17BeginsDate`] 
+| 
+
+| xref:VersionFilterData/java8BeginsDate.adoc[`java8BeginsDate`] 
+| 
+
+| xref:VersionFilterData/legacyCutoffDate.adoc[`legacyCutoffDate`] 
+| 
+
+| xref:VersionFilterData/lwjglWhitelist.adoc[`lwjglWhitelist`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

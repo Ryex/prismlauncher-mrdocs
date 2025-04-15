@@ -1,0 +1,20 @@
+[#VertexData-2constructor]
+= xref:VertexData.adoc[VertexData]::VertexData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L29[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+VertexData(
+    xref:QVector4D.adoc[QVector4D] const& pos,
+    xref:QVector2D.adoc[QVector2D] const& tex);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

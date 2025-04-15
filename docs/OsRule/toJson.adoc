@@ -1,0 +1,20 @@
+[#OsRule-toJson]
+= xref:OsRule.adoc[OsRule]::toJson
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L81[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QJsonObject.adoc[QJsonObject]
+toJson();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

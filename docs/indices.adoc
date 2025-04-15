@@ -1,0 +1,26 @@
+[#indices]
+= indices
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/BoxGeometry.cpp#L79[ui&sol;dialogs&sol;skins&sol;draw&sol;BoxGeometry&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QVector.adoc[QVector]&lt;xref:GLushort.adoc[GLushort]&gt; const indices = &lcub;
+    0,  1,  2,  3,  3,       &sol;&sol; Face 0 &hyphen; triangle strip ( v0,  v1,  v2,  v3)
+    4,  4,  5,  6,  7,  7,   &sol;&sol; Face 1 &hyphen; triangle strip ( v4,  v5,  v6,  v7)
+    8,  8,  9,  10, 11, 11,  &sol;&sol; Face 2 &hyphen; triangle strip ( v8,  v9, v10, v11)
+    12, 12, 13, 14, 15, 15,  &sol;&sol; Face 3 &hyphen; triangle strip (v12, v13, v14, v15)
+    16, 16, 17, 18, 19, 19,  &sol;&sol; Face 4 &hyphen; triangle strip (v16, v17, v18, v19)
+    20, 20, 21, 22, 23       &sol;&sol; Face 5 &hyphen; triangle strip (v20, v21, v22, v23)
+&rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

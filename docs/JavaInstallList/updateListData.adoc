@@ -1,0 +1,20 @@
+[#JavaInstallList-updateListData]
+= xref:JavaInstallList.adoc[JavaInstallList]::updateListData
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L48[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateListData(xref:QList.adoc[QList]&lt;xref:BaseVersion.adoc[BaseVersion]::xref:BaseVersion/Ptr.adoc[Ptr]&gt; versions) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

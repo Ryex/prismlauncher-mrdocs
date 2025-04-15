@@ -1,0 +1,28 @@
+[#GuiUtil]
+= GuiUtil
+:relfileprefix: 
+:mrdocs:
+
+
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GuiUtil/BrowseForFile.adoc[`BrowseForFile`] 
+| 
+
+| xref:GuiUtil/BrowseForFiles.adoc[`BrowseForFiles`] 
+| 
+
+| xref:GuiUtil/setClipboardText.adoc[`setClipboardText`] 
+| 
+
+| xref:GuiUtil/uploadPaste.adoc[`uploadPaste`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

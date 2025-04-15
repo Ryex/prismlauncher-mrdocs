@@ -1,0 +1,22 @@
+[#MojangDownloadInfo-path]
+= xref:MojangDownloadInfo.adoc[MojangDownloadInfo]::path
+:relfileprefix: ../
+:mrdocs:
+
+
+Local filesystem path&period; WARNING&colon; not used, only here so we can pass through mojang files unmolested!
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MojangDownloadInfo.h#L12[minecraft&sol;MojangDownloadInfo&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] path;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#calculateFileSize]
+= calculateFileSize
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Resource.cpp#L24[minecraft&sol;mod&sol;Resource&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:std.adoc[std]::xref:std/tuple.adoc[tuple]&lt;xref:QString.adoc[QString], xref:qint64.adoc[qint64]&gt;
+calculateFileSize(xref:QFileInfo.adoc[QFileInfo] const& file);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

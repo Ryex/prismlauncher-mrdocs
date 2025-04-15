@@ -1,0 +1,48 @@
+[#ResourceAPI-VersionSearchArgs]
+= xref:ResourceAPI.adoc[ResourceAPI]::VersionSearchArgs
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L87[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct VersionSearchArgs;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/VersionSearchArgs/2constructor.adoc[`VersionSearchArgs`]         [.small]#[constructor]#
+| 
+
+| xref:ResourceAPI/VersionSearchArgs/operator_assign.adoc[`operator&equals;`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/VersionSearchArgs/loaders.adoc[`loaders`] 
+| 
+
+| xref:ResourceAPI/VersionSearchArgs/mcVersions.adoc[`mcVersions`] 
+| 
+
+| xref:ResourceAPI/VersionSearchArgs/pack.adoc[`pack`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

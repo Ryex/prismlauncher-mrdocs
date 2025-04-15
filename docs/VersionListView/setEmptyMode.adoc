@@ -1,0 +1,19 @@
+[#VersionListView-setEmptyMode]
+= xref:VersionListView.adoc[VersionListView]::setEmptyMode
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/VersionListView.h#L30[ui&sol;widgets&sol;VersionListView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setEmptyMode(xref:VersionListView/EmptyMode.adoc[EmptyMode] mode);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#LaunchProfile-getMinecraftVersionType]
+= xref:LaunchProfile.adoc[LaunchProfile]::getMinecraftVersionType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L72[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getMinecraftVersionType() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

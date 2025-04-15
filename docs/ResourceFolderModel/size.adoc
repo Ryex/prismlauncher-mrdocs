@@ -1,0 +1,20 @@
+[#ResourceFolderModel-size]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::size
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L118[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:qsizetype.adoc[qsizetype]
+size() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

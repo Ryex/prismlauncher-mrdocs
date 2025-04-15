@@ -1,0 +1,23 @@
+[#ModrinthPackExportTask-tr]
+= xref:ModrinthPackExportTask.adoc[ModrinthPackExportTask]::tr
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackExportTask.h#L30[modplatform&sol;modrinth&sol;ModrinthPackExportTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QString.adoc[QString]
+tr(
+    char const* s,
+    char const* c,
+    int n);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ProgressDialog-2destructor]
+= xref:ProgressDialog.adoc[ProgressDialog]::&tilde;ProgressDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.h#L60[ui&sol;dialogs&sol;ProgressDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ProgressDialog();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

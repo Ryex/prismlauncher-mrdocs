@@ -1,0 +1,18 @@
+[#MetaEntry-m_max_age]
+= xref:MetaEntry.adoc[MetaEntry]::m&lowbar;max&lowbar;age
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L89[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:qint64.adoc[qint64] m&lowbar;max&lowbar;age = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

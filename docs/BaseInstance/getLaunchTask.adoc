@@ -1,0 +1,23 @@
+[#BaseInstance-getLaunchTask]
+= xref:BaseInstance.adoc[BaseInstance]::getLaunchTask
+:relfileprefix: ../
+:mrdocs:
+
+
+returns the current launch task (if any)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L193[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LaunchTask.adoc[LaunchTask]&gt;
+getLaunchTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,21 @@
+[#Parsers-getNumber-03]
+= xref:Parsers.adoc[Parsers]::getNumber
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L8[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+getNumber(
+    xref:QJsonValue.adoc[QJsonValue] value,
+    double& out);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

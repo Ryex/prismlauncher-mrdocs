@@ -1,0 +1,40 @@
+[#QMetaTypeId-0c6]
+= QMetaTypeId&lt;xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackVersion.adoc[ModpackVersion]&gt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L126[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+struct QMetaTypeId&lt;xref:Modrinth.adoc[Modrinth]::xref:Modrinth/ModpackVersion.adoc[ModpackVersion]&gt;;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-0c6/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:QMetaTypeId-0c6/qt_metatype_id.adoc[`qt&lowbar;metatype&lowbar;id`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

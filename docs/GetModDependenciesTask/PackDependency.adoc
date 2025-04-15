@@ -1,0 +1,44 @@
+[#GetModDependenciesTask-PackDependency]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::PackDependency
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L40[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PackDependency;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GetModDependenciesTask/PackDependency/2constructor.adoc[`PackDependency`]         [.small]#[constructor]#
+| 
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GetModDependenciesTask/PackDependency/dependency.adoc[`dependency`] 
+| 
+
+| xref:GetModDependenciesTask/PackDependency/pack.adoc[`pack`] 
+| 
+
+| xref:GetModDependenciesTask/PackDependency/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

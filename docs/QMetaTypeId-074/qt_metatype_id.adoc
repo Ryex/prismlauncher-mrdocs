@@ -1,0 +1,20 @@
+[#QMetaTypeId-074-qt_metatype_id]
+= xref:QMetaTypeId-074.adoc[QMetaTypeId]&lt;xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/IndexedPack.adoc[IndexedPack]&gt;::qt&lowbar;metatype&lowbar;id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackIndex.h#L47[modplatform&sol;atlauncher&sol;ATLPackIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+int
+qt&lowbar;metatype&lowbar;id();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

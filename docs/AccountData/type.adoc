@@ -1,0 +1,18 @@
+[#AccountData-type]
+= xref:AccountData.adoc[AccountData]::type
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L110[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:AccountType.adoc[AccountType] type = AccountType&colon;&colon;MSA;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

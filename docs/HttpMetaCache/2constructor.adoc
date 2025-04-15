@@ -1,0 +1,18 @@
+[#HttpMetaCache-2constructor]
+= xref:HttpMetaCache.adoc[HttpMetaCache]::HttpMetaCache
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L101[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+HttpMetaCache(xref:QString.adoc[QString] path = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

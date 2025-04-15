@@ -1,0 +1,20 @@
+[#MSADeviceCodeStep-describe]
+= xref:MSADeviceCodeStep.adoc[MSADeviceCodeStep]::describe
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.h#L52[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+describe() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

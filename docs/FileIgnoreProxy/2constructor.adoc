@@ -1,0 +1,20 @@
+[#FileIgnoreProxy-2constructor]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::FileIgnoreProxy
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L47[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+FileIgnoreProxy(
+    xref:QString.adoc[QString] root,
+    xref:QObject.adoc[QObject]* parent);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

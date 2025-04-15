@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_column_sort_keys]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;column&lowbar;sort&lowbar;keys
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L240[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:SortType.adoc[SortType]&gt; m&lowbar;column&lowbar;sort&lowbar;keys = &equals; &lcub; SortType&colon;&colon;ENABLED, SortType&colon;&colon;NAME, SortType&colon;&colon;DATE, SortType&colon;&colon;PROVIDER, SortType&colon;&colon;SIZE &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

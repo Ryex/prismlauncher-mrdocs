@@ -1,0 +1,23 @@
+[#AccountData-accessToken]
+= xref:AccountData.adoc[AccountData]::accessToken
+:relfileprefix: ../
+:mrdocs:
+
+
+Yggdrasil access token, as passed to the game&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountData.h#L103[minecraft&sol;auth&sol;AccountData&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+accessToken() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

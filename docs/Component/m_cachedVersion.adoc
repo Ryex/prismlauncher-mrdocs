@@ -1,0 +1,22 @@
+[#Component-m_cachedVersion]
+= xref:Component.adoc[Component]::m&lowbar;cachedVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+cached version for display AND other purposes, taken from the version file (meta or local override)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L134[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;cachedVersion;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

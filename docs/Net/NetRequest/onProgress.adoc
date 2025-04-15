@@ -1,0 +1,21 @@
+[#Net-NetRequest-onProgress]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::onProgress
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L86[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+onProgress(
+    xref:qint64.adoc[qint64] bytesReceived,
+    xref:qint64.adoc[qint64] bytesTotal);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

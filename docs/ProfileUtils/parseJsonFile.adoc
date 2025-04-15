@@ -1,0 +1,25 @@
+[#ProfileUtils-parseJsonFile]
+= xref:ProfileUtils.adoc[ProfileUtils]::parseJsonFile
+:relfileprefix: ../
+:mrdocs:
+
+
+Parse a version file in JSON format
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L50[minecraft&sol;ProfileUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:VersionFilePtr.adoc[VersionFilePtr]
+parseJsonFile(
+    xref:QFileInfo.adoc[QFileInfo] const& fileInfo,
+    bool requireOrder);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

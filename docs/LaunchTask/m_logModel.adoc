@@ -1,0 +1,18 @@
+[#LaunchTask-m_logModel]
+= xref:LaunchTask.adoc[LaunchTask]::m&lowbar;logModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L119[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:LogModel.adoc[LogModel]&gt; m&lowbar;logModel;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

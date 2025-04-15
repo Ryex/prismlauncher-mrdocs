@@ -1,0 +1,20 @@
+[#JavaInstallList-providesRoles]
+= xref:JavaInstallList.adoc[JavaInstallList]::providesRoles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L45[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:BaseVersionList/RoleList.adoc[RoleList]
+providesRoles() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

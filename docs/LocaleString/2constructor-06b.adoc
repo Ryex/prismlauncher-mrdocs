@@ -1,0 +1,18 @@
+[#LocaleString-2constructor-06b]
+= xref:LocaleString.adoc[LocaleString]::LocaleString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.cpp#L133[ui&sol;instanceview&sol;InstanceView&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+LocaleString(xref:QString.adoc[QString] const& s);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

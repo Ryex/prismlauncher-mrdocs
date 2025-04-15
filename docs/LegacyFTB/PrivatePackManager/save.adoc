@@ -1,0 +1,19 @@
+[#LegacyFTB-PrivatePackManager-save]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PrivatePackManager.adoc[PrivatePackManager]::save
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PrivatePackManager.h#L13[modplatform&sol;legacy&lowbar;ftb&sol;PrivatePackManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+save() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

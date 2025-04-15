@@ -1,0 +1,18 @@
+[#INISettingsObject-m_ini]
+= xref:INISettingsObject.adoc[INISettingsObject]::m&lowbar;ini
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INISettingsObject.h#L61[settings&sol;INISettingsObject&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:INIFile.adoc[INIFile] m&lowbar;ini;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

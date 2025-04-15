@@ -1,0 +1,19 @@
+[#Mod-loaders]
+= xref:Mod.adoc[Mod]::loaders
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L72[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+loaders() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Version-isEmpty]
+= xref:Version.adoc[Version]::isEmpty
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Version.h#L59[Version&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+isEmpty() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

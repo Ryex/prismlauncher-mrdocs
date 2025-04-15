@@ -1,0 +1,22 @@
+[#LegacyFTB-PackInstallTask-2constructor]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/PackInstallTask.adoc[PackInstallTask]::PackInstallTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackInstallTask.h#L21[modplatform&sol;legacy&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+PackInstallTask(
+    xref:shared_qobject_ptr.adoc[shared&lowbar;qobject&lowbar;ptr]&lt;xref:QNetworkAccessManager.adoc[QNetworkAccessManager]&gt; network,
+    xref:LegacyFTB/Modpack.adoc[Modpack] const& pack,
+    xref:QString.adoc[QString] version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

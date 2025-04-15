@@ -1,0 +1,20 @@
+[#DarkTheme-tooltip]
+= xref:DarkTheme.adoc[DarkTheme]::tooltip
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/DarkTheme.h#L45[ui&sol;themes&sol;DarkTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+tooltip() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

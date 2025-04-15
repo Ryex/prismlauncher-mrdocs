@@ -1,0 +1,21 @@
+[#FlameAPI-getSortingMethods]
+= xref:FlameAPI.adoc[FlameAPI]::getSortingMethods
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/FlameAPI.h#L31[modplatform&sol;flame&sol;FlameAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:QList.adoc[QList]&lt;xref:ResourceAPI.adoc[ResourceAPI]::xref:ResourceAPI/SortingMethod.adoc[SortingMethod]&gt;
+getSortingMethods() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

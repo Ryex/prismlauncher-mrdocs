@@ -1,0 +1,20 @@
+[#PackProfile-Result-Error]
+= xref:PackProfile.adoc[PackProfile]::xref:PackProfile/Result.adoc[Result]::Error
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L75[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:PackProfile/Result.adoc[Result]
+Error(xref:QString.adoc[QString] const& errorMessage);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

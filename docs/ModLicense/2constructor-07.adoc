@@ -1,0 +1,22 @@
+[#ModLicense-2constructor-07]
+= xref:ModLicense.adoc[ModLicense]::ModLicense
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ModDetails.h#L85[minecraft&sol;mod&sol;ModDetails&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModLicense(
+    xref:QString.adoc[QString] const& name&lowbar;,
+    xref:QString.adoc[QString] const& id&lowbar;,
+    xref:QString.adoc[QString] const& url&lowbar;,
+    xref:QString.adoc[QString] const& description&lowbar;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

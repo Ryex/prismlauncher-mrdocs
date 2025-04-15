@@ -1,0 +1,18 @@
+[#POTranslatorPrivate-loaded]
+= xref:POTranslatorPrivate.adoc[POTranslatorPrivate]::loaded
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/translations/POTranslator.cpp#L15[translations&sol;POTranslator&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool loaded = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

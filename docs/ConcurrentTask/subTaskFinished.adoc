@@ -1,0 +1,21 @@
+[#ConcurrentTask-subTaskFinished]
+= xref:ConcurrentTask.adoc[ConcurrentTask]::subTaskFinished
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/ConcurrentTask.h#L84[tasks&sol;ConcurrentTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+subTaskFinished(
+    xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr],
+    xref:TaskStepState.adoc[TaskStepState]);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

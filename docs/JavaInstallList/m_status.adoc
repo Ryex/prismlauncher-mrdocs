@@ -1,0 +1,18 @@
+[#JavaInstallList-m_status]
+= xref:JavaInstallList.adoc[JavaInstallList]::m&lowbar;status
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L55[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ m&lowbar;status = Status&colon;&colon;NotDone;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

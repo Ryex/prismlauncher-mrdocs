@@ -1,0 +1,19 @@
+[#PreLaunchCommand-2destructor]
+= xref:PreLaunchCommand.adoc[PreLaunchCommand]::&tilde;PreLaunchCommand
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/steps/PreLaunchCommand.h#L25[launch&sol;steps&sol;PreLaunchCommand&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;PreLaunchCommand();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

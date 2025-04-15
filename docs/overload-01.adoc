@@ -1,0 +1,19 @@
+[#overload-01]
+= xref:overload-09.adoc[overload]&lt;Ts...&gt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L544[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;class... Ts&gt;
+xref:overload-09.adoc[overload]&lt;Ts...&gt;(Ts...) -> xref:overload-09.adoc[overload]&lt;Ts...&gt;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

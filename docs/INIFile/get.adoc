@@ -1,0 +1,21 @@
+[#INIFile-get]
+= xref:INIFile.adoc[INIFile]::get
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/settings/INIFile.h#L55[settings&sol;INIFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant]
+get(
+    xref:QString.adoc[QString] key,
+    xref:QVariant.adoc[QVariant] def) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

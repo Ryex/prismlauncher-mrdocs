@@ -1,0 +1,21 @@
+[#operator_lshift-09]
+= operator&lt;&lt;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.cpp#L480[minecraft&sol;Component&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QDebug.adoc[QDebug]
+operator&lt;&lt;(
+    xref:QDebug.adoc[QDebug] d,
+    xref:Component.adoc[Component] const& comp);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

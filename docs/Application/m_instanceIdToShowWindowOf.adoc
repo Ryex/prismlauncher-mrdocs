@@ -1,0 +1,18 @@
+[#Application-m_instanceIdToShowWindowOf]
+= xref:Application.adoc[Application]::m&lowbar;instanceIdToShowWindowOf
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L309[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;instanceIdToShowWindowOf;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,82 @@
+[#GameOptions]
+= GameOptions
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.h#L12[minecraft&sol;gameoptions&sol;GameOptions&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class GameOptions
+    : public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameOptions/2constructor.adoc[`GameOptions`]         [.small]#[constructor]#
+| 
+
+| xref:GameOptions/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:GameOptions/data.adoc[`data`] 
+| 
+
+| xref:GameOptions/headerData.adoc[`headerData`] 
+| 
+
+| xref:GameOptions/isLoaded.adoc[`isLoaded`] 
+| 
+
+| xref:GameOptions/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:GameOptions/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:GameOptions/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:GameOptions/reload.adoc[`reload`] 
+| 
+
+| xref:GameOptions/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:GameOptions/save.adoc[`save`] 
+| 
+
+| xref:GameOptions/2destructor.adoc[`&tilde;GameOptions`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameOptions/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GameOptions/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

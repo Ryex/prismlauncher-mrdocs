@@ -1,0 +1,18 @@
+[#00namespace-RequireEx-indexOfFirstDependee]
+= xref:00namespace/RequireEx.adoc[RequireEx]::indexOfFirstDependee
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ComponentUpdateTask.cpp#L219[minecraft&sol;ComponentUpdateTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:size_t.adoc[size&lowbar;t] indexOfFirstDependee = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#Application-dataRoot]
+= xref:Application.adoc[Application]::dataRoot
+:relfileprefix: ../
+:mrdocs:
+
+
+the data path the application is using
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Application.h#L169[Application&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] const&
+dataRoot();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

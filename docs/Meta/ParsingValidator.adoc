@@ -1,0 +1,42 @@
+[#Meta-ParsingValidator]
+= xref:Meta.adoc[Meta]::ParsingValidator
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/BaseEntity.cpp#L34[meta&sol;BaseEntity&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ParsingValidator
+    : public xref:Net.adoc[Net]::xref:Net/Validator.adoc[Validator];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/ParsingValidator/2constructor.adoc[`ParsingValidator`]         [.small]#[constructor]#
+| 
+
+| xref:Net/Validator/abort.adoc[`abort`] 
+| 
+| xref:Net/Validator/init.adoc[`init`] 
+| 
+| xref:Net/Validator/validate.adoc[`validate`] 
+| 
+| xref:Net/Validator/write.adoc[`write`] 
+| 
+| xref:Meta/ParsingValidator/2destructor.adoc[`&tilde;ParsingValidator`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

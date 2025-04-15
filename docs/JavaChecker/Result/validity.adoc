@@ -1,0 +1,18 @@
+[#JavaChecker-Result-validity]
+= xref:JavaChecker.adoc[JavaChecker]::xref:JavaChecker/Result.adoc[Result]::validity
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaChecker.h#L25[java&sol;JavaChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:JavaChecker/Result/Validity.adoc[Validity] validity = Validity&colon;&colon;Errored;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

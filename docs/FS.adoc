@@ -1,0 +1,238 @@
+[#FS]
+= FS
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/ExternalLinkFileProcess.adoc[`ExternalLinkFileProcess`] 
+| 
+
+| xref:FS/FileSystemException.adoc[`FileSystemException`] 
+| 
+
+| xref:FS/FilesystemInfo.adoc[`FilesystemInfo`] 
+| 
+
+| xref:FS/LinkPair.adoc[`LinkPair`] 
+| 
+
+| xref:FS/LinkResult.adoc[`LinkResult`] 
+| 
+
+| xref:FS/clone.adoc[`clone`] 
+| Copies a directory and it&apos;s contents from src to dest
+
+| xref:FS/copy.adoc[`copy`] 
+| Copies a directory and it&apos;s contents from src to dest
+
+| xref:FS/create_link.adoc[`create&lowbar;link`] 
+| links (a file &sol; a directory and it&apos;s contents) from src to dest
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/FilesystemType.adoc[`FilesystemType`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/AbsolutePath.adoc[`AbsolutePath`] 
+| 
+
+| xref:FS/DirNameFromString.adoc[`DirNameFromString`] 
+| 
+
+| xref:FS/NormalizePath.adoc[`NormalizePath`] 
+| Normalize path
+
+
+
+| xref:FS/PathCombine.adoc[`PathCombine`] 
+| 
+| xref:FS/RemoveInvalidFilenameChars.adoc[`RemoveInvalidFilenameChars`] 
+| 
+
+| xref:FS/RemoveInvalidPathChars.adoc[`RemoveInvalidPathChars`] 
+| 
+
+| xref:FS/ResolveExecutable.adoc[`ResolveExecutable`] 
+| Resolve an executable
+
+
+
+| xref:FS/append.adoc[`append`] 
+| append data to a file
+
+
+
+| xref:FS/appendSafe.adoc[`appendSafe`] 
+| append data to a file safely
+
+
+
+| xref:FS/canClone.adoc[`canClone`] 
+| if the Filesystems are reflink&sol;clone capable and both are on the same device
+
+| xref:FS/canCloneOnFS.adoc[`canCloneOnFS`] 
+| if the Filesystem is reflink&sol;clone capable
+
+| xref:FS/canLink.adoc[`canLink`] 
+| if the Filesystem is symlink capable on both ends
+
+| xref:FS/canLinkOnFS.adoc[`canLinkOnFS`] 
+| if the Filesystem is symlink capable
+
+| xref:FS/checkProblemticPathJava.adoc[`checkProblemticPathJava`] 
+| Checks if the a given Path contains &quot;!&quot;
+
+
+
+| xref:FS/clone_file.adoc[`clone&lowbar;file`] 
+| clone&sol;reflink file from src to dst
+
+| xref:FS/copyFileAttributes.adoc[`copyFileAttributes`] 
+| 
+
+| xref:FS/copyFolderAttributes.adoc[`copyFolderAttributes`] 
+| 
+
+| xref:FS/createShortcut.adoc[`createShortcut`] 
+| Creates a shortcut to the specified target file at the specified destination path&period;
+
+
+
+| xref:FS/deletePath.adoc[`deletePath`] 
+| Delete a folder recursively
+
+
+
+| xref:FS/ensureExists.adoc[`ensureExists`] 
+| 
+
+| xref:FS/ensureFilePathExists.adoc[`ensureFilePathExists`] 
+| Creates all the folders in a path for the specified path
+last segment of the path is treated as a file name and is ignored!
+
+
+
+| xref:FS/ensureFolderPathExists.adoc[`ensureFolderPathExists`] 
+| Creates all the folders in a path for the specified path
+last segment of the path is treated as a folder name and is created!
+
+
+
+| xref:FS/getDesktopDir.adoc[`getDesktopDir`] 
+| 
+
+| xref:FS/getFilesystemType.adoc[`getFilesystemType`] 
+| Get the Filesystem enum object from a name
+Does a lookup of the type name and returns an exact match
+
+| xref:FS/getFilesystemTypeFuzzy.adoc[`getFilesystemTypeFuzzy`] 
+| Get the Filesystem enum object from a name
+Does a fuzzy lookup of the type name and returns an apropreate match
+
+| xref:FS/getFilesystemTypeName.adoc[`getFilesystemTypeName`] 
+| Get the string name of Filesystem enum object
+
+| xref:FS/getUniqueResourceName.adoc[`getUniqueResourceName`] 
+| 
+
+| xref:FS/hardLinkCount.adoc[`hardLinkCount`] 
+| 
+
+| xref:FS/linux_ficlone.adoc[`linux&lowbar;ficlone`] 
+| 
+
+| xref:FS/move.adoc[`move`] 
+| moves a file by renaming it
+
+| xref:FS/moveByCopy.adoc[`moveByCopy`] 
+| 
+
+| xref:FS/nearestExistentAncestor.adoc[`nearestExistentAncestor`] 
+| path to the near ancestor that exists
+
+| xref:FS/operator_lshift.adoc[`operator&lt;&lt;`] 
+| qDebug print support for the LinkPair struct
+
+
+
+| xref:FS/overrideFolder.adoc[`overrideFolder`] 
+| 
+
+| xref:FS/pathDepth.adoc[`pathDepth`] 
+| depth of path&period; &quot;foo&period;txt&quot; &hyphen;&gt; 0 , &quot;bar&sol;foo&period;txt&quot; &hyphen;&gt; 1, &sol;baz&sol;bar&sol;foo&period;txt &hyphen;&gt; 2, etc&period;
+
+| xref:FS/pathTruncate.adoc[`pathTruncate`] 
+| cut off segments of path until it is a max of length depth
+
+| xref:FS/read.adoc[`read`] 
+| read data from a file safely
+
+
+
+| xref:FS/statFS.adoc[`statFS`] 
+| colect information about the filesystem under a file
+
+| xref:FS/trash.adoc[`trash`] 
+| Trash a folder &sol; file
+
+
+
+| xref:FS/updateTimestamp.adoc[`updateTimestamp`] 
+| Update the last changed timestamp of an existing file
+
+
+
+| xref:FS/write.adoc[`write`] 
+| write data to a file safely
+
+
+
+|===
+== Variables
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/BAD_FILENAME_CHARS.adoc[`BAD&lowbar;FILENAME&lowbar;CHARS`] 
+| 
+
+| xref:FS/BAD_HFS_CHARS.adoc[`BAD&lowbar;HFS&lowbar;CHARS`] 
+| 
+
+| xref:FS/BAD_NTFS_CHARS.adoc[`BAD&lowbar;NTFS&lowbar;CHARS`] 
+| 
+
+| xref:FS/BAD_WIN_CHARS.adoc[`BAD&lowbar;WIN&lowbar;CHARS`] 
+| 
+
+| xref:FS/s_clone_filesystems.adoc[`s&lowbar;clone&lowbar;filesystems`] 
+| 
+
+| xref:FS/s_filesystem_type_names.adoc[`s&lowbar;filesystem&lowbar;type&lowbar;names`] 
+| Ordered Mapping of enum types to reported filesystem names
+this mapping is non exsaustive, it just attempts to capture the filesystems which could be reasonalbly be in use &period;
+all string values are in uppercase, use &grave;QString&period;toUpper()&grave; or equivalent during lookup&period;
+
+| xref:FS/s_non_link_filesystems.adoc[`s&lowbar;non&lowbar;link&lowbar;filesystems`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

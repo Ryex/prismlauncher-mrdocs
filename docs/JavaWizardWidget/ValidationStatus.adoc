@@ -1,0 +1,31 @@
+[#JavaWizardWidget-ValidationStatus]
+= xref:JavaWizardWidget.adoc[JavaWizardWidget]::ValidationStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaWizardWidget.h#L31[ui&sol;widgets&sol;JavaWizardWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ValidationStatus : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Bad`
+|
+|`JavaBad`
+|
+|`AllOK`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

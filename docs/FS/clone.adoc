@@ -1,0 +1,84 @@
+[#FS-clone]
+= xref:FS.adoc[FS]::clone
+:relfileprefix: ../
+:mrdocs:
+
+
+Copies a directory and it&apos;s contents from src to dest
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L483[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class clone
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/clone/2constructor.adoc[`clone`]         [.small]#[constructor]#
+| 
+
+| xref:FS/clone/cloneFailed.adoc[`cloneFailed`] 
+| 
+
+| xref:FS/clone/failed.adoc[`failed`] 
+| 
+
+| xref:FS/clone/fileCloned.adoc[`fileCloned`] 
+| 
+
+| xref:FS/clone/matcher.adoc[`matcher`] 
+| 
+
+| xref:FS/clone/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FS/clone/operator_call.adoc[`operator()`] 
+| 
+
+| xref:FS/clone/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FS/clone/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FS/clone/totalCloned.adoc[`totalCloned`] 
+| 
+
+| xref:FS/clone/totalFailed.adoc[`totalFailed`] 
+| 
+
+| xref:FS/clone/whitelist.adoc[`whitelist`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/clone/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/clone/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

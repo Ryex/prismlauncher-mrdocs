@@ -1,0 +1,20 @@
+[#FocusLineEdit-mousePressEvent]
+= xref:FocusLineEdit.adoc[FocusLineEdit]::mousePressEvent
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/FocusLineEdit.h#L13[ui&sol;widgets&sol;FocusLineEdit&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+mousePressEvent(xref:QMouseEvent.adoc[QMouseEvent]* me);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

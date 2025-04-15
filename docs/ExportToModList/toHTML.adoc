@@ -1,0 +1,21 @@
+[#ExportToModList-toHTML]
+= xref:ExportToModList.adoc[ExportToModList]::toHTML
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/ExportToModList.cpp#L24[modplatform&sol;helpers&sol;ExportToModList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+toHTML(
+    xref:QList.adoc[QList]&lt;xref:Mod.adoc[Mod]*&gt; mods,
+    xref:ExportToModList/OptionalData.adoc[OptionalData] extraData);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

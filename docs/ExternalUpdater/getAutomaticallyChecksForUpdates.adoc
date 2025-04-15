@@ -1,0 +1,24 @@
+[#ExternalUpdater-getAutomaticallyChecksForUpdates]
+= xref:ExternalUpdater.adoc[ExternalUpdater]::getAutomaticallyChecksForUpdates
+:relfileprefix: ../
+:mrdocs:
+
+
+Indicates whether or not to check for updates automatically&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/ExternalUpdater.h#L46[updater&sol;ExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+getAutomaticallyChecksForUpdates() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

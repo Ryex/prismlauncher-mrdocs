@@ -1,0 +1,19 @@
+[#FileIgnoreProxy-ignoreFilesWithPath]
+= xref:FileIgnoreProxy.adoc[FileIgnoreProxy]::ignoreFilesWithPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileIgnoreProxy.h#L70[FileIgnoreProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:SeparatorPrefixTree.adoc[SeparatorPrefixTree]&lt;&apos;&sol;&apos;&gt;&
+ignoreFilesWithPath();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

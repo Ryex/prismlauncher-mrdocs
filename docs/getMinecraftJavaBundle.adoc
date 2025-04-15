@@ -1,0 +1,19 @@
+[#getMinecraftJavaBundle]
+= getMinecraftJavaBundle
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaUtils.h#L28[java&sol;JavaUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList]
+getMinecraftJavaBundle();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

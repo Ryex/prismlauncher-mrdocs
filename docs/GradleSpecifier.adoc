@@ -1,0 +1,71 @@
+[#GradleSpecifier]
+= GradleSpecifier
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/GradleSpecifier.h#L43[minecraft&sol;GradleSpecifier&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct GradleSpecifier;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:GradleSpecifier/2constructor.adoc[`GradleSpecifier`]         [.small]#[constructor]#
+| 
+| xref:GradleSpecifier/artifactId.adoc[`artifactId`] 
+| 
+
+| xref:GradleSpecifier/artifactPrefix.adoc[`artifactPrefix`] 
+| 
+
+| xref:GradleSpecifier/classifier.adoc[`classifier`] 
+| 
+
+| xref:GradleSpecifier/extension.adoc[`extension`] 
+| 
+
+| xref:GradleSpecifier/getFileName.adoc[`getFileName`] 
+| 
+
+| xref:GradleSpecifier/groupId.adoc[`groupId`] 
+| 
+
+| xref:GradleSpecifier/matchName.adoc[`matchName`] 
+| 
+
+| xref:GradleSpecifier/operator_assign.adoc[`operator&equals;`] 
+| 
+
+| xref:GradleSpecifier/operator_eq.adoc[`operator&equals;&equals;`] 
+| 
+
+| xref:GradleSpecifier/serialize.adoc[`serialize`] 
+| 
+
+| xref:GradleSpecifier/setClassifier.adoc[`setClassifier`] 
+| 
+
+| xref:GradleSpecifier/toPath.adoc[`toPath`] 
+| 
+
+| xref:GradleSpecifier/valid.adoc[`valid`] 
+| 
+
+| xref:GradleSpecifier/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#PrismExternalUpdater-performUpdate]
+= xref:PrismExternalUpdater.adoc[PrismExternalUpdater]::performUpdate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/updater/PrismExternalUpdater.h#L87[updater&sol;PrismExternalUpdater&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+performUpdate(xref:QString.adoc[QString] const& version&lowbar;tag);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Java-InstallDialog-validate]
+= xref:Java.adoc[Java]::xref:Java/InstallDialog.adoc[InstallDialog]::validate
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.h#L40[ui&sol;java&sol;InstallJavaDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+validate(xref:BasePage.adoc[BasePage]* selected);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

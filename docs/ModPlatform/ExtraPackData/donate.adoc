@@ -1,0 +1,18 @@
+[#ModPlatform-ExtraPackData-donate]
+= xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ExtraPackData.adoc[ExtraPackData]::donate
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L117[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:ModPlatform/DonationData.adoc[DonationData]&gt; donate;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

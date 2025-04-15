@@ -1,0 +1,22 @@
+[#TexturePackPage-updateFrame]
+= xref:TexturePackPage.adoc[TexturePackPage]::updateFrame
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/TexturePackPage.h#L58[ui&sol;pages&sol;instance&sol;TexturePackPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+updateFrame(
+    xref:QModelIndex.adoc[QModelIndex] const& current,
+    xref:QModelIndex.adoc[QModelIndex] const& previous) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#JsonCatPack-2constructor]
+= xref:JsonCatPack.adoc[JsonCatPack]::JsonCatPack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CatPack.h#L85[ui&sol;themes&sol;CatPack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+JsonCatPack(xref:QFileInfo.adoc[QFileInfo]& manifestInfo);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

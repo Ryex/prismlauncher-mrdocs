@@ -1,0 +1,40 @@
+[#CustomTheme-2constructor]
+= xref:CustomTheme.adoc[CustomTheme]::CustomTheme
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/CustomTheme.h#L43[ui&sol;themes&sol;CustomTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+CustomTheme(
+    xref:ITheme.adoc[ITheme]* baseTheme,
+    xref:QFileInfo.adoc[QFileInfo]& file,
+    bool isManifest);
+----
+
+== Parameters
+
+|===
+| Name | Description
+
+| *baseTheme*
+| Base Theme
+
+
+| *fileInfo*
+| FileInfo object for file to load
+
+
+| *isManifest*
+| whether to load a theme manifest or a qss file
+
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

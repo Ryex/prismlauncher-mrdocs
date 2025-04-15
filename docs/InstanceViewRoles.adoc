@@ -1,0 +1,30 @@
+[#InstanceViewRoles]
+= InstanceViewRoles
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/InstanceView.h#L45[ui&sol;instanceview&sol;InstanceView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct InstanceViewRoles;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:InstanceViewRoles/03enum.adoc[`&lt;unnamed&gt;`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

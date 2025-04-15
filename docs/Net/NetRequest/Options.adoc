@@ -1,0 +1,18 @@
+[#Net-NetRequest-Options]
+= xref:Net.adoc[Net]::xref:Net/NetRequest.adoc[NetRequest]::Options
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/NetRequest.h#L64[net&sol;NetRequest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+typedef xref:QFlags-09.adoc[QFlags]&lt;xref:Net/NetRequest/Option.adoc[Option]&gt; Options;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

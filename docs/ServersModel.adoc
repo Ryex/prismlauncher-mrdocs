@@ -1,0 +1,134 @@
+[#ServersModel]
+= ServersModel
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ServersPage.cpp#L156[ui&sol;pages&sol;instance&sol;ServersPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class ServersModel
+    : public xref:QAbstractListModel.adoc[QAbstractListModel]
+    , public xref:QAbstractListModel.adoc[QAbstractListModel];
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ServersModel/Roles.adoc[`Roles`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ServersModel/2constructor.adoc[`ServersModel`]         [.small]#[constructor]#
+| 
+
+| xref:ServersModel/addEmptyRow.adoc[`addEmptyRow`] 
+| 
+
+| xref:ServersModel/at.adoc[`at`] 
+| 
+
+| xref:ServersModel/columnCount.adoc[`columnCount`] 
+| 
+
+| xref:ServersModel/data.adoc[`data`] 
+| 
+
+| xref:ServersModel/dirChanged.adoc[`dirChanged`] 
+| 
+
+| xref:ServersModel/fileChanged.adoc[`fileChanged`] 
+| 
+
+| xref:ServersModel/headerData.adoc[`headerData`] 
+| 
+
+| xref:ServersModel/load.adoc[`load`] 
+| 
+
+| xref:ServersModel/lock.adoc[`lock`] 
+| 
+
+| xref:ServersModel/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:ServersModel/moveDown.adoc[`moveDown`] 
+| 
+
+| xref:ServersModel/moveUp.adoc[`moveUp`] 
+| 
+
+| xref:ServersModel/observe.adoc[`observe`] 
+| 
+
+| xref:ServersModel/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:ServersModel/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:ServersModel/queryServersStatus.adoc[`queryServersStatus`] 
+| 
+
+| xref:ServersModel/removeRow.adoc[`removeRow`] 
+| 
+
+| xref:ServersModel/rowCount.adoc[`rowCount`] 
+| 
+
+| xref:ServersModel/saveNow.adoc[`saveNow`] 
+| 
+
+| xref:ServersModel/setAcceptsTextures.adoc[`setAcceptsTextures`] 
+| 
+
+| xref:ServersModel/setAddress.adoc[`setAddress`] 
+| 
+
+| xref:ServersModel/setName.adoc[`setName`] 
+| 
+
+| xref:ServersModel/unlock.adoc[`unlock`] 
+| 
+
+| xref:ServersModel/unobserve.adoc[`unobserve`] 
+| 
+
+| xref:ServersModel/2destructor.adoc[`&tilde;ServersModel`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ServersModel/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ServersModel/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

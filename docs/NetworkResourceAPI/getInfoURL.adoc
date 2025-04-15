@@ -1,0 +1,21 @@
+[#NetworkResourceAPI-getInfoURL]
+= xref:NetworkResourceAPI.adoc[NetworkResourceAPI]::getInfoURL
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/NetworkResourceAPI.h#L22[modplatform&sol;helpers&sol;NetworkResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:std.adoc[std]::xref:std/optional.adoc[optional]&lt;xref:QString.adoc[QString]&gt;
+getInfoURL(xref:QString.adoc[QString] const& id) const = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

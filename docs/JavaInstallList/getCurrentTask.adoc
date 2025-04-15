@@ -1,0 +1,19 @@
+[#JavaInstallList-getCurrentTask]
+= xref:JavaInstallList.adoc[JavaInstallList]::getCurrentTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L52[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+getCurrentTask();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

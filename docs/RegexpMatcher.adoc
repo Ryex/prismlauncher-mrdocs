@@ -1,0 +1,60 @@
+[#RegexpMatcher]
+= RegexpMatcher
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/pathmatcher/RegexpMatcher.h#L6[pathmatcher&sol;RegexpMatcher&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class RegexpMatcher
+    : public xref:IPathMatcher.adoc[IPathMatcher];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:IPathMatcher/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RegexpMatcher/2constructor.adoc[`RegexpMatcher`]         [.small]#[constructor]#
+| 
+
+| xref:RegexpMatcher/caseSensitive.adoc[`caseSensitive`] 
+| 
+
+| xref:IPathMatcher/matches.adoc[`matches`] 
+| 
+| xref:RegexpMatcher/2destructor.adoc[`&tilde;RegexpMatcher`] [.small]#[destructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:RegexpMatcher/m_onlyFilenamePart.adoc[`m&lowbar;onlyFilenamePart`] 
+| 
+
+| xref:RegexpMatcher/m_regexp.adoc[`m&lowbar;regexp`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

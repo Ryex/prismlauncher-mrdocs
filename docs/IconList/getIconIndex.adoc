@@ -1,0 +1,19 @@
+[#IconList-getIconIndex]
+= xref:IconList.adoc[IconList]::getIconIndex
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/IconList.h#L58[icons&sol;IconList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+getIconIndex(xref:QString.adoc[QString] const& key) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#TaskStepProgress-details]
+= xref:TaskStepProgress.adoc[TaskStepProgress]::details
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/tasks/Task.h#L60[tasks&sol;Task&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] details = &quot;&quot;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

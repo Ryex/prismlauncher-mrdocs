@@ -1,0 +1,19 @@
+[#CreateGameFolders-2destructor]
+= xref:CreateGameFolders.adoc[CreateGameFolders]::&tilde;CreateGameFolders
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/launch/CreateGameFolders.h#L27[minecraft&sol;launch&sol;CreateGameFolders&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;CreateGameFolders();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

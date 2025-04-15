@@ -1,0 +1,20 @@
+[#ResourceFolderModel-columnResizeModes]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::columnResizeModes
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L173[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:QList.adoc[QList]&lt;xref:QHeaderView.adoc[QHeaderView]::xref:QHeaderView/ResizeMode.adoc[ResizeMode]&gt;
+columnResizeModes() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

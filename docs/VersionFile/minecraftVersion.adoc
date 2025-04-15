@@ -1,0 +1,22 @@
+[#VersionFile-minecraftVersion]
+= xref:VersionFile.adoc[VersionFile]::minecraftVersion
+:relfileprefix: ../
+:mrdocs:
+
+
+Mojang&colon; DEPRECATED version of Minecraft this is
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/VersionFile.h#L87[minecraft&sol;VersionFile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] minecraftVersion;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

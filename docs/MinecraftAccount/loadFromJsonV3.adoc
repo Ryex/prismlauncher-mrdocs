@@ -1,0 +1,20 @@
+[#MinecraftAccount-loadFromJsonV3]
+= xref:MinecraftAccount.adoc[MinecraftAccount]::loadFromJsonV3
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/MinecraftAccount.h#L90[minecraft&sol;auth&sol;MinecraftAccount&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr]
+loadFromJsonV3(xref:QJsonObject.adoc[QJsonObject] const& json);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

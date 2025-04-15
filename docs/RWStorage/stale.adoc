@@ -1,0 +1,19 @@
+[#RWStorage-stale]
+= xref:RWStorage.adoc[RWStorage]::stale
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/RWStorage.h#L38[RWStorage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+stale(K key);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

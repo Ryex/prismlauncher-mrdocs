@@ -1,0 +1,19 @@
+[#shouldDownloadOnSide]
+= shouldDownloadOnSide
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackIndex.cpp#L31[modplatform&sol;modrinth&sol;ModrinthPackIndex&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+shouldDownloadOnSide(xref:QString.adoc[QString] side);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

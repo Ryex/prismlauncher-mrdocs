@@ -1,0 +1,18 @@
+[#JavaListLoadTask-m_results]
+= xref:JavaListLoadTask.adoc[JavaListLoadTask]::m&lowbar;results
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L77[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:JavaChecker.adoc[JavaChecker]::xref:JavaChecker/Result.adoc[Result]&gt; m&lowbar;results;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

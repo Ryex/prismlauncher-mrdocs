@@ -1,0 +1,22 @@
+[#Atl-FilterModel-filterAcceptsRow]
+= xref:Atl.adoc[Atl]::xref:Atl/FilterModel.adoc[FilterModel]::filterAcceptsRow
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/atlauncher/AtlFilterModel.h#L39[ui&sol;pages&sol;modplatform&sol;atlauncher&sol;AtlFilterModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+filterAcceptsRow(
+    int sourceRow,
+    xref:QModelIndex.adoc[QModelIndex] const& sourceParent) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

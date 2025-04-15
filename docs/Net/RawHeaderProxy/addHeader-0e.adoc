@@ -1,0 +1,19 @@
+[#Net-RawHeaderProxy-addHeader-0e]
+= xref:Net.adoc[Net]::xref:Net/RawHeaderProxy.adoc[RawHeaderProxy]::addHeader
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/RawHeaderProxy.h#L37[net&sol;RawHeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+addHeader(xref:Net/HeaderPair.adoc[HeaderPair] const& header);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

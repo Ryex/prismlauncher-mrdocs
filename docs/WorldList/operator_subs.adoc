@@ -1,0 +1,19 @@
+[#WorldList-operator_subs]
+= xref:WorldList.adoc[WorldList]::operator&lsqb;&rsqb;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L45[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:World.adoc[World]&
+operator&lsqb;&rsqb;(xref:size_t.adoc[size&lowbar;t] index);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#ResourceDownload-ResourcePackResourceModel-loadExtraPackInfo]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePackResourceModel.adoc[ResourcePackResourceModel]::loadExtraPackInfo
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePackModel.h#L29[ui&sol;pages&sol;modplatform&sol;ResourcePackModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+loadExtraPackInfo(
+    xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/IndexedPack.adoc[IndexedPack]&,
+    xref:QJsonObject.adoc[QJsonObject]&) override = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

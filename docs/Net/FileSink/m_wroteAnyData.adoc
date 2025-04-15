@@ -1,0 +1,18 @@
+[#Net-FileSink-m_wroteAnyData]
+= xref:Net.adoc[Net]::xref:Net/FileSink.adoc[FileSink]::m&lowbar;wroteAnyData
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/FileSink.h#L61[net&sol;FileSink&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;wroteAnyData = false;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

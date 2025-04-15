@@ -1,0 +1,19 @@
+[#LaunchProfile-getLibraries]
+= xref:LaunchProfile.adoc[LaunchProfile]::getLibraries
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L79[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QList.adoc[QList]&lt;xref:LibraryPtr.adoc[LibraryPtr]&gt; const&
+getLibraries() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

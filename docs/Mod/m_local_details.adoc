@@ -1,0 +1,18 @@
+[#Mod-m_local_details]
+= xref:Mod.adoc[Mod]::m&lowbar;local&lowbar;details
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/Mod.h#L98[minecraft&sol;mod&sol;Mod&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:ModDetails.adoc[ModDetails] m&lowbar;local&lowbar;details;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

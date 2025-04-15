@@ -1,0 +1,19 @@
+[#ApplicationMessage-parse]
+= xref:ApplicationMessage.adoc[ApplicationMessage]::parse
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ApplicationMessage.h#L12[ApplicationMessage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+parse(xref:QByteArray.adoc[QByteArray] const& input);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

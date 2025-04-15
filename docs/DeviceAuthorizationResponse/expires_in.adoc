@@ -1,0 +1,18 @@
+[#DeviceAuthorizationResponse-expires_in]
+= xref:DeviceAuthorizationResponse.adoc[DeviceAuthorizationResponse]::expires&lowbar;in
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.cpp#L86[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int expires&lowbar;in;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

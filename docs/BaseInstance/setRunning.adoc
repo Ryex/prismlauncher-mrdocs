@@ -1,0 +1,19 @@
+[#BaseInstance-setRunning]
+= xref:BaseInstance.adoc[BaseInstance]::setRunning
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L108[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setRunning(bool running);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

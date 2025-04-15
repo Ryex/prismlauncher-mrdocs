@@ -1,0 +1,19 @@
+[#SkinModel-toJSON]
+= xref:SkinModel.adoc[SkinModel]::toJSON
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L50[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QJsonObject.adoc[QJsonObject]
+toJSON() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

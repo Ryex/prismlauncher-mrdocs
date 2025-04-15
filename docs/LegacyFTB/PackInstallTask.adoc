@@ -1,0 +1,331 @@
+[#LegacyFTB-PackInstallTask]
+= xref:LegacyFTB.adoc[LegacyFTB]::PackInstallTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackInstallTask.h#L17[modplatform&sol;legacy&lowbar;ftb&sol;PackInstallTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PackInstallTask
+    : public xref:InstanceTask.adoc[InstanceTask];
+----
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/Ptr.adoc[`Ptr`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/State.adoc[`State`] 
+| 
+
+|===
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PackInstallTask/2constructor.adoc[`PackInstallTask`]         [.small]#[constructor]#
+| 
+
+| xref:Task/abort.adoc[`abort`] 
+| used by external code to ask the task to abort
+
+
+
+| xref:Task/abortStatusChanged.adoc[`abortStatusChanged`] 
+| Emitted when the canAbort() status has changed&period; &ast;&sol;
+
+
+
+| xref:Task/aborted.adoc[`aborted`] 
+| called when a task has been aborted by calling abort()
+
+
+
+| xref:Task/canAbort.adoc[`canAbort`] 
+| 
+| xref:Task/details.adoc[`details`] 
+| 
+
+| xref:Task/failReason.adoc[`failReason`] 
+| Returns the string that was passed to emitFailed as the error message when the task failed&period;
+If the task hasn&apos;t failed, returns an empty string&period;
+
+
+
+| xref:Task/failed.adoc[`failed`] 
+| 
+
+| xref:Task/finished.adoc[`finished`] 
+| called when a task has either succeeded, aborted or failed&period;
+
+
+
+| xref:Task/getDetails.adoc[`getDetails`] 
+| 
+
+| xref:Task/getProgress.adoc[`getProgress`] 
+| 
+
+| xref:Task/getState.adoc[`getState`] 
+| 
+
+| xref:Task/getStatus.adoc[`getStatus`] 
+| 
+
+| xref:Task/getStepProgress.adoc[`getStepProgress`] 
+| 
+
+| xref:Task/getTotalProgress.adoc[`getTotalProgress`] 
+| 
+
+| xref:Task/getUid.adoc[`getUid`] 
+| 
+
+| xref:InstanceTask/group.adoc[`group`] 
+| 
+
+| xref:Task/isFinished.adoc[`isFinished`] 
+| 
+
+| xref:Task/isMultiStep.adoc[`isMultiStep`] 
+| MultiStep tasks are combinations of multiple tasks into a single logical task&period;
+The main usage of this is in SequencialTask&period;
+
+
+
+| xref:Task/isRunning.adoc[`isRunning`] 
+| 
+
+| xref:Task/metaObject.adoc[`metaObject`] 
+| 
+| xref:InstanceName/modifiedName.adoc[`modifiedName`] 
+| 
+
+| xref:InstanceName/name.adoc[`name`] 
+| 
+
+| xref:InstanceTask/originalInstanceID.adoc[`originalInstanceID`] 
+| 
+
+| xref:InstanceName/originalName.adoc[`originalName`] 
+| 
+
+| xref:Task/progress.adoc[`progress`] 
+| 
+
+| xref:Task/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+| xref:Task/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+| xref:Task/run.adoc[`run`] 
+| 
+
+| xref:Task/setAbortable.adoc[`setAbortable`] 
+| 
+
+| xref:InstanceTask/setConfirmUpdate.adoc[`setConfirmUpdate`] 
+| 
+
+| xref:Task/setDetails.adoc[`setDetails`] 
+| 
+
+| xref:InstanceTask/setGroup.adoc[`setGroup`] 
+| 
+
+| xref:InstanceTask/setIcon.adoc[`setIcon`] 
+| 
+
+| xref:InstanceName/setName.adoc[`setName`] 
+| 
+| xref:InstanceTask/setParentSettings.adoc[`setParentSettings`] 
+| 
+
+| xref:Task/setProgress.adoc[`setProgress`] 
+| 
+
+| xref:InstanceTask/setStagingPath.adoc[`setStagingPath`] 
+| 
+
+| xref:Task/setStatus.adoc[`setStatus`] 
+| 
+
+| xref:InstanceTask/shouldConfirmUpdate.adoc[`shouldConfirmUpdate`] 
+| 
+
+| xref:InstanceTask/shouldOverride.adoc[`shouldOverride`] 
+| 
+
+| xref:Task/start.adoc[`start`] 
+| used by the task caller to start the task
+
+
+
+| xref:Task/started.adoc[`started`] 
+| 
+
+| xref:Task/status.adoc[`status`] 
+| 
+
+| xref:Task/stepProgress.adoc[`stepProgress`] 
+| 
+
+| xref:Task/succeeded.adoc[`succeeded`] 
+| called when a task has succeeded
+
+
+
+| xref:InstanceName/version.adoc[`version`] 
+| 
+
+| xref:Task/warnings.adoc[`warnings`] 
+| 
+
+| xref:Task/wasSuccessful.adoc[`wasSuccessful`] 
+| 
+
+| xref:LegacyFTB/PackInstallTask/2destructor.adoc[`&tilde;PackInstallTask`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/tr.adoc[`tr`] 
+| 
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:InstanceTask/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+| xref:LegacyFTB/PackInstallTask/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+== Protected Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/emitAborted.adoc[`emitAborted`] 
+| &ast;&ast;The Task subclass&ast;&ast; must call this method when the task has aborted&period; External code should call abort() instead&period;
+
+
+
+| xref:Task/emitFailed.adoc[`emitFailed`] 
+| The Task subclass must call this method when the task has failed
+
+
+
+| xref:Task/emitSucceeded.adoc[`emitSucceeded`] 
+| The Task subclass must call this method when the task has succeeded
+
+
+
+| xref:Task/executeTask.adoc[`executeTask`] 
+| Entry point for tasks&period;
+
+
+The task subclass must implement this method&period; This method is called to start to run the task&period;
+The task is not finished when this method returns&period; the subclass must manually call emitSucceeded() or emitFailed() instead&period;
+
+
+
+| xref:Task/logWarning.adoc[`logWarning`] 
+| 
+
+| xref:Task/propagateStepProgress.adoc[`propagateStepProgress`] 
+| 
+
+| xref:InstanceTask/setOverride.adoc[`setOverride`] 
+| 
+
+|===
+== Protected Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Task/m_Warnings.adoc[`m&lowbar;Warnings`] 
+| 
+
+| xref:InstanceTask/m_confirm_update.adoc[`m&lowbar;confirm&lowbar;update`] 
+| 
+
+| xref:Task/m_details.adoc[`m&lowbar;details`] 
+| 
+
+| xref:Task/m_failReason.adoc[`m&lowbar;failReason`] 
+| 
+
+| xref:InstanceTask/m_globalSettings.adoc[`m&lowbar;globalSettings`] 
+| 
+
+| xref:InstanceTask/m_instGroup.adoc[`m&lowbar;instGroup`] 
+| 
+
+| xref:InstanceTask/m_instIcon.adoc[`m&lowbar;instIcon`] 
+| 
+
+| xref:InstanceName/m_modified_name.adoc[`m&lowbar;modified&lowbar;name`] 
+| 
+
+| xref:InstanceTask/m_original_instance_id.adoc[`m&lowbar;original&lowbar;instance&lowbar;id`] 
+| 
+
+| xref:InstanceName/m_original_name.adoc[`m&lowbar;original&lowbar;name`] 
+| 
+
+| xref:InstanceName/m_original_version.adoc[`m&lowbar;original&lowbar;version`] 
+| 
+
+| xref:InstanceTask/m_override_existing.adoc[`m&lowbar;override&lowbar;existing`] 
+| 
+
+| xref:Task/m_progress.adoc[`m&lowbar;progress`] 
+| 
+
+| xref:Task/m_progressTotal.adoc[`m&lowbar;progressTotal`] 
+| 
+
+| xref:Task/m_show_debug.adoc[`m&lowbar;show&lowbar;debug`] 
+| 
+
+| xref:InstanceTask/m_stagingPath.adoc[`m&lowbar;stagingPath`] 
+| 
+
+| xref:Task/m_state.adoc[`m&lowbar;state`] 
+| 
+
+| xref:Task/m_status.adoc[`m&lowbar;status`] 
+| 
+
+|===
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

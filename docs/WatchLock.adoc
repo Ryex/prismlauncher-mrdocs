@@ -1,0 +1,45 @@
+[#WatchLock]
+= WatchLock
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/WatchLock.h#L7[WatchLock&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct WatchLock;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WatchLock/2constructor.adoc[`WatchLock`]         [.small]#[constructor]#
+| 
+
+| xref:WatchLock/2destructor.adoc[`&tilde;WatchLock`] [.small]#[destructor]#
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:WatchLock/m_directory.adoc[`m&lowbar;directory`] 
+| 
+
+| xref:WatchLock/m_watcher.adoc[`m&lowbar;watcher`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

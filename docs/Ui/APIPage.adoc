@@ -1,0 +1,22 @@
+[#Ui-APIPage]
+= xref:Ui.adoc[Ui]::APIPage
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/APIPage.h#L46[ui&sol;pages&sol;global&sol;APIPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class APIPage
+    : public xref:Ui_APIPage.adoc[Ui&lowbar;APIPage];
+----
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

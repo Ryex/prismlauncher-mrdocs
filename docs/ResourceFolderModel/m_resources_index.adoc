@@ -1,0 +1,18 @@
+[#ResourceFolderModel-m_resources_index]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::m&lowbar;resources&lowbar;index
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L262[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], int&gt; m&lowbar;resources&lowbar;index;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

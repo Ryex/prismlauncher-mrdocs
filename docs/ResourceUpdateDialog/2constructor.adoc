@@ -1,0 +1,25 @@
+[#ResourceUpdateDialog-2constructor]
+= xref:ResourceUpdateDialog.adoc[ResourceUpdateDialog]::ResourceUpdateDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ResourceUpdateDialog.h#L19[ui&sol;dialogs&sol;ResourceUpdateDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+ResourceUpdateDialog(
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:BaseInstance.adoc[BaseInstance]* instance,
+    xref:std.adoc[std]::xref:std/shared_ptr.adoc[shared&lowbar;ptr]&lt;xref:ResourceFolderModel.adoc[ResourceFolderModel]&gt; resource&lowbar;model,
+    xref:QList.adoc[QList]&lt;xref:Resource.adoc[Resource]*&gt;& search&lowbar;for,
+    bool include&lowbar;deps,
+    bool filter&lowbar;loaders);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

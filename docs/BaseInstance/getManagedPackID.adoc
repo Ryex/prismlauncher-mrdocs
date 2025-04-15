@@ -1,0 +1,19 @@
+[#BaseInstance-getManagedPackID]
+= xref:BaseInstance.adoc[BaseInstance]::getManagedPackID
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/BaseInstance.h#L147[BaseInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getManagedPackID() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

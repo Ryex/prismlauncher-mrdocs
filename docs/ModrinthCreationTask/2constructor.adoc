@@ -1,0 +1,24 @@
+[#ModrinthCreationTask-2constructor]
+= xref:ModrinthCreationTask.adoc[ModrinthCreationTask]::ModrinthCreationTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthInstanceCreationTask.h#L13[modplatform&sol;modrinth&sol;ModrinthInstanceCreationTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+ModrinthCreationTask(
+    xref:QString.adoc[QString] staging&lowbar;path,
+    xref:SettingsObjectPtr.adoc[SettingsObjectPtr] global&lowbar;settings,
+    xref:QWidget.adoc[QWidget]* parent,
+    xref:QString.adoc[QString] id,
+    xref:QString.adoc[QString] version&lowbar;id = &equals; &lcub;&rcub;,
+    xref:QString.adoc[QString] original&lowbar;instance&lowbar;id = &equals; &lcub;&rcub;);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

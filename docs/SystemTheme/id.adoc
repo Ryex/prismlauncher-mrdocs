@@ -1,0 +1,20 @@
+[#SystemTheme-id]
+= xref:SystemTheme.adoc[SystemTheme]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/SystemTheme.h#L45[ui&sol;themes&sol;SystemTheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+id() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

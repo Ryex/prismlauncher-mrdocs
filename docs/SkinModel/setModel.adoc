@@ -1,0 +1,19 @@
+[#SkinModel-setModel]
+= xref:SkinModel.adoc[SkinModel]::setModel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/SkinModel.h#L46[minecraft&sol;skins&sol;SkinModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setModel(xref:SkinModel/Model.adoc[Model] model);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,29 @@
+[#DataPackUtils-ProcessingLevel]
+= xref:DataPackUtils.adoc[DataPackUtils]::ProcessingLevel
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/LocalDataPackParseTask.h#L33[minecraft&sol;mod&sol;tasks&sol;LocalDataPackParseTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum ProcessingLevel : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`Full`
+|
+|`BasicInfoOnly`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

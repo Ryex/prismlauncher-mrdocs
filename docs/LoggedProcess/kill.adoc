@@ -1,0 +1,21 @@
+[#LoggedProcess-kill]
+= xref:LoggedProcess.adoc[LoggedProcess]::kill
+:relfileprefix: ../
+:mrdocs:
+
+
+kill the process &hyphen; equivalent to kill &hyphen;9
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/LoggedProcess.h#L68[LoggedProcess&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+kill();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

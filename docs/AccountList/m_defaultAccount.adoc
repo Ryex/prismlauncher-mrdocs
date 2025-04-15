@@ -1,0 +1,18 @@
+[#AccountList-m_defaultAccount]
+= xref:AccountList.adoc[AccountList]::m&lowbar;defaultAccount
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/AccountList.h#L164[minecraft&sol;auth&sol;AccountList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MinecraftAccountPtr.adoc[MinecraftAccountPtr] m&lowbar;defaultAccount;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,23 @@
+[#PackProfile-buildingFromScratch]
+= xref:PackProfile.adoc[PackProfile]::buildingFromScratch
+:relfileprefix: ../
+:mrdocs:
+
+
+call this to explicitly mark the component list as loaded &hyphen; this is used to build a new component list from scratch&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile.h#L89[minecraft&sol;PackProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+buildingFromScratch();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

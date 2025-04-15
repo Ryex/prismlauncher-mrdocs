@@ -1,0 +1,20 @@
+[#Meta-Index-localFilename]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::localFilename
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L42[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+localFilename() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

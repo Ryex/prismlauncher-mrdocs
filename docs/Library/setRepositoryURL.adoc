@@ -1,0 +1,23 @@
+[#Library-setRepositoryURL]
+= xref:Library.adoc[Library]::setRepositoryURL
+:relfileprefix: ../
+:mrdocs:
+
+
+Set the url base for downloads
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Library.h#L105[minecraft&sol;Library&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setRepositoryURL(xref:QString.adoc[QString] const& base&lowbar;url);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

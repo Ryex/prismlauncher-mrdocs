@@ -1,0 +1,20 @@
+[#WatchLock-2constructor]
+= xref:WatchLock.adoc[WatchLock]::WatchLock
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/WatchLock.h#L8[WatchLock&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+WatchLock(
+    xref:QFileSystemWatcher.adoc[QFileSystemWatcher]* watcher,
+    xref:QString.adoc[QString] const& directory);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

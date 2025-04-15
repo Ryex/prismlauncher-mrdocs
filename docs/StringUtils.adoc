@@ -1,0 +1,50 @@
+[#StringUtils]
+= StringUtils
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:StringUtils/string.adoc[`string`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:StringUtils/fromStdString.adoc[`fromStdString`] 
+| 
+
+| xref:StringUtils/getRandomAlphaNumeric.adoc[`getRandomAlphaNumeric`] 
+| 
+
+| xref:StringUtils/htmlListPatch.adoc[`htmlListPatch`] 
+| 
+
+| xref:StringUtils/humanReadableFileSize.adoc[`humanReadableFileSize`] 
+| 
+
+| xref:StringUtils/naturalCompare.adoc[`naturalCompare`] 
+| TAKEN FROM Qt, because it doesn&apos;t expose it intelligently
+
+
+
+| xref:StringUtils/splitFirst.adoc[`splitFirst`] 
+| 
+| xref:StringUtils/toStdString.adoc[`toStdString`] 
+| 
+
+| xref:StringUtils/truncateUrlHumanFriendly.adoc[`truncateUrlHumanFriendly`] 
+| Truncate a url while keeping its readability py placing the &grave;&period;&period;&period;&grave; in the middle of the path
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

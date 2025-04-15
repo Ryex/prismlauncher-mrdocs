@@ -1,0 +1,19 @@
+[#LaunchStep-readyForLaunch]
+= xref:LaunchStep.adoc[LaunchStep]::readyForLaunch
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchStep.h#L33[launch&sol;LaunchStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+readyForLaunch();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#BasePage-updateExtraInfo]
+= xref:BasePage.adoc[BasePage]::updateExtraInfo
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePage.h#L73[ui&sol;pages&sol;BasePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:BasePage/updateExtraInfoFunc.adoc[updateExtraInfoFunc] updateExtraInfo;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

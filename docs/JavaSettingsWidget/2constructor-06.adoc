@@ -1,0 +1,21 @@
+[#JavaSettingsWidget-2constructor-06]
+= xref:JavaSettingsWidget.adoc[JavaSettingsWidget]::JavaSettingsWidget
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/JavaSettingsWidget.h#L52[ui&sol;widgets&sol;JavaSettingsWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+explicit
+JavaSettingsWidget(
+    xref:InstancePtr.adoc[InstancePtr] instance,
+    xref:QWidget.adoc[QWidget]* parent = nullptr);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

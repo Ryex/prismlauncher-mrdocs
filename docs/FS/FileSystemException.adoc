@@ -1,0 +1,37 @@
+[#FS-FileSystemException]
+= xref:FS.adoc[FS]::FileSystemException
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L54[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class FileSystemException
+    : public xref:Exception.adoc[Exception];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/FileSystemException/2constructor.adoc[`FileSystemException`]         [.small]#[constructor]#
+| 
+
+| xref:Exception/cause.adoc[`cause`] 
+| 
+
+| xref:Exception/what.adoc[`what`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

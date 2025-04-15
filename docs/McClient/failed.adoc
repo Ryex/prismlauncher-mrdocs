@@ -1,0 +1,19 @@
+[#McClient-failed]
+= xref:McClient.adoc[McClient]::failed
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/McClient.h#L49[ui&sol;pages&sol;instance&sol;McClient&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+failed(xref:QString.adoc[QString] error);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

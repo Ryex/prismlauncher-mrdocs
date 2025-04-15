@@ -1,0 +1,23 @@
+[#ResourceAPI-searchProjects]
+= xref:ResourceAPI.adoc[ResourceAPI]::searchProjects
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L134[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]::xref:Task/Ptr.adoc[Ptr]
+searchProjects(
+    xref:ResourceAPI/SearchArgs.adoc[SearchArgs]&&,
+    xref:ResourceAPI/SearchCallbacks.adoc[SearchCallbacks]&&) const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

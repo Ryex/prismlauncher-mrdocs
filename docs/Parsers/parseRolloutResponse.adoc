@@ -1,0 +1,21 @@
+[#Parsers-parseRolloutResponse]
+= xref:Parsers.adoc[Parsers]::parseRolloutResponse
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L18[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+parseRolloutResponse(
+    xref:QByteArray.adoc[QByteArray]& data,
+    bool& result);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

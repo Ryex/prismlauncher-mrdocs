@@ -1,0 +1,19 @@
+[#LaunchProfile-getMinecraftAssets]
+= xref:LaunchProfile.adoc[LaunchProfile]::getMinecraftAssets
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L73[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:MojangAssetIndexInfo.adoc[MojangAssetIndexInfo]::xref:MojangAssetIndexInfo/Ptr.adoc[Ptr]
+getMinecraftAssets() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

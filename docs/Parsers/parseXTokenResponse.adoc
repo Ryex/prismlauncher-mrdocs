@@ -1,0 +1,22 @@
+[#Parsers-parseXTokenResponse]
+= xref:Parsers.adoc[Parsers]::parseXTokenResponse
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/Parsers.h#L12[minecraft&sol;auth&sol;Parsers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+parseXTokenResponse(
+    xref:QByteArray.adoc[QByteArray]& data,
+    xref:Token.adoc[Token]& output,
+    xref:QString.adoc[QString] name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

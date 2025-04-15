@@ -1,0 +1,19 @@
+[#MinecraftInstance-getNativePath]
+= xref:MinecraftInstance.adoc[MinecraftInstance]::getNativePath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/MinecraftInstance.h#L99[minecraft&sol;MinecraftInstance&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getNativePath() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

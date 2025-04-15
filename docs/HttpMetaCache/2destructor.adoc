@@ -1,0 +1,19 @@
+[#HttpMetaCache-2destructor]
+= xref:HttpMetaCache.adoc[HttpMetaCache]::&tilde;HttpMetaCache
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L102[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;HttpMetaCache() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

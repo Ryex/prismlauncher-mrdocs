@@ -1,0 +1,18 @@
+[#GetModDependenciesTask-PackDependencyExtraInfo-required_by]
+= xref:GetModDependenciesTask.adoc[GetModDependenciesTask]::xref:GetModDependenciesTask/PackDependencyExtraInfo.adoc[PackDependencyExtraInfo]::required&lowbar;by
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.h#L54[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] required&lowbar;by;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

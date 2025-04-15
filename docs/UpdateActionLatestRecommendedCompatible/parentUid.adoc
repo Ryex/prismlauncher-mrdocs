@@ -1,0 +1,22 @@
+[#UpdateActionLatestRecommendedCompatible-parentUid]
+= xref:UpdateActionLatestRecommendedCompatible.adoc[UpdateActionLatestRecommendedCompatible]::parentUid
+:relfileprefix: ../
+:mrdocs:
+
+
+Parent uid
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L28[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] parentUid;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

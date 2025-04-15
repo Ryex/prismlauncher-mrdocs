@@ -1,0 +1,18 @@
+[#ATLauncher-PackVersionMainClass-depends]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackVersionMainClass.adoc[PackVersionMainClass]::depends
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L158[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] depends;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

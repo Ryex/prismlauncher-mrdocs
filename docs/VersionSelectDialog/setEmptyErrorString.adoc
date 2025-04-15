@@ -1,0 +1,19 @@
+[#VersionSelectDialog-setEmptyErrorString]
+= xref:VersionSelectDialog.adoc[VersionSelectDialog]::setEmptyErrorString
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/VersionSelectDialog.h#L47[ui&sol;dialogs&sol;VersionSelectDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setEmptyErrorString(xref:QString.adoc[QString] emptyErrorString);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

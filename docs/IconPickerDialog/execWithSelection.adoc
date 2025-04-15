@@ -1,0 +1,19 @@
+[#IconPickerDialog-execWithSelection]
+= xref:IconPickerDialog.adoc[IconPickerDialog]::execWithSelection
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/IconPickerDialog.h#L32[ui&sol;dialogs&sol;IconPickerDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int
+execWithSelection(xref:QString.adoc[QString] selection);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

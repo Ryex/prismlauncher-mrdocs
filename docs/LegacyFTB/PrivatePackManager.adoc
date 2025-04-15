@@ -1,0 +1,48 @@
+[#LegacyFTB-PrivatePackManager]
+= xref:LegacyFTB.adoc[LegacyFTB]::PrivatePackManager
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PrivatePackManager.h#L9[modplatform&sol;legacy&lowbar;ftb&sol;PrivatePackManager&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class PrivatePackManager;
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LegacyFTB/PrivatePackManager/add.adoc[`add`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager/empty.adoc[`empty`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager/getCurrentPackCodes.adoc[`getCurrentPackCodes`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager/load.adoc[`load`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager/remove.adoc[`remove`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager/save.adoc[`save`] 
+| 
+
+| xref:LegacyFTB/PrivatePackManager/2destructor.adoc[`&tilde;PrivatePackManager`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

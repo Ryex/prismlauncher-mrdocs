@@ -1,0 +1,23 @@
+[#TexturePack-setDescription]
+= xref:TexturePack.adoc[TexturePack]::setDescription
+:relfileprefix: ../
+:mrdocs:
+
+
+Thread&hyphen;safe&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/TexturePack.h#L46[minecraft&sol;mod&sol;TexturePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setDescription(xref:QString.adoc[QString] new&lowbar;description);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ModFilterWidget-setCategories]
+= xref:ModFilterWidget.adoc[ModFilterWidget]::setCategories
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/ModFilterWidget.h#L96[ui&sol;widgets&sol;ModFilterWidget&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setCategories(xref:QList.adoc[QList]&lt;xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/Category.adoc[Category]&gt; const&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

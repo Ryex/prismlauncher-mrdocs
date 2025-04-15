@@ -1,0 +1,22 @@
+[#loadFileV1]
+= loadFileV1
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.cpp#L4[modplatform&sol;flame&sol;PackManifest&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+void
+loadFileV1(
+    xref:Flame.adoc[Flame]::xref:Flame/File.adoc[File]& f,
+    xref:QJsonObject.adoc[QJsonObject]& file);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

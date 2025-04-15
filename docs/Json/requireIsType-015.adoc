@@ -1,0 +1,31 @@
+[#Json-requireIsType-015]
+= xref:Json.adoc[Json]::requireIsType&lt;xref:QUuid.adoc[QUuid], xref:QUuid.adoc[QUuid]&gt;
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/Json.h#L145[Json&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;&gt;
+xref:QUuid.adoc[QUuid]
+xref:Json/requireIsType-09a.adoc[requireIsType]&lt;xref:QUuid.adoc[QUuid], xref:QUuid.adoc[QUuid]&gt;(
+    xref:QJsonValue.adoc[QJsonValue] const& value,
+    xref:QString.adoc[QString] const& what = &quot;Value&quot;);
+----
+
+== Exceptions
+
+|===
+| Name | Thrown on
+
+| ``
+| 
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

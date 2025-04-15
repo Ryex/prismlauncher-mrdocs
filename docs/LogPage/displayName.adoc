@@ -1,0 +1,20 @@
+[#LogPage-displayName]
+= xref:LogPage.adoc[LogPage]::displayName
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/LogPage.h#L57[ui&sol;pages&sol;instance&sol;LogPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+displayName() const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

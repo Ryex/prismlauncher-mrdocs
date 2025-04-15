@@ -1,0 +1,19 @@
+[#EnsureMetadataTask-2destructor]
+= xref:EnsureMetadataTask.adoc[EnsureMetadataTask]::&tilde;EnsureMetadataTask
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/EnsureMetadataTask.h#L22[modplatform&sol;EnsureMetadataTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;EnsureMetadataTask() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

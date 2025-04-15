@@ -1,0 +1,34 @@
+[#MessageLevel]
+= MessageLevel
+:relfileprefix: 
+:mrdocs:
+
+
+the MessageLevel Enum
+defines what level a log message is
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MessageLevel/Enum.adoc[`Enum`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:MessageLevel/fromLine.adoc[`fromLine`] 
+| 
+
+| xref:MessageLevel/getLevel.adoc[`getLevel`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

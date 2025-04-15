@@ -1,0 +1,20 @@
+[#BasePageProvider-getPages]
+= xref:BasePageProvider.adoc[BasePageProvider]::getPages
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/BasePageProvider.h#L23[ui&sol;pages&sol;BasePageProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QList.adoc[QList]&lt;xref:BasePage.adoc[BasePage]*&gt;
+getPages() = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

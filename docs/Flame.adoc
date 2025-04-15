@@ -1,0 +1,70 @@
+[#Flame]
+= Flame
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/File.adoc[`File`] 
+| 
+
+| xref:Flame/FileResolvingTask.adoc[`FileResolvingTask`] 
+| 
+
+| xref:Flame/IndexedPack.adoc[`IndexedPack`] 
+| 
+
+| xref:Flame/IndexedVersion.adoc[`IndexedVersion`] 
+| 
+
+| xref:Flame/ListModel.adoc[`ListModel`] 
+| 
+
+| xref:Flame/LogoCallback.adoc[`LogoCallback`] 
+| 
+
+| xref:Flame/LogoMap.adoc[`LogoMap`] 
+| 
+
+| xref:Flame/Manifest.adoc[`Manifest`] 
+| 
+
+| xref:Flame/Minecraft.adoc[`Minecraft`] 
+| 
+
+| xref:Flame/Modloader.adoc[`Modloader`] 
+| 
+
+| xref:Flame/ModpackAuthor.adoc[`ModpackAuthor`] 
+| 
+
+| xref:Flame/ModpackExtra.adoc[`ModpackExtra`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/loadIndexedInfo.adoc[`loadIndexedInfo`] 
+| 
+
+| xref:Flame/loadIndexedPack.adoc[`loadIndexedPack`] 
+| 
+
+| xref:Flame/loadIndexedPackVersions.adoc[`loadIndexedPackVersions`] 
+| 
+
+| xref:Flame/loadManifest.adoc[`loadManifest`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

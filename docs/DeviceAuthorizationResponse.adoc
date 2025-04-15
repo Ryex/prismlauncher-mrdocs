@@ -1,0 +1,48 @@
+[#DeviceAuthorizationResponse]
+= DeviceAuthorizationResponse
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSADeviceCodeStep.cpp#L82[minecraft&sol;auth&sol;steps&sol;MSADeviceCodeStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct DeviceAuthorizationResponse;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:DeviceAuthorizationResponse/device_code.adoc[`device&lowbar;code`] 
+| 
+
+| xref:DeviceAuthorizationResponse/error.adoc[`error`] 
+| 
+
+| xref:DeviceAuthorizationResponse/error_description.adoc[`error&lowbar;description`] 
+| 
+
+| xref:DeviceAuthorizationResponse/expires_in.adoc[`expires&lowbar;in`] 
+| 
+
+| xref:DeviceAuthorizationResponse/interval.adoc[`interval`] 
+| 
+
+| xref:DeviceAuthorizationResponse/user_code.adoc[`user&lowbar;code`] 
+| 
+
+| xref:DeviceAuthorizationResponse/verification_uri.adoc[`verification&lowbar;uri`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

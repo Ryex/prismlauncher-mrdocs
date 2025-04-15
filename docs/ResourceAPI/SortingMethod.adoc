@@ -1,0 +1,36 @@
+[#ResourceAPI-SortingMethod]
+= xref:ResourceAPI.adoc[ResourceAPI]::SortingMethod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L58[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct SortingMethod;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ResourceAPI/SortingMethod/index.adoc[`index`] 
+| 
+
+| xref:ResourceAPI/SortingMethod/name.adoc[`name`] 
+| 
+
+| xref:ResourceAPI/SortingMethod/readable_name.adoc[`readable&lowbar;name`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#AccountListPage-on_actionRefresh_triggered]
+= xref:AccountListPage.adoc[AccountListPage]::on&lowbar;actionRefresh&lowbar;triggered
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/global/AccountListPage.h#L76[ui&sol;pages&sol;global&sol;AccountListPage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+on&lowbar;actionRefresh&lowbar;triggered();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

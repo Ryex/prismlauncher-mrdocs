@@ -1,0 +1,23 @@
+[#ResourceDownload-ResourceModel-setData]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourceModel.adoc[ResourceModel]::setData
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourceModel.h#L41[ui&sol;pages&sol;modplatform&sol;ResourceModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+setData(
+    xref:QModelIndex.adoc[QModelIndex] const& index,
+    xref:QVariant.adoc[QVariant] const& value,
+    int role) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

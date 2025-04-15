@@ -1,0 +1,64 @@
+[#CustomOAuthOobReplyHandler]
+= CustomOAuthOobReplyHandler
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/MSAStep.cpp#L70[minecraft&sol;auth&sol;steps&sol;MSAStep&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class CustomOAuthOobReplyHandler
+    : public xref:QOAuthOobReplyHandler.adoc[QOAuthOobReplyHandler];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomOAuthOobReplyHandler/2constructor.adoc[`CustomOAuthOobReplyHandler`]         [.small]#[constructor]#
+| 
+
+| xref:CustomOAuthOobReplyHandler/callback.adoc[`callback`] 
+| 
+
+| xref:CustomOAuthOobReplyHandler/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:CustomOAuthOobReplyHandler/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:CustomOAuthOobReplyHandler/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:CustomOAuthOobReplyHandler/2destructor.adoc[`&tilde;CustomOAuthOobReplyHandler`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomOAuthOobReplyHandler/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:CustomOAuthOobReplyHandler/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

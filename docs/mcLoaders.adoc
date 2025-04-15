@@ -1,0 +1,20 @@
+[#mcLoaders]
+= mcLoaders
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/tasks/GetModDependenciesTask.cpp#L42[minecraft&sol;mod&sol;tasks&sol;GetModDependenciesTask&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ModPlatform.adoc[ModPlatform]::xref:ModPlatform/ModLoaderTypes.adoc[ModLoaderTypes]
+mcLoaders(xref:BaseInstance.adoc[BaseInstance]* inst);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

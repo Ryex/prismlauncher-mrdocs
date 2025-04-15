@@ -1,0 +1,19 @@
+[#LogView-scrollToBottom]
+= xref:LogView.adoc[LogView]::scrollToBottom
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/LogView.h#L19[ui&sol;widgets&sol;LogView&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+scrollToBottom();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#ProblemContainer-addProblem]
+= xref:ProblemContainer.adoc[ProblemContainer]::addProblem
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ProblemProvider.h#L24[ProblemProvider&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+addProblem(
+    xref:ProblemSeverity.adoc[ProblemSeverity] severity,
+    xref:QString.adoc[QString] const& description);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

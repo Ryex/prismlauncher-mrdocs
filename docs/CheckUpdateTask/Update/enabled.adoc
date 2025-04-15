@@ -1,0 +1,18 @@
+[#CheckUpdateTask-Update-enabled]
+= xref:CheckUpdateTask.adoc[CheckUpdateTask]::xref:CheckUpdateTask/Update.adoc[Update]::enabled
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/CheckUpdateTask.h#L36[modplatform&sol;CheckUpdateTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool enabled = true;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

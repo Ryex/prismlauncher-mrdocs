@@ -1,0 +1,20 @@
+[#Net-RawHeaderProxy-headers]
+= xref:Net.adoc[Net]::xref:Net/RawHeaderProxy.adoc[RawHeaderProxy]::headers
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/RawHeaderProxy.h#L35[net&sol;RawHeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QList.adoc[QList]&lt;xref:Net/HeaderPair.adoc[HeaderPair]&gt;
+headers(xref:QNetworkRequest.adoc[QNetworkRequest] const&) const override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

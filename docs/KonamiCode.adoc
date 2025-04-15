@@ -1,0 +1,65 @@
+[#KonamiCode]
+= KonamiCode
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/KonamiCode.h#L5[KonamiCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class KonamiCode
+    : public xref:QObject.adoc[QObject]
+    , public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:KonamiCode/2constructor.adoc[`KonamiCode`]         [.small]#[constructor]#
+| 
+
+| xref:KonamiCode/input.adoc[`input`] 
+| 
+
+| xref:KonamiCode/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:KonamiCode/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:KonamiCode/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:KonamiCode/triggered.adoc[`triggered`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:KonamiCode/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:KonamiCode/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

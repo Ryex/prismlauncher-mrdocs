@@ -1,0 +1,23 @@
+[#InstallJavaPage-initialize]
+= xref:InstallJavaPage.adoc[InstallJavaPage]::initialize
+:relfileprefix: ../
+:mrdocs:
+
+
+loads the list if needed&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.cpp#L82[ui&sol;java&sol;InstallJavaDialog&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+initialize(xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::xref:Meta/VersionList/Ptr.adoc[Ptr] vlist);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

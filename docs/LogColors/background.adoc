@@ -1,0 +1,18 @@
+[#LogColors-background]
+= xref:LogColors.adoc[LogColors]::background
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/themes/ITheme.h#L45[ui&sol;themes&sol;ITheme&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:MessageLevel.adoc[MessageLevel]::xref:MessageLevel/Enum.adoc[Enum], xref:QColor.adoc[QColor]&gt; background;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

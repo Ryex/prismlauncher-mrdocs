@@ -1,0 +1,19 @@
+[#BlockedModsDialog-2destructor]
+= xref:BlockedModsDialog.adoc[BlockedModsDialog]::&tilde;BlockedModsDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/BlockedModsDialog.h#L60[ui&sol;dialogs&sol;BlockedModsDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;BlockedModsDialog() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

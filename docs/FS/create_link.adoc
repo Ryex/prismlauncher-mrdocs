@@ -1,0 +1,106 @@
+[#FS-create_link]
+= xref:FS.adoc[FS]::create&lowbar;link
+:relfileprefix: ../
+:mrdocs:
+
+
+links (a file &sol; a directory and it&apos;s contents) from src to dest
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L198[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class create&lowbar;link
+    : public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/create_link/2constructor.adoc[`create&lowbar;link`]         [.small]#[constructor]#
+| 
+| xref:FS/create_link/debug.adoc[`debug`] 
+| 
+
+| xref:FS/create_link/fileLinked.adoc[`fileLinked`] 
+| 
+
+| xref:FS/create_link/finished.adoc[`finished`] 
+| 
+
+| xref:FS/create_link/finishedPrivileged.adoc[`finishedPrivileged`] 
+| 
+
+| xref:FS/create_link/getOSError.adoc[`getOSError`] 
+| 
+
+| xref:FS/create_link/getResults.adoc[`getResults`] 
+| 
+
+| xref:FS/create_link/linkFailed.adoc[`linkFailed`] 
+| 
+
+| xref:FS/create_link/linkRecursively.adoc[`linkRecursively`] 
+| 
+
+| xref:FS/create_link/matcher.adoc[`matcher`] 
+| 
+
+| xref:FS/create_link/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:FS/create_link/operator_call.adoc[`operator()`] 
+| 
+
+| xref:FS/create_link/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:FS/create_link/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:FS/create_link/runPrivileged.adoc[`runPrivileged`] 
+| 
+| xref:FS/create_link/setMaxDepth.adoc[`setMaxDepth`] 
+| 
+
+| xref:FS/create_link/totalLinked.adoc[`totalLinked`] 
+| 
+
+| xref:FS/create_link/totalToLink.adoc[`totalToLink`] 
+| 
+
+| xref:FS/create_link/useHardLinks.adoc[`useHardLinks`] 
+| 
+
+| xref:FS/create_link/whitelist.adoc[`whitelist`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/create_link/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FS/create_link/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

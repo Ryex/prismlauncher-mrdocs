@@ -1,0 +1,19 @@
+[#ResourceAPI-2destructor]
+= xref:ResourceAPI.adoc[ResourceAPI]::&tilde;ResourceAPI
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ResourceAPI.h#L56[modplatform&sol;ResourceAPI&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ResourceAPI() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

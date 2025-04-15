@@ -1,0 +1,54 @@
+[#PackProfileData]
+= PackProfileData
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/PackProfile_p.h#L13[minecraft&sol;PackProfile&lowbar;p&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct PackProfileData;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:PackProfileData/componentIndex.adoc[`componentIndex`] 
+| 
+
+| xref:PackProfileData/components.adoc[`components`] 
+| 
+
+| xref:PackProfileData/dirty.adoc[`dirty`] 
+| 
+
+| xref:PackProfileData/interactionDisabled.adoc[`interactionDisabled`] 
+| 
+
+| xref:PackProfileData/loaded.adoc[`loaded`] 
+| 
+
+| xref:PackProfileData/m_instance.adoc[`m&lowbar;instance`] 
+| 
+
+| xref:PackProfileData/m_profile.adoc[`m&lowbar;profile`] 
+| 
+
+| xref:PackProfileData/m_saveTimer.adoc[`m&lowbar;saveTimer`] 
+| 
+
+| xref:PackProfileData/m_updateTask.adoc[`m&lowbar;updateTask`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

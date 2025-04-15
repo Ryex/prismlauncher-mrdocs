@@ -1,0 +1,20 @@
+[#XboxUserStep-describe]
+= xref:XboxUserStep.adoc[XboxUserStep]::describe
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/auth/steps/XboxUserStep.h#L18[minecraft&sol;auth&sol;steps&sol;XboxUserStep&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QString.adoc[QString]
+describe() override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,22 @@
+[#MMCIcon-replace-0e]
+= xref:MMCIcon.adoc[MMCIcon]::replace
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/icons/MMCIcon.h#L60[icons&sol;MMCIcon&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+replace(
+    xref:IconType.adoc[IconType] new&lowbar;type,
+    xref:QIcon.adoc[QIcon] icon,
+    xref:QString.adoc[QString] path = QString());
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

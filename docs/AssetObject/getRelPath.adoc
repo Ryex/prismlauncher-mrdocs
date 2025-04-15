@@ -1,0 +1,19 @@
+[#AssetObject-getRelPath]
+= xref:AssetObject.adoc[AssetObject]::getRelPath
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/AssetsUtils.h#L24[minecraft&sol;AssetsUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getRelPath();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

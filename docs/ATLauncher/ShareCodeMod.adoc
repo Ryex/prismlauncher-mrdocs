@@ -1,0 +1,33 @@
+[#ATLauncher-ShareCodeMod]
+= xref:ATLauncher.adoc[ATLauncher]::ShareCodeMod
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLShareCode.h#L27[modplatform&sol;atlauncher&sol;ATLShareCode&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct ShareCodeMod;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:ATLauncher/ShareCodeMod/name.adoc[`name`] 
+| 
+
+| xref:ATLauncher/ShareCodeMod/selected.adoc[`selected`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

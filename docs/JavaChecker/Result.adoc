@@ -1,0 +1,66 @@
+[#JavaChecker-Result]
+= xref:JavaChecker.adoc[JavaChecker]::Result
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaChecker.h#L15[java&sol;JavaChecker&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Result;
+----
+
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaChecker/Result/Validity.adoc[`Validity`] 
+| 
+
+|===
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:JavaChecker/Result/errorLog.adoc[`errorLog`] 
+| 
+
+| xref:JavaChecker/Result/id.adoc[`id`] 
+| 
+
+| xref:JavaChecker/Result/is_64bit.adoc[`is&lowbar;64bit`] 
+| 
+
+| xref:JavaChecker/Result/javaVendor.adoc[`javaVendor`] 
+| 
+
+| xref:JavaChecker/Result/javaVersion.adoc[`javaVersion`] 
+| 
+
+| xref:JavaChecker/Result/mojangPlatform.adoc[`mojangPlatform`] 
+| 
+
+| xref:JavaChecker/Result/outLog.adoc[`outLog`] 
+| 
+
+| xref:JavaChecker/Result/path.adoc[`path`] 
+| 
+
+| xref:JavaChecker/Result/realPlatform.adoc[`realPlatform`] 
+| 
+
+| xref:JavaChecker/Result/validity.adoc[`validity`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

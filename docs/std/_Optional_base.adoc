@@ -1,0 +1,52 @@
+[#std-_Optional_base]
+= xref:std.adoc[std]::&lowbar;Optional&lowbar;base
+:relfileprefix: ../
+:mrdocs:
+
+
+Class template that provides copy&sol;move constructors of optional&period;
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop//nix/store/2agih0y5ns3sgbviw2xhivdgg59b41g9-gcc-14-20241116/include/c++/14-20241116/optional#L505[&sol;nix&sol;store&sol;2agih0y5ns3sgbviw2xhivdgg59b41g9&hyphen;gcc&hyphen;14&hyphen;20241116&sol;include&sol;c&plus;&plus;&sol;14&hyphen;20241116&sol;optional]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+template&lt;
+    typename &lowbar;Tp,
+    bool = is&lowbar;trivially&lowbar;copy&lowbar;constructible&lowbar;v&lt;&lowbar;Tp&gt;,
+    bool = is&lowbar;trivially&lowbar;move&lowbar;constructible&lowbar;v&lt;&lowbar;Tp&gt;&gt;
+struct &lowbar;Optional&lowbar;base
+    : xref:std/_Optional_base_impl.adoc[&lowbar;Optional&lowbar;base&lowbar;impl]&lt;&lowbar;Tp, xref:std/_Optional_base.adoc[&lowbar;Optional&lowbar;base]&lt;&lowbar;Tp&gt;&gt;;
+----
+
+
+
+
+== Description
+
+Such a separate base class template is necessary in order to
+conditionally make copy&sol;move constructors trivial&period;
+
+When the contained value is trivially copy&sol;move constructible,
+the copy&sol;move constructors of &lowbar;Optional&lowbar;base will invoke the
+trivial copy&sol;move constructor of &lowbar;Optional&lowbar;payload&period; Otherwise,
+they will invoke &lowbar;Optional&lowbar;payload(bool, const &lowbar;Optional&lowbar;payload&amp;)
+or &lowbar;Optional&lowbar;payload(bool, &lowbar;Optional&lowbar;payload&amp;&amp;) to initialize
+the contained value, if copying&sol;moving an engaged optional&period;
+
+Whether the other special members are trivial is determined by the
+&lowbar;Optional&lowbar;payload&lt;&lowbar;Tp&gt; specialization used for the &lowbar;M&lowbar;payload member&period;
+
+
+
+== See Also
+
+optional, &lowbar;Enable&lowbar;special&lowbar;members
+
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

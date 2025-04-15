@@ -1,0 +1,22 @@
+[#Rule-applies]
+= xref:Rule.adoc[Rule]::applies
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Rule.h#L54[minecraft&sol;Rule&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+applies(
+    xref:Library.adoc[Library] const* parent,
+    xref:RuntimeContext.adoc[RuntimeContext] const& runtimeContext) = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

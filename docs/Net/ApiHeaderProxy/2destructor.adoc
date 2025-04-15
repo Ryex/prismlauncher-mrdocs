@@ -1,0 +1,19 @@
+[#Net-ApiHeaderProxy-2destructor]
+= xref:Net.adoc[Net]::xref:Net/ApiHeaderProxy.adoc[ApiHeaderProxy]::&tilde;ApiHeaderProxy
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ApiHeaderProxy.h#L31[net&sol;ApiHeaderProxy&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ApiHeaderProxy() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,39 @@
+[#ModPlatform-DependencyType]
+= xref:ModPlatform.adoc[ModPlatform]::DependencyType
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/ModIndex.h#L41[modplatform&sol;ModIndex&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum DependencyType : int;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`REQUIRED`
+|
+|`OPTIONAL`
+|
+|`INCOMPATIBLE`
+|
+|`EMBEDDED`
+|
+|`TOOL`
+|
+|`INCLUDE`
+|
+|`UNKNOWN`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

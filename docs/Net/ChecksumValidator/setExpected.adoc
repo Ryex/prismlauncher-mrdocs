@@ -1,0 +1,19 @@
+[#Net-ChecksumValidator-setExpected]
+= xref:Net.adoc[Net]::xref:Net/ChecksumValidator.adoc[ChecksumValidator]::setExpected
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/ChecksumValidator.h#L83[net&sol;ChecksumValidator&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setExpected(xref:QByteArray.adoc[QByteArray] expected);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,20 @@
+[#Meta-Index-parse]
+= xref:Meta.adoc[Meta]::xref:Meta/Index.adoc[Index]::parse
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/Index.h#L60[meta&sol;Index&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+void
+parse(xref:QJsonObject.adoc[QJsonObject] const& obj) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

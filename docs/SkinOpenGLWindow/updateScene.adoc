@@ -1,0 +1,19 @@
+[#SkinOpenGLWindow-updateScene]
+= xref:SkinOpenGLWindow.adoc[SkinOpenGLWindow]::updateScene
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/skins/draw/SkinOpenGLWindow.h#L44[ui&sol;dialogs&sol;skins&sol;draw&sol;SkinOpenGLWindow&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+updateScene(xref:SkinModel.adoc[SkinModel]* skin);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

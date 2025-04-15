@@ -1,0 +1,19 @@
+[#ResourceDownload-ResourcePage-removeResourceFromDialog]
+= xref:ResourceDownload.adoc[ResourceDownload]::xref:ResourceDownload/ResourcePage.adoc[ResourcePage]::removeResourceFromDialog
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/modplatform/ResourcePage.h#L79[ui&sol;pages&sol;modplatform&sol;ResourcePage&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+removeResourceFromDialog(xref:QString.adoc[QString] const& pack&lowbar;name);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

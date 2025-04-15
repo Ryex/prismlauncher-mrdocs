@@ -1,0 +1,20 @@
+[#CapeChange-getReply]
+= xref:CapeChange.adoc[CapeChange]::getReply
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/skins/CapeChange.h#L33[minecraft&sol;skins&sol;CapeChange&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QNetworkReply.adoc[QNetworkReply]*
+getReply(xref:QNetworkRequest.adoc[QNetworkRequest]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

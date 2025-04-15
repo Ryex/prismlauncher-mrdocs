@@ -1,0 +1,24 @@
+[#WorldList-update]
+= xref:WorldList.adoc[WorldList]::update
+:relfileprefix: ../
+:mrdocs:
+
+
+Reloads the mod list and returns true if the list changed&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L48[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+bool
+update();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

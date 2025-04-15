@@ -1,0 +1,23 @@
+[#WorldList-installWorld]
+= xref:WorldList.adoc[WorldList]::installWorld
+:relfileprefix: ../
+:mrdocs:
+
+
+Install a world from location
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/WorldList.h#L51[minecraft&sol;WorldList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+installWorld(xref:QFileInfo.adoc[QFileInfo] filename);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

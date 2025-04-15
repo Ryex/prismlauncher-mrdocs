@@ -1,0 +1,18 @@
+[#JavaInstallList-m_only_managed_versions]
+= xref:JavaInstallList.adoc[JavaInstallList]::m&lowbar;only&lowbar;managed&lowbar;versions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L58[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool m&lowbar;only&lowbar;managed&lowbar;versions;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

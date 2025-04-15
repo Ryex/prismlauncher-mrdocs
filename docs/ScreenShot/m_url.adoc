@@ -1,0 +1,18 @@
+[#ScreenShot-m_url]
+= xref:ScreenShot.adoc[ScreenShot]::m&lowbar;url
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/Screenshot.h#L13[screenshots&sol;Screenshot&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;url;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

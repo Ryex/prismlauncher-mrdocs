@@ -1,0 +1,19 @@
+[#s_units_si]
+= s&lowbar;units&lowbar;si
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/StringUtils.cpp#L163[StringUtils&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QStringList.adoc[QStringList] const s&lowbar;units&lowbar;si = s&lowbar;units&lowbar;si&lcub; &quot;KB&quot;, &quot;MB&quot;, &quot;GB&quot;, &quot;TB&quot; &rcub;;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

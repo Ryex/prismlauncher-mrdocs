@@ -1,0 +1,18 @@
+[#Java-SymlinkTask-2constructor]
+= xref:Java.adoc[Java]::xref:Java/SymlinkTask.adoc[SymlinkTask]::SymlinkTask
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/download/SymlinkTask.h#L27[java&sol;download&sol;SymlinkTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+SymlinkTask(xref:QString.adoc[QString] final&lowbar;path);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

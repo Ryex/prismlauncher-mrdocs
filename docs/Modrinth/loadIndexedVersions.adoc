@@ -1,0 +1,21 @@
+[#Modrinth-loadIndexedVersions]
+= xref:Modrinth.adoc[Modrinth]::loadIndexedVersions
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthPackManifest.h#L118[modplatform&sol;modrinth&sol;ModrinthPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+loadIndexedVersions(
+    xref:Modrinth/Modpack.adoc[Modpack]&,
+    xref:QJsonDocument.adoc[QJsonDocument]&);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#ResourceDownloadTask-getVersionID]
+= xref:ResourceDownloadTask.adoc[ResourceDownloadTask]::getVersionID
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ResourceDownloadTask.h#L40[ResourceDownloadTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QVariant.adoc[QVariant] const&
+getVersionID() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

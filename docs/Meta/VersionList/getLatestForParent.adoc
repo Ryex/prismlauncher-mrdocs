@@ -1,0 +1,21 @@
+[#Meta-VersionList-getLatestForParent]
+= xref:Meta.adoc[Meta]::xref:Meta/VersionList.adoc[VersionList]::getLatestForParent
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/meta/VersionList.h#L47[meta&sol;VersionList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:Meta/Version.adoc[Version]::xref:Meta/Version/Ptr.adoc[Ptr]
+getLatestForParent(
+    xref:QString.adoc[QString] const& uid,
+    xref:QString.adoc[QString] const& version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

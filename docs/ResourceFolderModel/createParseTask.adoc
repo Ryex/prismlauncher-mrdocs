@@ -1,0 +1,32 @@
+[#ResourceFolderModel-createParseTask]
+= xref:ResourceFolderModel.adoc[ResourceFolderModel]::createParseTask
+:relfileprefix: ../
+:mrdocs:
+
+
+This creates a new parse task to be executed by onUpdateSucceeded()&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourceFolderModel.h#L207[minecraft&sol;mod&sol;ResourceFolderModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+virtual
+xref:Task.adoc[Task]*
+createParseTask(xref:Resource.adoc[Resource]&);
+----
+
+== Description
+
+This task should load and parse all heavy info needed by a resource, such as parsing a manifest&period; It gets executed
+in the background, so it slowly updates the UI as tasks get done&period;
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

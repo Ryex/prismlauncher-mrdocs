@@ -1,0 +1,19 @@
+[#IconLabel-setIcon]
+= xref:IconLabel.adoc[IconLabel]::setIcon
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/widgets/IconLabel.h#L20[ui&sol;widgets&sol;IconLabel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+setIcon(xref:QIcon.adoc[QIcon] icon);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

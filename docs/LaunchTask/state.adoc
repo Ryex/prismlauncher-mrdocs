@@ -1,0 +1,18 @@
+[#LaunchTask-state]
+= xref:LaunchTask.adoc[LaunchTask]::state
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LaunchTask.h#L123[launch&sol;LaunchTask&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:LaunchTask/State.adoc[State] state = NotStarted;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

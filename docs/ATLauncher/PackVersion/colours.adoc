@@ -1,0 +1,18 @@
+[#ATLauncher-PackVersion-colours]
+= xref:ATLauncher.adoc[ATLauncher]::xref:ATLauncher/PackVersion.adoc[PackVersion]::colours
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/atlauncher/ATLPackManifest.h#L178[modplatform&sol;atlauncher&sol;ATLPackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QMap.adoc[QMap]&lt;xref:QString.adoc[QString], xref:QString.adoc[QString]&gt; colours;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

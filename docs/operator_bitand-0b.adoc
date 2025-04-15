@@ -1,0 +1,23 @@
+[#operator_bitand-0b]
+= operator&amp;
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L111[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[maybe&lowbar;unused]
+constexpr
+xref:QFlags-09.adoc[QFlags]&lt;xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type]&gt;
+operator&amp;(
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f1,
+    xref:VisualGroup.adoc[VisualGroup]::xref:VisualGroup/HitResults.adoc[HitResults]::xref:QFlags-0f/enum_type.adoc[enum&lowbar;type] f2) noexcept;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

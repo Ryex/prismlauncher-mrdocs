@@ -1,0 +1,22 @@
+[#Component-m_cachedName]
+= xref:Component.adoc[Component]::m&lowbar;cachedName
+:relfileprefix: ../
+:mrdocs:
+
+
+cached name for display purposes, taken from the version file (meta or local override)
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/Component.h#L132[minecraft&sol;Component&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] m&lowbar;cachedName;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

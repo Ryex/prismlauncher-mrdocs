@@ -1,0 +1,152 @@
+[#LaunchProfile]
+= LaunchProfile
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/LaunchProfile.h#L42[minecraft&sol;LaunchProfile&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class LaunchProfile
+    : public xref:ProblemProvider.adoc[ProblemProvider]
+    , public xref:ProblemProvider.adoc[ProblemProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:LaunchProfile/applyAddnJvmArguments.adoc[`applyAddnJvmArguments`] 
+| 
+
+| xref:LaunchProfile/applyAgent.adoc[`applyAgent`] 
+| 
+
+| xref:LaunchProfile/applyAppletClass.adoc[`applyAppletClass`] 
+| 
+
+| xref:LaunchProfile/applyCompatibleJavaMajors.adoc[`applyCompatibleJavaMajors`] 
+| 
+
+| xref:LaunchProfile/applyCompatibleJavaName.adoc[`applyCompatibleJavaName`] 
+| 
+
+| xref:LaunchProfile/applyJarMods.adoc[`applyJarMods`] 
+| 
+
+| xref:LaunchProfile/applyLibrary.adoc[`applyLibrary`] 
+| 
+
+| xref:LaunchProfile/applyMainClass.adoc[`applyMainClass`] 
+| 
+
+| xref:LaunchProfile/applyMainJar.adoc[`applyMainJar`] 
+| 
+
+| xref:LaunchProfile/applyMavenFile.adoc[`applyMavenFile`] 
+| 
+
+| xref:LaunchProfile/applyMinecraftArguments.adoc[`applyMinecraftArguments`] 
+| 
+
+| xref:LaunchProfile/applyMinecraftAssets.adoc[`applyMinecraftAssets`] 
+| 
+
+| xref:LaunchProfile/applyMinecraftVersion.adoc[`applyMinecraftVersion`] 
+| 
+
+| xref:LaunchProfile/applyMinecraftVersionType.adoc[`applyMinecraftVersionType`] 
+| 
+
+| xref:LaunchProfile/applyMods.adoc[`applyMods`] 
+| 
+
+| xref:LaunchProfile/applyProblemSeverity.adoc[`applyProblemSeverity`] 
+| 
+
+| xref:LaunchProfile/applyTraits.adoc[`applyTraits`] 
+| 
+
+| xref:LaunchProfile/applyTweakers.adoc[`applyTweakers`] 
+| 
+
+| xref:LaunchProfile/clear.adoc[`clear`] 
+| clear the profile
+
+
+
+| xref:LaunchProfile/getAddnJvmArguments.adoc[`getAddnJvmArguments`] 
+| 
+
+| xref:LaunchProfile/getAgents.adoc[`getAgents`] 
+| 
+
+| xref:LaunchProfile/getAppletClass.adoc[`getAppletClass`] 
+| 
+
+| xref:LaunchProfile/getCompatibleJavaMajors.adoc[`getCompatibleJavaMajors`] 
+| 
+
+| xref:LaunchProfile/getCompatibleJavaName.adoc[`getCompatibleJavaName`] 
+| 
+
+| xref:LaunchProfile/getJarMods.adoc[`getJarMods`] 
+| 
+
+| xref:LaunchProfile/getLibraries.adoc[`getLibraries`] 
+| 
+
+| xref:LaunchProfile/getLibraryFiles.adoc[`getLibraryFiles`] 
+| 
+
+| xref:LaunchProfile/getMainClass.adoc[`getMainClass`] 
+| 
+
+| xref:LaunchProfile/getMainJar.adoc[`getMainJar`] 
+| 
+
+| xref:LaunchProfile/getMavenFiles.adoc[`getMavenFiles`] 
+| 
+
+| xref:LaunchProfile/getMinecraftArguments.adoc[`getMinecraftArguments`] 
+| 
+
+| xref:LaunchProfile/getMinecraftAssets.adoc[`getMinecraftAssets`] 
+| 
+
+| xref:LaunchProfile/getMinecraftVersion.adoc[`getMinecraftVersion`] 
+| 
+
+| xref:LaunchProfile/getMinecraftVersionType.adoc[`getMinecraftVersionType`] 
+| 
+
+| xref:LaunchProfile/getNativeLibraries.adoc[`getNativeLibraries`] 
+| 
+
+| xref:ProblemProvider/getProblemSeverity.adoc[`getProblemSeverity`] 
+| 
+| xref:ProblemProvider/getProblems.adoc[`getProblems`] 
+| 
+| xref:LaunchProfile/getTraits.adoc[`getTraits`] 
+| 
+
+| xref:LaunchProfile/getTweakers.adoc[`getTweakers`] 
+| 
+
+| xref:LaunchProfile/hasTrait.adoc[`hasTrait`] 
+| 
+
+| xref:LaunchProfile/2destructor.adoc[`&tilde;LaunchProfile`] [.small]#[destructor]#
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

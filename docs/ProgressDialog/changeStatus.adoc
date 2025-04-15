@@ -1,0 +1,19 @@
+[#ProgressDialog-changeStatus]
+= xref:ProgressDialog.adoc[ProgressDialog]::changeStatus
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/ProgressDialog.h#L77[ui&sol;dialogs&sol;ProgressDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+changeStatus(xref:QString.adoc[QString] const& status);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

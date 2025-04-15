@@ -1,0 +1,19 @@
+[#api-05]
+= api
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/modrinth/ModrinthCheckUpdate.cpp#L16[modplatform&sol;modrinth&sol;ModrinthCheckUpdate&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:ModrinthAPI.adoc[ModrinthAPI] api = api;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#ProfileUtils-PatchOrder]
+= xref:ProfileUtils.adoc[ProfileUtils]::PatchOrder
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/ProfileUtils.h#L41[minecraft&sol;ProfileUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+using PatchOrder = xref:QStringList.adoc[QStringList];
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#Hashing-Hasher-getPath]
+= xref:Hashing.adoc[Hashing]::xref:Hashing/Hasher.adoc[Hasher]::getPath
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/helpers/HashUtils.h#L34[modplatform&sol;helpers&sol;HashUtils&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString]
+getPath() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

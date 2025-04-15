@@ -1,0 +1,63 @@
+[#FTBImportAPP-Modpack]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::Modpack
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/import_ftb/PackHelpers.h#L29[modplatform&sol;import&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Modpack;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:FTBImportAPP/Modpack/icon.adoc[`icon`] 
+| 
+
+| xref:FTBImportAPP/Modpack/id.adoc[`id`] 
+| 
+
+| xref:FTBImportAPP/Modpack/jvmArgs.adoc[`jvmArgs`] 
+| 
+
+| xref:FTBImportAPP/Modpack/loaderType.adoc[`loaderType`] 
+| 
+
+| xref:FTBImportAPP/Modpack/loaderVersion.adoc[`loaderVersion`] 
+| 
+
+| xref:FTBImportAPP/Modpack/mcVersion.adoc[`mcVersion`] 
+| 
+
+| xref:FTBImportAPP/Modpack/name.adoc[`name`] 
+| 
+
+| xref:FTBImportAPP/Modpack/path.adoc[`path`] 
+| 
+
+| xref:FTBImportAPP/Modpack/totalPlayTime.adoc[`totalPlayTime`] 
+| 
+
+| xref:FTBImportAPP/Modpack/uuid.adoc[`uuid`] 
+| 
+
+| xref:FTBImportAPP/Modpack/version.adoc[`version`] 
+| 
+
+| xref:FTBImportAPP/Modpack/versionId.adoc[`versionId`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

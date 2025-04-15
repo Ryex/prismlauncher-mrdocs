@@ -1,0 +1,27 @@
+[#LogModel-Roles]
+= xref:LogModel.adoc[LogModel]::Roles
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/launch/LogModel.h#L31[launch&sol;LogModel&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+enum Roles;
+----
+
+== Members
+
+[,cols=2]
+|===
+|Name |Description
+|`LevelRole`
+|
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

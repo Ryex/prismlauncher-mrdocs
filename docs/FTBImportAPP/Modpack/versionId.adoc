@@ -1,0 +1,18 @@
+[#FTBImportAPP-Modpack-versionId]
+= xref:FTBImportAPP.adoc[FTBImportAPP]::xref:FTBImportAPP/Modpack.adoc[Modpack]::versionId
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/import_ftb/PackHelpers.h#L35[modplatform&sol;import&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int versionId;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

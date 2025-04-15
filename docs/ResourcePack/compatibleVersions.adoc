@@ -1,0 +1,24 @@
+[#ResourcePack-compatibleVersions]
+= xref:ResourcePack.adoc[ResourcePack]::compatibleVersions
+:relfileprefix: ../
+:mrdocs:
+
+
+Gets, respectively, the lower and upper versions supported by the set pack format&period;
+
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/mod/ResourcePack.h#L25[minecraft&sol;mod&sol;ResourcePack&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+[nodiscard]
+xref:std.adoc[std]::xref:std/pair.adoc[pair]&lt;xref:Version.adoc[Version], xref:Version.adoc[Version]&gt;
+compatibleVersions() const;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

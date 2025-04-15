@@ -1,0 +1,18 @@
+[#IconPickerDialog-selectedIconKey]
+= xref:IconPickerDialog.adoc[IconPickerDialog]::selectedIconKey
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/dialogs/IconPickerDialog.h#L33[ui&sol;dialogs&sol;IconPickerDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] selectedIconKey;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

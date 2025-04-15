@@ -1,0 +1,54 @@
+[#Flame-Manifest]
+= xref:Flame.adoc[Flame]::Manifest
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/flame/PackManifest.h#L72[modplatform&sol;flame&sol;PackManifest&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+struct Manifest;
+----
+
+== Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Flame/Manifest/author.adoc[`author`] 
+| 
+
+| xref:Flame/Manifest/files.adoc[`files`] 
+| 
+
+| xref:Flame/Manifest/is_loaded.adoc[`is&lowbar;loaded`] 
+| 
+
+| xref:Flame/Manifest/manifestType.adoc[`manifestType`] 
+| 
+
+| xref:Flame/Manifest/manifestVersion.adoc[`manifestVersion`] 
+| 
+
+| xref:Flame/Manifest/minecraft.adoc[`minecraft`] 
+| 
+
+| xref:Flame/Manifest/name.adoc[`name`] 
+| 
+
+| xref:Flame/Manifest/overrides.adoc[`overrides`] 
+| 
+
+| xref:Flame/Manifest/version.adoc[`version`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#JavaInstallList-load]
+= xref:JavaInstallList.adoc[JavaInstallList]::load
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/java/JavaInstallList.h#L51[java&sol;JavaInstallList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+void
+load();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

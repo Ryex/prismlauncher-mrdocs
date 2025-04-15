@@ -1,0 +1,18 @@
+[#VisualRow-height]
+= xref:VisualRow.adoc[VisualRow]::height
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/instanceview/VisualGroup.h#L49[ui&sol;instanceview&sol;VisualGroup&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+int height = 0;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,97 @@
+[#Meta]
+= Meta
+:relfileprefix: 
+:mrdocs:
+
+
+== Types
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/BaseEntity.adoc[`BaseEntity`] 
+| 
+
+| xref:Meta/BaseEntityLoadTask.adoc[`BaseEntityLoadTask`] 
+| 
+
+| xref:Meta/Index.adoc[`Index`] 
+| 
+
+| xref:Meta/ParseException.adoc[`ParseException`] 
+| 
+
+| xref:Meta/ParsingValidator.adoc[`ParsingValidator`] 
+| 
+
+| xref:Meta/Require.adoc[`Require`] 
+| 
+
+| xref:Meta/RequireSet.adoc[`RequireSet`] 
+| 
+
+| xref:Meta/Version.adoc[`Version`] 
+| 
+
+| xref:Meta/VersionList.adoc[`VersionList`] 
+| 
+
+|===
+== Enums
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/MetadataVersion.adoc[`MetadataVersion`] 
+| 
+
+|===
+== Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Meta/currentFormatVersion.adoc[`currentFormatVersion`] 
+| 
+
+| xref:Meta/getBetterVersion.adoc[`getBetterVersion`] 
+| 
+
+| xref:Meta/parseCommonVersion.adoc[`parseCommonVersion`] 
+| 
+
+| xref:Meta/parseFormatVersion.adoc[`parseFormatVersion`] 
+| 
+
+| xref:Meta/parseIndex.adoc[`parseIndex`] 
+| 
+
+| xref:Meta/parseIndexInternal.adoc[`parseIndexInternal`] 
+| 
+
+| xref:Meta/parseRequires.adoc[`parseRequires`] 
+| 
+
+| xref:Meta/parseVersion.adoc[`parseVersion`] 
+| 
+
+| xref:Meta/parseVersionInternal.adoc[`parseVersionInternal`] 
+| 
+
+| xref:Meta/parseVersionList.adoc[`parseVersionList`] 
+| 
+
+| xref:Meta/parseVersionListInternal.adoc[`parseVersionListInternal`] 
+| 
+
+| xref:Meta/serializeFormatVersion.adoc[`serializeFormatVersion`] 
+| 
+
+| xref:Meta/serializeRequires.adoc[`serializeRequires`] 
+| 
+
+|===
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,19 @@
+[#CenteredEditingDelegate-2destructor]
+= xref:CenteredEditingDelegate.adoc[CenteredEditingDelegate]::&tilde;CenteredEditingDelegate
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/pages/instance/ScreenshotsPage.cpp#L222[ui&sol;pages&sol;instance&sol;ScreenshotsPage&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;CenteredEditingDelegate();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

@@ -1,0 +1,18 @@
+[#LegacyFTB-Modpack-oldVersions]
+= xref:LegacyFTB.adoc[LegacyFTB]::xref:LegacyFTB/Modpack.adoc[Modpack]::oldVersions
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/modplatform/legacy_ftb/PackHelpers.h#L17[modplatform&sol;legacy&lowbar;ftb&sol;PackHelpers&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QStringList.adoc[QStringList] oldVersions;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

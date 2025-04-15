@@ -1,0 +1,20 @@
+[#Net-Download-getReply]
+= xref:Net.adoc[Net]::xref:Net/Download.adoc[Download]::getReply
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/Download.h#L61[net&sol;Download&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+xref:QNetworkReply.adoc[QNetworkReply]*
+getReply(xref:QNetworkRequest.adoc[QNetworkRequest]&) override;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

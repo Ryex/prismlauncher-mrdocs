@@ -1,0 +1,71 @@
+[#Java-InstallDialog]
+= xref:Java.adoc[Java]::InstallDialog
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/ui/java/InstallJavaDialog.h#L31[ui&sol;java&sol;InstallJavaDialog&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class InstallDialog
+    : public xref:QDialog.adoc[QDialog]
+    , xref:BasePageProvider.adoc[BasePageProvider];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Java/InstallDialog/2constructor.adoc[`InstallDialog`]         [.small]#[constructor]#
+| 
+
+| xref:Java/InstallDialog/dialogTitle.adoc[`dialogTitle`] 
+| 
+
+| xref:Java/InstallDialog/done.adoc[`done`] 
+| 
+
+| xref:Java/InstallDialog/getPages.adoc[`getPages`] 
+| 
+
+| xref:Java/InstallDialog/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:Java/InstallDialog/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:Java/InstallDialog/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:Java/InstallDialog/validate.adoc[`validate`] 
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Java/InstallDialog/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:Java/InstallDialog/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

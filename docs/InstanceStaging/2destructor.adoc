@@ -1,0 +1,19 @@
+[#InstanceStaging-2destructor]
+= xref:InstanceStaging.adoc[InstanceStaging]::&tilde;InstanceStaging
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.cpp#L888[InstanceList&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;InstanceStaging();
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

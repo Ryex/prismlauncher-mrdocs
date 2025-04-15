@@ -1,0 +1,19 @@
+[#FS-ExternalLinkFileProcess-staticMetaObject]
+= xref:FS.adoc[FS]::xref:FS/ExternalLinkFileProcess.adoc[ExternalLinkFileProcess]::staticMetaObject
+:relfileprefix: ../../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/FileSystem.h#L172[FileSystem&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+static
+xref:QMetaObject.adoc[QMetaObject] const staticMetaObject;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

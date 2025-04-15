@@ -1,0 +1,22 @@
+[#00namespace-save]
+= save
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/minecraft/gameoptions/GameOptions.cpp#L37[minecraft&sol;gameoptions&sol;GameOptions&period;cpp]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+bool
+save(
+    xref:QString.adoc[QString] const& path,
+    xref:std.adoc[std]::xref:std/vector.adoc[vector]&lt;xref:GameOptionItem.adoc[GameOptionItem]&gt;& mapping,
+    int version);
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

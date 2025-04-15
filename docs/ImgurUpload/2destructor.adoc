@@ -1,0 +1,19 @@
+[#ImgurUpload-2destructor]
+= xref:ImgurUpload.adoc[ImgurUpload]::&tilde;ImgurUpload
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/screenshots/ImgurUpload.h#L61[screenshots&sol;ImgurUpload&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+virtual
+&tilde;ImgurUpload() = default;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

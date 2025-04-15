@@ -1,0 +1,92 @@
+[#HttpMetaCache]
+= HttpMetaCache
+:relfileprefix: 
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/net/HttpMetaCache.h#L97[net&sol;HttpMetaCache&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+class HttpMetaCache
+    : public xref:QObject.adoc[QObject]
+    , public xref:QObject.adoc[QObject];
+----
+
+== Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:HttpMetaCache/2constructor.adoc[`HttpMetaCache`]         [.small]#[constructor]#
+| 
+
+| xref:HttpMetaCache/Load.adoc[`Load`] 
+| 
+
+| xref:HttpMetaCache/SaveEventually.adoc[`SaveEventually`] 
+| 
+
+| xref:HttpMetaCache/SaveNow.adoc[`SaveNow`] 
+| 
+
+| xref:HttpMetaCache/addBase.adoc[`addBase`] 
+| 
+
+| xref:HttpMetaCache/evictAll.adoc[`evictAll`] 
+| 
+
+| xref:HttpMetaCache/evictEntry.adoc[`evictEntry`] 
+| 
+
+| xref:HttpMetaCache/getBasePath.adoc[`getBasePath`] 
+| 
+
+| xref:HttpMetaCache/getEntry.adoc[`getEntry`] 
+| 
+
+| xref:HttpMetaCache/metaObject.adoc[`metaObject`] 
+| 
+
+| xref:HttpMetaCache/qt_metacall.adoc[`qt&lowbar;metacall`] 
+| 
+
+| xref:HttpMetaCache/qt_metacast.adoc[`qt&lowbar;metacast`] 
+| 
+
+| xref:HttpMetaCache/resolveEntry.adoc[`resolveEntry`] 
+| 
+
+| xref:HttpMetaCache/updateEntry.adoc[`updateEntry`] 
+| 
+
+| xref:HttpMetaCache/2destructor.adoc[`&tilde;HttpMetaCache`] [.small]#[destructor]#
+| 
+
+|===
+== Static Member Functions
+[cols=2]
+|===
+| Name | Description 
+
+| xref:HttpMetaCache/tr.adoc[`tr`] 
+| 
+
+|===
+== Static Data Members
+[cols=2]
+|===
+| Name | Description 
+
+| xref:HttpMetaCache/staticMetaObject.adoc[`staticMetaObject`] 
+| 
+
+|===
+
+
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#

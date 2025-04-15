@@ -1,0 +1,18 @@
+[#TrashHistoryItem-id]
+= xref:TrashHistoryItem.adoc[TrashHistoryItem]::id
+:relfileprefix: ../
+:mrdocs:
+
+
+== Synopsis
+
+Declared in `&lt;https://github.com/PrismLauncher/PrismLauncher/blob/develop/InstanceList.h#L60[InstanceList&period;h]&gt;`
+
+[source,cpp,subs="verbatim,replacements,macros,-callouts"]
+----
+xref:QString.adoc[QString] id;
+----
+
+
+
+[.small]#Created with https://www.mrdocs.com[MrDocs]#
